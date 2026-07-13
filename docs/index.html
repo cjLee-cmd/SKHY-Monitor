@@ -6,7 +6,7 @@
 <title>SK하이닉스 괴리율 모니터</title>
 <style>
   :root{--ink:#101418;--sub:#5c6570;--faint:#98a1ab;--line:#e3e7ec;--bg:#f7f8fa;--card:#fff;
-    --kr:#2a78d6;--us:#c98500;--up:#d03b3b;--down:#2563c9;
+    --us:#2a78d6;--kr:#d03b3b;--up:#d03b3b;--down:#2563c9;--gold:#c98500;
     --mono:"SF Mono","Roboto Mono",ui-monospace,monospace}
   *{margin:0;padding:0;box-sizing:border-box}
   body{font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR",sans-serif;background:var(--bg);
@@ -25,12 +25,18 @@
   .stat .l{font-size:11.5px;color:var(--sub);margin-bottom:4px}
   .stat .v{font-size:17px;font-weight:700;font-family:var(--mono)}
   .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:14px}
-  .panel h3{font-size:13px;font-weight:600;color:var(--sub);margin-bottom:14px}
-  .chart-box{position:relative;height:260px}
-  .range{display:flex;gap:6px;margin-bottom:12px}
+  .panel h3{font-size:13px;font-weight:600;color:var(--sub);margin-bottom:4px}
+  .panel .cap{font-size:11.5px;color:var(--faint);margin-bottom:14px;line-height:1.5}
+  .chart-box{position:relative;height:270px}
+  .range{display:flex;gap:6px;margin-bottom:14px}
   .range button{font:inherit;font-size:12px;font-weight:600;padding:5px 12px;border:1px solid var(--line);
     background:#fff;border-radius:7px;cursor:pointer;color:var(--sub)}
   .range button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .legend{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:10px;font-size:12px;color:var(--sub)}
+  .legend b{font-family:var(--mono);color:var(--ink);font-weight:700;margin-left:4px}
+  .sw{display:inline-block;width:16px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+  .sw-us{background:repeating-linear-gradient(90deg,#2a78d6 0 5px,transparent 5px 8px)}
+  .sw-kr{background:#d03b3b}
   table{width:100%;border-collapse:collapse;font-size:12.5px}
   th{text-align:left;color:var(--faint);font-weight:500;padding:6px 8px;border-bottom:1px solid var(--line)}
   td{padding:7px 8px;border-bottom:1px solid #f0f2f5;font-family:var(--mono)}
@@ -57,37 +63,57 @@
     </div>
   </div>
 
+  <div class="range" id="rangeBtns">
+    <button data-h="6">6시간</button>
+    <button data-h="24" class="on">24시간</button>
+    <button data-h="168">7일</button>
+    <button data-h="0">전체</button>
+  </div>
+
+  <div class="panel">
+    <h3>원화 환산 주가 비교</h3>
+    <div class="cap">미국 ADR을 그 시점의 환율로 원화 환산하고, 보통주 1주 기준(ADR × 환율 × 10)으로 맞춰 동일 축에 그렸습니다. 두 선의 간격이 공 프리미엄입니다.</div>
+    <div class="legend">
+      <span><i class="sw sw-us"></i>미국 ADR (원화 환산)<b id="lgUs">--</b></span>
+      <span><i class="sw sw-kr"></i>한국 본주<b id="lgKr">--</b></span>
+      <span>격차<b id="lgGap">--</b></span>
+    </div>
+    <div class="chart-box"><canvas id="priceChart" role="img" aria-label="원화 환산 미국 ADR과 한국 본주 주가 비교"></canvas></div>
+  </div>
+
   <div class="panel">
     <h3>프리미엄 추이</h3>
-    <div class="range" id="rangeBtns">
-      <button data-h="6">6시간</button>
-      <button data-h="24" class="on">24시간</button>
-      <button data-h="168">7일</button>
-      <button data-h="0">전체</button>
-    </div>
+    <div class="cap">위 두 선의 간격을 백분율로 환산한 값입니다.</div>
     <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
   </div>
 
   <div class="panel">
     <h3>최근 기록</h3>
     <table>
-      <thead><tr><th>시각(KST)</th><th>본주(원)</th><th>ADR($)</th><th>환율</th><th>패리티($)</th><th>프리미엄</th></tr></thead>
+      <thead><tr><th>시각(KST)</th><th>한국 본주(원)</th><th>미국 환산(원)</th><th>ADR($)</th><th>환율</th><th>프리미엄</th></tr></thead>
       <tbody id="logBody"></tbody>
     </table>
   </div>
 
   <p class="note">
-    GitHub Actions가 약 10분 간격으로 수집합니다(무료 러너 특성상 수 분 지연 가능).
-    프리미엄 = ADR ÷ (본주 × 0.1 ÷ 환율) − 1. 참고용이며 투자 판단의 근거로 사용하지 마세요.
+    GitHub Actions가 약 10분 간격으로 수집합니다(무료 러너 특성상 지연 가능).
+    ADR 1주 = 보통주 0.1주. 프리미엄 = ADR ÷ (본주 × 0.1 ÷ 환율) − 1.
+    한국과 미국은 거래 시간대가 달라, 한쪽 시장이 닫힌 시간에는 그쪽 선이 수평으로 고정됩니다.
+    참고용이며 투자 판단의 근거로 사용하지 마세요.
   </p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script>
 const DATA_URL = "data/history.json";
-let all = [], chart = null, rangeH = 24;
+const RATIO = 0.1;
+let all = [], premChart = null, priceChart = null, rangeH = 24;
+
 const $ = function(id){ return document.getElementById(id); };
 const pct = function(n){ return (n > 0 ? "+" : "") + n.toFixed(2) + "%"; };
+const won = function(n){ return Math.round(n).toLocaleString("ko-KR") + "원"; };
+const manwon = function(n){ return Math.round(n / 10000).toLocaleString("ko-KR") + "만"; };
+const adrKrw = function(r){ return r.adr_price * r.usdkrw / RATIO; };
 
 async function load(){
   try {
@@ -98,16 +124,26 @@ async function load(){
     return;
   }
   if (!all.length) { $("updated").textContent = "수집된 데이터 없음"; return; }
+
   const last = all[all.length - 1];
+  const lastUs = adrKrw(last);
+
   $("premium").innerHTML = pct(last.premium_pct).replace("%", "") + "<small>%</small>";
   $("premium").style.color = last.premium_pct >= 0 ? "var(--up)" : "var(--down)";
-  $("kr").textContent = Math.round(last.kr_price).toLocaleString("ko-KR") + "원";
+  $("kr").textContent = won(last.kr_price);
   $("adr").textContent = "$" + last.adr_price.toFixed(2);
   $("parity").textContent = "$" + last.parity_usd.toFixed(2);
   $("fx").textContent = last.usdkrw.toFixed(1);
   $("updated").textContent = "최근 수집: " + last.ts_kst + " KST";
+
+  $("lgUs").textContent = won(lastUs);
+  $("lgKr").textContent = won(last.kr_price);
+  $("lgGap").textContent = won(lastUs - last.kr_price);
+  $("lgGap").style.color = lastUs >= last.kr_price ? "var(--up)" : "var(--down)";
+
   renderTable();
-  renderChart();
+  renderPriceChart();
+  renderPremChart();
 }
 
 function slice(){
@@ -119,19 +155,67 @@ function slice(){
 function renderTable(){
   $("logBody").innerHTML = all.slice(-15).reverse().map(function(r){
     const color = r.premium_pct >= 0 ? "var(--up)" : "var(--down)";
-    return "<tr><td class='t'>" + r.ts_kst + "</td><td>" + Math.round(r.kr_price).toLocaleString() +
-      "</td><td>" + r.adr_price.toFixed(2) + "</td><td>" + r.usdkrw.toFixed(1) +
-      "</td><td>" + r.parity_usd.toFixed(2) + "</td><td style='color:" + color + "'>" +
-      pct(r.premium_pct) + "</td></tr>";
+    return "<tr><td class='t'>" + r.ts_kst +
+      "</td><td>" + Math.round(r.kr_price).toLocaleString("ko-KR") +
+      "</td><td>" + Math.round(adrKrw(r)).toLocaleString("ko-KR") +
+      "</td><td>" + r.adr_price.toFixed(2) +
+      "</td><td>" + r.usdkrw.toFixed(1) +
+      "</td><td style='color:" + color + "'>" + pct(r.premium_pct) + "</td></tr>";
   }).join("");
 }
 
-function renderChart(){
+function renderPriceChart(){
+  const rows = slice();
+  const labels = rows.map(function(r){ return r.ts_kst; });
+  const usData = rows.map(function(r){ return adrKrw(r); });
+  const krData = rows.map(function(r){ return r.kr_price; });
+
+  if (priceChart) {
+    priceChart.data.labels = labels;
+    priceChart.data.datasets[0].data = usData;
+    priceChart.data.datasets[1].data = krData;
+    priceChart.update();
+    return;
+  }
+
+  priceChart = new Chart($("priceChart"), {
+    type: "line",
+    data: { labels: labels, datasets: [
+      { label: "미국 ADR(원화 환산)", data: usData, borderColor: "#2a78d6",
+        backgroundColor: "rgba(42,120,214,.06)", borderWidth: 2, borderDash: [6, 3],
+        fill: false, tension: .25, pointRadius: 0, pointHoverRadius: 4 },
+      { label: "한국 본주", data: krData, borderColor: "#d03b3b",
+        backgroundColor: "rgba(208,59,59,.06)", borderWidth: 2,
+        fill: false, tension: .25, pointRadius: 0, pointHoverRadius: 4 }
+    ]},
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: function(c){ return c.dataset.label + ": " + won(c.parsed.y); } } }
+      },
+      scales: {
+        y: { grace: "8%", ticks: { callback: function(v){ return manwon(v); } }, grid: { color: "#eef1f4" } },
+        x: { grid: { display: false }, ticks: { maxTicksLimit: 8 } }
+      }
+    }
+  });
+}
+
+function renderPremChart(){
   const rows = slice();
   const labels = rows.map(function(r){ return r.ts_kst; });
   const data = rows.map(function(r){ return r.premium_pct; });
-  if (chart) { chart.data.labels = labels; chart.data.datasets[0].data = data; chart.update(); return; }
-  chart = new Chart($("chart"), {
+
+  if (premChart) {
+    premChart.data.labels = labels;
+    premChart.data.datasets[0].data = data;
+    premChart.update();
+    return;
+  }
+
+  premChart = new Chart($("chart"), {
     type: "line",
     data: { labels: labels, datasets: [{ data: data, borderColor: "#c98500",
       backgroundColor: "rgba(201,133,0,.08)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0 }] },
@@ -150,7 +234,8 @@ $("rangeBtns").addEventListener("click", function(e){
   for (let i = 0; i < btns.length; i++) btns[i].classList.remove("on");
   b.classList.add("on");
   rangeH = Number(b.dataset.h);
-  renderChart();
+  renderPriceChart();
+  renderPremChart();
 });
 
 load();
