@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SK하이닉스 괴리율 모니터</title>
+<style>
+  :root{--ink:#101418;--sub:#5c6570;--faint:#98a1ab;--line:#e3e7ec;--bg:#f7f8fa;--card:#fff;
+    --kr:#2a78d6;--us:#c98500;--up:#d03b3b;--down:#2563c9;
+    --mono:"SF Mono","Roboto Mono",ui-monospace,monospace}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR",sans-serif;background:var(--bg);
+    color:var(--ink);padding:28px 20px 48px;font-variant-numeric:tabular-nums}
+  .wrap{max-width:840px;margin:0 auto}
+  header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:18px;flex-wrap:wrap;gap:10px}
+  h1{font-size:19px;font-weight:700;letter-spacing:-.02em}
+  h1 span{color:var(--faint);font-weight:500;font-size:13px;margin-left:8px}
+  .updated{font-size:12px;color:var(--sub)}
+  .hero{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px 28px;margin-bottom:14px}
+  .hero-label{font-size:12px;color:var(--sub);letter-spacing:.06em;margin-bottom:6px}
+  .hero-num{font-size:52px;font-weight:700;letter-spacing:-.03em;font-family:var(--mono)}
+  .hero-num small{font-size:24px}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:20px}
+  .stat{background:var(--bg);border-radius:10px;padding:12px 14px}
+  .stat .l{font-size:11.5px;color:var(--sub);margin-bottom:4px}
+  .stat .v{font-size:17px;font-weight:700;font-family:var(--mono)}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:14px}
+  .panel h3{font-size:13px;font-weight:600;color:var(--sub);margin-bottom:14px}
+  .chart-box{position:relative;height:260px}
+  .range{display:flex;gap:6px;margin-bottom:12px}
+  .range button{font:inherit;font-size:12px;font-weight:600;padding:5px 12px;border:1px solid var(--line);
+    background:#fff;border-radius:7px;cursor:pointer;color:var(--sub)}
+  .range button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th{text-align:left;color:var(--faint);font-weight:500;padding:6px 8px;border-bottom:1px solid var(--line)}
+  td{padding:7px 8px;border-bottom:1px solid #f0f2f5;font-family:var(--mono)}
+  td.t{font-family:inherit;color:var(--sub)}
+  tr:last-child td{border-bottom:none}
+  .note{font-size:11.5px;color:var(--faint);margin-top:16px;line-height:1.6}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>SK하이닉스 괴리율 모니터<span>GitHub Actions 24시간 수집</span></h1>
+    <div class="updated" id="updated">불러오는 중...</div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-label">최신 ADR 프리미엄</div>
+    <div class="hero-num" id="premium">--<small>%</small></div>
+    <div class="stats">
+      <div class="stat"><div class="l">한국 본주 (000660)</div><div class="v" id="kr">--</div></div>
+      <div class="stat"><div class="l">미국 ADR (SKHY)</div><div class="v" id="adr">--</div></div>
+      <div class="stat"><div class="l">환산 패리티</div><div class="v" id="parity">--</div></div>
+      <div class="stat"><div class="l">USD/KRW</div><div class="v" id="fx">--</div></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h3>프리미엄 추이</h3>
+    <div class="range" id="rangeBtns">
+      <button data-h="6">6시간</button>
+      <button data-h="24" class="on">24시간</button>
+      <button data-h="168">7일</button>
+      <button data-h="0">전체</button>
+    </div>
+    <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
+  </div>
+
+  <div class="panel">
+    <h3>최근 기록</h3>
+    <table>
+      <thead><tr><th>시각(KST)</th><th>본주(원)</th><th>ADR($)</th><th>환율</th><th>패리티($)</th><th>프리미엄</th></tr></thead>
+      <tbody id="logBody"></tbody>
+    </table>
+  </div>
+
+  <p class="note">
+    GitHub Actions가 약 10분 간격으로 수집합니다(무료 러너 특성상 수 분 지연 가능).
+    프리미엄 = ADR ÷ (본주 × 0.1 ÷ 환율) − 1. 참고용이며 투자 판단의 근거로 사용하지 마세요.
+  </p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+const DATA_URL = "data/history.json";
+let all = [], chart = null, rangeH = 24;
+const $ = function(id){ return document.getElementById(id); };
+const pct = function(n){ return (n > 0 ? "+" : "") + n.toFixed(2) + "%"; };
+
+async function load(){
+  try {
+    const res = await fetch(DATA_URL + "?t=" + Date.now());
+    all = await res.json();
+  } catch (e) {
+    $("updated").textContent = "데이터 로드 실패";
+    return;
+  }
+  if (!all.length) { $("updated").textContent = "수집된 데이터 없음"; return; }
+  const last = all[all.length - 1];
+  $("premium").innerHTML = pct(last.premium_pct).replace("%", "") + "<small>%</small>";
+  $("premium").style.color = last.premium_pct >= 0 ? "var(--up)" : "var(--down)";
+  $("kr").textContent = Math.round(last.kr_price).toLocaleString("ko-KR") + "원";
+  $("adr").textContent = "$" + last.adr_price.toFixed(2);
+  $("parity").textContent = "$" + last.parity_usd.toFixed(2);
+  $("fx").textContent = last.usdkrw.toFixed(1);
+  $("updated").textContent = "최근 수집: " + last.ts_kst + " KST";
+  renderTable();
+  renderChart();
+}
+
+function slice(){
+  if (!rangeH) return all;
+  const cutoff = Date.now() - rangeH * 3600 * 1000;
+  return all.filter(function(r){ return new Date(r.ts).getTime() >= cutoff; });
+}
+
+function renderTable(){
+  $("logBody").innerHTML = all.slice(-15).reverse().map(function(r){
+    const color = r.premium_pct >= 0 ? "var(--up)" : "var(--down)";
+    return "<tr><td class='t'>" + r.ts_kst + "</td><td>" + Math.round(r.kr_price).toLocaleString() +
+      "</td><td>" + r.adr_price.toFixed(2) + "</td><td>" + r.usdkrw.toFixed(1) +
+      "</td><td>" + r.parity_usd.toFixed(2) + "</td><td style='color:" + color + "'>" +
+      pct(r.premium_pct) + "</td></tr>";
+  }).join("");
+}
+
+function renderChart(){
+  const rows = slice();
+  const labels = rows.map(function(r){ return r.ts_kst; });
+  const data = rows.map(function(r){ return r.premium_pct; });
+  if (chart) { chart.data.labels = labels; chart.data.datasets[0].data = data; chart.update(); return; }
+  chart = new Chart($("chart"), {
+    type: "line",
+    data: { labels: labels, datasets: [{ data: data, borderColor: "#c98500",
+      backgroundColor: "rgba(201,133,0,.08)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0 }] },
+    options: { responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false },
+        tooltip: { callbacks: { label: function(c){ return "프리미엄 " + pct(c.parsed.y); } } } },
+      scales: { y: { ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "#eef1f4" } },
+        x: { grid: { display: false }, ticks: { maxTicksLimit: 8 } } } }
+  });
+}
+
+$("rangeBtns").addEventListener("click", function(e){
+  const b = e.target.closest("button");
+  if (!b) return;
+  const btns = document.querySelectorAll(".range button");
+  for (let i = 0; i < btns.length; i++) btns[i].classList.remove("on");
+  b.classList.add("on");
+  rangeH = Number(b.dataset.h);
+  renderChart();
+});
+
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>
