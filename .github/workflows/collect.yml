@@ -1,8 +1,12 @@
 name: Collect SK Hynix prices
 
+# GitHub 무료 러너에서는 고빈도 cron(*/10)이 자주 통째로 건너뛰어진다.
+# 따라서 매시 1번만 깨우고, 작업 내부에서 10분 간격 루프를 12회 돌린다(약 2시간 분량).
+# cron이 한두 번 건너뛰어도 이전 작업이 계속 돌고 있으므로 수집 공백이 생기지 않는다.
+# 새 작업이 뜨면 cancel-in-progress로 이전 작업을 교체한다(중복 수집 방지).
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "3 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -10,29 +14,38 @@ permissions:
 
 concurrency:
   group: collect
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 130
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
 
-      - name: Fetch prices
-        run: python3 fetch_prices.py
-
-      - name: Commit snapshot
+      - name: Configure git
         run: |
           git config user.name "price-bot"
           git config user.email "actions@github.com"
-          git add docs/data/history.json
-          if git diff --cached --quiet; then
-            echo "no change"
-            exit 0
-          fi
-          git commit -m "chore: snapshot $(date -u +'%Y-%m-%d %H:%M') UTC"
-          git pull --rebase --autostash
-          git push
+
+      - name: Collect every 10 minutes
+        run: |
+          for i in $(seq 1 12); do
+            echo "===== sample $i / 12  ($(date -u +'%H:%M') UTC) ====="
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            if python3 fetch_prices.py; then
+              git add docs/data/history.json
+              if git diff --cached --quiet; then
+                echo "no change"
+              else
+                git commit -q -m "chore: snapshot $(date -u +'%Y-%m-%d %H:%M') UTC"
+                git push || echo "push failed, will retry next sample"
+              fi
+            else
+              echo "fetch failed, skipping this sample"
+            fi
+            if [ "$i" -lt 12 ]; then
+              sleep 570
+            fi
+          done
