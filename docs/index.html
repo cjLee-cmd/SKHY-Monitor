@@ -72,7 +72,7 @@
 
   <div class="panel">
     <h3>원화 환산 주가 비교</h3>
-    <div class="cap">미국 ADR을 그 시점의 환율로 원화 환산하고, 보통주 1주 기준(ADR × 환율 × 10)으로 맞춰 동일 축에 그렸습니다. 두 선의 간격이 공 프리미엄입니다.</div>
+    <div class="cap">미국 ADR을 그 시점의 환율로 원화 환산하고, 보통주 1주 기준(ADR × 환율 × 10)으로 맞춰 동일 축에 그렸습니다. 두 선의 간격이 공 프리미엄입니다. 가로축은 실제 시간(KST) 스케일입니다.</div>
     <div class="legend">
       <span><i class="sw sw-us"></i>미국 ADR (원화 환산)<b id="lgUs">--</b></span>
       <span><i class="sw sw-kr"></i>한국 본주<b id="lgKr">--</b></span>
@@ -96,17 +96,20 @@
   </div>
 
   <p class="note">
-    GitHub Actions가 약 10분 간격으로 수집합니다(무료 러너 특성상 지연 가능).
-    ADR 1주 = 보통주 0.1주. 프리미엄 = ADR ÷ (본주 × 0.1 ÷ 환율) − 1.
+    GitHub Actions가 약 10분 간격으로 수집합니다. ADR 1주 = 보통주 0.1주.
+    프리미엄 = ADR ÷ (본주 × 0.1 ÷ 환율) − 1.
     한국과 미국은 거래 시간대가 달라, 한쪽 시장이 닫힌 시간에는 그쪽 선이 수평으로 고정됩니다.
     참고용이며 투자 판단의 근거로 사용하지 마세요.
   </p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.3.1/dist/chartjs-adapter-luxon.umd.min.js"></script>
 <script>
 const DATA_URL = "data/history.json";
 const RATIO = 0.1;
+const ZONE = "Asia/Seoul";
 let all = [], premChart = null, priceChart = null, rangeH = 24;
 
 const $ = function(id){ return document.getElementById(id); };
@@ -114,6 +117,18 @@ const pct = function(n){ return (n > 0 ? "+" : "") + n.toFixed(2) + "%"; };
 const won = function(n){ return Math.round(n).toLocaleString("ko-KR") + "원"; };
 const manwon = function(n){ return Math.round(n / 10000).toLocaleString("ko-KR") + "만"; };
 const adrKrw = function(r){ return r.adr_price * r.usdkrw / RATIO; };
+const tms = function(r){ return new Date(r.ts).getTime(); };
+
+const timeScale = {
+  type: "time",
+  adapters: { date: { zone: ZONE } },
+  time: {
+    tooltipFormat: "MM-dd HH:mm",
+    displayFormats: { minute: "HH:mm", hour: "HH:mm", day: "MM-dd", week: "MM-dd" }
+  },
+  ticks: { autoSkip: true, maxTicksLimit: 8, maxRotation: 0 },
+  grid: { display: false }
+};
 
 async function load(){
   try {
@@ -149,7 +164,7 @@ async function load(){
 function slice(){
   if (!rangeH) return all;
   const cutoff = Date.now() - rangeH * 3600 * 1000;
-  return all.filter(function(r){ return new Date(r.ts).getTime() >= cutoff; });
+  return all.filter(function(r){ return tms(r) >= cutoff; });
 }
 
 function renderTable(){
@@ -166,12 +181,10 @@ function renderTable(){
 
 function renderPriceChart(){
   const rows = slice();
-  const labels = rows.map(function(r){ return r.ts_kst; });
-  const usData = rows.map(function(r){ return adrKrw(r); });
-  const krData = rows.map(function(r){ return r.kr_price; });
+  const usData = rows.map(function(r){ return { x: tms(r), y: adrKrw(r) }; });
+  const krData = rows.map(function(r){ return { x: tms(r), y: r.kr_price }; });
 
   if (priceChart) {
-    priceChart.data.labels = labels;
     priceChart.data.datasets[0].data = usData;
     priceChart.data.datasets[1].data = krData;
     priceChart.update();
@@ -180,24 +193,24 @@ function renderPriceChart(){
 
   priceChart = new Chart($("priceChart"), {
     type: "line",
-    data: { labels: labels, datasets: [
+    data: { datasets: [
       { label: "미국 ADR(원화 환산)", data: usData, borderColor: "#2a78d6",
-        backgroundColor: "rgba(42,120,214,.06)", borderWidth: 2, borderDash: [6, 3],
-        fill: false, tension: .25, pointRadius: 0, pointHoverRadius: 4 },
+        borderWidth: 2, borderDash: [6, 3], fill: false, tension: .25,
+        pointRadius: 0, pointHoverRadius: 4 },
       { label: "한국 본주", data: krData, borderColor: "#d03b3b",
-        backgroundColor: "rgba(208,59,59,.06)", borderWidth: 2,
-        fill: false, tension: .25, pointRadius: 0, pointHoverRadius: 4 }
+        borderWidth: 2, fill: false, tension: .25,
+        pointRadius: 0, pointHoverRadius: 4 }
     ]},
     options: {
-      responsive: true, maintainAspectRatio: false,
+      responsive: true, maintainAspectRatio: false, parsing: false,
       interaction: { mode: "index", intersect: false },
       plugins: {
         legend: { display: false },
         tooltip: { callbacks: { label: function(c){ return c.dataset.label + ": " + won(c.parsed.y); } } }
       },
       scales: {
-        y: { grace: "8%", ticks: { callback: function(v){ return manwon(v); } }, grid: { color: "#eef1f4" } },
-        x: { grid: { display: false }, ticks: { maxTicksLimit: 8 } }
+        x: timeScale,
+        y: { grace: "8%", ticks: { callback: function(v){ return manwon(v); } }, grid: { color: "#eef1f4" } }
       }
     }
   });
@@ -205,11 +218,9 @@ function renderPriceChart(){
 
 function renderPremChart(){
   const rows = slice();
-  const labels = rows.map(function(r){ return r.ts_kst; });
-  const data = rows.map(function(r){ return r.premium_pct; });
+  const data = rows.map(function(r){ return { x: tms(r), y: r.premium_pct }; });
 
   if (premChart) {
-    premChart.data.labels = labels;
     premChart.data.datasets[0].data = data;
     premChart.update();
     return;
@@ -217,13 +228,18 @@ function renderPremChart(){
 
   premChart = new Chart($("chart"), {
     type: "line",
-    data: { labels: labels, datasets: [{ data: data, borderColor: "#c98500",
+    data: { datasets: [{ label: "프리미엄", data: data, borderColor: "#c98500",
       backgroundColor: "rgba(201,133,0,.08)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0 }] },
-    options: { responsive: true, maintainAspectRatio: false,
+    options: {
+      responsive: true, maintainAspectRatio: false, parsing: false,
+      interaction: { mode: "index", intersect: false },
       plugins: { legend: { display: false },
         tooltip: { callbacks: { label: function(c){ return "프리미엄 " + pct(c.parsed.y); } } } },
-      scales: { y: { ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "#eef1f4" } },
-        x: { grid: { display: false }, ticks: { maxTicksLimit: 8 } } } }
+      scales: {
+        x: timeScale,
+        y: { ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "#eef1f4" } }
+      }
+    }
   });
 }
 
