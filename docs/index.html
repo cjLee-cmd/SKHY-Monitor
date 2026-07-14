@@ -595,27 +595,26 @@ const signalPlugin = {
 
     ctx.save();
 
-    // --- 진입점 배지 (신호가 발생한 바로 그 지점) ---
-    const placed = [];
+    // --- 진입점 마커 + 배지 (모든 진입점 표시, 겹치면 층을 나눔) ---
+    const visible = [];
     sigs.forEach(function(g){
       const row = all.find(function(r){ return r.ts_kst === g.time_kst; });
       if (!row) return;
       const px = x.getPixelForValue(tms(row));
-      const py = y.getPixelForValue(g.premium_pct);
       if (px < a.left - 2 || px > a.right + 2) return;
+      visible.push({ g: g, px: px, py: y.getPixelForValue(g.premium_pct) });
+    });
 
-      // 배지가 너무 붙으면 생략(최소 46px 간격)
-      let clash = false;
-      for (let i = 0; i < placed.length; i++) {
-        if (Math.abs(placed[i] - px) < 46) { clash = true; break; }
-      }
-      if (clash) return;
-      placed.push(px);
+    ctx.font = "600 10px -apple-system, sans-serif";
+    const BH = 17, LANE = 20;
+    const lanesUp = [], lanesDn = [];   // 각 레인의 마지막 점유 x끝
 
+    visible.forEach(function(v){
+      const g = v.g, px = v.px, py = v.py;
       const isBuy = g.type === "BUY";
       const col = isBuy ? "#FF3B30" : "#007AFF";
 
-      // 진입점 삼각 마커
+      // 진입점 삼각 마커 (항상 그린다)
       ctx.beginPath();
       if (isBuy) { ctx.moveTo(px, py - 7); ctx.lineTo(px - 6, py + 3); ctx.lineTo(px + 6, py + 3); }
       else       { ctx.moveTo(px, py + 7); ctx.lineTo(px - 6, py - 3); ctx.lineTo(px + 6, py - 3); }
@@ -623,22 +622,38 @@ const signalPlugin = {
       ctx.fillStyle = col; ctx.fill();
       ctx.lineWidth = 1.5; ctx.strokeStyle = "#fff"; ctx.stroke();
 
-      // 배지 (값 포함)
+      // 배지
       const label = (isBuy ? "BUY " : "SELL ") + g.premium_pct.toFixed(1) + "%";
-      ctx.font = "600 10px -apple-system, sans-serif";
       const bw = ctx.measureText(label).width + 12;
-      const bh = 17;
-      let bx = px - bw / 2;
-      bx = Math.max(a.left + 2, Math.min(a.right - bw - 2, bx));
-      let by = isBuy ? py - 29 : py + 13;
-      if (by < a.top + 1) by = py + 13;
-      if (by + bh > a.bottom - 1) by = py - 29;
+      let bx = Math.max(a.left + 2, Math.min(a.right - bw - 2, px - bw / 2));
+
+      // 겹침 없는 레인 찾기 (BUY는 위쪽, SELL은 아랫쪽 우선)
+      const lanes = isBuy ? lanesUp : lanesDn;
+      let lane = 0;
+      while (lanes[lane] !== undefined && bx < lanes[lane] + 4) lane++;
+      lanes[lane] = bx + bw;
+
+      let by = isBuy ? (py - 29 - lane * LANE) : (py + 13 + lane * LANE);
+      // 차트 밖으로 나가면 반대편으로 접기
+      if (by < a.top + 2) by = py + 13 + lane * LANE;
+      if (by + BH > a.bottom - 2) by = py - 29 - lane * LANE;
+      by = Math.max(a.top + 2, Math.min(a.bottom - BH - 2, by));
+
+      // 마커와 배지 연결선 (층이 밀렸을 때 어느 점인지 명확히)
+      if (lane > 0) {
+        ctx.strokeStyle = col; ctx.globalAlpha = 0.35; ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(px, py + (isBuy ? -8 : 8));
+        ctx.lineTo(px, isBuy ? by + BH : by);
+        ctx.stroke();
+        ctx.globalAlpha = 1;
+      }
 
       ctx.fillStyle = col;
-      ctx.beginPath(); ctx.roundRect(bx, by, bw, bh, 3); ctx.fill();
+      ctx.beginPath(); ctx.roundRect(bx, by, bw, BH, 3); ctx.fill();
       ctx.fillStyle = "#fff";
       ctx.textAlign = "center"; ctx.textBaseline = "middle";
-      ctx.fillText(label, bx + bw / 2, by + bh / 2 + 0.5);
+      ctx.fillText(label, bx + bw / 2, by + BH / 2 + 0.5);
     });
 
     // --- 우상단 현재 상태 알약 ---
