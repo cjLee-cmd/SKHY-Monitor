@@ -101,7 +101,7 @@ def us_session_kst(now):
     if now.weekday() >= 5:
         return "closed"
     hm = now.hour * 60 + now.minute
-    if 9 * 60 <= hm <= 16 * 60 + 30:
+    if 9 * 60 <= hm < 17 * 60:
         return "daytime"
     if 17 * 60 <= hm < 22 * 60 + 30:
         return "pre"
@@ -130,9 +130,13 @@ def get_adr_kis():
         except (urllib.error.URLError, urllib.error.HTTPError, KeyError, ValueError) as e:
             print("KIS {} 실패: {}".format(excd, e))
             continue
-        if price:
-            label = "daytime" if excd == "BAQ" else session
-            return price, label, "KIS/" + excd
+        if not price:
+            continue
+        if session == "daytime" and excd == "NAS":
+            print("KIS/NAS 무시: 주간거래 시간대의 정규장 종가값 (${:.2f})".format(price))
+            continue
+        label = "daytime" if excd == "BAQ" else session
+        return price, label, "KIS/" + excd
     return None
 
 

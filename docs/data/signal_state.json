@@ -84,17 +84,6 @@
    "actionable": false,
    "reason": "보유중",
    "backfilled": true
-  },
-  {
-   "type": "SELL",
-   "time_kst": "07-14 16:37",
-   "premium_pct": 18.61,
-   "kr_price": 1918000.0,
-   "adr_price": 152.35,
-   "actionable": false,
-   "reason": "장외",
-   "backfilled": true
   }
- ],
- "note": "signals는 밴드 교차 전체(소급). actionable=true면 실제 매매신호, false면 미체결. position은 실제 미보유라 flat."
+ ]
 }

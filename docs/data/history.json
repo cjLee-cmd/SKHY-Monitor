@@ -1065,7 +1065,8 @@
   "premium_pct": 28.25,
   "kr_session": "after",
   "adr_session": "daytime",
-  "adr_source": "KIS/BAQ"
+  "adr_source": "KIS/BAQ",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T07:18:09+00:00",
@@ -1077,7 +1078,8 @@
   "premium_pct": 27.9,
   "kr_session": "after",
   "adr_session": "daytime",
-  "adr_source": "KIS/BAQ"
+  "adr_source": "KIS/BAQ",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T07:27:42+00:00",
@@ -1089,43 +1091,47 @@
   "premium_pct": 27.73,
   "kr_session": "after",
   "adr_session": "daytime",
-  "adr_source": "KIS/BAQ"
+  "adr_source": "KIS/BAQ",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T07:37:15+00:00",
   "ts_kst": "07-14 16:37",
   "kr_price": 1918000.0,
-  "adr_price": 152.35,
+  "adr_price": 163.01,
   "usdkrw": 1493.2,
   "parity_usd": 128.45,
-  "premium_pct": 18.61,
+  "premium_pct": 26.91,
   "kr_session": "after",
-  "adr_session": "closed",
-  "adr_source": "KIS/NAS"
+  "adr_session": "daytime",
+  "adr_source": "KIS/BAQ(refix)",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T07:46:48+00:00",
   "ts_kst": "07-14 16:46",
   "kr_price": 1915000.0,
-  "adr_price": 152.35,
+  "adr_price": 163.2,
   "usdkrw": 1494.38,
   "parity_usd": 128.15,
-  "premium_pct": 18.89,
+  "premium_pct": 27.35,
   "kr_session": "after",
-  "adr_session": "closed",
-  "adr_source": "KIS/NAS"
+  "adr_session": "daytime",
+  "adr_source": "KIS/BAQ(refix)",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T07:56:21+00:00",
   "ts_kst": "07-14 16:56",
   "kr_price": 1918000.0,
-  "adr_price": 152.35,
+  "adr_price": 162.33,
   "usdkrw": 1493.68,
   "parity_usd": 128.41,
-  "premium_pct": 18.65,
+  "premium_pct": 26.42,
   "kr_session": "after",
-  "adr_session": "closed",
-  "adr_source": "KIS/NAS"
+  "adr_session": "daytime",
+  "adr_source": "KIS/BAQ(refix)",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T08:02:26+00:00",
@@ -1137,7 +1143,8 @@
   "premium_pct": 26.38,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T08:12:00+00:00",
@@ -1149,7 +1156,8 @@
   "premium_pct": 26.59,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T08:21:33+00:00",
@@ -1161,7 +1169,8 @@
   "premium_pct": 26.37,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T08:31:06+00:00",
@@ -1173,7 +1182,8 @@
   "premium_pct": 26.59,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T08:40:39+00:00",
@@ -1185,7 +1195,8 @@
   "premium_pct": 26.58,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T08:50:12+00:00",
@@ -1197,7 +1208,8 @@
   "premium_pct": 26.42,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T08:59:45+00:00",
@@ -1209,7 +1221,8 @@
   "premium_pct": 26.16,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T09:09:18+00:00",
@@ -1221,7 +1234,8 @@
   "premium_pct": 26.18,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T09:18:51+00:00",
@@ -1233,7 +1247,8 @@
   "premium_pct": 26.69,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T09:28:25+00:00",
@@ -1245,7 +1260,8 @@
   "premium_pct": 26.41,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T09:37:58+00:00",
@@ -1257,7 +1273,8 @@
   "premium_pct": 26.68,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T09:47:31+00:00",
@@ -1269,7 +1286,8 @@
   "premium_pct": 26.5,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T10:06:44+00:00",
@@ -1281,7 +1299,8 @@
   "premium_pct": 26.6,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T10:16:17+00:00",
@@ -1293,7 +1312,8 @@
   "premium_pct": 26.8,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T10:25:51+00:00",
@@ -1305,7 +1325,8 @@
   "premium_pct": 26.51,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T10:35:24+00:00",
@@ -1317,7 +1338,8 @@
   "premium_pct": 26.04,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T10:44:57+00:00",
@@ -1329,7 +1351,8 @@
   "premium_pct": 26.37,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T10:54:30+00:00",
@@ -1341,7 +1364,8 @@
   "premium_pct": 26.23,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T11:04:03+00:00",
@@ -1353,7 +1377,8 @@
   "premium_pct": 24.99,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T11:13:35+00:00",
@@ -1365,7 +1390,8 @@
   "premium_pct": 24.64,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T11:23:08+00:00",
@@ -1377,7 +1403,8 @@
   "premium_pct": 25.36,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T11:32:41+00:00",
@@ -1389,7 +1416,8 @@
   "premium_pct": 25.59,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T11:42:14+00:00",
@@ -1401,7 +1429,8 @@
   "premium_pct": 25.61,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T11:51:47+00:00",
@@ -1413,7 +1442,8 @@
   "premium_pct": 25.52,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T12:10:53+00:00",
@@ -1425,7 +1455,8 @@
   "premium_pct": 24.53,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T12:20:26+00:00",
@@ -1437,7 +1468,8 @@
   "premium_pct": 24.03,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T12:29:59+00:00",
@@ -1449,7 +1481,8 @@
   "premium_pct": 24.67,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T12:39:33+00:00",
@@ -1461,7 +1494,8 @@
   "premium_pct": 26.42,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T12:49:06+00:00",
@@ -1473,7 +1507,8 @@
   "premium_pct": 26.71,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T12:58:39+00:00",
@@ -1485,7 +1520,8 @@
   "premium_pct": 26.46,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
  },
  {
   "ts": "2026-07-14T13:08:12+00:00",
@@ -1497,6 +1533,20 @@
   "premium_pct": 27.49,
   "kr_session": "after",
   "adr_session": "pre",
-  "adr_source": "KIS/NAS"
+  "adr_source": "KIS/NAS",
+  "trusted": true
+ },
+ {
+  "ts": "2026-07-14T13:10:23+00:00",
+  "ts_kst": "07-14 22:10",
+  "kr_price": 1941000.0,
+  "adr_price": 166.6696,
+  "usdkrw": 1487.56,
+  "parity_usd": 130.48,
+  "premium_pct": 27.73,
+  "kr_session": "after",
+  "adr_session": "pre",
+  "adr_source": "KIS/NAS",
+  "trusted": true
  }
 ]
