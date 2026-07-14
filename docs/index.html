@@ -580,11 +580,22 @@ async function loadSignals(){
   } catch (e) { signalState = null; }
 }
 
+function premYRange(rows, bands){
+  const vs = rows.map(function(r){ return r.premium_pct; });
+  const dLo = vs.length ? Math.min.apply(null, vs) : bands.sell_at;
+  const dHi = vs.length ? Math.max.apply(null, vs) : bands.buy_at;
+  // 데이터와 밴드를 모두 포함하고, 밴드 밖으로 최소 3%p 여유를 둔다.
+  const lo = Math.min(dLo, bands.sell_at) - 3;
+  const hi = Math.max(dHi, bands.buy_at) + 3;
+  return { min: Math.floor(lo), max: Math.ceil(hi) };
+}
+
 function renderPremChart(){
   const rows = slice();
   const data = rows.map(function(r){ return { x: tms(r), y: r.premium_pct }; });
 
   const bands = (signalState && signalState.bands) || { buy_at: 30, sell_at: 24 };
+  const yr = premYRange(rows, bands);
   const xs = rows.length ? [tms(rows[0]), tms(rows[rows.length-1])] : [Date.now()-3600000, Date.now()];
   const buyLine  = xs.map(function(x){ return { x: x, y: bands.buy_at }; });
   const sellLine = xs.map(function(x){ return { x: x, y: bands.sell_at }; });
@@ -606,6 +617,8 @@ function renderPremChart(){
     premChart.data.datasets[2].data = sellLine;
     premChart.data.datasets[3].data = buyPts;
     premChart.data.datasets[4].data = sellPts;
+    premChart.options.scales.y.min = yr.min;
+    premChart.options.scales.y.max = yr.max;
     premChart.update();
     return;
   }
@@ -637,7 +650,7 @@ function renderPremChart(){
         } } } },
       scales: {
         x: timeScale,
-        y: { grace: "12%", ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "rgba(60,60,67,0.08)" } }
+        y: { min: yr.min, max: yr.max, ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "rgba(60,60,67,0.08)" } }
       }
     }
   });
