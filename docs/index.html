@@ -809,12 +809,25 @@ function renderPremChart(){
       responsive: true, maintainAspectRatio: false, parsing: false,
       interaction: { mode: "index", intersect: false },
       plugins: { legend: { display: false },
-        tooltip: { callbacks: { label: function(c){
-          const dl = c.dataset.label || "";
-          if (dl.indexOf("밴드") >= 0) return dl + " " + c.parsed.y.toFixed(0) + "%";
-          if (dl.indexOf("신호") >= 0) return dl + " @ " + pct(c.parsed.y);
-          return "프리미엄 " + pct(c.parsed.y);
-        } } } },
+        tooltip: {
+          filter: function(c){ return c.datasetIndex === 0; },   // 프리미엄 선만
+          callbacks: {
+            label: function(c){ return "프리미엄 " + pct(c.parsed.y); },
+            afterBody: function(items){
+              if (!items.length || !signalState) return "";
+              const i = items[0].dataIndex;
+              const rows = slice();
+              const row = rows[i];
+              if (!row) return "";
+              const g = (signalState.signals || []).find(function(x){ return x.time_kst === row.ts_kst; });
+              if (!g) return "";
+              const acted = g.actionable !== false;
+              const kind = g.type === "BUY" ? "매수 구간 진입" : "청산 구간 진입";
+              if (acted) return "▶ " + kind + " — 실제 " + (g.type === "BUY" ? "매수" : "청산") + " 신호";
+              return "▶ " + kind + " — 미체결 (" + (g.reason || "") + ")";
+            }
+          }
+        } },
       scales: {
         x: timeScale,
         y: { min: yr.min, max: yr.max, ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "rgba(60,60,67,0.08)" } }
