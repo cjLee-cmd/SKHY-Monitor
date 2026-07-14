@@ -796,8 +796,6 @@ function renderPremChart(){
     premChart.data.datasets[0].data = data;
     premChart.data.datasets[1].data = buyLine;
     premChart.data.datasets[2].data = sellLine;
-    premChart.data.datasets[3].data = buyPts;
-    premChart.data.datasets[4].data = sellPts;
     premChart.options.scales.y.min = yr.min;
     premChart.options.scales.y.max = yr.max;
     premChart.update();
@@ -813,11 +811,7 @@ function renderPremChart(){
       { label: "매수 밴드", data: buyLine, borderColor: "rgba(255,59,48,.65)",
         borderWidth: 1.5, borderDash: [5,4], fill: false, pointRadius: 0, tension: 0, order: 4 },
       { label: "청산 밴드", data: sellLine, borderColor: "rgba(0,122,255,.65)",
-        borderWidth: 1.5, borderDash: [5,4], fill: false, pointRadius: 0, tension: 0, order: 4 },
-      { label: "매수 신호", data: buyPts, showLine: false, pointStyle: "triangle",
-        pointRadius: 0, pointHoverRadius: 9, backgroundColor: "#FF3B30", borderColor: "#fff", borderWidth: 1.5, order: 1 },
-      { label: "청산 신호", data: sellPts, showLine: false, pointStyle: "triangle", rotation: 180,
-        pointRadius: 0, pointHoverRadius: 9, backgroundColor: "#007AFF", borderColor: "#fff", borderWidth: 1.5, order: 1 }
+        borderWidth: 1.5, borderDash: [5,4], fill: false, pointRadius: 0, tension: 0, order: 4 }
     ] },
     options: {
       responsive: true, maintainAspectRatio: false, parsing: false,
