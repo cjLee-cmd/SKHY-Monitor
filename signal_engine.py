@@ -45,6 +45,37 @@ def save_state(st):
         json.dump(st, f, ensure_ascii=False, indent=1)
 
 
+def ntfy_send(title, text, is_buy):
+    """macOS/iOS 네이티브 푸시 (ntfy.sh). 토픽명은 비밀이므로 환경변수로만 읽는다.
+
+    실패해도 예외를 전파하지 않는다(수집 파이프라인 중단 방지).
+    """
+    topic = os.environ.get("NTFY_TOPIC")
+    if not topic:
+        print("ntfy: NTFY_TOPIC 없음, 발송 생략")
+        return False
+    server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+    try:
+        req = urllib.request.Request(
+            "{}/{}".format(server, topic),
+            data=text.encode("utf-8"),
+            headers={
+                "Title": title,
+                "Priority": "high",          # iOS 잠금화면 돌파
+                "Tags": "chart_with_upwards_trend" if is_buy else "chart_with_downwards_trend",
+                "Click": "https://cjlee-cmd.github.io/SKHY-Monitor/",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=15) as r:
+            res = json.load(r)
+        print("ntfy 발송: 성공 (id={})".format(res.get("id")))
+        return True
+    except Exception as e:
+        print("ntfy 발송 실패(무시하고 계속):", e)
+        return False
+
+
 def kakao_send(text):
     """카카오 '나에게 보내기'. 실패해도 예외를 전파하지 않는다."""
     rest_key = os.environ.get("KAKAO_REST_KEY")
@@ -160,6 +191,26 @@ def main():
             emoji, label, prem, last["ts_kst"],
             last["kr_price"], last["adr_price"], BUY_AT, SELL_AT)
         kakao_send(msg)
+
+        # macOS/iOS 네이티브 푸시
+        is_buy = fired == "BUY"
+        ntfy_title = "SKHY 매수 신호" if is_buy else "SKHY 청산 신호"
+        ntfy_body = (
+            "프리미엄 {:.2f}%  (밴드 {:.0f}% {})
+"
+            "한국 {:,.0f}원  /  ADR ${:.2f}
+"
+            "{} KST
+"
+            "※ 검증 중인 가설입니다. 투자 판단은 본인 책임."
+        ).format(
+            prem,
+            BUY_AT if is_buy else SELL_AT,
+            "돌파" if is_buy else "복귀",
+            last["kr_price"], last["adr_price"], last["ts_kst"],
+        )
+        ntfy_send(ntfy_title, ntfy_body, is_buy)
+
         print("SIGNAL {}: 프리미엄 {:.2f}% @ {}".format(fired, prem, last["ts_kst"]))
 
 
