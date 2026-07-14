@@ -20,8 +20,12 @@ HIST = os.path.join(BASE, "docs", "data", "history.json")
 STATE = os.path.join(BASE, "docs", "data", "signal_state.json")
 KST = timezone(timedelta(hours=9))
 
-BUY_AT = 30.0    # 매수 밴드(프리미엄 상단 돌파)
-SELL_AT = 24.0   # 청산 밴드(하단 복귀)
+from bands import current_bands
+_B = current_bands()
+BUY_AT = _B["buy_at"]
+SELL_AT = _B["sell_at"]
+BAND_PROVISIONAL = _B["provisional"]
+BAND_REASON = _B["reason"]
 MAX_LOG = 200
 
 
@@ -43,37 +47,6 @@ def save_state(st):
     st["signals"] = st.get("signals", [])[-MAX_LOG:]
     with open(STATE, "w", encoding="utf-8") as f:
         json.dump(st, f, ensure_ascii=False, indent=1)
-
-
-def ntfy_send(title, text, is_buy):
-    """macOS/iOS 네이티브 푸시 (ntfy.sh). 토픽명은 비밀이므로 환경변수로만 읽는다.
-
-    실패해도 예외를 전파하지 않는다(수집 파이프라인 중단 방지).
-    """
-    topic = os.environ.get("NTFY_TOPIC")
-    if not topic:
-        print("ntfy: NTFY_TOPIC 없음, 발송 생략")
-        return False
-    server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
-    try:
-        req = urllib.request.Request(
-            "{}/{}".format(server, topic),
-            data=text.encode("utf-8"),
-            headers={
-                "Title": title,
-                "Priority": "high",          # iOS 잠금화면 돌파
-                "Tags": "chart_with_upwards_trend" if is_buy else "chart_with_downwards_trend",
-                "Click": "https://cjlee-cmd.github.io/SKHY-Monitor/",
-            },
-            method="POST",
-        )
-        with urllib.request.urlopen(req, timeout=15) as r:
-            res = json.load(r)
-        print("ntfy 발송: 성공 (id={})".format(res.get("id")))
-        return True
-    except Exception as e:
-        print("ntfy 발송 실패(무시하고 계속):", e)
-        return False
 
 
 def kakao_send(text):
@@ -127,60 +100,28 @@ def main():
     st = load_state()
     pos = st.get("position", "flat")
 
-    if last.get("trusted") is False:
-        print("signal: 불신뢰 데이터, 스킵")
+    if not in_kr_session(t) or last.get("trusted") is False:
+        print("signal: 장외/불신뢰 구간, 판정 스킵 (현재 {} / 포지션 {})".format(prem, pos))
         return
 
-    # 직전 프리미엄로 밴드 교차 감지 (밖 -> 안으로 진입한 순간만)
-    prev = None
-    for r in reversed(hist[:-1]):
-        if r.get("trusted") is not False:
-            prev = r["premium_pct"]
-            break
-
-    crossed = None
-    if prev is not None:
-        if prev < BUY_AT and prem >= BUY_AT:
-            crossed = "BUY"
-        elif prev > SELL_AT and prem <= SELL_AT:
-            crossed = "SELL"
-
-    if not crossed:
-        save_state(st)
-        print("signal: 교차 없음 (프리미엄 {:.2f}% / 포지션 {})".format(prem, pos))
-        return
-
-    kr_open = in_kr_session(t)
     fired = None
-    if kr_open:
-        if crossed == "BUY" and pos == "flat":
-            fired = "BUY"
-            st["position"] = "holding"
-        elif crossed == "SELL" and pos == "holding":
-            fired = "SELL"
-            st["position"] = "flat"
+    if pos == "flat" and prem >= BUY_AT:
+        fired = "BUY"
+        st["position"] = "holding"
+    elif pos == "holding" and prem <= SELL_AT:
+        fired = "SELL"
+        st["position"] = "flat"
 
-    # 교차는 언제나 기록(차트 표시용). 카카오 알림은 실제 매매신호일 때만.
-    reason = "" if fired else (
-        "장외" if not kr_open else
-        ("보유중" if crossed == "BUY" else "미보유"))
-    sig = {
-        "type": crossed,
-        "time_kst": last["ts_kst"],
-        "premium_pct": prem,
-        "kr_price": last["kr_price"],
-        "adr_price": last["adr_price"],
-        "actionable": bool(fired),
-        "reason": reason,
-    }
-    st.setdefault("signals", []).append(sig)
-    save_state(st)
-
-    if not fired:
-        print("signal: 교차 기록만 ({} {:.2f}% / {})".format(crossed, prem, reason))
-        return
-
-    if True:
+    if fired:
+        sig = {
+            "type": fired,
+            "time_kst": last["ts_kst"],
+            "premium_pct": prem,
+            "kr_price": last["kr_price"],
+            "adr_price": last["adr_price"],
+        }
+        st.setdefault("signals", []).append(sig)
+        save_state(st)
         emoji = "\U0001F4C8" if fired == "BUY" else "\U0001F4C9"
         label = "매수 신호" if fired == "BUY" else "청산 신호"
         msg = ("{} [SKHY 괴리율] {}\n"
@@ -191,28 +132,11 @@ def main():
             emoji, label, prem, last["ts_kst"],
             last["kr_price"], last["adr_price"], BUY_AT, SELL_AT)
         kakao_send(msg)
-
-        # macOS/iOS 네이티브 푸시
-        is_buy = fired == "BUY"
-        ntfy_title = "SKHY 매수 신호" if is_buy else "SKHY 청산 신호"
-        ntfy_body = (
-            "프리미엄 {:.2f}%  (밴드 {:.0f}% {})
-"
-            "한국 {:,.0f}원  /  ADR ${:.2f}
-"
-            "{} KST
-"
-            "※ 검증 중인 가설입니다. 투자 판단은 본인 책임."
-        ).format(
-            prem,
-            BUY_AT if is_buy else SELL_AT,
-            "돌파" if is_buy else "복귀",
-            last["kr_price"], last["adr_price"], last["ts_kst"],
-        )
-        ntfy_send(ntfy_title, ntfy_body, is_buy)
-
         print("SIGNAL {}: 프리미엄 {:.2f}% @ {}".format(fired, prem, last["ts_kst"]))
-
+    else:
+        save_state(st)
+        print("signal: 유지 (프리미엄 {:.2f}% / 포지션 {} / 밴드 {}-{})".format(
+            prem, st["position"], SELL_AT, BUY_AT))
 
 
 if __name__ == "__main__":
