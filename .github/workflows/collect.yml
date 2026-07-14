@@ -32,6 +32,8 @@ jobs:
         env:
           KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
           KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
         run: |
           for i in $(seq 1 12); do
             echo "===== sample $i / 12  ($(date -u +'%H:%M') UTC) ====="
@@ -39,7 +41,8 @@ jobs:
             git reset -q --hard origin/main
             if python3 fetch_prices.py; then
               python3 analyze.py || echo "analyze failed"
-              git add docs/data/history.json docs/data/analysis_log.json
+              python3 signal_engine.py || echo "signal failed"
+              git add docs/data/history.json docs/data/analysis_log.json docs/data/signal_state.json
               if git diff --cached --quiet; then
                 echo "no change"
               else

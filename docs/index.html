@@ -228,7 +228,7 @@ h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-lef
 
     <div class="panel">
       <h3>프리미엄 추이</h3>
-      <div class="cap">위 두 선의 간격을 백분율로 환산한 값입니다. x축은 실제 시각(KST) 기준입니다.</div>
+      <div class="cap">위 두 선의 간격을 백분율로 환산한 값입니다. 빨간 점선 = 매수 밴드(30%), 파란 점선 = 청산 밴드(24%). ▲매수 ▼청산 신호 발생 지점 표시. <b>검증 중인 가설(규칙 v1)</b>입니다.</div>
       <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
     </div>
   </div>
@@ -462,6 +462,7 @@ async function load(){
   $("lgGap").textContent = won(lastUs - last.kr_price);
   $("lgGap").style.color = lastUs >= last.kr_price ? "var(--up)" : "var(--down)";
 
+  await loadSignals();
   renderFairValue();
   renderTable();
   renderPriceChart();
@@ -524,25 +525,68 @@ function renderPriceChart(){
   });
 }
 
+let signalState = null;
+async function loadSignals(){
+  try {
+    const res = await fetch("data/signal_state.json?t=" + Date.now());
+    signalState = await res.json();
+  } catch (e) { signalState = null; }
+}
+
 function renderPremChart(){
   const rows = slice();
   const data = rows.map(function(r){ return { x: tms(r), y: r.premium_pct }; });
 
+  const bands = (signalState && signalState.bands) || { buy_at: 30, sell_at: 24 };
+  const xs = rows.length ? [tms(rows[0]), tms(rows[rows.length-1])] : [Date.now()-3600000, Date.now()];
+  const buyLine  = xs.map(function(x){ return { x: x, y: bands.buy_at }; });
+  const sellLine = xs.map(function(x){ return { x: x, y: bands.sell_at }; });
+
+  const sigs = (signalState && signalState.signals) || [];
+  const t0 = rows.length ? tms(rows[0]) : 0;
+  const buyPts = [], sellPts = [];
+  sigs.forEach(function(g){
+    const found = all.find(function(r){ return r.ts_kst === g.time_kst; });
+    if (!found) return;
+    const x = tms(found);
+    if (x < t0) return;
+    (g.type === "BUY" ? buyPts : sellPts).push({ x: x, y: g.premium_pct });
+  });
+
   if (premChart) {
     premChart.data.datasets[0].data = data;
+    premChart.data.datasets[1].data = buyLine;
+    premChart.data.datasets[2].data = sellLine;
+    premChart.data.datasets[3].data = buyPts;
+    premChart.data.datasets[4].data = sellPts;
     premChart.update();
     return;
   }
 
   premChart = new Chart($("chart"), {
     type: "line",
-    data: { datasets: [{ label: "프리미엄", data: data, borderColor: "#FF9500",
-      backgroundColor: "rgba(255,149,0,.10)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0 }] },
+    data: { datasets: [
+      { label: "프리미엄", data: data, borderColor: "#FF9500",
+        backgroundColor: "rgba(255,149,0,.10)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0, order: 3 },
+      { label: "매수 밴드", data: buyLine, borderColor: "rgba(255,59,48,.65)",
+        borderWidth: 1.5, borderDash: [5,4], fill: false, pointRadius: 0, tension: 0, order: 4 },
+      { label: "청산 밴드", data: sellLine, borderColor: "rgba(0,122,255,.65)",
+        borderWidth: 1.5, borderDash: [5,4], fill: false, pointRadius: 0, tension: 0, order: 4 },
+      { label: "매수 신호", data: buyPts, showLine: false, pointStyle: "triangle",
+        pointRadius: 8, pointHoverRadius: 10, backgroundColor: "#FF3B30", borderColor: "#fff", borderWidth: 1.5, order: 1 },
+      { label: "청산 신호", data: sellPts, showLine: false, pointStyle: "triangle", rotation: 180,
+        pointRadius: 8, pointHoverRadius: 10, backgroundColor: "#007AFF", borderColor: "#fff", borderWidth: 1.5, order: 1 }
+    ] },
     options: {
       responsive: true, maintainAspectRatio: false, parsing: false,
       interaction: { mode: "index", intersect: false },
       plugins: { legend: { display: false },
-        tooltip: { callbacks: { label: function(c){ return "프리미엄 " + pct(c.parsed.y); } } } },
+        tooltip: { callbacks: { label: function(c){
+          const dl = c.dataset.label || "";
+          if (dl.indexOf("밴드") >= 0) return dl + " " + c.parsed.y.toFixed(0) + "%";
+          if (dl.indexOf("신호") >= 0) return dl + " @ " + pct(c.parsed.y);
+          return "프리미엄 " + pct(c.parsed.y);
+        } } } },
       scales: {
         x: timeScale,
         y: { ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "rgba(60,60,67,0.08)" } }
