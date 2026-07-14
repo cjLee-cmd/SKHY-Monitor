@@ -33,42 +33,63 @@ def main():
     pos = "flat"
     signals = []
     considered = 0
+    prev = None
 
     for r in hist:
         if r.get("trusted") is False:
             continue
         t = datetime.fromisoformat(r["ts"]).astimezone(KST)
-        if not in_kr_session(t):
-            continue
-        considered += 1
         p = r["premium_pct"]
 
-        fired = None
-        if pos == "flat" and p >= BUY_AT:
-            fired, pos = "BUY", "holding"
-        elif pos == "holding" and p <= SELL_AT:
-            fired, pos = "SELL", "flat"
+        # 밴드 교차 감지 (밖 -> 안으로 진입한 순간). 세션 무관하게 전부 기록.
+        crossed = None
+        if prev is not None:
+            if prev < BUY_AT and p >= BUY_AT:
+                crossed = "BUY"
+            elif prev > SELL_AT and p <= SELL_AT:
+                crossed = "SELL"
+        prev = p
 
-        if fired:
-            signals.append({
-                "type": fired,
-                "time_kst": r["ts_kst"],
-                "premium_pct": p,
-                "kr_price": r["kr_price"],
-                "adr_price": r["adr_price"],
-                "backfilled": True,
-            })
+        if not crossed:
+            continue
 
-    print("한국장 신뢰 데이터 {}건 검토 → 신호 {}건".format(considered, len(signals)))
+        kr_open = in_kr_session(t)
+        if kr_open:
+            considered += 1
+
+        # 실제 매매신호 조건: 한국 정규장 + 상태기계 통과
+        actionable = False
+        if kr_open:
+            if crossed == "BUY" and pos == "flat":
+                pos, actionable = "holding", True
+            elif crossed == "SELL" and pos == "holding":
+                pos, actionable = "flat", True
+
+        signals.append({
+            "type": crossed,
+            "time_kst": r["ts_kst"],
+            "premium_pct": p,
+            "kr_price": r["kr_price"],
+            "adr_price": r["adr_price"],
+            "actionable": actionable,
+            "reason": ("" if actionable else
+                       ("장외" if not kr_open else
+                        ("보유중" if crossed == "BUY" else "미보유"))),
+            "backfilled": True,
+        })
+
+    print("밴드 교차 {}회 (● 실제매매 {}건 / ○ 미체결 {}건)".format(len(signals), sum(1 for x in signals if x["actionable"]), sum(1 for x in signals if not x["actionable"])))
     print("밴드: 매수 >= {:.0f}% / 청산 <= {:.0f}%\n".format(BUY_AT, SELL_AT))
 
     entry = None
     total = 0.0
     for s in signals:
-        tag = "진입" if s["type"] == "BUY" else "청산"
-        line = "  {:4s} {} | 프리미엄 {:5.2f}% | 한국 {:>10,.0f}원".format(
-            s["type"], s["time_kst"], s["premium_pct"], s["kr_price"])
-        if s["type"] == "BUY":
+        mark = "●" if s["actionable"] else "○"
+        line = "  {} {:4s} {} | {:5.2f}% | {:>10,.0f}원".format(
+            mark, s["type"], s["time_kst"], s["premium_pct"], s["kr_price"])
+        if not s["actionable"]:
+            line += "  ({})".format(s["reason"])
+        elif s["type"] == "BUY":
             entry = s
         elif entry:
             pnl = (s["kr_price"] / entry["kr_price"] - 1) * 100

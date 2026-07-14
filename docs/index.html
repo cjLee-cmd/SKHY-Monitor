@@ -230,12 +230,13 @@ h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-lef
 
     <div class="panel">
       <h3>프리미엄 추이 <span id="zoneBadge" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span></h3>
-      <div class="cap">배경색이 매매 구간입니다. 신호가 발생한 <b>진입점</b>에 BUY/SELL 배지가 찍힐니다. 우상단 알약은 현재 상태입니다. <b>검증 중인 가설(규칙 v1)</b>이므로 투자 근거로 쓰지 마세요.</div>
+      <div class="cap">밴드를 넘은 <b>모든 진입점</b>에 삼각형이 찍힙니다. 실제 매매신호는 <b>컬러 삼각+배지</b>, 교차했으나 체결되지 않은 지점(이미 보유중·미보유·장외)은 <b>회색 삼각</b>입니다. <b>검증 중인 가설(규칙 v1)</b>이므로 투자 근거로 쓰지 마세요.</div>
       <div class="legend" style="margin-bottom:10px">
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(255,59,48,.16);border:1px solid rgba(255,59,48,.45)"></i>매수 구간<b id="lgBuy">≥--%</b></span>
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(120,120,128,.10);border:1px solid rgba(120,120,128,.3)"></i>중립</span>
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(0,122,255,.14);border:1px solid rgba(0,122,255,.45)"></i>청산 구간<b id="lgSell">≤--%</b></span>
-        <span style="margin-left:auto;color:var(--label-tertiary)">세로 음영 = 정규장 시간대(한국·미국)</span>
+        <span><i class="sw" style="height:0;width:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:8px solid #9aa0a6;border-radius:0;background:none"></i>밴드 교차(미체결)</span>
+        <span style="margin-left:auto;color:var(--label-tertiary)">세로 음영 = 정규장 시간대</span>
       </div>
       <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
     </div>
@@ -607,39 +608,50 @@ const signalPlugin = {
 
     ctx.font = "600 10px -apple-system, sans-serif";
     const BH = 17, LANE = 20;
-    const lanesUp = [], lanesDn = [];   // 각 레인의 마지막 점유 x끝
+    const lanesUp = [], lanesDn = [];
 
-    visible.forEach(function(v){
+    // 미체결 교차(회색 삼각)을 먼저 그려 실제 매매신호가 위에 오도록 한다.
+    const ordered = visible.slice().sort(function(p, q){
+      const pa = p.g.actionable === false ? 0 : 1;
+      const qa = q.g.actionable === false ? 0 : 1;
+      return pa - qa;
+    });
+
+    ordered.forEach(function(v){
       const g = v.g, px = v.px, py = v.py;
       const isBuy = g.type === "BUY";
-      const col = isBuy ? "#FF3B30" : "#007AFF";
+      const acted = g.actionable !== false;   // 구버전 데이터는 actionable 없음 -> 실제매매로 간주
+      const col = acted ? (isBuy ? "#FF3B30" : "#007AFF") : "#9aa0a6";
 
-      // 진입점 삼각 마커 (항상 그린다)
+      // 진입점 삼각 마커 (모든 교차에 항상 그린다)
+      const sz = acted ? 7 : 5.5;
       ctx.beginPath();
-      if (isBuy) { ctx.moveTo(px, py - 7); ctx.lineTo(px - 6, py + 3); ctx.lineTo(px + 6, py + 3); }
-      else       { ctx.moveTo(px, py + 7); ctx.lineTo(px - 6, py - 3); ctx.lineTo(px + 6, py - 3); }
+      if (isBuy) { ctx.moveTo(px, py - sz); ctx.lineTo(px - sz + 1, py + sz - 4); ctx.lineTo(px + sz - 1, py + sz - 4); }
+      else       { ctx.moveTo(px, py + sz); ctx.lineTo(px - sz + 1, py - sz + 4); ctx.lineTo(px + sz - 1, py - sz + 4); }
       ctx.closePath();
-      ctx.fillStyle = col; ctx.fill();
+      ctx.fillStyle = col;
+      ctx.globalAlpha = acted ? 1 : 0.75;
+      ctx.fill();
       ctx.lineWidth = 1.5; ctx.strokeStyle = "#fff"; ctx.stroke();
+      ctx.globalAlpha = 1;
 
-      // 배지
+      // 배지는 실제 매매신호에만 붙인다 (회색 삼각은 삼각만)
+      if (!acted) return;
+
       const label = (isBuy ? "BUY " : "SELL ") + g.premium_pct.toFixed(1) + "%";
       const bw = ctx.measureText(label).width + 12;
       let bx = Math.max(a.left + 2, Math.min(a.right - bw - 2, px - bw / 2));
 
-      // 겹침 없는 레인 찾기 (BUY는 위쪽, SELL은 아랫쪽 우선)
       const lanes = isBuy ? lanesUp : lanesDn;
       let lane = 0;
       while (lanes[lane] !== undefined && bx < lanes[lane] + 4) lane++;
       lanes[lane] = bx + bw;
 
       let by = isBuy ? (py - 29 - lane * LANE) : (py + 13 + lane * LANE);
-      // 차트 밖으로 나가면 반대편으로 접기
       if (by < a.top + 2) by = py + 13 + lane * LANE;
       if (by + BH > a.bottom - 2) by = py - 29 - lane * LANE;
       by = Math.max(a.top + 2, Math.min(a.bottom - BH - 2, by));
 
-      // 마커와 배지 연결선 (층이 밀렸을 때 어느 점인지 명확히)
       if (lane > 0) {
         ctx.strokeStyle = col; ctx.globalAlpha = 0.35; ctx.lineWidth = 1;
         ctx.beginPath();

@@ -6,11 +6,43 @@
  },
  "signals": [
   {
+   "type": "SELL",
+   "time_kst": "07-14 00:56",
+   "premium_pct": 23.57,
+   "kr_price": 1845000.0,
+   "adr_price": 152.83,
+   "actionable": false,
+   "reason": "장외",
+   "backfilled": true
+  },
+  {
+   "type": "SELL",
+   "time_kst": "07-14 04:31",
+   "premium_pct": 23.8,
+   "kr_price": 1845000.0,
+   "adr_price": 152.61,
+   "actionable": false,
+   "reason": "장외",
+   "backfilled": true
+  },
+  {
+   "type": "SELL",
+   "time_kst": "07-14 05:09",
+   "premium_pct": 23.66,
+   "kr_price": 1845000.0,
+   "adr_price": 152.35,
+   "actionable": false,
+   "reason": "장외",
+   "backfilled": true
+  },
+  {
    "type": "BUY",
    "time_kst": "07-14 10:00",
    "premium_pct": 30.52,
    "kr_price": 1837000.0,
    "adr_price": 160.24,
+   "actionable": true,
+   "reason": "",
    "backfilled": true
   },
   {
@@ -19,6 +51,18 @@
    "premium_pct": 23.52,
    "kr_price": 1912000.0,
    "adr_price": 158.28,
+   "actionable": true,
+   "reason": "",
+   "backfilled": true
+  },
+  {
+   "type": "SELL",
+   "time_kst": "07-14 11:06",
+   "premium_pct": 22.86,
+   "kr_price": 1877000.0,
+   "adr_price": 154.39,
+   "actionable": false,
+   "reason": "미보유",
    "backfilled": true
   },
   {
@@ -27,8 +71,30 @@
    "premium_pct": 30.03,
    "kr_price": 1766000.0,
    "adr_price": 153.93,
+   "actionable": true,
+   "reason": "",
+   "backfilled": true
+  },
+  {
+   "type": "BUY",
+   "time_kst": "07-14 12:31",
+   "premium_pct": 32.38,
+   "kr_price": 1713000.0,
+   "adr_price": 152.43,
+   "actionable": false,
+   "reason": "보유중",
+   "backfilled": true
+  },
+  {
+   "type": "SELL",
+   "time_kst": "07-14 16:37",
+   "premium_pct": 18.61,
+   "kr_price": 1918000.0,
+   "adr_price": 152.35,
+   "actionable": false,
+   "reason": "장외",
    "backfilled": true
   }
  ],
- "note": "signals는 과거 소급 기록(backfilled). position은 실제 미보유라 flat으로 리셋."
+ "note": "signals는 밴드 교차 전체(소급). actionable=true면 실제 매매신호, false면 미체결. position은 실제 미보유라 flat."
 }

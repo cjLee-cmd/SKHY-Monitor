@@ -96,28 +96,60 @@ def main():
     st = load_state()
     pos = st.get("position", "flat")
 
-    if not in_kr_session(t) or last.get("trusted") is False:
-        print("signal: 장외/불신뢰 구간, 판정 스킵 (현재 {} / 포지션 {})".format(prem, pos))
+    if last.get("trusted") is False:
+        print("signal: 불신뢰 데이터, 스킵")
         return
 
-    fired = None
-    if pos == "flat" and prem >= BUY_AT:
-        fired = "BUY"
-        st["position"] = "holding"
-    elif pos == "holding" and prem <= SELL_AT:
-        fired = "SELL"
-        st["position"] = "flat"
+    # 직전 프리미엄로 밴드 교차 감지 (밖 -> 안으로 진입한 순간만)
+    prev = None
+    for r in reversed(hist[:-1]):
+        if r.get("trusted") is not False:
+            prev = r["premium_pct"]
+            break
 
-    if fired:
-        sig = {
-            "type": fired,
-            "time_kst": last["ts_kst"],
-            "premium_pct": prem,
-            "kr_price": last["kr_price"],
-            "adr_price": last["adr_price"],
-        }
-        st.setdefault("signals", []).append(sig)
+    crossed = None
+    if prev is not None:
+        if prev < BUY_AT and prem >= BUY_AT:
+            crossed = "BUY"
+        elif prev > SELL_AT and prem <= SELL_AT:
+            crossed = "SELL"
+
+    if not crossed:
         save_state(st)
+        print("signal: 교차 없음 (프리미엄 {:.2f}% / 포지션 {})".format(prem, pos))
+        return
+
+    kr_open = in_kr_session(t)
+    fired = None
+    if kr_open:
+        if crossed == "BUY" and pos == "flat":
+            fired = "BUY"
+            st["position"] = "holding"
+        elif crossed == "SELL" and pos == "holding":
+            fired = "SELL"
+            st["position"] = "flat"
+
+    # 교차는 언제나 기록(차트 표시용). 카카오 알림은 실제 매매신호일 때만.
+    reason = "" if fired else (
+        "장외" if not kr_open else
+        ("보유중" if crossed == "BUY" else "미보유"))
+    sig = {
+        "type": crossed,
+        "time_kst": last["ts_kst"],
+        "premium_pct": prem,
+        "kr_price": last["kr_price"],
+        "adr_price": last["adr_price"],
+        "actionable": bool(fired),
+        "reason": reason,
+    }
+    st.setdefault("signals", []).append(sig)
+    save_state(st)
+
+    if not fired:
+        print("signal: 교차 기록만 ({} {:.2f}% / {})".format(crossed, prem, reason))
+        return
+
+    if True:
         emoji = "\U0001F4C8" if fired == "BUY" else "\U0001F4C9"
         label = "매수 신호" if fired == "BUY" else "청산 신호"
         msg = ("{} [SKHY 괴리율] {}\n"
@@ -129,10 +161,7 @@ def main():
             last["kr_price"], last["adr_price"], BUY_AT, SELL_AT)
         kakao_send(msg)
         print("SIGNAL {}: 프리미엄 {:.2f}% @ {}".format(fired, prem, last["ts_kst"]))
-    else:
-        save_state(st)
-        print("signal: 유지 (프리미엄 {:.2f}% / 포지션 {} / 밴드 {}-{})".format(
-            prem, st["position"], SELL_AT, BUY_AT))
+
 
 
 if __name__ == "__main__":
