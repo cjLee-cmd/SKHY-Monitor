@@ -235,7 +235,7 @@ h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-lef
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(255,59,48,.16);border:1px solid rgba(255,59,48,.45)"></i>매수 구간<b id="lgBuy">≥--%</b></span>
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(120,120,128,.10);border:1px solid rgba(120,120,128,.3)"></i>중립</span>
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(0,122,255,.14);border:1px solid rgba(0,122,255,.45)"></i>청산 구간<b id="lgSell">≤--%</b></span>
-        <span><i class="sw" style="height:0;width:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:8px solid #8A9099;border-radius:0;background:none"></i>밴드 교차(미체결)</span>
+        <span><i class="sw" style="height:0;width:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:8px solid #8E8E93;border-radius:0;background:none"></i>밴드 교차(미체결)</span>
         <span style="margin-left:auto;color:var(--label-tertiary)">세로 음영 = 정규장 시간대</span>
       </div>
       <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
@@ -621,14 +621,20 @@ const signalPlugin = {
       const g = v.g, px = v.px, py = v.py;
       const isBuy = g.type === "BUY";
       const acted = g.actionable !== false;
-      const col = acted ? (isBuy ? "#FF3B30" : "#007AFF") : "#8A9099";
+      const col = acted ? (isBuy ? "#FF3B30" : "#007AFF") : "#8E8E93";
 
-      // 진입점 삼각 마커 (모든 교차에 항상 그린다)
-      // 프리미엄 선 위에 올라오도록 흰 테두리를 두껍게 준다.
-      const sz = 7;
+      // 진입점 표시: 선 위 정확한 값에 원점을 찍고, 삼각은 그 바깥쪽에 둔다.
+      // (24시간 뷰에서 신호가 수 px 간격으로 붙을 때 어느 봉우리인지 구분되도록)
       ctx.beginPath();
-      if (isBuy) { ctx.moveTo(px, py - sz); ctx.lineTo(px - sz + 1, py + sz - 4); ctx.lineTo(px + sz - 1, py + sz - 4); }
-      else       { ctx.moveTo(px, py + sz); ctx.lineTo(px - sz + 1, py - sz + 4); ctx.lineTo(px + sz - 1, py - sz + 4); }
+      ctx.arc(px, py, 3.5, 0, Math.PI * 2);
+      ctx.fillStyle = "#fff"; ctx.fill();
+      ctx.lineWidth = 2; ctx.strokeStyle = col; ctx.stroke();
+
+      const sz = 6.5, off = 9;   // 선에서 띄운다
+      const ty = isBuy ? py - off : py + off;
+      ctx.beginPath();
+      if (isBuy) { ctx.moveTo(px, ty - sz); ctx.lineTo(px - sz + 1, ty + sz - 4); ctx.lineTo(px + sz - 1, ty + sz - 4); }
+      else       { ctx.moveTo(px, ty + sz); ctx.lineTo(px - sz + 1, ty - sz + 4); ctx.lineTo(px + sz - 1, ty - sz + 4); }
       ctx.closePath();
       ctx.lineWidth = 2.5; ctx.strokeStyle = "#fff"; ctx.stroke();
       ctx.fillStyle = col; ctx.fill();
@@ -645,15 +651,15 @@ const signalPlugin = {
       while (lanes[lane] !== undefined && bx < lanes[lane] + 4) lane++;
       lanes[lane] = bx + bw;
 
-      let by = isBuy ? (py - 29 - lane * LANE) : (py + 13 + lane * LANE);
-      if (by < a.top + 2) by = py + 13 + lane * LANE;
-      if (by + BH > a.bottom - 2) by = py - 29 - lane * LANE;
+      let by = isBuy ? (py - 36 - lane * LANE) : (py + 20 + lane * LANE);
+      if (by < a.top + 2) by = py + 20 + lane * LANE;
+      if (by + BH > a.bottom - 2) by = py - 36 - lane * LANE;
       by = Math.max(a.top + 2, Math.min(a.bottom - BH - 2, by));
 
       if (lane > 0) {
         ctx.strokeStyle = col; ctx.globalAlpha = 0.35; ctx.lineWidth = 1;
         ctx.beginPath();
-        ctx.moveTo(px, py + (isBuy ? -8 : 8));
+        ctx.moveTo(px, py + (isBuy ? -15 : 15));
         ctx.lineTo(px, isBuy ? by + BH : by);
         ctx.stroke();
         ctx.globalAlpha = 1;
