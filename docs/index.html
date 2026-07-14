@@ -90,6 +90,30 @@ h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-lef
 }
 .range button.on{background:#fff;box-shadow:0 3px 8px rgba(0,0,0,0.06), 0 0 0 0.5px rgba(0,0,0,0.04);font-weight:600}
 
+/* —— 기준가 카드 —— */
+.fair{background:var(--bg-card);border-radius:var(--r-xl);padding:20px 26px;margin-bottom:14px;box-shadow:var(--shadow-1)}
+.fair-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.fair-title{font-size:13px;font-weight:600;color:var(--label-primary)}
+.fair-sub{font-size:11.5px;color:var(--label-tertiary)}
+.fair-row{display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:12px;margin-bottom:16px}
+@media (max-width:720px){.fair-row{grid-template-columns:1fr}}
+.fair-cell{background:var(--fill-quaternary);border-radius:var(--r-md);padding:12px 14px}
+.fair-cell .l{font-size:11px;color:var(--label-secondary);margin-bottom:5px;font-weight:500}
+.fair-cell .v{font-size:20px;font-weight:700;font-family:var(--font-mono);letter-spacing:-.02em}
+.fair-cell .n{font-size:10.5px;color:var(--label-tertiary);margin-top:3px}
+.fair-cell.verdict{background:var(--fill-tertiary)}
+.fair-cell.verdict .v{font-size:17px}
+.gauge{position:relative;height:34px;margin-top:6px}
+.gauge-track{position:absolute;top:12px;left:0;right:0;height:8px;border-radius:4px;
+  background:linear-gradient(90deg,
+    rgba(52,199,89,0.55) 0%, rgba(52,199,89,0.28) 22%,
+    rgba(120,120,128,0.18) 40%, rgba(120,120,128,0.18) 60%,
+    rgba(255,59,48,0.28) 78%, rgba(255,59,48,0.55) 100%)}
+.gauge-mid{position:absolute;top:8px;left:50%;width:1.5px;height:16px;background:var(--label-tertiary);transform:translateX(-50%)}
+.gauge-pin{position:absolute;top:6px;width:3px;height:20px;border-radius:2px;background:var(--label-primary);
+  transform:translateX(-50%);transition:left .5s cubic-bezier(.32,.72,0,1)}
+.gauge-lab{position:absolute;top:24px;font-size:9.5px;color:var(--label-tertiary);white-space:nowrap}
+.fair-note{font-size:11.5px;color:var(--label-tertiary);line-height:1.55;margin-top:14px;padding-top:12px;border-top:0.5px solid var(--separator)}
 .dash-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:14px;margin-bottom:14px}
 @media (max-width:920px){.dash-grid{grid-template-columns:1fr}}
 
@@ -150,6 +174,37 @@ h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-lef
       <div class="stat"><div class="l">환산 패리티</div><div class="v" id="parity">--</div></div>
       <div class="stat"><div class="l">USD/KRW</div><div class="v" id="fx">--</div></div>
     </div>
+  </div>
+
+  <div class="fair" id="fairCard">
+    <div class="fair-head">
+      <div class="fair-title">미국이 가리키는 한국 기준가</div>
+      <div class="fair-sub" id="fairBasis">기준 산출 중...</div>
+    </div>
+    <div class="fair-row">
+      <div class="fair-cell">
+        <div class="l">기준가 (미국 신호)</div>
+        <div class="v" id="fvFair">--</div>
+        <div class="n" id="fvFormula">ADR × 환율 × 10 ÷ (1 + P*)</div>
+      </div>
+      <div class="fair-cell">
+        <div class="l">현재 한국가</div>
+        <div class="v" id="fvActual">--</div>
+        <div class="n" id="fvDiff">기준가 대비 --</div>
+      </div>
+      <div class="fair-cell verdict">
+        <div class="l">판정</div>
+        <div class="v" id="fvVerdict">--</div>
+        <div class="gauge">
+          <div class="gauge-track"></div>
+          <div class="gauge-mid"></div>
+          <div class="gauge-pin" id="fvPin" style="left:50%"></div>
+          <div class="gauge-lab" style="left:0">과매도 −5%</div>
+          <div class="gauge-lab" style="right:0;text-align:right">과열 +5%</div>
+        </div>
+      </div>
+    </div>
+    <div class="fair-note" id="fairNote"></div>
   </div>
 
   <div class="range" id="rangeBtns">
@@ -314,6 +369,71 @@ function analysisLineHtml(a){
     " <span style='color:var(--label-tertiary)'>(24h 범위 " + a.premium_24h_range[0].toFixed(1) + "~" + a.premium_24h_range[1].toFixed(1) + "%)</span>";
 }
 
+// —— 기준가(Fair Value) ——
+// P* = 미국 정규장 마감 시점의 프리미엄. 한국장이 열리기 전에 확정되므로
+// 한국 장중 가격이 P*에 영향을 주지 않는다(자기참조 회피).
+function findUsCloseAnchor(rows){
+  let best = null;
+  for (let i = 0; i < rows.length; i++) {
+    const k = kstShift(tms(rows[i]));
+    const hm = k.getUTCHours() * 60 + k.getUTCMinutes();
+    if (hm >= 4 * 60 + 25 && hm <= 5 * 60 + 15) best = rows[i];
+  }
+  return best;
+}
+function median(arr){
+  const a = arr.slice().sort(function(x,y){ return x-y; });
+  const m = Math.floor(a.length/2);
+  return a.length % 2 ? a[m] : (a[m-1]+a[m])/2;
+}
+function renderFairValue(){
+  if (!all.length) return;
+  const last = all[all.length - 1];
+  const anchor = findUsCloseAnchor(all);
+
+  let pStar, basisLabel;
+  if (anchor) {
+    pStar = anchor.premium_pct;
+    basisLabel = "P* " + pStar.toFixed(2) + "% · 미국 정규장 마감(" + anchor.ts_kst + ") 기준 고정";
+  } else {
+    const r24 = all.filter(function(r){ return tms(r) >= tms(last) - 24*3600*1000; });
+    pStar = median(r24.map(function(r){ return r.premium_pct; }));
+    basisLabel = "P* " + pStar.toFixed(2) + "% · 24시간 중앙값(대체)";
+  }
+
+  const adrKrwNow = adrKrw(last);
+  const fair = adrKrwNow / (1 + pStar/100);
+  const actual = last.kr_price;
+  const gap = (actual / fair - 1) * 100;
+
+  $("fairBasis").textContent = basisLabel;
+  $("fvFair").textContent = won(fair);
+  $("fvFormula").textContent = "$" + last.adr_price.toFixed(2) + " × " + last.usdkrw.toFixed(0) + " × 10 ÷ " + (1 + pStar/100).toFixed(3);
+  $("fvActual").textContent = won(actual);
+  $("fvDiff").textContent = "기준가 대비 " + fmtSigned(gap, "%");
+  $("fvDiff").style.color = Math.abs(gap) <= 1.5 ? "var(--label-tertiary)" : (gap > 0 ? "var(--up)" : "var(--down)");
+
+  let verdict, vcolor;
+  if (gap >= 3)        { verdict = "과열권";     vcolor = "var(--ios-red)"; }
+  else if (gap >= 1.5) { verdict = "강세";           vcolor = "var(--ios-orange)"; }
+  else if (gap > -1.5) { verdict = "정상 범위"; vcolor = "var(--label-secondary)"; }
+  else if (gap > -3)   { verdict = "약세";           vcolor = "var(--ios-blue)"; }
+  else                 { verdict = "과매도권"; vcolor = "var(--ios-green)"; }
+  $("fvVerdict").textContent = verdict;
+  $("fvVerdict").style.color = vcolor;
+
+  const clamped = Math.max(-5, Math.min(5, gap));
+  $("fvPin").style.left = ((clamped + 5) / 10 * 100) + "%";
+
+  const krSess = last.kr_session === "regular" ? "한국 정규장" :
+                 last.kr_session === "pre" ? "한국 장전 시간외" :
+                 last.kr_session === "after" ? "한국 장후 시간외" : "한국 휴장";
+  $("fairNote").innerHTML =
+    "미국 ADR 가격이 가리키는 한국 주가를 역산한 값입니다. P*(균형 프리미엄)는 <b>미국장 마감 시점에 확정</b>되어 한국 장중에는 고정 상수로 쓰이므로, 한국 가격이 기준가에 영향을 주지 않습니다. " +
+    "현재 " + krSess + " · 프리미엄 " + last.premium_pct.toFixed(2) + "%. " +
+    "<b>표본이 하루뿐인 가설</b>이며, 프리미엄 밴드 자체가 표류하면 무효입니다. 투자 판단의 근거로 쓰지 마세요.";
+}
+
 async function load(){
   try {
     const res = await fetch(DATA_URL + "?t=" + Date.now());
@@ -342,6 +462,7 @@ async function load(){
   $("lgGap").textContent = won(lastUs - last.kr_price);
   $("lgGap").style.color = lastUs >= last.kr_price ? "var(--up)" : "var(--down)";
 
+  renderFairValue();
   renderTable();
   renderPriceChart();
   renderPremChart();
