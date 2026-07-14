@@ -5,51 +5,140 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SK하이닉스 괴리율 모니터</title>
 <style>
-  :root{--ink:#101418;--sub:#5c6570;--faint:#98a1ab;--line:#e3e7ec;--bg:#f7f8fa;--card:#fff;
-    --us:#2a78d6;--kr:#d03b3b;--up:#d03b3b;--down:#2563c9;--gold:#c98500;
-    --mono:"SF Mono","Roboto Mono",ui-monospace,monospace}
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR",sans-serif;background:var(--bg);
-    color:var(--ink);padding:28px 20px 48px;font-variant-numeric:tabular-nums}
-  .wrap{max-width:840px;margin:0 auto}
-  header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:18px;flex-wrap:wrap;gap:10px}
-  h1{font-size:19px;font-weight:700;letter-spacing:-.02em}
-  h1 span{color:var(--faint);font-weight:500;font-size:13px;margin-left:8px}
-  .updated{font-size:12px;color:var(--sub)}
-  .hero{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px 28px;margin-bottom:14px}
-  .hero-label{font-size:12px;color:var(--sub);letter-spacing:.06em;margin-bottom:6px}
-  .hero-num{font-size:52px;font-weight:700;letter-spacing:-.03em;font-family:var(--mono)}
-  .hero-num small{font-size:24px}
-  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:20px}
-  .stat{background:var(--bg);border-radius:10px;padding:12px 14px}
-  .stat .l{font-size:11.5px;color:var(--sub);margin-bottom:4px}
-  .stat .v{font-size:17px;font-weight:700;font-family:var(--mono)}
-  .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:14px}
-  .panel h3{font-size:13px;font-weight:600;color:var(--sub);margin-bottom:4px}
-  .panel .cap{font-size:11.5px;color:var(--faint);margin-bottom:14px;line-height:1.5}
-  .chart-box{position:relative;height:270px}
-  .range{display:flex;gap:6px;margin-bottom:14px}
-  .range button{font:inherit;font-size:12px;font-weight:600;padding:5px 12px;border:1px solid var(--line);
-    background:#fff;border-radius:7px;cursor:pointer;color:var(--sub)}
-  .range button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
-  .legend{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:10px;font-size:12px;color:var(--sub)}
-  .legend b{font-family:var(--mono);color:var(--ink);font-weight:700;margin-left:4px}
-  .sw{display:inline-block;width:16px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
-  .sw-us{background:repeating-linear-gradient(90deg,#2a78d6 0 5px,transparent 5px 8px)}
-  .sw-kr{background:#d03b3b}
-  table{width:100%;border-collapse:collapse;font-size:12.5px}
-  th{text-align:left;color:var(--faint);font-weight:500;padding:6px 8px;border-bottom:1px solid var(--line)}
-  td{padding:7px 8px;border-bottom:1px solid #f0f2f5;font-family:var(--mono)}
-  td.t{font-family:inherit;color:var(--sub)}
-  tr:last-child td{border-bottom:none}
-  .note{font-size:11.5px;color:var(--faint);margin-top:16px;line-height:1.6}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+
+:root{
+  /* ---- iOS 26 색상 토큰 ---- */
+  --ios-blue:#007AFF; --ios-red:#FF3B30; --ios-orange:#FF9500; --ios-green:#34C759;
+  --label-primary:rgba(0,0,0,0.92); --label-secondary:rgba(60,60,67,0.6); --label-tertiary:rgba(60,60,67,0.3);
+  --fill-tertiary:rgba(118,118,128,0.12); --fill-quaternary:rgba(116,118,128,0.08);
+  --bg-grouped:rgb(242,242,247); --bg-card:rgb(255,255,255);
+  --separator:rgba(60,60,67,0.29);
+  --glass-fill:rgba(250,250,250,0.72); --glass-stroke:rgba(255,255,255,0.6);
+  --glass-blur:saturate(180%) blur(20px);
+  --glass-shadow:0 8px 30px rgba(0,0,0,0.10);
+  /* 도메인 색: 미국=파랑(iOS Blue), 한국=빨강(iOS Red) — 기존 지정 유지 */
+  --us:var(--ios-blue); --kr:var(--ios-red); --up:var(--ios-red); --down:var(--ios-blue); --gold:var(--ios-orange);
+  /* ---- 타이포 ---- */
+  --font-sf:"SF Pro","SF Pro Text",-apple-system,BlinkMacSystemFont,"Inter","Helvetica Neue",Arial,sans-serif;
+  --font-mono:"SF Mono",ui-monospace,Menlo,Monaco,"Cascadia Mono",monospace;
+  /* ---- 반경 / 간격 (8pt 그리드) ---- */
+  --r-sm:10px; --r-md:14px; --r-lg:18px; --r-xl:22px; --r-pill:9999px;
+  --s-2:8px; --s-3:12px; --s-4:16px; --s-5:20px; --s-6:24px;
+  --shadow-1:0 1px 2px rgba(0,0,0,0.05), 0 1px 1px rgba(0,0,0,0.03);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:var(--font-sf); color:var(--label-primary);
+  background:
+    radial-gradient(1100px 420px at 15% -8%, rgba(0,122,255,0.10), transparent 60%),
+    radial-gradient(900px 380px at 100% 0%, rgba(255,59,48,0.06), transparent 55%),
+    var(--bg-grouped);
+  background-attachment:fixed;
+  padding:0 16px 48px; font-variant-numeric:tabular-nums;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1180px;margin:0 auto}
+
+/* ---- 헤더: 떠 있는 Liquid Glass 크롬 ---- */
+header{
+  position:sticky; top:0; z-index:50;
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;
+  margin:0 -16px 16px; padding:14px 16px;
+  background:var(--glass-fill);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border-bottom:0.5px solid var(--glass-stroke);
+  box-shadow:var(--glass-shadow), inset 0 1px 0 rgba(255,255,255,0.5);
+}
+h1{font-size:19px;font-weight:700;letter-spacing:-.02em;color:var(--label-primary)}
+h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-left:8px}
+.header-right{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.updated{font-size:11.5px;color:var(--label-secondary);text-align:right;line-height:1.5;display:flex;align-items:center;gap:6px;justify-content:flex-end}
+.live-dot{width:7px;height:7px;border-radius:50%;background:var(--ios-green);box-shadow:0 0 0 3px rgba(52,199,89,0.18)}
+
+/* ---- iOS 캄슐 버튼 (prominent, tint fill) ---- */
+.refresh-btn{
+  display:inline-flex;align-items:center;gap:8px;font-family:inherit;font-size:13px;font-weight:600;
+  letter-spacing:-.1px;color:#fff;background:var(--ios-blue);border:none;border-radius:var(--r-pill);
+  padding:9px 17px;cursor:pointer;white-space:nowrap;
+  box-shadow:0 1px 3px rgba(0,122,255,0.35);
+  transition:transform .15s cubic-bezier(.32,.72,0,1), filter .15s ease;
+}
+.refresh-btn:hover:not(:disabled){filter:brightness(1.05)}
+.refresh-btn:active:not(:disabled){transform:scale(0.96);filter:brightness(0.92)}
+.refresh-btn:disabled{opacity:.55;cursor:wait}
+.refresh-btn .spinner{width:12px;height:12px;border-radius:50%;border:2px solid rgba(255,255,255,.4);border-top-color:#fff;display:none}
+.refresh-btn.spin .spinner{display:inline-block;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ---- 히어로 카드 ---- */
+.hero{background:var(--bg-card);border-radius:var(--r-xl);padding:24px 26px;margin-bottom:14px;box-shadow:var(--shadow-1)}
+.hero-label{font-size:12px;font-weight:600;color:var(--label-secondary);letter-spacing:.02em;margin-bottom:6px}
+.hero-num{font-size:52px;font-weight:700;letter-spacing:-.02em;font-family:var(--font-mono);color:var(--label-primary)}
+.hero-num small{font-size:24px;font-weight:600;color:var(--label-secondary)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:18px}
+.stat{background:var(--fill-quaternary);border-radius:var(--r-md);padding:11px 13px}
+.stat .l{font-size:11.5px;color:var(--label-secondary);margin-bottom:4px;font-weight:500}
+.stat .v{font-size:16.5px;font-weight:700;font-family:var(--font-mono);color:var(--label-primary)}
+
+/* ---- 세그먼트 컨트롤 (iOS 26 스펙: 패딩2px, 배경 12%회색, 활성=흰배경+그림자) ---- */
+.range{display:inline-flex;padding:2px;background:rgba(120,120,128,0.12);border-radius:9px;margin-bottom:14px;gap:0}
+.range button{
+  font-family:inherit;font-size:13px;font-weight:500;color:var(--label-primary);
+  padding:6px 14px;border:none;background:transparent;border-radius:7px;cursor:pointer;
+  transition:background .18s ease, box-shadow .18s ease;
+}
+.range button.on{background:#fff;box-shadow:0 3px 8px rgba(0,0,0,0.06), 0 0 0 0.5px rgba(0,0,0,0.04);font-weight:600}
+
+.dash-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:14px;margin-bottom:14px}
+@media (max-width:920px){.dash-grid{grid-template-columns:1fr}}
+
+/* ---- 카드(패널): grouped-list 스타일, 테두리 대신 그림자 ---- */
+.panel{background:var(--bg-card);border-radius:var(--r-lg);padding:18px 20px;margin-bottom:14px;box-shadow:var(--shadow-1)}
+.panel h3{font-size:13.5px;font-weight:600;color:var(--label-primary);margin-bottom:4px;letter-spacing:-.1px}
+.panel .cap{font-size:12px;color:var(--label-tertiary);margin-bottom:12px;line-height:1.5}
+.chart-box{position:relative;height:250px}
+
+.legend{display:flex;flex-wrap:wrap;gap:16px;margin-bottom:8px;font-size:12px;color:var(--label-secondary)}
+.legend b{font-family:var(--font-mono);color:var(--label-primary);font-weight:700;margin-left:4px}
+.sw{display:inline-block;width:16px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+.sw-us{background:repeating-linear-gradient(90deg,var(--ios-blue) 0 5px,transparent 5px 8px)}
+.sw-kr{background:var(--ios-red)}
+
+/* ---- 분석 콜아웃: iOS tinted 버튼 색조 차용 ---- */
+.ana-box{border-radius:var(--r-md);padding:11px 14px;margin-bottom:10px;font-size:13px;line-height:1.55;color:var(--label-primary)}
+.ana-box.server{background:rgba(0,122,255,0.08)}
+.ana-box.manual{background:rgba(255,149,0,0.10)}
+.ana-tag{font-size:10.5px;font-weight:700;letter-spacing:.03em;color:var(--label-secondary);margin-bottom:4px;text-transform:uppercase}
+
+/* ---- 스크롤 테이블: sticky thead에 살짝 Liquid Glass ---- */
+.scroll-table{max-height:300px;overflow-y:auto;border-radius:var(--r-md)}
+.scroll-table table{width:100%;border-collapse:collapse;font-size:12.5px}
+.scroll-table thead th{
+  position:sticky;top:0;
+  background:rgba(255,255,255,0.82);-webkit-backdrop-filter:saturate(180%) blur(8px);backdrop-filter:saturate(180%) blur(8px);
+  box-shadow:0 1px 0 var(--separator);
+  text-align:left;color:var(--label-secondary);font-weight:600;padding:7px 8px;z-index:1;
+  font-size:11px;text-transform:uppercase;letter-spacing:.02em;
+}
+.scroll-table td{padding:8px;border-top:0.5px solid var(--separator);font-family:var(--font-mono);color:var(--label-primary)}
+.scroll-table tr:first-child td{border-top:none}
+.scroll-table td.t{font-family:var(--font-sf);color:var(--label-secondary);font-size:12px}
+
+.note{font-size:11.5px;color:var(--label-tertiary);margin-top:6px;line-height:1.6}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <h1>SK하이닉스 괴리율 모니터<span>GitHub Actions 24시간 수집</span></h1>
-    <div class="updated" id="updated">불러오는 중...</div>
+    <div class="header-right">
+      <button id="refreshBtn" class="refresh-btn">
+        <span class="spinner" aria-hidden="true"></span>
+        <span class="label">지금 새로고침·분석</span>
+      </button>
+      <div class="updated" id="updated"><span class="live-dot"></span>불러오는 중...</div>
+    </div>
   </header>
 
   <div class="hero">
@@ -63,15 +152,6 @@
     </div>
   </div>
 
-  <div class="panel">
-    <h3>시간별 분석 요약 <span style="font-weight:500;color:var(--faint)">(매시간 자동 생성)</span></h3>
-    <div class="cap" id="anaLatest" style="font-size:13px;color:var(--ink);margin-bottom:12px">분석 로드 중...</div>
-    <table>
-      <thead><tr><th>시간(KST)</th><th>프리미엄</th><th>1h 변화</th><th>한국 1h</th><th>ADR 1h</th><th>해석</th></tr></thead>
-      <tbody id="anaBody"></tbody>
-    </table>
-  </div>
-
   <div class="range" id="rangeBtns">
     <button data-h="6">6시간</button>
     <button data-h="24" class="on">24시간</button>
@@ -79,36 +159,62 @@
     <button data-h="0">전체</button>
   </div>
 
-  <div class="panel">
-    <h3>원화 환산 주가 비교</h3>
-    <div class="cap">미국 ADR을 그 시점의 환율로 원화 환산하고, 보통주 1주 기준(ADR × 환율 × 10)으로 맞춰 동일 축에 그렸습니다. 두 선의 간격이 공 프리미엄입니다. 가로축은 실제 시간(KST) 스케일입니다.</div>
-    <div class="legend">
-      <span><i class="sw sw-us"></i>미국 ADR (원화 환산)<b id="lgUs">--</b></span>
-      <span><i class="sw sw-kr"></i>한국 본주<b id="lgKr">--</b></span>
-      <span>격차<b id="lgGap">--</b></span>
+  <div class="dash-grid">
+    <div class="panel">
+      <h3>원화 환산 주가 비교</h3>
+      <div class="cap">미국 ADR을 그 시점 환율로 원화 환산하고, 보통주 1주 기준(ADR × 환율 × 10)으로 맞춰습니다.</div>
+      <div class="legend">
+        <span><i class="sw sw-us"></i>미국 ADR(원화 환산)<b id="lgUs">--</b></span>
+        <span><i class="sw sw-kr"></i>한국 본주<b id="lgKr">--</b></span>
+        <span>격차<b id="lgGap">--</b></span>
+      </div>
+      <div class="chart-box"><canvas id="priceChart" role="img" aria-label="원화 환산 미국 ADR과 한국 본주 주가 비교"></canvas></div>
     </div>
-    <div class="chart-box"><canvas id="priceChart" role="img" aria-label="원화 환산 미국 ADR과 한국 본주 주가 비교"></canvas></div>
+
+    <div class="panel">
+      <h3>프리미엄 추이</h3>
+      <div class="cap">위 두 선의 간격을 백분율로 환산한 값입니다. x축은 실제 시각(KST) 기준입니다.</div>
+      <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
+    </div>
   </div>
 
   <div class="panel">
-    <h3>프리미엄 추이</h3>
-    <div class="cap">위 두 선의 간격을 백분율로 환산한 값입니다.</div>
-    <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
+    <h3>시간별 분석 <span style="font-weight:500;color:var(--label-tertiary);font-size:11.5px">서버 자동(매시간) + 수동 실행 버튼</span></h3>
+
+    <div class="ana-box server">
+      <div class="ana-tag">서버 자동 · 최신</div>
+      <div id="anaLatest">분석 로드 중...</div>
+    </div>
+
+    <div class="ana-box manual" id="manualBox" style="display:none">
+      <div class="ana-tag">수동 실행 · <span id="manualTime"></span></div>
+      <div id="manualAnaText"></div>
+    </div>
+
+    <div class="scroll-table">
+      <table>
+        <thead><tr><th>시간(KST)</th><th>프리미엄</th><th>1h 변화</th><th>한국 1h</th><th>ADR 1h</th><th>해석</th></tr></thead>
+        <tbody id="anaBody"></tbody>
+      </table>
+    </div>
   </div>
 
   <div class="panel">
     <h3>최근 기록</h3>
-    <table>
-      <thead><tr><th>시각(KST)</th><th>한국 본주(원)</th><th>미국 환산(원)</th><th>ADR($)</th><th>환율</th><th>프리미엄</th></tr></thead>
-      <tbody id="logBody"></tbody>
-    </table>
+    <div class="scroll-table">
+      <table>
+        <thead><tr><th>시각(KST)</th><th>한국 본주(원)</th><th>미국 환산(원)</th><th>ADR($)</th><th>환율</th><th>프리미엄</th></tr></thead>
+        <tbody id="logBody"></tbody>
+      </table>
+    </div>
   </div>
 
   <p class="note">
     GitHub Actions가 약 10분 간격으로 수집합니다. ADR 1주 = 보통주 0.1주.
     프리미엄 = ADR ÷ (본주 × 0.1 ÷ 환율) − 1.
-    한국과 미국은 거래 시간대가 달라, 한쪽 시장이 닫힌 시간에는 그쪽 선이 수평으로 고정됩니다.
-    참고용이며 투자 판단의 근거로 사용하지 마세요.
+    "지금 새로고침·분석" 버튼은 저장된 최신 데이터를 즉시 다시 불러와 화면을 갱신하고, 그 자리에서 브라우저가 직접 분석을 계산해 보여줍니다
+    (서버 매시간 분석과 별개로, 새 시세를 직접 조회하지는 않습니다). 참고용이며 투자 판단의 근거로 사용하지 마세요.
+    디자인: iOS 26 Liquid Glass 시스템 적용.
   </p>
 </div>
 
@@ -117,12 +223,14 @@
 <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.3.1/dist/chartjs-adapter-luxon.umd.min.js"></script>
 <script>
 const DATA_URL = "data/history.json";
+const ANALYSIS_URL = "data/analysis_log.json";
 const RATIO = 0.1;
 const ZONE = "Asia/Seoul";
-let all = [], premChart = null, priceChart = null, rangeH = 24;
+let all = [], analysisLog = [], premChart = null, priceChart = null, rangeH = 24;
 
 const $ = function(id){ return document.getElementById(id); };
 const pct = function(n){ return (n > 0 ? "+" : "") + n.toFixed(2) + "%"; };
+const fmtSigned = function(n, suffix){ return (n > 0 ? "+" : "") + n.toFixed(2) + suffix; };
 const won = function(n){ return Math.round(n).toLocaleString("ko-KR") + "원"; };
 const manwon = function(n){ return Math.round(n / 10000).toLocaleString("ko-KR") + "만"; };
 const adrKrw = function(r){ return r.adr_price * r.usdkrw / RATIO; };
@@ -139,12 +247,79 @@ const timeScale = {
   grid: { display: false }
 };
 
+function kstShift(ms){ return new Date(ms + 9 * 3600 * 1000); }
+function inKrSession(ms){
+  const k = kstShift(ms);
+  const day = k.getUTCDay();
+  if (day === 0 || day === 6) return false;
+  const hm = k.getUTCHours() * 60 + k.getUTCMinutes();
+  return hm >= 9 * 60 && hm <= 15 * 60 + 30;
+}
+function inUsSession(ms){
+  const d = new Date(ms);
+  const day = d.getUTCDay();
+  if (day === 0 || day === 6) return false;
+  const hm = d.getUTCHours() * 60 + d.getUTCMinutes();
+  return hm >= 13 * 60 + 30 && hm <= 20 * 60;
+}
+function fmtKstLabel(ms){
+  const k = kstShift(ms);
+  const p2 = function(n){ return String(n).padStart(2, "0"); };
+  return p2(k.getUTCMonth() + 1) + "-" + p2(k.getUTCDate()) + " " + p2(k.getUTCHours()) + ":" + p2(k.getUTCMinutes());
+}
+function computeAnalysis(rows){
+  if (!rows.length) return null;
+  const last = rows[rows.length - 1];
+  const nowMs = tms(last);
+  const cutoff = nowMs - 3600 * 1000;
+  let h1 = null;
+  for (let i = rows.length - 1; i >= 0; i--) { if (tms(rows[i]) <= cutoff) { h1 = rows[i]; break; } }
+  const dayRows = rows.filter(function(r){ return tms(r) >= nowMs - 24 * 3600 * 1000; });
+  const prem = last.premium_pct;
+  const d1h = h1 ? +(prem - h1.premium_pct).toFixed(2) : null;
+  const lo24 = dayRows.length ? Math.min.apply(null, dayRows.map(function(r){ return r.premium_pct; })) : prem;
+  const hi24 = dayRows.length ? Math.max.apply(null, dayRows.map(function(r){ return r.premium_pct; })) : prem;
+  const krChg = h1 ? +((last.kr_price / h1.kr_price - 1) * 100).toFixed(2) : null;
+  const adrChg = h1 ? +((last.adr_price / h1.adr_price - 1) * 100).toFixed(2) : null;
+
+  const parts = [];
+  if (d1h === null) parts.push("1시간 전 비교 데이터 없음");
+  else if (Math.abs(d1h) < 0.5) parts.push("프리미엄 안정(" + fmtSigned(d1h, "%p") + ")");
+  else if (d1h > 0) parts.push("프리미엄 확대(" + fmtSigned(d1h, "%p") + ")");
+  else parts.push("프리미엄 축소(" + fmtSigned(d1h, "%p") + ")");
+
+  if (d1h !== null && Math.abs(d1h) >= 0.5 && krChg !== null && adrChg !== null) {
+    if (Math.abs(krChg) >= Math.abs(adrChg) * 1.5) parts.push("한국 본주 주도(" + fmtSigned(krChg, "%") + ")");
+    else if (Math.abs(adrChg) >= Math.abs(krChg) * 1.5) parts.push("미국 ADR 주도(" + fmtSigned(adrChg, "%") + ")");
+    else parts.push("양시장 동반 이동");
+  }
+
+  if (prem >= 28) parts.push("경고: 24시간 밴드 상단권(28%+)");
+  else if (prem <= 20) parts.push("주목: 20% 이하 진입");
+
+  parts.push(inKrSession(nowMs) ? "한국장 시간대" : (inUsSession(nowMs) ? "미국장 시간대" : "양장 마감"));
+
+  return {
+    time_kst: fmtKstLabel(nowMs),
+    premium_pct: prem,
+    premium_1h_delta: d1h,
+    premium_24h_range: [lo24, hi24],
+    kr_1h_pct: krChg,
+    adr_1h_pct: adrChg,
+    summary: parts.join(" · ")
+  };
+}
+function analysisLineHtml(a){
+  return "<b>" + a.time_kst + " KST</b> — " + a.summary +
+    " <span style='color:var(--label-tertiary)'>(24h 범위 " + a.premium_24h_range[0].toFixed(1) + "~" + a.premium_24h_range[1].toFixed(1) + "%)</span>";
+}
+
 async function load(){
   try {
     const res = await fetch(DATA_URL + "?t=" + Date.now());
     all = await res.json();
   } catch (e) {
-    $("updated").textContent = "데이터 로드 실패";
+    $("updated").innerHTML = "<span class='live-dot' style='background:var(--ios-red)'></span>데이터 로드 실패";
     return;
   }
   if (!all.length) { $("updated").textContent = "수집된 데이터 없음"; return; }
@@ -158,7 +333,7 @@ async function load(){
   $("adr").textContent = "$" + last.adr_price.toFixed(2);
   $("parity").textContent = "$" + last.parity_usd.toFixed(2);
   $("fx").textContent = last.usdkrw.toFixed(1);
-  $("updated").textContent = "최근 수집: " + last.ts_kst + " KST";
+  $("updated").innerHTML = "<span class='live-dot'></span>최근 수집: " + last.ts_kst + " KST";
 
   $("lgUs").textContent = won(lastUs);
   $("lgKr").textContent = won(last.kr_price);
@@ -168,29 +343,7 @@ async function load(){
   renderTable();
   renderPriceChart();
   renderPremChart();
-  loadAnalysis();
-}
-
-async function loadAnalysis(){
-  try {
-    const res = await fetch("data/analysis_log.json?t=" + Date.now());
-    const log = await res.json();
-    if (!log.length) return;
-    const a = log[log.length - 1];
-    document.getElementById("anaLatest").innerHTML =
-      "<b>" + a.time_kst + " KST</b> — " + a.summary +
-      " <span style='color:var(--faint)'>(24h 범위 " + a.premium_24h_range[0].toFixed(1) + "~" + a.premium_24h_range[1].toFixed(1) + "%)</span>";
-    document.getElementById("anaBody").innerHTML = log.slice(-12).reverse().map(function(r){
-      const c = r.premium_pct >= 0 ? "var(--up)" : "var(--down)";
-      const f = function(v, suffix){ return v === null || v === undefined ? "-" : (v > 0 ? "+" : "") + v.toFixed(2) + suffix; };
-      return "<tr><td class='t'>" + r.time_kst + "</td>" +
-        "<td style='color:" + c + "'>" + f(r.premium_pct, "%") + "</td>" +
-        "<td>" + f(r.premium_1h_delta, "%p") + "</td>" +
-        "<td>" + f(r.kr_1h_pct, "%") + "</td>" +
-        "<td>" + f(r.adr_1h_pct, "%") + "</td>" +
-        "<td class='t' style='font-size:11.5px'>" + r.summary + "</td></tr>";
-    }).join("");
-  } catch (e) { /* 분석 파일 없으면 무시 */ }
+  await loadAnalysis();
 }
 
 function slice(){
@@ -200,7 +353,7 @@ function slice(){
 }
 
 function renderTable(){
-  $("logBody").innerHTML = all.slice(-15).reverse().map(function(r){
+  $("logBody").innerHTML = all.slice(-500).reverse().map(function(r){
     const color = r.premium_pct >= 0 ? "var(--up)" : "var(--down)";
     return "<tr><td class='t'>" + r.ts_kst +
       "</td><td>" + Math.round(r.kr_price).toLocaleString("ko-KR") +
@@ -226,10 +379,10 @@ function renderPriceChart(){
   priceChart = new Chart($("priceChart"), {
     type: "line",
     data: { datasets: [
-      { label: "미국 ADR(원화 환산)", data: usData, borderColor: "#2a78d6",
+      { label: "미국 ADR(원화 환산)", data: usData, borderColor: "#007AFF",
         borderWidth: 2, borderDash: [6, 3], fill: false, tension: .25,
         pointRadius: 0, pointHoverRadius: 4 },
-      { label: "한국 본주", data: krData, borderColor: "#d03b3b",
+      { label: "한국 본주", data: krData, borderColor: "#FF3B30",
         borderWidth: 2, fill: false, tension: .25,
         pointRadius: 0, pointHoverRadius: 4 }
     ]},
@@ -242,7 +395,7 @@ function renderPriceChart(){
       },
       scales: {
         x: timeScale,
-        y: { grace: "8%", ticks: { callback: function(v){ return manwon(v); } }, grid: { color: "#eef1f4" } }
+        y: { grace: "8%", ticks: { callback: function(v){ return manwon(v); } }, grid: { color: "rgba(60,60,67,0.08)" } }
       }
     }
   });
@@ -260,8 +413,8 @@ function renderPremChart(){
 
   premChart = new Chart($("chart"), {
     type: "line",
-    data: { datasets: [{ label: "프리미엄", data: data, borderColor: "#c98500",
-      backgroundColor: "rgba(201,133,0,.08)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0 }] },
+    data: { datasets: [{ label: "프리미엄", data: data, borderColor: "#FF9500",
+      backgroundColor: "rgba(255,149,0,.10)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0 }] },
     options: {
       responsive: true, maintainAspectRatio: false, parsing: false,
       interaction: { mode: "index", intersect: false },
@@ -269,10 +422,47 @@ function renderPremChart(){
         tooltip: { callbacks: { label: function(c){ return "프리미엄 " + pct(c.parsed.y); } } } },
       scales: {
         x: timeScale,
-        y: { ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "#eef1f4" } }
+        y: { ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "rgba(60,60,67,0.08)" } }
       }
     }
   });
+}
+
+async function loadAnalysis(){
+  try {
+    const res = await fetch(ANALYSIS_URL + "?t=" + Date.now());
+    analysisLog = await res.json();
+  } catch (e) {
+    analysisLog = [];
+  }
+  if (!analysisLog.length) { $("anaLatest").textContent = "분석 데이터 없음"; return; }
+  const a = analysisLog[analysisLog.length - 1];
+  $("anaLatest").innerHTML = analysisLineHtml(a);
+  $("anaBody").innerHTML = analysisLog.slice().reverse().map(function(r){
+    const c = r.premium_pct >= 0 ? "var(--up)" : "var(--down)";
+    const f = function(v, suf){ return (v === null || v === undefined) ? "-" : fmtSigned(v, suf); };
+    return "<tr><td class='t'>" + r.time_kst + "</td>" +
+      "<td style='color:" + c + "'>" + f(r.premium_pct, "%") + "</td>" +
+      "<td>" + f(r.premium_1h_delta, "%p") + "</td>" +
+      "<td>" + f(r.kr_1h_pct, "%") + "</td>" +
+      "<td>" + f(r.adr_1h_pct, "%") + "</td>" +
+      "<td class='t' style='font-size:11.5px'>" + r.summary + "</td></tr>";
+  }).join("");
+}
+
+async function runManualAnalysis(){
+  const btn = $("refreshBtn");
+  const label = btn.querySelector(".label");
+  const prevLabel = label.textContent;
+  btn.disabled = true; btn.classList.add("spin"); label.textContent = "새로고침 중…";
+  await load();
+  const manual = computeAnalysis(all);
+  if (manual) {
+    $("manualBox").style.display = "block";
+    $("manualTime").textContent = manual.time_kst + " KST 기준, 방금 실행";
+    $("manualAnaText").innerHTML = analysisLineHtml(manual);
+  }
+  label.textContent = prevLabel; btn.disabled = false; btn.classList.remove("spin");
 }
 
 $("rangeBtns").addEventListener("click", function(e){
@@ -285,6 +475,8 @@ $("rangeBtns").addEventListener("click", function(e){
   renderPriceChart();
   renderPremChart();
 });
+
+$("refreshBtn").addEventListener("click", runManualAnalysis);
 
 load();
 setInterval(load, 5 * 60 * 1000);
