@@ -227,8 +227,13 @@ h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-lef
     </div>
 
     <div class="panel">
-      <h3>프리미엄 추이</h3>
-      <div class="cap">위 두 선의 간격을 백분율로 환산한 값입니다. 빨간 점선 = 매수 밴드(30%), 파란 점선 = 청산 밴드(24%). ▲매수 ▼청산 신호 발생 지점 표시. <b>검증 중인 가설(규칙 v1)</b>입니다.</div>
+      <h3>프리미엄 추이 <span id="zoneBadge" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span></h3>
+      <div class="cap">배경색이 매매 구간입니다. 프리미엄이 붉은 구간에 들어오면 매수, 파란 구간으로 내려오면 청산 신호입니다. <b>검증 중인 가설(규칙 v1)</b>이므로 투자 근거로 쓰지 마세요.</div>
+      <div class="legend" style="margin-bottom:10px">
+        <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(255,59,48,.16);border:1px solid rgba(255,59,48,.45)"></i>매수 구간<b id="lgBuy">≥--%</b></span>
+        <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(120,120,128,.10);border:1px solid rgba(120,120,128,.3)"></i>중립</span>
+        <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(0,122,255,.14);border:1px solid rgba(0,122,255,.45)"></i>청산 구간<b id="lgSell">≤--%</b></span>
+      </div>
       <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
     </div>
   </div>
@@ -467,6 +472,7 @@ async function load(){
   renderTable();
   renderPriceChart();
   renderPremChart();
+  renderZoneBadge();
   await loadAnalysis();
 }
 
@@ -525,6 +531,47 @@ function renderPriceChart(){
   });
 }
 
+const zonePlugin = {
+  id: "zones",
+  beforeDatasetsDraw: function(chart){
+    const b = (signalState && signalState.bands) || { buy_at: 30, sell_at: 24 };
+    const a = chart.chartArea, y = chart.scales.y, ctx = chart.ctx;
+    if (!a || !y) return;
+    const yTop = y.getPixelForValue(y.max), yBot = y.getPixelForValue(y.min);
+    const yBuy = Math.max(a.top, Math.min(a.bottom, y.getPixelForValue(b.buy_at)));
+    const ySell = Math.max(a.top, Math.min(a.bottom, y.getPixelForValue(b.sell_at)));
+    ctx.save();
+    ctx.fillStyle = "rgba(255,59,48,0.14)";
+    ctx.fillRect(a.left, a.top, a.right - a.left, yBuy - a.top);
+    ctx.fillStyle = "rgba(120,120,128,0.07)";
+    ctx.fillRect(a.left, yBuy, a.right - a.left, ySell - yBuy);
+    ctx.fillStyle = "rgba(0,122,255,0.12)";
+    ctx.fillRect(a.left, ySell, a.right - a.left, a.bottom - ySell);
+    ctx.font = "600 10.5px -apple-system, sans-serif";
+    ctx.textAlign = "left";
+    if (yBuy > a.top + 14) { ctx.fillStyle = "rgba(163,45,45,.85)"; ctx.fillText("매수 구간", a.left + 7, a.top + 13); }
+    if (ySell < a.bottom - 8) { ctx.fillStyle = "rgba(24,95,165,.85)"; ctx.fillText("청산 구간", a.left + 7, a.bottom - 6); }
+    ctx.restore();
+  }
+};
+
+function renderZoneBadge(){
+  const b = (signalState && signalState.bands) || { buy_at: 30, sell_at: 24 };
+  const el = document.getElementById("zoneBadge");
+  const lb = document.getElementById("lgBuy"), ls = document.getElementById("lgSell");
+  if (lb) lb.textContent = "≥" + b.buy_at.toFixed(0) + "%";
+  if (ls) ls.textContent = "≤" + b.sell_at.toFixed(0) + "%";
+  if (!el || !all.length) return;
+  const p = all[all.length-1].premium_pct;
+  let txt, bg, fg;
+  if (p >= b.buy_at)       { txt = "현재 매수 구간"; bg = "rgba(255,59,48,.14)"; fg = "#A32D2D"; }
+  else if (p <= b.sell_at) { txt = "현재 청산 구간"; bg = "rgba(0,122,255,.14)"; fg = "#185FA5"; }
+  else                     { txt = "현재 중립"; bg = "rgba(120,120,128,.12)"; fg = "#5c6570"; }
+  el.textContent = txt + " " + p.toFixed(1) + "%";
+  el.style.background = bg;
+  el.style.color = fg;
+}
+
 let signalState = null;
 async function loadSignals(){
   try {
@@ -565,6 +612,7 @@ function renderPremChart(){
 
   premChart = new Chart($("chart"), {
     type: "line",
+    plugins: [zonePlugin],
     data: { datasets: [
       { label: "프리미엄", data: data, borderColor: "#FF9500",
         backgroundColor: "rgba(255,149,0,.10)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0, order: 3 },
@@ -589,7 +637,7 @@ function renderPremChart(){
         } } } },
       scales: {
         x: timeScale,
-        y: { ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "rgba(60,60,67,0.08)" } }
+        y: { grace: "12%", ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "rgba(60,60,67,0.08)" } }
       }
     }
   });
