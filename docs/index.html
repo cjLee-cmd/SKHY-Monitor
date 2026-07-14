@@ -222,6 +222,8 @@ h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-lef
         <span><i class="sw sw-us"></i>미국 ADR(원화 환산)<b id="lgUs">--</b></span>
         <span><i class="sw sw-kr"></i>한국 본주<b id="lgKr">--</b></span>
         <span>격차<b id="lgGap">--</b></span>
+        <span style="margin-left:auto"><i class="sw" style="height:10px;width:12px;border-radius:2px;background:rgba(255,59,48,.12);border:1px solid rgba(255,59,48,.3)"></i>한국장</span>
+        <span><i class="sw" style="height:10px;width:12px;border-radius:2px;background:rgba(0,122,255,.12);border:1px solid rgba(0,122,255,.3)"></i>미국장</span>
       </div>
       <div class="chart-box"><canvas id="priceChart" role="img" aria-label="원화 환산 미국 ADR과 한국 본주 주가 비교"></canvas></div>
     </div>
@@ -233,6 +235,7 @@ h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-lef
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(255,59,48,.16);border:1px solid rgba(255,59,48,.45)"></i>매수 구간<b id="lgBuy">≥--%</b></span>
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(120,120,128,.10);border:1px solid rgba(120,120,128,.3)"></i>중립</span>
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(0,122,255,.14);border:1px solid rgba(0,122,255,.45)"></i>청산 구간<b id="lgSell">≤--%</b></span>
+        <span style="margin-left:auto;color:var(--label-tertiary)">세로 음영 = 정규장 시간대(한국·미국)</span>
       </div>
       <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
     </div>
@@ -508,6 +511,7 @@ function renderPriceChart(){
 
   priceChart = new Chart($("priceChart"), {
     type: "line",
+    plugins: [sessionPlugin],
     data: { datasets: [
       { label: "미국 ADR(원화 환산)", data: usData, borderColor: "#007AFF",
         borderWidth: 2, borderDash: [6, 3], fill: false, tension: .25,
@@ -530,6 +534,55 @@ function renderPriceChart(){
     }
   });
 }
+
+// 정규장 세션 음영 (KST). 한국 09:00~15:30 / 미국 22:30~05:00(익일)
+function sessionSpans(minX, maxX){
+  const spans = [];
+  const DAY = 86400000;
+  const kstMidnightUTC = function(ms){
+    const k = new Date(ms + 9*3600*1000);
+    const d = Date.UTC(k.getUTCFullYear(), k.getUTCMonth(), k.getUTCDate());
+    return d - 9*3600*1000;  // 해당 KST 자정의 UTC ms
+  };
+  let base = kstMidnightUTC(minX) - DAY;
+  const end = maxX + DAY;
+  while (base <= end) {
+    const kd = new Date(base + 9*3600*1000).getUTCDay();
+    if (kd >= 1 && kd <= 5) {
+      spans.push({ s: base + 9*3600*1000,  e: base + (15*60+30)*60*1000, kind: "kr" });
+      spans.push({ s: base + (22*3600+30*60)*1000, e: base + DAY + 5*3600*1000, kind: "us" });
+    }
+    base += DAY;
+  }
+  return spans.filter(function(sp){ return sp.e >= minX && sp.s <= maxX; });
+}
+
+const sessionPlugin = {
+  id: "sessions",
+  beforeDatasetsDraw: function(chart){
+    const a = chart.chartArea, x = chart.scales.x, ctx = chart.ctx;
+    if (!a || !x) return;
+    const spans = sessionSpans(x.min, x.max);
+    ctx.save();
+    spans.forEach(function(sp){
+      const p1 = Math.max(a.left, x.getPixelForValue(sp.s));
+      const p2 = Math.min(a.right, x.getPixelForValue(sp.e));
+      if (p2 <= p1) return;
+      ctx.fillStyle = sp.kind === "kr" ? "rgba(255,59,48,0.07)" : "rgba(0,122,255,0.07)";
+      ctx.fillRect(p1, a.top, p2 - p1, a.bottom - a.top);
+    });
+    ctx.font = "600 9.5px -apple-system, sans-serif";
+    ctx.textAlign = "center";
+    spans.forEach(function(sp){
+      const p1 = Math.max(a.left, x.getPixelForValue(sp.s));
+      const p2 = Math.min(a.right, x.getPixelForValue(sp.e));
+      if (p2 - p1 < 54) return;
+      ctx.fillStyle = sp.kind === "kr" ? "rgba(163,45,45,0.62)" : "rgba(24,95,165,0.62)";
+      ctx.fillText(sp.kind === "kr" ? "한국장" : "미국장", (p1+p2)/2, a.top + 11);
+    });
+    ctx.restore();
+  }
+};
 
 const zonePlugin = {
   id: "zones",
@@ -625,7 +678,7 @@ function renderPremChart(){
 
   premChart = new Chart($("chart"), {
     type: "line",
-    plugins: [zonePlugin],
+    plugins: [sessionPlugin, zonePlugin],
     data: { datasets: [
       { label: "프리미엄", data: data, borderColor: "#FF9500",
         backgroundColor: "rgba(255,149,0,.10)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0, order: 3 },
