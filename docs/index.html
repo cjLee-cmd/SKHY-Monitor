@@ -63,6 +63,15 @@
     </div>
   </div>
 
+  <div class="panel">
+    <h3>시간별 분석 요약 <span style="font-weight:500;color:var(--faint)">(매시간 자동 생성)</span></h3>
+    <div class="cap" id="anaLatest" style="font-size:13px;color:var(--ink);margin-bottom:12px">분석 로드 중...</div>
+    <table>
+      <thead><tr><th>시간(KST)</th><th>프리미엄</th><th>1h 변화</th><th>한국 1h</th><th>ADR 1h</th><th>해석</th></tr></thead>
+      <tbody id="anaBody"></tbody>
+    </table>
+  </div>
+
   <div class="range" id="rangeBtns">
     <button data-h="6">6시간</button>
     <button data-h="24" class="on">24시간</button>
@@ -159,6 +168,29 @@ async function load(){
   renderTable();
   renderPriceChart();
   renderPremChart();
+  loadAnalysis();
+}
+
+async function loadAnalysis(){
+  try {
+    const res = await fetch("data/analysis_log.json?t=" + Date.now());
+    const log = await res.json();
+    if (!log.length) return;
+    const a = log[log.length - 1];
+    document.getElementById("anaLatest").innerHTML =
+      "<b>" + a.time_kst + " KST</b> — " + a.summary +
+      " <span style='color:var(--faint)'>(24h 범위 " + a.premium_24h_range[0].toFixed(1) + "~" + a.premium_24h_range[1].toFixed(1) + "%)</span>";
+    document.getElementById("anaBody").innerHTML = log.slice(-12).reverse().map(function(r){
+      const c = r.premium_pct >= 0 ? "var(--up)" : "var(--down)";
+      const f = function(v, suffix){ return v === null || v === undefined ? "-" : (v > 0 ? "+" : "") + v.toFixed(2) + suffix; };
+      return "<tr><td class='t'>" + r.time_kst + "</td>" +
+        "<td style='color:" + c + "'>" + f(r.premium_pct, "%") + "</td>" +
+        "<td>" + f(r.premium_1h_delta, "%p") + "</td>" +
+        "<td>" + f(r.kr_1h_pct, "%") + "</td>" +
+        "<td>" + f(r.adr_1h_pct, "%") + "</td>" +
+        "<td class='t' style='font-size:11.5px'>" + r.summary + "</td></tr>";
+    }).join("");
+  } catch (e) { /* 분석 파일 없으면 무시 */ }
 }
 
 function slice(){
