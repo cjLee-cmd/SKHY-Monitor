@@ -329,8 +329,10 @@ async function load(){
 
   $("premium").innerHTML = pct(last.premium_pct).replace("%", "") + "<small>%</small>";
   $("premium").style.color = last.premium_pct >= 0 ? "var(--up)" : "var(--down)";
-  $("kr").textContent = won(last.kr_price);
-  $("adr").textContent = "$" + last.adr_price.toFixed(2);
+  const sessKo = function(v){ return v==="regular"?"정규장":v==="pre"?"장전 시간외":v==="after"?"장후 시간외":v==="closed"?"휴장":""; };
+  const badge = function(v){ const t=sessKo(v); return t?" <span style='font-size:10px;font-weight:600;color:var(--label-tertiary)'>"+t+"</span>":""; };
+  $("kr").innerHTML = won(last.kr_price) + badge(last.kr_session);
+  $("adr").innerHTML = "$" + last.adr_price.toFixed(2) + badge(last.adr_session);
   $("parity").textContent = "$" + last.parity_usd.toFixed(2);
   $("fx").textContent = last.usdkrw.toFixed(1);
   $("updated").innerHTML = "<span class='live-dot'></span>최근 수집: " + last.ts_kst + " KST";
