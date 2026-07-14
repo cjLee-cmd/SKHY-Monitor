@@ -4,5 +4,31 @@
   "buy_at": 30.0,
   "sell_at": 24.0
  },
- "signals": []
+ "signals": [
+  {
+   "type": "BUY",
+   "time_kst": "07-14 10:00",
+   "premium_pct": 30.52,
+   "kr_price": 1837000.0,
+   "adr_price": 160.24,
+   "backfilled": true
+  },
+  {
+   "type": "SELL",
+   "time_kst": "07-14 10:28",
+   "premium_pct": 23.52,
+   "kr_price": 1912000.0,
+   "adr_price": 158.28,
+   "backfilled": true
+  },
+  {
+   "type": "BUY",
+   "time_kst": "07-14 11:43",
+   "premium_pct": 30.03,
+   "kr_price": 1766000.0,
+   "adr_price": 153.93,
+   "backfilled": true
+  }
+ ],
+ "note": "signals는 과거 소급 기록(backfilled). position은 실제 미보유라 flat으로 리셋."
 }
