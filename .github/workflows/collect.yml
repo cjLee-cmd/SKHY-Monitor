@@ -29,6 +29,9 @@ jobs:
           git config user.email "actions@github.com"
 
       - name: Collect every 10 minutes
+        env:
+          KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
         run: |
           for i in $(seq 1 12); do
             echo "===== sample $i / 12  ($(date -u +'%H:%M') UTC) ====="
