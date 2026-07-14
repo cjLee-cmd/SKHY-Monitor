@@ -208,8 +208,8 @@ h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-lef
   </div>
 
   <div class="range" id="rangeBtns">
-    <button data-h="6">6시간</button>
-    <button data-h="24" class="on">24시간</button>
+    <button data-h="6" class="on">6시간</button>
+    <button data-h="24">24시간</button>
     <button data-h="168">7일</button>
     <button data-h="0">전체</button>
   </div>
@@ -290,7 +290,7 @@ const DATA_URL = "data/history.json";
 const ANALYSIS_URL = "data/analysis_log.json";
 const RATIO = 0.1;
 const ZONE = "Asia/Seoul";
-let all = [], analysisLog = [], premChart = null, priceChart = null, rangeH = 24;
+let all = [], analysisLog = [], premChart = null, priceChart = null, rangeH = 6;
 
 const $ = function(id){ return document.getElementById(id); };
 const pct = function(n){ return (n > 0 ? "+" : "") + n.toFixed(2) + "%"; };
@@ -523,10 +523,18 @@ function renderPriceChart(){
     ]},
     options: {
       responsive: true, maintainAspectRatio: false, parsing: false,
-      interaction: { mode: "index", intersect: false },
+      interaction: { mode: "index", intersect: false, axis: "x" },
       plugins: {
         legend: { display: false },
-        tooltip: { callbacks: { label: function(c){ return c.dataset.label + ": " + won(c.parsed.y); } } }
+        tooltip: { callbacks: {
+          title: function(items){
+            if (!items.length) return "";
+            const rows = slice();
+            const row = rows[items[0].dataIndex];
+            return row ? row.ts_kst + " KST" : "";
+          },
+          label: function(c){ return c.dataset.label + ": " + won(c.parsed.y); }
+        } }
       },
       scales: {
         x: timeScale,
@@ -813,11 +821,17 @@ function renderPremChart(){
     ] },
     options: {
       responsive: true, maintainAspectRatio: false, parsing: false,
-      interaction: { mode: "index", intersect: false },
+      interaction: { mode: "index", intersect: false, axis: "x" },
       plugins: { legend: { display: false },
         tooltip: {
           filter: function(c){ return c.datasetIndex === 0; },   // 프리미엄 선만
           callbacks: {
+            title: function(items){
+              if (!items.length) return "";
+              const rows = slice();
+              const row = rows[items[0].dataIndex];
+              return row ? row.ts_kst + " KST" : "";
+            },
             label: function(c){ return "프리미엄 " + pct(c.parsed.y); },
             afterBody: function(items){
               if (!items.length || !signalState) return "";
