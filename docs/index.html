@@ -235,7 +235,7 @@ h1 span{color:var(--label-secondary);font-weight:500;font-size:12.5px;margin-lef
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(255,59,48,.16);border:1px solid rgba(255,59,48,.45)"></i>매수 구간<b id="lgBuy">≥--%</b></span>
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(120,120,128,.10);border:1px solid rgba(120,120,128,.3)"></i>중립</span>
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(0,122,255,.14);border:1px solid rgba(0,122,255,.45)"></i>청산 구간<b id="lgSell">≤--%</b></span>
-        <span><i class="sw" style="height:0;width:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:8px solid #9aa0a6;border-radius:0;background:none"></i>밴드 교차(미체결)</span>
+        <span><i class="sw" style="height:0;width:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:8px solid #8A9099;border-radius:0;background:none"></i>밴드 교차(미체결)</span>
         <span style="margin-left:auto;color:var(--label-tertiary)">세로 음영 = 정규장 시간대</span>
       </div>
       <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
@@ -620,20 +620,18 @@ const signalPlugin = {
     ordered.forEach(function(v){
       const g = v.g, px = v.px, py = v.py;
       const isBuy = g.type === "BUY";
-      const acted = g.actionable !== false;   // 구버전 데이터는 actionable 없음 -> 실제매매로 간주
-      const col = acted ? (isBuy ? "#FF3B30" : "#007AFF") : "#9aa0a6";
+      const acted = g.actionable !== false;
+      const col = acted ? (isBuy ? "#FF3B30" : "#007AFF") : "#8A9099";
 
       // 진입점 삼각 마커 (모든 교차에 항상 그린다)
-      const sz = acted ? 7 : 5.5;
+      // 프리미엄 선 위에 올라오도록 흰 테두리를 두껍게 준다.
+      const sz = 7;
       ctx.beginPath();
       if (isBuy) { ctx.moveTo(px, py - sz); ctx.lineTo(px - sz + 1, py + sz - 4); ctx.lineTo(px + sz - 1, py + sz - 4); }
       else       { ctx.moveTo(px, py + sz); ctx.lineTo(px - sz + 1, py - sz + 4); ctx.lineTo(px + sz - 1, py - sz + 4); }
       ctx.closePath();
-      ctx.fillStyle = col;
-      ctx.globalAlpha = acted ? 1 : 0.75;
-      ctx.fill();
-      ctx.lineWidth = 1.5; ctx.strokeStyle = "#fff"; ctx.stroke();
-      ctx.globalAlpha = 1;
+      ctx.lineWidth = 2.5; ctx.strokeStyle = "#fff"; ctx.stroke();
+      ctx.fillStyle = col; ctx.fill();
 
       // 배지는 실제 매매신호에만 붙인다 (회색 삼각은 삼각만)
       if (!acted) return;
