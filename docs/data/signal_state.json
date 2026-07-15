@@ -1,5 +1,5 @@
 {
- "position": "flat",
+ "position": "holding",
  "bands": {
   "buy_at": 30.0,
   "sell_at": 24.0
@@ -84,6 +84,13 @@
    "actionable": false,
    "reason": "보유중",
    "backfilled": true
+  },
+  {
+   "type": "BUY",
+   "time_kst": "07-15 09:03",
+   "premium_pct": 33.51,
+   "kr_price": 2096000.0,
+   "adr_price": 188.02
   }
  ]
 }
