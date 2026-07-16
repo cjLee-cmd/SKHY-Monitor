@@ -13,7 +13,7 @@ v2 규칙:
 """
 import json
 import os
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, date
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 HIST = os.path.join(BASE, "docs", "data", "history.json")
@@ -28,6 +28,10 @@ ADAPT_MIN_SAMPLES = 30
 FALLBACK_BUY = 30.0
 FALLBACK_SELL = 24.0
 MAX_LOG = 120
+
+# 구조 단절일: 이 날짜 이후로는 이전 데이터를 δ 계산에서 자동 제외한다.
+# (프리미엄 체제가 바뀌므로 옛 잔차 분포가 무효)
+REGIME_BREAKS = ("2026-07-29",)  # ADR 기초 신주 KRX 상장 + 상호전환 개시 예상일
 
 
 def in_kr_session(t):
@@ -69,7 +73,12 @@ def compute_bands(hist, as_of=None):
     for d in days:
         days[d].sort()
 
-    prior = sorted(d for d in days if d < as_of)
+    cut = None
+    for br in REGIME_BREAKS:
+        brd = date.fromisoformat(br)
+        if as_of >= brd:
+            cut = brd
+    prior = sorted(d for d in days if d < as_of and (cut is None or d >= cut))
     delta = DELTA_DEFAULT
     adaptive = False
     if len(prior) >= ADAPT_MIN_DAYS:
