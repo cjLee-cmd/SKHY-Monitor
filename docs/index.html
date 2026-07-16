@@ -153,9 +153,25 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
 .scroll-table td.t{font-family:var(--font-sf);color:var(--label-secondary);font-size:12px}
 
 .note{font-size:11.5px;color:var(--label-tertiary);margin-top:6px;line-height:1.6}
+
+/* ---- 당겨서 새로고침 (홈 화면 스탠드얼론 대응) ---- */
+#ptr{
+  position:fixed; top:-46px; left:0; right:0; margin:0 auto; width:34px; height:34px;
+  border-radius:50%; background:var(--bg-card);
+  box-shadow:0 2px 10px rgba(0,0,0,.18), inset 0 0 0 0.5px rgba(0,0,0,.05);
+  display:flex; align-items:center; justify-content:center; z-index:200;
+  transition:top .15s ease;
+}
+#ptr svg{width:17px; height:17px; stroke:var(--ios-blue); transition:transform .2s ease}
+#ptr.ready svg{transform:rotate(180deg)}
+#ptr.spin{top:14px !important}
+#ptr.spin svg{animation:spin .7s linear infinite; transform:none}
 </style>
 </head>
 <body>
+<div id="ptr" aria-hidden="true">
+  <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+</div>
 <div class="wrap">
   <header>
     <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.0</span><span>GitHub Actions 24시간 수집</span></h1>
@@ -905,6 +921,41 @@ $("refreshBtn").addEventListener("click", runManualAnalysis);
 
 load();
 setInterval(load, 5 * 60 * 1000);
+
+/* ---- 당겨서 새로고침: 페이지 전체 리로드(데이터+버전 갱신) ---- */
+(function(){
+  var ind = document.getElementById("ptr");
+  if (!ind) return;
+  var startY = 0, pulling = false, dist = 0;
+  var THRESH = 64, MAX = 90;
+  function atTop(){ return (window.scrollY || document.documentElement.scrollTop || 0) <= 0; }
+  window.addEventListener("touchstart", function(e){
+    if (!atTop()){ pulling = false; return; }
+    startY = e.touches[0].clientY; pulling = true; dist = 0;
+  }, {passive:true});
+  window.addEventListener("touchmove", function(e){
+    if (!pulling) return;
+    var dy = e.touches[0].clientY - startY;
+    if (dy <= 0 || !atTop()){ dist = 0; ind.style.top = "-46px"; ind.classList.remove("ready"); return; }
+    dist = Math.min(dy, MAX);
+    ind.style.top = (dist * 0.6 - 46) + "px";
+    ind.classList.toggle("ready", dist >= THRESH);
+  }, {passive:true});
+  function end(){
+    if (!pulling) return;
+    pulling = false;
+    if (dist >= THRESH){
+      ind.classList.remove("ready");
+      ind.classList.add("spin");
+      setTimeout(function(){ location.reload(); }, 300);
+    } else {
+      ind.style.top = "-46px";
+      ind.classList.remove("ready");
+    }
+  }
+  window.addEventListener("touchend", end, {passive:true});
+  window.addEventListener("touchcancel", end, {passive:true});
+})();
 </script>
 </body>
 </html>
