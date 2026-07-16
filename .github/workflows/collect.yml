@@ -41,9 +41,10 @@ jobs:
             git fetch -q origin main
             git reset -q --hard origin/main
             if python3 fetch_prices.py; then
+              python3 bands.py || echo "bands failed"
               python3 analyze.py || echo "analyze failed"
               python3 signal_engine.py || echo "signal failed"
-              git add docs/data/history.json docs/data/analysis_log.json docs/data/signal_state.json
+              git add docs/data/history.json docs/data/analysis_log.json docs/data/signal_state.json docs/data/bands.json
               if git diff --cached --quiet; then
                 echo "no change"
               else
