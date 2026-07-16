@@ -86,7 +86,13 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
 .action-main .buy{background:rgba(0,122,255,.12);color:#1565c0}
 .action-detail{font-size:13.5px;color:var(--label-secondary);margin-top:8px;line-height:1.6}
 .action-detail b{color:var(--label-primary);font-family:var(--font-mono)}
-.action-rules{margin-top:14px;padding-top:12px;border-top:0.5px solid var(--separator);font-size:12px;color:var(--label-secondary);line-height:1.8}
+.action-toggle{margin-top:12px;display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;
+  color:var(--ios-blue);cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}
+.action-toggle .chev{transition:transform .2s ease;font-size:10px}
+.action-fold{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.action.open .action-fold{max-height:520px}
+.action.open .action-toggle .chev{transform:rotate(90deg)}
+.action-rules{margin-top:12px;padding-top:12px;border-top:0.5px solid var(--separator);font-size:12px;color:var(--label-secondary);line-height:1.8}
 .action-rules b{color:var(--label-primary)}
 .action-rules .num{display:inline-block;width:16px;height:16px;border-radius:50%;background:var(--fill-tertiary);color:var(--label-primary);font-size:10px;font-weight:700;text-align:center;line-height:16px;margin-right:5px}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
@@ -192,7 +198,7 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
 </div>
 <div class="wrap">
   <header>
-    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.3</span><span>GitHub Actions 24시간 수집</span></h1>
+    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.4</span><span>GitHub Actions 24시간 수집</span></h1>
     <div class="header-right">
       <button id="refreshBtn" class="refresh-btn">
         <span class="spinner" aria-hidden="true"></span>
@@ -205,8 +211,11 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
   <div class="action wait" id="actionCard">
     <div class="action-label" id="actLabel">지금 할 일</div>
     <div class="action-main" id="actMain">판정 중…</div>
-    <div class="action-detail" id="actDetail"></div>
-    <div class="action-rules" id="actRules"></div>
+    <div class="action-toggle" id="actToggle"><span class="chev">▶</span><span>근거·알고리즘 보기</span></div>
+    <div class="action-fold">
+      <div class="action-detail" id="actDetail"></div>
+      <div class="action-rules" id="actRules"></div>
+    </div>
   </div>
 
   <div class="hero">
@@ -882,7 +891,10 @@ function renderAction(){
       " 신호 발생 시 푸시 알림이 갑니다.";
   }
 
-  card.className = "action " + cls;
+  // 신호 발동(go-us/go-kr) 시 자동 펼침, 행동 없음이면 접힌 상태 유지
+  const active = (cls === "go-us" || cls === "go-kr");
+  card.className = "action " + cls + (active ? " open" : "");
+  $("actToggle").querySelector("span:last-child").textContent = active ? "실행 방법·알고리즘 보기" : "근거·알고리즘 보기";
   $("actLabel").textContent = label;
   $("actMain").innerHTML = main;
   $("actDetail").innerHTML = detail;
@@ -1044,6 +1056,10 @@ $("rangeBtns").addEventListener("click", function(e){
 });
 
 $("refreshBtn").addEventListener("click", runManualAnalysis);
+
+$("actToggle").addEventListener("click", function(){
+  $("actionCard").classList.toggle("open");
+});
 
 load();
 setInterval(load, 5 * 60 * 1000);
