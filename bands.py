@@ -22,9 +22,9 @@ KST = timezone(timedelta(hours=9))
 
 LOOKBACK_DAYS = 10
 DELTA_DEFAULT = 2.0
-MIN_DELTA = 1.5
-ADAPT_MIN_DAYS = 5
-ADAPT_MIN_SAMPLES = 50
+MIN_DELTA = 2.0     # 실측(7/16): |잔차| 중앙값 2.27 → δ<2는 절반이 밴드 밖(과잉신호)
+ADAPT_MIN_DAYS = 2  # 실측 데이터가 δ=2.0 부적합을 보여 조기 적응 (5→2)
+ADAPT_MIN_SAMPLES = 30
 FALLBACK_BUY = 30.0
 FALLBACK_SELL = 24.0
 MAX_LOG = 120

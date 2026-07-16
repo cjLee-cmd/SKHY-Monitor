@@ -198,7 +198,7 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
 </div>
 <div class="wrap">
   <header>
-    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.6</span><span>GitHub Actions 24시간 수집</span></h1>
+    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.7</span><span>GitHub Actions 24시간 수집</span></h1>
     <div class="header-right">
       <button id="refreshBtn" class="refresh-btn">
         <span class="spinner" aria-hidden="true"></span>
@@ -867,8 +867,9 @@ function renderAction(){
     (b.buy_at !== null ? b.buy_at.toFixed(2) : "—") + "%</b> / 하단 <b>" + (b.sell_at !== null ? b.sell_at.toFixed(2) : "—") + "%</b><br>" +
     "<span class='num'>2</span>한국 보유 중 + 프리미엄 ≤ 하단 → <b>한국 매도 → 미국 매수</b> (미국이 싸짐)<br>" +
     "<span class='num'>3</span>미국 보유 중 + 프리미엄 ≥ 상단 → <b>미국 매도 → 한국 매수</b> (프리미엄 실현)<br>" +
-    "<span class='num'>4</span>실행은 한국장 09:00~15:30만 (미국 주간거래로 동시 체결) · 왕복비용 약 0.5~1.4% 고려<br>" +
-    "<span class='num'>5</span>현재 보유측: <b>" + (side === "KR" ? "한국 본주" : "미국 ADR") + "</b> · 검증 중 가설이며 투자 판단은 본인 책임";
+    "<span class='num'>4</span>안전장치: 2회 연속 관측 확인 · 60분 쿨다운 · 7/27~8/8 한국→미국 억제(신주상장 이벤트)<br>" +
+    "<span class='num'>5</span>실행은 한국장 09:00~15:30만 (미국 주간거래로 동시 체결) · 왕복비용 약 0.5~1.4% 고려<br>" +
+    "<span class='num'>6</span>현재 보유측: <b>" + (side === "KR" ? "한국 본주" : "미국 ADR") + "</b> · 검증 중 가설이며 투자 판단은 본인 책임";
 }
 
 let signalState = null;

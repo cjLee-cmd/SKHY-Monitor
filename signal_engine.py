@@ -139,12 +139,19 @@ def notify(title, body, high=False):
     kakao_send(title + "\n" + body)
 
 
+SWITCH_CONFIRM = 2        # 2회 연속 관측 확인 (실측: 밴드 첫 진입의 17%가 1틱 노이즈)
+SWITCH_COOLDOWN_MIN = 60  # 신호 간 최소 간격(분) — 왕복 뒤집기 방지
+EVENT_GUARD_START = "2026-07-27"  # 7/29 신주상장·상호전환 이벤트 가드
+EVENT_GUARD_END = "2026-08-08"    # 이 기간엔 KR→US 스위칭 억제(수렴 이벤트 직전 비싼 쪽 진입 방지)
+
+
 def process_switch(st, prem, last):
     """스위칭 신호 (보유자 관점: 항상 '싼 시장' 쪽을 보유).
 
     사용자는 한국 본주 보유가 기본(side=KR).
       - 프리미엄 <= 하단(SELL_AT): ADR이 상대적으로 싸짐 → 한국 Sell → 미국 Buy (side KR→US)
       - 프리미엄 >= 상단(BUY_AT): ADR이 상대적으로 비쌈 → 미국 Sell → 한국 Buy (side US→KR)
+    안전장치: 2회 연속 확인 / 60분 쿨다운 / 7/27~8/8 KR→US 억제.
     한국 정규장에서만 호출됨(주간거래 BAQ 동시 체결 전제).
     """
     sw = st.setdefault("switch", {"side": "KR", "signals": []})
@@ -154,17 +161,43 @@ def process_switch(st, prem, last):
     if side == "KR" and prem <= SELL_AT:
         fired = ("KR_TO_US", "한국 매도 → 미국 매수",
                  "프리미엄 {:.2f}% <= 하단 {:.2f}% — 같은 지분을 미국에서 상대적으로 싸게 살 수 있는 구간".format(prem, SELL_AT))
-        sw["side"] = "US"
     elif side == "US" and prem >= BUY_AT:
         fired = ("US_TO_KR", "미국 매도 → 한국 매수",
                  "프리미엄 {:.2f}% >= 상단 {:.2f}% — ADR 프리미엄을 실현하고 싼 한국 본주로 복귀".format(prem, BUY_AT))
-        sw["side"] = "KR"
 
     if not fired:
+        sw["pending"] = 0
         return None
 
+    # 가드 1: 이벤트 기간 KR→US 억제 (수렴 직전에 비싼 ADR로 이동 금지)
+    today = datetime.now(KST).date().isoformat()
+    if fired[0] == "KR_TO_US" and EVENT_GUARD_START <= today <= EVENT_GUARD_END:
+        print("switch: 이벤트 가드({}~{}) — KR→US 신호 억제".format(EVENT_GUARD_START, EVENT_GUARD_END))
+        return None
+
+    # 가드 2: 연속 확인 (SWITCH_CONFIRM회 연속 밴드 밖이어야 발동)
+    sw["pending"] = sw.get("pending", 0) + 1
+    if sw["pending"] < SWITCH_CONFIRM:
+        print("switch: 확인 대기 {}/{} ({})".format(sw["pending"], SWITCH_CONFIRM, fired[1]))
+        return None
+
+    # 가드 3: 쿨다운
+    prev = (sw.get("signals") or [])
+    if prev:
+        try:
+            last_t = datetime.fromisoformat(prev[-1].get("ts", "1970-01-01T00:00:00+00:00"))
+            mins = (datetime.fromisoformat(last["ts"]) - last_t).total_seconds() / 60
+            if mins < SWITCH_COOLDOWN_MIN:
+                print("switch: 쿨다운 {}분 미경과 ({:.0f}분)".format(SWITCH_COOLDOWN_MIN, mins))
+                return None
+        except (ValueError, KeyError):
+            pass
+
+    sw["side"] = "US" if fired[0] == "KR_TO_US" else "KR"
+    sw["pending"] = 0
+
     typ, label, why = fired
-    sig = {"type": typ, "time_kst": last["ts_kst"], "premium_pct": prem,
+    sig = {"type": typ, "time_kst": last["ts_kst"], "ts": last["ts"], "premium_pct": prem,
            "kr_price": last["kr_price"], "adr_price": last["adr_price"], "why": why}
     sw["signals"] = (sw.get("signals") or [])[-(MAX_LOG - 1):] + [sig]
 
