@@ -174,7 +174,7 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
 </div>
 <div class="wrap">
   <header>
-    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.0</span><span>GitHub Actions 24시간 수집</span></h1>
+    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.1</span><span>GitHub Actions 24시간 수집</span></h1>
     <div class="header-right">
       <button id="refreshBtn" class="refresh-btn">
         <span class="spinner" aria-hidden="true"></span>
@@ -947,7 +947,10 @@ setInterval(load, 5 * 60 * 1000);
     if (dist >= THRESH){
       ind.classList.remove("ready");
       ind.classList.add("spin");
-      setTimeout(function(){ location.reload(); }, 300);
+      setTimeout(function(){
+        // 캐시 무력화: HTML 자체를 새로 받아 버전까지 갱신
+        location.replace(location.pathname + "?r=" + Date.now());
+      }, 300);
     } else {
       ind.style.top = "-46px";
       ind.classList.remove("ready");
