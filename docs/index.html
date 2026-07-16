@@ -198,7 +198,7 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
 </div>
 <div class="wrap">
   <header>
-    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.5</span><span>GitHub Actions 24시간 수집</span></h1>
+    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.6</span><span>GitHub Actions 24시간 수집</span></h1>
     <div class="header-right">
       <button id="refreshBtn" class="refresh-btn">
         <span class="spinner" aria-hidden="true"></span>
@@ -729,10 +729,13 @@ const signalPlugin = {
     // --- 우상단 현재 상태 알약 ---
     const last = all[all.length - 1];
     const p = last.premium_pct;
-    let txt, sub, bg, fg;
-    if (p >= bands.buy_at)       { txt = "BUY 한국";  bg = "#007AFF"; fg = "#fff"; sub = p.toFixed(1) + "%"; }
-    else if (p <= bands.sell_at) { txt = "SELL 한국"; bg = "#FF3B30"; fg = "#fff"; sub = p.toFixed(1) + "%"; }
-    else                         { txt = "대기"; bg = "rgba(120,120,128,0.16)"; fg = "#5c6570"; sub = p.toFixed(1) + "%"; }
+    // 스위칭 상태(side) 기반 — 행동 카드와 동일 로직
+    const pside = (signalState && signalState.switch && signalState.switch.side) || "KR";
+    let txt, sub = p.toFixed(1) + "%", bg, fg;
+    if (pside === "KR" && p <= bands.sell_at)      { txt = "SELL→미국"; bg = "#FF3B30"; fg = "#fff"; }
+    else if (pside === "US" && p >= bands.buy_at)  { txt = "BUY→한국";  bg = "#007AFF"; fg = "#fff"; }
+    else if (pside === "KR")                       { txt = "보유 한국"; bg = "rgba(120,120,128,0.16)"; fg = "#5c6570"; }
+    else                                           { txt = "보유 미국"; bg = "rgba(120,120,128,0.16)"; fg = "#5c6570"; }
 
     ctx.font = "700 12px -apple-system, sans-serif";
     const tw = ctx.measureText(txt).width;
@@ -789,9 +792,9 @@ function renderZoneBadge(){
   if (!el || !all.length) return;
   const p = all[all.length-1].premium_pct;
   let txt, bg, fg;
-  if (p >= b.buy_at)       { txt = "현재 매수 구간"; bg = "rgba(255,59,48,.14)"; fg = "#A32D2D"; }
-  else if (p <= b.sell_at) { txt = "현재 청산 구간"; bg = "rgba(0,122,255,.14)"; fg = "#185FA5"; }
-  else                     { txt = "현재 중립"; bg = "rgba(120,120,128,.12)"; fg = "#5c6570"; }
+  if (p >= b.buy_at)       { txt = "프리미엄 상단권"; bg = "rgba(255,59,48,.14)"; fg = "#A32D2D"; }
+  else if (p <= b.sell_at) { txt = "프리미엄 하단권"; bg = "rgba(0,122,255,.14)"; fg = "#185FA5"; }
+  else                     { txt = "프리미엄 중간"; bg = "rgba(120,120,128,.12)"; fg = "#5c6570"; }
   el.textContent = txt + " " + p.toFixed(1) + "%";
   el.style.background = bg;
   el.style.color = fg;
