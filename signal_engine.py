@@ -139,6 +139,45 @@ def notify(title, body, high=False):
     kakao_send(title + "\n" + body)
 
 
+def process_switch(st, prem, last):
+    """스위칭 신호 (보유자 관점: 항상 '싼 시장' 쪽을 보유).
+
+    사용자는 한국 본주 보유가 기본(side=KR).
+      - 프리미엄 <= 하단(SELL_AT): ADR이 상대적으로 싸짐 → 한국 Sell → 미국 Buy (side KR→US)
+      - 프리미엄 >= 상단(BUY_AT): ADR이 상대적으로 비쌈 → 미국 Sell → 한국 Buy (side US→KR)
+    한국 정규장에서만 호출됨(주간거래 BAQ 동시 체결 전제).
+    """
+    sw = st.setdefault("switch", {"side": "KR", "signals": []})
+    side = sw.get("side", "KR")
+    fired = None
+
+    if side == "KR" and prem <= SELL_AT:
+        fired = ("KR_TO_US", "한국 매도 → 미국 매수",
+                 "프리미엄 {:.2f}% <= 하단 {:.2f}% — 같은 지분을 미국에서 상대적으로 싸게 살 수 있는 구간".format(prem, SELL_AT))
+        sw["side"] = "US"
+    elif side == "US" and prem >= BUY_AT:
+        fired = ("US_TO_KR", "미국 매도 → 한국 매수",
+                 "프리미엄 {:.2f}% >= 상단 {:.2f}% — ADR 프리미엄을 실현하고 싼 한국 본주로 복귀".format(prem, BUY_AT))
+        sw["side"] = "KR"
+
+    if not fired:
+        return None
+
+    typ, label, why = fired
+    sig = {"type": typ, "time_kst": last["ts_kst"], "premium_pct": prem,
+           "kr_price": last["kr_price"], "adr_price": last["adr_price"], "why": why}
+    sw["signals"] = (sw.get("signals") or [])[-(MAX_LOG - 1):] + [sig]
+
+    body = ("{}\n프리미엄 {:.2f}% ({})\n한국 {:,.0f}원 / ADR ${:.2f}\n"
+            "실행: 한국장 중 주간거래(BAQ)로 양다리 동시 체결 권장\n"
+            "주의: 미국측 차익은 22% 과세, 환전비용 확인\n"
+            "* 검증 중인 가설입니다. 투자 판단은 본인 책임.").format(
+        why, prem, last["ts_kst"], last["kr_price"], last["adr_price"])
+    notify("[SKHY] 스위칭: " + label, body, high=True)
+    print("SWITCH {}: {} @ {}".format(typ, why, last["ts_kst"]))
+    return sig
+
+
 def main():
     hist = json.load(open(HIST, encoding="utf-8"))
     if not hist:
@@ -188,6 +227,10 @@ def main():
             st["position"] = "flat"
             st.pop("entry_price", None)
             st.pop("peak_price", None)
+
+    # 스위칭 신호 (v2 포지션 신호와 독립, 같은 밴드 사용)
+    if process_switch(st, prem, last):
+        save_state(st)
 
     if fired:
         sig = {"type": fired, "time_kst": last["ts_kst"], "premium_pct": prem,

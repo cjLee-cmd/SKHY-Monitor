@@ -174,7 +174,7 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
 </div>
 <div class="wrap">
   <header>
-    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.1</span><span>GitHub Actions 24시간 수집</span></h1>
+    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.2</span><span>GitHub Actions 24시간 수집</span></h1>
     <div class="header-right">
       <button id="refreshBtn" class="refresh-btn">
         <span class="spinner" aria-hidden="true"></span>
@@ -248,13 +248,15 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
     </div>
 
     <div class="panel">
-      <h3>프리미엄 추이 <span id="zoneBadge" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span></h3>
-      <div class="cap">밴드를 넘은 <b>모든 진입점</b>에 삼각형이 찍힙니다. 실제 매매신호는 <b>컬러 삼각+배지</b>, 교차했으나 체결되지 않은 지점(이미 보유중·미보유·장외)은 <b>회색 삼각</b>입니다. <b>검증 중인 가설(규칙 v1)</b>이므로 투자 근거로 쓰지 마세요.</div>
+      <h3>프리미엄 추이 <span id="zoneBadge" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span><span id="switchBadge" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span></h3>
+      <div class="cap">밴드를 넘은 <b>모든 진입점</b>에 삼각형이 찍힙니다. 실제 매매신호는 <b>컬러 삼각+배지</b>, 미체결 교차는 <b>회색 삼각</b>. <b>다이아몬드(◆)는 보유자 스위칭 신호</b> — 보라 ◆ = 한국 매도→미국 매수(하단 이탈), 초록 ◆ = 미국 매도→한국 매수(상단 돌파). <b>검증 중인 가설</b>이므로 투자 근거로 쓰지 마세요.</div>
       <div class="legend" style="margin-bottom:10px">
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(255,59,48,.16);border:1px solid rgba(255,59,48,.45)"></i>매수 구간<b id="lgBuy">≥--%</b></span>
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(120,120,128,.10);border:1px solid rgba(120,120,128,.3)"></i>중립</span>
         <span><i class="sw" style="height:11px;width:13px;border-radius:3px;background:rgba(0,122,255,.14);border:1px solid rgba(0,122,255,.45)"></i>청산 구간<b id="lgSell">≤--%</b></span>
         <span><i class="sw" style="height:0;width:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:8px solid #8E8E93;border-radius:0;background:none"></i>밴드 교차(미체결)</span>
+        <span><i class="sw" style="height:9px;width:9px;border-radius:2px;background:#AF52DE;transform:rotate(45deg)"></i>한국→미국 스위칭</span>
+        <span><i class="sw" style="height:9px;width:9px;border-radius:2px;background:#34C759;transform:rotate(45deg)"></i>미국→한국 스위칭</span>
         <span style="margin-left:auto;color:var(--label-tertiary)">세로 음영 = 정규장 시간대</span>
       </div>
       <div class="chart-box"><canvas id="chart" role="img" aria-label="ADR 프리미엄 추이"></canvas></div>
@@ -699,6 +701,36 @@ const signalPlugin = {
       ctx.fillText(label, bx + bw / 2, by + BH / 2 + 0.5);
     });
 
+    // --- 스위칭 신호 다이아몬드 (보유자 관점: 한국↔미국 갈아타기) ---
+    const swSigs = (signalState && signalState.switch && signalState.switch.signals) || [];
+    ctx.font = "600 10px -apple-system, sans-serif";
+    swSigs.forEach(function(g){
+      const row = all.find(function(r){ return r.ts_kst === g.time_kst; });
+      if (!row) return;
+      const px = x.getPixelForValue(tms(row));
+      if (px < a.left - 2 || px > a.right + 2) return;
+      const py = y.getPixelForValue(g.premium_pct);
+      const toUS = g.type === "KR_TO_US";
+      const col = toUS ? "#AF52DE" : "#34C759";
+      // 다이아몬드
+      const s = 7;
+      ctx.beginPath();
+      ctx.moveTo(px, py - s); ctx.lineTo(px + s, py); ctx.lineTo(px, py + s); ctx.lineTo(px - s, py);
+      ctx.closePath();
+      ctx.lineWidth = 2.5; ctx.strokeStyle = "#fff"; ctx.stroke();
+      ctx.fillStyle = col; ctx.fill();
+      // 배지: 어느 시장에서 Sell/Buy 하는지
+      const label = toUS ? "한국 Sell → 미국 Buy" : "미국 Sell → 한국 Buy";
+      const bw = ctx.measureText(label).width + 12, BH2 = 17;
+      let bx = Math.max(a.left + 2, Math.min(a.right - bw - 2, px - bw / 2));
+      let by = toUS ? py + 14 : py - 14 - BH2;   // 하단이탈은 아래, 상단돌파는 위
+      by = Math.max(a.top + 2, Math.min(a.bottom - BH2 - 2, by));
+      ctx.fillStyle = col;
+      ctx.beginPath(); ctx.roundRect(bx, by, bw, BH2, 3); ctx.fill();
+      ctx.fillStyle = "#fff"; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+      ctx.fillText(label, bx + bw / 2, by + BH2 / 2 + 0.5);
+    });
+
     // --- 우상단 현재 상태 알약 ---
     const last = all[all.length - 1];
     const p = last.premium_pct;
@@ -770,6 +802,19 @@ function renderZoneBadge(){
   el.textContent = txt + " " + p.toFixed(1) + "%";
   el.style.background = bg;
   el.style.color = fg;
+
+  // 스위칭 상태 배지: 현재 보유 권장 시장
+  const sb = document.getElementById("switchBadge");
+  if (sb) {
+    const side = (signalState && signalState.switch && signalState.switch.side) || "KR";
+    if (side === "KR") {
+      sb.textContent = "보유측: 한국 본주";
+      sb.style.background = "rgba(52,199,89,.14)"; sb.style.color = "#1e7d3c";
+    } else {
+      sb.textContent = "보유측: 미국 ADR";
+      sb.style.background = "rgba(175,82,222,.14)"; sb.style.color = "#7d3ca8";
+    }
+  }
 }
 
 let signalState = null;
