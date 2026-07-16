@@ -198,7 +198,7 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
 </div>
 <div class="wrap">
   <header>
-    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.7</span><span>GitHub Actions 24시간 수집</span></h1>
+    <h1>SK하이닉스 괴리율 모니터<span class="ver">v2.8</span><span>GitHub Actions 24시간 수집</span></h1>
     <div class="header-right">
       <button id="refreshBtn" class="refresh-btn">
         <span class="spinner" aria-hidden="true"></span>
@@ -215,6 +215,16 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
     <div class="action-fold">
       <div class="action-detail" id="actDetail"></div>
       <div class="action-rules" id="actRules"></div>
+    </div>
+  </div>
+
+  <div class="panel" id="fcCard" style="display:none">
+    <h3>내일 개장 예측 <span id="fcStatus" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px;background:rgba(255,149,0,.14);color:#b36b00"></span></h3>
+    <div class="cap" id="fcNote"></div>
+    <div class="stats" style="margin-top:8px">
+      <div class="stat"><div class="l">개장 프리미엄 P0 예측</div><div class="v" id="fcP0">--</div></div>
+      <div class="stat"><div class="l">본주 개장 갭 예측</div><div class="v" id="fcGap">--</div></div>
+      <div class="stat"><div class="l">근거 입력</div><div class="v" id="fcInput" style="font-size:13px">--</div></div>
     </div>
   </div>
 
@@ -526,6 +536,7 @@ async function load(){
   $("lgGap").style.color = lastUs >= last.kr_price ? "var(--up)" : "var(--down)";
 
   await loadSignals();
+  await loadForecast();
   renderAction();
   renderFairValue();
   renderTable();
@@ -872,6 +883,65 @@ function renderAction(){
     "<span class='num'>6</span>현재 보유측: <b>" + (side === "KR" ? "한국 본주" : "미국 ADR") + "</b> · 검증 중 가설이며 투자 판단은 본인 책임";
 }
 
+let forecastData = null;
+async function loadForecast(){
+  try {
+    const res = await fetch("data/forecast.json?t=" + Date.now());
+    forecastData = await res.json();
+  } catch (e) { forecastData = null; }
+  const card = $("fcCard");
+  if (!card) return;
+  if (!forecastData || !forecastData.p0_fc) { card.style.display = "none"; return; }
+  const fc = forecastData;
+  card.style.display = "block";
+  $("fcStatus").textContent = (fc.status === "learning" ? "학습 중 " + fc.n_train + "/" + fc.gate_n : "유효") + " · " + fc.stage;
+  $("fcNote").innerHTML = fc.date + " 개장 예측 (" + fc.made_at + " 갱신) — 기준선(M0) 모델. " +
+    "<b>표본 부족 단계로 참고용</b>이며 매매 신호와 무관합니다.";
+  $("fcP0").innerHTML = fc.p0_fc.p50.toFixed(1) + "%" +
+    " <span style='font-size:11px;color:var(--label-tertiary)'>(" + fc.p0_fc.p10.toFixed(1) + "~" + fc.p0_fc.p90.toFixed(1) + ")</span>";
+  const g = fc.gap_fc;
+  $("fcGap").innerHTML = fmtSigned(g.p50, "%") +
+    " <span style='font-size:11px;color:var(--label-tertiary)'>(" + fmtSigned(g.p10,"") + "~" + fmtSigned(g.p90,"") + ")</span>";
+  $("fcGap").style.color = g.p50 >= 0 ? "var(--up)" : "var(--down)";
+  $("fcInput").textContent = "오늘 P0 " + fc.inputs.p0_today.toFixed(1) + "% · 현재 잔차 " + fmtSigned(fc.inputs.x1, "%p");
+}
+
+// 차트에 내일 개장 예측 표시 (마름모 + 구간 막대)
+const forecastPlugin = {
+  id: "forecastMark",
+  afterDatasetsDraw: function(chart){
+    if (!forecastData || !forecastData.p0_fc) return;
+    const a = chart.chartArea, x = chart.scales.x, y = chart.scales.y, ctx = chart.ctx;
+    if (!a || !x || !y) return;
+    const fx = Date.parse(forecastData.date + "T09:00:00+09:00");
+    if (fx < x.min || fx > x.max + 20 * 3600 * 1000) return;
+    const px = Math.min(a.right - 4, x.getPixelForValue(fx));
+    const fc = forecastData.p0_fc;
+    const y10 = y.getPixelForValue(fc.p10), y90 = y.getPixelForValue(fc.p90), y50 = y.getPixelForValue(fc.p50);
+    ctx.save();
+    // 구간 막대
+    ctx.fillStyle = "rgba(255,149,0,0.18)";
+    ctx.fillRect(px - 5, Math.min(y10, y90), 10, Math.abs(y10 - y90));
+    // p50 마름모
+    ctx.beginPath();
+    ctx.moveTo(px, y50 - 7); ctx.lineTo(px + 7, y50); ctx.lineTo(px, y50 + 7); ctx.lineTo(px - 7, y50);
+    ctx.closePath();
+    ctx.lineWidth = 2.5; ctx.strokeStyle = "#fff"; ctx.stroke();
+    ctx.fillStyle = "#FF9500"; ctx.fill();
+    // 라벨
+    ctx.font = "600 10px -apple-system, sans-serif";
+    const label = "내일 개장 예측 " + fc.p50.toFixed(1) + "%";
+    const bw = ctx.measureText(label).width + 12;
+    const bx = Math.max(a.left + 2, Math.min(a.right - bw - 2, px - bw - 10));
+    const by = Math.max(a.top + 2, Math.min(a.bottom - 19, y50 - 8));
+    ctx.fillStyle = "#FF9500";
+    ctx.beginPath(); ctx.roundRect(bx, by, bw, 17, 3); ctx.fill();
+    ctx.fillStyle = "#fff"; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+    ctx.fillText(label, bx + bw / 2, by + 9);
+    ctx.restore();
+  }
+};
+
 let signalState = null;
 async function loadSignals(){
   try {
@@ -884,9 +954,13 @@ function premYRange(rows, bands){
   const vs = rows.map(function(r){ return r.premium_pct; });
   const dLo = vs.length ? Math.min.apply(null, vs) : bands.sell_at;
   const dHi = vs.length ? Math.max.apply(null, vs) : bands.buy_at;
-  // 데이터와 밴드를 모두 포함하고, 밴드 밖으로 최소 3%p 여유를 둔다.
-  const lo = Math.min(dLo, bands.sell_at) - 3;
-  const hi = Math.max(dHi, bands.buy_at) + 3;
+  // 데이터·밴드·예측 구간을 모두 포함하고 3%p 여유를 둔다.
+  let lo = Math.min(dLo, bands.sell_at) - 3;
+  let hi = Math.max(dHi, bands.buy_at) + 3;
+  if (forecastData && forecastData.p0_fc) {
+    lo = Math.min(lo, forecastData.p0_fc.p10 - 1);
+    hi = Math.max(hi, forecastData.p0_fc.p90 + 1);
+  }
   return { min: Math.floor(lo), max: Math.ceil(hi) };
 }
 
@@ -911,19 +985,24 @@ function renderPremChart(){
     (g.type === "BUY" ? buyPts : sellPts).push({ x: x, y: g.premium_pct });
   });
 
+  // 예측 마커가 보이도록 x축을 내일 09:30까지 연장 (24시간·전체 뷰에서)
+  const fxMax = (forecastData && forecastData.p0_fc && rangeH >= 24) ?
+    Date.parse(forecastData.date + "T09:30:00+09:00") : undefined;
+
   if (premChart) {
     premChart.data.datasets[0].data = data;
     premChart.data.datasets[1].data = buyLine;
     premChart.data.datasets[2].data = sellLine;
     premChart.options.scales.y.min = yr.min;
     premChart.options.scales.y.max = yr.max;
+    premChart.options.scales.x.max = fxMax;
     premChart.update();
     return;
   }
 
   premChart = new Chart($("chart"), {
     type: "line",
-    plugins: [sessionPlugin, zonePlugin, signalPlugin],
+    plugins: [sessionPlugin, zonePlugin, signalPlugin, forecastPlugin],
     data: { datasets: [
       { label: "프리미엄", data: data, borderColor: "#FF9500",
         backgroundColor: "rgba(255,149,0,.10)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0, order: 3 },
@@ -962,7 +1041,7 @@ function renderPremChart(){
           }
         } },
       scales: {
-        x: timeScale,
+        x: Object.assign({}, timeScale, fxMax ? { max: fxMax } : {}),
         y: { min: yr.min, max: yr.max, ticks: { callback: function(v){ return v + "%"; } }, grid: { color: "rgba(60,60,67,0.08)" } }
       }
     }
