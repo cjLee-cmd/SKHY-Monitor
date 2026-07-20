@@ -36,6 +36,25 @@ def in_kr_session(t):
     return t.weekday() < 5 and (9 * 60) <= (t.hour * 60 + t.minute) <= (15 * 60 + 30)
 
 
+def stale_or_closed(hist, last):
+    """휴장/가격 정지 감지.
+    1) 수집기가 kr_session='closed'를 보고하면 휴장 (7/17 실측: 휴장일 네이버가 정확히 보고)
+    2) 세션 시간인데 한국가가 4표본 연속 동일하면 데이터 정지로 간주 (이중 안전망)
+    """
+    if last.get("kr_session") == "closed":
+        return "kr_session=closed"
+    day = last.get("ts_kst", "")[:5]
+    recent = [r for r in hist[-12:] if r.get("ts_kst", "").startswith(day)]
+    sess = []
+    for r in recent:
+        t = datetime.fromisoformat(r["ts"]).astimezone(KST)
+        if in_kr_session(t):
+            sess.append(r["kr_price"])
+    if len(sess) >= 4 and len(set(sess[-4:])) == 1:
+        return "가격 4표본 연속 동일 ({:,.0f})".format(sess[-1])
+    return None
+
+
 def load_state():
     try:
         with open(STATE, encoding="utf-8") as f:
@@ -222,6 +241,12 @@ def main():
 
     st = reconcile(load_state())
     pos = st.get("position", "flat")
+
+    halt = stale_or_closed(hist, last)
+    if halt:
+        save_state(st)
+        print("signal: 휴장/정지 감지 — 판정 스킵 ({} / 프리미엄 {:.2f}%)".format(halt, prem))
+        return
 
     if not in_kr_session(t) or last.get("trusted") is False:
         save_state(st)

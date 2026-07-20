@@ -66,12 +66,23 @@ def compute_bands(hist, as_of=None):
         t = datetime.fromisoformat(r["ts"]).astimezone(KST)
         if not in_kr_session(t):
             continue
+        if r.get("kr_session") == "closed":
+            continue
         d = t.date()
         if d > as_of or d < as_of - timedelta(days=LOOKBACK_DAYS + 7):
             continue
         days.setdefault(d, []).append((t, r["premium_pct"]))
     for d in days:
         days[d].sort()
+    krs = {}
+    for r in hist:
+        if r.get("trusted") is False or r.get("kr_session") == "closed":
+            continue
+        t = datetime.fromisoformat(r["ts"]).astimezone(KST)
+        if in_kr_session(t):
+            krs.setdefault(t.date(), set()).add(r.get("kr_price"))
+    days = {d: v for d, v in days.items()
+            if not (len(v) >= 3 and len(krs.get(d, {1})) == 1)}
 
     cut = None
     for br in REGIME_BREAKS:
