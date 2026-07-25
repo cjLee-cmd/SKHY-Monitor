@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude 증권 — 가상 거래 계좌</title>
+<style>
+:root{
+  --ios-blue:#007AFF; --ios-red:#FF3B30; --ios-orange:#FF9500; --ios-green:#34C759;
+  --ios-gray:#8E8E93; --ios-purple:#AF52DE;
+  --label-primary:rgba(0,0,0,0.92); --label-secondary:rgba(60,60,67,0.6);
+  --label-tertiary:rgba(60,60,67,0.3);
+  --fill-quaternary:rgba(116,118,128,0.08); --fill-tertiary:rgba(118,118,128,0.12);
+  --bg-grouped:rgb(242,242,247); --bg-card:#fff; --separator:rgba(60,60,67,0.22);
+  --glass-fill:rgba(250,250,250,0.72); --glass-blur:saturate(180%) blur(20px);
+  --font-sf:"SF Pro","SF Pro Text",-apple-system,BlinkMacSystemFont,"Pretendard","Apple SD Gothic Neo",sans-serif;
+  --font-mono:"SF Mono",ui-monospace,Menlo,Monaco,monospace;
+  --r-md:14px; --r-lg:18px; --r-xl:22px; --r-pill:9999px;
+  --shadow-1:0 1px 2px rgba(0,0,0,0.05), 0 1px 1px rgba(0,0,0,0.03);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-sf);color:var(--label-primary);
+  background:radial-gradient(1100px 420px at 15% -8%, rgba(0,122,255,0.10), transparent 60%),
+             radial-gradient(900px 380px at 100% 0%, rgba(52,199,89,0.07), transparent 55%),
+             var(--bg-grouped);
+  background-attachment:fixed;padding:0 16px 48px;
+  font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto}
+
+header{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;
+  align-items:center;flex-wrap:wrap;gap:10px;margin:0 -16px 16px;padding:14px 16px;
+  background:var(--glass-fill);-webkit-backdrop-filter:var(--glass-blur);
+  backdrop-filter:var(--glass-blur);border-bottom:0.5px solid rgba(255,255,255,0.6);
+  box-shadow:0 8px 30px rgba(0,0,0,0.08)}
+h1{font-size:19px;font-weight:700;letter-spacing:-.02em;display:flex;align-items:center;gap:8px}
+h1 .badge{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:var(--r-pill);
+  background:var(--fill-tertiary);color:var(--label-secondary);letter-spacing:0}
+.updated{font-size:11.5px;color:var(--label-secondary);display:flex;align-items:center;gap:6px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--ios-green);
+  box-shadow:0 0 0 3px rgba(52,199,89,0.18)}
+.nav{font-size:12px;color:var(--ios-blue);text-decoration:none;font-weight:600}
+
+.hero{background:var(--bg-card);border-radius:var(--r-xl);padding:24px 26px;
+  margin-bottom:14px;box-shadow:var(--shadow-1)}
+.hero-label{font-size:12px;font-weight:600;color:var(--label-secondary);margin-bottom:6px}
+.hero-num{font-size:46px;font-weight:700;letter-spacing:-.03em;font-family:var(--font-mono)}
+.hero-sub{font-size:13px;color:var(--label-secondary);margin-top:6px}
+.hero-row{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.pnl{font-size:20px;font-weight:700;font-family:var(--font-mono)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:14px}
+.acct{background:var(--bg-card);border-radius:var(--r-lg);padding:16px 18px;
+  box-shadow:var(--shadow-1);border-top:3px solid var(--ios-gray)}
+.acct.bm{border-top-color:var(--ios-gray)}
+.acct.s1{border-top-color:var(--ios-blue)}
+.acct.s2{border-top-color:var(--ios-purple)}
+.acct.rsv{border-top-color:var(--label-tertiary)}
+.acct-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.acct-name{font-size:13px;font-weight:600}
+.acct-desc{font-size:10.5px;color:var(--label-tertiary);margin-top:1px}
+.pos{font-size:10px;font-weight:700;padding:3px 8px;border-radius:var(--r-pill)}
+.pos.hold{background:rgba(255,59,48,.12);color:#A32D2D}
+.pos.cash{background:var(--fill-tertiary);color:var(--label-secondary)}
+.pos.stop{background:rgba(255,149,0,.15);color:#8A5200}
+.acct-val{font-size:22px;font-weight:700;font-family:var(--font-mono);letter-spacing:-.02em}
+.acct-ret{font-size:12.5px;font-weight:600;font-family:var(--font-mono);margin-top:2px}
+
+.panel{background:var(--bg-card);border-radius:var(--r-lg);padding:18px 20px;
+  margin-bottom:14px;box-shadow:var(--shadow-1)}
+.panel h3{font-size:13.5px;font-weight:600;margin-bottom:4px}
+.panel .cap{font-size:11.5px;color:var(--label-tertiary);margin-bottom:12px;line-height:1.5}
+.chart-box{position:relative;height:280px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:10px;font-size:12px;color:var(--label-secondary)}
+.legend i{display:inline-block;width:15px;height:3px;border-radius:2px;vertical-align:middle;margin-right:5px}
+.legend b{font-family:var(--font-mono);color:var(--label-primary);margin-left:4px}
+
+.scroll{max-height:340px;overflow-y:auto;border-radius:var(--r-md)}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+thead th{position:sticky;top:0;background:rgba(255,255,255,.9);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+  box-shadow:0 1px 0 var(--separator);text-align:left;color:var(--label-secondary);
+  font-weight:600;padding:7px 8px;z-index:1;font-size:10.5px;text-transform:uppercase;letter-spacing:.03em}
+td{padding:8px;border-top:0.5px solid var(--separator);font-family:var(--font-mono)}
+td.t{font-family:var(--font-sf);color:var(--label-secondary);font-size:12px}
+tr:first-child td{border-top:none}
+.side{font-weight:700;font-size:11px;padding:2px 7px;border-radius:5px}
+.side.BUY{background:rgba(255,59,48,.12);color:#A32D2D}
+.side.SELL{background:rgba(0,122,255,.12);color:#185FA5}
+
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+.rule{background:var(--fill-quaternary);border-radius:var(--r-md);padding:11px 13px}
+.rule .l{font-size:11px;color:var(--label-secondary);margin-bottom:3px}
+.rule .v{font-size:13px;font-weight:600}
+.note{font-size:11.5px;color:var(--label-tertiary);line-height:1.65;margin-top:14px;
+  padding-top:12px;border-top:0.5px solid var(--separator)}
+.empty{text-align:center;padding:40px 20px;color:var(--label-tertiary);font-size:13px;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Claude 증권<span class="badge">가상계좌</span></h1>
+    <div style="display:flex;align-items:center;gap:14px">
+      <a class="nav" href="index.html">← 괴리율 모니터</a>
+      <div class="updated" id="updated"><span class="dot"></span>불러오는 중...</div>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-label">총 자산</div>
+    <div class="hero-row">
+      <div class="hero-num" id="total">—</div>
+      <div class="pnl" id="totalPnl"></div>
+    </div>
+    <div class="hero-sub" id="heroSub">초기자본 1,000,000원 · 2026-07-27 개시</div>
+  </div>
+
+  <div class="grid" id="accts"></div>
+
+  <div class="panel">
+    <h3>전략별 수익곡선</h3>
+    <div class="cap">모든 전략은 벤치마크(본주 단순보유)를 이겨야 의미가 있습니다. 초기자본 대비 % 기준.</div>
+    <div class="legend" id="legend"></div>
+    <div class="chart-box"><canvas id="curve" role="img" aria-label="전략별 누적 수익률 곡선"></canvas></div>
+  </div>
+
+  <div class="panel">
+    <h3>거래 내역</h3>
+    <div class="cap">매매 1회당 0.15%(수수료+세금+슬리피지)를 차감합니다. 모든 체결은 사전 정의된 규칙으로만 발생합니다.</div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>시각</th><th>계좌</th><th>구분</th><th>가격</th><th>수량</th><th>비용</th><th>사유</th></tr></thead>
+        <tbody id="trades"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h3>운영 규칙</h3>
+    <div class="cap">이 계좌의 목적은 수익이 아니라 <b>가설 검증</b>입니다. 현재 6개월 백테스트를 통과한 전략은 없습니다.</div>
+    <div class="rules">
+      <div class="rule"><div class="l">규칙 동결</div><div class="v" id="rFreeze">20거래일까지 수정 금지</div></div>
+      <div class="rule"><div class="l">현재 밴드</div><div class="v" id="rBand">—</div></div>
+      <div class="rule"><div class="l">중단 기준</div><div class="v">전체 −20% / 개별 −30%</div></div>
+      <div class="rule"><div class="l">졸업 조건</div><div class="v">40일·BM+5%p·MDD−15%</div></div>
+    </div>
+    <p class="note">
+      S1은 프리미엄이 매수밴드 이상이면 전량 매수, 청산밴드 이하면 전량 매도합니다.
+      S2는 전일 장중(시가→종가) 하락 시 당일 시가 매수·종가 매도하며 오버나이트 보유를 하지 않습니다.
+      휴장일은 가격 무변동으로 자동 감지해 매매를 건너뜁니다.
+      <b>가상 거래이며 실제 자금이 아닙니다. 투자 판단의 근거로 사용하지 마세요.</b>
+    </p>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+const META = {
+  BM:  {name:"BM",  cls:"bm",  color:"#8E8E93", desc:"본주 단순보유 (벤치마크)"},
+  S1:  {name:"S1",  cls:"s1",  color:"#007AFF", desc:"프리미엄 밴드"},
+  S2:  {name:"S2",  cls:"s2",  color:"#AF52DE", desc:"익일 장중 되돌림"},
+  RSV: {name:"RSV", cls:"rsv", color:"#C7C7CC", desc:"예비 현금"}
+};
+const won = n => Math.round(n).toLocaleString("ko-KR") + "원";
+const pct = n => (n>0?"+":"") + n.toFixed(2) + "%";
+const col = n => n>0.005 ? "var(--ios-red)" : (n<-0.005 ? "var(--ios-blue)" : "var(--label-secondary)");
+let chart = null;
+
+async function load(){
+  let st;
+  try {
+    const r = await fetch("data/accounts.json?t=" + Date.now());
+    st = await r.json();
+  } catch(e) {
+    document.getElementById("updated").innerHTML =
+      "<span class='dot' style='background:var(--ios-orange)'></span>개시 대기";
+    document.getElementById("accts").innerHTML =
+      "<div class='empty' style='grid-column:1/-1'>아직 거래가 시작되지 않았습니다.<br>2026년 7월 27일(월) 09:00에 자동 개시됩니다.</div>";
+    return;
+  }
+
+  const daily = st.daily || [];
+  const accounts = st.accounts || {};
+  const initTotal = Object.values(accounts).reduce((s,a)=>s+a.init, 0) || 1000000;
+  const last = daily.length ? daily[daily.length-1] : null;
+  const price = last ? last.price : 0;
+
+  // 총자산
+  let total = 0;
+  for (const k in accounts) total += accounts[k].cash + accounts[k].shares * price;
+  const ret = total/initTotal - 1;
+  document.getElementById("total").textContent = won(total);
+  const pe = document.getElementById("totalPnl");
+  pe.textContent = pct(ret*100) + "  (" + (total-initTotal>=0?"+":"") + won(total-initTotal) + ")";
+  pe.style.color = col(ret);
+  document.getElementById("updated").innerHTML =
+    "<span class='dot'></span>" + (last ? last.ts : "-");
+  document.getElementById("heroSub").textContent =
+    "초기자본 " + won(initTotal) + " · " + (st.start_date||"") + " 개시 · 거래 " + (st.trades||[]).length + "회";
+
+  // 계좌 카드
+  document.getElementById("accts").innerHTML = Object.keys(META)
+    .filter(k => accounts[k])
+    .map(k => {
+      const a = accounts[k], m = META[k];
+      const eq = a.cash + a.shares*price;
+      const r = eq/a.init - 1;
+      const cls = a.stopped ? "stop" : (a.shares>0 ? "hold" : "cash");
+      const txt = a.stopped ? "중단" : (a.shares>0 ? "보유" : "현금");
+      return `<div class="acct ${m.cls}">
+        <div class="acct-head">
+          <div><div class="acct-name">${m.name}</div><div class="acct-desc">${m.desc}</div></div>
+          <span class="pos ${cls}">${txt}</span>
+        </div>
+        <div class="acct-val">${won(eq)}</div>
+        <div class="acct-ret" style="color:${col(r)}">${pct(r*100)}</div>
+      </div>`;
+    }).join("");
+
+  // 수익곡선
+  const keys = Object.keys(META).filter(k => accounts[k] && k !== "RSV");
+  document.getElementById("legend").innerHTML = keys.map(k=>{
+    const a = accounts[k], eq = a.cash + a.shares*price;
+    return `<span><i style="background:${META[k].color}"></i>${META[k].desc}<b style="color:${col(eq/a.init-1)}">${pct((eq/a.init-1)*100)}</b></span>`;
+  }).join("");
+
+  const labels = daily.map(d => d.date.slice(5));
+  const ds = keys.map(k => ({
+    label: META[k].desc,
+    data: daily.map(d => (d[k]/accounts[k].init - 1)*100),
+    borderColor: META[k].color, borderWidth: k==="BM"?2:2.5,
+    borderDash: k==="BM"?[5,4]:[], tension:.25, pointRadius:0, pointHoverRadius:4, fill:false
+  }));
+
+  if (chart) chart.destroy();
+  chart = new Chart(document.getElementById("curve"), {
+    type:"line", data:{labels, datasets:ds},
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      interaction:{mode:"index",intersect:false},
+      plugins:{legend:{display:false},
+        tooltip:{callbacks:{label:c=>c.dataset.label+" "+pct(c.parsed.y)}}},
+      scales:{
+        y:{ticks:{callback:v=>(v>0?"+":"")+v+"%"},grid:{color:"rgba(60,60,67,0.08)"}},
+        x:{grid:{display:false},ticks:{maxTicksLimit:10}}
+      }
+    }
+  });
+
+  // 거래 내역
+  const tr = (st.trades||[]).slice().reverse();
+  document.getElementById("trades").innerHTML = tr.length ? tr.map(t=>`
+    <tr><td class="t">${t.ts}</td>
+      <td>${t.acct}</td>
+      <td><span class="side ${t.side}">${t.side==="BUY"?"매수":"매도"}</span></td>
+      <td>${Math.round(t.price).toLocaleString()}</td>
+      <td>${t.shares.toFixed(4)}</td>
+      <td>${Math.round(t.fee).toLocaleString()}</td>
+      <td class="t" style="font-size:11.5px">${t.reason}</td></tr>`).join("")
+    : "<tr><td class='t' colspan='7'>거래 없음</td></tr>";
+
+  // 밴드
+  const bc = st.band_changes || [];
+  const cb = st.current_band || (bc.length ? bc[bc.length-1] : null);
+  document.getElementById("rBand").textContent = cb
+    ? `≥${cb.buy_at}% / ≤${cb.sell_at}%` + (cb.provisional?" (임시)":"")
+    : "—";
+
+  // 동결 잔여
+  const dayCount = daily.length;
+  document.getElementById("rFreeze").textContent =
+    dayCount >= 20 ? "동결 해제 (수정 가능)" : `${20-dayCount}거래일 남음`;
+}
+
+load();
+setInterval(load, 5*60*1000);
+</script>
+</body>
+</html>
