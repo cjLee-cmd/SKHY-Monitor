@@ -155,8 +155,8 @@ def yahoo_last_trade(symbol):
     return price
 
 
-def naver_kr():
-    url = "https://polling.finance.naver.com/api/realtime/domestic/stock/000660"
+def naver_kr(code="000660"):
+    url = "https://polling.finance.naver.com/api/realtime/domestic/stock/" + code
     j = http_json(url, {"User-Agent": "Mozilla/5.0",
                         "Referer": "https://finance.naver.com"})
     d = j["datas"][0]
@@ -210,6 +210,18 @@ def main():
         s = us_session_kst(datetime.now(KST))
         adr_session = "stale_daytime" if s == "daytime" else s
 
+    # 삼성전자(005930) — 밴드 대시보드용. 실패해도 전체를 멈추지 않는다.
+    ss_price = None
+    try:
+        ss_price, _ = naver_kr("005930")
+    except Exception as e:
+        print("삼성전자 네이버 실패:", e)
+    if not ss_price:
+        try:
+            ss_price = yahoo_last_trade("005930.KS")
+        except Exception as e:
+            print("삼성전자 야후도 실패:", e)
+
     usdkrw = yahoo_last_trade("KRW=X")
 
     if not (kr_price and adr_price and usdkrw):
@@ -223,6 +235,7 @@ def main():
         "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "ts_kst": datetime.now(KST).strftime("%m-%d %H:%M"),
         "kr_price": kr_price,
+        "ss_price": round(ss_price) if ss_price else None,
         "adr_price": round(adr_price, 4),
         "usdkrw": round(usdkrw, 2),
         "parity_usd": round(parity, 2),
