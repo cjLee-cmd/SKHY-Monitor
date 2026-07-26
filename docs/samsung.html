@@ -2,257 +2,274 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#f2f2f7">
 <title>삼성전자 밴드 모니터</title>
 <style>
 :root{
-  --ios-blue:#007AFF; --ios-red:#FF3B30; --ios-orange:#FF9500; --ios-green:#34C759;
-  --ios-gray:#8E8E93; --ios-purple:#AF52DE;
-  --label-primary:rgba(0,0,0,0.92); --label-secondary:rgba(60,60,67,0.6);
-  --label-tertiary:rgba(60,60,67,0.32);
-  --fill-quaternary:rgba(116,118,128,0.08); --fill-tertiary:rgba(118,118,128,0.12);
-  --bg-grouped:rgb(242,242,247); --bg-card:#fff; --separator:rgba(60,60,67,0.22);
-  --glass-fill:rgba(250,250,250,0.72); --glass-blur:saturate(180%) blur(20px);
-  --font-sf:"SF Pro","SF Pro Text",-apple-system,BlinkMacSystemFont,"Pretendard","Apple SD Gothic Neo",sans-serif;
-  --font-mono:"SF Mono",ui-monospace,Menlo,Monaco,monospace;
-  --r-md:14px; --r-lg:18px; --r-xl:22px; --r-pill:9999px;
-  --shadow-1:0 1px 2px rgba(0,0,0,0.05), 0 1px 1px rgba(0,0,0,0.03);
+  --blue:#007AFF; --red:#FF3B30; --orange:#FF9500; --green:#34C759; --gray:#8E8E93;
+  --lp:rgba(0,0,0,0.92); --ls:rgba(60,60,67,0.6); --lt:rgba(60,60,67,0.32);
+  --fill4:rgba(116,118,128,0.08); --fill3:rgba(118,118,128,0.12);
+  --bg:rgb(242,242,247); --card:#fff; --sep:rgba(60,60,67,0.2);
+  --glass:rgba(250,250,250,0.75);
+  --sf:"SF Pro","SF Pro Text",-apple-system,BlinkMacSystemFont,"Pretendard","Apple SD Gothic Neo",sans-serif;
+  --mono:"SF Mono",ui-monospace,Menlo,Monaco,monospace;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 1px 1px rgba(0,0,0,.03);
 }
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:var(--font-sf);color:var(--label-primary);
-  background:radial-gradient(1100px 420px at 15% -8%, rgba(0,122,255,0.09), transparent 60%),
-             radial-gradient(900px 380px at 100% 0%, rgba(255,149,0,0.06), transparent 55%),
-             var(--bg-grouped);
-  background-attachment:fixed;padding:0 16px 48px;
-  font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1000px;margin:0 auto}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:var(--sf);color:var(--lp);background:var(--bg);
+  padding:0 12px calc(32px + env(safe-area-inset-bottom));
+  font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased;
+  overscroll-behavior-y:contain}
+.wrap{max-width:900px;margin:0 auto}
+
 header{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;
-  align-items:center;flex-wrap:wrap;gap:10px;margin:0 -16px 16px;padding:14px 16px;
-  background:var(--glass-fill);-webkit-backdrop-filter:var(--glass-blur);
-  backdrop-filter:var(--glass-blur);border-bottom:0.5px solid rgba(255,255,255,0.6);
-  box-shadow:0 8px 30px rgba(0,0,0,0.08)}
-h1{font-size:19px;font-weight:700;letter-spacing:-.02em;display:flex;align-items:center;gap:8px}
-h1 .tag{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:var(--r-pill);
-  background:var(--fill-tertiary);color:var(--label-secondary)}
-.nav{font-size:12px;color:var(--ios-blue);text-decoration:none;font-weight:600}
-.updated{font-size:11.5px;color:var(--label-secondary);display:flex;align-items:center;gap:6px}
-.dot{width:7px;height:7px;border-radius:50%;background:var(--ios-green);box-shadow:0 0 0 3px rgba(52,199,89,.18)}
+  align-items:center;gap:8px;margin:0 -12px 12px;
+  padding:calc(10px + env(safe-area-inset-top)) 14px 10px;
+  background:var(--glass);-webkit-backdrop-filter:saturate(180%) blur(20px);
+  backdrop-filter:saturate(180%) blur(20px);border-bottom:.5px solid rgba(255,255,255,.7)}
+h1{font-size:16px;font-weight:700;letter-spacing:-.02em;white-space:nowrap}
+h1 .tag{font-size:9.5px;font-weight:700;padding:2px 7px;border-radius:9999px;
+  background:var(--fill3);color:var(--ls);margin-left:6px;vertical-align:2px}
+.hdr-r{display:flex;align-items:center;gap:10px;font-size:11px}
+.nav{color:var(--blue);text-decoration:none;font-weight:600;white-space:nowrap}
+.upd{color:var(--ls);display:flex;align-items:center;gap:5px;white-space:nowrap}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px rgba(52,199,89,.18)}
 
-.hero{background:var(--bg-card);border-radius:var(--r-xl);padding:24px 26px;margin-bottom:14px;box-shadow:var(--shadow-1)}
-.hero-label{font-size:12px;font-weight:600;color:var(--label-secondary);margin-bottom:6px}
-.hero-row{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
-.hero-num{font-size:46px;font-weight:700;letter-spacing:-.03em;font-family:var(--font-mono)}
-.verdict{font-size:15px;font-weight:700;padding:5px 14px;border-radius:var(--r-pill)}
+.card{background:var(--card);border-radius:16px;padding:16px;margin-bottom:12px;box-shadow:var(--shadow)}
+.lbl{font-size:11.5px;font-weight:600;color:var(--ls);margin-bottom:5px}
 
-/* 밴드 게이지 */
-.gauge-wrap{margin-top:24px}
-.gauge{position:relative;height:56px}
-.gtrack{position:absolute;top:20px;left:0;right:0;height:14px;border-radius:7px;overflow:hidden;display:flex}
-.gseg{height:100%}
-.gpin{position:absolute;top:12px;width:4px;height:30px;border-radius:2px;background:var(--label-primary);
-  transform:translateX(-50%);transition:left .6s cubic-bezier(.32,.72,0,1);
-  box-shadow:0 0 0 3px rgba(255,255,255,.9)}
-.glab{position:absolute;font-size:10.5px;color:var(--label-tertiary);white-space:nowrap;top:38px}
-.gtop{position:absolute;font-size:10px;font-weight:600;top:2px;white-space:nowrap}
-.bandinfo{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:22px}
-.bi{background:var(--fill-quaternary);border-radius:var(--r-md);padding:11px 13px}
-.bi .l{font-size:11px;color:var(--label-secondary);margin-bottom:3px}
-.bi .v{font-size:17px;font-weight:700;font-family:var(--font-mono)}
+/* 히어로 */
+.hrow{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.price{font-size:34px;font-weight:700;letter-spacing:-.03em;font-family:var(--mono)}
+.verdict{font-size:13px;font-weight:700;padding:4px 11px;border-radius:9999px}
+.sub{font-size:12px;color:var(--ls);margin-top:5px}
 
-.panel{background:var(--bg-card);border-radius:var(--r-lg);padding:18px 20px;margin-bottom:14px;box-shadow:var(--shadow-1)}
-.panel h3{font-size:13.5px;font-weight:600;margin-bottom:4px}
-.panel .cap{font-size:11.5px;color:var(--label-tertiary);margin-bottom:12px;line-height:1.55}
-table{width:100%;border-collapse:collapse;font-size:12.5px}
-thead th{text-align:left;color:var(--label-secondary);font-weight:600;padding:7px 8px;
-  font-size:10.5px;text-transform:uppercase;letter-spacing:.03em;border-bottom:1px solid var(--separator)}
-td{padding:8px;border-top:0.5px solid var(--separator);font-family:var(--font-mono)}
-td.t{font-family:var(--font-sf);color:var(--label-secondary);font-size:12px}
-tr:first-child td{border-top:none}
-.zone{width:8px;height:8px;border-radius:2px;display:inline-block;margin-right:6px}
-.bar{height:16px;border-radius:3px;background:var(--ios-blue);opacity:.75}
-.note{font-size:11.5px;color:var(--label-tertiary);line-height:1.65;margin-top:14px;
-  padding-top:12px;border-top:0.5px solid var(--separator)}
-.empty{text-align:center;padding:36px;color:var(--label-tertiary);font-size:13px;line-height:1.7}
+/* 밴드 차트 */
+.chart-box{position:relative;width:100%;height:250px;margin-top:6px}
+.legend{display:flex;flex-wrap:wrap;gap:10px 14px;margin:10px 0 4px;font-size:11px;color:var(--ls)}
+.legend i{display:inline-block;width:13px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:4px}
+
+/* 밴드 요약 */
+.bgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
+.b{background:var(--fill4);border-radius:11px;padding:9px 11px}
+.b .l{font-size:10.5px;color:var(--ls);margin-bottom:2px}
+.b .v{font-size:15px;font-weight:700;font-family:var(--mono)}
+
+/* 매물대 */
+.vp{display:flex;flex-direction:column;gap:5px}
+.vprow{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;
+  padding:7px 9px;border-radius:9px;background:var(--fill4);font-size:12px}
+.vprow.here{background:rgba(255,149,0,.12);box-shadow:inset 0 0 0 1.5px rgba(255,149,0,.35)}
+.vpbar{height:5px;border-radius:3px;margin-top:4px}
+.vpname{font-family:var(--mono);font-size:12px}
+.vprole{font-size:10.5px;color:var(--ls)}
+
+/* 표 */
+.tbl{display:flex;flex-direction:column;gap:1px;background:var(--sep);border-radius:11px;overflow:hidden}
+.tr{display:grid;grid-template-columns:1.4fr 1fr .8fr;gap:6px;background:var(--card);
+  padding:9px 11px;font-size:12.5px;align-items:center}
+.tr.h{background:var(--fill4);font-size:10.5px;color:var(--ls);font-weight:600;
+  text-transform:uppercase;letter-spacing:.02em}
+.tr .n{font-family:var(--sf);color:var(--ls);font-size:11.5px}
+.tr .v{font-family:var(--mono)}
+
+.exit{font-size:12px;line-height:1.6}
+.exit b{display:block;margin-top:8px;font-size:12px}
+.note{font-size:11px;color:var(--lt);line-height:1.6;margin-top:12px;padding-top:10px;border-top:.5px solid var(--sep)}
+
+@media (min-width:640px){
+  body{padding:0 16px 48px}
+  h1{font-size:19px}
+  .price{font-size:44px}
+  .chart-box{height:320px}
+  .bgrid{grid-template-columns:repeat(4,1fr)}
+  .card{padding:20px 22px}
+}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>삼성전자 밴드 모니터<span class="tag">005930</span></h1>
-    <div style="display:flex;align-items:center;gap:14px">
-      <a class="nav" href="index.html">← 괴리율</a>
-      <a class="nav" href="trading.html">Claude 증권 →</a>
-      <div class="updated" id="updated"><span class="dot"></span>로딩</div>
+    <h1>삼성전자<span class="tag">005930</span></h1>
+    <div class="hdr-r">
+      <a class="nav" href="index.html">괴리율</a>
+      <a class="nav" href="trading.html">증권</a>
+      <span class="upd" id="upd"><span class="dot"></span>로딩</span>
     </div>
   </header>
 
-  <div class="hero">
-    <div class="hero-label">현재가</div>
-    <div class="hero-row">
-      <div class="hero-num" id="price">—</div>
-      <div class="verdict" id="verdict"></div>
+  <div class="card">
+    <div class="lbl">현재가</div>
+    <div class="hrow">
+      <span class="price" id="price">—</span>
+      <span class="verdict" id="verdict"></span>
     </div>
+    <div class="sub" id="sub"></div>
 
-    <div class="gauge-wrap">
-      <div class="gauge">
-        <div class="gtrack" id="gtrack"></div>
-        <div class="gpin" id="gpin" style="left:50%"></div>
-        <div class="glab" style="left:0">180,000</div>
-        <div class="glab" id="labLo" style="left:22%">지지 215,000</div>
-        <div class="glab" id="labHi" style="left:66%;transform:translateX(-100%)">저항 280,000</div>
-        <div class="glab" style="right:0">340,000</div>
-      </div>
+    <div class="legend">
+      <span><i style="background:rgba(255,59,48,.20)"></i>저항 280,000↑</span>
+      <span><i style="background:rgba(120,120,128,.12)"></i>밴드</span>
+      <span><i style="background:rgba(0,122,255,.18)"></i>지지 215,000↓</span>
+      <span><i style="background:#FF9500;height:3px"></i>주가</span>
     </div>
+    <div class="chart-box"><canvas id="chart" role="img"
+      aria-label="삼성전자 3개월 주가와 매매 밴드. 상단 저항 28만원, 하단 지지 21.5만원. 6월 18일 36.25만원 고점 후 하락해 현재 밴드 중앙."></canvas></div>
 
-    <div class="bandinfo">
-      <div class="bi"><div class="l">밴드 하단 (지지)</div><div class="v" style="color:var(--ios-blue)">215,000원</div></div>
-      <div class="bi"><div class="l">밴드 상단 (저항)</div><div class="v" style="color:var(--ios-red)">280,000원</div></div>
-      <div class="bi"><div class="l">밴드 내 위치</div><div class="v" id="pos">—</div></div>
-      <div class="bi"><div class="l">고점 대비</div><div class="v" id="fromPeak">—</div></div>
+    <div class="bgrid">
+      <div class="b"><div class="l">저항</div><div class="v" style="color:var(--red)">280,000</div></div>
+      <div class="b"><div class="l">지지</div><div class="v" style="color:var(--blue)">215,000</div></div>
+      <div class="b"><div class="l">밴드 내 위치</div><div class="v" id="pos">—</div></div>
+      <div class="b"><div class="l">고점 대비</div><div class="v" id="peak">—</div></div>
     </div>
   </div>
 
-  <div class="panel">
-    <h3>매물대 (최근 1년 거래대금 분포)</h3>
-    <div class="cap">거래가 많았던 가격대일수록 지지·저항이 강합니다. 현재가 구간이 얇으면 위아래로 쉽게 움직입니다.</div>
-    <table>
-      <thead><tr><th>가격대</th><th>비중</th><th style="width:38%">분포</th><th>역할</th></tr></thead>
-      <tbody id="vp"></tbody>
-    </table>
+  <div class="card">
+    <div class="lbl">매물대 · 최근 1년 거래대금</div>
+    <div class="sub" style="margin:0 0 10px">거래가 많았던 구간일수록 벽이 두껍습니다. 현재가 구간이 얇으면 위아래로 쉽게 밀립니다.</div>
+    <div class="vp" id="vp"></div>
   </div>
 
-  <div class="panel">
-    <h3>이동평균 · 코스피 연동</h3>
-    <div class="cap">삼성전자 베타 1.27 기준. 코스피 수준별 내재가격을 환산했습니다.</div>
-    <table>
-      <thead><tr><th>구분</th><th>값</th><th>현재가 대비</th></tr></thead>
-      <tbody id="ma"></tbody>
-    </table>
+  <div class="card">
+    <div class="lbl">이동평균 · 코스피 환산</div>
+    <div class="sub" style="margin:0 0 10px">베타 1.27 기준 코스피 수준별 내재가격입니다.</div>
+    <div class="tbl" id="tbl"></div>
   </div>
 
-  <div class="panel">
-    <h3>밴드 이탈 조건</h3>
-    <div class="cap">밴드는 횡보를 가정한 지도입니다. 아래 조건이 나오면 무효화됩니다.</div>
-    <table>
-      <thead><tr><th>방향</th><th>트리거</th><th>다음 목표</th></tr></thead>
-      <tbody>
-        <tr><td class="t" style="color:var(--ios-blue)">하향 이탈</td>
-            <td class="t">D램 가격 추가 급락 · 3분기 실적 쇼크 · 120일선(242,386) 붕괴</td>
-            <td>180,000~200,000</td></tr>
-        <tr><td class="t" style="color:var(--ios-red)">상향 이탈</td>
-            <td class="t">AI 캡엑스 가이던스 예상 상회 · 외국인 순매수 전환</td>
-            <td>300,000 이상</td></tr>
-      </tbody>
-    </table>
+  <div class="card">
+    <div class="lbl">밴드 이탈 조건</div>
+    <div class="exit">
+      <b style="color:var(--blue)">하향 이탈 → 180,000~200,000</b>
+      D램 가격 추가 급락 · 3분기 실적 쇼크 · 120일선(242,386) 붕괴
+      <b style="color:var(--red)">상향 이탈 → 300,000 이상</b>
+      AI 캡엑스 가이던스 예상 상회 · 외국인 순매수 전환
+    </div>
     <p class="note">
-      밴드 근거: 매물대 분포 + 코스피 환산(베타 1.27) + 수급 구조(하단 패시브 리밸런싱 약 16조원 발동 / 상단 외국인 지분율 40.24%로 재매도 여력).
-      과거 −30% 낙폭 2회 모두 13~19% 추가 하락했으므로 하단 이탈 가능성도 열려 있습니다.
-      <b>예측이 아니라 시나리오 지도이며, 투자 판단의 근거로 사용하지 마세요.</b>
+      밴드 근거: 매물대 분포 + 코스피 환산(베타 1.27) + 수급 구조(하단 패시브 리밸런싱 약 16조원 / 상단 외국인 지분율 40.24%).
+      과거 −30% 낙폭 2회 모두 13~19% 추가 하락했으므로 하단 이탈도 열려 있습니다.
+      <b>예측이 아니라 시나리오 지도이며, 투자 판단의 근거로 쓰지 마세요.</b>
     </p>
   </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script>
-const LO = 215000, HI = 280000;
-const GMIN = 180000, GMAX = 340000;
-const PEAK = 362500;
-const MA = [
-  {n:"20일선", v:284800}, {n:"60일선", v:295442},
-  {n:"120일선", v:242386}, {n:"200일선", v:189520}
-];
-const KOSPI = [
-  {k:6000, p:216685, tag:"패시브 매수 발동권"},
-  {k:6500, p:240443, tag:""},
-  {k:6691, p:249518, tag:"현재"},
-  {k:7300, p:278455, tag:"PBR 지지선"},
-  {k:8476, p:334332, tag:"6월 고점"}
-];
-const VP = [
-  {lo:320000, hi:340000, w:11.0, role:"강한 저항"},
-  {lo:280000, hi:300000, w:10.3, role:"저항"},
-  {lo:260000, hi:280000, w:9.8,  role:"1차 저항"},
-  {lo:240000, hi:260000, w:3.5,  role:"진공 구간"},
-  {lo:200000, hi:220000, w:8.9,  role:"1차 지지"},
-  {lo:180000, hi:200000, w:11.4, role:"강한 지지"}
-];
-const won = n => Math.round(n).toLocaleString("ko-KR") + "원";
-const pct = n => (n>0?"+":"") + n.toFixed(1) + "%";
+const LO=215000, HI=280000, PEAK=362500;
+const BASE=[["04-22",217500],["04-23",224500],["04-24",219500],["04-27",224500],["04-28",222000],["04-29",226000],["04-30",220500],["05-04",232500],["05-06",266000],["05-07",271500],["05-08",268500],["05-11",285500],["05-12",279000],["05-13",284000],["05-14",296000],["05-15",270500],["05-18",281000],["05-19",275500],["05-20",276000],["05-21",299500],["05-22",292500],["05-26",299000],["05-27",307000],["05-28",299500],["05-29",317000],["06-01",349000],["06-02",360500],["06-04",351500],["06-05",329000],["06-08",295500],["06-09",322000],["06-10",302500],["06-11",299000],["06-12",322500],["06-15",337000],["06-16",343000],["06-17",346500],["06-18",362500],["06-19",354000],["06-22",353500],["06-23",310000],["06-24",340500],["06-25",358500],["06-26",339500],["06-29",323000],["06-30",334000],["07-01",314500],["07-02",286000],["07-03",309500],["07-06",318000],["07-07",296000],["07-08",277500],["07-09",278000],["07-10",285000],["07-13",254500],["07-14",263000],["07-15",279500],["07-16",255000],["07-20",244000],["07-21",259000],["07-22",260500],["07-23",270000],["07-24",249500]];
+const MA=[["20일선",284800],["60일선",295442],["120일선",242386],["200일선",189520]];
+const KS=[[6000,216685,"패시브 매수권"],[6500,240443,""],[6691,249518,"현재"],[7300,278455,"PBR 지지선"],[8476,334332,"6월 고점"]];
+const VP=[[320000,340000,11.0,"강한 저항"],[280000,300000,10.3,"저항"],[260000,280000,9.8,"1차 저항"],
+          [240000,260000,3.5,"진공 구간"],[200000,220000,8.9,"1차 지지"],[180000,200000,11.4,"강한 지지"]];
+const won=n=>Math.round(n).toLocaleString("ko-KR");
+const pc=n=>(n>0?"+":"")+n.toFixed(1)+"%";
+let chart=null;
 
-function paintGauge(price){
-  const segs = [
-    {from:GMIN, to:LO,   c:"rgba(0,122,255,.28)"},
-    {from:LO,   to:HI,   c:"rgba(120,120,128,.16)"},
-    {from:HI,   to:GMAX, c:"rgba(255,59,48,.28)"}
-  ];
-  document.getElementById("gtrack").innerHTML = segs.map(s=>{
-    const w = (s.to-s.from)/(GMAX-GMIN)*100;
-    return `<div class="gseg" style="width:${w}%;background:${s.c}"></div>`;
-  }).join("");
-  const clamp = Math.max(GMIN, Math.min(GMAX, price));
-  document.getElementById("gpin").style.left = ((clamp-GMIN)/(GMAX-GMIN)*100)+"%";
-  document.getElementById("labLo").style.left = ((LO-GMIN)/(GMAX-GMIN)*100)+"%";
-  document.getElementById("labHi").style.left = ((HI-GMIN)/(GMAX-GMIN)*100)+"%";
+const bandZones={
+  id:"bz",
+  beforeDatasetsDraw(c){
+    const a=c.chartArea,y=c.scales.y,x=c.ctx;
+    if(!a||!y)return;
+    const cl=v=>Math.max(a.top,Math.min(a.bottom,y.getPixelForValue(v)));
+    const yHi=cl(HI), yLo=cl(LO);
+    x.save();
+    x.fillStyle="rgba(255,59,48,.13)"; x.fillRect(a.left,a.top,a.right-a.left,yHi-a.top);
+    x.fillStyle="rgba(120,120,128,.07)"; x.fillRect(a.left,yHi,a.right-a.left,yLo-yHi);
+    x.fillStyle="rgba(0,122,255,.12)"; x.fillRect(a.left,yLo,a.right-a.left,a.bottom-yLo);
+    x.setLineDash([5,4]); x.lineWidth=1.2;
+    x.strokeStyle="rgba(255,59,48,.55)"; x.beginPath(); x.moveTo(a.left,yHi); x.lineTo(a.right,yHi); x.stroke();
+    x.strokeStyle="rgba(0,122,255,.55)"; x.beginPath(); x.moveTo(a.left,yLo); x.lineTo(a.right,yLo); x.stroke();
+    x.setLineDash([]);
+    x.font="600 10px -apple-system,sans-serif"; x.textAlign="left";
+    if(yHi>a.top+13){x.fillStyle="rgba(163,45,45,.8)"; x.fillText("저항 "+won(HI),a.left+6,yHi-4);}
+    if(yLo<a.bottom-6){x.fillStyle="rgba(24,95,165,.8)"; x.fillText("지지 "+won(LO),a.left+6,yLo+12);}
+    x.restore();
+  }
+};
+
+function draw(labels,data,liveFrom){
+  const ymin=Math.min(LO-15000,Math.min(...data)-8000);
+  const ymax=Math.max(HI+15000,Math.max(...data)+8000);
+  if(chart)chart.destroy();
+  chart=new Chart(document.getElementById("chart"),{
+    type:"line",plugins:[bandZones],
+    data:{labels,datasets:[{
+      data,borderColor:"#FF9500",borderWidth:2,tension:.2,
+      pointRadius:(c)=>c.dataIndex>=liveFrom?2.5:0,
+      pointBackgroundColor:"#FF9500",pointHoverRadius:5,fill:false
+    }]},
+    options:{responsive:true,maintainAspectRatio:false,
+      interaction:{mode:"index",intersect:false,axis:"x"},
+      plugins:{legend:{display:false},
+        tooltip:{callbacks:{label:c=>{
+          const v=c.parsed.y;
+          const z=v>=HI?"저항권":(v<=LO?"지지권":"밴드 내");
+          return won(v)+"원 · "+z;
+        }}}},
+      scales:{
+        y:{min:ymin,max:ymax,ticks:{callback:v=>(v/10000).toFixed(0)+"만",font:{size:10},color:"#8E8E93"},
+           grid:{color:"rgba(60,60,67,.06)"}},
+        x:{ticks:{maxTicksLimit:6,font:{size:10},color:"#8E8E93",maxRotation:0},grid:{display:false}}
+      }}
+  });
 }
 
 async function load(){
-  let hist;
-  try {
-    const r = await fetch("data/history.json?t="+Date.now());
-    hist = await r.json();
-  } catch(e){
-    document.getElementById("updated").innerHTML="<span class='dot' style='background:var(--ios-orange)'></span>데이터 없음";
-    return;
-  }
-  const withSS = hist.filter(x => x.ss_price);
-  if (!withSS.length){
-    document.getElementById("price").textContent = "수집 대기";
-    document.getElementById("updated").innerHTML =
-      "<span class='dot' style='background:var(--ios-orange)'></span>삼성전자 수집 시작 전";
-    paintGauge(249500);
-    return;
-  }
-  const last = withSS[withSS.length-1];
-  const p = last.ss_price;
+  let live=[];
+  try{
+    const r=await fetch("data/history.json?t="+Date.now());
+    const h=await r.json();
+    const seen={};
+    h.filter(x=>x.ss_price).forEach(x=>{seen[x.ts_kst.slice(0,5)]=x.ss_price;});
+    live=Object.keys(seen).map(k=>[k,seen[k]]);
+  }catch(e){}
 
-  document.getElementById("price").textContent = won(p);
-  document.getElementById("updated").innerHTML = "<span class='dot'></span>"+last.ts_kst+" KST";
+  const map={}; BASE.forEach(([d,v])=>map[d]=v);
+  live.forEach(([d,v])=>map[d]=v);
+  const labels=Object.keys(map), data=labels.map(k=>map[k]);
+  const p=data[data.length-1];
+  const liveFrom=BASE.length;
 
-  let vtxt, vbg, vfg;
-  if (p >= HI)      { vtxt="저항권"; vbg="rgba(255,59,48,.14)"; vfg="#A32D2D"; }
-  else if (p <= LO) { vtxt="지지권"; vbg="rgba(0,122,255,.14)"; vfg="#185FA5"; }
-  else              { vtxt="밴드 내"; vbg="var(--fill-tertiary)"; vfg="var(--label-secondary)"; }
-  const ve = document.getElementById("verdict");
-  ve.textContent = vtxt; ve.style.background = vbg; ve.style.color = vfg;
+  document.getElementById("price").textContent=won(p)+"원";
+  const last=live.length?live[live.length-1][0]:BASE[BASE.length-1][0];
+  document.getElementById("upd").innerHTML="<span class='dot'></span>"+last;
 
-  const posPct = (p-LO)/(HI-LO)*100;
-  document.getElementById("pos").textContent =
-    (posPct<0?"하단 이탈":posPct>100?"상단 돌파":posPct.toFixed(0)+"% 지점");
-  const fp = document.getElementById("fromPeak");
-  fp.textContent = pct((p/PEAK-1)*100);
-  fp.style.color = "var(--ios-blue)";
+  let t,bg,fg;
+  if(p>=HI){t="저항권";bg="rgba(255,59,48,.14)";fg="#A32D2D";}
+  else if(p<=LO){t="지지권";bg="rgba(0,122,255,.14)";fg="#185FA5";}
+  else{t="밴드 내";bg="rgba(120,120,128,.14)";fg="#5c6570";}
+  const v=document.getElementById("verdict");
+  v.textContent=t;v.style.background=bg;v.style.color=fg;
 
-  paintGauge(p);
+  const pp=(p-LO)/(HI-LO)*100;
+  document.getElementById("pos").textContent=pp<0?"이탈":pp>100?"돌파":pp.toFixed(0)+"%";
+  document.getElementById("peak").textContent=pc((p/PEAK-1)*100);
+  document.getElementById("peak").style.color="var(--blue)";
+  document.getElementById("sub").textContent=
+    "저항까지 "+pc((HI/p-1)*100)+" · 지지까지 "+pc((LO/p-1)*100);
 
-  document.getElementById("vp").innerHTML = VP.map(z=>{
-    const here = p>=z.lo && p<z.hi;
-    const col = z.role.indexOf("저항")>=0 ? "var(--ios-red)" :
-                (z.role.indexOf("지지")>=0 ? "var(--ios-blue)" : "var(--ios-gray)");
-    return `<tr${here?' style="background:rgba(255,149,0,.07)"':''}>
-      <td><span class="zone" style="background:${col}"></span>${z.lo.toLocaleString()}~${z.hi.toLocaleString()}${here?" ←현재":""}</td>
-      <td>${z.w.toFixed(1)}%</td>
-      <td><div class="bar" style="width:${z.w/11.4*100}%;background:${col}"></div></td>
-      <td class="t">${z.role}</td></tr>`;
+  draw(labels,data,liveFrom);
+
+  document.getElementById("vp").innerHTML=VP.map(([lo,hi,w,role])=>{
+    const here=p>=lo&&p<hi;
+    const col=role.includes("저항")?"#FF3B30":(role.includes("지지")?"#007AFF":"#8E8E93");
+    return `<div class="vprow${here?" here":""}">
+      <div><div class="vpname">${won(lo)}~${won(hi)}${here?" ←현재":""}</div>
+      <div class="vpbar" style="width:${w/11.4*100}%;background:${col};opacity:.7"></div></div>
+      <div style="text-align:right"><div class="vpname">${w.toFixed(1)}%</div>
+      <div class="vprole">${role}</div></div></div>`;
   }).join("");
 
-  const rows = MA.map(m=>`<tr><td class="t">${m.n}</td><td>${won(m.v)}</td>
-      <td style="color:${p>m.v?'var(--ios-red)':'var(--ios-blue)'}">${pct((p/m.v-1)*100)}</td></tr>`)
-    .concat(KOSPI.map(k=>`<tr><td class="t">코스피 ${k.k.toLocaleString()}${k.tag?" ("+k.tag+")":""}</td>
-      <td>${won(k.p)}</td>
-      <td style="color:${k.p>p?'var(--ios-red)':'var(--ios-blue)'}">${pct((k.p/p-1)*100)}</td></tr>`));
-  document.getElementById("ma").innerHTML = rows.join("");
+  const rows=['<div class="tr h"><span>구분</span><span>값</span><span>대비</span></div>']
+    .concat(MA.map(([n,val])=>`<div class="tr"><span class="n">${n}</span>
+      <span class="v">${won(val)}</span>
+      <span class="v" style="color:${p>val?'var(--red)':'var(--blue)'}">${pc((p/val-1)*100)}</span></div>`))
+    .concat(KS.map(([k,val,tag])=>`<div class="tr"><span class="n">코스피 ${k.toLocaleString()}${tag?"<br><span style='font-size:10px;opacity:.7'>"+tag+"</span>":""}</span>
+      <span class="v">${won(val)}</span>
+      <span class="v" style="color:${val>p?'var(--red)':'var(--blue)'}">${pc((val/p-1)*100)}</span></div>`));
+  document.getElementById("tbl").innerHTML=rows.join("");
 }
 load();
-setInterval(load, 5*60*1000);
+setInterval(load,5*60*1000);
 </script>
 </body>
 </html>
