@@ -1,5 +1,5 @@
 {
- "at": "2026-07-27 21:56",
+ "at": "2026-07-27 22:05",
  "rounds": [
   {
    "n": 1,
@@ -175,16 +175,198 @@
    "title": "의장 종합",
    "items": [
     {
-     "text": "위험신호 4/4 → 「위험」"
+     "text": "가중 점수 -0.563 → 「위험」"
+    },
+    {
+     "text": "주요 논거: ⚙️ 금융투자(-0.55), 🏢 자사주(-0.41), 🔀 프로그램 차익(-0.37)"
+    },
+    {
+     "text": "소수 의견: 🌐 외국인 패시브(+0.05)"
+    },
+    {
+     "text": "미해결 7건 → S-SEARCH 이관"
+    }
+   ],
+   "votes": [
+    {
+     "id": "F-PASSIVE",
+     "name": "외국인 패시브",
+     "icon": "🌐",
+     "stance": 0.3,
+     "weight": 0.4,
+     "conf": 0.4,
+     "eff": 0.16,
+     "contrib": 0.048
+    },
+    {
+     "id": "F-ACTIVE",
+     "name": "외국인 액티브",
+     "icon": "🏦",
+     "stance": -0.458,
+     "weight": 1.0,
+     "conf": 0.333,
+     "eff": 0.167,
+     "contrib": -0.076
+    },
+    {
+     "id": "F-SHORT",
+     "name": "외국인 숏",
+     "icon": "📉",
+     "stance": -0.3,
+     "weight": 0.5,
+     "conf": 0.7,
+     "eff": 0.35,
+     "contrib": -0.105
+    },
+    {
+     "id": "I-DEALER",
+     "name": "금융투자",
+     "icon": "⚙️",
+     "stance": -0.858,
+     "weight": 0.8,
+     "conf": 0.8,
+     "eff": 0.64,
+     "contrib": -0.549
+    },
+    {
+     "id": "I-FUND",
+     "name": "투신",
+     "icon": "💼",
+     "stance": -0.048,
+     "weight": 0.4,
+     "conf": 0.65,
+     "eff": 0.26,
+     "contrib": -0.012
+    },
+    {
+     "id": "I-PENSION",
+     "name": "연기금",
+     "icon": "🏛️",
+     "stance": -0.005,
+     "weight": 0.3,
+     "conf": 0.5,
+     "eff": 0.15,
+     "contrib": -0.001
+    },
+    {
+     "id": "I-MINOR",
+     "name": "기타기관",
+     "icon": "🔻",
+     "stance": -0.225,
+     "weight": 0.2,
+     "conf": 0.5,
+     "eff": 0.1,
+     "contrib": -0.023
+    },
+    {
+     "id": "R-RETAIL",
+     "name": "개인",
+     "icon": "👤",
+     "stance": -1.0,
+     "weight": 0.5,
+     "conf": 0.667,
+     "eff": 0.334,
+     "contrib": -0.334
+    },
+    {
+     "id": "R-LEVERAGE",
+     "name": "개인 레버리지",
+     "icon": "⚡",
+     "stance": -0.6,
+     "weight": 0.7,
+     "conf": 0.7,
+     "eff": 0.49,
+     "contrib": -0.294
+    },
+    {
+     "id": "C-BUYBACK",
+     "name": "자사주",
+     "icon": "🏢",
+     "stance": -0.6,
+     "weight": 0.8,
+     "conf": 0.85,
+     "eff": 0.68,
+     "contrib": -0.408
+    },
+    {
+     "id": "P-ARB",
+     "name": "프로그램 차익",
+     "icon": "🔀",
+     "stance": -0.7,
+     "weight": 0.7,
+     "conf": 0.75,
+     "eff": 0.525,
+     "contrib": -0.367
+    },
+    {
+     "id": "B-RATES",
+     "name": "금리·채권",
+     "icon": "📊",
+     "stance": -0.66,
+     "weight": 0.9,
+     "conf": 0.6,
+     "eff": 0.54,
+     "contrib": -0.356
     }
    ]
   }
  ],
  "data_asof": "2026-07-27",
  "verdict": {
-  "risk": 4,
-  "max": 4,
+  "score": -0.563,
   "label": "위험",
-  "detail": "외국인 매도 · 개인 흡수 · 자사주 정지 · 베이시스 이상"
+  "n_votes": 12,
+  "n_rebut": 6,
+  "major": [
+   {
+    "icon": "⚙️",
+    "name": "금융투자",
+    "contrib": -0.549,
+    "conf": 0.8
+   },
+   {
+    "icon": "🏢",
+    "name": "자사주",
+    "contrib": -0.408,
+    "conf": 0.85
+   },
+   {
+    "icon": "🔀",
+    "name": "프로그램 차익",
+    "contrib": -0.367,
+    "conf": 0.75
+   }
+  ],
+  "minor": [
+   {
+    "icon": "🌐",
+    "name": "외국인 패시브",
+    "contrib": 0.048,
+    "conf": 0.4
+   }
+  ],
+  "unresolved": [
+   {
+    "agent": "B-RATES",
+    "q": "한국 국고채 금리 직접 수집 경로 (현재 ETF 프록시)"
+   },
+   {
+    "agent": "B-RATES",
+    "q": "일본 10년물(JGB) 직접 수집 경로"
+   },
+   {
+    "agent": "C-BUYBACK",
+    "q": "90조 계획 집행 시점 미확인"
+   },
+   {
+    "agent": "C-BUYBACK",
+    "q": "7/29 이후 자사주 재개 여부 감시"
+   },
+   {
+    "agent": "F-PASSIVE",
+    "q": "패시브/액티브 분리 방법 미확립"
+   }
+  ],
+  "detail": "가중점수 -0.563 · 투표 12인 · 반박 6건"
  }
 }

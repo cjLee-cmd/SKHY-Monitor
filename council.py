@@ -164,30 +164,90 @@ def main():
           {"check":"발언/침묵","result":"{}명 / {}명".format(len(r1), len(silent)),"pass":True}]
     log["rounds"].append({"n": 3, "title": "검증", "items": v3})
 
-    # ── R4: 종합 ──
-    risk = sum([f5 < 0, r5 > 0, c5 < 0.3, bool(mb is not None and tb and mb > tb*1.5)])
-    verdict = ["안정","주의","경계","위험"][min(risk, 3)]
-    log["verdict"] = {"risk": risk, "max": 4, "label": verdict,
-      "detail": "외국인 {} · 개인 {} · 자사주 {} · 베이시스 {}".format(
-        "매도" if f5<0 else "매수", "흡수" if r5>0 else "이탈",
-        "정지" if c5<0.3 else "가동",
-        "이상" if (mb is not None and tb and mb>tb*1.5) else "정상")}
+    # ── R4: M-CHAIR 신뢰도 가중 종합 ──
+    def stance_of(aid, a):
+        """컨텍스트의 stance 규칙으로 -1(약세)~+1(강세) 산출."""
+        st = a.get('stance')
+        if not st: return None
+        rule = st.get('rule'); w = st.get('w', 0.5)
+        v = None
+        if rule == 'flow_sign':
+            x = flow(inv, st.get('field'), 5, st.get('stock'))
+            v = max(-1.0, min(1.0, x / 2.0))
+            if st.get('invert'): v = -v
+        elif rule == 'threshold':
+            x = flow(inv, st.get('field'), 5, st.get('stock'))
+            v = 0.6 if x > st.get('gt', 0) else -0.6
+        elif rule == 'static':
+            v = st.get('value', 0)
+        elif rule == 'basis_gap':
+            if mb is None or not tb: return None
+            v = -0.7 if mb > tb * 1.5 else 0.2
+        elif rule == 'rate_pos':
+            b = ctxdata.get('bonds') or {}
+            u = b.get('items', {}).get('us10y')
+            if not u: return None
+            p = u.get('range_pos', 50)
+            v = -(p - 50) / 50.0
+        if v is None: return None
+        c = a.get('confidence', 0.5)
+        eff = w * (c * 0.5 if c < 0.4 else c)   # 저신뢰 감산
+        return {"id": aid, "name": a.get('name', aid), "icon": a.get('icon','•'),
+                "stance": round(v, 3), "weight": round(w, 2),
+                "conf": c, "eff": round(eff, 3), "contrib": round(v * eff, 3)}
+
+    votes = [x for x in (stance_of(aid, A[aid]) for aid in order if aid in A) if x]
+    tw = sum(x['eff'] for x in votes) or 1.0
+    score = sum(x['contrib'] for x in votes) / tw
+
+    SCALE = [(-1.0,-0.35,"위험"),(-0.35,-0.12,"경계"),(-0.12,0.12,"주의"),(0.12,1.01,"안정")]
+    label = next((n for lo,hi,n in SCALE if lo <= score < hi), "주의")
+
+    bear = sorted([x for x in votes if x['stance'] < 0], key=lambda x: x['contrib'])[:3]
+    bull = sorted([x for x in votes if x['stance'] > 0], key=lambda x: -x['contrib'])[:3]
+    major, minor = (bear, bull) if score < 0 else (bull, bear)
+
+    unresolved = []
+    for aid, a in A.items():
+        for q in a.get('open_questions', []):
+            unresolved.append({"agent": aid, "q": q})
+
+    log["verdict"] = {
+      "score": round(score, 3), "label": label,
+      "n_votes": len(votes), "n_rebut": len(r2),
+      "major": [{"icon":x['icon'],"name":x['name'],"contrib":x['contrib'],"conf":x['conf']} for x in major],
+      "minor": [{"icon":x['icon'],"name":x['name'],"contrib":x['contrib'],"conf":x['conf']} for x in minor],
+      "unresolved": unresolved[:5],
+      "detail": "가중점수 {:+.3f} · 투표 {}인 · 반박 {}건".format(score, len(votes), len(r2))}
+
+    ch = A.get('M-CHAIR', {})
     log["rounds"].append({"n": 4, "title": "의장 종합",
-      "items": [{"text": "위험신호 {}/4 → 「{}」".format(risk, verdict)}]})
+      "items": [
+        {"text": "가중 점수 {:+.3f} → 「{}」".format(score, label)},
+        {"text": "주요 논거: " + ", ".join("{} {}({:+.2f})".format(x['icon'],x['name'],x['contrib']) for x in major)},
+        {"text": "소수 의견: " + (", ".join("{} {}({:+.2f})".format(x['icon'],x['name'],x['contrib']) for x in minor) or "없음")},
+        {"text": "미해결 {}건 → S-SEARCH 이관".format(len(unresolved))},
+      ],
+      "votes": votes})
 
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(log, f, ensure_ascii=False, indent=1)
 
-    print("council: {} | 위험 {}/4 「{}」 | 발언 {}/침묵 {} | 데이터 {}".format(
-        log["at"], risk, verdict, len(r1), len(silent), stale))
+    print("council: {} | 「{}」 점수 {:+.3f} | 발언 {}/침묵 {} | 투표 {}인".format(
+        log["at"], log["verdict"]["label"], log["verdict"]["score"],
+        len(r1), len(silent), len(votes)))
     for it in r1:
         c = it.get('conf')
         print("  {} {:<12} {} {}".format(it['icon'], it['id'],
-              "conf={:.2f}".format(c) if c else "       ", it['text'][:58]))
+              "conf={:.2f}".format(c) if c else "       ", it['text'][:52]))
     for it in silent:
         print("  🔇 {:<12} 침묵".format(it['id']))
     for it in r2:
-        print("  ⚔️ {} → {}: {}".format(it['from'], it['to'], it['text'][:52]))
+        print("  ⚔️ {} → {}: {}".format(it['from'], it['to'], it['text'][:48]))
+    print("  ⚖️ M-CHAIR 종합")
+    print("     주요: " + ", ".join("{}({:+.2f})".format(x['name'], x['contrib']) for x in major))
+    print("     소수: " + (", ".join("{}({:+.2f})".format(x['name'], x['contrib']) for x in minor) or "없음"))
+    print("     미해결 {}건".format(len(unresolved)))
 
 
 if __name__ == "__main__":
