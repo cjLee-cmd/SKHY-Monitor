@@ -35,6 +35,7 @@ jobs:
           KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
           KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          KRX_AUTH_KEY: ${{ secrets.KRX_AUTH_KEY }}
         run: |
           for i in $(seq 1 12); do
             echo "===== sample $i / 12  ($(date -u +'%H:%M') UTC) ====="
@@ -45,8 +46,10 @@ jobs:
               python3 analyze.py || echo "analyze failed"
               python3 signal_engine.py || echo "signal failed"
               python3 forecast.py || echo "forecast failed"
+              python3 flows.py || echo "flows failed"
+              python3 council.py || echo "council failed"
               python3 paper_trading.py || echo "Claude 증권 거래 실패"
-              git add docs/data/history.json docs/data/analysis_log.json docs/data/signal_state.json docs/data/bands.json docs/data/forecast.json docs/data/forecast_log.json docs/data/accounts.json
+              git add docs/data/history.json docs/data/analysis_log.json docs/data/signal_state.json docs/data/bands.json docs/data/forecast.json docs/data/forecast_log.json docs/data/accounts.json docs/data/krx_investors.json docs/data/krx_extra.json docs/data/council.json
               if git diff --cached --quiet; then
                 echo "no change"
               else
