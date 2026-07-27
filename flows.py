@@ -17,10 +17,16 @@ EXT = os.path.join(BASE, "docs", "data", "krx_extra.json")
 
 FIELDS = ['금융투자','보험','투신','사모','은행','기타금융','연기금',
           '기타법인','개인','외국인','기타외국인']
-KIS_MAP = {  # KIS inquire-investor 필드 → 3분류만 제공
-    '외국인': 'frgn_ntby_tr_pbmn',
-    '기관':   'orgn_ntby_tr_pbmn',
-    '개인':   'prsn_ntby_tr_pbmn',
+# KIS foreign-institution-total → KRX 11분류 완전 대응
+KIS_MAP = {
+    '금융투자':   'ivtr_ntby_tr_pbmn',
+    '보험':      'insu_ntby_tr_pbmn',
+    '투신':      'fund_ntby_tr_pbmn',
+    '은행':      'bank_ntby_tr_pbmn',
+    '기타금융':   'mrbn_ntby_tr_pbmn',
+    '연기금':     'etc_orgt_ntby_tr_pbmn',
+    '기타법인':   'etc_corp_ntby_tr_pbmn',
+    '외국인':     'frgn_ntby_tr_pbmn',
 }
 STOCKS = {'samsung': '005930', 'hynix': '000660'}
 
@@ -62,12 +68,41 @@ def krx_futures(bas_dd):
             "종목": r.get('ISU_NM'), "src": "KRX-API"}
 
 
-def kis_investor(code):
-    """KIS — 투자자별 30일 (외국인/기관/개인 3분류)."""
+def kis_detail():
+    """KIS foreign-institution-total — 기관 7분류 + 외국인 + 기타법인 (당일)."""
     try:
         from fetch_prices import load_dotenv, kis_token, KIS_BASE
     except ImportError:
-        print("flows: fetch_prices 임포트 실패"); return []
+        return {}
+    load_dotenv()
+    ak, sk = os.environ.get("KIS_APP_KEY"), os.environ.get("KIS_APP_SECRET")
+    if not (ak and sk): return {}
+    try:
+        tok = kis_token(ak, sk)
+        q = ("FID_COND_MRKT_DIV_CODE=V&FID_COND_SCR_DIV_CODE=16449&FID_INPUT_ISCD=0000"
+             "&FID_DIV_CLS_CODE=0&FID_RANK_SORT_CLS_CODE=1&FID_ETC_CLS_CODE=0")
+        req = urllib.request.Request(
+            KIS_BASE + "/uapi/domestic-stock/v1/quotations/foreign-institution-total?" + q,
+            headers={"content-type": "application/json", "authorization": "Bearer " + tok,
+                     "appkey": ak, "appsecret": sk, "tr_id": "FHPTJ04400000"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            rows = json.load(r).get("output") or []
+    except Exception as e:
+        print("flows: KIS 상세 실패", e); return {}
+    out = {}
+    for r in rows:
+        code = str(r.get('mksc_shrn_iscd', '')).strip()
+        for name, c in STOCKS.items():
+            if code == c: out[name] = r
+    return out
+
+
+def kis_investor(code):
+    """폴백 — 3분류만 (상세 실패 시)."""
+    try:
+        from fetch_prices import load_dotenv, kis_token, KIS_BASE
+    except ImportError:
+        return []
     load_dotenv()
     ak, sk = os.environ.get("KIS_APP_KEY"), os.environ.get("KIS_APP_SECRET")
     if not (ak and sk): return []
@@ -80,8 +115,8 @@ def kis_investor(code):
                      "appkey": ak, "appsecret": sk, "tr_id": "FHKST01010900"})
         with urllib.request.urlopen(req, timeout=20) as r:
             return json.load(r).get("output") or []
-    except Exception as e:
-        print("flows: KIS 실패", e); return []
+    except Exception:
+        return []
 
 
 def main():
@@ -89,38 +124,37 @@ def main():
     inv = load(INV, {})
     ext = load(EXT, {})
 
-    # ── 1) 투자자별 누적 병합 ──
+    # ── 1) 투자자별 누적 병합 (11분류 상세) ──
+    detail = kis_detail()
+    today_str = today.strftime('%Y-%m-%d')
     added = 0
     for name, code in STOCKS.items():
-        rows = kis_investor(code)
-        if not rows: continue
         have = {r['date'] for r in inv.get(name, [])}
-        new = []
-        for r in rows:
-            d = r.get('stck_bsop_date', '')
-            if len(d) != 8: continue
-            dt = d[:4]+"-"+d[4:6]+"-"+d[6:]
-            if dt in have: continue
-            def n(k):
-                try: return float(str(r.get(k, 0)).replace(',', ''))
-                except: return 0.0
-            rec = {k: 0.0 for k in FIELDS}
-            rec['date'] = dt
-            rec['외국인'] = n(KIS_MAP['외국인'])
-            rec['개인']   = n(KIS_MAP['개인'])
-            rec['금융투자'] = n(KIS_MAP['기관'])   # 기관 전체를 대표계정에 임시 배정
-            rec['_src'] = 'KIS-3분류'             # 세분화 불가 표시
-            new.append(rec)
-        if new:
-            inv.setdefault(name, []).extend(new)
-            inv[name].sort(key=lambda x: x['date'])
-            added += len(new)
-            print("flows: {} 신규 {}일 (~{})".format(name, len(new), new[-1]['date']))
+        if today_str in have:
+            continue
+        d = detail.get(name)
+        if not d:
+            continue
+        def n(k):
+            try: return float(str(d.get(k, 0)).replace(',', ''))
+            except: return 0.0
+        rec = {k: 0.0 for k in FIELDS}
+        rec['date'] = today_str
+        for kr, kis in KIS_MAP.items():
+            rec[kr] = n(kis) * 1000000   # KIS 단위: 백만원 → 원
+        # 개인 = -(나머지 합)  ← 수급 항등식으로 역산
+        rec['개인'] = -sum(rec[k] for k in FIELDS if k != '개인')
+        rec['_src'] = 'KIS-11분류'
+        inv.setdefault(name, []).append(rec)
+        inv[name].sort(key=lambda x: x['date'])
+        added += 1
+        print("flows: {} {} 추가 (외국인 {:+.2f}조 / 금융투자 {:+.2f}조 / 개인 {:+.2f}조)".format(
+            name, today_str, rec['외국인']/1e12, rec['금융투자']/1e12, rec['개인']/1e12))
 
     if added:
         with open(INV, 'w', encoding='utf-8') as f:
             json.dump(inv, f, ensure_ascii=False)
-        print("flows: 투자자별 누적 저장 (+{}일)".format(added))
+        print("flows: 투자자별 저장 (+{}일, 11분류)".format(added))
     else:
         print("flows: 투자자별 신규 없음")
 
