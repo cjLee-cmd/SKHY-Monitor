@@ -306,6 +306,21 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
     </div>
   </div>
 
+  <div class="panel" id="switchPanel">
+    <h3>7/29 상호전환 개시 추적 <span id="swDday" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span></h3>
+    <div class="cap">2026-07-29부터 한국 본주와 미국 ADR 간 상호전환이 열립니다. 차익거래가 실제로 작동하면 프리미엄이 압축됩니다. 이 패널은 <b>전환 전 기준선 대비 압축률</b>을 추적합니다. 밴드 계산은 이 날짜를 체제 단절점으로 잡아 이전 데이터를 자동 제외합니다.</div>
+    <div class="rules" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px">
+      <div class="rule"><div class="l">전환 전 기준선(중앙값)</div><div class="v" id="swBase">—</div></div>
+      <div class="rule"><div class="l">현재 프리미엄</div><div class="v" id="swNow">—</div></div>
+      <div class="rule"><div class="l">압축률</div><div class="v" id="swComp">—</div></div>
+      <div class="rule"><div class="l">차익거래 판정</div><div class="v" id="swVerdict">—</div></div>
+    </div>
+    <p class="note" style="font-size:11.5px;color:var(--label-tertiary);line-height:1.65;margin-top:12px;padding-top:10px;border-top:0.5px solid var(--separator)">
+      전환 가능 물량이 발행 한도로 제한되면 압축이 미미할 수 있습니다. 압축률 30% 미만이면 <b>한도 제약</b>, 70% 이상이면 <b>차익거래 정상 작동</b>으로 해석합니다.
+      <b>이 판정은 관찰 기록이며 투자 판단의 근거가 아닙니다.</b>
+    </p>
+  </div>
+
   <div class="panel">
     <h3>시간별 분석 <span style="font-weight:500;color:var(--label-tertiary);font-size:11.5px">서버 자동(매시간) + 수동 실행 버튼</span></h3>
 
@@ -543,6 +558,7 @@ async function load(){
   renderPriceChart();
   renderPremChart();
   renderZoneBadge();
+  renderSwitchPanel();
   await loadAnalysis();
 }
 
@@ -770,6 +786,28 @@ const signalPlugin = {
   }
 };
 
+// ADR 상호전환 개시일(2026-07-29) 수직선 — 프리미엄 체제 단절점
+const SWITCH_DAY = "2026-07-29";
+const regimePlugin = {
+  id: "regime",
+  afterDatasetsDraw: function(chart){
+    const a = chart.chartArea, x = chart.scales.x, ctx = chart.ctx;
+    if (!a || !x) return;
+    const t = Date.parse(SWITCH_DAY + "T09:00:00+09:00");
+    if (t < x.min || t > x.max) return;
+    const px = x.getPixelForValue(t);
+    ctx.save();
+    ctx.strokeStyle = "rgba(175,82,222,.85)";
+    ctx.lineWidth = 2; ctx.setLineDash([6,3]);
+    ctx.beginPath(); ctx.moveTo(px, a.top); ctx.lineTo(px, a.bottom); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.font = "700 10px -apple-system, sans-serif";
+    ctx.fillStyle = "#AF52DE"; ctx.textAlign = "left";
+    ctx.fillText("7/29 \uc804\ud658\uac1c\uc2dc", Math.min(px+5, a.right-70), a.top+11);
+    ctx.restore();
+  }
+};
+
 const zonePlugin = {
   id: "zones",
   beforeDatasetsDraw: function(chart){
@@ -793,6 +831,48 @@ const zonePlugin = {
     ctx.restore();
   }
 };
+
+function renderSwitchPanel(){
+  if (!all.length) return;
+  const cut = Date.parse(SWITCH_DAY + "T09:00:00+09:00");
+  const now = Date.now();
+  const pre = all.filter(function(r){ return tms(r) < cut; }).map(function(r){ return r.premium_pct; });
+  const post = all.filter(function(r){ return tms(r) >= cut; }).map(function(r){ return r.premium_pct; });
+
+  function med(a){ if(!a.length) return null; const b=a.slice().sort(function(x,y){return x-y;});
+    const m=Math.floor(b.length/2); return b.length%2 ? b[m] : (b[m-1]+b[m])/2; }
+
+  const base = med(pre);
+  const cur = all[all.length-1].premium_pct;
+  const dd = Math.ceil((cut - now) / 86400000);
+
+  const el = document.getElementById("swDday");
+  if (el) {
+    if (dd > 0) { el.textContent = "D-" + dd; el.style.background="rgba(175,82,222,.15)"; el.style.color="#7B2FA8"; }
+    else { el.textContent = "개시 " + (-dd) + "일차"; el.style.background="rgba(52,199,89,.15)"; el.style.color="#1B7A3D"; }
+  }
+  const b1 = document.getElementById("swBase");
+  if (b1) b1.textContent = base === null ? "—" : pct(base);
+  const b2 = document.getElementById("swNow");
+  if (b2) { b2.textContent = pct(cur); b2.style.color = "var(--ios-orange)"; }
+
+  const b3 = document.getElementById("swComp");
+  const b4 = document.getElementById("swVerdict");
+  if (dd > 0 || !post.length) {
+    if (b3) b3.textContent = "개시 전";
+    if (b4) { b4.textContent = "대기"; b4.style.color = "var(--label-secondary)"; }
+    return;
+  }
+  const comp = base ? (1 - cur / base) * 100 : 0;
+  if (b3) { b3.textContent = comp.toFixed(1) + "%"; b3.style.color = comp > 0 ? "var(--ios-blue)" : "var(--ios-red)"; }
+  if (b4) {
+    let t, c;
+    if (comp >= 70)      { t = "정상 작동"; c = "var(--ios-green)"; }
+    else if (comp >= 30) { t = "부분 작동"; c = "var(--ios-orange)"; }
+    else                 { t = "한도 제약"; c = "var(--ios-red)"; }
+    b4.textContent = t; b4.style.color = c;
+  }
+}
 
 function renderZoneBadge(){
   const b = (signalState && signalState.bands) || { buy_at: 30, sell_at: 24 };
@@ -1002,7 +1082,7 @@ function renderPremChart(){
 
   premChart = new Chart($("chart"), {
     type: "line",
-    plugins: [sessionPlugin, zonePlugin, signalPlugin, forecastPlugin],
+    plugins: [sessionPlugin, zonePlugin, signalPlugin, forecastPlugin, regimePlugin],
     data: { datasets: [
       { label: "프리미엄", data: data, borderColor: "#FF9500",
         backgroundColor: "rgba(255,149,0,.10)", borderWidth: 2, fill: true, tension: .25, pointRadius: 0, order: 3 },
