@@ -1,0 +1,45 @@
+{
+ "id": "R-LEVERAGE",
+ "name": "개인 레버리지",
+ "group": "개인",
+ "icon": "⚡",
+ "version": 1,
+ "created": "2026-07-27",
+ "updated": "2026-07-27",
+ "identity": "단일종목 레버ETF(5/27~ +25.28조) + 신용융자 32.7조.",
+ "behavior": {
+  "buy_when": "상승 추격 (FOMO)",
+  "sell_when": "반대매매 강제 청산"
+ },
+ "parameters": {
+  "ETF순자산": {
+   "v": "고점 대비 -47%",
+   "src": "KRX",
+   "n": 41
+  },
+  "좌수변화": {
+   "v": "-3~12%",
+   "src": "KRX",
+   "note": "환매 미미 = 물려 있음"
+  },
+  "2배ETF수익률": {
+   "v": "-41.9%",
+   "src": "계산",
+   "n": 41
+  },
+  "신용융자": {
+   "v": "36.6→32.7조",
+   "src": "금투협"
+  }
+ },
+ "data_source": "KRX ETF 수급·순자산 + 금투협 신용",
+ "falsification": "주가 -10% 추가 하락에도 좌수 유지되면 '반대매매 위험' 과대평가",
+ "confidence": 0.7,
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 0,
+  "pending": 0
+ },
+ "open_questions": [],
+ "revisions": []
+}

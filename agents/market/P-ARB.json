@@ -1,0 +1,36 @@
+{
+ "id": "P-ARB",
+ "name": "프로그램 차익",
+ "group": "기타",
+ "icon": "🔀",
+ "version": 1,
+ "created": "2026-07-27",
+ "updated": "2026-07-27",
+ "identity": "현선물 차익거래. 19개월 차익 +7.0조 / 비차익 -129.6조.",
+ "behavior": {
+  "buy_when": "베이시스 콘탱고 확대 → 현물매수 + 선물매도",
+  "sell_when": "백워데이션 → 현물매도 + 선물매수"
+ },
+ "parameters": {
+  "P5베이시스": {
+   "v": "+12.23",
+   "src": "KRX",
+   "note": "이론 +5.16의 2.4배"
+  },
+  "백워데이션": {
+   "v": "379일 중 123일",
+   "src": "KRX",
+   "note": "32%"
+  }
+ },
+ "data_source": "KRX 베이시스 + 프로그램매매",
+ "falsification": "베이시스가 극단인데 차익거래가 미발생하면 '통로 제약'으로 재해석",
+ "confidence": 0.75,
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 0,
+  "pending": 0
+ },
+ "open_questions": [],
+ "revisions": []
+}

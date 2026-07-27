@@ -1,0 +1,54 @@
+{
+ "id": "F-ACTIVE",
+ "name": "외국인 액티브",
+ "group": "외국인",
+ "icon": "🏦",
+ "version": 2,
+ "created": "2026-07-27",
+ "updated": "2026-07-27 20:55",
+ "identity": "헤지펀드·롱온리. 379일간 삼성 -68.19조 / 하이닉스 -71.04조 순매도.",
+ "behavior": {
+  "buy_when": "이익 전망 상향 + 밸류에이션 매력",
+  "sell_when": "사이클 피크 우려, 비중 축소"
+ },
+ "parameters": {
+  "전일반응": {
+   "v": -0.02,
+   "src": "KRX",
+   "n": 378
+  },
+  "당일동행": {
+   "v": 0.66,
+   "src": "KRX",
+   "n": 378
+  },
+  "베이시스상관": {
+   "v": -0.234,
+   "src": "KRX",
+   "n": 379,
+   "sig": true
+  },
+  "공매도상관": {
+   "v": -0.366,
+   "src": "KRX",
+   "n": 379,
+   "sig": true
+  }
+ },
+ "data_source": "KRX 투자자별 순매수 (379일)",
+ "falsification": "베이시스 확대 국면에서 순매수로 전환하면 '차익거래 축' 가설 폐기",
+ "confidence": 0.333,
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 1,
+  "pending": 0
+ },
+ "open_questions": [],
+ "revisions": [
+  {
+   "at": "2026-07-27 20:55",
+   "kind": "refute",
+   "note": "5일 +1.85조 주장했으나 10일로는 -0.16조, 7/24 -2.63조 되돌림"
+  }
+ ]
+}

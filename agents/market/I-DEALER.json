@@ -1,0 +1,62 @@
+{
+ "id": "I-DEALER",
+ "name": "금융투자",
+ "group": "기관",
+ "icon": "⚙️",
+ "version": 2,
+ "created": "2026-07-27",
+ "updated": "2026-07-27 20:55",
+ "identity": "ETF LP + 현선물 차익거래. 379일 삼성 +21.4조 / 하이닉스 +23.9조.",
+ "behavior": {
+  "buy_when": "ETF 설정 대응 헤지 매수, 베이시스 콘탱고 시 매수차익",
+  "sell_when": "ETF 순자산 축소 → 헤지 규모 자동 감소"
+ },
+ "parameters": {
+  "베이시스상관_전체": {
+   "v": 0.198,
+   "src": "KRX",
+   "n": 379,
+   "sig": true
+  },
+  "P3가속기": {
+   "v": 0.373,
+   "src": "KRX",
+   "n": 118,
+   "sig": true
+  },
+  "P5붕괴기": {
+   "v": -0.247,
+   "src": "KRX",
+   "n": 23,
+   "sig": false
+  },
+  "레버ETF상장후": {
+   "v": "삼성 +69% / 하이닉스 -24%",
+   "src": "KRX",
+   "n": 41
+  },
+  "베이시스현재": {
+   "v": 7.92,
+   "src": "KRX",
+   "n": 379
+  }
+ },
+ "data_source": "KRX 금융투자 순매수 + ETF 순자산",
+ "falsification": "ETF 순자산이 안정인데 대량 매도하면 'LP 헤지' 가설 폐기",
+ "confidence": 0.8,
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 0,
+  "pending": 0
+ },
+ "open_questions": [
+  "P5 하이닉스 -1.91조의 정확한 내역 미확정"
+ ],
+ "revisions": [
+  {
+   "at": "2026-07-27 20:55",
+   "kind": "param",
+   "note": "베이시스현재: None → 7.92"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "R-RETAIL",
+ "name": "개인",
+ "group": "개인",
+ "icon": "👤",
+ "version": 2,
+ "created": "2026-07-27",
+ "updated": "2026-07-27 20:55",
+ "identity": "379일간 삼성 +32.52조 / 하이닉스 +53.59조. 유일한 순매수 주체.",
+ "behavior": {
+  "buy_when": "전일 상승을 보고 추격 매수",
+  "sell_when": "손실 확대 시 투매"
+ },
+ "parameters": {
+  "전일반응": {
+   "v": 0.171,
+   "src": "KRX",
+   "n": 378,
+   "note": "추세추종"
+  },
+  "당일동행": {
+   "v": -0.655,
+   "src": "KRX",
+   "n": 378,
+   "note": "사는 날 하락"
+  },
+  "공매도상관": {
+   "v": 0.338,
+   "src": "KRX",
+   "n": 379,
+   "sig": true
+  },
+  "예탁금": {
+   "v": "136.8조→104.3조",
+   "src": "금투협",
+   "note": "-32.5조"
+  }
+ },
+ "data_source": "KRX 개인 순매수 + 금투협 예탁금",
+ "falsification": "당일동행이 양수로 전환하면 '추세추종' 가설 폐기",
+ "confidence": 0.667,
+ "scorecard": {
+  "confirmed": 1,
+  "refuted": 0,
+  "pending": 0
+ },
+ "open_questions": [],
+ "revisions": [
+  {
+   "at": "2026-07-27 20:55",
+   "kind": "confirm",
+   "note": "379일 당일동행 -0.655 유지 확인"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "I-FUND",
+ "name": "투신",
+ "group": "기관",
+ "icon": "💼",
+ "version": 1,
+ "created": "2026-07-27",
+ "updated": "2026-07-27",
+ "identity": "공모펀드. 환매에 종속되어 재량이 없음.",
+ "behavior": {
+  "buy_when": "펀드 설정 유입",
+  "sell_when": "환매 발생 시 강제 매도"
+ },
+ "parameters": {
+  "P5_하이닉스": {
+   "v": "-4.16조",
+   "src": "KRX",
+   "n": 23
+  },
+  "P5_삼성": {
+   "v": "-0.86조",
+   "src": "KRX",
+   "n": 23
+  },
+  "379일누적": {
+   "v": "삼성 +0.22조 / 하이닉스 -5.99조",
+   "src": "KRX",
+   "n": 379
+  }
+ },
+ "data_source": "KRX 투신 순매수",
+ "falsification": "주가 하락기에 순매수하면 '환매 종속' 가설 폐기",
+ "confidence": 0.65,
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 0,
+  "pending": 0
+ },
+ "open_questions": [],
+ "revisions": []
+}

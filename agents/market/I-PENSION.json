@@ -1,0 +1,31 @@
+{
+ "id": "I-PENSION",
+ "name": "연기금",
+ "group": "기관",
+ "icon": "🏛️",
+ "version": 1,
+ "created": "2026-07-27",
+ "updated": "2026-07-27",
+ "identity": "국민연금 등. 목표비중 운용, 저회전.",
+ "behavior": {
+  "buy_when": "목표비중 하회 → 역발상 매수",
+  "sell_when": "비중 초과 시 기계적 매도"
+ },
+ "parameters": {
+  "379일누적": {
+   "v": "삼성 +0.20조 / 하이닉스 -0.44조",
+   "src": "KRX",
+   "n": 379
+  }
+ },
+ "data_source": "KRX 연기금 순매수",
+ "falsification": "—  (영향력 미미로 검정 불필요)",
+ "confidence": 0.5,
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 0,
+  "pending": 0
+ },
+ "open_questions": [],
+ "revisions": []
+}

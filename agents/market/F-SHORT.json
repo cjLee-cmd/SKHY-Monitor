@@ -1,0 +1,43 @@
+{
+ "id": "F-SHORT",
+ "name": "외국인 숏",
+ "group": "외국인",
+ "icon": "📉",
+ "version": 1,
+ "created": "2026-07-27",
+ "updated": "2026-07-27",
+ "identity": "공매도 주체. 379일 누적 삼성 41.7조 / 하이닉스 48.3조.",
+ "behavior": {
+  "buy_when": "숏커버 (급락 후)",
+  "sell_when": "모멘텀 소멸, 밸류 과열"
+ },
+ "parameters": {
+  "외국인순매수상관": {
+   "v": -0.366,
+   "src": "KRX",
+   "n": 379,
+   "sig": true
+  },
+  "개인순매수상관": {
+   "v": 0.338,
+   "src": "KRX",
+   "n": 379,
+   "sig": true
+  },
+  "일평균_삼성": {
+   "v": "1099억",
+   "src": "KRX",
+   "n": 379
+  }
+ },
+ "data_source": "KRX 공매도 일별 (379일)",
+ "falsification": "공매도 급감 + 외국인 순매수가 동시 발생하면 방향 전환 신호로 재해석",
+ "confidence": 0.7,
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 0,
+  "pending": 0
+ },
+ "open_questions": [],
+ "revisions": []
+}

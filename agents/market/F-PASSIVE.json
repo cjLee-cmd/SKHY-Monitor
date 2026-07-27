@@ -1,0 +1,38 @@
+{
+ "id": "F-PASSIVE",
+ "name": "외국인 패시브",
+ "group": "외국인",
+ "icon": "🌐",
+ "version": 1,
+ "created": "2026-07-27",
+ "updated": "2026-07-27",
+ "identity": "MSCI EM 지수 추종 자금. 한국 비중 22.9%, 배분액 약 208조원.",
+ "behavior": {
+  "buy_when": "한국이 EM 대비 하락 → 목표비중 미달 → 기계적 매수",
+  "sell_when": "비중 초과 / EM 펀드 자금 유출"
+ },
+ "parameters": {
+  "리밸런싱_10%하락": {
+   "v": "16.1조",
+   "src": "계산",
+   "n": "EM AUM $611B×22.9%"
+  },
+  "리밸런싱_20%하락": {
+   "v": "32.1조",
+   "src": "계산",
+   "n": "동일"
+  }
+ },
+ "data_source": "직접 관측 불가 — 외국인 순매수에서 액티브분 차감 추정",
+ "falsification": "한국 -20% 국면에서 외국인 순매도가 지속되면 '패시브 완충' 가설 폐기",
+ "confidence": 0.4,
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 0,
+  "pending": 0
+ },
+ "open_questions": [
+  "패시브/액티브 분리 방법 미확립"
+ ],
+ "revisions": []
+}
