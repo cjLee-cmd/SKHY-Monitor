@@ -321,6 +321,12 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
     </p>
   </div>
 
+  <div class="panel" id="councilPanel">
+    <h3>에이전트 협의체 <span id="cvVerdict" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span></h3>
+    <div class="cap">시장 주체별 에이전트가 실측 데이터로 발언하고 서로 반박합니다. 각 에이전트는 독립 컨텍스트(<code>agents/</code>)를 가지며, 신뢰도는 검증 결과로 갱신됩니다. <b>관찰 기록이며 투자 판단의 근거가 아닙니다.</b></div>
+    <div id="cvBody"><div style="color:var(--label-tertiary);font-size:12.5px;padding:20px 0;text-align:center">협의체 대기 중</div></div>
+  </div>
+
   <div class="panel">
     <h3>시간별 분석 <span style="font-weight:500;color:var(--label-tertiary);font-size:11.5px">서버 자동(매시간) + 수동 실행 버튼</span></h3>
 
@@ -559,6 +565,7 @@ async function load(){
   renderPremChart();
   renderZoneBadge();
   renderSwitchPanel();
+  renderCouncil();
   await loadAnalysis();
 }
 
@@ -831,6 +838,56 @@ const zonePlugin = {
     ctx.restore();
   }
 };
+
+async function renderCouncil(){
+  let c;
+  try { c = await (await fetch("data/council.json?t="+Date.now())).json(); }
+  catch(e){ return; }
+  const V = c.verdict || {};
+  const badge = document.getElementById("cvVerdict");
+  if (badge) {
+    const map = {"안정":["rgba(52,199,89,.15)","#1B7A3D"],"주의":["rgba(255,149,0,.15)","#8A5200"],
+                 "경계":["rgba(255,149,0,.2)","#8A5200"],"위험":["rgba(255,59,48,.15)","#A32D2D"]};
+    const cc = map[V.label] || ["var(--fill-tertiary)","var(--label-secondary)"];
+    badge.textContent = (V.label||"—") + " " + (V.risk!=null ? V.risk+"/"+V.max : "");
+    badge.style.background = cc[0]; badge.style.color = cc[1];
+  }
+  let h = '<div style="font-size:11.5px;color:var(--label-tertiary);margin-bottom:12px">'
+        + (c.at||"") + " · 수급 기준일 " + (c.data_asof||"—") + "</div>";
+
+  (c.rounds||[]).forEach(function(rd){
+    h += '<div style="margin-bottom:14px"><div style="font-size:12px;font-weight:600;color:var(--label-secondary);margin-bottom:7px">R'
+       + rd.n + " · " + rd.title + "</div>";
+    (rd.items||[]).forEach(function(it){
+      if (it.icon !== undefined) {
+        const cf = it.conf!=null ? it.conf : null;
+        const col = cf==null ? "var(--label-tertiary)" : (cf<0.4 ? "var(--ios-red)" : (cf<0.6 ? "var(--ios-orange)" : "var(--ios-green)"));
+        h += '<div style="background:var(--fill-quaternary);border-radius:10px;padding:9px 11px;margin-bottom:6px">'
+           + '<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:3px">'
+           + '<span style="font-size:13px">'+it.icon+'</span>'
+           + '<b style="font-size:12px">'+it.name+'</b>'
+           + (cf!=null ? '<span style="font-size:10px;font-weight:700;color:'+col+'">conf '+cf.toFixed(2)+'</span>' : '')
+           + '</div>'
+           + '<div style="font-size:12.5px;line-height:1.5">'+it.text+'</div>'
+           + (it.evidence ? '<div style="font-size:10.5px;color:var(--label-tertiary);margin-top:3px">근거: '+it.evidence+'</div>' : '')
+           + '</div>';
+      } else if (it.from) {
+        h += '<div style="border-left:3px solid var(--ios-red);background:rgba(255,59,48,.05);border-radius:0 8px 8px 0;padding:8px 11px;margin-bottom:6px">'
+           + '<div style="font-size:11px;font-weight:700;color:#A32D2D;margin-bottom:2px">'+it.from+' → '+it.to+'</div>'
+           + '<div style="font-size:12.5px;line-height:1.5">'+it.text+'</div></div>';
+      } else if (it.check) {
+        h += '<div style="display:flex;justify-content:space-between;padding:6px 11px;font-size:12.5px;border-bottom:0.5px solid var(--separator)">'
+           + '<span>'+(it.pass?"✅":"⚠️")+' '+it.check+'</span><span style="font-family:var(--font-mono);color:var(--label-secondary)">'+it.result+'</span></div>';
+      } else if (it.text) {
+        h += '<div style="font-size:13px;font-weight:600;padding:8px 11px;background:var(--fill-tertiary);border-radius:10px">'+it.text+'</div>';
+      }
+    });
+    h += "</div>";
+  });
+  if (V.detail) h += '<div style="font-size:11.5px;color:var(--label-tertiary);padding-top:10px;border-top:0.5px solid var(--separator)">'+V.detail+'</div>';
+  const body = document.getElementById("cvBody");
+  if (body) body.innerHTML = h;
+}
 
 function renderSwitchPanel(){
   if (!all.length) return;

@@ -79,6 +79,15 @@ def main():
     add("C-BUYBACK", "삼성 {:+.2f}조. {}".format(c5, "집행 중" if c5 > 0.3 else "정지"),
         A.get('C-BUYBACK',{}).get('parameters',{}).get('26년5~7월',{}).get('v', ''))
 
+    # I-MINOR: 임계 초과 시에만 발언
+    mi = A.get('I-MINOR', {})
+    thr = mi.get('threshold_trillion', 0.5)
+    MINOR = ['보험', '사모', '은행', '기타금융', '기타외국인']
+    m5 = sum(recent(inv, st, k) for st in ('samsung', 'hynix') for k in MINOR)
+    if abs(m5) >= thr:
+        add("I-MINOR", "이상치 감지: 최근 5일 합산 {:+.2f}조 (임계 {:.1f}조).".format(m5, thr),
+            "평시 침묵 규칙 — 임계 초과로 발언")
+
     log["rounds"].append({"n": 1, "title": "자기 진술", "items": r1})
 
     # ── R2: 교차 반박 ──
