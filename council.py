@@ -68,6 +68,23 @@ def speak(aid, a, ctxdata):
         st = sp.get('state')
         if st and t:
             state = st['yes'] if v > t * st.get('gt_ratio', 1.5) else st['no']
+    elif m == 'bonds':
+        b = ctxdata.get('bonds') or {}
+        it = b.get('items', {}); dv = b.get('derived', {})
+        u = it.get('us10y', {}); j = it.get('usdjpy', {})
+        if not u: return None
+        v = u.get('cur', 0)
+        st = sp.get('state', {})
+        state = st.get('yes' if u.get('range_pos', 0) >= 80 else 'no', '')
+        try:
+            text = say.get('any', '').format(v=v, p=u.get('range_pos', 0),
+                c=dv.get('curve_30_10', 0), j=j.get('cur', 0),
+                jp=j.get('range_pos', 0), state=state)
+        except (KeyError, ValueError):
+            text = say.get('any', '')
+        return {"id": aid, "icon": a.get('icon','•'), "name": a.get('name',aid),
+                "conf": a.get('confidence'), "text": text,
+                "evidence": a.get('data_source',''), "falsify": a.get('falsification','')}
     elif m == 'static':
         v = 0
 
@@ -89,7 +106,8 @@ def main():
     ext  = load(os.path.join(DATA, "krx_extra.json"), {})
     hist = load(os.path.join(DATA, "history.json"), [])
     now  = datetime.now(KST)
-    ctxdata = {"inv": inv, "ext": ext, "hist": hist}
+    bonds = load(os.path.join(DATA, "bonds.json"), {})
+    ctxdata = {"inv": inv, "ext": ext, "hist": hist, "bonds": bonds}
 
     prem  = [r['premium_pct'] for r in hist if r.get('trusted') is not False]
     cur_p = prem[-1] if prem else None
@@ -102,7 +120,7 @@ def main():
 
     # ── R1: 전원 발언 (그룹 순서) ──
     order = ['F-PASSIVE','F-ACTIVE','F-SHORT','I-DEALER','I-FUND','I-PENSION',
-             'I-MINOR','R-RETAIL','R-LEVERAGE','C-BUYBACK','P-ARB']
+             'I-MINOR','R-RETAIL','R-LEVERAGE','C-BUYBACK','P-ARB','B-RATES']
     r1, silent = [], []
     for aid in order:
         a = A.get(aid)

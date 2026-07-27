@@ -12,6 +12,9 @@
 | USD/KRW | Yahoo `KRW=X` | 불필요 | `history.json` | 10분 |
 | **투자자별 11분류** | **KIS `foreign-institution-total`** | `KIS_APP_KEY/SECRET` | `krx_investors.json` | 일 1회 |
 | **코스피200 선물·베이시스** | **KRX 오픈API `drv/fut_bydd_trd`** | `KRX_AUTH_KEY` | `krx_extra.json` | 일 1회 |
+| **미 국채 10/30/5년** | Yahoo `^TNX` `^TYX` `^FVX` | 불필요 | `bonds.json` | 10분 |
+| **한국 국고채 (ETF 프록시)** | Yahoo `148070.KS` `114820.KS` | 불필요 | `bonds.json` | 10분 |
+| **달러/엔, 달러/원** | Yahoo `JPY=X` `KRW=X` | 불필요 | `bonds.json` | 10분 |
 
 ### KIS 투자자별 필드 매핑
 

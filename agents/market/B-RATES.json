@@ -1,0 +1,73 @@
+{
+ "id": "B-RATES",
+ "name": "금리·채권",
+ "group": "매크로",
+ "icon": "📊",
+ "version": 1,
+ "created": "2026-07-27",
+ "updated": "2026-07-27 21:54",
+ "identity": "미국·한국·일본 금리 동향. 할인율 채널로 주가 밸류에이션에 직접 작용.",
+ "behavior": {
+  "buy_when": "금리 하락 → 할인율 하락 → 밸류에이션 상승 여력",
+  "sell_when": "금리 상승 → 할인율 상승 → 성장주 압박, 캐리 청산 위험"
+ },
+ "parameters": {
+  "미10년물": {
+   "v": "4.647%",
+   "range_pos": 83,
+   "src": "Yahoo ^TNX"
+  },
+  "수익률곡선_30_10": {
+   "v": "+0.48%p",
+   "note": "장기 인플레·재정 우려",
+   "src": "계산"
+  },
+  "달러엔": {
+   "v": "163.68",
+   "range_pos": 94,
+   "note": "캐리 청산 위험",
+   "src": "Yahoo"
+  },
+  "달러원": {
+   "v": "1470.35",
+   "range_pos": 0,
+   "note": "원화 강세 = 외국인 유입 우호",
+   "src": "Yahoo"
+  },
+  "국고채10년ETF": {
+   "v": "103,965원",
+   "range_pos": 34,
+   "src": "Yahoo 148070.KS"
+  }
+ },
+ "data_source": "Yahoo Finance (^TNX/^TYX/^FVX/JPY=X/KRW=X) + 국채 ETF 프록시",
+ "falsification": "미 10년물이 범위 상단인데 코스피가 3개월 상승하면 '할인율 채널' 가설 약화",
+ "confidence": 0.6,
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 0,
+  "pending": 0
+ },
+ "open_questions": [
+  "한국 국고채 금리 직접 수집 경로 (현재 ETF 프록시)",
+  "일본 10년물(JGB) 직접 수집 경로"
+ ],
+ "speak": {
+  "metric": "bonds",
+  "thr": 0,
+  "say": {
+   "any": "미10년 {v:.3f}%(범위 {p:.0f}%) · 곡선30-10 {c:+.2f}%p · 엔 {j:.1f}(범위 {jp:.0f}%). {state}"
+  },
+  "state": {
+   "yes": "할인율 압박 지속.",
+   "no": "금리 부담 완화 국면."
+  }
+ },
+ "revisions": [
+  {
+   "at": "2026-07-27 21:54",
+   "kind": "created",
+   "note": "채권 모니터 신설. 미10년물 할인율 채널이 최대 위험 요인으로 식별됨."
+  }
+ ]
+}
