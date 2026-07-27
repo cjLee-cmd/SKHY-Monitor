@@ -3,9 +3,9 @@
  "name": "연기금",
  "group": "기관",
  "icon": "🏛️",
- "version": 1,
+ "version": 2,
  "created": "2026-07-27",
- "updated": "2026-07-27",
+ "updated": "2026-07-27 21:47",
  "identity": "국민연금 등. 목표비중 운용, 저회전.",
  "behavior": {
   "buy_when": "목표비중 하회 → 역발상 매수",
@@ -27,5 +27,22 @@
   "pending": 0
  },
  "open_questions": [],
- "revisions": []
+ "revisions": [
+  {
+   "at": "2026-07-27 21:47",
+   "kind": "speak",
+   "note": "발언 규칙 주입 — 협의체 전원 참여"
+  }
+ ],
+ "speak": {
+  "metric": "flow",
+  "field": "연기금",
+  "window": 5,
+  "unit": "조",
+  "thr": 0.05,
+  "say": {
+   "pos": "{v:+.2f}조 매수. 목표비중 하회로 기계적 매수입니다.",
+   "neg": "{v:+.2f}조 매도. 비중 초과 조정입니다."
+  }
+ }
 }

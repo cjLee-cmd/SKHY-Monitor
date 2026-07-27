@@ -3,9 +3,9 @@
  "name": "외국인 숏",
  "group": "외국인",
  "icon": "📉",
- "version": 1,
+ "version": 2,
  "created": "2026-07-27",
- "updated": "2026-07-27",
+ "updated": "2026-07-27 21:47",
  "identity": "공매도 주체. 379일 누적 삼성 41.7조 / 하이닉스 48.3조.",
  "behavior": {
   "buy_when": "숏커버 (급락 후)",
@@ -39,5 +39,20 @@
   "pending": 0
  },
  "open_questions": [],
- "revisions": []
+ "revisions": [
+  {
+   "at": "2026-07-27 21:47",
+   "kind": "speak",
+   "note": "발언 규칙 주입 — 협의체 전원 참여"
+  }
+ ],
+ "speak": {
+  "metric": "shortsale",
+  "window": 5,
+  "unit": "천억",
+  "thr": 0,
+  "say": {
+   "any": "최근 {w}일 일평균 공매도 {v:.1f}천억. 외국인 매도와 동행합니다."
+  }
+ }
 }

@@ -3,9 +3,9 @@
  "name": "투신",
  "group": "기관",
  "icon": "💼",
- "version": 1,
+ "version": 2,
  "created": "2026-07-27",
- "updated": "2026-07-27",
+ "updated": "2026-07-27 21:47",
  "identity": "공모펀드. 환매에 종속되어 재량이 없음.",
  "behavior": {
   "buy_when": "펀드 설정 유입",
@@ -37,5 +37,22 @@
   "pending": 0
  },
  "open_questions": [],
- "revisions": []
+ "revisions": [
+  {
+   "at": "2026-07-27 21:47",
+   "kind": "speak",
+   "note": "발언 규칙 주입 — 협의체 전원 참여"
+  }
+ ],
+ "speak": {
+  "metric": "flow",
+  "field": "투신",
+  "window": 5,
+  "unit": "조",
+  "thr": 0.1,
+  "say": {
+   "neg": "{v:+.2f}조 매도. 환매 압력이 있습니다.",
+   "pos": "{v:+.2f}조 매수. 설정이 유입됐습니다."
+  }
+ }
 }

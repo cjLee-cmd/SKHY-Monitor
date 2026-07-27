@@ -3,9 +3,9 @@
  "name": "외국인 패시브",
  "group": "외국인",
  "icon": "🌐",
- "version": 1,
+ "version": 2,
  "created": "2026-07-27",
- "updated": "2026-07-27",
+ "updated": "2026-07-27 21:47",
  "identity": "MSCI EM 지수 추종 자금. 한국 비중 22.9%, 배분액 약 208조원.",
  "behavior": {
   "buy_when": "한국이 EM 대비 하락 → 목표비중 미달 → 기계적 매수",
@@ -34,5 +34,18 @@
  "open_questions": [
   "패시브/액티브 분리 방법 미확립"
  ],
- "revisions": []
+ "revisions": [
+  {
+   "at": "2026-07-27 21:47",
+   "kind": "speak",
+   "note": "발언 규칙 주입 — 협의체 전원 참여"
+  }
+ ],
+ "speak": {
+  "metric": "static",
+  "thr": 0,
+  "say": {
+   "any": "저는 대기 중입니다. 코스피 6,000 부근에서 약 16조 리밸런싱 매수가 발동합니다."
+  }
+ }
 }

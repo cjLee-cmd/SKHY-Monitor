@@ -3,9 +3,9 @@
  "name": "개인 레버리지",
  "group": "개인",
  "icon": "⚡",
- "version": 1,
+ "version": 2,
  "created": "2026-07-27",
- "updated": "2026-07-27",
+ "updated": "2026-07-27 21:47",
  "identity": "단일종목 레버ETF(5/27~ +25.28조) + 신용융자 32.7조.",
  "behavior": {
   "buy_when": "상승 추격 (FOMO)",
@@ -41,5 +41,18 @@
   "pending": 0
  },
  "open_questions": [],
- "revisions": []
+ "revisions": [
+  {
+   "at": "2026-07-27 21:47",
+   "kind": "speak",
+   "note": "발언 규칙 주입 — 협의체 전원 참여"
+  }
+ ],
+ "speak": {
+  "metric": "static",
+  "thr": 0,
+  "say": {
+   "any": "레버ETF 순자산 고점 대비 -47%, 좌수는 -3~12%. 환매 없이 물려 있습니다. 신용 32.7조가 반대매매 뇌관입니다."
+  }
+ }
 }

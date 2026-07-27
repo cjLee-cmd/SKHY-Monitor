@@ -858,6 +858,11 @@ async function renderCouncil(){
   (c.rounds||[]).forEach(function(rd){
     h += '<div style="margin-bottom:14px"><div style="font-size:12px;font-weight:600;color:var(--label-secondary);margin-bottom:7px">R'
        + rd.n + " · " + rd.title + "</div>";
+    if (rd.silent && rd.silent.length) {
+      h += '<div style="font-size:11px;color:var(--label-tertiary);margin-bottom:6px">🔇 침묵: '
+         + rd.silent.map(function(x){return x.icon+" "+x.name;}).join(", ")
+         + ' <span style="opacity:.7">(임계 미달)</span></div>';
+    }
     (rd.items||[]).forEach(function(it){
       if (it.icon !== undefined) {
         const cf = it.conf!=null ? it.conf : null;

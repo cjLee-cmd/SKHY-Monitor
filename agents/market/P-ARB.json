@@ -3,9 +3,9 @@
  "name": "프로그램 차익",
  "group": "기타",
  "icon": "🔀",
- "version": 1,
+ "version": 2,
  "created": "2026-07-27",
- "updated": "2026-07-27",
+ "updated": "2026-07-27 21:47",
  "identity": "현선물 차익거래. 19개월 차익 +7.0조 / 비차익 -129.6조.",
  "behavior": {
   "buy_when": "베이시스 콘탱고 확대 → 현물매수 + 선물매도",
@@ -32,5 +32,23 @@
   "pending": 0
  },
  "open_questions": [],
- "revisions": []
+ "revisions": [
+  {
+   "at": "2026-07-27 21:47",
+   "kind": "speak",
+   "note": "발언 규칙 주입 — 협의체 전원 참여"
+  }
+ ],
+ "speak": {
+  "metric": "basis",
+  "thr": 0,
+  "say": {
+   "any": "베이시스 {v:+.2f} (이론 {t:+.2f}). {state}"
+  },
+  "state": {
+   "gt_ratio": 1.5,
+   "yes": "현물 매도 압력 미소진입니다.",
+   "no": "정상 범위입니다."
+  }
+ }
 }
