@@ -849,13 +849,48 @@ async function renderCouncil(){
     const map = {"안정":["rgba(52,199,89,.15)","#1B7A3D"],"주의":["rgba(255,149,0,.15)","#8A5200"],
                  "경계":["rgba(255,149,0,.2)","#8A5200"],"위험":["rgba(255,59,48,.15)","#A32D2D"]};
     const cc = map[V.label] || ["var(--fill-tertiary)","var(--label-secondary)"];
-    badge.textContent = (V.label||"—") + " " + (V.risk!=null ? V.risk+"/"+V.max : "");
+    badge.textContent = (V.label||"—") + (V.score!=null ? " "+(V.score>0?"+":"")+V.score.toFixed(2) : "");
     badge.style.background = cc[0]; badge.style.color = cc[1];
   }
-  let h = '<div style="font-size:11.5px;color:var(--label-tertiary);margin-bottom:12px">'
-        + (c.at||"") + " · 수급 기준일 " + (c.data_asof||"—") + "</div>";
 
+  const sc = V.score;
+  const scol = sc==null ? "var(--label-secondary)"
+    : (sc < -0.35 ? "var(--ios-red)" : (sc < -0.12 ? "var(--ios-orange)"
+    : (sc < 0.12 ? "var(--label-secondary)" : "var(--ios-green)")));
+  const vbg = {"안정":"rgba(52,199,89,.07)","주의":"rgba(120,120,128,.06)",
+               "경계":"rgba(255,149,0,.07)","위험":"rgba(255,59,48,.06)"}[V.label] || "var(--fill-quaternary)";
+  const vbd = {"안정":"var(--ios-green)","주의":"var(--ios-gray)",
+               "경계":"var(--ios-orange)","위험":"var(--ios-red)"}[V.label] || "var(--label-tertiary)";
+
+  const chip = function(arr, bg){
+    if (!arr || !arr.length) return '<span style="font-size:11.5px;color:var(--label-tertiary)">없음</span>';
+    return arr.map(function(x){
+      return '<span style="display:inline-block;background:'+bg+';border-radius:6px;padding:2px 8px;margin:2px 4px 2px 0;font-size:11.5px;white-space:nowrap">'
+        + x.icon+' '+x.name+' <b style="font-family:var(--font-mono)">'+(x.contrib>0?"+":"")+x.contrib.toFixed(2)+'</b></span>';
+    }).join('');
+  };
+
+  // ── 최상단: 의장 종합 ──
+  let h = '<div style="background:'+vbg+';border-left:4px solid '+vbd+';border-radius:0 12px 12px 0;padding:14px 16px;margin-bottom:16px">'
+    + '<div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:8px">'
+    + '<span style="font-size:11.5px;font-weight:700;color:var(--label-secondary)">⚖️ 의장 종합</span>'
+    + '<span style="font-size:22px;font-weight:700;letter-spacing:-.02em;color:'+vbd+'">'+(V.label||"—")+'</span>'
+    + (sc!=null ? '<span style="font-size:17px;font-weight:700;font-family:var(--font-mono);color:'+scol+'">'+(sc>0?"+":"")+sc.toFixed(3)+'</span>' : '')
+    + '<span style="font-size:11px;color:var(--label-tertiary);margin-left:auto">투표 '+(V.n_votes||0)+'인 · 반박 '+(V.n_rebut||0)+'건</span>'
+    + '</div>'
+    + '<div style="font-size:12px;margin-bottom:5px"><span style="color:var(--label-secondary);display:inline-block;min-width:62px">주요 논거</span>'+chip(V.major,"rgba(255,59,48,.10)")+'</div>'
+    + '<div style="font-size:12px"><span style="color:var(--label-secondary);display:inline-block;min-width:62px">소수 의견</span>'+chip(V.minor,"rgba(0,122,255,.10)")+'</div>'
+    + (V.unresolved && V.unresolved.length
+        ? '<div style="font-size:11px;color:var(--label-tertiary);margin-top:8px;padding-top:7px;border-top:0.5px solid var(--separator)">🔍 미해결 '
+          + V.unresolved.length+'건 · '+V.unresolved.slice(0,2).map(function(u){return u.agent+" — "+u.q;}).join(" / ")+'</div>' : '')
+    + '</div>';
+
+  h += '<div style="font-size:11px;color:var(--label-tertiary);margin-bottom:10px">'
+     + (c.at||"") + " · 수급 기준일 " + (c.data_asof||"—") + "</div>";
+
+  // ── 이하: 라운드 상세 (R4는 위에 표시했으므로 제외) ──
   (c.rounds||[]).forEach(function(rd){
+    if (rd.n === 4) return;
     h += '<div style="margin-bottom:14px"><div style="font-size:12px;font-weight:600;color:var(--label-secondary);margin-bottom:7px">R'
        + rd.n + " · " + rd.title + "</div>";
     if (rd.silent && rd.silent.length) {
@@ -869,11 +904,9 @@ async function renderCouncil(){
         const col = cf==null ? "var(--label-tertiary)" : (cf<0.4 ? "var(--ios-red)" : (cf<0.6 ? "var(--ios-orange)" : "var(--ios-green)"));
         h += '<div style="background:var(--fill-quaternary);border-radius:10px;padding:9px 11px;margin-bottom:6px">'
            + '<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:3px">'
-           + '<span style="font-size:13px">'+it.icon+'</span>'
-           + '<b style="font-size:12px">'+it.name+'</b>'
+           + '<span style="font-size:13px">'+it.icon+'</span><b style="font-size:12px">'+it.name+'</b>'
            + (cf!=null ? '<span style="font-size:10px;font-weight:700;color:'+col+'">conf '+cf.toFixed(2)+'</span>' : '')
-           + '</div>'
-           + '<div style="font-size:12.5px;line-height:1.5">'+it.text+'</div>'
+           + '</div><div style="font-size:12.5px;line-height:1.5">'+it.text+'</div>'
            + (it.evidence ? '<div style="font-size:10.5px;color:var(--label-tertiary);margin-top:3px">근거: '+it.evidence+'</div>' : '')
            + '</div>';
       } else if (it.from) {
@@ -883,35 +916,11 @@ async function renderCouncil(){
       } else if (it.check) {
         h += '<div style="display:flex;justify-content:space-between;padding:6px 11px;font-size:12.5px;border-bottom:0.5px solid var(--separator)">'
            + '<span>'+(it.pass?"✅":"⚠️")+' '+it.check+'</span><span style="font-family:var(--font-mono);color:var(--label-secondary)">'+it.result+'</span></div>';
-      } else if (it.text) {
-        h += '<div style="font-size:13px;font-weight:600;padding:8px 11px;background:var(--fill-tertiary);border-radius:10px">'+it.text+'</div>';
       }
     });
     h += "</div>";
   });
-  if (V.major || V.minor) {
-    h += '<div style="border-top:0.5px solid var(--separator);padding-top:12px;margin-top:4px">';
-    if (V.score!=null) {
-      const sc = V.score;
-      const col = sc < -0.35 ? "var(--ios-red)" : (sc < -0.12 ? "var(--ios-orange)" : (sc < 0.12 ? "var(--label-secondary)" : "var(--ios-green)"));
-      h += '<div style="font-size:12px;margin-bottom:8px">가중 점수 <b style="font-family:var(--font-mono);color:'+col+'">'+(sc>0?"+":"")+sc.toFixed(3)+'</b> · 투표 '+(V.n_votes||0)+'인 · 반박 '+(V.n_rebut||0)+'건</div>';
-    }
-    const row = function(lab, arr, c) {
-      if (!arr || !arr.length) return '';
-      return '<div style="font-size:12px;margin-bottom:5px"><span style="color:var(--label-secondary)">'+lab+'</span> '
-        + arr.map(function(x){return '<span style="display:inline-block;background:'+c+';border-radius:6px;padding:2px 7px;margin:2px 3px 2px 0;font-size:11.5px">'
-        + x.icon+' '+x.name+' <b style="font-family:var(--font-mono)">'+(x.contrib>0?"+":"")+x.contrib.toFixed(2)+'</b></span>';}).join('')
-        + '</div>';
-    };
-    h += row("주요 논거", V.major, "rgba(255,59,48,.10)");
-    h += row("소수 의견", V.minor, "rgba(0,122,255,.10)");
-    if (V.unresolved && V.unresolved.length) {
-      h += '<div style="font-size:11px;color:var(--label-tertiary);margin-top:6px">🔍 미해결 '+V.unresolved.length+'건: '
-         + V.unresolved.slice(0,3).map(function(u){return u.agent+" — "+u.q;}).join(" / ")+'</div>';
-    }
-    h += '</div>';
-  }
-  if (V.detail) h += '<div style="font-size:11px;color:var(--label-tertiary);padding-top:8px">'+V.detail+'</div>';
+
   const body = document.getElementById("cvBody");
   if (body) body.innerHTML = h;
 }
