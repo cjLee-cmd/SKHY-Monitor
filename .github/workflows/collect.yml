@@ -48,9 +48,10 @@ jobs:
               python3 forecast.py || echo "forecast failed"
               python3 flows.py || echo "flows failed"
               python3 bonds.py || echo "bonds failed"
+              python3 market.py || echo "market failed"
               python3 council.py || echo "council failed"
               python3 paper_trading.py || echo "Claude 증권 거래 실패"
-              git add docs/data/history.json docs/data/analysis_log.json docs/data/signal_state.json docs/data/bands.json docs/data/forecast.json docs/data/forecast_log.json docs/data/accounts.json docs/data/krx_investors.json docs/data/krx_extra.json docs/data/council.json docs/data/bonds.json
+              git add docs/data/history.json docs/data/analysis_log.json docs/data/signal_state.json docs/data/bands.json docs/data/forecast.json docs/data/forecast_log.json docs/data/accounts.json docs/data/krx_investors.json docs/data/krx_extra.json docs/data/council.json docs/data/bonds.json docs/data/market.json
               if git diff --cached --quiet; then
                 echo "no change"
               else

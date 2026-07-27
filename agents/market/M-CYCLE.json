@@ -1,0 +1,72 @@
+{
+ "id": "M-CYCLE",
+ "name": "메모리 사이클",
+ "group": "매크로",
+ "icon": "🔬",
+ "identity": "마이크론·TSMC·필라델피아반도체 지수. 메모리 업황의 선행 지표.",
+ "behavior": {
+  "buy_when": "Peer 상승 + SOX 강세 → 사이클 회복",
+  "sell_when": "마이크론 급락 → 메모리 피크아웃 신호"
+ },
+ "parameters": {
+  "마이크론_20일": {
+   "v": "-24.11%",
+   "src": "Yahoo MU",
+   "note": "메모리 피크아웃 경고"
+  },
+  "SOX_20일": {
+   "v": "-15.22%",
+   "src": "Yahoo ^SOX"
+  },
+  "TSMC_20일": {
+   "v": "-7.26%",
+   "src": "Yahoo TSM"
+  },
+  "MU대비SOX": {
+   "v": "-8.89%p",
+   "note": "메모리가 반도체 전체보다 부진"
+  }
+ },
+ "data_source": "Yahoo Finance (MU/TSM/NVDA/^SOX)",
+ "falsification": "마이크론이 -20% 구간인데 하이닉스가 3개월 상승하면 'Peer 동조' 가설 폐기",
+ "confidence": 0.7,
+ "speak": {
+  "metric": "market",
+  "group": "반도체Peer",
+  "key": "mu",
+  "thr": 0,
+  "say": {
+   "any": "마이크론 20일 {v:+.1f}% · SOX {s:+.1f}% · TSMC {t:+.1f}%. {state}"
+  },
+  "state": {
+   "lt": -10,
+   "yes": "메모리 사이클 피크아웃 경고.",
+   "no": "사이클 안정."
+  }
+ },
+ "stance": {
+  "rule": "market_chg",
+  "group": "반도체Peer",
+  "key": "mu",
+  "scale": 15,
+  "w": 0.9
+ },
+ "version": 1,
+ "created": "2026-07-27",
+ "updated": "2026-07-27 22:10",
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 0,
+  "pending": 0
+ },
+ "open_questions": [
+  "D램 현물가격(DXI) 직접 수집 경로"
+ ],
+ "revisions": [
+  {
+   "at": "2026-07-27 22:10",
+   "kind": "created",
+   "note": "시장환경 모니터 신설"
+  }
+ ]
+}

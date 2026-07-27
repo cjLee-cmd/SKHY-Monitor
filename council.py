@@ -85,6 +85,29 @@ def speak(aid, a, ctxdata):
         return {"id": aid, "icon": a.get('icon','•'), "name": a.get('name',aid),
                 "conf": a.get('confidence'), "text": text,
                 "evidence": a.get('data_source',''), "falsify": a.get('falsification','')}
+    elif m == 'market':
+        mk = ctxdata.get('market') or {}
+        G = mk.get('groups', {}); dv = mk.get('derived', {})
+        it = G.get(sp.get('group'), {}).get(sp.get('key'))
+        if not it: return None
+        st = sp.get('state', {})
+        if sp.get('key') == 'mu':
+            v = it.get('chg_20d', 0)
+            state = st.get('yes' if v <= st.get('lt', -10) else 'no', '')
+            sx = G.get('해외지수', {}).get('sox', {}).get('chg_20d', 0)
+            ts = G.get('반도체Peer', {}).get('tsm', {}).get('chg_20d', 0)
+            try: text = say.get('any','').format(v=v, s=sx, t=ts, state=state)
+            except Exception: text = say.get('any','')
+        else:
+            v = it.get('cur', 0)
+            state = st.get('yes' if v >= st.get('gt', 99) else 'no', '')
+            oil = G.get('원자재', {}).get('oil', {}).get('chg_20d', 0)
+            kv = dv.get('kospi_vs_spx_20d', 0)
+            try: text = say.get('any','').format(v=v, p=it.get('range_pos',0), o=oil, k=kv, state=state)
+            except Exception: text = say.get('any','')
+        return {"id": aid, "icon": a.get('icon','•'), "name": a.get('name',aid),
+                "conf": a.get('confidence'), "text": text,
+                "evidence": a.get('data_source',''), "falsify": a.get('falsification','')}
     elif m == 'static':
         v = 0
 
@@ -107,7 +130,8 @@ def main():
     hist = load(os.path.join(DATA, "history.json"), [])
     now  = datetime.now(KST)
     bonds = load(os.path.join(DATA, "bonds.json"), {})
-    ctxdata = {"inv": inv, "ext": ext, "hist": hist, "bonds": bonds}
+    market = load(os.path.join(DATA, "market.json"), {})
+    ctxdata = {"inv": inv, "ext": ext, "hist": hist, "bonds": bonds, "market": market}
 
     prem  = [r['premium_pct'] for r in hist if r.get('trusted') is not False]
     cur_p = prem[-1] if prem else None
@@ -120,7 +144,7 @@ def main():
 
     # ── R1: 전원 발언 (그룹 순서) ──
     order = ['F-PASSIVE','F-ACTIVE','F-SHORT','I-DEALER','I-FUND','I-PENSION',
-             'I-MINOR','R-RETAIL','R-LEVERAGE','C-BUYBACK','P-ARB','B-RATES']
+             'I-MINOR','R-RETAIL','R-LEVERAGE','C-BUYBACK','P-ARB','B-RATES','M-CYCLE','M-RISK']
     r1, silent = [], []
     for aid in order:
         a = A.get(aid)
@@ -183,6 +207,16 @@ def main():
         elif rule == 'basis_gap':
             if mb is None or not tb: return None
             v = -0.7 if mb > tb * 1.5 else 0.2
+        elif rule == 'market_chg':
+            mk = ctxdata.get('market') or {}
+            it = mk.get('groups', {}).get(st.get('group'), {}).get(st.get('key'))
+            if not it: return None
+            v = max(-1.0, min(1.0, it.get('chg_20d', 0) / st.get('scale', 15)))
+        elif rule == 'market_inv':
+            mk = ctxdata.get('market') or {}
+            it = mk.get('groups', {}).get(st.get('group'), {}).get(st.get('key'))
+            if not it: return None
+            v = max(-1.0, min(1.0, -(it.get('cur', 0) - st.get('base', 18)) / st.get('scale', 10)))
         elif rule == 'rate_pos':
             b = ctxdata.get('bonds') or {}
             u = b.get('items', {}).get('us10y')

@@ -15,6 +15,11 @@
 | **미 국채 10/30/5년** | Yahoo `^TNX` `^TYX` `^FVX` | 불필요 | `bonds.json` | 10분 |
 | **한국 국고채 (ETF 프록시)** | Yahoo `148070.KS` `114820.KS` | 불필요 | `bonds.json` | 10분 |
 | **달러/엔, 달러/원** | Yahoo `JPY=X` `KRW=X` | 불필요 | `bonds.json` | 10분 |
+| **해외지수** S&P500·나스닥·SOX | Yahoo `^GSPC` `^IXIC` `^SOX` | 불필요 | `market.json` | 10분 |
+| **국내지수** 코스피·코스닥 | Yahoo `^KS11` `^KQ11` | 불필요 | `market.json` | 10분 |
+| **변동성** VIX | Yahoo `^VIX` | 불필요 | `market.json` | 10분 |
+| **원자재** 유가·금·구리 | Yahoo `CL=F` `GC=F` `HG=F` | 불필요 | `market.json` | 10분 |
+| **반도체 Peer** 마이크론·TSMC·엔비디아 | Yahoo `MU` `TSM` `NVDA` | 불필요 | `market.json` | 10분 |
 
 ### KIS 투자자별 필드 매핑
 
