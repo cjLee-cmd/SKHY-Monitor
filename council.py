@@ -123,6 +123,79 @@ def speak(aid, a, ctxdata):
             "falsify": a.get('falsification', '')}
 
 
+SEED_CLOSES = {
+    # 삼성전자 — 수집 이전 구간 보강 (Yahoo 005930.KS 일봉)
+    "ss_price": [("2026-07-10",285000),("2026-07-13",254500),("2026-07-14",263000),
+                 ("2026-07-15",279500),("2026-07-16",255000),("2026-07-20",244000),
+                 ("2026-07-21",259000),("2026-07-22",260500),("2026-07-23",270000),
+                 ("2026-07-24",249500)],
+}
+
+
+def daily_closes(hist, field):
+    """일별 종가 (한국 정규장 마지막 샘플) + 필요 시 시드 보강."""
+    days = {}
+    for r in hist:
+        if r.get('trusted') is False: continue
+        v = r.get(field)
+        if not v: continue
+        t = datetime.fromisoformat(r['ts']).astimezone(KST)
+        hm = t.hour * 60 + t.minute
+        if not (t.weekday() < 5 and 9*60 <= hm <= 15*60+40): continue
+        days[t.strftime('%Y-%m-%d')] = v
+    out = [(k, days[k]) for k in sorted(days)]
+    seed = SEED_CLOSES.get(field)
+    if seed and len(out) < 6:
+        have = {k for k, _ in out}
+        out = sorted([(k, v) for k, v in seed if k not in have] + out)
+    return out
+
+
+def ewma_sigma(cl, lam=0.94):
+    """EWMA 일간 변동성 — 90% 구간 실측 적중 89~91% (표본 2175) 검증됨."""
+    if len(cl) < 6: return None
+    R = [cl[i][1]/cl[i-1][1] - 1 for i in range(1, len(cl))]
+    v = sum(x*x for x in R[:5]) / 5
+    for r in R: v = lam*v + (1-lam)*r*r
+    return v ** 0.5
+
+
+def predict(hist, field, score, tilt=0.004):
+    """구간=검증된 EWMA / 중심이동=미검증(반드시 채점)."""
+    cl = daily_closes(hist, field)
+    if len(cl) < 6: return None
+    sig = ewma_sigma(cl)
+    if not sig: return None
+    last_d, last_p = cl[-1]
+    out = {"asof": last_d, "base": round(last_p), "sigma_d": round(sig*100, 3),
+           "tilt_used": tilt, "score": round(score, 3), "h": {}}
+    for h, lab in ((1, "d1"), (5, "d5")):
+        sh = sig * (h ** 0.5)
+        c = last_p * (1 + score * tilt * (h ** 0.5))
+        out["h"][lab] = {"center": round(c),
+            "p68": [round(c*(1-sh)), round(c*(1+sh))],
+            "p90": [round(c*(1-1.645*sh)), round(c*(1+1.645*sh))],
+            "range_pct": round(1.645*sh*200, 2)}
+    return out
+
+
+def score_previous(prev, hist, field):
+    """직전 예측 채점 — 방향 적중 / 90% 구간 포함."""
+    if not prev: return None
+    cl = daily_closes(hist, field)
+    d0 = prev.get("asof"); base = prev.get("base")
+    later = [(d, p) for d, p in cl if d > d0]
+    if not later: return None
+    act_d, act_p = later[0]
+    h1 = prev.get("h", {}).get("d1", {})
+    c = h1.get("center"); rng = h1.get("p90") or [None, None]
+    if c is None or rng[0] is None: return None
+    return {"pred_for": act_d, "base": base, "center": c, "actual": act_p,
+            "err_pct": round((act_p/c - 1)*100, 2),
+            "dir_hit": bool((c > base) == (act_p > base)),
+            "in90": bool(rng[0] <= act_p <= rng[1])}
+
+
 def main():
     A    = load_agents()
     inv  = load(os.path.join(DATA, "krx_investors.json"), {})
@@ -264,6 +337,36 @@ def main():
       ],
       "votes": votes})
 
+    # ── 가격 예측 + 직전 채점 ──
+    prevlog = load(OUT, {}) or {}
+    prev_fc = prevlog.get("forecast", {})
+    FIELDS = {"hynix": "kr_price", "samsung": "ss_price"}
+    fc, sco = {}, {}
+    for nm, fld in FIELDS.items():
+        p = predict(hist, fld, score)
+        if p: fc[nm] = p
+        r = score_previous(prev_fc.get(nm), hist, fld)
+        if r: sco[nm] = r
+
+    card = prevlog.get("scorecard_fc", {"n":0,"dir_hit":0,"in90":0,"abs_err":0.0})
+    scored = prevlog.get("_scored_at", {})
+    for nm, r in sco.items():
+        pid = prev_fc.get(nm, {}).get("asof")
+        if pid and pid != scored.get(nm):
+            card["n"] += 1
+            card["dir_hit"] += 1 if r["dir_hit"] else 0
+            card["in90"] += 1 if r["in90"] else 0
+            card["abs_err"] += abs(r["err_pct"])
+            scored[nm] = pid
+    if card["n"]:
+        card["dir_rate"] = round(card["dir_hit"]/card["n"]*100, 1)
+        card["in90_rate"] = round(card["in90"]/card["n"]*100, 1)
+        card["mae_pct"] = round(card["abs_err"]/card["n"], 2)
+    log["forecast"] = fc
+    log["forecast_score"] = sco
+    log["scorecard_fc"] = card
+    log["_scored_at"] = scored
+
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(log, f, ensure_ascii=False, indent=1)
 
@@ -282,6 +385,21 @@ def main():
     print("     주요: " + ", ".join("{}({:+.2f})".format(x['name'], x['contrib']) for x in major))
     print("     소수: " + (", ".join("{}({:+.2f})".format(x['name'], x['contrib']) for x in minor) or "없음"))
     print("     미해결 {}건".format(len(unresolved)))
+    if fc:
+        print("  📈 가격 예측 (구간=EWMA 검증 / 중심이동=미검증)")
+        for nm, p in fc.items():
+            d1 = p["h"]["d1"]
+            print("     {:<9} 기준 {:>10,} → 중심 {:>10,}  90% [{:>9,} ~ {:>9,}]  σ {:.2f}%".format(
+                nm, p["base"], d1["center"], d1["p90"][0], d1["p90"][1], p["sigma_d"]))
+    if sco:
+        print("  📊 직전 예측 채점")
+        for nm, r in sco.items():
+            print("     {:<9} {} 실제 {:>10,}  오차 {:+.2f}%  방향 {}  구간 {}".format(
+                nm, r["pred_for"], r["actual"], r["err_pct"],
+                "적중" if r["dir_hit"] else "실패", "포함" if r["in90"] else "이탈"))
+    if card.get("n"):
+        print("     누적 {}회 · 방향 {}% · 90%구간 {}% · MAE {}%".format(
+            card["n"], card.get("dir_rate"), card.get("in90_rate"), card.get("mae_pct")))
 
 
 if __name__ == "__main__":

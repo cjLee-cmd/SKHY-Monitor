@@ -885,6 +885,40 @@ async function renderCouncil(){
           + V.unresolved.length+'건 · '+V.unresolved.slice(0,2).map(function(u){return u.agent+" — "+u.q;}).join(" / ")+'</div>' : '')
     + '</div>';
 
+  // ── 가격 예측 ──
+  const FC = c.forecast || {}, SC = c.forecast_score || {}, CARD = c.scorecard_fc || {};
+  const NM = {hynix:"SK하이닉스", samsung:"삼성전자"};
+  if (Object.keys(FC).length) {
+    h += '<div style="background:var(--bg-card);border:0.5px solid var(--separator);border-radius:12px;padding:13px 15px;margin-bottom:14px">'
+       + '<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px">'
+       + '<span style="font-size:11.5px;font-weight:700;color:var(--label-secondary)">📈 가격 예측 (익일)</span>'
+       + '<span style="font-size:10px;color:var(--label-tertiary)">구간=EWMA 검증방식 · 중심이동=미검증</span>'
+       + (CARD.n ? '<span style="font-size:10.5px;margin-left:auto;font-family:var(--font-mono);color:var(--label-secondary)">누적 '+CARD.n+'회 · 방향 '+(CARD.dir_rate||0)+'% · 구간 '+(CARD.in90_rate||0)+'% · MAE '+(CARD.mae_pct||0)+'%</span>' : '');
+    h += '</div>';
+    Object.keys(FC).forEach(function(k){
+      const p = FC[k], d1 = (p.h||{}).d1 || {};
+      const dlt = ((d1.center/p.base - 1)*100);
+      const dc = dlt > 0.02 ? "var(--ios-red)" : (dlt < -0.02 ? "var(--ios-blue)" : "var(--label-secondary)");
+      h += '<div style="padding:8px 0;border-top:0.5px solid var(--separator)">'
+         + '<div style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap">'
+         + '<b style="font-size:12.5px;min-width:76px">'+(NM[k]||k)+'</b>'
+         + '<span style="font-size:11px;color:var(--label-tertiary)">기준</span>'
+         + '<span style="font-family:var(--font-mono);font-size:12.5px">'+p.base.toLocaleString()+'</span>'
+         + '<span style="color:var(--label-tertiary)">→</span>'
+         + '<span style="font-family:var(--font-mono);font-size:15px;font-weight:700;color:'+dc+'">'+d1.center.toLocaleString()+'</span>'
+         + '<span style="font-size:11px;color:'+dc+'">'+(dlt>0?"+":"")+dlt.toFixed(2)+'%</span>'
+         + '<span style="font-size:10.5px;color:var(--label-tertiary);margin-left:auto">σ '+p.sigma_d+'%</span>'
+         + '</div>'
+         + '<div style="font-size:11.5px;color:var(--label-secondary);margin-top:3px;font-family:var(--font-mono)">'
+         + '90% [' + d1.p90[0].toLocaleString() + ' ~ ' + d1.p90[1].toLocaleString() + ']'
+         + (SC[k] ? '<span style="margin-left:10px;font-family:var(--font-sans);color:'+(SC[k].in90?"var(--ios-green)":"var(--ios-red)")+'">직전: '
+             + (SC[k].dir_hit?"방향 적중":"방향 실패") + ' · ' + (SC[k].in90?"구간 포함":"구간 이탈")
+             + ' (' + (SC[k].err_pct>0?"+":"") + SC[k].err_pct + '%)</span>' : '')
+         + '</div></div>';
+    });
+    h += '</div>';
+  }
+
   h += '<div style="font-size:11px;color:var(--label-tertiary);margin-bottom:10px">'
      + (c.at||"") + " · 수급 기준일 " + (c.data_asof||"—") + "</div>";
 
