@@ -321,6 +321,12 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
     </p>
   </div>
 
+  <div class="panel" id="ivPanel">
+    <h3>내일 구간 예측 <span id="ivBadge" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span></h3>
+    <div class="cap">방향이 아니라 <b>범위</b>를 예측합니다. EWMA 변동성(λ=0.94) 기반이며 5년 1,157일 백테스트에서 90% 구간이 실제 <b>88.4%</b> 적중했습니다. <b>"오를지 내릴지"는 예측하지 않습니다</b> — 일간 방향의 설명력은 R² 1% 미만입니다.</div>
+    <div id="ivBody"><div style="color:var(--label-tertiary);font-size:12.5px;padding:20px 0;text-align:center">구간 계산 대기 중</div></div>
+  </div>
+
   <div class="panel" id="councilPanel">
     <h3>에이전트 협의체 <span id="cvVerdict" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span></h3>
     <div class="cap">시장 주체별 에이전트가 실측 데이터로 발언하고 서로 반박합니다. 각 에이전트는 독립 컨텍스트(<code>agents/</code>)를 가지며, 신뢰도는 검증 결과로 갱신됩니다. <b>관찰 기록이며 투자 판단의 근거가 아닙니다.</b></div>
@@ -566,6 +572,7 @@ async function load(){
   renderZoneBadge();
   renderSwitchPanel();
   renderCouncil();
+  renderInterval();
   await loadAnalysis();
 }
 
@@ -838,6 +845,79 @@ const zonePlugin = {
     ctx.restore();
   }
 };
+
+async function renderInterval(){
+  let d;
+  try { d = await (await fetch("data/interval.json?t="+Date.now())).json(); }
+  catch(e){ return; }
+  const T = d.targets || {};
+  const keys = Object.keys(T);
+  if (!keys.length) return;
+
+  let live = null, n = 0;
+  keys.forEach(function(k){
+    const l = T[k].live && T[k].live["90"];
+    if (l) { live = (live||0) + l.hit_rate * l.n; n += l.n; }
+  });
+  const badge = document.getElementById("ivBadge");
+  if (badge) {
+    if (n > 0) {
+      const r = live / n;
+      badge.textContent = "실전 " + r.toFixed(0) + "% (" + n + "회)";
+      badge.style.background = r >= 85 ? "rgba(52,199,89,.15)" : (r >= 75 ? "rgba(255,149,0,.15)" : "rgba(255,59,48,.15)");
+      badge.style.color = r >= 85 ? "#1B7A3D" : (r >= 75 ? "#8A5200" : "#A32D2D");
+    } else {
+      badge.textContent = "백테스트 88.4%";
+      badge.style.background = "rgba(0,122,255,.12)"; badge.style.color = "#0A5DC2";
+    }
+  }
+
+  let h = '';
+  keys.forEach(function(k){
+    const t = T[k], b = t.bands["90"], b68 = t.bands["68"];
+    const lo = b.lo, hi = b.hi, px = t.price;
+    const pos = ((px - lo) / (hi - lo) * 100).toFixed(1);
+    const i68lo = ((b68.lo - lo) / (hi - lo) * 100).toFixed(1);
+    const i68w = ((b68.hi - b68.lo) / (hi - lo) * 100).toFixed(1);
+    const bt = t.backtest && t.backtest["90"];
+    const lv = t.live && t.live["90"];
+    const fmt = function(v){ return Math.round(v).toLocaleString(); };
+    h += '<div style="margin-bottom:18px">'
+      + '<div style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:9px">'
+      + '<b style="font-size:13px">'+t.name+'</b>'
+      + '<span style="font-family:var(--font-mono);font-size:14px;font-weight:700">'+fmt(px)+t.unit+'</span>'
+      + '<span style="font-size:11px;color:var(--label-tertiary)">σ '+t.sigma_daily_pct+'%</span>'
+      + '<span style="font-size:11px;color:var(--label-tertiary);margin-left:auto">'
+      + (bt ? '백테스트 '+bt.hit_rate+'%' : '') + (lv ? ' · 실전 '+lv.hit_rate+'% ('+lv.n+')' : '') + '</span></div>'
+      + '<div style="position:relative;height:34px;background:var(--fill-quaternary);border-radius:8px;overflow:hidden">'
+      + '<div style="position:absolute;left:'+i68lo+'%;width:'+i68w+'%;top:0;bottom:0;background:rgba(0,122,255,.13)"></div>'
+      + '<div style="position:absolute;left:'+pos+'%;top:0;bottom:0;width:2px;background:var(--ios-orange)"></div>'
+      + '<div style="position:absolute;left:6px;top:50%;transform:translateY(-50%);font-size:11px;font-family:var(--font-mono);color:var(--label-secondary)">'+fmt(lo)+'</div>'
+      + '<div style="position:absolute;right:6px;top:50%;transform:translateY(-50%);font-size:11px;font-family:var(--font-mono);color:var(--label-secondary)">'+fmt(hi)+'</div>'
+      + '</div>'
+      + '<div style="display:flex;justify-content:space-between;font-size:10.5px;color:var(--label-tertiary);margin-top:4px">'
+      + '<span>90% 하단 ('+((lo/px-1)*100).toFixed(1)+'%)</span>'
+      + '<span style="color:var(--ios-blue)">68% 구간</span>'
+      + '<span>90% 상단 (+'+((hi/px-1)*100).toFixed(1)+'%)</span></div>'
+      + '</div>';
+  });
+
+  const sc = d.scored_now || [];
+  if (sc.length) {
+    h += '<div style="border-top:0.5px solid var(--separator);padding-top:10px;margin-top:4px">'
+       + '<div style="font-size:11.5px;color:var(--label-secondary);margin-bottom:6px">직전 예측 채점</div>';
+    sc.forEach(function(x){
+      const ok = x.hits && x.hits["90"];
+      h += '<div style="font-size:12px;margin-bottom:3px">'+(ok?"✅":"❌")+' '+x.name
+         + ' <span style="font-family:var(--font-mono)">'+(x.move_pct>0?"+":"")+x.move_pct+'%</span></div>';
+    });
+    h += '</div>';
+  }
+  h += '<div style="font-size:11px;color:var(--label-tertiary);margin-top:10px;padding-top:8px;border-top:0.5px solid var(--separator)">'
+     + (d.ts_kst||"") + ' · ' + (d.method||"") + ' · <b>관찰 기록이며 투자 판단의 근거가 아닙니다.</b></div>';
+  const body = document.getElementById("ivBody");
+  if (body) body.innerHTML = h;
+}
 
 async function renderCouncil(){
   let c;
