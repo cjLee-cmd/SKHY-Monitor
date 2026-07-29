@@ -321,6 +321,13 @@ h1 .ver{display:inline-block;margin-left:7px;padding:1.5px 6px;border-radius:6px
     </p>
   </div>
 
+  <div class="panel" id="tsPanel">
+    <h3>수집 → 판정 시계열 <span id="tsBadge" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span></h3>
+    <div class="cap">10분마다 수집한 프리미엄 실선, <b>이동평균</b>과 <b>±2σ 밴드(음영)</b>, 그리고 <b>예측 구간(점선)</b>을 함께 표시합니다. 하단은 협의체 판정 점수 추이입니다.</div>
+    <div class="chart-box" style="height:280px"><canvas id="tsChart" role="img" aria-label="프리미엄 시계열과 밴드, 예측구간"></canvas></div>
+    <div class="chart-box" style="height:150px;margin-top:10px"><canvas id="scChart" role="img" aria-label="협의체 판정 점수 추이"></canvas></div>
+  </div>
+
   <div class="panel" id="ivPanel">
     <h3>내일 구간 예측 <span id="ivBadge" style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:9999px;margin-left:6px;vertical-align:1px"></span></h3>
     <div class="cap">방향이 아니라 <b>범위</b>를 예측합니다. EWMA 변동성(λ=0.94) 기반이며 5년 1,157일 백테스트에서 90% 구간이 실제 <b>88.4%</b> 적중했습니다. <b>"오를지 내릴지"는 예측하지 않습니다</b> — 일간 방향의 설명력은 R² 1% 미만입니다.</div>
@@ -573,6 +580,7 @@ async function load(){
   renderSwitchPanel();
   renderCouncil();
   renderInterval();
+  renderTimeseries();
   await loadAnalysis();
 }
 
@@ -845,6 +853,92 @@ const zonePlugin = {
     ctx.restore();
   }
 };
+
+let tsChart=null, scChart=null;
+async function renderTimeseries(){
+  let H, IV=null, CJ=null;
+  try { H = await (await fetch("data/history.json?t="+Date.now())).json(); } catch(e){ return; }
+  try { IV = await (await fetch("data/interval.json?t="+Date.now())).json(); } catch(e){}
+  try { CJ = await (await fetch("data/council.json?t="+Date.now())).json(); } catch(e){}
+
+  const rows = H.filter(function(r){ return r.trusted !== false; }).slice(-288);
+  if (rows.length < 10) return;
+  const P = rows.map(function(r){ return r.premium_pct; });
+  const L = rows.map(function(r){ return r.ts_kst; });
+
+  const W = 24;
+  const ma=[], up=[], dn=[];
+  for (let i=0;i<P.length;i++){
+    const a=P.slice(Math.max(0,i-W+1), i+1);
+    const m=a.reduce(function(x,y){return x+y;},0)/a.length;
+    const v=a.reduce(function(x,y){return x+(y-m)*(y-m);},0)/a.length;
+    const sd=Math.sqrt(v);
+    ma.push(+m.toFixed(2)); up.push(+(m+2*sd).toFixed(2)); dn.push(+(m-2*sd).toFixed(2));
+  }
+
+  const FWD = 18;
+  const last = P[P.length-1], lm = ma[ma.length-1];
+  const lsd = (up[up.length-1]-lm)/2 || 1;
+  const fl=[], fu=[], fd=[], fm=[];
+  for (let i=1;i<=FWD;i++){
+    fl.push(L.length? "+"+(i*10)+"분" : "");
+    const w = lsd*1.645*Math.sqrt(i/6);
+    fm.push(+lm.toFixed(2)); fu.push(+(last+w).toFixed(2)); fd.push(+(last-w).toFixed(2));
+  }
+  const N=P.length, TOT=N+FWD;
+  const pad=function(arr,front){ return front ? arr.concat(new Array(FWD).fill(null)) : new Array(N-1).fill(null).concat([P[N-1]]).concat(arr); };
+
+  const badge=document.getElementById("tsBadge");
+  if (badge){ badge.textContent = rows.length+"틱 · "+(L[0]||"")+" ~ "+(L[N-1]||"");
+    badge.style.background="var(--fill-tertiary)"; badge.style.color="var(--label-secondary)"; }
+
+  const labels = L.concat(fl);
+  const mk=function(data,color,opts){ return Object.assign({data:data,borderColor:color,backgroundColor:color,
+    borderWidth:1.5,pointRadius:0,tension:0.2,fill:false,spanGaps:true}, opts||{}); };
+
+  if (tsChart) tsChart.destroy();
+  tsChart = new Chart(document.getElementById("tsChart"), {
+    type:"line",
+    data:{ labels:labels, datasets:[
+      mk(pad(up,true), "rgba(0,122,255,0)", {fill:"+1", backgroundColor:"rgba(0,122,255,.10)"}),
+      mk(pad(dn,true), "rgba(0,122,255,0)", {}),
+      mk(pad(ma,true), "#378ADD", {borderWidth:1.2, borderDash:[4,3]}),
+      mk(pad(P,true),  "#EF9F27", {borderWidth:2}),
+      mk(pad(fu,false),"#E24B4A", {borderDash:[3,3], borderWidth:1.2}),
+      mk(pad(fd,false),"#E24B4A", {borderDash:[3,3], borderWidth:1.2}),
+      mk(pad(fm,false),"#888780", {borderDash:[2,4], borderWidth:1})
+    ]},
+    options:{ responsive:true, maintainAspectRatio:false, animation:false,
+      interaction:{mode:"index",intersect:false},
+      plugins:{ legend:{display:false},
+        tooltip:{ callbacks:{ label:function(c){
+          const n=["+2σ","−2σ","이동평균","프리미엄","예측 상단","예측 하단","예측 중심"][c.datasetIndex];
+          return c.parsed.y==null? null : n+" "+c.parsed.y.toFixed(2)+"%"; }}}},
+      scales:{ y:{ ticks:{callback:function(v){return v+"%";},color:"#898781",font:{size:11}},
+                   grid:{color:"rgba(137,135,129,.14)"}},
+               x:{ ticks:{maxTicksLimit:8,color:"#898781",font:{size:10}}, grid:{display:false}}}}
+  });
+
+  const S=(CJ&&CJ.score_log)||[];
+  if (S.length>=2){
+    if (scChart) scChart.destroy();
+    scChart = new Chart(document.getElementById("scChart"), {
+      type:"line",
+      data:{ labels:S.map(function(x){return (x.ts||"").slice(5);}), datasets:[
+        mk(S.map(function(x){return x.score;}), "#D4537E", {borderWidth:2, fill:"origin", backgroundColor:"rgba(212,83,126,.10)"})
+      ]},
+      options:{ responsive:true, maintainAspectRatio:false, animation:false,
+        plugins:{ legend:{display:false},
+          tooltip:{callbacks:{label:function(c){ const d=S[c.dataIndex];
+            return "판정 "+d.label+" "+d.score.toFixed(3)+" (진단 "+d.n_true+"/"+d.n_diag+")"; }}}},
+        scales:{ y:{min:-1,max:1,ticks:{color:"#898781",font:{size:11}},grid:{color:"rgba(137,135,129,.14)"}},
+                 x:{ticks:{maxTicksLimit:6,color:"#898781",font:{size:10}},grid:{display:false}}}}
+    });
+  } else {
+    const c=document.getElementById("scChart");
+    if (c && c.parentElement) c.parentElement.innerHTML='<div style="color:var(--label-tertiary);font-size:12px;text-align:center;padding:40px 0">협의체 점수 이력 수집 중 (10분마다 기록)</div>';
+  }
+}
 
 async function renderInterval(){
   let d;

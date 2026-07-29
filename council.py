@@ -404,6 +404,18 @@ def main():
         {"text": "감시 트리거 {}건".format(len(tg))},
     ], "votes": votes})
 
+    # 점수 시계열 기록 (10분 간격)
+    slog = []
+    try:
+        with open(OUT, encoding='utf-8') as _f:
+            slog = json.load(_f).get("score_log", [])
+    except (OSError, ValueError):
+        pass
+    slog.append({"ts": log["at"], "score": round(score, 3), "label": label,
+                 "n_votes": len(votes),
+                 "n_true": sum(1 for x in dx if x['true']), "n_diag": len(dx)})
+    log["score_log"] = slog[-600:]
+
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(log, f, ensure_ascii=False, indent=1)
 
