@@ -1,8 +1,8 @@
 {
- "ts_kst": "07-30 04:15",
- "n_items": 103,
+ "ts_kst": "07-30 04:25",
+ "n_items": 102,
  "by_source": {
-  "kr": 73,
+  "kr": 72,
   "en": 30
  },
  "routed": {
@@ -12,18 +12,8 @@
   "R-LEVERAGE": 14,
   "P-ADR": 1
  },
- "unassigned": 62,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "\"반대매매 막으려 또 입금?\"…증시 급락에 신용투자자 '딜레마' - 나눔경제뉴스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 61,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, ‘메모리 피크아웃’ 우려 진정 총력전… “AI 투자 지속 확대” - 조선비즈 - Chosunbiz",
@@ -154,8 +144,8 @@
    "agents": []
   },
   {
-   "title": "젠슨 황도 \"고맙다\"…'TSMC 추격은 착각'이라던 삼성의 반전 [테크로그] - 한국경제",
-   "pub": "Mon, 27 Jul 2026",
+   "title": "브로드컴이 삼성에 300조 물량 맡긴 이유…“TSMC, 비싸고 늦어” [갭 월드] - 서울경제",
+   "pub": "Sun, 26 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -230,13 +220,6 @@
   {
    "title": "삼성전자 반도체 성과급 자율 기부 추진한다 - 나눔경제뉴스",
    "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체-스마트 전화로 하반기 실적 쌍끌이 - 코리아리포트",
-   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -489,15 +472,6 @@
    ]
   },
   {
-   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "\"반대매매 막으려 또 입금?\"…증시 급락에 신용투자자 '딜레마' - 나눔경제뉴스",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -507,7 +481,16 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -659,6 +642,15 @@
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "Micron Investors Get Another Reason to Be Nervous",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
