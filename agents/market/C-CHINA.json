@@ -1,0 +1,75 @@
+{
+ "id": "C-CHINA",
+ "name": "중국 리스크",
+ "group": "구조위협",
+ "icon": "🇨🇳",
+ "version": 1,
+ "created": "2026-07-29",
+ "updated": "2026-07-29 12:07",
+ "identity": "중국 메모리·장비 자립 위협. CXMT(창신메모리)의 DRAM 점유 확대와 DUV 노광장비 국산화.",
+ "behavior": {
+  "buy_when": "중국 캐파 증설 지연, 장비 규제 강화, 수율 문제 보도",
+  "sell_when": "중국 점유율 확대, 장비 자립 진전, 메모리 증산 발표"
+ },
+ "parameters": {
+  "CXMT_DRAM매출점유": {
+   "v": "7.7%",
+   "src": "2026 Q1",
+   "note": "이미 보유분"
+  },
+  "CXMT_출하량점유": {
+   "v": "9.0%",
+   "src": "2026 Q1"
+  },
+  "CXMT_웨이퍼캐파": {
+   "v": "11.0%",
+   "src": "2026 Q1",
+   "note": "캐파가 매출보다 높음 = 증산 여력"
+  },
+  "DUV장비_자립": {
+   "v": "개발 소식",
+   "note": "ASML -12% 촉발",
+   "src": "2026-07-28"
+  },
+  "충격_2026_07_28": {
+   "v": "삼성 -18.7% / 하이닉스 -23.1% (2일)",
+   "note": "Z -3.14σ / -3.15σ"
+  }
+ },
+ "data_source": "뉴스·공시 수동 갱신 + overreact.py 밸류체인 동조성",
+ "falsification": "중국 점유율이 정체되는데 한국 메모리주가 계속 하락하면 '중국 위협' 가설 폐기",
+ "confidence": 0.55,
+ "scorecard": {
+  "confirmed": 0,
+  "refuted": 0,
+  "pending": 1
+ },
+ "open_questions": [
+  "CXMT 실제 캐파 증설 일정",
+  "중국 DUV 양산 가능 시점",
+  "HBM 시장 침투 가능성 (현재는 범용 DRAM 중심)"
+ ],
+ "speak": {
+  "metric": "overreact",
+  "thr": 0,
+  "say": {
+   "any": "CXMT DRAM점유 {c:.1f}% · 밸류체인 동조 {n}. 낙폭/위협 배율 {r:.1f}x. {state}"
+  },
+  "state": {
+   "gt": 70,
+   "yes": "과잉반응 가능성 높음 — 재검토 필요.",
+   "no": "구조적 재평가 진행 중."
+  }
+ },
+ "stance": {
+  "rule": "overreact_score",
+  "w": 1.0
+ },
+ "revisions": [
+  {
+   "at": "2026-07-29 12:07",
+   "kind": "created",
+   "note": "2026-07-28 폭락 원인 규명에서 도출. 기존 M-CYCLE은 Peer 주가만 봐 중국 팩터 부재."
+  }
+ ]
+}

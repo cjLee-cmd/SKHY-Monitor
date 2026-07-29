@@ -3,9 +3,9 @@
  "name": "개인 레버리지",
  "group": "개인",
  "icon": "⚡",
- "version": 3,
+ "version": 4,
  "created": "2026-07-27",
- "updated": "2026-07-27 22:00",
+ "updated": "2026-07-29 21:11",
  "identity": "단일종목 레버ETF(5/27~ +25.28조) + 신용융자 32.7조.",
  "behavior": {
   "buy_when": "상승 추격 (FOMO)",
@@ -28,11 +28,11 @@
    "n": 41
   },
   "신용융자": {
-   "v": "36.6→32.7조",
-   "src": "금투협"
+   "v": "실시간 연동",
+   "src": "금투협 funds.json"
   }
  },
- "data_source": "KRX ETF 수급·순자산 + 금투협 신용",
+ "data_source": "KRX ETF 좌수 + 금투협 신용융자 (실시간)",
  "falsification": "주가 -10% 추가 하락에도 좌수 유지되면 '반대매매 위험' 과대평가",
  "confidence": 0.7,
  "scorecard": {
@@ -51,18 +51,27 @@
    "at": "2026-07-27 22:00",
    "kind": "stance",
    "note": "입장 규칙 주입 — 의장 종합에 신뢰도 가중 반영"
+  },
+  {
+   "at": "2026-07-29 21:11",
+   "kind": "upgrade",
+   "note": "신용융자 실데이터 연동"
   }
  ],
  "speak": {
-  "metric": "static",
+  "metric": "funds_lev",
   "thr": 0,
   "say": {
-   "any": "레버ETF 순자산 고점 대비 -47%, 좌수는 -3~12%. 환매 없이 물려 있습니다. 신용 32.7조가 반대매매 뇌관입니다."
+   "any": "신용 {c:.1f}조({cc:+.2f}) · 레버ETF 좌수 {sh:.2f}억. {state}"
+  },
+  "state": {
+   "gt": 0,
+   "yes": "레버리지 확대 중 — 항복 전.",
+   "no": "청산 진행 — 항복 신호."
   }
  },
  "stance": {
-  "rule": "static",
-  "value": -0.6,
-  "w": 0.7
+  "rule": "credit_chg",
+  "w": 0.8
  }
 }

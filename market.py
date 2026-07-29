@@ -22,7 +22,10 @@ GROUPS = {
    "kosdaq": ("%5EKQ11", "코스닥"),
  },
  "변동성": {
-   "vix": ("%5EVIX", "VIX"),
+   "vix":  ("%5EVIX", "VIX"),
+   "vxn":  ("%5EVXN", "나스닥 VIX"),
+   "vvix": ("%5EVVIX", "VVIX"),
+   "skew": ("%5ESKEW", "SKEW 꼬리위험"),
  },
  "원자재": {
    "oil":    ("CL=F", "WTI 유가"),
@@ -35,6 +38,51 @@ GROUPS = {
    "nvda": ("NVDA", "엔비디아"),
  },
 }
+
+
+def _load_env():
+    p = os.path.join(BASE, ".env")
+    if not os.path.exists(p): return
+    try:
+        with open(p, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and "=" in line and not line.startswith("#"):
+                    k, v = line.split("=", 1)
+                    os.environ.setdefault(k.strip(), v.strip())
+    except OSError:
+        pass
+
+
+def krx_vkospi():
+    """KRX 파생상품지수 API — 코스피200 변동성지수(VKOSPI)."""
+    _load_env()
+    key = os.environ.get("KRX_AUTH_KEY")
+    if not key: return None
+    import re as _re
+    from datetime import timedelta as _td
+    for back in range(0, 6):
+        d = (datetime.now(KST) - _td(days=back)).strftime("%Y%m%d")
+        try:
+            req = urllib.request.Request(
+                "https://data-dbg.krx.co.kr/svc/apis/idx/drvprod_dd_trd?basDd=" + d,
+                headers={"AUTH_KEY": key})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                raw = _re.sub(r'[\x00-\x1f]', ' ', r.read().decode('utf-8', 'replace'))
+            j = json.loads(raw)
+            rows = next((j[k] for k in j if isinstance(j[k], list)), [])
+            hit = [x for x in rows if x.get('IDX_NM') == '코스피 200 변동성지수']
+            if not hit: continue
+            v = hit[0]
+            def n(k):
+                try: return float(str(v.get(k, 0)).replace(',', ''))
+                except: return 0.0
+            return {"date": v.get('BAS_DD'), "cur": n('CLSPRC_IDX'),
+                    "chg": n('CMPPREVDD_IDX'), "chg_pct": n('FLUC_RT'),
+                    "hi": n('HGPRC_IDX'), "lo": n('LWPRC_IDX')}
+        except Exception:
+            continue
+    return None
 
 
 def fetch(sym, rng="3mo"):
@@ -74,6 +122,25 @@ def main():
                 "range_pos": round(pos, 0),
             }
 
+    import statistics as _st, math as _m
+    kh = fetch("%5EKS11", "3mo")
+    if kh and len(kh) > 25:
+        _r = [(kh[i]/kh[i-1]-1) for i in range(1, len(kh))]
+        rv20 = _st.pstdev(_r[-20:]) * _m.sqrt(250) * 100
+        rv60 = _st.pstdev(_r[-60:]) * _m.sqrt(250) * 100 if len(_r) >= 60 else rv20
+        snap["groups"].setdefault("변동성", {})["kospi_rv"] = {
+            "name": "코스피 실현변동성", "cur": round(rv20, 1), "chg_1d": 0,
+            "chg_5d": 0, "chg_20d": round(rv20 - rv60, 1), "chg_60d": 0,
+            "range_pos": round(min(100, rv20 / max(rv60, 1) * 50), 0)}
+
+    vk = krx_vkospi()
+    if vk and vk.get('cur'):
+        snap["groups"].setdefault("변동성", {})["vkospi"] = {
+            "name": "VKOSPI", "cur": vk['cur'], "chg_1d": vk['chg_pct'],
+            "chg_5d": 0, "chg_20d": 0, "chg_60d": 0,
+            "range_pos": round(min(100, max(0, (vk['cur'] - 15) / 85 * 100))),
+            "date": vk['date'], "src": "KRX"}
+
     G = snap["groups"]
     def g(grp, k, f='cur'):
         return G.get(grp, {}).get(k, {}).get(f)
@@ -90,7 +157,30 @@ def main():
 
     # 경보
     al = []
+    vxn = G.get('변동성', {}).get('vxn', {})
+    skew = G.get('변동성', {}).get('skew', {})
+    krv = G.get('변동성', {}).get('kospi_rv', {})
     vix = G.get('변동성', {}).get('vix', {})
+    vko = G.get('변동성', {}).get('vkospi', {})
+    if vko.get('cur') and vix.get('cur'):
+        d['vkospi_vix_ratio'] = round(vko['cur'] / vix['cur'], 2)
+    if vko.get('cur', 0) >= 80:
+        al.append({"level":"critical","text":
+            "VKOSPI {:.1f} — 한국 공포 극단(통상 15~25). 상위25% 구간 10일 평균 -8.0%.".format(vko['cur'])})
+    elif vko.get('cur', 0) >= 60:
+        al.append({"level":"high","text":"VKOSPI {:.1f} — 고공포 구간.".format(vko['cur'])})
+    elif 0 < vko.get('cur', 99) <= 30:
+        al.append({"level":"info","text":
+            "VKOSPI {:.1f} — 저공포. 과거 하위25%는 10일 평균 +14.1%.".format(vko['cur'])})
+    if vxn.get('cur') and vix.get('cur'):
+        _rt = vxn['cur'] / vix['cur']
+        d['vxn_vix_ratio'] = round(_rt, 2)
+        if _rt >= 1.4:
+            al.append({"level":"high","text":"VXN/VIX {:.2f} — 공포가 기술주에 집중.".format(_rt)})
+    if skew.get('cur', 0) >= 140:
+        al.append({"level":"high","text":"SKEW {:.0f} — 꼬리위험 헤지 극단(통상 115~135).".format(skew['cur'])})
+    if krv.get('cur', 0) >= 40:
+        al.append({"level":"high","text":"코스피 실현변동성 {:.0f}% — 한국 공포 극단.".format(krv['cur'])})
     if vix.get('cur', 0) >= 25:
         al.append({"level":"high","text":"VIX {} — 공포 구간. 위험자산 회피.".format(vix['cur'])})
     elif vix.get('cur', 99) <= 14:

@@ -3,60 +3,75 @@
  "name": "위험선호",
  "group": "매크로",
  "icon": "🌡️",
- "identity": "VIX·유가·금·구리. 글로벌 위험선호와 인플레 압력.",
+ "identity": "한국 자체 공포지수(VKOSPI) 중심. 미국 VIX·VXN·SKEW는 보조. 유가·구리로 실물 수요 확인.",
  "behavior": {
   "buy_when": "VIX 하락 + 유가 안정 → 위험선호 회복",
   "sell_when": "VIX 급등 or 유가 급등 → 위험회피"
  },
  "parameters": {
-  "VIX": {
-   "v": 17.71,
-   "range_pos": 37,
-   "src": "Yahoo ^VIX"
+  "VKOSPI": {
+   "v": 83.43,
+   "src": "KRX 파생상품지수",
+   "note": "통상 15~25, 80+는 극단"
   },
-  "유가_20일": {
-   "v": "+21.52%",
-   "note": "인플레·비용 압박",
-   "src": "Yahoo CL=F"
+  "VKOSPI_VIX비율": {
+   "v": 4.45,
+   "note": "한국 공포가 미국의 4.5배"
   },
-  "구리_20일": {
-   "v": "+4.10%",
-   "note": "실물 수요 견조",
-   "src": "Yahoo HG=F"
+  "VXN_VIX비율": {
+   "v": 1.53,
+   "note": "공포가 기술주 집중"
   },
-  "코스피_vs_SP500": {
-   "v": "-20.42%p",
-   "note": "한국 디스카운트 확대"
+  "SKEW": {
+   "v": 142.98,
+   "note": "꼬리위험 헤지 극단(통상 115~135)"
+  },
+  "검정_수준": {
+   "v": "+10일 -0.729 / +20일 -0.858",
+   "src": "87일",
+   "sig": true,
+   "note": "VKOSPI 높을수록 이후 하락 — 통념과 반대"
+  },
+  "검정_변화율": {
+   "v": "+1일 +0.097 / +5일 +0.033",
+   "sig": false,
+   "note": "변화율은 예측력 없음"
+  },
+  "구간_고공포": {
+   "v": "86~97 구간 +10일 평균 -8.03%, 상승 22%",
+   "n": 18
+  },
+  "구간_저공포": {
+   "v": "49~59 구간 +10일 평균 +14.11%, 상승 100%",
+   "n": 21
   }
  },
- "data_source": "Yahoo Finance (^VIX/CL=F/GC=F/HG=F/^GSPC/^KS11)",
- "falsification": "VIX 25 이상인데 코스피가 상승하면 '위험선호 채널' 가설 약화",
- "confidence": 0.65,
+ "data_source": "KRX 파생상품지수(VKOSPI) + Yahoo(VIX/VXN/VVIX/SKEW/유가/구리)",
+ "falsification": "VKOSPI 85 이상에서 10일 상승이 3회 연속 나오면 역방향 가설 폐기",
+ "confidence": 0.7,
  "speak": {
   "metric": "market",
   "group": "변동성",
-  "key": "vix",
+  "key": "vkospi",
   "thr": 0,
   "say": {
-   "any": "VIX {v:.1f}(범위 {p:.0f}%) · 유가 20일 {o:+.1f}% · 코스피-S&P {k:+.1f}%p. {state}"
+   "any": "VKOSPI {v:.1f}(VIX의 {r:.1f}배) · SKEW {s:.0f}. {state}"
   },
   "state": {
-   "gt": 25,
-   "yes": "위험회피 국면.",
-   "no": "공포 구간은 아님."
+   "gt": 80,
+   "yes": "한국 공포 극단 — 과거 이 구간 10일 평균 -8.0%.",
+   "no": "공포 완화 구간."
   }
  },
  "stance": {
-  "rule": "market_inv",
-  "group": "변동성",
-  "key": "vix",
-  "base": 18,
-  "scale": 10,
-  "w": 0.6
+  "rule": "vkospi_level",
+  "base": 55,
+  "scale": 30,
+  "w": 0.9
  },
- "version": 1,
+ "version": 2,
  "created": "2026-07-27",
- "updated": "2026-07-27 22:10",
+ "updated": "2026-07-29 21:32",
  "scorecard": {
   "confirmed": 0,
   "refuted": 0,
@@ -68,6 +83,16 @@
    "at": "2026-07-27 22:10",
    "kind": "created",
    "note": "시장환경 모니터 신설"
+  },
+  {
+   "at": "2026-07-29 21:32",
+   "kind": "upgrade",
+   "note": "미국 VIX 대리 → KRX VKOSPI 직접. 87일 검정으로 수준-only 제약 명시."
   }
- ]
+ ],
+ "limits": {
+  "no_1day": "1일 예측 금지 — t=-1.65로 유의성 미달",
+  "level_only": "수준만 유의. 변화율은 무의미",
+  "sample": "87일(4개월)로 표본 부족. 급등→급락 국면 편향 가능"
+ }
 }
