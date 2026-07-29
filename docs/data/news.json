@@ -1,53 +1,20 @@
 {
- "ts_kst": "07-29 22:45",
- "n_items": 103,
+ "ts_kst": "07-29 22:54",
+ "n_items": 104,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 30
  },
  "routed": {
+  "C-CHINA": 15,
   "M-RISK": 1,
-  "C-CHINA": 14,
-  "M-CYCLE": 6,
+  "M-CYCLE": 5,
   "F-ACTIVE": 6,
-  "R-LEVERAGE": 14
+  "R-LEVERAGE": 15
  },
  "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "서킷브레이커",
-   "src": "kr",
-   "title": "양시장 서킷브레이커…SK하이닉스 레버리지는 32% 폭락(상보) - v.daum.net",
-   "agents": [
-    "M-RISK"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
-  {
-   "title": "양시장 서킷브레이커…SK하이닉스 레버리지는 32% 폭락(상보) - v.daum.net",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "한국 코스피지수 12% 급락하며 하락세 지속; SK하이닉스 20% 폭락 - Investing.com 한국어",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - 서울경제",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
   {
    "title": "'최대 실적' SK하이닉스, 중장기 메모리 수요 확신…장기공급·투자 확대 나선다 - 지디넷코리아",
    "pub": "Wed, 29 Jul 2026",
@@ -100,6 +67,29 @@
    "agents": []
   },
   {
+   "title": "양시장 서킷브레이커…SK하이닉스 레버리지는 32% 폭락(상보) - v.daum.net",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "title": "한국 코스피지수 12% 급락하며 하락세 지속; SK하이닉스 20% 폭락 - Investing.com 한국어",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - 서울경제",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "[컨콜] SK하이닉스 \"추가 주주환원 검토…연내 구체안 공유\" - 뉴시스",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -135,22 +125,6 @@
    "agents": []
   },
   {
-   "title": "브로드컴이 삼성에 300조 물량 맡긴 이유…“TSMC, 비싸고 늦어” [갭 월드] - 서울경제",
-   "pub": "Sun, 26 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성 기술 빼가며, D램 공백에 급성장‥CXMT, '삼전·닉스' 위협하나? - MBC 뉴스",
-   "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "\"삼전닉스 오늘 또 왜 이래요?\" 반도체에 대한 끝없는 '의심들' - YTN",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
@@ -170,6 +144,22 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "브로드컴이 삼성에 300조 물량 맡긴 이유…“TSMC, 비싸고 늦어” [갭 월드] - 서울경제",
+   "pub": "Sun, 26 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성 기술 빼가며, D램 공백에 급성장‥CXMT, '삼전·닉스' 위협하나? - MBC 뉴스",
+   "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "창신메모리發 대공습에 삼전닉스 '와르르'…반도체株 발목잡나 - v.daum.net",
@@ -209,15 +199,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 2분기 나란히 최대 실적…AI 메모리 '쌍끌이' - ebn.co.kr",
-   "pub": "Tue, 28 Jul 2026",
+   "title": "삼성전자, 30일 2분기 실적 발표…반도체 부문 영업이익 '주목' - 네이트",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 30일 2분기 실적 발표…반도체 부문 영업이익 '주목' - 네이트",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "삼성전자·SK하이닉스, 2분기 나란히 최대 실적…AI 메모리 '쌍끌이' - ebn.co.kr",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -249,15 +239,6 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
-   "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "‘중국 반도체 자립’ 신호탄…CXMT 상장에 첨단 노광장비도 직접 생산 - 한겨레",
@@ -312,6 +293,15 @@
    ]
   },
   {
+   "title": "중국 반도체 눈부신 데뷔... CXMT 첫날 472% 폭등 - 조선일보",
+   "pub": "Mon, 27 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
    "pub": "Sat, 25 Jul 2026",
    "src": "kr",
@@ -321,8 +311,8 @@
    ]
   },
   {
-   "title": "'중국은 더 이상 후발주자 아니다'…창신메모리 쇼크에 삼성·SK하이닉스 흔들 - 테크M",
-   "pub": "Tue, 28 Jul 2026",
+   "title": "반도체 중국몽…CXMT 주가 첫날 5배 올라 - 코리아리포트",
+   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -330,8 +320,8 @@
    ]
   },
   {
-   "title": "반도체 중국몽…CXMT 주가 첫날 5배 올라 - 코리아리포트",
-   "pub": "Mon, 27 Jul 2026",
+   "title": "'중국은 더 이상 후발주자 아니다'…창신메모리 쇼크에 삼성·SK하이닉스 흔들 - 테크M",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -346,8 +336,8 @@
    "agents": []
   },
   {
-   "title": "‘상장 첫날 시총 712조 1위’ 중국 CXMT, 한국 반도체 업계도 덩달아 ‘긴장’ - 경향신문",
-   "pub": "Mon, 27 Jul 2026",
+   "title": "中 CXMT 상장 첫날 시총 1위 등극…메모리 반도체 추격 속도 - 뉴스21 통신",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -355,7 +345,7 @@
    ]
   },
   {
-   "title": "상장 동시에 시총 1위 CXMT...메모리 하락 사이클 앞당길 변수? - 조선일보",
+   "title": "‘상장 첫날 시총 712조 1위’ 중국 CXMT, 한국 반도체 업계도 덩달아 ‘긴장’ - 경향신문",
    "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -598,6 +588,15 @@
    "agents": []
   },
   {
+   "title": "신용융자 38조 육박 빚투 과열, 삼전닉스에 9조 쏠렸다 - 자본시장뉴스",
+   "pub": "Fri, 19 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
@@ -614,6 +613,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "SOXQ ETF Is A Sharper Bet Than Its Name Suggests",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Direxion unveils options income ETF suite tied to Nvidia, Tesla and other megacap",
@@ -640,20 +646,6 @@
   },
   {
    "title": "Did SK Hynix’s Record $42 Billion Q2 Profit Just Prove the Memory Boom Went Bust?",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SK Hynix Couldn’t Meet Wall Street’s Impossible Standards. Its Stock Is Paying the Price.",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Seagate, SK Hynix, Ford, Vertiv, and More Stocks That Explain Today’s Market",
    "pub": "Wed, 29 Jul 2026",
    "src": "en",
    "q": "MU",
