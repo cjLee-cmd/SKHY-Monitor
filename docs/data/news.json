@@ -1,5 +1,5 @@
 {
- "ts_kst": "07-30 08:01",
+ "ts_kst": "07-30 08:11",
  "n_items": 103,
  "by_source": {
   "kr": 73,
@@ -7,20 +7,21 @@
  },
  "routed": {
   "M-CYCLE": 8,
+  "M-RISK": 1,
   "C-CHINA": 12,
   "F-ACTIVE": 7,
   "P-ADR": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 64,
+ "unassigned": 63,
  "alerts": [
   {
    "level": "critical",
-   "kw": "반대매매",
+   "kw": "서킷브레이커",
    "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 급락 5400선도 붕괴… 사상 첫 연이틀 서킷브레이커 - 조선일보",
    "agents": [
-    "R-LEVERAGE"
+    "M-RISK"
    ]
   }
  ],
@@ -40,7 +41,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스·마이크론, HBM4 양산 속도전…승부처는 '수율·공급력' - newsis.com",
+   "title": "삼성전자·SK하이닉스·마이크론, HBM4 양산 속도전…승부처는 '수율·공급력' - 뉴시스",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -49,21 +50,23 @@
    ]
   },
   {
+   "title": "코스피 급락 5400선도 붕괴… 사상 첫 연이틀 서킷브레이커 - 조선일보",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "title": "하이닉스 '사상 최대실적'에도 코스피 하락...이유는? [뉴스나우] - YTN",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "'실적'은 없다‥충격의 코스피 다시 5,000대로 - MBC 뉴스",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 3개월 만에 시총 1천 조 하회…삼성전자도 위태 - v.daum.net",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[26년 7월 30일(목)] 하이닉스 실적 날았지만… 코스피 끝모를 추락 - 비티의 오늘 주요 뉴스 요약 - contents.premium.naver.com",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -86,20 +89,6 @@
    ]
   },
   {
-   "title": "SK하이닉스, ‘메모리 피크아웃’ 우려 진정 총력전… “AI 투자 지속 확대” - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'최대 실적' SK하이닉스, 중장기 메모리 수요 확신…장기공급·투자 확대 나선다 - 지디넷코리아",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "랄랄, SK하이닉스 주가 하락에 눈 뒤집혔다…\"-50% 넘어\" - 파이낸셜뉴스",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -114,20 +103,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 사장단, 반도체 팹 입지 광주 군공항 현지 방문 - v.daum.net",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "‘호남권 반도체 클러스터’ 광주 군 공항 찾은 SK하이닉스 임원진…민형배 시장 “속도전” - 서울경제",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "5년치 수요 확보했다…SK하이닉스, 빅테크 10여곳과 장기계약 - 머니투데이 - 머니투데이",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -135,10 +110,31 @@
    "agents": []
   },
   {
-   "title": "\"삼전닉스 오늘 또 왜 이래요?\" 반도체에 대한 끝없는 '의심들' - YTN",
-   "pub": "Tue, 28 Jul 2026",
+   "title": "BNK證, SK하이닉스 목표가 148만원까지 낮췄다…\"반등 제한적\" - 연합인포맥스",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
-   "q": "삼성전자 반도체",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 –22.85%, 삼성전자 –17.91%…주가, 이틀 만에 빠졌다 - 한겨레",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "역대급 실적은 중요하지 않았다…하이닉스 급락, 왜 - 중앙일보",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 주가, 오늘 왜 폭락했나? - Investing.com 한국어",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
    "agents": []
   },
   {
@@ -156,14 +152,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 오늘 2Q '메모리 효자' 확정실적 공개…삼성전기도 실적 발표 - newsis.com",
+   "title": "삼성전자 반도체 홀로 88조…‘120조 주주환원’ 나오나 관심 [biz-플러스] - 서울경제",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 30일 2분기 실적 발표…반도체 부문 영업이익 '주목' - 네이트",
+   "title": "삼성전자, 오늘 2Q '메모리 효자' 확정실적 공개…삼성전기도 실적 발표 - 뉴시스",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -177,6 +173,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "\"삼전닉스 오늘 또 왜 이래요?\" 반도체에 대한 끝없는 '의심들' - YTN",
+   "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "삼성전자 17년 만에 최악…증권가가 꼽은 코스피 '진짜 리스크'는 - 한국경제",
@@ -221,13 +224,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 사상 최대 2Q 실적 발표…반도체 피크아웃 우려 종식 주목 - 뉴스1",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "정교한 기술로 첨단 반도체 공정 '마지막 관문' 맡은 삼성전자 천안·온양캠퍼스 - 파이낸셜포스트",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -237,6 +233,13 @@
   {
    "title": "삼성전자 반도체 성과급 자율 기부 추진한다 - 나눔경제뉴스",
    "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체-스마트 전화로 하반기 실적 쌍끌이 - 코리아리포트",
+   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -278,6 +281,13 @@
    ]
   },
   {
+   "title": "[숏폼] 중국은 메모리 반도체에서 왜 존재감이 낮을까? - IT동아",
+   "pub": "Mon, 27 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "[김대호 인물] 창신메모리 주이밍(朱一明)... 시총 1위 중국 대장주 등극 - 글로벌이코노믹",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -294,13 +304,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "[숏폼] 중국은 메모리 반도체에서 왜 존재감이 낮을까? - IT동아",
-   "pub": "Mon, 27 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "\"여긴 춥다?\" '차이나 반도체 쇼크'에 얼어붙은 투심 [뉴스ON] - YTN",
@@ -376,13 +379,6 @@
    "agents": []
   },
   {
-   "title": "지금이 싸다? 외국인·기관 줍줍…코스피 6100선 회복 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 장중 2% 하락 딛고 반등…6700선 회복했지만 외국인 2.9조 순매도 - 인더스트리뉴스",
    "pub": "Mon, 27 Jul 2026",
    "src": "kr",
@@ -390,6 +386,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "지금이 싸다? 외국인·기관 줍줍…코스피 6100선 회복 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "[마감시황] 코스피, 외국인과 개인 동반 매도세 속 5600선 마감 - 브릿지경제",
@@ -604,6 +607,20 @@
    ]
   },
   {
+   "title": "The Memory Crash Has 4 Big Stocks Down 30% or More From Their Highs. I'd Buy 2 of Them.",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Senators Warn Apple Not to Buy Memory Chips From Chinese Firms",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron’s CEO sold big last week. Was it a warning sign?",
    "pub": "Wed, 29 Jul 2026",
    "src": "en",
@@ -643,20 +660,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Tesla Stock Breaks $300. How Far It Needs to Fall to Lose Trillion-Dollar Status.",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SK Hynix’s Profits Explode 550%, but Its $31 Billion Spending Plan Sends Investors Running",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
