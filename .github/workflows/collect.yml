@@ -53,9 +53,10 @@ jobs:
               python3 news.py || echo "news failed"
               python3 adr_watch.py || echo "adr_watch failed"
               python3 overreact.py || echo "overreact failed"
+              python3 interval.py || echo "interval failed"
               python3 council.py || echo "council failed"
               python3 paper_trading.py || echo "Claude 증권 거래 실패"
-              git add docs/data/history.json docs/data/analysis_log.json docs/data/signal_state.json docs/data/bands.json docs/data/forecast.json docs/data/forecast_log.json docs/data/accounts.json docs/data/krx_investors.json docs/data/krx_extra.json docs/data/council.json docs/data/funds.json docs/data/news.json docs/data/adr_watch.json docs/data/overreact.json docs/data/bonds.json docs/data/market.json
+              git add docs/data/history.json docs/data/analysis_log.json docs/data/signal_state.json docs/data/bands.json docs/data/forecast.json docs/data/forecast_log.json docs/data/accounts.json docs/data/krx_investors.json docs/data/krx_extra.json docs/data/council.json docs/data/interval.json docs/data/funds.json docs/data/news.json docs/data/adr_watch.json docs/data/overreact.json docs/data/bonds.json docs/data/market.json
               if git diff --cached --quiet; then
                 echo "no change"
               else
