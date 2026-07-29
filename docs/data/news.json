@@ -1,18 +1,29 @@
 {
- "ts_kst": "07-29 23:07",
- "n_items": 103,
+ "ts_kst": "07-29 23:17",
+ "n_items": 102,
  "by_source": {
-  "kr": 73,
+  "kr": 72,
   "en": 30
  },
  "routed": {
   "C-CHINA": 15,
+  "M-RISK": 1,
   "M-CYCLE": 5,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 14
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "서킷브레이커",
+   "src": "kr",
+   "title": "양시장 서킷브레이커…SK하이닉스 레버리지는 32% 폭락(상보) - v.daum.net",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, ‘메모리 피크아웃’ 우려 진정 총력전… “AI 투자 지속 확대” - 조선비즈 - Chosunbiz",
@@ -66,8 +77,31 @@
    "agents": []
   },
   {
+   "title": "양시장 서킷브레이커…SK하이닉스 레버리지는 32% 폭락(상보) - v.daum.net",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "title": "하이닉스 '사상 최대실적'에도 코스피 하락...이유는? [뉴스나우] - YTN",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스, 2분기 영업이익 예상치보다는 낮은 60조5000억원 - v.daum.net",
    "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 –22.85%, 삼성전자 –17.91%…주가, 이틀 만에 빠졌다 - 한겨레",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -87,7 +121,7 @@
    "agents": []
   },
   {
-   "title": "‘호남권 반도체 클러스터’ 광주 군 공항 찾은 SK하이닉스 임원진…민형배 시장 “속도전” - 서울경제",
+   "title": "‘호남권 반도체 클러스터’ 광주 군 공항 찾은 SK하이닉스 임원진…민형배 시장 “속도전” - sedaily.com",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -101,27 +135,6 @@
    "agents": []
   },
   {
-   "title": "하이닉스, 빅테크 10여곳과 장기계약…올 40조원 후반 투자 - 디일렉",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "5년치 수요 확보했다…SK하이닉스, 빅테크 10여곳과 장기계약 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[해설]SK하이닉스 “빅테크 메모리 수요 견조”…10개사와 LTA 계약 - 전자신문",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"삼전닉스 오늘 또 왜 이래요?\" 반도체에 대한 끝없는 '의심들' - YTN",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
@@ -129,7 +142,7 @@
    "agents": []
   },
   {
-   "title": "브로드컴이 삼성에 300조 물량 맡긴 이유…“TSMC, 비싸고 늦어” [갭 월드] - 서울경제",
+   "title": "브로드컴이 삼성에 300조 물량 맡긴 이유…“TSMC, 비싸고 늦어” [갭 월드] - sedaily.com",
    "pub": "Sun, 26 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -205,13 +218,6 @@
   {
    "title": "삼성전자 반도체 성과급 자율 기부 추진한다 - 나눔경제뉴스",
    "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 –22.85%, 삼성전자 –17.91%…주가, 이틀 만에 빠졌다 - 한겨레",
-   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -592,6 +598,22 @@
    ]
   },
   {
+   "title": "SK Hynix Couldn’t Meet Wall Street’s Impossible Standards. Its Stock Is Paying the Price.",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron Stock Is Getting Hit After SK Hynix’s Fumbled Earnings Moment",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron's CEO Just Made a $37 Million Move",
    "pub": "Wed, 29 Jul 2026",
    "src": "en",
@@ -622,23 +644,14 @@
    "agents": []
   },
   {
-   "title": "Micron Stock Is Making the Most of SK Hynix’s Fumbled Earnings Moment",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Did SK Hynix’s Record $42 Billion Q2 Profit Just Prove the Memory Boom Went Bust?",
+   "title": "SanDisk Sinks 52% in July. The S&P 500’s Biggest Loser is Still Up 2,000%.",
    "pub": "Wed, 29 Jul 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "SK Hynix Couldn’t Meet Wall Street’s Impossible Standards. Its Stock Is Paying the Price.",
+   "title": "Vertiv, SK Hynix, SoFi, Bloom Energy, GE HealthCare, and More Stocks That Explain Today’s Market",
    "pub": "Wed, 29 Jul 2026",
    "src": "en",
    "q": "MU",
