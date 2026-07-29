@@ -27,7 +27,22 @@ def load(p, d=None):
     except (OSError, ValueError): return d
 
 
+def _load_env():
+    p = os.path.join(BASE, ".env")
+    if not os.path.exists(p): return
+    try:
+        with open(p, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and "=" in line and not line.startswith("#"):
+                    k, v = line.split("=", 1)
+                    os.environ.setdefault(k.strip(), v.strip())
+    except OSError:
+        pass
+
+
 def krx_etf(bas_dd):
+    _load_env()
     key = os.environ.get("KRX_AUTH_KEY")
     if not key: return []
     url = "https://data-dbg.krx.co.kr/svc/apis/etp/etf_bydd_trd?basDd=" + bas_dd
