@@ -1,25 +1,75 @@
 {
- "ts_kst": "07-29 22:35",
- "n_items": 102,
+ "ts_kst": "07-29 22:45",
+ "n_items": 103,
  "by_source": {
   "kr": 73,
-  "en": 29
+  "en": 30
  },
  "routed": {
-  "C-CHINA": 15,
-  "M-CYCLE": 4,
+  "M-RISK": 1,
+  "C-CHINA": 14,
+  "M-CYCLE": 6,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "서킷브레이커",
+   "src": "kr",
+   "title": "양시장 서킷브레이커…SK하이닉스 레버리지는 32% 폭락(상보) - v.daum.net",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "SK하이닉스, 2분기 영업이익 예상치보다는 낮은 60조5000억원 - v.daum.net",
-   "pub": "Tue, 28 Jul 2026",
+   "title": "양시장 서킷브레이커…SK하이닉스 레버리지는 32% 폭락(상보) - v.daum.net",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "title": "한국 코스피지수 12% 급락하며 하락세 지속; SK하이닉스 20% 폭락 - Investing.com 한국어",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - 서울경제",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'최대 실적' SK하이닉스, 중장기 메모리 수요 확신…장기공급·투자 확대 나선다 - 지디넷코리아",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, ‘메모리 피크아웃’ 우려 진정 총력전… “AI 투자 지속 확대” - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "CXMT, 애플에 “싸게 줄 이유 없다”…삼성·SK하이닉스보다 비싼 값 제시 - 테크월드",
+   "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "미래에셋증권 \"SK하이닉스 목표가 33% 하향…낸드 가격 하락 가능성\" - 글로벌이코노믹",
@@ -43,52 +93,8 @@
    "agents": []
   },
   {
-   "title": "한국 코스피지수 12% 급락하며 하락세 지속; SK하이닉스 20% 폭락 - Investing.com 한국어",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'빚투' 4.6조 줄었지만…SK하이닉스엔 빚내서 베팅한 개미들 - 연합인포맥스",
+   "title": "SK하이닉스, 2분기 영업이익 예상치보다는 낮은 60조5000억원 - 조선일보",
    "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - 서울경제",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "CXMT, 애플에 “싸게 줄 이유 없다”…삼성·SK하이닉스보다 비싼 값 제시 - 테크월드",
-   "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "SK하이닉스, ‘메모리 피크아웃’ 우려 진정 총력전… “AI 투자 지속 확대” - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'최대 실적' SK하이닉스, 중장기 메모리 수요 확신…장기공급·투자 확대 나선다 - 지디넷코리아",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "AI 피크아웃론 일축한 하이닉스 …\"올 40조 후반 역대최대 투자\" - v.daum.net",
-   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -116,6 +122,13 @@
   },
   {
    "title": "SK하이닉스 사장단, 반도체 팹 입지 광주 군공항 현지 방문 - v.daum.net",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "랄랄, SK하이닉스 주가 하락에 눈 뒤집혔다…\"-50% 넘어\" - 파이낸셜뉴스",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -238,6 +251,15 @@
    "agents": []
   },
   {
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
+   "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "‘중국 반도체 자립’ 신호탄…CXMT 상장에 첨단 노광장비도 직접 생산 - 한겨레",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
@@ -290,15 +312,6 @@
    ]
   },
   {
-   "title": "중국 반도체 눈부신 데뷔... CXMT 첫날 472% 폭등 - 조선일보",
-   "pub": "Mon, 27 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
    "pub": "Sat, 25 Jul 2026",
    "src": "kr",
@@ -333,8 +346,8 @@
    "agents": []
   },
   {
-   "title": "中 CXMT 상장 첫날 시총 1위 등극…메모리 반도체 추격 속도 - 뉴스21 통신",
-   "pub": "Tue, 28 Jul 2026",
+   "title": "‘상장 첫날 시총 712조 1위’ 중국 CXMT, 한국 반도체 업계도 덩달아 ‘긴장’ - 경향신문",
+   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -342,7 +355,7 @@
    ]
   },
   {
-   "title": "‘상장 첫날 시총 712조 1위’ 중국 CXMT, 한국 반도체 업계도 덩달아 ‘긴장’ - 경향신문",
+   "title": "상장 동시에 시총 1위 CXMT...메모리 하락 사이클 앞당길 변수? - 조선일보",
    "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -429,15 +442,6 @@
    "agents": []
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
-   "pub": "Tue, 30 Jun 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "외국인 197조 '셀 코리아'…'폭락'한 코스피, 반등 가능성은? - v.daum.net",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
@@ -463,6 +467,15 @@
   {
    "title": "코스피, 기관·외국인 순매도에 장중 7000선 아래로 - v.daum.net",
    "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
+   "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -560,13 +573,6 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
    "pub": "Sun, 12 Jul 2026",
    "src": "kr",
@@ -585,12 +591,28 @@
    ]
   },
   {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Micron's CEO Just Made a $37 Million Move",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -636,15 +658,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Analysts Predict Sandisk And Micron Still Good For Huge Gains",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
