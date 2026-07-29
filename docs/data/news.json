@@ -1,5 +1,5 @@
 {
- "ts_kst": "07-29 23:46",
+ "ts_kst": "07-29 23:56",
  "n_items": 103,
  "by_source": {
   "kr": 73,
@@ -7,23 +7,13 @@
  },
  "routed": {
   "C-CHINA": 14,
-  "P-ADR": 4,
+  "P-ADR": 3,
   "M-CYCLE": 7,
-  "F-ACTIVE": 6,
+  "F-ACTIVE": 5,
   "R-LEVERAGE": 15
  },
- "unassigned": 59,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 60,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, ‘메모리 피크아웃’ 우려 진정 총력전… “AI 투자 지속 확대” - 조선비즈 - Chosunbiz",
@@ -206,8 +196,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 30일 2분기 실적 발표…반도체 부문 영업이익 '주목' - 네이트",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "삼성전자·하이닉스 프리마켓서 급락…23만·160만원대로 - 문화일보",
+   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -384,7 +374,7 @@
    "agents": []
   },
   {
-   "title": "외국인 5조 팔고, 레버리지 청산…코스피 급락 키운 '수급 악순환' - newspim.com",
+   "title": "외국인 5조 팔고, 레버리지 청산…코스피 급락 키운 '수급 악순환' - 뉴스핌",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -439,7 +429,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 기관·외국인 순매도에 장중 7000선 아래로 - asiae.co.kr",
+   "title": "코스피, 기관·외국인 순매도에 장중 7000선 아래로 - 아시아경제",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -471,14 +461,11 @@
    "agents": []
   },
   {
-   "title": "외국인 5조 순매도에도 하이닉스 ADR 효과…환율 소폭 하락 - 연합뉴스",
+   "title": "외국인 5.7조 '던지고' 개인·기관 '받아내', 장중 6000 무너졌다 - 뉴스핌",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE",
-    "P-ADR"
-   ]
+   "agents": []
   },
   {
    "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
@@ -614,6 +601,13 @@
    ]
   },
   {
+   "title": "Why Ericsson’s Worst Day in Three Years Wasn’t About This Quarter’s Numbers",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Better Artificial Intelligence (AI) Memory Buy: Micron Technology vs. Sandisk After the July 2026 Sell-off",
    "pub": "Wed, 29 Jul 2026",
    "src": "en",
@@ -654,15 +648,6 @@
   },
   {
    "title": "Micron Stock Is Getting Hit After SK Hynix’s Fumbled Earnings Moment",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron's CEO Just Made a $37 Million Move",
    "pub": "Wed, 29 Jul 2026",
    "src": "en",
    "q": "MU",
