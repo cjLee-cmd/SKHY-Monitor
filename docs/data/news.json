@@ -1,5 +1,5 @@
 {
- "ts_kst": "07-29 23:27",
+ "ts_kst": "07-29 23:36",
  "n_items": 102,
  "by_source": {
   "kr": 72,
@@ -7,12 +7,12 @@
  },
  "routed": {
   "C-CHINA": 14,
-  "M-RISK": 1,
-  "M-CYCLE": 6,
-  "F-ACTIVE": 5,
-  "R-LEVERAGE": 14
+  "M-CYCLE": 5,
+  "F-ACTIVE": 6,
+  "R-LEVERAGE": 14,
+  "P-ADR": 1
  },
- "unassigned": 63,
+ "unassigned": 64,
  "alerts": [],
  "items": [
   {
@@ -60,23 +60,7 @@
    "agents": []
   },
   {
-   "title": "한국 코스피지수 12% 급락하며 하락세 지속; SK하이닉스 20% 폭락 - Investing.com 한국어",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "양시장 서킷브레이커…SK하이닉스 레버리지는 32% 폭락(상보) - v.daum.net",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "하이닉스 '사상 최대실적'에도 코스피 하락...이유는? [뉴스나우] - YTN",
+   "title": "SK하이닉스 –22.85%, 삼성전자 –17.91%…주가, 이틀 만에 빠졌다 - 한겨레",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -85,13 +69,6 @@
   {
    "title": "SK하이닉스, 2분기 영업이익 예상치보다는 낮은 60조5000억원 - v.daum.net",
    "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 –22.85%, 삼성전자 –17.91%…주가, 이틀 만에 빠졌다 - 한겨레",
-   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -111,14 +88,35 @@
    "agents": []
   },
   {
-   "title": "‘호남권 반도체 클러스터’ 광주 군 공항 찾은 SK하이닉스 임원진…민형배 시장 “속도전” - sedaily.com",
+   "title": "하이닉스, 빅테크 10여곳과 장기계약…올 40조원 후반 투자 - 디일렉",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 사장단, 반도체 팹 입지 광주 군공항 현지 방문(종합) - 매일경제 마켓",
+   "title": "5년치 수요 확보했다…SK하이닉스, 빅테크 10여곳과 장기계약 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[해설]SK하이닉스 “빅테크 메모리 수요 견조”…10개사와 LTA 계약 - etnews.com",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "원자력연-SK하이닉스 반도체 방사선 검증 '협약 - 지디넷코리아",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "원자력연·SK하이닉스, 반도체 방사선 영향평가 공동연구 확대 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -347,6 +345,13 @@
    ]
   },
   {
+   "title": "지금이 싸다? 외국인·기관 줍줍…코스피 6100선 회복 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 외국인 순매도에 장중 하락 전환 - v.daum.net",
    "pub": "Mon, 27 Jul 2026",
    "src": "kr",
@@ -356,13 +361,6 @@
    ]
   },
   {
-   "title": "지금이 싸다? 외국인·기관 줍줍…코스피 6100선 회복 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "[마감시황] 코스피, 외국인과 개인 동반 매도세 속 5600선 마감 - 브릿지경제",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -370,24 +368,29 @@
    "agents": []
   },
   {
-   "title": "외국인 5조 팔고, 레버리지 청산…코스피 급락 키운 '수급 악순환' - 뉴스핌",
+   "title": "외인, 올들어 코스피서 200조원 순매도...지난 한해 순매도의 무려 22배에 달해 - 비욘드포스트",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "코스피, 장중 2% 하락 딛고 반등…6700선 회복했지만 외국인 2.9조 순매도 - 인더스트리뉴스",
-   "pub": "Mon, 27 Jul 2026",
+   "title": "외국인 5조 팔고, 레버리지 청산…코스피 급락 키운 '수급 악순환' - newspim.com",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
-   "title": "코스피, 기관·외국인 순매도에 장중 7000선 아래로 - 아시아경제",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "3000조 증발한 국장…외국인·레버리지 ETF가 키운 ‘투매 악순환’ - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피, 장중 2% 하락 딛고 반등…6700선 회복했지만 외국인 2.9조 순매도 - industrynews.co.kr",
+   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -413,18 +416,20 @@
    ]
   },
   {
-   "title": "3000조 증발한 국장…외국인·레버리지 ETF가 키운 ‘투매 악순환’ - 조선비즈 - Chosunbiz",
+   "title": "[EBN 데이터센터] 코스피, 6% 가까이 '뚝'…외국인도, 개인도 탈출 - ebn.co.kr",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[EBN 데이터센터] 코스피, 6% 가까이 '뚝'…외국인도, 개인도 탈출 - ebn.co.kr",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "코스피, 기관·외국인 순매도에 장중 7000선 아래로 - asiae.co.kr",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "외국인 197조 '셀 코리아'…'폭락'한 코스피, 반등 가능성은? - v.daum.net",
@@ -450,18 +455,14 @@
    "agents": []
   },
   {
-   "title": "\"외국인, 삼전닉스 지분율 10년 평균 하회…저가매수 주도할 주체\" - KB Think",
-   "pub": "Mon, 27 Jul 2026",
+   "title": "외국인 5조 순매도에도 하이닉스 ADR 효과…환율 소폭 하락 - 연합뉴스",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "패닉셀링 덮친 코스피…외국인 올해에만 197조 '팔자' - 더퍼블릭",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE",
+    "P-ADR"
+   ]
   },
   {
    "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
@@ -588,7 +589,21 @@
    ]
   },
   {
+   "title": "Semiconductor stocks are going up in smoke. But the S&P 500 is holding strong.",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "SK Hynix Couldn’t Meet Wall Street’s Impossible Standards. Its Stock Is Paying the Price.",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "A Deadly Chart Pattern Says SanDisk’s 47% Crash Isn’t Over",
    "pub": "Wed, 29 Jul 2026",
    "src": "en",
    "q": "MU",
@@ -628,20 +643,6 @@
   },
   {
    "title": "ChipAgents raises $60 million, expands Nvidia partnership",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SanDisk Sinks 52% in July. The S&P 500’s Biggest Loser is Still Up 2,000%.",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Vertiv, SK Hynix, SoFi, Bloom Energy, GE HealthCare, and More Stocks That Explain Today’s Market",
    "pub": "Wed, 29 Jul 2026",
    "src": "en",
    "q": "MU",
