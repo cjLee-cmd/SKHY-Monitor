@@ -271,10 +271,9 @@ def main():
           {"check":"발언/침묵","result":"{}명 / {}명".format(len(r1), len(silent)),"pass":True}]
     log["rounds"].append({"n": 3, "title": "검증", "items": v3})
 
-    # ── R4: M-CHAIR 신뢰도 가중 종합 ──
-    def stance_of(aid, a):
-        """컨텍스트의 stance 규칙으로 -1(약세)~+1(강세) 산출."""
-        st = a.get('stance')
+    # ── R4: M-CHAIR 진단 + 조건부 트리거 (예측 아님) ──
+    def stance_of(aid, ag):
+        st = ag.get('stance')
         if not st: return None
         rule = st.get('rule'); w = st.get('w', 0.5)
         v = None
@@ -290,116 +289,138 @@ def main():
         elif rule == 'basis_gap':
             if mb is None or not tb: return None
             v = -0.7 if mb > tb * 1.5 else 0.2
-        elif rule == 'adr_alert':
-            aw = ctxdata.get('adr') or {}
-            al = aw.get('alerts', [])
-            if not al: return None
-            crit = sum(1 for x in al if x.get('level') == 'critical')
-            v = -1.0 if crit else -0.6
-        elif rule == 'leverage_chg':
-            aw = ctxdata.get('adr') or {}
-            hy = aw.get('leverage', {}).get('hynix', {})
-            if not hy: return None
-            v = max(-1.0, min(1.0, hy.get('chg_avg', 0) / 10.0))
-        elif rule == 'overreact_score':
-            ov = ctxdata.get('overreact') or {}
-            sc = ov.get('score')
-            if sc is None: return None
-            # 과잉이면 반등 여지(+), 정당한 재평가면 추가 하락(-)
-            v = max(-1.0, min(1.0, (sc - 50) / 50.0))
+        elif rule == 'rate_pos':
+            u = (ctxdata.get('bonds') or {}).get('items', {}).get('us10y')
+            if not u: return None
+            v = -(u.get('range_pos', 50) - 50) / 50.0
         elif rule == 'market_chg':
-            mk = ctxdata.get('market') or {}
-            it = mk.get('groups', {}).get(st.get('group'), {}).get(st.get('key'))
-            if not it: return None
-            v = max(-1.0, min(1.0, it.get('chg_20d', 0) / st.get('scale', 15)))
+            it2 = (ctxdata.get('market') or {}).get('groups', {}).get(st.get('group'), {}).get(st.get('key'))
+            if not it2: return None
+            v = max(-1.0, min(1.0, it2.get('chg_20d', 0) / st.get('scale', 15)))
+        elif rule == 'market_inv':
+            it2 = (ctxdata.get('market') or {}).get('groups', {}).get(st.get('group'), {}).get(st.get('key'))
+            if not it2: return None
+            v = max(-1.0, min(1.0, -(it2.get('cur', 0) - st.get('base', 18)) / st.get('scale', 10)))
+        elif rule == 'vkospi_level':
+            it2 = (ctxdata.get('market') or {}).get('groups', {}).get('변동성', {}).get('vkospi')
+            if not it2: return None
+            v = max(-1.0, min(1.0, -(it2.get('cur', 55) - st.get('base', 55)) / st.get('scale', 30)))
         elif rule == 'credit_chg':
-            fd = ctxdata.get('funds') or {}
-            cc = fd.get('current', {}).get('credit', {}).get('chg_jo')
+            cc = (ctxdata.get('funds') or {}).get('current', {}).get('credit', {}).get('chg_jo')
             if cc is None: return None
             v = max(-1.0, min(1.0, -cc / 0.5))
-        elif rule == 'vkospi_level':
-            mk = ctxdata.get('market') or {}
-            it = mk.get('groups', {}).get('변동성', {}).get('vkospi')
-            if not it: return None
-            v = max(-1.0, min(1.0, -(it.get('cur', 55) - st.get('base', 55)) / st.get('scale', 30)))
-        elif rule == 'market_inv':
-            mk = ctxdata.get('market') or {}
-            it = mk.get('groups', {}).get(st.get('group'), {}).get(st.get('key'))
-            if not it: return None
-            v = max(-1.0, min(1.0, -(it.get('cur', 0) - st.get('base', 18)) / st.get('scale', 10)))
-        elif rule == 'rate_pos':
-            b = ctxdata.get('bonds') or {}
-            u = b.get('items', {}).get('us10y')
-            if not u: return None
-            p = u.get('range_pos', 50)
-            v = -(p - 50) / 50.0
+        elif rule == 'adr_alert':
+            alx = (ctxdata.get('adr') or {}).get('alerts', [])
+            if not alx: return None
+            v = -1.0 if any(x.get('level') == 'critical' for x in alx) else -0.6
+        elif rule == 'leverage_chg':
+            hy2 = (ctxdata.get('adr') or {}).get('leverage', {}).get('hynix', {})
+            if not hy2: return None
+            v = max(-1.0, min(1.0, hy2.get('chg_avg', 0) / 10.0))
+        elif rule == 'overreact_score':
+            sc2 = (ctxdata.get('overreact') or {}).get('score')
+            if sc2 is None: return None
+            v = max(-1.0, min(1.0, (sc2 - 50) / 50.0))
         if v is None: return None
-        c = a.get('confidence', 0.5)
-        eff = w * (c * 0.5 if c < 0.4 else c)   # 저신뢰 감산
-        return {"id": aid, "name": a.get('name', aid), "icon": a.get('icon','•'),
-                "stance": round(v, 3), "weight": round(w, 2),
-                "conf": c, "eff": round(eff, 3), "contrib": round(v * eff, 3)}
+        cf = ag.get('confidence', 0.5)
+        eff = w * (cf * 0.5 if cf < 0.4 else cf)
+        return {"id": aid, "name": ag.get('name', aid), "icon": ag.get('icon', '•'),
+                "stance": round(v, 3), "conf": cf, "eff": round(eff, 3),
+                "contrib": round(v * eff, 3)}
 
-    votes = [x for x in (stance_of(aid, A[aid]) for aid in order if aid in A) if x]
+    votes = [x for x in (stance_of(k, A[k]) for k in order if k in A) if x]
     tw = sum(x['eff'] for x in votes) or 1.0
     score = sum(x['contrib'] for x in votes) / tw
+    SCALE = [(-1.0, -0.35, "위험"), (-0.35, -0.12, "경계"),
+             (-0.12, 0.12, "주의"), (0.12, 1.01, "안정")]
+    label = next((n for lo, hi, n in SCALE if lo <= score < hi), "주의")
 
-    SCALE = [(-1.0,-0.35,"위험"),(-0.35,-0.12,"경계"),(-0.12,0.12,"주의"),(0.12,1.01,"안정")]
-    label = next((n for lo,hi,n in SCALE if lo <= score < hi), "주의")
+    # ── 진단: 검증 가능한 사실 명제만 ──
+    INST = ['금융투자','보험','투신','사모','은행','기타금융','연기금']
+    i5 = sum(flow(inv, k, 5) for k in INST)
+    dx = []
+    def dg(claim, cond, ev):
+        dx.append({"claim": claim, "true": bool(cond), "evidence": ev})
+    dg("외국인 매도 지속", f5 < 0, "5일 {:+.2f}조".format(f5))
+    dg("개인이 흡수", r5 > 0, "5일 {:+.2f}조".format(r5))
+    dg("기관 이탈", i5 < 0, "5일 {:+.2f}조".format(i5))
+    dg("자사주 완충 정지", c5 < 0.3, "삼성 {:+.2f}조".format(c5))
+    dg("개인이 유일 흡수처", f5 < 0 and i5 < 0 and r5 > 0, "수급 항등식")
+    fd = ctxdata.get('funds') or {}
+    cre = fd.get('current', {}).get('credit', {})
+    if cre:
+        dg("레버리지 확대 중(항복 전)", cre.get('chg_jo', 0) > 0,
+           "신용 {:+.2f}조".format(cre.get('chg_jo', 0)))
+    vko = (ctxdata.get('market') or {}).get('groups', {}).get('변동성', {}).get('vkospi', {})
+    if vko.get('cur'):
+        dg("한국 공포 극단(VKOSPI 80+)", vko['cur'] >= 80, "VKOSPI {:.1f}".format(vko['cur']))
+    if mb is not None and tb:
+        dg("현물 매도 압력 미소진", mb > tb * 1.5, "베이시스 {:+.2f}/{:+.2f}".format(mb, tb))
 
-    bear = sorted([x for x in votes if x['stance'] < 0], key=lambda x: x['contrib'])[:3]
-    bull = sorted([x for x in votes if x['stance'] > 0], key=lambda x: -x['contrib'])[:3]
-    major, minor = (bear, bull) if score < 0 else (bull, bear)
-
-    unresolved = []
-    for aid, a in A.items():
-        for q in a.get('open_questions', []):
-            unresolved.append({"agent": aid, "q": q})
+    # ── 조건부 트리거: "X가 Y되면 Z" ──
+    tg = []
+    def tr(watch, cond, then, cur):
+        tg.append({"watch": watch, "if": cond, "then": then, "now": cur})
+    lv = (ctxdata.get('adr') or {}).get('leverage', {})
+    tr("레버ETF 좌수", "-10% 이상 급감", "개인 항복 시작 → 바닥 근접 신호",
+       "현재 유지 중" if lv else "미확인")
+    if cre:
+        tr("신용융자", "감소 전환", "청산 진행 → 항복 진입",
+           "{:.1f}조({:+.2f})".format(cre.get('value_jo', 0), cre.get('chg_jo', 0)))
+    tr("외국인 수급", "3일 연속 순매수", "매도 압력 소진",
+       "5일 {:+.2f}조".format(f5))
+    tr("자사주", "일 0.3조 이상 재개", "완충재 복귀",
+       "삼성 {:+.2f}조".format(c5))
+    if vko.get('cur'):
+        tr("VKOSPI", "60 이하 하락", "공포 완화 국면 전환",
+           "{:.1f}".format(vko['cur']))
 
     ch_ctx = A.get('M-CHAIR', {})
     ng = ch_ctx.get('narrative_guard', {})
     guard = None
     if ng and score <= ng.get('trigger', -0.35):
-        guard = {"active": True, "rule": ng.get('rule',''),
-                 "msg": "가중점수 {:+.3f} ≤ {:.2f} — 강세 서술 금지. 주요 논거를 부차 지표로 뒤집지 말 것.".format(
-                     score, ng.get('trigger', -0.35))}
+        guard = {"active": True,
+                 "msg": "가중점수 {:+.3f} — 강세 서술 금지. 주요 논거를 부차 지표로 뒤집지 말 것.".format(score)}
+
+    bear = sorted([x for x in votes if x['stance'] < 0], key=lambda x: x['contrib'])[:3]
+    bull = sorted([x for x in votes if x['stance'] > 0], key=lambda x: -x['contrib'])[:3]
+    major, minor = (bear, bull) if score < 0 else (bull, bear)
+    unresolved = [{"agent": k, "q": q} for k, ag in A.items() for q in ag.get('open_questions', [])]
 
     log["verdict"] = {
-      "score": round(score, 3), "label": label, "guard": guard,
-      "n_votes": len(votes), "n_rebut": len(r2),
-      "major": [{"icon":x['icon'],"name":x['name'],"contrib":x['contrib'],"conf":x['conf']} for x in major],
-      "minor": [{"icon":x['icon'],"name":x['name'],"contrib":x['contrib'],"conf":x['conf']} for x in minor],
-      "unresolved": unresolved[:5],
-      "detail": "가중점수 {:+.3f} · 투표 {}인 · 반박 {}건".format(score, len(votes), len(r2))}
-
-    ch = A.get('M-CHAIR', {})
-    log["rounds"].append({"n": 4, "title": "의장 종합",
-      "items": [
-        {"text": "가중 점수 {:+.3f} → 「{}」".format(score, label)},
-        {"text": "주요 논거: " + ", ".join("{} {}({:+.2f})".format(x['icon'],x['name'],x['contrib']) for x in major)},
-        {"text": "소수 의견: " + (", ".join("{} {}({:+.2f})".format(x['icon'],x['name'],x['contrib']) for x in minor) or "없음")},
-        {"text": "미해결 {}건 → S-SEARCH 이관".format(len(unresolved))},
-      ],
-      "votes": votes})
+        "mode": "진단",
+        "score": round(score, 3), "label": label,
+        "n_votes": len(votes), "n_rebut": len(r2),
+        "diagnosis": dx, "triggers": tg,
+        "major": [{"icon": x['icon'], "name": x['name'], "contrib": x['contrib'], "conf": x['conf']} for x in major],
+        "minor": [{"icon": x['icon'], "name": x['name'], "contrib": x['contrib'], "conf": x['conf']} for x in minor],
+        "guard": guard, "unresolved": unresolved[:5],
+        "disclaimer": "이 판정은 현재 상태 진단이며 가격 예측이 아닙니다. 일간 방향의 설명력(R²)은 2% 미만입니다.",
+        "detail": "가중 {:+.3f} · 투표 {}인 · 진단 {}건 · 트리거 {}건".format(
+            score, len(votes), len(dx), len(tg))}
+    log["rounds"].append({"n": 4, "title": "의장 진단", "items": [
+        {"text": "국면 「{}」 (가중 {:+.3f})".format(label, score)},
+        {"text": "진단 {}/{}건 성립".format(sum(1 for x in dx if x['true']), len(dx))},
+        {"text": "감시 트리거 {}건".format(len(tg))},
+    ], "votes": votes})
 
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(log, f, ensure_ascii=False, indent=1)
 
-    print("council: {} | 「{}」 점수 {:+.3f} | 발언 {}/침묵 {} | 투표 {}인".format(
-        log["at"], log["verdict"]["label"], log["verdict"]["score"],
-        len(r1), len(silent), len(votes)))
-    for it in r1:
-        c = it.get('conf')
-        print("  {} {:<12} {} {}".format(it['icon'], it['id'],
-              "conf={:.2f}".format(c) if c else "       ", it['text'][:52]))
-    for it in silent:
-        print("  🔇 {:<12} 침묵".format(it['id']))
-    for it in r2:
-        print("  ⚔️ {} → {}: {}".format(it['from'], it['to'], it['text'][:48]))
-    print("  ⚖️ M-CHAIR 종합")
-    print("     주요: " + ", ".join("{}({:+.2f})".format(x['name'], x['contrib']) for x in major))
-    print("     소수: " + (", ".join("{}({:+.2f})".format(x['name'], x['contrib']) for x in minor) or "없음"))
-    print("     미해결 {}건".format(len(unresolved)))
+    V = log["verdict"]
+    print("council[진단]: {} | 「{}」 {:+.3f} | 발언 {}/침묵 {} | 투표 {}".format(
+        log["at"], V["label"], V["score"], len(r1), len(silent), V["n_votes"]))
+    print("  [진단 — 검증 가능한 사실]")
+    for x in V["diagnosis"]:
+        print("    {} {:<22} {}".format("✅" if x["true"] else "❌", x["claim"], x["evidence"]))
+    print("  [조건부 트리거 — 무엇을 보면 무엇이 바뀌나]")
+    for x in V["triggers"]:
+        print("    · {:<12} {:<16} → {}".format(x["watch"], x["if"], x["then"]))
+        print("      현재: {}".format(x["now"]))
+    print("  [논거] 주요: " + ", ".join("{}({:+.2f})".format(x['name'], x['contrib']) for x in V["major"]))
+    print("         소수: " + (", ".join("{}({:+.2f})".format(x['name'], x['contrib']) for x in V["minor"]) or "없음"))
+    if V.get("guard"): print("  🚧 " + V["guard"]["msg"])
+    print("  ⚠️ " + V["disclaimer"])
 
 
 if __name__ == "__main__":
