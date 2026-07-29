@@ -1,8 +1,8 @@
 {
- "ts_kst": "07-30 04:05",
- "n_items": 102,
+ "ts_kst": "07-30 04:15",
+ "n_items": 103,
  "by_source": {
-  "kr": 72,
+  "kr": 73,
   "en": 30
  },
  "routed": {
@@ -12,11 +12,21 @@
   "R-LEVERAGE": 14,
   "P-ADR": 1
  },
- "unassigned": 61,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "\"반대매매 막으려 또 입금?\"…증시 급락에 신용투자자 '딜레마' - 나눔경제뉴스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "SK하이닉스, ‘메모리 피크아웃’ 우려 진정 총력전… “AI 투자 지속 확대” - 조선비즈 - biz.chosun.com",
+   "title": "SK하이닉스, ‘메모리 피크아웃’ 우려 진정 총력전… “AI 투자 지속 확대” - 조선비즈 - Chosunbiz",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -30,21 +40,14 @@
    "agents": []
   },
   {
-   "title": "이 성적에 20만전자·140만닉스? \"너무 싸\"…美빅테크 입에 눈 쏠린다 - 머니투데이 - 머니투데이",
+   "title": "BNK證, SK하이닉스 목표가 148만원까지 낮췄다…\"반등 제한적\" - news.einfomax.co.kr",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "BNK證, SK하이닉스 목표가 148만원까지 낮췄다…\"반등 제한적\" - 연합인포맥스",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 또 ‘148만원’ 최저 목표가…BNK證 “과매도지만 반등 제한적일 것” - 조선비즈 - biz.chosun.com",
+   "title": "SK하이닉스 또 ‘148만원’ 최저 목표가…BNK證 “과매도지만 반등 제한적일 것” - 조선비즈 - Chosunbiz",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -67,7 +70,7 @@
    ]
   },
   {
-   "title": "계속되는 '달러 팔자'…20장 던지는 SK하이닉스에 달러-원 내리막 - 연합인포맥스",
+   "title": "계속되는 '달러 팔자'…20장 던지는 SK하이닉스에 달러-원 내리막 - news.einfomax.co.kr",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -97,6 +100,13 @@
   {
    "title": "'최대 실적' SK하이닉스, 중장기 메모리 수요 확신…장기공급·투자 확대 나선다 - 지디넷코리아",
    "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[속보] SK하이닉스 상반기 매출 131조 넘어…영업이익 100조 육박 - 연합뉴스TV",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -137,7 +147,7 @@
    "agents": []
   },
   {
-   "title": "중국발 반도체 우려에…프리마켓서 삼성전자 5%·SK하이닉스 7%↓ [코주부] - 서울경제",
+   "title": "삼성전자·하이닉스 프리마켓서 급락…23만·160만원대로 - 문화일보",
    "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -218,8 +228,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 성과급 자율 기부 추진한다 - nanumy.co.kr",
+   "title": "삼성전자 반도체 성과급 자율 기부 추진한다 - 나눔경제뉴스",
    "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체-스마트 전화로 하반기 실적 쌍끌이 - 코리아리포트",
+   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -234,7 +251,7 @@
    ]
   },
   {
-   "title": "‘상장 첫날 시총 712조 1위’ 중국 CXMT, 한국 반도체 업계도 덩달아 ‘긴장’ - khan.co.kr",
+   "title": "‘상장 첫날 시총 712조 1위’ 중국 CXMT, 한국 반도체 업계도 덩달아 ‘긴장’ - 경향신문",
    "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -398,7 +415,7 @@
    ]
   },
   {
-   "title": "3000조 증발한 국장…외국인·레버리지 ETF가 키운 ‘투매 악순환’ - 조선비즈 - biz.chosun.com",
+   "title": "3000조 증발한 국장…외국인·레버리지 ETF가 키운 ‘투매 악순환’ - 조선비즈 - Chosunbiz",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -472,8 +489,8 @@
    ]
   },
   {
-   "title": "\"반대매매 막으려 또 입금?\"…증시 급락에 신용투자자 '딜레마' - nanumy.co.kr",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -481,8 +498,8 @@
    ]
   },
   {
-   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "\"반대매매 막으려 또 입금?\"…증시 급락에 신용투자자 '딜레마' - 나눔경제뉴스",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -553,7 +570,7 @@
    ]
   },
   {
-   "title": "[26년 7월 25일(토)] 62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' - 비티의 오늘 주요 뉴스 요약 - contents.premium.naver.com",
+   "title": "[26년 7월 25일(토)] 62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' - 비티의 오늘 주요 뉴스 요약 - 네이버 프리미엄콘텐츠",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -585,6 +602,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "SK Hynix’s Profits Explode 550%, but Its $31 Billion Spending Plan Sends Investors Running",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Micron Stock Has Surged 637% in a Year. History Has a Clear Answer Where It Will Be in 2027",
@@ -631,22 +655,6 @@
   },
   {
    "title": "Tom Lee Says AI 'Bottleneck' Stocks Like MU Could Stabilize After Fed Decision — 'A Lot Of Fear Is Baked Into The Prices Of These Stocks'",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Micron Investors Get Another Reason to Be Nervous",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Intel Continues to Get Pummeled: Why One Analyst Maintains His Conviction That 130% Gains Will Come",
    "pub": "Wed, 29 Jul 2026",
    "src": "en",
    "q": "MU",
