@@ -1,66 +1,66 @@
 {
- "ts_kst": "07-30 13:44",
- "score": 46.7,
+ "ts_kst": "07-30 13:54",
+ "score": 45.4,
  "verdict": "판단 유보",
  "components": {
-  "A_통계극단성": 6.7,
+  "A_통계극단성": 5.8,
   "B_체인동조성": 25,
-  "C_펀더멘털배율": 3.2,
-  "D_역사되돌림": 11.8
+  "C_펀더멘털배율": 2.3,
+  "D_역사되돌림": 12.3
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -5.0,
+   "cum": -4.32,
    "sd": 4.21,
-   "z": -0.84,
-   "n_episodes": 16,
+   "z": -0.73,
+   "n_episodes": 18,
    "forward": {
     "5": {
-     "mean": 1.37,
-     "median": 1.94,
-     "up_rate": 56
+     "mean": 1.57,
+     "median": 1.35,
+     "up_rate": 61
     },
     "20": {
-     "mean": 4.73,
-     "median": 1.85,
+     "mean": 4.47,
+     "median": 0.54,
      "up_rate": 56
     },
     "60": {
-     "mean": 15.44,
-     "median": 3.67,
-     "up_rate": 69
+     "mean": 16.38,
+     "median": 6.17,
+     "up_rate": 67
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -14.32,
-   "sd": 5.2,
-   "z": -1.95,
-   "n_episodes": 8,
+   "cum": -13.87,
+   "sd": 5.19,
+   "z": -1.89,
+   "n_episodes": 9,
    "forward": {
     "5": {
-     "mean": 3.58,
-     "median": 2.66,
-     "up_rate": 62
+     "mean": 3.18,
+     "median": 1.55,
+     "up_rate": 56
     },
     "20": {
-     "mean": 8.93,
-     "median": 7.97,
-     "up_rate": 62
+     "mean": 8.22,
+     "median": 2.6,
+     "up_rate": 67
     },
     "60": {
-     "mean": 46.42,
-     "median": 11.65,
-     "up_rate": 62
+     "mean": 50.24,
+     "median": 11.76,
+     "up_rate": 67
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -5.0,
-  "SK하이닉스": -14.58,
+  "삼성전자": -4.32,
+  "SK하이닉스": -13.87,
   "마이크론": -17.91,
   "TSMC": -6.12,
   "ASML": -6.32,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -1.95,
-  "drop_avg": 9.66,
-  "fundamental_ratio": 1.25,
+  "z_min": -1.89,
+  "drop_avg": 9.09,
+  "fundamental_ratio": 1.18,
   "chain_negative": "5/5"
  },
- "caveat": "역사 표본 16개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 18개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
