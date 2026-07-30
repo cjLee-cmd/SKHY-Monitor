@@ -1,5 +1,5 @@
 {
- "ts_kst": "07-31 07:37",
+ "ts_kst": "07-31 07:47",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,18 +7,41 @@
  },
  "routed": {
   "P-ADR": 3,
-  "C-CHINA": 9,
-  "M-CYCLE": 7,
-  "F-ACTIVE": 7,
+  "C-CHINA": 8,
+  "M-CYCLE": 8,
+  "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
- "unassigned": 64,
+ "unassigned": 65,
  "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
   {
    "level": "high",
    "kw": "적자",
    "src": "kr",
-   "title": "삼성전자, 반도체로만 89.2조 벌었다…DX는 적자 - 서울신문",
+   "title": "삼성전자 2분기 반도체 영업이익 89조…완제품은 첫 적자 - 한겨레",
+   "agents": []
+  },
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - chosun.com",
+   "agents": []
+  },
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
    "agents": []
   }
  ],
@@ -45,13 +68,6 @@
    "agents": []
   },
   {
-   "title": "\"148만원 vs 470만원\"…사상 최대 실적에도 SK하이닉스 목표가 3배 벌어진 이유 - Chosunbiz",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "BNK證, SK하이닉스 목표가 148만원까지 낮췄다…\"반등 제한적\" - 연합인포맥스",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -59,7 +75,14 @@
    "agents": []
   },
   {
-   "title": "하닉 급락에도 “470만원 간다”…목표주가 되레 올린 한투, 왜 - 중앙일보",
+   "title": "주가 폭락 속…한국투자증권 \"SK하이닉스 470만원 간다\" - 연합뉴스TV",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"148만원 vs 470만원\"…사상 최대 실적에도 SK하이닉스 목표가 3배 벌어진 이유 - Chosunbiz",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -73,7 +96,7 @@
    "agents": []
   },
   {
-   "title": "[속보] SK하이닉스 ADR 17.57% 급등… 뉴욕증시 일제 상승 - 국민일보",
+   "title": "뉴욕증시, 기술주 강세에 상승 마감… SK하이닉스 ADR, 17% ‘껑충’ - 조선비즈 - Chosunbiz",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -82,7 +105,7 @@
    ]
   },
   {
-   "title": "뉴욕증시, 기술주 강세에 상승 마감… SK하이닉스 ADR, 17% ‘껑충’ - 조선비즈 - Chosunbiz",
+   "title": "[속보] SK하이닉스 ADR 17.57% 급등… 뉴욕증시 일제 상승 - 국민일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -121,7 +144,7 @@
    "agents": []
   },
   {
-   "title": "SK하닉 '억대 성과급' 그냥 주는 거 아니었네…취준생 '발칵' - hankyung.com",
+   "title": "SK하이닉스, 하반기 사무직 신입 채용한다…‘반나절 심층면접’ 도입 - 경향신문",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -135,7 +158,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
+   "title": "삼성전자 2분기 반도체 영업이익 89조…완제품은 첫 적자 - 한겨레",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -143,6 +166,13 @@
   },
   {
    "title": "삼성전자 기술 빼가더니…'466% 폭등' 대박 난 中 회사 - hankyung.com",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - chosun.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -233,14 +263,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 영업익 89.5조, 반도체가 99.7% - 조선일보",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -313,15 +336,6 @@
    ]
   },
   {
-   "title": "반도체 중국몽…CXMT 주가 첫날 5배 올라 - 코리아리포트",
-   "pub": "Mon, 27 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "[김대호 인물] 창신메모리 주이밍(朱一明)... 시총 1위 중국 대장주 등극 - 글로벌이코노믹",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -356,13 +370,20 @@
    ]
   },
   {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - chosun.com",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "6월 외국인 주식 순매도 50조 육박, 또 최대…지분율 36.4% 최고치 - v.daum.net",
@@ -374,7 +395,7 @@
    ]
   },
   {
-   "title": "\"코스피 약세, 외국인 매도·국민연금 매수세 약화 탓\" - 조선일보",
+   "title": "\"코스피 약세, 외국인 매도·국민연금 매수세 약화 탓\" - chosun.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -420,6 +441,13 @@
    "agents": []
   },
   {
+   "title": "외국인 반년째 ‘셀 코리아’…6월 주식 49조원 팔았다 - 헤럴드경제",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "외국인 돌아왔지만 코스피 또 하락…3일째 급락장 - 코리아리포트",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -450,15 +478,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "코스피 장중 6,000 붕괴…외국인, 삼전닉스 5조 원 순매도 - news.sbs.co.kr",
-   "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "외국인 쉼없이 팔았다…상반기 국내주식 163조 순매도 - v.daum.net",
@@ -608,12 +627,21 @@
    ]
   },
   {
-   "title": "신용융자 38조 육박 빚투 과열, 삼전닉스에 9조 쏠렸다 - 자본시장뉴스",
-   "pub": "Fri, 19 Jun 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Micron Technology (MU) Stock Gets Fair Value Bump As AI Demand And Contracts Draw Praise",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -645,15 +673,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron Stock Is Surging. Why a Samsung Warning Is Sparking a Memory Rebound.",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
