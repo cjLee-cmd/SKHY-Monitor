@@ -1,66 +1,66 @@
 {
- "ts_kst": "07-30 13:15",
- "score": 42.0,
+ "ts_kst": "07-30 13:25",
+ "score": 44.9,
  "verdict": "판단 유보",
  "components": {
-  "A_통계극단성": 4.4,
+  "A_통계극단성": 5.4,
   "B_체인동조성": 25,
-  "C_펀더멘털배율": 0.9,
-  "D_역사되돌림": 11.7
+  "C_펀더멘털배율": 2.2,
+  "D_역사되돌림": 12.3
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -3.41,
+   "cum": -4.43,
    "sd": 4.21,
-   "z": -0.57,
-   "n_episodes": 17,
+   "z": -0.74,
+   "n_episodes": 18,
    "forward": {
     "5": {
-     "mean": 1.73,
-     "median": 0.37,
-     "up_rate": 53
+     "mean": 1.22,
+     "median": 1.35,
+     "up_rate": 61
     },
     "20": {
-     "mean": 6.0,
-     "median": -0.92,
-     "up_rate": 47
+     "mean": 4.73,
+     "median": 0.54,
+     "up_rate": 56
     },
     "60": {
-     "mean": 19.11,
-     "median": 13.84,
-     "up_rate": 71
+     "mean": 16.5,
+     "median": 6.44,
+     "up_rate": 67
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -13.16,
+   "cum": -13.68,
    "sd": 5.19,
-   "z": -1.79,
-   "n_episodes": 10,
+   "z": -1.86,
+   "n_episodes": 9,
    "forward": {
     "5": {
-     "mean": 1.98,
-     "median": 0.78,
-     "up_rate": 50
+     "mean": 3.18,
+     "median": 1.55,
+     "up_rate": 56
     },
     "20": {
-     "mean": 7.4,
-     "median": 2.28,
-     "up_rate": 70
+     "mean": 8.22,
+     "median": 2.6,
+     "up_rate": 67
     },
     "60": {
-     "mean": 50.33,
-     "median": 32.66,
-     "up_rate": 70
+     "mean": 50.27,
+     "median": 11.76,
+     "up_rate": 67
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -3.41,
-  "SK하이닉스": -13.16,
+  "삼성전자": -4.43,
+  "SK하이닉스": -13.74,
   "마이크론": -17.91,
   "TSMC": -6.12,
   "ASML": -6.32,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -1.79,
-  "drop_avg": 8.29,
-  "fundamental_ratio": 1.08,
+  "z_min": -1.86,
+  "drop_avg": 9.05,
+  "fundamental_ratio": 1.18,
   "chain_negative": "5/5"
  },
- "caveat": "역사 표본 17개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 18개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
