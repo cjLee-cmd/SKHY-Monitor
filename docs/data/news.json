@@ -1,5 +1,5 @@
 {
- "ts_kst": "07-31 06:28",
+ "ts_kst": "07-31 06:38",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -8,25 +8,15 @@
  "routed": {
   "P-ADR": 2,
   "C-CHINA": 8,
-  "M-CYCLE": 7,
-  "F-ACTIVE": 8,
+  "M-CYCLE": 8,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 14
  },
  "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
-   "title": "최태원, 하이닉스 주식 48억 매수... 사전공시 규정상 최대치 샀다 - 조선일보",
+   "title": "최태원, SK하이닉스 주식 48억원어치 첫 매수…“책임경영 의지” - 동아일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -40,8 +30,15 @@
    "agents": []
   },
   {
-   "title": "하이닉스 주가 급락하자… 최태원, 48억규모 매수 - 동아일보",
+   "title": "'반도체 왕좌' 흔들리자 결국 최태원 나섰다…48% 급락한 하이닉스, 진짜 원인은 [증시는 왜] - v.daum.net",
    "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하닉 '억대 성과급' 그냥 주는 거 아니었네…취준생 '발칵' - 한국경제",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -61,11 +58,13 @@
    "agents": []
   },
   {
-   "title": "SK하닉 '억대 성과급' 그냥 주는 거 아니었네…취준생 '발칵' - 한국경제",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "[속보] SK하이닉스 ADR 17.57% 급등… 뉴욕증시 일제 상승 - 국민일보",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "뉴욕증시, 기술주 강세에 상승 마감… SK하이닉스 ADR, 17% ‘껑충’ - 조선비즈 - Chosunbiz",
@@ -77,8 +76,8 @@
    ]
   },
   {
-   "title": "목표가 350만→300만원...SK하이닉스, 수급 쏠림 리스크 반영...삼성 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "[뉴욕증시] 반도체주 상승에 나스닥 679P↑...SK하이닉스 17.52% 폭등 - 글로벌이코노믹",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -91,20 +90,18 @@
    "agents": []
   },
   {
-   "title": "'역대급 실적'에도 삼성전자보다 더 떨어진 SK하이닉스…무슨 차이? - 뉴시스",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "목표가 350만→300만원...SK하이닉스, 수급 쏠림 리스크 반영...삼성 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[속보] SK하이닉스 ADR 17.57% 급등… 뉴욕증시 일제 상승 - 국민일보",
+   "title": "'역대급 실적'에도 삼성전자보다 더 떨어진 SK하이닉스…무슨 차이? - 뉴시스",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
+   "agents": []
   },
   {
    "title": "SK하이닉스 주가 '급락'에도…40조원 투자 '승부수' - v.daum.net",
@@ -123,13 +120,6 @@
   {
    "title": "[아주증시포커스] '검은 수요일' 현실화…SK하이닉스 최대 실적에도 반도체주 '와르르' 外 - v.daum.net",
    "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스(000660) - 매일경제 마켓",
-   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -459,15 +449,6 @@
    ]
   },
   {
-   "title": "코스피, 급락 뒤 저가매수 유입에 혼조세… 외국인·기관 순매수로 낙폭 방어 - 뉴스인",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "코스피, 외국인 순매도에 장중 하락 전환 - v.daum.net",
    "pub": "Mon, 27 Jul 2026",
    "src": "kr",
@@ -475,6 +456,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "외국인, 韓 주식 49조원 '투매'…코스피서만 51조원 뺐다 - 네이트",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "폭락·폭락·하락 ‘5500선’…개미 또 던지고, 외국인이 ‘줍줍’ - v.daum.net",
@@ -608,12 +596,21 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
+   "title": "신용융자 38조 육박 빚투 과열, 삼전닉스에 9조 쏠렸다 - jabon.co.kr",
+   "pub": "Fri, 19 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Are Micron’s (MU) New Auto AI Deals Quietly Redefining Its Competitive Moat?",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -647,13 +644,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "US Equity Markets End Higher on Microsoft's Cloud Gains, Semiconductor Rebound",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
