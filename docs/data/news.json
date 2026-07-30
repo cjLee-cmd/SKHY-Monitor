@@ -1,5 +1,5 @@
 {
- "ts_kst": "07-30 21:49",
+ "ts_kst": "07-30 21:58",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -7,30 +7,31 @@
   "dart": 1
  },
  "routed": {
+  "M-CYCLE": 8,
   "C-CHINA": 9,
-  "M-CYCLE": 7,
-  "F-ACTIVE": 8,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 14
  },
  "unassigned": 68,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "삼성전자, 반도체로 벌고 모바일서 첫 적자…메모리 호황의 역설 - bloter.net",
+   "agents": []
+  },
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "삼성전자 반도체, 2분기 영업익 89.2조 … 스마트폰 등 완제품은 첫 '적자' - 뉴데일리",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "최태원 SK 회장, SK하이닉스 주식 3천620주 장내 매수…48억원 - 연합인포맥스",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "최태원 SK회장, SK하이닉스 주식 3620주 장내매수 - 머니투데이 - 머니투데이",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“샀다 팔았다 말라”던 최태원, SK하이닉스 주식 48억 첫 매수 - 매일경제 마켓",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -121,6 +122,22 @@
    "agents": []
   },
   {
+   "title": "[컨콜 종합] SK하이닉스 \"AI 반도체 호황 장기화…HBM 리더십 굳건\" - v.daum.net",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, ‘메모리 피크아웃’ 우려 진정 총력전… “AI 투자 지속 확대” - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성전자 2분기 반도체 영업이익 89조…완제품은 첫 적자 - 한겨레",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -150,13 +167,6 @@
   },
   {
    "title": "삼성전자, 반도체 스타트업 투자·DX 신기술 확보에 8000억 출자 - 인베스트조선",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체·DX 스타트업에 8000억원 출자 - ebn.co.kr",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -205,7 +215,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체로 벌고 모바일서 첫 적자…메모리 호황의 역설 - 블로터",
+   "title": "삼성전자, 반도체로 벌고 모바일서 첫 적자…메모리 호황의 역설 - bloter.net",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -213,6 +223,13 @@
   },
   {
    "title": "삼성전자 2분기 영업이익 89.5조…반도체 99% - 연합뉴스TV",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 반도체, 2분기 영업익 89.2조 … 스마트폰 등 완제품은 첫 '적자' - 뉴데일리",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -372,11 +389,20 @@
    ]
   },
   {
-   "title": "‘하이닉스 470만원’ 노무라의 코스피 급락 진단…레버리지·국민연금·외국인 - v.daum.net",
+   "title": "외국인 1조3000억 ‘사자’도 못 막았다… 코스피 결국 5600선 붕괴 - 경북매일",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "코스피, 외국인 순매도에 장중 하락 전환 - v.daum.net",
+   "pub": "Mon, 27 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피, 급락 뒤 저가매수 유입에 혼조세… 외국인·기관 순매수로 낙폭 방어 - 뉴스인",
@@ -413,6 +439,13 @@
    ]
   },
   {
+   "title": "지금이 싸다? 외국인·기관 줍줍…코스피 6100선 회복 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피 장중 6,000 붕괴…외국인, 삼전닉스 5조 원 순매도 - news.sbs.co.kr",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
@@ -420,13 +453,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "지금이 싸다? 외국인·기관 줍줍…코스피 6100선 회복 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "외국인·기관 매수에 코스피 반등…5670선 회복, 삼성전자 2%대↑ - 디지털데일리",
@@ -443,26 +469,15 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인 순매도에 장중 하락 전환 - v.daum.net",
-   "pub": "Mon, 27 Jul 2026",
+   "title": "‘하이닉스 470만원’ 노무라의 코스피 급락 진단…레버리지·국민연금·외국인 - v.daum.net",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "[食전食후] 코스피, 1%대 약세…외국인·기관 1.5조 순매수에도 5560선 - v.daum.net",
    "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "[증시 인사이트] 반도체주 약세·외국인 순매도에 7천선과 멀어지는 코스피 - v.daum.net",
-   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -603,6 +618,22 @@
    ]
   },
   {
+   "title": "This Memory Chip Stock Just Surged 531%. It’s Not SK Hynix or Micron",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SPMO ETF Hides A Heavy Tech Tilt",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Top Chip Analyst: Semiconductor Oversupply Is Nearly Impossible Before 2028. Why He’s Bullish on Memory",
    "pub": "Thu, 30 Jul 2026",
    "src": "en",
@@ -618,24 +649,6 @@
   },
   {
    "title": "Micron Stock Fell On China Worries As Customers Locked In Years Of Supply",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Samsung Warns of Memory Shortages Through 2028. Can Micron Bounce Back?",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Prediction: Micron Stock Will Be Worth More Than $3,000 by the End of 2027",
    "pub": "Thu, 30 Jul 2026",
    "src": "en",
    "q": "MU",
