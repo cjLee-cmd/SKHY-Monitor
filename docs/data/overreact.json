@@ -1,66 +1,66 @@
 {
- "ts_kst": "07-30 15:26",
- "score": 44.5,
+ "ts_kst": "07-30 15:36",
+ "score": 46.1,
  "verdict": "판단 유보",
  "components": {
-  "A_통계극단성": 4.8,
+  "A_통계극단성": 6.6,
   "B_체인동조성": 25,
-  "C_펀더멘털배율": 2.4,
-  "D_역사되돌림": 12.3
+  "C_펀더멘털배율": 3.7,
+  "D_역사되돌림": 10.8
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -5.0,
+   "cum": -5.68,
    "sd": 4.21,
-   "z": -0.84,
-   "n_episodes": 16,
+   "z": -0.95,
+   "n_episodes": 13,
    "forward": {
     "5": {
-     "mean": 1.37,
-     "median": 1.94,
-     "up_rate": 56
+     "mean": 1.79,
+     "median": 3.09,
+     "up_rate": 62
     },
     "20": {
-     "mean": 4.73,
-     "median": 1.85,
-     "up_rate": 56
+     "mean": 4.37,
+     "median": -1.89,
+     "up_rate": 46
     },
     "60": {
-     "mean": 15.44,
-     "median": 3.67,
-     "up_rate": 69
+     "mean": 16.48,
+     "median": 3.46,
+     "up_rate": 62
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -13.35,
-   "sd": 5.19,
-   "z": -1.82,
-   "n_episodes": 9,
+   "cum": -14.26,
+   "sd": 5.2,
+   "z": -1.94,
+   "n_episodes": 8,
    "forward": {
     "5": {
-     "mean": 3.18,
-     "median": 1.55,
-     "up_rate": 56
+     "mean": 3.58,
+     "median": 2.66,
+     "up_rate": 62
     },
     "20": {
-     "mean": 8.22,
-     "median": 2.6,
-     "up_rate": 67
+     "mean": 8.93,
+     "median": 7.97,
+     "up_rate": 62
     },
     "60": {
-     "mean": 50.31,
-     "median": 11.76,
-     "up_rate": 67
+     "mean": 46.43,
+     "median": 11.65,
+     "up_rate": 62
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -5.23,
-  "SK하이닉스": -13.39,
+  "삼성전자": -5.91,
+  "SK하이닉스": -14.19,
   "마이크론": -17.91,
   "TSMC": -6.12,
   "ASML": -6.32,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -1.82,
-  "drop_avg": 9.18,
-  "fundamental_ratio": 1.19,
+  "z_min": -1.94,
+  "drop_avg": 9.97,
+  "fundamental_ratio": 1.29,
   "chain_negative": "5/5"
  },
- "caveat": "역사 표본 16개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 13개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
