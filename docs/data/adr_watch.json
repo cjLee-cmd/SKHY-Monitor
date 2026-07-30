@@ -1,9 +1,19 @@
 {
- "ts_kst": "07-30 20:16",
- "premium": 35.89,
+ "ts_kst": "07-30 20:50",
+ "premium": 38.19,
  "kr": 1359000.0,
- "adr": 128.9,
+ "adr": 130.9997,
  "alerts": [
+  {
+   "trigger": "T2",
+   "level": "high",
+   "text": "방향 괴리: 한국 -3.62% vs ADR +1.64%. 뒤따라갈 쪽은 미국."
+  },
+  {
+   "trigger": "T3",
+   "level": "critical",
+   "text": "한국 마감 후 ADR +5.70% ($123.93 → $131.00). 익일 개장 갭 예고."
+  },
   {
    "level": "high",
    "trigger": "LEV",
