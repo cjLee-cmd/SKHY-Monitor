@@ -1,26 +1,33 @@
 {
- "ts_kst": "07-31 04:24",
- "n_items": 102,
+ "ts_kst": "07-31 04:34",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-CHINA": 9,
-  "M-CYCLE": 6,
+  "C-CHINA": 8,
+  "M-CYCLE": 5,
   "F-ACTIVE": 8,
-  "R-LEVERAGE": 13
+  "R-LEVERAGE": 14
  },
- "unassigned": 66,
+ "unassigned": 68,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "\"반대매매 막으려 또 입금?\"…증시 급락에 신용투자자 '딜레마' - 나눔경제뉴스",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "agents": []
   }
  ],
  "items": [
@@ -74,7 +81,7 @@
    "agents": []
   },
   {
-   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - sedaily.com",
+   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - 서울경제",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -116,15 +123,15 @@
    "agents": []
   },
   {
-   "title": "\"고점에 샀나\" 반토막 난 SK하이닉스...298만→132만원, 오늘도 '약세' - 머니투데이 - 머니투데이",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "이와중에 “SK하이닉스, 470만원 간다”…한투, 목표가 23.7% 올린 이유는 - 매일경제",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "주가 폭락 속…한국투자증권 \"SK하이닉스 470만원 간다\" - yonhapnewstv.co.kr",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "이제 엇갈리는 SK하이닉스 증권가 눈높이…“420만원 간다” vs “반등 제한” - v.daum.net",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -165,6 +172,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자 - RadioKorea",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 반도체·DX 스타트업에 8000억원 출자 - 전자신문",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -179,7 +193,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 `영업익 89조` 대역사… 5년 LTA·2나노로 장기 집권 - 디지털데일리",
+   "title": "삼성전자 반도체 `영업익 89조` 대역사… 5년 LTA·2나노로 장기 집권 - ddaily.co.kr",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -200,7 +214,7 @@
    "agents": []
   },
   {
-   "title": "[속보]삼성전자 반도체로만 89조원 벌었다…2분기 반도체 영업이익 89.5조원 - khan.co.kr",
+   "title": "[속보]삼성전자 반도체로만 89조원 벌었다…2분기 반도체 영업이익 89.5조원 - 경향신문",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -223,13 +237,6 @@
   {
    "title": "[속보] 삼성전자 반도체, 2분기 영업익 89.2조원...역대 최대 실적 재경신 - 지디넷코리아",
    "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체·미래기술에 8000억원 베팅 - 매일일보",
-   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -285,7 +292,7 @@
    ]
   },
   {
-   "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - khan.co.kr",
+   "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - 경향신문",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -301,15 +308,6 @@
   {
    "title": "'중국은 더 이상 후발주자 아니다'…창신메모리 쇼크에 삼성·SK하이닉스 흔들 - 테크M",
    "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "반도체 중국몽…CXMT 주가 첫날 5배 올라 - 코리아리포트",
-   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -360,7 +358,14 @@
    ]
   },
   {
-   "title": "“코스피 약세, 외국인 매도·국민연금 매수세 약화 탓” - v.daum.net",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "\"코스피 약세, 외국인 매도·국민연금 매수세 약화 탓\" - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -376,6 +381,15 @@
   {
    "title": "[마감시황]코스피, 1.23% 내린 5593.56 마감…외국인·기관 순매수에도 5거래일째 약세 - twig24.com",
    "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "코스피, 외국인 순매도에 장중 하락 전환 - v.daum.net",
+   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -440,15 +454,6 @@
   {
    "title": "코스피 장중 6,000 붕괴…외국인, 삼전닉스 5조 원 순매도 - news.sbs.co.kr",
    "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피, 외국인 순매도에 장중 하락 전환 - v.daum.net",
-   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -553,8 +558,8 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
-   "pub": "Wed, 08 Jul 2026",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -562,8 +567,8 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -605,6 +610,15 @@
    ]
   },
   {
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "Sandisk Stock Is Having Its Best Day Since January. It Has Had a Tough Month.",
    "pub": "Thu, 30 Jul 2026",
    "src": "en",
@@ -628,6 +642,13 @@
    ]
   },
   {
+   "title": "How Seagate's AI Storage Growth Is Reshaping the HDD Market",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Sandisk, Micron, Apple, SpaceX, Samsung, Microsoft, Meta, and More Stocks That Explain Today’s Market",
    "pub": "Thu, 30 Jul 2026",
    "src": "en",
@@ -635,20 +656,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Nasdaq 100's Best Day Since May 2025: 10 Stocks Driving the Move",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Update: Equities Rise Intraday as Microsoft's Post-Earnings Rally Lifts Tech Sector",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
