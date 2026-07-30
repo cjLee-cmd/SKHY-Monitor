@@ -1,66 +1,66 @@
 {
- "ts_kst": "07-31 06:18",
- "score": 64.9,
- "verdict": "과잉 가능성 있음",
+ "ts_kst": "07-31 06:28",
+ "score": 24.2,
+ "verdict": "정당한 재평가",
  "components": {
-  "A_통계극단성": 24.3,
+  "A_통계극단성": 7.5,
   "B_체인동조성": 0.0,
-  "C_펀더멘털배율": 20.6,
-  "D_역사되돌림": 20
+  "C_펀더멘털배율": 4.2,
+  "D_역사되돌림": 12.5
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -17.91,
+   "cum": -5.91,
    "sd": 4.21,
-   "z": -3.01,
-   "n_episodes": 3,
+   "z": -0.99,
+   "n_episodes": 13,
    "forward": {
     "5": {
-     "mean": 10.04,
-     "median": 10.34,
-     "up_rate": 100
+     "mean": 2.03,
+     "median": 4.21,
+     "up_rate": 62
     },
     "20": {
-     "mean": 6.43,
-     "median": 7.61,
-     "up_rate": 100
+     "mean": 4.74,
+     "median": 0.18,
+     "up_rate": 54
     },
     "60": {
-     "mean": 17.83,
-     "median": -19.75,
-     "up_rate": 33
+     "mean": 16.74,
+     "median": 5.28,
+     "up_rate": 62
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -22.85,
-   "sd": 5.18,
-   "z": -3.12,
-   "n_episodes": 3,
+   "cum": -14.71,
+   "sd": 5.2,
+   "z": -2.0,
+   "n_episodes": 7,
    "forward": {
     "5": {
-     "mean": 15.2,
-     "median": 13.39,
-     "up_rate": 100
+     "mean": 4.42,
+     "median": 3.77,
+     "up_rate": 71
     },
     "20": {
-     "mean": 12.03,
-     "median": 7.82,
-     "up_rate": 100
+     "mean": 14.03,
+     "median": 15.47,
+     "up_rate": 71
     },
     "60": {
-     "mean": 59.02,
-     "median": 25.43,
-     "up_rate": 67
+     "mean": 60.06,
+     "median": 11.76,
+     "up_rate": 71
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -17.91,
-  "SK하이닉스": -22.85,
+  "삼성전자": -5.91,
+  "SK하이닉스": -14.71,
   "마이크론": 6.6,
   "TSMC": 2.8,
   "ASML": 4.33,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -3.12,
-  "drop_avg": 20.38,
-  "fundamental_ratio": 2.65,
+  "z_min": -2.0,
+  "drop_avg": 10.31,
+  "fundamental_ratio": 1.34,
   "chain_negative": "0/5"
  },
- "caveat": "역사 표본 3개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 13개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
