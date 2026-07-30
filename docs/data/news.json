@@ -1,5 +1,5 @@
 {
- "ts_kst": "07-31 05:52",
+ "ts_kst": "07-31 06:02",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -13,7 +13,17 @@
   "R-LEVERAGE": 14
  },
  "unassigned": 66,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "[AI펀드매니저] 반대매매 611억 급증…빚투 개미 강제청산 위기 대처법 | - sportpeopletimes.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "최태원, 하이닉스 주식 48억 매수... 사전공시 규정상 최대치 샀다 - 조선일보",
@@ -37,27 +47,6 @@
    "agents": []
   },
   {
-   "title": "\"자소서 없애고 '반나절' 심층면접\"…SK하이닉스, 채용 확 바꾼다 - 뉴스1",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 신입 채용 때 ‘자소서’ 대신 AI 활용능력 본다…‘반나절 심층면접’도 - 한겨레",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하닉 '억대 성과급' 그냥 주는 거 아니었네…취준생 '발칵' - 한국경제",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "글로벌 투자은행, SK하이닉스 목표가 전격 하향 … 매도세 더 가팔라지나 - 뉴데일리",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -74,7 +63,7 @@
    ]
   },
   {
-   "title": "[속보] SK하이닉스 ADR 17.57% 급등… 뉴욕증시 일제 상승 - 국민일보",
+   "title": "뉴욕증시, 기술주 강세에 상승 마감… SK하이닉스 ADR, 17% ‘껑충’ - 조선비즈 - Chosunbiz",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -106,6 +95,27 @@
   {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"자소서 없애고 '반나절' 심층면접\"…SK하이닉스, 채용 확 바꾼다 - 뉴스1",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 스펙보다 생각본다…'반나절 심층면접' 도입 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하닉 '억대 성과급' 그냥 주는 거 아니었네…취준생 '발칵' - 한국경제",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -167,13 +177,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자 - RadioKorea",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자, 반도체·DX 스타트업에 8000억원 출자 - ebn.co.kr",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -216,6 +219,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 반도체·미래기술에 8000억원 베팅 - 매일일보",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자 반도체로만 89조2000억원 벌었다... 전자제품(DX)은 적자 - v.daum.net",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -223,8 +233,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체·미래기술에 8000억원 베팅 - 매일일보",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "[속보] 삼성전자 반도체, 2분기 영업익 89.2조원...역대 최대 실적 재경신 - 지디넷코리아",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -458,13 +468,6 @@
    "agents": []
   },
   {
-   "title": "‘하이닉스 470만원’ 노무라의 코스피 급락 진단…레버리지·국민연금·외국인 - v.daum.net",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "[食전食후] 코스피, 1%대 약세…외국인·기관 1.5조 순매수에도 5560선 - v.daum.net",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -474,8 +477,24 @@
    ]
   },
   {
+   "title": "‘하이닉스 470만원’ 노무라의 코스피 급락 진단…레버리지·국민연금·외국인 - v.daum.net",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
    "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "[AI펀드매니저] 반대매매 611억 급증…빚투 개미 강제청산 위기 대처법 | - sportpeopletimes.com",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -546,8 +565,8 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -555,8 +574,8 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
-   "pub": "Wed, 08 Jul 2026",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -598,13 +617,11 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "Update: Nasdaq Composite Snaps 6-Day Slump as Microsoft Soars",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "US Equity Markets End Higher on Microsoft's Cloud Gains, Semiconductor Rebound",
@@ -633,13 +650,6 @@
   },
   {
    "title": "Microsoft Committed $190B CapEx and Pulled SanDisk Out of Their Slump",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Sandisk Stock Is Having Its Best Day Since January. It Has Had a Tough Month.",
    "pub": "Thu, 30 Jul 2026",
    "src": "en",
    "q": "MU",
