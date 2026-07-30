@@ -1,9 +1,9 @@
 {
- "ts_kst": "07-31 00:15",
- "n_items": 103,
+ "ts_kst": "07-31 00:25",
+ "n_items": 104,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 29
  },
  "routed": {
   "P-ADR": 3,
@@ -13,8 +13,23 @@
   "F-ACTIVE": 7,
   "R-LEVERAGE": 14
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - v.daum.net",
+   "agents": []
+  },
+  {
+   "level": "info",
+   "kw": "공급계약",
+   "src": "kr",
+   "title": "SK하이닉스, AI 메모리 수요 강세 속 10개 고객사와 장기공급계약 체결 - 매일경제 마켓",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "최태원, 하이닉스 주식 48억 매수... 사전공시 규정상 최대치 샀다 - chosun.com",
@@ -24,14 +39,14 @@
    "agents": []
   },
   {
-   "title": "최태원 SK 회장, SK하이닉스 주식 3천620주 장내 매수…48억원 - 연합인포맥스",
+   "title": "최태원 SK회장, SK하이닉스 주식 3620주 장내매수 - 머니투데이 - 머니투데이",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "최태원 책임경영 의지…SK하이닉스 주식 3620주 장내매수 - joongang.co.kr",
+   "title": "최태원, 처음으로 SK하이닉스 주식 샀다···보통주 3620주 매수 “책임경영 차원” - 경향신문",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -54,6 +69,13 @@
   {
    "title": "SK하이닉스, 3개월 만에 시총 1천 조 하회…삼성전자도 위태 - v.daum.net",
    "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, AI 메모리 수요 강세 속 10개 고객사와 장기공급계약 체결 - 매일경제 마켓",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -87,6 +109,27 @@
    ]
   },
   {
+   "title": "SK하이닉스 '1주 하한가' 의도됐나…5천700만달러 파생청산 부른 미스터리 - 연합인포맥스",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 1주 하한가 거래에 코인 선물 830억원 청산 - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "오늘도 6% 하락 적중…SK하이닉스 선행지표 ‘토큰닉스’ - 마켓인",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 주가 '급락'에도…40조원 투자 '승부수' - 노컷뉴스",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -101,36 +144,8 @@
    "agents": []
   },
   {
-   "title": "'최대 실적' SK하이닉스, 중장기 메모리 수요 확신…장기공급·투자 확대 나선다 - 지디넷코리아",
+   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - v.daum.net",
    "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 1주 하한가 거래에 코인 선물 830억원 청산 - 조선비즈 - Chosunbiz",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "랄랄, SK하이닉스 주가 하락에 눈 뒤집혔다…\"-50% 넘어\" - 파이낸셜뉴스",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 –22.85%, 삼성전자 –17.91%…주가, 이틀 만에 빠졌다 - 한겨레",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 2분기 반도체 영업이익 89조…완제품은 첫 적자 - 한겨레",
-   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -178,7 +193,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 `영업익 89조` 대역사… 5년 LTA·2나노로 장기 집권 - 디지털데일리",
+   "title": "삼성전자 반도체 `영업익 89조` 대역사… 5년 LTA·2나노로 장기 집권 - ddaily.co.kr",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -194,13 +209,6 @@
   {
    "title": "[속보] 삼성전자 반도체, 2분기 영업익 89.2조원...역대 최대 실적 재경신 - 지디넷코리아",
    "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체·DX 미래 투자 위해 약 8000억 출자 - asiatoday.co.kr",
-   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -234,6 +242,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8000억 출자 - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "CXMT, 애플에 “싸게 줄 이유 없다”…삼성·SK하이닉스보다 비싼 값 제시 - 테크월드",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
@@ -252,7 +267,7 @@
    ]
   },
   {
-   "title": "“가격 후려치더니 이제 와서”…중국산 메모리 찾는 애플이 외면받는 이유 [잇슈 머니] - news.kbs.co.kr",
+   "title": "“가격 후려치더니 이제 와서”…중국산 메모리 찾는 애플이 외면받는 이유 [잇슈 머니] - KBS 뉴스",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -396,6 +411,13 @@
    ]
   },
   {
+   "title": "외국인 돌아왔지만 코스피 또 하락…3일째 급락장 - 코리아리포트",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "[마감시황] 코스피 5593선 사흘째 하락…외국인 1조 3427억 순매수 전환 - 자본시장뉴스",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -446,14 +468,7 @@
    "agents": []
   },
   {
-   "title": "외국인·기관 매수에 코스피 반등…5670선 회복, 삼성전자 2%대↑ - 디지털데일리",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "반도체주 약세에 코스피 반등 실패…외국인·기관 매수에도 하락 전환 - 산경투데이",
+   "title": "외국인·기관 매수에 코스피 반등…5670선 회복, 삼성전자 2%대↑ - ddaily.co.kr",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -609,6 +624,13 @@
    ]
   },
   {
+   "title": "Intel Stock's Biggest Risk Is A Foundry Bill Due Long Before The Customers",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Memory Stocks Blast Off: Micron, SK Hynix, SanDisk, Western Digital, and Seagate All Rally Double-Digits",
    "pub": "Thu, 30 Jul 2026",
    "src": "en",
@@ -641,13 +663,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Stock Market News for July 30, 2026",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
