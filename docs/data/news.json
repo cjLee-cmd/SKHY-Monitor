@@ -1,18 +1,26 @@
 {
- "ts_kst": "07-31 02:55",
- "n_items": 103,
+ "ts_kst": "07-31 03:05",
+ "n_items": 102,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 28
  },
  "routed": {
-  "C-CHINA": 9,
+  "C-CHINA": 10,
   "M-CYCLE": 8,
   "F-ACTIVE": 8,
-  "R-LEVERAGE": 14
+  "R-LEVERAGE": 13
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "삼성전자, 반도체로만 89.2조 벌었다…DX는 적자 - 서울신문",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "최태원, 하이닉스 주식 48억 매수... 사전공시 규정상 최대치 샀다 - 조선일보",
@@ -22,7 +30,7 @@
    "agents": []
   },
   {
-   "title": "최태원 SK 회장, SK하이닉스 주식 3천620주 장내 매수…48억원 - 연합인포맥스",
+   "title": "\"갖고 있으면 오른다\" 최태원, SK하이닉스 주식 첫 매수…48억원 규모 - 머니투데이 - 머니투데이",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -106,15 +114,15 @@
    "agents": []
   },
   {
-   "title": "SK하닉 '억대 성과급' 그냥 주는 거 아니었네…취준생 '발칵' - 한국경제",
+   "title": "\"자소서 없애고 '반나절' 심층면접\"…SK하이닉스, 채용 확 바꾼다 - news1.kr",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"자소서 없애고 '반나절' 심층면접\"…SK하이닉스, 채용 확 바꾼다 - 뉴스1",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "‘최고 연봉’ SK하이닉스, 신입 채용에 ‘심층 면접’ 도입 - 서울경제",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -190,6 +198,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 반도체로만 89.2조 벌었다…DX는 적자 - 서울신문",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "[속보] 삼성전자 반도체, 2분기 영업익 89.2조원...역대 최대 실적 재경신 - 지디넷코리아",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -218,11 +233,13 @@
    "agents": []
   },
   {
-   "title": "삼성전자의 딜레마, 반도체 돈 벌수록 스마트폰은 마이너스 - 조선일보",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "CXMT, 애플에 “싸게 줄 이유 없다”…삼성·SK하이닉스보다 비싼 값 제시 - 테크월드",
@@ -231,15 +248,6 @@
    "q": "메모리 반도체 중국",
    "agents": [
     "C-CHINA"
-   ]
-  },
-  {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
-   "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
    ]
   },
   {
@@ -289,7 +297,7 @@
    "agents": []
   },
   {
-   "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - kr.investing.com",
+   "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
    "pub": "Sat, 25 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -341,11 +349,13 @@
    ]
   },
   {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "pub": "Thu, 09 Jul 2026",
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "“코스피 약세, 외국인 매도·국민연금 매수세 약화 탓” - v.daum.net",
@@ -541,8 +551,8 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -550,8 +560,8 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
-   "pub": "Wed, 08 Jul 2026",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -593,13 +603,11 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "Update: Equities Rise Intraday as Microsoft's Post-Earnings Rally Lifts Tech Sector",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Is Micron Being Squeezed Out Now That SK Hynix and Samsung Have Partnered With Major Chip Companies?",
