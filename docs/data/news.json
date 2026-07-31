@@ -1,37 +1,20 @@
 {
- "ts_kst": "08-01 04:38",
+ "ts_kst": "08-01 04:48",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 10,
+  "M-CYCLE": 12,
   "C-BUYBACK": 1,
   "P-ADR": 1,
-  "C-CHINA": 7,
-  "F-ACTIVE": 7,
+  "C-CHINA": 8,
+  "F-ACTIVE": 8,
   "R-LEVERAGE": 13
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "SK하이닉스 노사, 성과급 일부 자사주 지급에 이견… 적자 시 임금 조정도 쟁점 - 조선비즈 - Chosunbiz",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
-   "agents": []
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 상한가 찍은 날…‘빅쇼트’ 버리, 반도체주 공매도 늘렸다 [머니+] - 에너지경제신문",
@@ -110,7 +93,7 @@
    "agents": []
   },
   {
-   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - 서울경제",
+   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - sedaily.com",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -217,13 +200,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체로 벌고 모바일서 첫 적자…메모리 호황의 역설 - 블로터",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성·SK, 美 실리콘밸리 반도체 학회서 ‘HBM’ 자존심 대결 - 헤럴드경제",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -231,6 +207,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "삼성전자, 반도체로 벌고 모바일서 첫 적자…메모리 호황의 역설 - 블로터",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "반도체 더 달린다 … 삼전 “내년 메모리 초과수요 확대, 파운드리 흑전도 임박” - 뉴데일리",
@@ -411,13 +394,6 @@
    ]
   },
   {
-   "title": "외국인, 6월 한 달간 코스피서 '51조' 팔았다…채권은 '4조' 사들여 - 뉴스웍스",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인, 6개월째 ‘셀코리아’… 49.3조원 순매도 역대 최대 - 뉴스웰",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -427,7 +403,14 @@
    ]
   },
   {
-   "title": "외국인, '정점→하락장' 6월 코스피 51조 순매도… 역대 최대 '셀코리아' - 한국일보",
+   "title": "외국인, 6월 한 달간 코스피서 '51조' 팔았다…채권은 '4조' 사들여 - 뉴스웍스",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "외국인, '정점→하락장' 6월 코스피 51조 순매도… 역대 최대 '셀코리아' - hankookilbo.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -447,20 +430,6 @@
   {
    "title": "외국인 7.2조 ‘역대급 베팅’… 코스피 하루 새 1002포인트 폭등 - 경북매일",
    "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외국인 5조 팔고, 레버리지 청산…코스피 급락 키운 '수급 악순환' - 뉴스핌",
-   "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "\"코스피 약세, 외국인 매도·국민연금 매수세 약화 탓\" - 조선일보",
-   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -490,6 +459,22 @@
   },
   {
    "title": "역대급 ‘롤러코스피’ 연출한 한 주… 외국인, 삼전닉스 3조8000억 팔아 - v.daum.net",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피 장중 6,000 붕괴…외국인, 삼전닉스 5조 원 순매도 - v.daum.net",
+   "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "외국인, 지난달 49조 팔았는데…보유액 2908조 ‘역대 최대’ - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -627,6 +612,24 @@
    "agents": []
   },
   {
+   "title": "Micron Stock Drops 4.2% Despite Amazon's $220 Billion AI Bet",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why Micron Stock Was Up and Down Today",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "SanDisk Is Down 45% in a Month. Should Memory Investors Switch to Micron or SK Hynix Now?",
    "pub": "Fri, 31 Jul 2026",
    "src": "en",
@@ -652,20 +655,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Leopold Aschenbrenner's AI hedge fund collapses after margin calls",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "'Big Short' Investor Takes Fresh Aim at Nvidia",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
