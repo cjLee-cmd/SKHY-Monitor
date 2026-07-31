@@ -1,22 +1,50 @@
 {
- "ts_kst": "07-31 22:46",
- "n_items": 104,
+ "ts_kst": "07-31 23:06",
+ "n_items": 105,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 8,
+  "M-CYCLE": 6,
+  "M-RISK": 1,
+  "P-ADR": 1,
   "C-CHINA": 7,
-  "F-ACTIVE": 5,
+  "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 71,
- "alerts": [],
+ "unassigned": 72,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "삼성전자·SK하이닉스 20% 안팎 폭등…코스피·코스닥 동시 매수 사이드카 - 강원일보",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "[단독] SK하이닉스, 노조에 성과급 절반 이상 주식 지급 제안…“적자 땐 임금 조정” 제안도 - v.daum.net",
+   "agents": []
+  }
+ ],
  "items": [
   {
-   "title": "최태원, SK하이닉스 주식 48억 규모 장내매수…\"책임경영 차원\"(종합) - 연합뉴스",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "코스피 단숨에 1,000p 대반등…SK하이닉스 첫 상한가 - v.daum.net",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -29,28 +57,42 @@
    "agents": []
   },
   {
-   "title": "외국인들 5조원 쓸어 담았다...SK하이닉스, 첫 30% 상한가 - 머니투데이 - mt.co.kr",
+   "title": "[단독] SK하이닉스, 노조에 성과급 절반 이상 주식 지급 제안…“적자 땐 임금 조정” 제안도 - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "규제 첫날에도 '불기둥'…삼성·SK하이닉스 레버리지 ETF 50% 급등 - v.daum.net",
+   "title": "“주식으로 성과급 절반 줄게”…SK하이닉스 노조는 4차 교섭에서도 거절 - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 레버리지에 '몰빵'…40년 모은 22억 날린 투자자 - 한국경제",
+   "title": "\"40년간 모은 22억 다 날렸다\"…SK하닉 '몰빵' 직장인 피눈물 - 한국경제",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "어제는 5.9조, 오늘은 5조...불개미 몰린 SK하이닉스 곱버스 - 머니투데이 - mt.co.kr",
+   "title": "최태원, SK하이닉스 주식 48억 규모 장내매수…\"책임경영 차원\"(종합) - 연합뉴스",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "딱 1억 모자란…최태원, 하이닉스 주식 ‘49억 매수’ 왜? - 한겨레",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“가만히 갖고 있으라”던 최태원, 48억 투자… SK하이닉스 첫 직접 매수 - v.daum.net",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -66,23 +108,7 @@
    ]
   },
   {
-   "title": "HBM 시장 커지는데… 삼성 40% '도전', SK하이닉스 선두 '수성' - v.daum.net",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"땡큐, MS\" 프리마켓서 삼성전자 13%·SK하이닉스 16% 급등 - 뉴시스",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - sedaily.com",
+   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - 서울경제",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -96,32 +122,36 @@
    "agents": []
   },
   {
-   "title": "\"고점에 샀나\" 반토막 난 SK하이닉스...298만→132만원, 오늘도 '약세' - 머니투데이 - mt.co.kr",
+   "title": "\"고점에 샀나\" 반토막 난 SK하이닉스...298만→132만원, 오늘도 '약세' - 머니투데이 - 머니투데이",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"자소서 없애고 '반나절' 심층면접\"…SK하이닉스, 채용 확 바꾼다 - 뉴스1",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "삼성전자·SK하이닉스 20% 안팎 폭등…코스피·코스닥 동시 매수 사이드카 - 강원일보",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "title": "9개월만 최저치 찍은 환율 … 한미일 공조 관측에 SK하이닉스 달러 물량까지 - 뉴데일리",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 신입 채용 때 ‘자소서’ 대신 AI 활용능력 본다…‘반나절 심층면접’도 - 한겨레",
+   "title": "ADR 상장 뒤 '25일'…SK하이닉스가 주주환원에 말 아낀 까닭 - 연합인포맥스",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 하반기 사무직 신입 채용한다…‘반나절 심층면접’ 도입 - 경향신문",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "삼성전자 영업익 89.5조, 반도체가 99.7% - 조선일보",
@@ -152,6 +182,13 @@
    "agents": []
   },
   {
+   "title": "미국발 훈풍에 반도체 ‘불기둥’…삼성전자·SK하이닉스 20%대↑ - 매일경제 마켓",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "반도체 역사적 반등…SK하이닉스 상한가·삼성전자 27%↑[핫종목](종합) - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -159,22 +196,15 @@
    "agents": []
   },
   {
-   "title": "미국발 훈풍에 반도체 ‘불기둥’…삼성전자·SK하이닉스 20%대↑ - 매일경제",
+   "title": "삼성전자·SK하이닉스 20%대 급등…美 반도체 랠리·최태원 매수 ’겹호재’ By Bloomingbit - Investing.com 한국어",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자 \"메모리 부족 2028년까지 지속…60~70% 장기계약\" - 지디넷코리아",
+   "title": "삼성전자 기술 빼가더니…'466% 폭등' 대박 난 中 회사 - 한국경제",
    "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "미국발 훈풍에 반도체 ‘불기둥’…삼성전자·SK하이닉스 20%대↑ - 매일경제 마켓",
-   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -208,13 +238,18 @@
    "agents": []
   },
   {
-   "title": "삼성·SK, 美 실리콘밸리 반도체 학회서 ‘HBM’ 자존심 대결 - 헤럴드경제",
+   "title": "'닉스 없던 주주환원' 삼성전자 분기 현금배당 발표… 주당 374원, 2조 4,559억 규모 - KBC광주방송",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 20%대 급등…돌아온 반도체 투심 - 마켓인",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
@@ -242,15 +277,15 @@
    ]
   },
   {
-   "title": "AI 피로감에 기름 부은 중국 반도체 충격‥\"낙폭 너무 과도해\" - MBC 뉴스",
-   "pub": "Tue, 28 Jul 2026",
+   "title": "미 의회, 애플에 경고...\"중국산 메모리 칩 구매 중단하라\" - AI타임스",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "미 의회, 애플에 경고...\"중국산 메모리 칩 구매 중단하라\" - AI타임스",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "AI 피로감에 기름 부은 중국 반도체 충격‥\"낙폭 너무 과도해\" - imnews.imbc.com",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -290,7 +325,7 @@
    ]
   },
   {
-   "title": "[김대호 인물] 창신메모리 주이밍(朱一明)... 시총 1위 중국 대장주 등극 - 글로벌이코노믹",
+   "title": "[김대호 인물] 창신메모리 주이밍(朱一明)... 시총 1위 중국 대장주 등극 - g-enews.com",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -312,15 +347,6 @@
    "q": "메모리 반도체 중국",
    "agents": [
     "M-CYCLE"
-   ]
-  },
-  {
-   "title": "中 CXMT 상장 첫날 시총 1위 등극…메모리 반도체 추격 속도 - 뉴스21 통신",
-   "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
    ]
   },
   {
@@ -347,7 +373,17 @@
    "agents": []
   },
   {
-   "title": "\"외국인 2시간 만에 7조 담았다\"...17% 치솟은 코스피 '역대 최대' - 머니투데이 - mt.co.kr",
+   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - g-enews.com",
+   "pub": "Thu, 16 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA",
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "\"외국인 2시간 만에 7조 담았다\"...17% 치솟은 코스피 '역대 최대' - 머니투데이 - 머니투데이",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -455,11 +491,13 @@
    ]
   },
   {
-   "title": "외국인, 지난달 49조 팔았는데…보유액 2908조 ‘역대 최대’ - v.daum.net",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "코스피, 외국인 순매도에 장중 하락 전환 - v.daum.net",
+   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -507,8 +545,8 @@
    ]
   },
   {
-   "title": "[AI펀드매니저] 반대매매 611억 급증…빚투 개미 강제청산 위기 대처법 | - 스포츠 피플 타임즈",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -516,8 +554,8 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "[AI펀드매니저] 반대매매 611억 급증…빚투 개미 강제청산 위기 대처법 | - 스포츠 피플 타임즈",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -552,7 +590,7 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - g-enews.com",
    "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -577,8 +615,8 @@
    "agents": []
   },
   {
-   "title": "신용융자 38조 육박 빚투 과열, 삼전닉스에 9조 쏠렸다 - 자본시장뉴스",
-   "pub": "Fri, 19 Jun 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -593,32 +631,7 @@
    "agents": []
   },
   {
-   "title": "MU, SKHY, NVDA, AMD, INTC Extend Rally Premarket, But Chip Stocks Still On Track For Worst Month Since 2002",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Zacks.com featured highlights include Micron, NVIDIA and TD SYNNEX",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Zacks Investment Ideas feature highlights: Micron, SanDisk, Meta, Alphabet, Cipher Digital and Nebius",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "This Chinese computer chip maker burned through $5 billion in a decade — then made it all back in a single quarter",
+   "title": "Memory Stocks Are Crashing—Analysts’ Lofty Targets Might Not Survive This Drop",
    "pub": "Fri, 31 Jul 2026",
    "src": "en",
    "q": "MU",
@@ -633,6 +646,20 @@
   },
   {
    "title": "Update: Amazon Overperformance Lifts US Equity Futures Pre-Bell Amid Potential Expansion of Middle East Conflict to Egypt",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Buy 5 AI Infrastructure Stocks as Big Techs Assure Lasting AI Frenzy",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Apple CEO Tim Cook says this '100-year flood' won't be receding anytime soon",
    "pub": "Fri, 31 Jul 2026",
    "src": "en",
    "q": "MU",
