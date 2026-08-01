@@ -1,60 +1,18 @@
 {
- "ts_kst": "08-01 18:05",
+ "ts_kst": "08-01 18:15",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "SK하이닉스 \"적자 나면 임금 조정\" 노조 \"사실상 삭감\" 반발…노사협상 난항 - news.jtbc.co.kr",
-   "agents": []
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "삼성전자 2분기 반도체 영업익 89.2조…완제품은 8천억 적자 - 연합뉴스TV",
-   "agents": []
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
    "title": "삼성전자, 내년 HBM 점유율 SK하이닉스 추월 전망…“HBM4 전환 속도 앞서” - 조선비즈 - Chosunbiz",
@@ -80,6 +38,27 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "딱 1억 모자란…최태원, 하이닉스 주식 ‘49억 매수’ 왜? - 한겨레",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "최태원 회장, SK하이닉스 저점 매수로 하루 만에 12억 평가이익 - 연합뉴스TV",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[속보]최태원 회장, SK하이닉스 주식 3620주 매수 - 뉴시스",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "적자나면 임금 깎고, 성과급은 주식으로?···SK하이닉스 노사 ‘임금체계 개편’ 놓고 충돌 - 경향신문",
@@ -110,27 +89,6 @@
    "agents": []
   },
   {
-   "title": "딱 1억 모자란…최태원, 하이닉스 주식 ‘49억 매수’ 왜? - 한겨레",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "최태원 회장, SK하이닉스 저점 매수로 하루 만에 12억 평가이익 - 연합뉴스TV",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[속보]최태원 회장, SK하이닉스 주식 3620주 매수 - 뉴시스",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -152,7 +110,7 @@
    "agents": []
   },
   {
-   "title": "코스피 18% 급등 ‘역대 최대’…SK하이닉스 상한가 - news.kbs.co.kr",
+   "title": "코스피 18% 급등 ‘역대 최대’…SK하이닉스 상한가 - KBS 뉴스",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -224,20 +182,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8000억 출자 - 조선비즈 - Chosunbiz",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체 스타트업·DX 기술에 8000억원 출자 - asiae.co.kr",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자 \"메모리 부족 2028년까지 지속…60~70% 장기계약\" - 지디넷코리아",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -260,6 +204,20 @@
   },
   {
    "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 반도체 영업익 89조...\"메모리 공급난 지속\" - YTN",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체·DX 스타트업에 8000억원 투자 - v.daum.net",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -399,7 +357,7 @@
    ]
   },
   {
-   "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - kyeonggi.com",
+   "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - 경기일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -429,7 +387,7 @@
    "agents": []
   },
   {
-   "title": "외국인, '정점→하락장' 6월 코스피 51조 순매도… 역대 최대 '셀코리아' - hankookilbo.com",
+   "title": "외국인, '정점→하락장' 6월 코스피 51조 순매도… 역대 최대 '셀코리아' - 한국일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -640,6 +598,15 @@
    "agents": []
   },
   {
+   "title": "Prediction: This Is Where Micron Stock Will Be at the End of 2026",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "3 Reasons We Love Micron (MU)",
    "pub": "Sat, 01 Aug 2026",
    "src": "en",
@@ -677,15 +644,6 @@
   },
   {
    "title": "Micron's Rebound Still Faces Resistance",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Wall Street Keeps Underestimating Micron",
    "pub": "Fri, 31 Jul 2026",
    "src": "en",
    "q": "MU",
