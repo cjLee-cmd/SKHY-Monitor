@@ -1,34 +1,19 @@
 {
- "ts_kst": "08-02 01:21",
+ "ts_kst": "08-02 01:31",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 10,
   "C-BUYBACK": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "SK하이닉스 \"적자 나면 임금 깎자\"…노조, 최후통첩 반발 - 머니투데이 - 머니투데이",
-   "agents": []
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "삼성전자 2분기 반도체 영업익 89.2조…완제품은 8천억 적자 - 연합뉴스TV",
-   "agents": []
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "삼성전자, 내년 HBM 점유율 SK하이닉스 추월 전망…“HBM4 전환 속도 앞서” - 조선비즈 - Chosunbiz",
@@ -295,8 +280,8 @@
    "agents": []
   },
   {
-   "title": "'중국은 더 이상 후발주자 아니다'…창신메모리 쇼크에 삼성·SK하이닉스 흔들 - 테크M",
-   "pub": "Tue, 28 Jul 2026",
+   "title": "[김대호 인물] 창신메모리 주이밍(朱一明)... 시총 1위 중국 대장주 등극 - 글로벌이코노믹",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -304,8 +289,8 @@
    ]
   },
   {
-   "title": "[김대호 인물] 창신메모리 주이밍(朱一明)... 시총 1위 중국 대장주 등극 - 글로벌이코노믹",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "'중국은 더 이상 후발주자 아니다'…창신메모리 쇼크에 삼성·SK하이닉스 흔들 - 테크M",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -609,6 +594,13 @@
    "agents": []
   },
   {
+   "title": "Here's What Morgan Stanley Says About Buying the AI Infrastructure Dip",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Why the Best May Be Yet to Come for NVIDIA, Micron, and SanDisk",
    "pub": "Sat, 01 Aug 2026",
    "src": "en",
@@ -652,13 +644,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Netlist Q2 Earnings Call Highlights",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
