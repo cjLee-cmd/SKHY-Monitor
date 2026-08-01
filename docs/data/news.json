@@ -1,18 +1,29 @@
 {
- "ts_kst": "08-02 06:02",
- "n_items": 103,
+ "ts_kst": "08-02 06:11",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 8,
+  "M-CYCLE": 7,
+  "C-BUYBACK": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 68,
- "alerts": [],
+ "unassigned": 69,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "SK하이닉스 노사, 성과급 일부 자사주 지급에 이견… 적자 시 임금 조정도 쟁점 - 조선비즈 - Chosunbiz",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자, 내년 HBM 점유율 SK하이닉스 추월 전망…“HBM4 전환 속도 앞서” - 조선비즈 - Chosunbiz",
@@ -31,7 +42,7 @@
    "agents": []
   },
   {
-   "title": "홍콩으로 향하는 삼성전자-SK하이닉스 반도체 - 뉴스핌",
+   "title": "반도체 역사적 반등…SK하이닉스 상한가·삼성전자 27%↑[핫종목](종합) - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -45,11 +56,13 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 \"적자 나면 임금 조정\" 노조 \"사실상 삭감\" 반발…노사협상 난항 - JTBC",
+   "title": "SK하이닉스 노사, 성과급 일부 자사주 지급에 이견… 적자 시 임금 조정도 쟁점 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "SK하이닉스 \"적자 나면 임금 깎자\"…노조, 최후통첩 반발 - 머니투데이 - mt.co.kr",
@@ -150,6 +163,13 @@
    "agents": []
   },
   {
+   "title": "홍콩으로 향하는 삼성전자-SK하이닉스 반도체 - 뉴스핌",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "미국발 훈풍에 반도체 ‘불기둥’…삼성전자·SK하이닉스 20%대↑ - 매일경제",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -171,7 +191,21 @@
    "agents": []
   },
   {
-   "title": "삼성전자 \"메모리 부족 2028년까지 지속…60~70% 장기계약\" - 지디넷코리아",
+   "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8000억 출자 - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 스타트업·DX 기술에 8000억원 출자 - 아시아경제",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[IR] 삼성전자 \"반도체 LTA, 5곳과 계약…추가 5개사 협상 완료 단계\" - 네이트",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -200,20 +234,6 @@
   },
   {
    "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자 - 연합뉴스",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 반도체 영업익 89조...\"메모리 공급난 지속\" - YTN",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -268,6 +288,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "\"추월, 한국 반도체\"… 중국의 이우위직 전략 [아침을 열며] - 한국일보",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "[숏폼] 중국은 메모리 반도체에서 왜 존재감이 낮을까? - IT동아",
@@ -330,15 +357,6 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
-   "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - 경기일보",
@@ -622,15 +640,6 @@
   },
   {
    "title": "Why the Best May Be Yet to Come for NVIDIA, Micron, and SanDisk",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Both Berkshire Hathaway and Micron Stocks Look Cheap on the Surface. But I Like 1 Better Than the Other.",
    "pub": "Sat, 01 Aug 2026",
    "src": "en",
    "q": "MU",
