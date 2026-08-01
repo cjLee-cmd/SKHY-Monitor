@@ -1,27 +1,19 @@
 {
- "ts_kst": "08-02 04:06",
+ "ts_kst": "08-02 04:15",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "C-BUYBACK": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "[속보] 삼성전자, 반도체 2분기 영업익 89.2조…DX부문은 적자 - biz.heraldcorp.com",
-   "agents": []
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "삼성전자, 내년 HBM 점유율 SK하이닉스 추월 전망…“HBM4 전환 속도 앞서” - 조선비즈 - Chosunbiz",
@@ -182,13 +174,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자 \"미 테일러 2공장 올해 말 착공 준비, 2030년 양산\" - MBC 뉴스",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자 반도체 홀로 88조…‘120조 주주환원’ 나오나 관심 [biz-플러스] - 서울경제",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -204,6 +189,13 @@
   },
   {
    "title": "삼성전자 \"메모리 부족 2028년까지 지속…60~70% 장기계약\" - 지디넷코리아",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "현금 168조 쌓은 삼성전자…메모리가 이끌고, 파운드리 살아난다 - 머니투데이 - 머니투데이",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -263,7 +255,7 @@
    "agents": []
   },
   {
-   "title": "“가장 두려운 경쟁자”…상장날 466% 폭등, CXMT 공포 - joongang.co.kr",
+   "title": "“가장 두려운 경쟁자”…상장날 466% 폭등, CXMT 공포 - 중앙일보",
    "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -306,6 +298,13 @@
    ]
   },
   {
+   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - epnc.co.kr",
+   "pub": "Mon, 20 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "中 CXMT 상장 첫날 시총 1위 등극…메모리 반도체 추격 속도 - 뉴스21 통신",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
@@ -313,13 +312,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - epnc.co.kr",
-   "pub": "Mon, 20 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "애플이 찾는 반도체, 중국 증시 1위 직행 - 리드경제",
@@ -361,16 +353,14 @@
    ]
   },
   {
-   "title": "6월 외국인 주식 순매도 50조 육박, 또 최대…지분율 36.4% 최고치 - 연합뉴스",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "\"외국인 2시간 만에 7조 담았다\"...17% 치솟은 코스피 '역대 최대' - 머니투데이 - 머니투데이",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
-   "title": "\"외국인 2시간 만에 7조 담았다\"...17% 치솟은 코스피 '역대 최대' - 머니투데이 - 머니투데이",
+   "title": "외국인 최대 폭풍매수, 개미 '대탈출'…쏟아진 각종 기록들(종합) - 연합뉴스",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -409,6 +399,15 @@
    "agents": []
   },
   {
+   "title": "코스피, 외국인 순매도에 장중 하락 전환 - 아시아경제",
+   "pub": "Mon, 27 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "6000 회복 눈앞서 미끄러진 코스피…외인·기관 순매수에도 1%대 하락 마감 - hidomin.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -423,8 +422,8 @@
    "agents": []
   },
   {
-   "title": "외국인 최대 폭풍매수, 개미 '대탈출'…쏟아진 각종 기록들(종합) - 연합뉴스",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "국힘 \"李정부 '롤러코스피' 외국인만 배불린 최악 정책 실패\" - 한국경제",
+   "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -432,15 +431,6 @@
   {
    "title": "코스피 장중 6,000 붕괴…외국인, 삼전닉스 5조 원 순매도 - v.daum.net",
    "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피, 외국인 순매도에 장중 하락 전환 - v.daum.net",
-   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -464,11 +454,13 @@
    ]
   },
   {
-   "title": "국힘 \"李정부 '롤러코스피' 외국인만 배불린 최악 정책 실패\" - 한국경제",
-   "pub": "Sat, 01 Aug 2026",
+   "title": "[마감시황]코스피, 1.23% 내린 5593.56 마감…외국인·기관 순매수에도 5거래일째 약세 - twig24.com",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -602,6 +594,42 @@
    "agents": []
   },
   {
+   "title": "Micron (MU) Faces An AI Memory Squeeze As Samsung Sees Shortages Lasting Longer",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Falls. Here’s What’s Overshadowing Big Tech Spending.",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron's Rebound Still Faces Resistance",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That Explain Today’s Market",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Where Will Micron Stock Be in 2030?",
    "pub": "Sat, 01 Aug 2026",
    "src": "en",
@@ -616,40 +644,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Here's What Morgan Stanley Says About Buying the AI Infrastructure Dip",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Why the Best May Be Yet to Come for NVIDIA, Micron, and SanDisk",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Both Berkshire Hathaway and Micron Stocks Look Cheap on the Surface. But I Like 1 Better Than the Other.",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Prediction: This Is Where Micron Stock Will Be at the End of 2026",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
