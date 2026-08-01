@@ -1,33 +1,23 @@
 {
- "ts_kst": "08-01 10:39",
+ "ts_kst": "08-01 10:49",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
-  "C-CHINA": 8,
-  "M-RISK": 1,
+  "M-CYCLE": 10,
+  "C-CHINA": 7,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 64,
+ "unassigned": 68,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "사이드카",
+   "level": "info",
+   "kw": "증설",
    "src": "kr",
-   "title": "SK하이닉스 '상한가' 근접 폭등세…코스피·코스닥 매수 사이드카 - 경기일보",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "SK하이닉스 \"적자 나면 임금 조정\" 노조 \"사실상 삭감\" 반발…노사협상 난항 - JTBC",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
    "agents": []
   }
  ],
@@ -42,6 +32,13 @@
    ]
   },
   {
+   "title": "SK하이닉스, 17년 만에 상한가 '쾅'…삼성전자도 26% '폭등' [종합] - 한국경제",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "HBM 시장 커지는데… 삼성 40% '도전', SK하이닉스 선두 '수성' - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -51,18 +48,15 @@
    ]
   },
   {
-   "title": "중국 CXMT, 삼성전자·SK하이닉스·마이크론 주도 HBM 기술 격차 여전 - 글로벌이코노믹",
+   "title": "SK하이닉스 상한가 찍은 날…‘빅쇼트’ 버리, 반도체주 공매도 늘렸다 [머니+] - 에너지경제신문",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE",
-    "C-CHINA"
-   ]
+   "agents": []
   },
   {
-   "title": "SK하이닉스 상한가 찍은 날…‘빅쇼트’ 버리, 반도체주 공매도 늘렸다 [머니+] - 에너지경제신문",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "美 상원 6인, 애플에 \"중국산 메모리 쓰지마\"…SK하이닉스 미국 공장도 근거로 - 지디넷코리아",
+   "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -117,22 +111,6 @@
    "agents": []
   },
   {
-   "title": "'18% 상승' 코스피, 역대급 반등...SK하이닉스, 사상 첫 상한가 기록 - YTN",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 '상한가' 근접 폭등세…코스피·코스닥 매수 사이드카 - 경기일보",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
    "title": "[속보]폭락하던 SK하이닉스, 오늘은 상한가…삼전도 25%↑ - 문화일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -140,8 +118,15 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 17년 만에 상한가 '쾅'…삼성전자도 26% '폭등' [종합] - 한국경제",
+   "title": "‘연봉 8억’ SK하이닉스, 반나절 심층면접 도입 - 서울경제",
    "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 하반기 사무직 신입 채용한다…‘반나절 심층면접’ 도입 - 경향신문",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -359,20 +344,18 @@
    ]
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
-   "pub": "Mon, 04 May 2026",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
-   "pub": "Sat, 25 Jul 2026",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
+   "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "6월 외국인 주식 순매도 50조 육박, 또 최대…지분율 36.4% 최고치 - yna.co.kr",
@@ -480,15 +463,15 @@
    ]
   },
   {
-   "title": "역대급 ‘롤러코스피’ 연출한 한 주… 외국인, 삼전닉스 3조8000억 팔아 - v.daum.net",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "코스피 약세 지속…개인은 팔고 외국인·기관은 사고 - v.daum.net",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "코스피 약세 지속…개인은 팔고 외국인·기관은 사고 - v.daum.net",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "역대급 ‘롤러코스피’ 연출한 한 주… 외국인, 삼전닉스 3조8000억 팔아 - v.daum.net",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -661,13 +644,11 @@
    ]
   },
   {
-   "title": "Micron Stock Drops 4.2% Despite Amazon's $220 Billion AI Bet",
+   "title": "Top Memory Chipmaker Plunges as Sharp Pullback Extends. How to Play It Here.",
    "pub": "Fri, 31 Jul 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
