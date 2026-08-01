@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-01 18:15",
+ "ts_kst": "08-01 18:24",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -12,7 +12,17 @@
   "R-LEVERAGE": 13
  },
  "unassigned": 62,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "\"반대매매 막으려 또 입금?\"…증시 급락에 신용투자자 '딜레마' - nanumy.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자, 내년 HBM 점유율 SK하이닉스 추월 전망…“HBM4 전환 속도 앞서” - 조선비즈 - Chosunbiz",
@@ -103,22 +113,22 @@
    "agents": []
   },
   {
-   "title": "코스피 단숨에 1,000p 대반등…SK하이닉스 첫 상한가 - v.daum.net",
+   "title": "SK하이닉스 목표가 ’극과 극’… 증권사 전망 322만원 차 By 인포스탁데일리 - Investing.com 한국어",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "코스피 18% 급등 ‘역대 최대’…SK하이닉스 상한가 - KBS 뉴스",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "“148만원 vs 470만원”…사상 최대 실적에도 SK하이닉스 목표가 3배 벌어진 이유 - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 상한가 [오늘의 한 컷] - 뉴시스",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "“SK하이닉스 470만원 간다”던 노무라…“코스피 급락, 진짜 이유는 따로 있다” - 서울경제",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -380,13 +390,6 @@
    "agents": []
   },
   {
-   "title": "국힘 \"李정부 '롤러코스피' 외국인만 배불린 최악 정책 실패\" - hankyung.com",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인, '정점→하락장' 6월 코스피 51조 순매도… 역대 최대 '셀코리아' - 한국일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -394,6 +397,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "국힘 \"李정부 '롤러코스피' 외국인만 배불린 최악 정책 실패\" - hankyung.com",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피, 외국인 순매도에 장중 하락 전환 - v.daum.net",
@@ -485,7 +495,7 @@
    ]
   },
   {
-   "title": "\"반대매매 막으려 또 입금?\"…증시 급락에 신용투자자 '딜레마' - 나눔경제뉴스",
+   "title": "\"반대매매 막으려 또 입금?\"…증시 급락에 신용투자자 '딜레마' - nanumy.co.kr",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
