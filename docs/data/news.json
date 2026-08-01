@@ -1,18 +1,38 @@
 {
- "ts_kst": "08-01 21:14",
+ "ts_kst": "08-01 21:24",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 11,
+  "C-BUYBACK": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
  "unassigned": 66,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "SK하이닉스 노사, 성과급 일부 자사주 지급에 이견… 적자 시 임금 조정도 쟁점 - 조선비즈 - biz.chosun.com",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자, 내년 HBM 점유율 SK하이닉스 추월 전망…“HBM4 전환 속도 앞서” - 조선비즈 - biz.chosun.com",
@@ -31,18 +51,20 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 \"적자 나면 임금 조정\" 노조 \"사실상 삭감\" 반발…노사협상 난항 - JTBC",
+   "title": "SK하이닉스 \"적자 나면 임금 조정\" 노조 \"사실상 삭감\" 반발…노사협상 난항 - news.jtbc.co.kr",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 \"적자 나면 임금 깎자\"…노조, 최후통첩 반발 - 머니투데이 - 머니투데이",
+   "title": "SK하이닉스 노사, 성과급 일부 자사주 지급에 이견… 적자 시 임금 조정도 쟁점 - 조선비즈 - biz.chosun.com",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "8년 묵힌 4조원이 '63조' 됐다…SK하이닉스 '잭팟' [홍민성의 테토남] - 한국경제",
@@ -59,6 +81,13 @@
    "agents": []
   },
   {
+   "title": "딱 1억 모자란…최태원, 하이닉스 주식 ‘49억 매수’ 왜? - 한겨레",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "최태원, SK하이닉스 주식 48억 규모 장내매수…\"책임경영 차원\"(종합) - 연합뉴스",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -66,14 +95,21 @@
    "agents": []
   },
   {
-   "title": "\"규정상 최대치\" 최태원 SK하이닉스株 첫 매수 '50억원 아래'로 묶인 까닭 - 뉴시스",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "최태원 회장, SK하이닉스 저점 매수로 하루 만에 12억 평가이익 - 연합뉴스TV",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "최태원 회장, SK하이닉스 저점 매수로 하루 만에 12억 평가이익 - 연합뉴스TV",
+   "title": "코스피 단숨에 1,000p 대반등…SK하이닉스 첫 상한가 - v.daum.net",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'18% 상승' 코스피, 역대급 반등...SK하이닉스, 사상 첫 상한가 기록 - YTN",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -101,21 +137,7 @@
    "agents": []
   },
   {
-   "title": "코스피 단숨에 1,000p 대반등…SK하이닉스 첫 상한가 - v.daum.net",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "코스피 5500→6500, SK하이닉스 '상한가'...진기록 쏟아진 증시 - 머니투데이 - 머니투데이",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'18% 상승' 코스피, 역대급 반등...SK하이닉스, 사상 첫 상한가 기록 - YTN",
+   "title": "SK하이닉스, 17년 만에 상한가 '쾅'…삼성전자도 26% '폭등' [종합] - 한국경제",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -302,13 +324,6 @@
    ]
   },
   {
-   "title": "애플이 찾는 반도체, 중국 증시 1위 직행 - 리드경제",
-   "pub": "Mon, 27 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "中 CXMT 상장 첫날 시총 1위 등극…메모리 반도체 추격 속도 - 뉴스21 통신",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
@@ -316,6 +331,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "애플이 찾는 반도체, 중국 증시 1위 직행 - 리드경제",
+   "pub": "Mon, 27 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
@@ -494,7 +516,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -625,16 +647,14 @@
    ]
   },
   {
-   "title": "Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That Explain Today’s Market",
+   "title": "S&P 500 ends with its first July decline since 2014. Here are the stocks that led the selloff.",
    "pub": "Fri, 31 Jul 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "Micron Stock Falls. Here’s What’s Overshadowing Big Tech Spending.",
+   "title": "Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That Explain Today’s Market",
    "pub": "Fri, 31 Jul 2026",
    "src": "en",
    "q": "MU",
