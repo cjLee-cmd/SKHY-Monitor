@@ -1,30 +1,39 @@
 {
- "ts_kst": "08-02 08:43",
- "n_items": 102,
+ "ts_kst": "08-02 08:53",
+ "n_items": 104,
  "by_source": {
-  "kr": 73,
+  "kr": 75,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 1,
+  "M-CYCLE": 9,
   "C-CHINA": 7,
-  "M-CYCLE": 8,
-  "F-ACTIVE": 8,
+  "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 70,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "SK하이닉스 \"적자 나면 임금 조정\" 노조 \"사실상 삭감\" 반발…노사협상 난항 - JTBC",
+   "agents": []
+  }
+ ],
  "items": [
   {
-   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - 한국경제",
-   "pub": "Sat, 01 Aug 2026",
+   "title": "삼성전자, 내년 HBM 점유율 SK하이닉스 추월 전망…“HBM4 전환 속도 앞서” - 조선비즈 - Chosunbiz",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "홍콩으로 향하는 삼성전자-SK하이닉스 반도체 - 뉴스핌",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "20% 폭등에도 목표가의 반토막…삼성전자·SK하이닉스 괴리율 96% - 이투데이",
+   "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -44,16 +53,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 성과급 일부 자사주 지급에 이견… 적자 시 임금 조정도 쟁점 - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스 \"적자 나면 임금 깎자\"…노조, 최후통첩 반발 - 머니투데이 - mt.co.kr",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "SK하이닉스 \"적자 나면 임금 깎자\"…노조, 최후통첩 반발 - 머니투데이 - mt.co.kr",
+   "title": "SK하이닉스 \"적자 나면 임금 조정\" 노조 \"사실상 삭감\" 반발…노사협상 난항 - JTBC",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -67,13 +74,6 @@
    "agents": []
   },
   {
-   "title": "\"나 떨고 있냐'…SK하이닉스 경력채용 발표 앞두고 대기업들 긴장 - 네이트",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"자소서 없애고 '반나절' 심층면접\"…SK하이닉스, 채용 확 바꾼다 - news1.kr",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
@@ -81,42 +81,49 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 하반기 사무직 신입 채용한다…‘반나절 심층면접’ 도입 - 경향신문",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'18% 상승' 코스피, 역대급 반등...SK하이닉스, 사상 첫 상한가 기록 - ytn.co.kr",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 상한가 찍은 날…‘빅쇼트’ 버리, 반도체주 공매도 늘렸다 [머니+] - ekn.kr",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "美 상원 6인, 애플에 \"중국산 메모리 쓰지마\"…SK하이닉스 미국 공장도 근거로 - 지디넷코리아",
+   "title": "\"나 떨고 있냐'…SK하이닉스 경력채용 발표 앞두고 대기업들 긴장 - news1.kr",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "딱 1억원 모자란 49억원…최태원, SK하이닉스 3620주만 산 이유 - 머니투데이 - mt.co.kr",
+   "title": "'채권시장 큰손' 하이닉스 채권운용역 채용 공고에 시선 집중 - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 49억 매수한 최태원, 하루 만에 12억 벌었다 - news1.kr",
+   "title": "코스피 단숨에 1,000p 대반등…SK하이닉스 첫 상한가 - v.daum.net",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피 5500→6500, SK하이닉스 '상한가'...진기록 쏟아진 증시 - 머니투데이 - mt.co.kr",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'상한가 폭등' 뒤 엇갈린 승부수…외인·기관은 레버리지, 개인은 인버스로 맞섰다 [증시는 왜] - 파이낸셜뉴스",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "8년 묵힌 4조원이 '63조' 됐다…SK하이닉스 '잭팟' [홍민성의 테토남] - 한국경제",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 상한가 찍은 날…‘빅쇼트’ 버리, 반도체주 공매도 늘렸다 [머니+] - ekn.kr",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -145,6 +152,20 @@
   },
   {
    "title": "\"삼성전자 무너뜨린 건 기술 아니라 물량 폭격\"…반도체판에 닥친 중국발 공포[테크토크] - v.daum.net",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - 한국경제",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "홍콩으로 향하는 삼성전자-SK하이닉스 반도체 - 뉴스핌",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -193,14 +214,14 @@
    "agents": []
   },
   {
-   "title": "현금 168조 쌓은 삼성전자…메모리가 이끌고, 파운드리 살아난다 - 머니투데이 - mt.co.kr",
+   "title": "삼성전자, 2분기 반도체 89.2조 흑자…코스피, 등락 거듭해 - news.kbs.co.kr",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 2분기 반도체 89.2조 흑자…코스피, 등락 거듭해 - news.kbs.co.kr",
+   "title": "현금 168조 쌓은 삼성전자…메모리가 이끌고, 파운드리 살아난다 - 머니투데이 - mt.co.kr",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -366,15 +387,6 @@
    "agents": []
   },
   {
-   "title": "외국인, '정점→하락장' 6월 코스피 51조 순매도… 역대 최대 '셀코리아' - 한국일보",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "1001포인트 급등, 외국인 순매수 역대 최대…코스피 또 새 기록 - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -384,7 +396,30 @@
    ]
   },
   {
+   "title": "외국인, '정점→하락장' 6월 코스피 51조 순매도… 역대 최대 '셀코리아' - 한국일보",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "외국인 5조 팔고, 레버리지 청산…코스피 급락 키운 '수급 악순환' - 뉴스핌",
+   "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "\"코스피 약세, 외국인 매도·국민연금 매수세 약화 탓\" - 조선일보",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "6000 회복 눈앞서 미끄러진 코스피…외인·기관 순매수에도 1%대 하락 마감 - hidomin.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -400,29 +435,11 @@
    ]
   },
   {
-   "title": "6000 회복 눈앞서 미끄러진 코스피…외인·기관 순매수에도 1%대 하락 마감 - hidomin.com",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "국힘 \"李정부 '롤러코스피' 외국인만 배불린 최악 정책 실패\" - 한국경제",
+   "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "[마감시황]코스피, 1.23% 내린 5593.56 마감…외국인·기관 순매수에도 5거래일째 약세 - twig24.com",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "외국인, 6개월째 ‘셀코리아’… 49.3조원 순매도 역대 최대 - 뉴스웰",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "코스피 장중 6,000 붕괴…외국인, 삼전닉스 5조 원 순매도 - v.daum.net",
@@ -450,8 +467,8 @@
    ]
   },
   {
-   "title": "국힘 \"李정부 '롤러코스피' 외국인만 배불린 최악 정책 실패\" - 한국경제",
-   "pub": "Sat, 01 Aug 2026",
+   "title": "외국인 197조 '셀 코리아'…'폭락'한 코스피, 반등 가능성은? - v.daum.net",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -619,24 +636,6 @@
   },
   {
    "title": "Why the Best May Be Yet to Come for NVIDIA, Micron, and SanDisk",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Both Berkshire Hathaway and Micron Stocks Look Cheap on the Surface. But I Like 1 Better Than the Other.",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Prediction: This Is Where Micron Stock Will Be at the End of 2026",
    "pub": "Sat, 01 Aug 2026",
    "src": "en",
    "q": "MU",
