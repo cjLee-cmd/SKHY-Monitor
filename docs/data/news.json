@@ -1,29 +1,38 @@
 {
- "ts_kst": "08-02 07:34",
- "n_items": 102,
+ "ts_kst": "08-02 07:43",
+ "n_items": 104,
  "by_source": {
-  "kr": 73,
+  "kr": 75,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 1,
+  "M-CYCLE": 8,
   "C-CHINA": 7,
-  "M-CYCLE": 7,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 68,
- "alerts": [],
+ "unassigned": 70,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "SK하이닉스 \"적자 나면 임금 조정\" 노조 \"사실상 삭감\" 반발…노사협상 난항 - JTBC",
+   "agents": []
+  }
+ ],
  "items": [
   {
-   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - 한국경제",
-   "pub": "Sat, 01 Aug 2026",
+   "title": "삼성전자, 내년 HBM 점유율 SK하이닉스 추월 전망…“HBM4 전환 속도 앞서” - 조선비즈 - Chosunbiz",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "홍콩으로 향하는 삼성전자-SK하이닉스 반도체 - 뉴스핌",
+   "title": "SK하이닉스, 17년 만에 상한가 '쾅'…삼성전자도 26% '폭등' [종합] - 한국경제",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -37,20 +46,18 @@
    "agents": []
   },
   {
-   "title": "적자나면 임금 깎고, 성과급은 주식으로?···SK하이닉스 노사 ‘임금체계 개편’ 놓고 충돌 - 경향신문",
+   "title": "SK하이닉스 \"적자 나면 임금 조정\" 노조 \"사실상 삭감\" 반발…노사협상 난항 - JTBC",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 성과급 일부 자사주 지급에 이견… 적자 시 임금 조정도 쟁점 - 조선비즈 - Chosunbiz",
+   "title": "적자나면 임금 깎고, 성과급은 주식으로?···SK하이닉스 노사 ‘임금체계 개편’ 놓고 충돌 - 경향신문",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "SK하이닉스 \"적자 나면 임금 깎자\"…노조, 최후통첩 반발 - 머니투데이 - 머니투데이",
@@ -60,7 +67,28 @@
    "agents": []
   },
   {
-   "title": "“1600원 위기 한 달 만에 뚝”…SK하이닉스·조선사가 푼 달러에 분위기 반전 - v.daum.net",
+   "title": "“1600원 위기 한 달 만에 뚝”…SK하이닉스·조선사가 푼 달러에 분위기 반전 - 매일경제 마켓",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 목표가 ’극과 극’… 증권사 전망 322만원 차 By 인포스탁데일리 - Investing.com 한국어",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“148만원 vs 470만원”…사상 최대 실적에도 SK하이닉스 목표가 3배 벌어진 이유 - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“살까 팔까 고민이네”…SK하닉 목표주가 148만 vs 470만 ‘극과 극’ - v.daum.net",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -88,35 +116,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 목표가 ’극과 극’… 증권사 전망 322만원 차 By 인포스탁데일리 - Investing.com 한국어",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 '역사적 상한가'…증권가 눈높이 400만원 대[종목현미경] - v.daum.net",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“살까 팔까 고민이네”…SK하닉 목표주가 148만 vs 470만 ‘극과 극’ - v.daum.net",
+   "title": "8년 묵힌 4조원이 '63조' 됐다…SK하이닉스 '잭팟' [홍민성의 테토남] - 한국경제",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "코스피 단숨에 1,000p 대반등…SK하이닉스 첫 상한가 - v.daum.net",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "코스피 5500→6500, SK하이닉스 '상한가'...진기록 쏟아진 증시 - 머니투데이 - 머니투데이",
+   "title": "SK하이닉스 상한가 찍은 날…‘빅쇼트’ 버리, 반도체주 공매도 늘렸다 [머니+] - 에너지경제신문",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -144,7 +151,21 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 20% 안팎 폭등 - 서울경제",
+   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - 한국경제",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "홍콩으로 향하는 삼성전자-SK하이닉스 반도체 - 뉴스핌",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "미국발 훈풍에 반도체 ‘불기둥’…삼성전자·SK하이닉스 20%대↑ - mk.co.kr",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -186,14 +207,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 \"메모리 부족 2028년까지 지속…60~70% 장기계약\" - 지디넷코리아",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체로 벌고 모바일서 첫 적자…메모리 호황의 역설 - 블로터",
+   "title": "삼성전자, AI 반도체 타고 사상 최대 실적…메모리 70% 장기계약 전환 - 아시아투데이",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -207,7 +221,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 영업익 89조...\"메모리 공급난 지속\" - YTN",
+   "title": "삼성전자, 반도체로 벌고 모바일서 첫 적자…메모리 호황의 역설 - 블로터",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자 - 연합뉴스",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -405,14 +426,16 @@
    "agents": []
   },
   {
-   "title": "코스피 18% 역대급 폭등... '외국인'은 사고 '개미'는 던졌다 - 투데이e코노믹",
-   "pub": "Sat, 01 Aug 2026",
+   "title": "[마감시황]코스피, 1.23% 내린 5593.56 마감…외국인·기관 순매수에도 5거래일째 약세 - twig24.com",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
-   "title": "국힘 \"李정부 '롤러코스피' 외국인만 배불린 최악 정책 실패\" - 한국경제",
+   "title": "코스피 18% 역대급 폭등... '외국인'은 사고 '개미'는 던졌다 - 투데이e코노믹",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -444,13 +467,11 @@
    ]
   },
   {
-   "title": "[마감시황]코스피, 1.23% 내린 5593.56 마감…외국인·기관 순매수에도 5거래일째 약세 - twig24.com",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "국힘 \"李정부 '롤러코스피' 외국인만 배불린 최악 정책 실패\" - 한국경제",
+   "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -615,24 +636,6 @@
   },
   {
    "title": "Why the Best May Be Yet to Come for NVIDIA, Micron, and SanDisk",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Both Berkshire Hathaway and Micron Stocks Look Cheap on the Surface. But I Like 1 Better Than the Other.",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Prediction: This Is Where Micron Stock Will Be at the End of 2026",
    "pub": "Sat, 01 Aug 2026",
    "src": "en",
    "q": "MU",
