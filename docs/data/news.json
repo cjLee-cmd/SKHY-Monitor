@@ -1,8 +1,8 @@
 {
- "ts_kst": "08-02 16:25",
- "n_items": 103,
+ "ts_kst": "08-02 16:34",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
@@ -12,30 +12,8 @@
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 68,
- "alerts": [
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
-   "agents": []
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "삼성전자 반도체로만 89조2000억원 벌었다... 전자제품(DX)은 적자 - v.daum.net",
-   "agents": []
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "삼성전자, 반도체로만 89.2조 벌었다…DX는 적자 - 서울신문",
-   "agents": []
-  }
- ],
+ "unassigned": 69,
+ "alerts": [],
  "items": [
   {
    "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - 한국경제",
@@ -108,22 +86,8 @@
    "agents": []
   },
   {
-   "title": "'주주들 안달인데' … SK하이닉스, 주주환원 내놓지 못하는 까닭은 - 뉴데일리",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 주주 달래기 나설까…환원책에 쏠린 눈 - v.daum.net",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "ADR 상장 뒤 '25일'…SK하이닉스가 주주환원에 말 아낀 까닭 - 연합인포맥스",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "SK하이닉스 ADR ‘등록신고서’ 봤더니…삼전닉스 아직도 저평가 - 한겨레",
+   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -140,6 +104,20 @@
   {
    "title": "20% 폭등에도 목표가의 반토막…삼성전자·SK하이닉스 괴리율 96% - v.daum.net",
    "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전·하이닉스 막판 폭등에도…목표가 대비 현 주가 '반토막' - 노컷뉴스",
+   "pub": "Sun, 02 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'주주들 안달인데' … SK하이닉스, 주주환원 내놓지 못하는 까닭은 - 뉴데일리",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -208,6 +186,20 @@
    "agents": []
   },
   {
+   "title": "삼성전자·SK하이닉스 반도체 수출 현장 - 뉴시스",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자 - 연합뉴스",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -217,13 +209,6 @@
   {
    "title": "삼성전자 반도체 영업익 89조...\"메모리 공급난 지속\" - ytn.co.kr",
    "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
-   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -650,15 +635,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Why the Best May Be Yet to Come for NVIDIA, Micron, and SanDisk",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
