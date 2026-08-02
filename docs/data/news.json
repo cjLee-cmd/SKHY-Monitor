@@ -1,30 +1,24 @@
 {
- "ts_kst": "08-02 09:55",
- "n_items": 104,
+ "ts_kst": "08-02 10:05",
+ "n_items": 103,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
+  "P-ADR": 1,
   "C-CHINA": 7,
-  "F-ACTIVE": 8,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 68,
+ "unassigned": 67,
  "alerts": [
   {
    "level": "high",
    "kw": "적자",
    "src": "kr",
-   "title": "삼성전자, 2Q 영업익 89.5조 '역대 최대'...DX는 사상 첫 적자 - zdnet.co.kr",
-   "agents": []
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "삼성전자, 반도체 호황 속 완제품 첫 적자…엇갈린 최대 실적(종합) - 데일리안",
+   "title": "삼성전자 2분기 반도체 영업익 89.2조…완제품은 8천억 적자 - 연합뉴스TV",
    "agents": []
   }
  ],
@@ -46,7 +40,59 @@
    "agents": []
   },
   {
-   "title": "엔비디아, 또 가격 올린다…삼성·SK하이닉스 GDDR7 ‘기대감’ - v.daum.net",
+   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - 한국경제",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 상한가 찍은 날…‘빅쇼트’ 버리, 반도체주 공매도 늘렸다 [머니+] - ekn.kr",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하이닉스ADR 3.5% 마이크론 5.90% 급락 … 또 '잿빛 월요일' 공포 떠는 韓 증시 - biz.newdaily.co.kr",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE",
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 주주 달래기 나설까…환원책에 쏠린 눈 - v.daum.net",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 ‘등록신고서’로 본 반도체주… 삼전닉스는 아직도 저평가 - 한겨레",
+   "pub": "Sun, 02 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 목표가 ’극과 극’… 증권사 전망 322만원 차 By 인포스탁데일리 - Investing.com 한국어",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 148만원 vs 470만원…엇갈린 ‘눈높이’ 왜 - 서울경제TV",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“살까 팔까 고민이네”…SK하닉 목표주가 148만 vs 470만 ‘극과 극’ - v.daum.net",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -74,34 +120,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ‘등록신고서’로 본 반도체주… 삼전닉스는 아직도 저평가 - 한겨레",
-   "pub": "Sun, 02 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 목표가 ’극과 극’… 증권사 전망 322만원 차 By 인포스탁데일리 - Investing.com 한국어",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“148만원 vs 470만원”…사상 최대 실적에도 SK하이닉스 목표가 3배 벌어진 이유 - 조선비즈 - Chosunbiz",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 148만원 vs 470만원…엇갈린 ‘눈높이’ 왜 - 서울경제TV",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "“1600원 위기 한 달 만에 뚝”…SK하이닉스·조선사가 푼 달러에 분위기 반전 - 매일경제",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
@@ -116,28 +134,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 신입 채용 때 ‘자소서’ 대신 AI 활용능력 본다…‘반나절 심층면접’도 - 한겨레",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, '반나절 심층면접' 도입…AI 활용·사고력 본다 - 뉴시스",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "美 상원 6인, 애플에 \"중국산 메모리 쓰지마\"…SK하이닉스 미국 공장도 근거로 - zdnet.co.kr",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 2Q 영업익 89.5조 '역대 최대'...DX는 사상 첫 적자 - zdnet.co.kr",
+   "title": "삼성전자 2분기 반도체 영업익 89.2조…완제품은 8천억 적자 - 연합뉴스TV",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -158,8 +155,8 @@
    "agents": []
   },
   {
-   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - 한국경제",
-   "pub": "Sat, 01 Aug 2026",
+   "title": "\"삼성전자 무너뜨린 건 기술 아니라 물량 폭격\"…반도체판에 닥친 중국발 공포[테크토크] - v.daum.net",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -173,13 +170,6 @@
   },
   {
    "title": "미국발 훈풍에 반도체 ‘불기둥’…삼성전자·SK하이닉스 20%대↑ - 매일경제",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "\"삼성전자 무너뜨린 건 기술 아니라 물량 폭격\"…반도체판에 닥친 중국발 공포[테크토크] - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -214,21 +204,21 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 호황 속 완제품 첫 적자…엇갈린 최대 실적(종합) - 데일리안",
+   "title": "삼성전자 \"메모리 부족 2028년까지 지속…60~70% 장기계약\" - zdnet.co.kr",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "[속보]삼성전자, 2분기 반도체부문 매출 127.5조, 영업이익 89.2조 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "반도체 더 달린다 … 삼전 “내년 메모리 초과수요 확대, 파운드리 흑전도 임박” - biz.newdaily.co.kr",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "반도체 더 달린다 … 삼전 “내년 메모리 초과수요 확대, 파운드리 흑전도 임박” - biz.newdaily.co.kr",
+   "title": "삼성전자, AI 반도체 타고 사상 최대 실적…메모리 70% 장기계약 전환 - 아시아투데이",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -364,6 +354,13 @@
    ]
   },
   {
+   "title": "개인 ‘항복매도’ 이어지는데 외국인은 언제 오나 - 매일일보",
+   "pub": "Sun, 02 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "“하루 만에 1000P 폭등”…외국인 8.8조 쓸어담고 개미 10조 던졌다 [숫자 뒤의 진실] - v.daum.net",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
@@ -433,15 +430,6 @@
    ]
   },
   {
-   "title": "[마감시황]코스피, 1.23% 내린 5593.56 마감…외국인·기관 순매수에도 5거래일째 약세 - twig24.com",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "1001포인트 급등, 외국인 순매수 역대 최대…코스피 또 새 기록 - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -476,8 +464,8 @@
    ]
   },
   {
-   "title": "외국인, 6개월째 ‘셀코리아’… 49.3조원 순매도 역대 최대 - 뉴스웰",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "[마감시황]코스피, 1.23% 내린 5593.56 마감…외국인·기관 순매수에도 5거래일째 약세 - twig24.com",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -647,6 +635,15 @@
   },
   {
    "title": "Why the Best May Be Yet to Come for NVIDIA, Micron, and SanDisk",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Both Berkshire Hathaway and Micron Stocks Look Cheap on the Surface. But I Like 1 Better Than the Other.",
    "pub": "Sat, 01 Aug 2026",
    "src": "en",
    "q": "MU",
