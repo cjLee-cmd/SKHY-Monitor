@@ -1,19 +1,37 @@
 {
- "ts_kst": "08-04 01:24",
- "n_items": 101,
+ "ts_kst": "08-04 01:34",
+ "n_items": 103,
  "by_source": {
-  "kr": 73,
-  "en": 28
+  "kr": 74,
+  "en": 29
  },
  "routed": {
-  "C-CHINA": 7,
-  "M-CYCLE": 9,
-  "P-ADR": 1,
+  "C-CHINA": 8,
+  "M-CYCLE": 11,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
  "unassigned": 65,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - v.daum.net",
@@ -81,6 +99,24 @@
    ]
   },
   {
+   "title": "중국 턱밑 추격에…삼성·SK하이닉스, HBM·차세대 기술 개발 '전력투구' - 뉴시스",
+   "pub": "Sun, 02 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[증시키워드] 삼전·SK하닉 ‘메모리 패권’ 지키기 총력 ⋯中 CXMT 차세대 D램 추격 우려 - 이투데이",
+   "pub": "Sun, 02 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "\"나 떨고 있냐'…SK하이닉스 경력채용 발표 앞두고 대기업들 긴장 - 뉴스1",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
@@ -109,15 +145,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "삼전닉스 아직도 저평가?…SK하이닉스 ADR ‘등록신고서’ 봤더니 - 한겨레",
-   "pub": "Sun, 02 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
   },
   {
    "title": "삼성전자 파운드리, 연내 가동률 100% 달성 전망...흑자전환 카운트다운 - 조선비즈 - Chosunbiz",
@@ -361,7 +388,7 @@
    "agents": []
   },
   {
-   "title": "코스피 반등의 열쇠는 외국인…증권가 '추가 매도 압력 제한적' - 데일리한국",
+   "title": "코스피 반등의 열쇠는 외국인…증권가 '추가 매도 압력 제한적' - daily.hankooki.com",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -402,7 +429,7 @@
    ]
   },
   {
-   "title": "삼전닉스, 또 8%대 급락 마감…외국인·기관 `팔자`에 코스피 휘청 - 매일신문",
+   "title": "삼전닉스, 또 8%대 급락 마감…외국인·기관 `팔자`에 코스피 휘청 - imaeil.com",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -570,7 +597,7 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
    "pub": "Wed, 22 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -579,12 +606,21 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Jim Cramer Named Micron Technology (MU) His Top Memory Pick",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -621,24 +657,6 @@
   },
   {
    "title": "Micron Stock Drops as Chinese Memory Chip Threat Intensifies",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron, Bristol Myers, Palantir, Circle Internet, SpaceX, and More Stocks That Explain Today’s Market",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "The Market Is Missing a Huge Opportunity in NVIDIA, Micron, and Broadcom",
    "pub": "Mon, 03 Aug 2026",
    "src": "en",
    "q": "MU",
