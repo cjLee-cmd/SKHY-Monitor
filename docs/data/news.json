@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-03 09:56",
+ "ts_kst": "08-03 10:06",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -7,38 +7,13 @@
  },
  "routed": {
   "P-ADR": 1,
-  "C-BUYBACK": 1,
   "C-CHINA": 5,
-  "M-CYCLE": 6,
+  "M-CYCLE": 8,
   "F-ACTIVE": 3,
   "R-LEVERAGE": 13
  },
- "unassigned": 75,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "적자나면 임금 깎고, 성과급은 주식으로?···SK하이닉스 노사 ‘임금체계 개편’ 놓고 충돌 - 경향신문",
-   "agents": []
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "SK하이닉스 \"적자 나면 임금 깎자\"…노조, 최후통첩 반발 - 머니투데이 - mt.co.kr",
-   "agents": []
-  }
- ],
+ "unassigned": 74,
+ "alerts": [],
  "items": [
   {
    "title": "\"SK하이닉스, 주주환원으로 LTA 인정받을 것…목표가 400만원 유지\" - 머니투데이 - mt.co.kr",
@@ -92,8 +67,8 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 추월당할 것\"...'파격' 전망에 개미들 술렁 - v.daum.net",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "[특징주] 삼성전자·하이닉스, 장 초반 8% 급락 - 에너지경제신문",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -169,7 +144,7 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 하락.. 7%대 '약세' - 글로벌이코노믹",
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 하락.. 7%대 '약세' - g-enews.com",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -190,7 +165,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 20%대 급등…美 반도체 랠리·최태원 매수 ’겹호재’ By Bloomingbit - kr.investing.com",
+   "title": "삼성전자·SK하이닉스 20%대 급등…美 반도체 랠리·최태원 매수 ’겹호재’ By Bloomingbit - Investing.com 한국어",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -204,17 +179,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 차기 주주환원 밑그림 착수…변수는 특별배당·자사주 - ebn.co.kr",
+   "title": "반도체 역사적 반등…SK하이닉스 상한가·삼성전자 27%↑[핫종목](종합) - v.daum.net",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "반도체 역사적 반등…SK하이닉스 상한가·삼성전자 27%↑[핫종목](종합) - v.daum.net",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "삼성전자 기술 빼가더니…'466% 폭등' 대박 난 中 회사 - 한국경제",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -264,13 +237,6 @@
    ]
   },
   {
-   "title": "미 의회, 애플에 경고...\"중국산 메모리 칩 구매 중단하라\" - AI타임스",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -287,7 +253,7 @@
    "agents": []
   },
   {
-   "title": "\"추월, 한국 반도체\"… 중국의 이우위직 전략 [아침을 열며] - 한국일보",
+   "title": "\"추월, 한국 반도체\"… 중국의 이우위직 전략 [아침을 열며] - hankookilbo.com",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -315,7 +281,7 @@
    "agents": []
   },
   {
-   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - 글로벌이코노믹",
+   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - g-enews.com",
    "pub": "Thu, 16 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -357,6 +323,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - 매일경제",
+   "pub": "Wed, 06 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
@@ -447,7 +420,7 @@
    "agents": []
   },
   {
-   "title": "외국인, 韓 주식 49조원 ‘투매’…코스피서만 51조원 뺐다 - joseilbo.com",
+   "title": "외국인, 韓 주식 49조원 ‘투매’…코스피서만 51조원 뺐다 - 조세일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -567,7 +540,7 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - g-enews.com",
    "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -617,7 +590,7 @@
    "agents": []
   },
   {
-   "title": "Micron Technology Stock Is Plummeting, but Here's Why I'm Not Buying the Dip",
+   "title": "Micron Stock Falls. Here’s What’s Overshadowing Big Tech Spending.",
    "pub": "Sun, 02 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -626,15 +599,8 @@
    ]
   },
   {
-   "title": "The Best-Performing S&P 500 Stocks Of 2026 So Far",
-   "pub": "Sun, 02 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Micron Stock Is Down 39% From Its High. History Suggests a $5,000 Investment Now Will Be Worth This Much by Mid-2028.",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "Where Will Micron Stock Be in 2030?",
+   "pub": "Sat, 01 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
@@ -642,15 +608,22 @@
    ]
   },
   {
-   "title": "Banks Offload Risk from Leveraged ETFs With Exotic ‘Crash Puts’",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "Silicon Motion Crushed Earnings and Surprised Memory Chip Bears",
+   "pub": "Sat, 01 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Here Are My 3 Top Artificial Intelligence (AI) Stocks to Buy in August",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "The AI Memory Boom Just Got a Reality Check—And a Better Entry Point",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Here's What Morgan Stanley Says About Buying the AI Infrastructure Dip",
+   "pub": "Sat, 01 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
