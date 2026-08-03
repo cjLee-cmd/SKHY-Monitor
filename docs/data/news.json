@@ -1,18 +1,29 @@
 {
- "ts_kst": "08-04 04:00",
+ "ts_kst": "08-04 04:10",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "C-CHINA": 9,
+  "C-CHINA": 8,
   "M-CYCLE": 11,
+  "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 14
  },
  "unassigned": 67,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "코스피 6,200선 '털썩'...코스닥은 '매수 사이드카' - YTN",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - v.daum.net",
@@ -43,30 +54,12 @@
    "agents": []
   },
   {
-   "title": "CXMT LPDDR6 D램 이르면 하반기 양산, 삼성전자·SK하이닉스와 기술격차 거의 사라져 - 비즈니스포스트",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "中 CXMT 몸값 전망 7배 차…삼성·SK하이닉스 촉각 - 글로벌이코노믹",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "C-CHINA"
-   ]
-  },
-  {
-   "title": "중국 턱밑 추격에…삼성·SK하이닉스, HBM·차세대 기술 개발 '전력투구' - 뉴시스",
-   "pub": "Sun, 02 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
    ]
   },
   {
@@ -91,7 +84,7 @@
    "agents": []
   },
   {
-   "title": "상위 1% 투자자, 순매수 1·2위는 SK하이닉스·삼성전자 [주식 초고수는 지금] - 서울경제",
+   "title": "[오늘의 주목주] '상한가 부담감' SK하이닉스 주가 8%대 내려, 코스피 외국인 기관 쌍끌이 매도에 6250선 하락 - 비즈니스포스트",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -119,7 +112,21 @@
    "agents": []
   },
   {
-   "title": "KB증권 \"메모리 공급난 3년 지속, 삼성전자·SK하이닉스·LG이노텍 최선호주\" - 비즈니스포스트",
+   "title": "예탁금 3000만원 시행 뒤…삼전·하이닉스 단일 레버리지 거래량 53% 감소 - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "상품 구조만 살핀 금융위…삼성전자·SK하이닉스 급락 시나리오 없었다 - 이투데이",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[아들아~] 삼성전자, SK하이닉스 레버리지 ETF.. 정청래 대형폭탄, 터질게 터졌다~ - 고발뉴스닷컴",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -358,6 +365,15 @@
    "agents": []
   },
   {
+   "title": "코스피 6,200선 '털썩'...코스닥은 '매수 사이드카' - YTN",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
    "title": "코스피, 외국인 순매도 지속에 6250선 마감 - 소년한국일보",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -454,13 +470,6 @@
   {
    "title": "개인 ‘항복매도’ 이어지는데 외국인은 언제 오나 - 매일일보",
    "pub": "Sun, 02 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외국인, 6월 한 달간 코스피서 '51조' 팔았다…채권은 '4조' 사들여 - 뉴스웍스",
-   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -572,6 +581,15 @@
    ]
   },
   {
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
    "pub": "Wed, 22 Jul 2026",
    "src": "kr",
@@ -590,16 +608,34 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "Micron Stock Falls -- Apple Tests Chinese Memory Chips From Rising Rival",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
   },
   {
    "title": "Micron Stock Drops Nearly 4% as Chinese Rival Plans DRAM Expansion",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Amazon, Apple, Boeing, Micron, Bristol Myers, GameStop, SpaceX, and More Stocks That Explain Today’s Market",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Rises Even as Chinese Memory Chip Competition Intensifies",
    "pub": "Mon, 03 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -613,34 +649,6 @@
    "src": "en",
    "q": "MU",
    "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Analyst Drops Jaw-Dropping Micron Target Hike With a Catch",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Micron Stock Is Under Pressure Today",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "CXMT’s 466% IPO Pop Gives Apple (AAPL) Leverage. Why Micron (MU) Investors Should Stay Patient",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "C-CHINA",
     "M-CYCLE"
    ]
   }
