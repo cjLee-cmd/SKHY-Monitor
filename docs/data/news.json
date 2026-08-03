@@ -1,37 +1,19 @@
 {
- "ts_kst": "08-04 01:34",
- "n_items": 103,
+ "ts_kst": "08-04 01:43",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
-  "C-CHINA": 8,
-  "M-CYCLE": 11,
+  "C-CHINA": 7,
+  "M-CYCLE": 10,
+  "P-ADR": 1,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
   {
    "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - v.daum.net",
@@ -62,13 +44,6 @@
    "agents": []
   },
   {
-   "title": "엔비디아 2.8%·SOXL 1.2% 반등…삼성전자·SK하이닉스, 외국인 수급 주목 - 녹색경제신문",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스 주가, 오늘 왜 떨어지나? - Investing.com 한국어",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -76,7 +51,7 @@
    "agents": []
   },
   {
-   "title": "예전 같지 않은 '큰손' SK하이닉스…달라진 발행사 분위기 - news.einfomax.co.kr",
+   "title": "예전 같지 않은 '큰손' SK하이닉스…달라진 발행사 분위기 - 연합인포맥스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -99,25 +74,14 @@
    ]
   },
   {
-   "title": "중국 턱밑 추격에…삼성·SK하이닉스, HBM·차세대 기술 개발 '전력투구' - 뉴시스",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "[속보]삼성전자·SK하이닉스 5%대 하락 출발 - 뉴시스",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "[증시키워드] 삼전·SK하닉 ‘메모리 패권’ 지키기 총력 ⋯中 CXMT 차세대 D램 추격 우려 - 이투데이",
-   "pub": "Sun, 02 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "\"나 떨고 있냐'…SK하이닉스 경력채용 발표 앞두고 대기업들 긴장 - 뉴스1",
+   "title": "\"나 떨고 있냐'…SK하이닉스 경력채용 발표 앞두고 대기업들 긴장 - news1.kr",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -140,10 +104,33 @@
    ]
   },
   {
+   "title": "‘맹탕’ 콘콜 왜 했나…시장에 재 뿌린 SK하이닉스 [재계톡톡] - v.daum.net",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전닉스 아직도 저평가?…SK하이닉스 ADR ‘등록신고서’ 봤더니 - 한겨레",
+   "pub": "Sun, 02 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
    "title": "“억대 성과급은 챙기고 고통분담은 거부”, SK하이닉스 선례에 불붙는 성과급 하투 - The Economy Korea",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "엔비디아 2.8%·SOXL 1.2% 반등…삼성전자·SK하이닉스, 외국인 수급 주목 - 녹색경제신문",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
    "agents": []
   },
   {
@@ -450,13 +437,6 @@
    "agents": []
   },
   {
-   "title": "한국 주식 ‘사팔사팔’... 외국인들 왜 이러나? - 조선일보",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인, '정점→하락장' 6월 코스피 51조 순매도… 역대 최대 '셀코리아' - 한국일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -466,7 +446,7 @@
    ]
   },
   {
-   "title": "코스피, 하루 만에 5% '급락'…외국인 차익실현에 6,200선 '후퇴' - 청년일보",
+   "title": "한국 주식 ‘사팔사팔’... 외국인들 왜 이러나? - 조선일보",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -480,6 +460,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "코스피, 하루 만에 5% '급락'…외국인 차익실현에 6,200선 '후퇴' - 청년일보",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 아주경제",
@@ -648,15 +635,6 @@
   },
   {
    "title": "Micron’s 85% Gross Margin Tops Meta, Microsoft, and Google — Here’s Why It Could Climb Even Higher",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Drops as Chinese Memory Chip Threat Intensifies",
    "pub": "Mon, 03 Aug 2026",
    "src": "en",
    "q": "MU",
