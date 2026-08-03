@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-03 21:00",
+ "ts_kst": "08-03 21:10",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -7,31 +7,12 @@
  },
  "routed": {
   "C-CHINA": 7,
-  "M-CYCLE": 14,
+  "M-CYCLE": 12,
   "F-ACTIVE": 5,
-  "R-LEVERAGE": 14
+  "R-LEVERAGE": 15
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - v.daum.net",
@@ -48,15 +29,15 @@
    "agents": []
   },
   {
-   "title": "'주주환원' 日 키옥시아 주가 5% 뛰었는데…SK하이닉스는? [종목+] - 한국경제",
+   "title": "SK證 \"SK하이닉스, 주주환원으로 LTA 가치 인정 기대…목표가 400만원\" - 뉴시스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'주주들 안달인데' … SK하이닉스, 주주환원 내놓지 못하는 까닭은 - 뉴데일리",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+] - 한국경제",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -77,13 +58,6 @@
   },
   {
    "title": "예전 같지 않은 '큰손' SK하이닉스…달라진 발행사 분위기 - 연합인포맥스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독]대한상의 신임 상근부회장에 김정일 SK하이닉스 부사장 내정 - 동아일보",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -122,7 +96,7 @@
    "agents": []
   },
   {
-   "title": "[주간 껄무새] '삼전닉스' 광란의 금요일…SK하이닉스는 17년 만에 상한가 - 녹색경제신문",
+   "title": "[주간 껄무새] '삼전닉스' 광란의 금요일…SK하이닉스는 17년 만에 상한가 - greened.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -131,6 +105,13 @@
   {
    "title": "“1600원 위기 한 달 만에 뚝”…SK하이닉스·조선사가 푼 달러에 분위기 반전 - 매일경제",
    "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "상품 구조만 살핀 금융위…삼성전자·SK하이닉스 급락 시나리오 없었다 - 이투데이",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -349,13 +330,11 @@
    "agents": []
   },
   {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
-   "pub": "Tue, 28 Jul 2026",
+   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - khan.co.kr",
@@ -489,7 +468,7 @@
    ]
   },
   {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 아주경제",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -498,7 +477,16 @@
    ]
   },
   {
-   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - news.nate.com",
+   "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - 뉴데일리",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -588,6 +576,15 @@
    ]
   },
   {
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "pub": "Wed, 22 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
@@ -606,20 +603,11 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "This Week In AI Chips - Palomino's Strategic Acquisition Boosts AI Interconnect Market Expansion",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": []
-  },
-  {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "pub": "Wed, 22 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
   },
   {
    "title": "Micron Stock Falls as Chinese Memory Threat Intensifies",
@@ -656,13 +644,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "MU Stock Falls Premarket After Worst Month In 11 Years: Analysts Say Memory Demand Intact, See 85% Upside",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
