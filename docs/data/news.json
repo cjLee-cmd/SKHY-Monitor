@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-04 02:52",
+ "ts_kst": "08-04 03:02",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,22 +7,12 @@
  },
  "routed": {
   "C-CHINA": 8,
-  "M-CYCLE": 10,
+  "M-CYCLE": 11,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
- "unassigned": 68,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
   {
    "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - v.daum.net",
@@ -67,7 +57,7 @@
    "agents": []
   },
   {
-   "title": "[성공예감] 삼전닉스 목표 주가, 애널리스트에 따라 3배까지 차이 나는 이유 - 김학균 전무 (신영증권 리서치센터장) - v.daum.net",
+   "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+] - 한국경제",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -104,7 +94,7 @@
    "agents": []
   },
   {
-   "title": "\"나 떨고 있냐'…SK하이닉스 경력채용 발표 앞두고 대기업들 긴장 - news1.kr",
+   "title": "\"나 떨고 있냐'…SK하이닉스 경력채용 발표 앞두고 대기업들 긴장 - 뉴스1",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -125,11 +115,13 @@
    "agents": []
   },
   {
-   "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+] - 한국경제",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "SK하이닉스 목표가 330만원…현대차證 “2분기는 숨 고르기, 3분기부터 HBM4 효과” - 조선비즈 - Chosunbiz",
+   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자 파운드리, 연내 가동률 100% 달성 전망...흑자전환 카운트다운 - 조선비즈 - Chosunbiz",
