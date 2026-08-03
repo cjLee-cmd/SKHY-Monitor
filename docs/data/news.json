@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-03 09:08",
+ "ts_kst": "08-03 09:17",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -7,36 +7,14 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 7,
+  "M-CYCLE": 10,
   "C-BUYBACK": 1,
   "C-CHINA": 5,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 74,
- "alerts": [
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "[단독] SK하이닉스, 노조에 성과급 절반 이상 주식 지급 제안…“적자 땐 임금 조정” 제안도 - 헤럴드경제",
-   "agents": []
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "삼성전자 DX부문, '칩플레이션' 직격에 적자…반도체는 89조 영업익 - v.daum.net",
-   "agents": []
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "삼성 “내년 반도체 공급 부족 확대” 파운드리-메모리 선제적 증설 - v.daum.net",
-   "agents": []
-  }
- ],
+ "unassigned": 71,
+ "alerts": [],
  "items": [
   {
    "title": "\"나 떨고 있냐'…SK하이닉스 경력채용 발표 앞두고 대기업들 긴장 - 뉴스1",
@@ -53,14 +31,14 @@
    "agents": []
   },
   {
-   "title": "최태원 회장, SK하이닉스 매수 하루 만에 13억원 벌었다 - 연합인포맥스",
+   "title": "딱 1억원 모자란 49억원…최태원, SK하이닉스 3620주만 산 이유 - 머니투데이 - 머니투데이",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[속보] ‘시총 2위‘ SK하이닉스 상한가 기록 - v.daum.net",
+   "title": "최태원 회장, SK하이닉스 매수 하루 만에 13억원 벌었다 - 연합인포맥스",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -99,11 +77,36 @@
    ]
   },
   {
+   "title": "급등했던 삼전닉스, 차익실현 매물에 동반 약세 - 머니투데이 - 머니투데이",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "\"SK하이닉스 추월당할 것\"...'파격' 전망에 개미들 술렁 - v.daum.net",
    "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "중국 턱밑 추격에…삼성·SK하이닉스, HBM·차세대 기술 개발 '전력투구' - 뉴시스",
+   "pub": "Sun, 02 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "막대한 AI 투자 확인됐다…달아오른 삼전닉스 HBM 선두 경쟁 - 머니투데이 - 머니투데이",
+   "pub": "Sun, 02 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - KBS 뉴스",
@@ -122,27 +125,6 @@
   {
    "title": "“하이닉스 298만원 찍던 날”…급락장에 퍼지는 씁쓸 전래동화 - 중앙일보",
    "pub": "Sun, 02 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "적자나면 임금 깎고, 성과급은 주식으로?···SK하이닉스 노사 ‘임금체계 개편’ 놓고 충돌 - khan.co.kr",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] SK하이닉스, 노조에 성과급 절반 이상 주식 지급 제안…“적자 땐 임금 조정” 제안도 - 헤럴드경제",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“주식으로 성과급 절반 줄게”…SK하이닉스 노조는 4차 교섭에서도 거절 - v.daum.net",
-   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -308,14 +290,14 @@
    "agents": []
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - khan.co.kr",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
    "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - g-enews.com",
+   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - 글로벌이코노믹",
    "pub": "Thu, 16 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -359,7 +341,7 @@
    ]
   },
   {
-   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - khan.co.kr",
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -440,6 +422,13 @@
    "agents": []
   },
   {
+   "title": "외국인, 韓 주식 49조원 ‘투매’…코스피서만 51조원 뺐다 - 조세일보",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "6000 회복 눈앞서 미끄러진 코스피…외인·기관 순매수에도 1%대 하락 마감 - hidomin.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -479,13 +468,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "“하루 만에 1000P 폭등”…외국인 8.8조 쓸어담고 개미 10조 던졌다 [숫자 뒤의 진실] - v.daum.net",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -560,7 +542,7 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - g-enews.com",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
    "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -617,8 +599,8 @@
    "agents": []
   },
   {
-   "title": "Micron Technology Stock Is Plummeting, but Here's Why I'm Not Buying the Dip",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "Where Will Micron Stock Be in 2030?",
+   "pub": "Sat, 01 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
@@ -626,34 +608,34 @@
    ]
   },
   {
-   "title": "The Best-Performing S&P 500 Stocks Of 2026 So Far",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "Silicon Motion Crushed Earnings and Surprised Memory Chip Bears",
+   "pub": "Sat, 01 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Micron Stock Is Down 39% From Its High. History Suggests a $5,000 Investment Now Will Be Worth This Much by Mid-2028.",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "The AI Memory Boom Just Got a Reality Check—And a Better Entry Point",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Here's What Morgan Stanley Says About Buying the AI Infrastructure Dip",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Why the Best May Be Yet to Come for NVIDIA, Micron, and SanDisk",
+   "pub": "Sat, 01 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Banks Offload Risk from Leveraged ETFs With Exotic ‘Crash Puts’",
-   "pub": "Sun, 02 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Here Are My 3 Top Artificial Intelligence (AI) Stocks to Buy in August",
-   "pub": "Sun, 02 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
