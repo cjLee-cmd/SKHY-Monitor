@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-04 08:26",
+ "ts_kst": "08-04 08:36",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -7,7 +7,7 @@
  },
  "routed": {
   "P-ADR": 1,
-  "C-CHINA": 9,
+  "C-CHINA": 8,
   "M-CYCLE": 13,
   "M-RISK": 1,
   "F-ACTIVE": 5,
@@ -16,11 +16,13 @@
  "unassigned": 62,
  "alerts": [
   {
-   "level": "info",
-   "kw": "증설",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "삼성전자 반도체 공장, ‘광주 첨단3지구’에 15만평 사실상 확정···앰코도 증설 - 경향신문",
-   "agents": []
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   }
  ],
  "items": [
@@ -50,20 +52,6 @@
   {
    "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - v.daum.net",
    "pub": "Sun, 02 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주가, 오늘 왜 떨어지나? - Investing.com 한국어",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "두 달간 주가 반토막 난 SK하이닉스…핵심 관전포인트 4가지 - 한국경제",
-   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -99,21 +87,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상한가 다음 날 6% 하락…삼성전자 7%↓[핫종목] - 뉴스1",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[속보]삼성전자·SK하이닉스 5%대 하락 출발 - 뉴시스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "KB증권 \"메모리 공급난 3년 지속, 삼성전자·SK하이닉스·LG이노텍 최선호주\" - 비즈니스포스트",
+   "title": "SK하이닉스 주가, 오늘 왜 떨어지나? - Investing.com 한국어",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -128,6 +102,34 @@
   },
   {
    "title": "상위 1% 투자자, 순매수 1·2위는 SK하이닉스·삼성전자 [주식 초고수는 지금] - 서울경제",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "상품 구조만 살핀 금융위…삼성전자·SK하이닉스 급락 시나리오 없었다 - 이투데이",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 ‘그림자 시장’ 커졌다…본주로 충격 번질까 - 데일리안",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"최태원이 하닉 사라고 한 이유\"…'배당 2.5%·액분' 지라시가 돈다 - v.daum.net",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+] - 한국경제",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -162,15 +164,15 @@
    "agents": []
   },
   {
-   "title": "삼성 ‘탈 Arm’ 이끈 전 임원, 아마존 ‘자체 AI 칩’ 만든다 - IT조선",
-   "pub": "Sat, 01 Aug 2026",
+   "title": "삼전닉스 4755조원 국내 투자, ‘글로벌 반도체 초격차’ 승부수 - 한겨레",
+   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼전닉스 4755조원 국내 투자, ‘글로벌 반도체 초격차’ 승부수 - 한겨레",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "삼성 ‘탈 Arm’ 이끈 전 임원, 아마존 ‘자체 AI 칩’ 만든다 - IT조선",
+   "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -295,7 +297,7 @@
    ]
   },
   {
-   "title": "AI 피로감에 기름 부은 중국 반도체 충격‥\"낙폭 너무 과도해\" - MBC 뉴스",
+   "title": "AI 피로감에 기름 부은 중국 반도체 충격‥\"낙폭 너무 과도해\" - imnews.imbc.com",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -543,7 +545,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -606,6 +608,15 @@
    ]
   },
   {
+   "title": "For Micron Stock, The Growth That Justifies The Price Has To Arrive",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Own The AI Boom? NVIDIA's Story vs. Micron's Contracts",
    "pub": "Mon, 03 Aug 2026",
    "src": "en",
@@ -643,15 +654,6 @@
   },
   {
    "title": "1 Thing Every Micron Stock Investor Needs To Understand Right Now",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Drops Nearly 4% as Chinese Rival Plans DRAM Expansion",
    "pub": "Mon, 03 Aug 2026",
    "src": "en",
    "q": "MU",
