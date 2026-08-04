@@ -1,47 +1,43 @@
 {
- "ts_kst": "08-04 10:16",
- "n_items": 104,
+ "ts_kst": "08-04 10:26",
+ "n_items": 103,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 29
  },
  "routed": {
-  "P-ADR": 1,
+  "C-BUYBACK": 1,
   "C-CHINA": 8,
   "M-CYCLE": 13,
   "M-RISK": 1,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
- "unassigned": 62,
- "alerts": [],
- "items": [
+ "unassigned": 61,
+ "alerts": [
   {
-   "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+] - 한국경제",
-   "pub": "Mon, 03 Aug 2026",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"SK하이닉스, 주주환원으로 LTA 인정받을 것…목표가 400만원 유지\" - 머니투데이 - 머니투데이",
-   "pub": "Sun, 02 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주주환원 엇갈린 전망···“ADR로 공개 불가” vs “계획 없다” - 시사저널e",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "agents": [
-    "P-ADR"
+    "R-LEVERAGE"
    ]
   },
   {
-   "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - v.daum.net",
-   "pub": "Sun, 02 Aug 2026",
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "최태원·노태문 이어 김동관, 주식 매입 나섰다...대기업 경영진, '책임경영' 차원 자사주 매입 이어질 듯 - greened.kr",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "title": "SK하이닉스, 샌디스크와 차세대 스토리지 HBF 첫 표준규격 공개 - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -54,36 +50,38 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 샌디스크와 HBF 첫 표준 규격 공개 - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스, 'HBF' 규격 첫 공개… 세계 최초 375단 낸드도 선보여 - v.daum.net",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 차세대 스토리지 HBF 표준규격 첫 공개…샌디스크 협업 - 연합뉴스TV",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[속보]삼성전자·SK하이닉스 5%대 하락 출발 - 뉴시스",
+   "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+] - hankyung.com",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상한가 다음 날 6% 하락…삼성전자 7%↓[핫종목] - 뉴스1",
+   "title": "\"최태원이 하닉 사라고 한 이유\"…'배당 2.5%·액분' 지라시가 돈다 - v.daum.net",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 급등 출발후 하락 전환…3%대↓ - 연합뉴스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "최태원·노태문 이어 김동관, 주식 매입 나섰다...대기업 경영진, '책임경영' 차원 자사주 매입 이어질 듯 - greened.kr",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "최태원, SK하이닉스株 '책임매수' 이튿날 상한가…주가위기때 전격등판한 총수들 - 뉴시스",
+   "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -117,6 +115,20 @@
    "agents": []
   },
   {
+   "title": "[여의도 클라쓰] '코스모로보틱스, NAVER, SK하이닉스' 클라쓰 올릴 종목은? - 머니투데이 - 머니투데이",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "엔비디아 2.8%·SOXL 1.2% 반등…삼성전자·SK하이닉스, 외국인 수급 주목 - greened.kr",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "CXMT LPDDR6 D램 이르면 하반기 양산, 삼성전자·SK하이닉스와 기술격차 거의 사라져 - 비즈니스포스트",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -124,6 +136,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "한화운용, SK하이닉스·샌디스크 담은 채권혼합 ETF 상장 - 조선비즈 - Chosunbiz",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "삼성전자 파운드리, 연내 가동률 100% 달성 전망...흑자전환 카운트다운 - 조선비즈 - Chosunbiz",
@@ -134,13 +153,6 @@
   },
   {
    "title": "[AI 뭉쳐야 산다②] 삼성전자 구글 'AI 생태계' 필수 협력자로, 이재용 AI 동맹으로 반도체·모바일 다 잡는다 - 비즈니스포스트",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "엔비디아 2.8%·SOXL 1.2% 반등…삼성전자·SK하이닉스, 외국인 수급 주목 - 녹색경제신문",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -175,7 +187,7 @@
    "agents": []
   },
   {
-   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - 한국경제",
+   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - hankyung.com",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -322,7 +334,7 @@
    "agents": []
   },
   {
-   "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
+   "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - kr.investing.com",
    "pub": "Sat, 25 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -408,7 +420,7 @@
    "agents": []
   },
   {
-   "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - kyeonggi.com",
+   "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - 경기일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -544,7 +556,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -644,6 +656,15 @@
   },
   {
    "title": "Micron Stock Falls -- Apple Tests Chinese Memory Chips From Rising Rival",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "1 Thing Every Micron Stock Investor Needs To Understand Right Now",
    "pub": "Mon, 03 Aug 2026",
    "src": "en",
    "q": "MU",
