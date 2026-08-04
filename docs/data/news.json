@@ -1,22 +1,46 @@
 {
- "ts_kst": "08-04 23:22",
+ "ts_kst": "08-04 23:32",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 14,
-  "C-CHINA": 9,
+  "M-CYCLE": 15,
+  "C-CHINA": 8,
   "M-RISK": 1,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "최태원, 오늘 밤 침묵 깨나…SK하이닉스 주주환원책 공개 기대감 - 매일경제",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "최태원 \"SK하닉 사라\" 이유?…'배당 2.5%·액면분할' 지라시에 술렁 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 주주환원 기다리는 시장, 5일에 목매는 이유 - 한국경제",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -40,7 +64,7 @@
    ]
   },
   {
-   "title": "삼성, 2분기 D램 시장점유율 1위… 마이크론은 SK하이닉스 추격 - 조선비즈 - Chosunbiz",
+   "title": "삼성, 2분기 D램 시장점유율 1위… 마이크론은 SK하이닉스 추격 - 조선비즈 - biz.chosun.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -72,7 +96,7 @@
    "agents": []
   },
   {
-   "title": "상반기 250조 벌었다…삼성전자·SK하이닉스 '대규모 주주환원' 기대감↑ - 뉴시스",
+   "title": "상반기 250조 벌었다…삼성전자·SK하이닉스 '대규모 주주환원' 기대감↑ - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -116,20 +140,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 샌디스크와 차세대 스토리지 HBF 첫 표준규격 공개 - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 차세대 AI 메모리 HBF 표준 규격 첫 공개 - 조선일보",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"AI 병목 뚫는다\"…삼성·SK, 세계 최대 반도체 전시회서 '메모리 기술大戰'(종합) - v.daum.net",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -137,7 +147,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 파운드리, 연내 가동률 100% 달성 전망...흑자전환 카운트다운 - 조선비즈 - Chosunbiz",
+   "title": "삼성전자 파운드리, 연내 가동률 100% 달성 전망...흑자전환 카운트다운 - 조선비즈 - biz.chosun.com",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -151,7 +161,7 @@
    "agents": []
   },
   {
-   "title": "[AI 뭉쳐야 산다②] 삼성전자 구글 'AI 생태계' 필수 협력자로, 이재용 AI 동맹으로 반도체·모바일 다 잡는다 - 비즈니스포스트",
+   "title": "[AI 뭉쳐야 산다②] 삼성전자 구글 'AI 생태계' 필수 협력자로, 이재용 AI 동맹으로 반도체·모바일 다 잡는다 - businesspost.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -278,16 +288,6 @@
    "agents": []
   },
   {
-   "title": "중국 최대 메모리 반도체 업체인 창신메모리(CXMT)가 베이징에 두 번째 D램(DRAM) - 씽크풀 AI",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA",
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "삼전닉스 '쇼크' 안겼던 중국 창신메모리...베이징에 추가 공장 짓나 - 머니투데이 - 머니투데이",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -297,7 +297,7 @@
    ]
   },
   {
-   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
+   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - businesspost.co.kr",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -339,13 +339,6 @@
    ]
   },
   {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "pub": "Thu, 09 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
    "pub": "Sat, 25 Jul 2026",
    "src": "kr",
@@ -355,8 +348,24 @@
    ]
   },
   {
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - 조선일보",
    "pub": "Mon, 27 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -510,7 +519,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -614,6 +623,15 @@
    ]
   },
   {
+   "title": "MU, SNDK, DRAM Stocks Advance Premarket: Samsung Reclaims DRAM Lead, Micron Narrows Gap With SK Hynix",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "BofA sees an \"enhanced buying opportunity\" in this memory stock",
    "pub": "Tue, 04 Aug 2026",
    "src": "en",
@@ -644,15 +662,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron’s Sharp Pullback Hits These 3 Major Tech ETFs in Very Different Ways",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
