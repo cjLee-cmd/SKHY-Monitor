@@ -1,66 +1,66 @@
 {
- "ts_kst": "08-04 13:51",
- "score": 21.3,
+ "ts_kst": "08-04 14:01",
+ "score": 22.2,
  "verdict": "정당한 재평가",
  "components": {
-  "A_통계극단성": 3.9,
+  "A_통계극단성": 5.4,
   "B_체인동조성": 0.0,
-  "C_펀더멘털배율": 6.1,
-  "D_역사되돌림": 11.3
+  "C_펀더멘털배율": 7.3,
+  "D_역사되돌림": 9.5
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -11.33,
+   "cum": -12.0,
    "sd": 4.57,
-   "z": -1.76,
-   "n_episodes": 5,
+   "z": -1.86,
+   "n_episodes": 4,
    "forward": {
     "5": {
-     "mean": 2.77,
-     "median": 2.49,
-     "up_rate": 60
+     "mean": 1.14,
+     "median": 0.25,
+     "up_rate": 50
     },
     "20": {
-     "mean": -5.12,
-     "median": -5.93,
-     "up_rate": 40
+     "mean": -8.08,
+     "median": -10.11,
+     "up_rate": 25
     },
     "60": {
-     "mean": 13.7,
-     "median": 10.67,
-     "up_rate": 60
+     "mean": 14.18,
+     "median": 12.01,
+     "up_rate": 50
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -11.58,
-   "sd": 5.55,
-   "z": -1.48,
-   "n_episodes": 11,
+   "cum": -12.34,
+   "sd": 5.56,
+   "z": -1.57,
+   "n_episodes": 10,
    "forward": {
     "5": {
-     "mean": 2.85,
-     "median": 1.91,
-     "up_rate": 64
+     "mean": 2.82,
+     "median": 1.73,
+     "up_rate": 60
     },
     "20": {
-     "mean": 10.52,
-     "median": 8.32,
-     "up_rate": 73
+     "mean": 8.18,
+     "median": 5.46,
+     "up_rate": 70
     },
     "60": {
-     "mean": 49.93,
-     "median": 27.0,
-     "up_rate": 73
+     "mean": 52.11,
+     "median": 34.54,
+     "up_rate": 70
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -11.33,
-  "SK하이닉스": -11.58,
+  "삼성전자": -12.1,
+  "SK하이닉스": -12.34,
   "마이크론": 11.37,
   "TSMC": 7.89,
   "ASML": 5.05,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -1.76,
-  "drop_avg": 11.46,
-  "fundamental_ratio": 1.49,
+  "z_min": -1.86,
+  "drop_avg": 12.17,
+  "fundamental_ratio": 1.58,
   "chain_negative": "0/5"
  },
- "caveat": "역사 표본 11개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 10개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
