@@ -1,31 +1,47 @@
 {
- "ts_kst": "08-04 10:36",
- "n_items": 103,
+ "ts_kst": "08-04 10:45",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
+  "M-CYCLE": 13,
   "C-BUYBACK": 1,
-  "C-CHINA": 8,
-  "M-CYCLE": 12,
+  "C-CHINA": 7,
   "M-RISK": 1,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
- "unassigned": 62,
+ "unassigned": 63,
  "alerts": [
   {
-   "level": "info",
-   "kw": "증설",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "삼성전자 반도체 공장, ‘광주 첨단3지구’에 15만평 사실상 확정···앰코도 증설 - 경향신문",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "삼성전자 반도체로만 89조2000억원 벌었다... 전자제품(DX)은 적자 - v.daum.net",
    "agents": []
   }
  ],
  "items": [
   {
    "title": "SK하이닉스, 샌디스크와 차세대 스토리지 HBF 첫 표준규격 공개 - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 샌디스크와 HBF 첫 표준 규격 공개 - 조선비즈 - Chosunbiz",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -39,18 +55,20 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 'HBF' 규격 첫 공개… 세계 최초 375단 낸드도 선보여 - v.daum.net",
+   "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+] - 한국경제",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+] - hankyung.com",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "D램과 HBM 내년 물량도 '품절', 고객사 위기감이 삼성전자 SK하이닉스 협상력 더 키워 - 비즈니스포스트",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "\"최태원이 하닉 사라고 한 이유\"…'배당 2.5%·액분' 지라시가 돈다 - v.daum.net",
@@ -60,7 +78,7 @@
    "agents": []
   },
   {
-   "title": "최태원·노태문 이어 김동관, 주식 매입 나섰다...대기업 경영진, '책임경영' 차원 자사주 매입 이어질 듯 - greened.kr",
+   "title": "최태원·노태문 이어 김동관, 주식 매입 나섰다...대기업 경영진, '책임경영' 차원 자사주 매입 이어질 듯 - 녹색경제신문",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -69,7 +87,7 @@
    ]
   },
   {
-   "title": "최태원, SK하이닉스株 '책임매수' 이튿날 상한가…주가위기때 전격등판한 총수들 - newsis.com",
+   "title": "최태원, SK하이닉스株 '책임매수' 이튿날 상한가…주가위기때 전격등판한 총수들 - 뉴시스",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -104,30 +122,21 @@
    "agents": []
   },
   {
-   "title": "[여의도 클라쓰] '코스모로보틱스, NAVER, SK하이닉스' 클라쓰 올릴 종목은? - 머니투데이 - 머니투데이",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "엔비디아 2.8%·SOXL 1.2% 반등…삼성전자·SK하이닉스, 외국인 수급 주목 - greened.kr",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "CXMT LPDDR6 D램 이르면 하반기 양산, 삼성전자·SK하이닉스와 기술격차 거의 사라져 - 비즈니스포스트",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "한화운용, SK하이닉스·샌디스크 담은 채권혼합 ETF 상장 - 조선비즈 - Chosunbiz",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한화운용, 'PLUS SK하이닉스샌디스크채권혼합50' ETF 신규 상장 - 아시아경제",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한화운용, SK하이닉스·샌디스크 투자 채권혼합 ETF 상장 - 연합뉴스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -142,6 +151,13 @@
   },
   {
    "title": "[AI 뭉쳐야 산다②] 삼성전자 구글 'AI 생태계' 필수 협력자로, 이재용 AI 동맹으로 반도체·모바일 다 잡는다 - 비즈니스포스트",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "엔비디아 2.8%·SOXL 1.2% 반등…삼성전자·SK하이닉스, 외국인 수급 주목 - 녹색경제신문",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -176,7 +192,14 @@
    "agents": []
   },
   {
-   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - hankyung.com",
+   "title": "[주식시황]반도체 투톱 ‘급브레이크’…삼성전자·SK하이닉스 8% 안팎 급락 - 남도일보",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - 한국경제",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -185,27 +208,6 @@
   {
    "title": "\"중국 추격에 성과급 갈등까지\"…삼성·SK '반도체 내우외환' - 미디어펜",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "피델릭스, 삼성전자에 메모리반도체 114억원 규모 공급 계약 체결 - digitaltoday.co.kr",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성 ‘탈 Arm’ 이끈 전 임원, 아마존 ‘자체 AI 칩’ 만든다 - IT조선",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 반도체 공장, ‘광주 첨단3지구’에 15만평 사실상 확정···앰코도 증설 - 경향신문",
-   "pub": "Thu, 11 Jun 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -232,6 +234,20 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 반도체 스타트업 투자·DX 신기술 확보에 8000억 출자 - 인베스트조선",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 반도체로만 89조2000억원 벌었다... 전자제품(DX)은 적자 - v.daum.net",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -250,7 +266,7 @@
    ]
   },
   {
-   "title": "\"막았더니 경쟁자로 돌아왔다\"…창신메모리가 보여준 '규제의 역설' - 파이낸셜뉴스",
+   "title": "\"막았더니 경쟁자로 돌아왔다\"…창신메모리가 보여준 '규제의 역설' - fnnews.com",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -356,7 +372,7 @@
    "agents": []
   },
   {
-   "title": "160조 매도폭탄에 2배 ETF… 변동성 키워 [반도체 쇼크와 외국인 ②] - IT조선",
+   "title": "160조 매도폭탄에 2배 ETF… 변동성 키워 [반도체 쇼크와 외국인 ②] - it.chosun.com",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -545,7 +561,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -643,15 +659,6 @@
   },
   {
    "title": "Micron Stock Rises Despite Rising Competition From Chinese Memory Chip",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Falls -- Apple Tests Chinese Memory Chips From Rising Rival",
    "pub": "Mon, 03 Aug 2026",
    "src": "en",
    "q": "MU",
