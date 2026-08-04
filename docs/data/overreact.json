@@ -1,66 +1,66 @@
 {
- "ts_kst": "08-04 09:18",
- "score": 33.2,
- "verdict": "판단 유보",
+ "ts_kst": "08-04 09:28",
+ "score": 17.1,
+ "verdict": "정당한 재평가",
  "components": {
-  "A_통계극단성": 12.9,
+  "A_통계극단성": 0,
   "B_체인동조성": 5.0,
-  "C_펀더멘털배율": 15.3,
-  "D_역사되돌림": 0.0
+  "C_펀더멘털배율": 0,
+  "D_역사되돌림": 12.1
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": 15.7,
+   "cum": -8.0,
    "sd": 4.56,
-   "z": 2.43,
-   "n_episodes": 1,
+   "z": -1.24,
+   "n_episodes": 8,
    "forward": {
     "5": {
-     "mean": 3.35,
-     "median": 3.35,
-     "up_rate": 100
+     "mean": 0.86,
+     "median": 0.25,
+     "up_rate": 50
     },
     "20": {
-     "mean": -7.63,
-     "median": -7.63,
-     "up_rate": 0
+     "mean": 4.52,
+     "median": -0.79,
+     "up_rate": 50
     },
     "60": {
-     "mean": -23.69,
-     "median": -23.69,
-     "up_rate": 0
+     "mean": 27.56,
+     "median": 27.39,
+     "up_rate": 75
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": 18.53,
+   "cum": -6.64,
    "sd": 5.55,
-   "z": 2.36,
-   "n_episodes": 1,
+   "z": -0.85,
+   "n_episodes": 14,
    "forward": {
     "5": {
-     "mean": 10.28,
-     "median": 10.28,
-     "up_rate": 100
+     "mean": 4.07,
+     "median": 2.51,
+     "up_rate": 57
     },
     "20": {
-     "mean": -5.85,
-     "median": -5.85,
-     "up_rate": 0
+     "mean": 11.23,
+     "median": 1.78,
+     "up_rate": 71
     },
     "60": {
-     "mean": 18.43,
-     "median": 18.43,
-     "up_rate": 100
+     "mean": 53.32,
+     "median": 42.92,
+     "up_rate": 79
     }
    }
   }
  },
  "chain": {
-  "삼성전자": 15.7,
-  "SK하이닉스": 18.53,
+  "삼성전자": -8.0,
+  "SK하이닉스": -6.75,
   "마이크론": -5.16,
   "TSMC": 0.69,
   "ASML": -0.54,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": 2.36,
-  "drop_avg": 17.12,
-  "fundamental_ratio": 2.22,
+  "z_min": -1.24,
+  "drop_avg": 7.32,
+  "fundamental_ratio": 0.95,
   "chain_negative": "1/5"
  },
- "caveat": "역사 표본 1개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 14개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
