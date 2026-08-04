@@ -1,19 +1,27 @@
 {
- "ts_kst": "08-04 20:45",
+ "ts_kst": "08-04 20:55",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 9,
   "C-CHINA": 7,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 13
  },
- "unassigned": 69,
- "alerts": [],
+ "unassigned": 71,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - chosun.com",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "삼성, 2분기 D램 시장점유율 1위… 마이크론은 SK하이닉스 추격 - 조선비즈 - Chosunbiz",
@@ -32,13 +40,11 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 2분기도 D램 점유율 1위…마이크론은 하이닉스 바짝 추격 - 한겨레",
+   "title": "삼성전자 2분기 D램 점유율 39% 1위, SK하이닉스와 13%포인트 격차 - 비즈니스포스트",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "SK하이닉스 주주환원 기다리는 시장, 5일에 목매는 이유 - hankyung.com",
@@ -195,7 +201,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
+   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - chosun.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -257,7 +263,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -340,14 +346,14 @@
    ]
   },
   {
-   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - 매일경제",
+   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - mk.co.kr",
    "pub": "Wed, 06 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - 조선일보",
+   "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - chosun.com",
    "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -443,7 +449,7 @@
    ]
   },
   {
-   "title": "외국인, 6월 한 달간 코스피서 '51조' 팔았다…채권은 '4조' 사들여 - 뉴스웍스",
+   "title": "외국인, 6월 한 달간 코스피서 '51조' 팔았다…채권은 '4조' 사들여 - newsworks.co.kr",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -611,6 +617,13 @@
    "agents": []
   },
   {
+   "title": "The Price of Reinvention for SanDisk Stock",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Microchip Technology, in Collaboration With Micron Technology, Demonstrates High-Performance PCIe® Gen 6 Storage Architecture for AI and Data Center Infrastructure",
    "pub": "Tue, 04 Aug 2026",
    "src": "en",
@@ -628,13 +641,6 @@
   },
   {
    "title": "3 Genius Artificial Intelligence (AI) Stocks to Buy Right Now",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Why SK Hynix Stock Can Surge 80% as Memory-Chip Maker and Sandisk Team Up",
    "pub": "Tue, 04 Aug 2026",
    "src": "en",
    "q": "MU",
