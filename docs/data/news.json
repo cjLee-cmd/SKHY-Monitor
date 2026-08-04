@@ -1,36 +1,55 @@
 {
- "ts_kst": "08-04 23:43",
+ "ts_kst": "08-04 23:53",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 14,
-  "C-CHINA": 8,
+  "M-CYCLE": 12,
+  "C-CHINA": 7,
   "M-RISK": 1,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 66,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "최태원, 오늘 밤 침묵 깨나…SK하이닉스 주주환원책 공개 기대감 - 매일경제",
+   "title": "최태원, 오늘 밤 침묵 깨나…SK하이닉스 주주환원책 공개 기대감 - v.daum.net",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+] - 한국경제",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "최태원 \"SK하닉 사라\" 이유?…'배당 2.5%·액면분할' 지라시에 술렁 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "최태원 \"SK하닉 사라\" 이유?…'배당 2.5%·액면분할' 지라시에 술렁 - 머니투데이 - 머니투데이",
+   "title": "SK하이닉스 주주환원 기다리는 시장, 5일에 목매는 이유 - 한국경제",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -44,26 +63,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스·마이크론 D램 점유율, 1%p 차로 좁혀져…CXMT도 1년새 두배 늘어 - v.daum.net",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE",
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "삼성, 2분기 D램 시장점유율 1위… 마이크론은 SK하이닉스 추격 - 조선비즈 - Chosunbiz",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "D램과 HBM 내년 물량도 '품절', 고객사 위기감이 삼성전자 SK하이닉스 협상력 더 키워 - businesspost.co.kr",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -84,6 +84,29 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "상반기 250조 벌었다…삼성전자·SK하이닉스 '대규모 주주환원' 기대감↑ - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 급등 출발후 하락 전환…3%대↓ - 연합뉴스",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 美서 이번주 '포스트 HBM' 로드맵 대결 주목 - v.daum.net",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "무디스, SK하이닉스 신용등급 A3로 상향…\"향후 견조한 수익성\" - 연합인포맥스",
@@ -121,13 +144,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 'HBF' 규격 첫 공개… 세계 최초 375단 낸드도 선보여 - v.daum.net",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"AI 병목 뚫는다\"…삼성·SK, 세계 최대 반도체 전시회서 '메모리 기술大戰'(종합) - v.daum.net",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -149,7 +165,7 @@
    "agents": []
   },
   {
-   "title": "[AI 뭉쳐야 산다②] 삼성전자 구글 'AI 생태계' 필수 협력자로, 이재용 AI 동맹으로 반도체·모바일 다 잡는다 - businesspost.co.kr",
+   "title": "[AI 뭉쳐야 산다②] 삼성전자 구글 'AI 생태계' 필수 협력자로, 이재용 AI 동맹으로 반도체·모바일 다 잡는다 - 비즈니스포스트",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -165,6 +181,13 @@
   {
    "title": "[특징주] 반도체주 급락…삼성전자 25만원선 붕괴 - 뉴스핌",
    "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하닉, 반도체 세액공제 못 받나… '한국판 IRA'의 역설 - 파이낸셜포스트",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -186,13 +209,6 @@
   {
    "title": "삼전닉스 4755조원 국내 투자, ‘글로벌 반도체 초격차’ 승부수 - 한겨레",
    "pub": "Sun, 02 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "'반도체특별법 시행령' 확정…삼성·SK 투자 지원체계 가동 - 신아일보",
-   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -285,7 +301,7 @@
    ]
   },
   {
-   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - businesspost.co.kr",
+   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -317,21 +333,12 @@
    "agents": []
   },
   {
-   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - 글로벌이코노믹",
+   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - g-enews.com",
    "pub": "Thu, 16 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
     "C-CHINA",
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
-   "pub": "Sat, 25 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
     "M-CYCLE"
    ]
   },
@@ -343,8 +350,8 @@
    "agents": []
   },
   {
-   "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - 조선일보",
-   "pub": "Mon, 27 Jul 2026",
+   "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
+   "pub": "Sat, 25 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -352,8 +359,15 @@
    ]
   },
   {
-   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
-   "pub": "Thu, 05 Feb 2026",
+   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - 매일경제",
+   "pub": "Wed, 06 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - 조선일보",
+   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -489,7 +503,7 @@
    ]
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -507,7 +521,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -516,7 +530,7 @@
    ]
   },
   {
-   "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - 뉴데일리",
+   "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - biz.newdaily.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -595,19 +609,35 @@
    ]
   },
   {
-   "title": "삼전 공매도 '1조원' 돌파 … 외인·기관, 코스피 '숏'에 풀베팅 - 뉴데일리",
+   "title": "삼전 공매도 '1조원' 돌파 … 외인·기관, 코스피 '숏'에 풀베팅 - biz.newdaily.co.kr",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Palantir, AMD, Coherent, SpaceX, Caterpillar, Wayfair, and More Stocks That Explain Today’s Market",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron Stock Rises as It Gains Memory-Chip Share. It’s Not All Good News.",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -634,22 +664,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Zacks Value Trader Highlights:  Sandisk, Micron, Vertiv, Comfort Systems and Bloom Energy",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Update: Palantir Earnings Beat, Tech Stock Rally Lift US Equity Futures Pre-Bell",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
