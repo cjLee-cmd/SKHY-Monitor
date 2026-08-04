@@ -1,62 +1,20 @@
 {
- "ts_kst": "08-04 22:01",
+ "ts_kst": "08-04 22:11",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 15,
-  "C-CHINA": 9,
+  "M-CYCLE": 14,
+  "C-CHINA": 8,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 13
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "적자",
-   "src": "kr",
-   "title": "삼성전자 반도체로만 89.2조 벌었다...완제품 첫 적자 - YTN",
-   "agents": []
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
-  {
-   "title": "최태원 \"SK하닉 사라\" 이유?…'배당 2.5%·액면분할' 지라시에 술렁 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, HBM 리더십과 저평가 매력…월가 \"HBM 촉매제\" - 마켓인",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
   {
    "title": "SK하이닉스·마이크론 D램 점유율, 1%p 차로 좁혀져…CXMT도 1년새 두배 늘어 - v.daum.net",
    "pub": "Tue, 04 Aug 2026",
@@ -77,7 +35,7 @@
    ]
   },
   {
-   "title": "마이크론까지 번진 'K-성과급' 논란…SK하이닉스 노사도 다시 충돌 - 매일경제TV",
+   "title": "D램과 HBM 내년 물량도 '품절', 고객사 위기감이 삼성전자 SK하이닉스 협상력 더 키워 - 비즈니스포스트",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -86,15 +44,31 @@
    ]
   },
   {
-   "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - KBS 뉴스",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "최태원 \"SK하닉 사라\" 이유?…'배당 2.5%·액면분할' 지라시에 술렁 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
+   "title": "SK하이닉스, HBM 리더십과 저평가 매력…월가 \"HBM 촉매제\" - 마켓인",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "예전 같지 않은 '큰손' SK하이닉스…달라진 발행사 분위기 - 연합인포맥스",
    "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - KBS 뉴스",
+   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -186,6 +160,13 @@
    "agents": []
   },
   {
+   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - hankyung.com",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "[특징주] 반도체주 급락…삼성전자 25만원선 붕괴 - 뉴스핌",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -200,13 +181,6 @@
    "agents": []
   },
   {
-   "title": "삼전닉스 4755조원 국내 투자, ‘글로벌 반도체 초격차’ 승부수 - 한겨레",
-   "pub": "Sun, 02 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "피델릭스, 삼성전자에 메모리반도체 114억원 규모 공급 계약 체결 - 디지털투데이",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -214,8 +188,8 @@
    "agents": []
   },
   {
-   "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X] - 한국경제",
-   "pub": "Sat, 01 Aug 2026",
+   "title": "삼전닉스 4755조원 국내 투자, ‘글로벌 반도체 초격차’ 승부수 - 한겨레",
+   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -242,7 +216,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체·DX 스타트업에 8000억원 출자 - 전자신문",
+   "title": "삼성전자, 반도체·DX 스타트업에 8000억원 출자 - etnews.com",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 반도체로만 89.2조 벌었다...완제품 첫 적자 - YTN",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -251,13 +232,6 @@
   {
    "title": "삼성전자·SK하닉, 반도체 세액공제 못 받나… '한국판 IRA'의 역설 - 파이낸셜포스트",
    "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 반도체로만 89.2조 벌었다...완제품 첫 적자 - YTN",
-   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -304,16 +278,6 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "중국 최대 메모리 반도체 업체인 창신메모리(CXMT)가 베이징에 두 번째 D램(DRAM) - 씽크풀 AI",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA",
-    "M-CYCLE"
-   ]
   },
   {
    "title": "마이크론(MU), 중국 메모리 반도체에 '휘청'...1년 600% 폭풍 랠리 신화 종료? - 코인리더스",
@@ -367,13 +331,6 @@
    ]
   },
   {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "pub": "Thu, 09 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
    "pub": "Sat, 25 Jul 2026",
    "src": "kr",
@@ -383,8 +340,24 @@
    ]
   },
   {
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - 조선일보",
    "pub": "Mon, 27 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -640,6 +613,13 @@
    ]
   },
   {
+   "title": "Update: Palantir Earnings Beat, Tech Stock Rally Lift US Equity Futures Pre-Bell",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron’s Sharp Pullback Hits These 3 Major Tech ETFs in Very Different Ways",
    "pub": "Tue, 04 Aug 2026",
    "src": "en",
@@ -649,7 +629,14 @@
    ]
   },
   {
-   "title": "Micron (MU) vs. ASML (ASML): Which AI Chip Giant Offers the Better Risk-Reward?",
+   "title": "SK Hynix Stock Gets a Flurry of Buy Ratings. Why Analysts Love the Memory-Chip Maker.",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron Stock Pops. It Gains Memory-Chip Share—but So Does Hot Chinese Rival.",
    "pub": "Tue, 04 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -658,27 +645,11 @@
    ]
   },
   {
-   "title": "Dow futures jump 600 points on Bessent Iran Hormuz deal comments",
+   "title": "Coherent, Palantir, SpaceX, Caterpillar, Pfizer, and More Stocks That Explain Today’s Market",
    "pub": "Tue, 04 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "The Price of Reinvention for SanDisk Stock",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Microchip Technology, in Collaboration With Micron Technology, Demonstrates High-Performance PCIe® Gen 6 Storage Architecture for AI and Data Center Infrastructure",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
