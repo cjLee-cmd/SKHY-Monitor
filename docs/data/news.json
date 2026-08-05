@@ -1,30 +1,20 @@
 {
- "ts_kst": "08-06 00:51",
- "n_items": 104,
+ "ts_kst": "08-06 01:01",
+ "n_items": 103,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 29
  },
  "routed": {
   "P-ADR": 2,
-  "M-CYCLE": 18,
+  "M-CYCLE": 17,
   "C-CHINA": 8,
   "F-ACTIVE": 6,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
  "unassigned": 58,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - 한국경제",
@@ -57,15 +47,6 @@
    ]
   },
   {
-   "title": "월가 증권사들 \"SK하이닉스 저평가\"…ADR 주가 급등세 - 연합뉴스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
    "title": "SK하이닉스 액면분할설 ‘솔솔’⋯“가능성 없진 않아” - etoday.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -73,38 +54,17 @@
    "agents": []
   },
   {
-   "title": "최태원, 오늘 밤 침묵 깨나…SK하이닉스 주주환원책 공개 기대감 - 매일경제",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "피말리는 9개월 \"발행 기준을 세웠다\"…SK하이닉스 ADR 뒷이야기 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "상반기 250조 벌었다…삼성전자·SK하이닉스 '대규모 주주환원' 기대감↑ - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "로이터 “삼성전자·SK하이닉스, 주주환원 확대 검토” - KBS 뉴스",
    "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - dt.co.kr",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "메모리 병목 뚫는다… SK하이닉스, HBF 표준규격 첫 공개 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -138,6 +98,34 @@
    "agents": []
   },
   {
+   "title": "삼전 2.5%, 하이닉스 5.7% 상승…외인은 사고, 기관 팔았다(종합) - v.daum.net",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, SK하이닉스 가뿐히 제쳤다…놀라운 반전 결과 - 한국경제",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "외신 \"삼성전자 SK하이닉스 중국 공장용 현지 생산 반도체 장비 시험, 미국 수출통제 대비\" - 비즈니스포스트",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "차근차근 국고채 시장 스터디하는 SK하이닉스…4분기 중 참여 기대 - 연합인포맥스",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "GPU 위에 HBM 쌓는다…삼성전자, 첨단 메모리반도체 'zHBM' 공개 - 한국경제",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -145,13 +133,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "외신 \"삼성전자 SK하이닉스 중국 공장용 현지 생산 반도체 장비 시험, 미국 수출통제 대비\" - 비즈니스포스트",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "\"돌아온 반도체\"…삼성전자 3%·SK하이닉스 6%↑, 코스피 다시 끌어올렸다 - 파이낸셜뉴스",
@@ -342,13 +323,12 @@
    "agents": []
   },
   {
-   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - 글로벌이코노믹",
-   "pub": "Thu, 16 Jul 2026",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "C-CHINA",
-    "M-CYCLE"
+    "C-CHINA"
    ]
   },
   {
@@ -375,12 +355,13 @@
    "agents": []
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
-   "pub": "Tue, 17 Feb 2026",
+   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - 글로벌이코노믹",
+   "pub": "Thu, 16 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "C-CHINA"
+    "C-CHINA",
+    "M-CYCLE"
    ]
   },
   {
@@ -430,7 +411,7 @@
    ]
   },
   {
-   "title": "[마감시황]코스피, 개인 매수에 6,358.95로 반등 마감…외국인·기관은 동반 순매도 - seoul.co.kr",
+   "title": "[마감시황]코스피, 개인 매수에 6,358.95로 반등 마감…외국인·기관은 동반 순매도 - 서울신문",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -665,6 +646,15 @@
   },
   {
    "title": "Bank of America doubles down on Micron stock price for 2026",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Rises After Musk Flags Surging Memory Prices",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
