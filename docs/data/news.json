@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-06 04:37",
+ "ts_kst": "08-06 04:47",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -7,24 +7,14 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 15,
+  "M-CYCLE": 16,
   "C-CHINA": 8,
   "M-RISK": 1,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
    "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - 한국경제",
@@ -34,14 +24,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 \"솔리다임 프리IPO 미확정\"…9월 재공시 - 아이뉴스24",
+   "title": "SK하이닉스 美낸드 자회사… ‘프리 IPO’로 5조 조달 검토 - 동아일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "솔리다임 5조 프리IPO설, SK하이닉스 \"확정된 사항 없다\" - 뉴스핌",
+   "title": "SK하이닉스 \"솔리다임 프리IPO 미확정\"…9월 재공시 - 아이뉴스24",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -78,27 +68,13 @@
    "agents": []
   },
   {
-   "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - dt.co.kr",
+   "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - v.daum.net",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "메모리 병목 뚫는다… SK하이닉스, HBF 표준규격 첫 공개 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[그래픽] SK하이닉스 HBF 개요 - 연합뉴스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "삼성·SK하이닉스 대표 ‘성과급 배임’ 고발 사건…경기남부청 배당 - 조선일보",
@@ -108,7 +84,7 @@
    "agents": []
   },
   {
-   "title": "\"성과급 교섭은 배임\", 주주단체 삼성전자·SK하이닉스 대표 고발건 경찰 수사 착수 - 비즈니스포스트",
+   "title": "\"성과급 교섭은 배임\", 주주단체 삼성전자·SK하이닉스 대표 고발건 경찰 수사 착수 - businesspost.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -129,7 +105,7 @@
    "agents": []
   },
   {
-   "title": "엔비디아 '루빈 울트라'에도 HBM4 탑재 검토, 삼성전자·SK하이닉스 HBM4 수율에 주도권 갈린다 - 비즈니스포스트",
+   "title": "엔비디아 '루빈 울트라'에도 HBM4 탑재 검토, 삼성전자·SK하이닉스 HBM4 수율에 주도권 갈린다 - businesspost.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -138,7 +114,28 @@
    ]
   },
   {
+   "title": "[그래픽] 삼성전자-SK하이닉스 메모리 장벽 돌파 전략 - v.daum.net",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "차근차근 국고채 시장 스터디하는 SK하이닉스…4분기 중 참여 기대 - 연합인포맥스",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성·SK, '메모리 장벽' 넘을 차세대 반도체 공개 - v.daum.net",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "美 규제의 역설…삼성·SK, 中 반도체 장비 평가 검토 - 파이낸셜뉴스",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -152,13 +149,6 @@
    "agents": []
   },
   {
-   "title": "외신 \"삼성전자 SK하이닉스 중국 공장용 현지 생산 반도체 장비 시험, 미국 수출통제 대비\" - 비즈니스포스트",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4∼7% 상승 - 연합뉴스",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -166,14 +156,14 @@
    "agents": []
   },
   {
-   "title": "\"돌아온 반도체\"…삼성전자 3%·SK하이닉스 6%↑, 코스피 다시 끌어올렸다 - 파이낸셜뉴스",
+   "title": "[고환율 완화 언제까지] 삼성, 반도체 수요·가격이 상쇄…모바일·가전 설상가상 - 네이트",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "[고환율 완화 언제까지] 삼성, 반도체 수요·가격이 상쇄…모바일·가전 설상가상 - 네이트",
+   "title": "외신 \"삼성전자 SK하이닉스 중국 공장용 현지 생산 반도체 장비 시험, 미국 수출통제 대비\" - businesspost.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -304,7 +294,7 @@
    "agents": []
   },
   {
-   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
+   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - businesspost.co.kr",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -353,6 +343,13 @@
    "agents": []
   },
   {
+   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - businesspost.co.kr",
+   "pub": "Wed, 20 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
@@ -360,13 +357,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
-   "pub": "Wed, 20 May 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
@@ -454,6 +444,13 @@
    "agents": []
   },
   {
+   "title": "코스피 반등의 열쇠는 외국인…증권가 '추가 매도 압력 제한적' - 데일리한국",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 외국인 순매도에 6330선대 약세 - 소년한국일보",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -461,13 +458,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "코스피 반등의 열쇠는 외국인…증권가 '추가 매도 압력 제한적' - 데일리한국",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "외국인 1.4조원 순매수…코스피 3.76% 급등해 6600선 눈앞 - 디지털데일리",
@@ -479,8 +469,8 @@
    ]
   },
   {
-   "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - 경기일보",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "[서울데이터랩]코스피, 개장 직후 4%대 급락…반도체 약세에 외국인 순매도 - twig24.com",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -488,8 +478,8 @@
    ]
   },
   {
-   "title": "[서울데이터랩]코스피, 개장 직후 4%대 급락…반도체 약세에 외국인 순매도 - twig24.com",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - 경기일보",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -592,8 +582,8 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
+   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -610,8 +600,8 @@
    ]
   },
   {
-   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -625,6 +615,22 @@
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "This Jacked-Up Tech ETF Demands a Strong Stomach",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "SpaceX, Alphabet, Nvidia, Micron, AMD, Uber, CVS, Lilly, and More Stocks That Explain Today’s Market",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -649,24 +655,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron Stock Rises After Musk Flags Surging Memory Prices",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron's Supply Crunch Is Turning Into a Pricing Story",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
