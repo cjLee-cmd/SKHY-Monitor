@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-05 22:00",
+ "ts_kst": "08-05 22:10",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -7,24 +7,14 @@
  },
  "routed": {
   "P-ADR": 2,
-  "M-CYCLE": 16,
+  "M-CYCLE": 17,
   "C-CHINA": 7,
   "F-ACTIVE": 6,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 61,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 60,
+ "alerts": [],
  "items": [
   {
    "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - 한국경제",
@@ -48,8 +38,8 @@
    "agents": []
   },
   {
-   "title": "월가 증권사들 \"SK하이닉스 저평가\"…ADR 주가 급등세 - 연합뉴스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "월가, SK하이닉스 ADR 분석 개시…저평가 '매수' 의견(종합) - v.daum.net",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -57,8 +47,8 @@
    ]
   },
   {
-   "title": "월가, SK하이닉스 ADR 분석 개시…저평가 '매수' 의견(종합) - v.daum.net",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "월가 증권사들 \"SK하이닉스 저평가\"…ADR 주가 급등세 - 연합뉴스",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -73,13 +63,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 현금 쌓여도 주가는 제자리…주주환원만 기다린다 - 인베스트조선",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "최태원, 오늘 밤 침묵 깨나…SK하이닉스 주주환원책 공개 기대감 - 매일경제",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -88,6 +71,13 @@
   },
   {
    "title": "규제 풀린 SK하이닉스…다음 수순은 주주환원책? - v.daum.net",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 현금 쌓여도 주가는 제자리…주주환원만 기다린다 - 인베스트조선",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -383,15 +373,15 @@
    ]
   },
   {
-   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "다시 돌아온 외국인 매수세…코스피, 이틀째 상승하며 6500선 마감 - 매일경제 마켓",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "다시 돌아온 외국인 매수세…코스피, 이틀째 상승하며 6500선 마감 - 매일경제 마켓",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -477,7 +467,7 @@
    "agents": []
   },
   {
-   "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - 경기일보",
+   "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - kyeonggi.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -633,6 +623,31 @@
    ]
   },
   {
+   "title": "MU, SNDK, SKHY Stocks In Focus: Elon Musk Says Memory Demand Is Growing ‘200% A Year, Maybe Higher,’ Calls It A ‘Limiting Factor’",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron Trades at Just 5 Times Forward Earnings. Here's Why the Market Doesn't Trust the Memory Supercycle Yet.",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Is Micron Stock Going Higher? You Need To Hear What Elon Musk Just Said",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Stock Falls After Musk Flags Surging Memory Prices",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
@@ -642,28 +657,7 @@
    ]
   },
   {
-   "title": "SpaceX, Nvidia, AMD, Eli Lilly, Uber, CVS, Disney, and More Stocks That Explain Today’s Market",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "This Week In AI Chips - AI Efficiency Boost Through Multiverse And Qualcomm Collaboration",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Michael Burry warns of 1987-style crash, holds Nvidia shorts",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "9 Stocks' Cash Flow Seen Blowing The Doors Off The S&P 500",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
