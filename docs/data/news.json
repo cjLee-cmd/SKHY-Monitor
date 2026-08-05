@@ -1,33 +1,23 @@
 {
- "ts_kst": "08-06 08:17",
+ "ts_kst": "08-06 08:26",
  "n_items": 103,
  "by_source": {
   "kr": 73,
   "en": 30
  },
  "routed": {
-  "P-ADR": 1,
+  "P-ADR": 3,
   "M-CYCLE": 13,
   "C-CHINA": 8,
   "M-RISK": 1,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 61,
+ "alerts": [],
  "items": [
   {
-   "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - hankyung.com",
+   "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - 한국경제",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -55,14 +45,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 \"주주 환원 의미 있게 확대할 것\" 약속 - 뉴스1",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 “주주환원 확대”...삼성은 ‘조만간’, 하이닉스는 ‘연말까지’ - 조선일보",
+   "title": "AI 데이터센터 열풍에 샌디스크·WD 실적 호조...삼성전자·하이닉스 주주 환원 확대 - YTN",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -78,11 +61,22 @@
    ]
   },
   {
-   "title": "AI 데이터센터 열풍에 샌디스크·WD 실적 호조...삼성전자·하이닉스 주주 환원 확대 - YTN",
+   "title": "월가 증권사들 \"SK하이닉스 저평가\"…ADR 주가 급등세 - 연합뉴스",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "\"이럴거면 굳이\"…SK하이닉스는 ADR 나스닥 상장 왜 추진한 걸까 - 인베스트조선",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - dt.co.kr",
@@ -122,7 +116,7 @@
    "agents": []
   },
   {
-   "title": "삼전 2.5%, 하이닉스 5.7% 상승…외인은 사고, 기관 팔았다(종합) - v.daum.net",
+   "title": "삼전 2.5%, 하이닉스 5.7% 상승…외인은 사고, 기관 팔았다(종합) - 연합뉴스",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -443,6 +437,15 @@
    ]
   },
   {
+   "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - 경기일보",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "美 반도체 랠리·유가 급락에 돌아온 외국인…코스피 3.76%↑ [MTN 마감시황] - v.daum.net",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -452,15 +455,6 @@
   {
    "title": "[서울데이터랩]코스피, 개장 직후 4%대 급락…반도체 약세에 외국인 순매도 - twig24.com",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "외국인 6월 순매도 50조 육박...6개월 연속 ‘팔자’ 이어갔다 - 경기일보",
-   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -536,8 +530,8 @@
    "agents": []
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -545,8 +539,8 @@
    ]
   },
   {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -615,6 +609,13 @@
    "agents": []
   },
   {
+   "title": "The SOXL ETF Is a Popular—and Dangerous—Way to Play Chip Stocks",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Earnings Picture Remains Robust: A Closer Look",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
@@ -647,13 +648,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "This ETF Delivers a High-Octane AI Buzz. Why Holding It Long Term Is Dangerous.",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "How To Bank 14% On MU Stock Before Buying A Single Share",
