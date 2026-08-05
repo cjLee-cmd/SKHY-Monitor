@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-05 13:17",
+ "ts_kst": "08-05 13:26",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -7,22 +7,20 @@
  },
  "routed": {
   "P-ADR": 2,
-  "M-CYCLE": 20,
-  "C-CHINA": 8,
+  "M-CYCLE": 17,
+  "C-CHINA": 9,
   "F-ACTIVE": 5,
   "M-RISK": 1,
   "R-LEVERAGE": 14
  },
- "unassigned": 57,
+ "unassigned": 59,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "증설",
    "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "agents": []
   }
  ],
  "items": [
@@ -34,21 +32,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ‘그림자 시장’ 커졌다…본주로 충격 번질까 - dailian.co.kr",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "두 달간 주가 반토막 난 SK하이닉스…핵심 관전포인트 4가지 - 한국경제",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주가, 오늘 왜 떨어지나? - Investing.com 한국어",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -104,13 +88,11 @@
    "agents": []
   },
   {
-   "title": "HBM 이어 HBF 시대 오나…SK하이닉스, 첫 표준규격 공개 - 동아일보",
+   "title": "SK하이닉스, 美샌디스크와 HBF 첫 표준규격 공개 - donga.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - KBS 뉴스",
@@ -134,7 +116,21 @@
    "agents": []
   },
   {
-   "title": "한화운용, SK하이닉스·샌디스크 담은 채권혼합 ETF 상장 - 조선비즈 - Chosunbiz",
+   "title": "한화운용, SK하이닉스·샌디스크 담은 채권혼합 ETF 상장 - 파이낸셜뉴스",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "무디스, '파죽지세' SK하이닉스 신용등급 ‘A3’로 상향 - marketin.edaily.co.kr",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "국제 신평사 무디스, SK하이닉스 신용등급 첫 A등급대로 상향 - v.daum.net",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -164,16 +160,7 @@
    "agents": []
   },
   {
-   "title": "D램과 HBM 내년 물량도 '품절', 고객사 위기감이 삼성전자 SK하이닉스 협상력 더 키워 - 비즈니스포스트",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성전자, HBM5 대비 성능 최대 8배 'zHBM' 공개 - etnews.com",
+   "title": "삼성전자, HBM5 대비 성능 최대 8배 'zHBM' 공개 - 전자신문",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -201,6 +188,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "일본 매체 \"HP 에이수스 에이서 중국 CXMT 반도체 제한적 사용\", 삼성전자 SK하이닉스 반발 의식 - 비즈니스포스트",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "'반도체특별법 시행령' 확정…삼성·SK 투자 지원체계 가동 - 신아일보",
@@ -249,7 +245,7 @@
    "agents": []
   },
   {
-   "title": "[IT/반도체] 삼성전자, HBM5 대비 8배 성능 'zHBM' 최초 공개… 차세대 AI 메모리 개척 - 굿모닝베트남미디어",
+   "title": "[IT/반도체] 삼성전자, HBM5 대비 8배 성능 'zHBM' 최초 공개… 차세대 AI 메모리 개척 - goodmorningvietnam.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -343,13 +339,11 @@
    "agents": []
   },
   {
-   "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
-   "pub": "Sat, 25 Jul 2026",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
@@ -368,6 +362,13 @@
    "agents": []
   },
   {
+   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
+   "pub": "Wed, 20 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
@@ -375,13 +376,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
-   "pub": "Wed, 20 May 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
@@ -464,7 +458,7 @@
    ]
   },
   {
-   "title": "외국인·기관 4.8조원 던졌다… 코스피 5% 급락, 코스닥은 2.4% 상승 - kbmaeil.com",
+   "title": "외국인·기관 4.8조원 던졌다… 코스피 5% 급락, 코스닥은 2.4% 상승 - 경북매일",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -537,7 +531,7 @@
    ]
   },
   {
-   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - fieldnews.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
