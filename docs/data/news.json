@@ -1,30 +1,40 @@
 {
- "ts_kst": "08-05 23:09",
- "n_items": 104,
+ "ts_kst": "08-05 23:18",
+ "n_items": 105,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 30
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 16,
+  "M-CYCLE": 17,
   "C-CHINA": 7,
   "F-ACTIVE": 6,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
  "unassigned": 61,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - 한국경제",
+   "title": "솔리다임 5조 프리IPO설, SK하이닉스 \"확정된 사항 없다\" - 뉴스핌",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "솔리다임 5조 프리IPO설, SK하이닉스 \"확정된 사항 없다\" - 뉴스핌",
+   "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - 한국경제",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -68,7 +78,7 @@
    "agents": []
   },
   {
-   "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - v.daum.net",
+   "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - dt.co.kr",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -77,8 +87,45 @@
    ]
   },
   {
-   "title": "채권시장 ‘큰손’ 부상 SK하이닉스, 회사채 살 게 없네…그럼 단기물? - 한겨레",
+   "title": "HBM 이어 HBF 시대 오나…SK하이닉스, 첫 표준규격 공개 - 동아일보",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[그래픽] SK하이닉스 HBF 개요 - yna.co.kr",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성·SK하이닉스 대표 ‘성과급 배임’ 고발 사건…경기남부청 배당 - 조선일보",
    "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"성과급 교섭은 배임\", 주주단체 삼성전자·SK하이닉스 대표 고발건 경찰 수사 착수 - 비즈니스포스트",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성·SK하이닉스 성과급 관련 경찰 수사 착수 - MTN 머니투데이방송",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한화운용, SK하이닉스·샌디스크 담은 채권혼합 ETF 출시 - 서울경제",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -86,41 +133,6 @@
   {
    "title": "'반도체 머니' 채권으로…하이닉스, 15조 폭풍 매수 - 한국경제",
    "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "차근차근 국고채 시장 스터디하는 SK하이닉스…4분기 중 참여 기대 - 연합인포맥스",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "외신 \"삼성전자 SK하이닉스 중국 공장용 현지 생산 반도체 장비 시험, 미국 수출통제 대비\" - 비즈니스포스트",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, SK하이닉스 가뿐히 제쳤다…놀라운 반전 결과 - 한국경제",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼전 2.5%, 하이닉스 5.7% 상승…외인은 사고, 기관 팔았다(종합) - v.daum.net",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - KBS 뉴스",
-   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -135,6 +147,13 @@
    ]
   },
   {
+   "title": "외신 \"삼성전자 SK하이닉스 중국 공장용 현지 생산 반도체 장비 시험, 미국 수출통제 대비\" - 비즈니스포스트",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, AI 반도체 한계 돌파할 3D 아키텍처 'zHBM' 전격 공개 - 파이낸스스코프",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -144,7 +163,7 @@
    ]
   },
   {
-   "title": "[르포] \"모형이라도 찍자\"…삼성전자 새 3D메모리 'zHBM'에 셔터 세례 - 연합뉴스",
+   "title": "[르포] \"모형이라도 찍자\"…삼성전자 새 3D메모리 'zHBM'에 셔터 세례 - yna.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -222,7 +241,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자 - 연합뉴스",
+   "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자 - yna.co.kr",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -238,7 +257,7 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -300,7 +319,7 @@
    "agents": []
   },
   {
-   "title": "마이크론(MU), 중국 메모리 반도체에 '휘청'...1년 600% 폭풍 랠리 신화 종료? - coinreaders.com",
+   "title": "마이크론(MU), 중국 메모리 반도체에 '휘청'...1년 600% 폭풍 랠리 신화 종료? - 코인리더스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -323,7 +342,7 @@
    "agents": []
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -499,7 +518,7 @@
    ]
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -614,14 +633,7 @@
    ]
   },
   {
-   "title": "MU, SNDK, SKHY Stocks In Focus: Elon Musk Says Memory Demand Is Growing ‘200% A Year, Maybe Higher,’ Calls It A ‘Limiting Factor’",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Is Micron Stock Going Higher? You Need To Hear What Elon Musk Just Said",
+   "title": "Micron Stock Rises After Musk Flags Surging Memory Prices",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -630,7 +642,14 @@
    ]
   },
   {
-   "title": "Micron Stock Falls After Musk Flags Surging Memory Prices",
+   "title": "Intel Diversifies The Direction Of Your Returns, Not Their Size",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron's Rebound Is Lifting More Than One Bet",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -639,21 +658,16 @@
    ]
   },
   {
-   "title": "Semiconductor Rally Powers S&P 500 to Fresh Record High",
+   "title": "Bank of America Says Micron Rival Is Deeply Mispriced",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "This Week In AI Chips - AI Efficiency Boost Through Multiverse And Qualcomm Collaboration",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Michael Burry warns of 1987-style crash, holds Nvidia shorts",
+   "title": "SpaceX, Nvidia, AMD, Eli Lilly, Uber, CVS, Disney, and More Stocks That Explain Today’s Market",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
