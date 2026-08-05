@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-06 00:31",
+ "ts_kst": "08-06 00:41",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -14,17 +14,7 @@
   "R-LEVERAGE": 13
  },
  "unassigned": 58,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - 한국경제",
@@ -66,7 +56,7 @@
    ]
   },
   {
-   "title": "SK하이닉스 액면분할설 ‘솔솔’⋯“가능성 없진 않아” - 이투데이",
+   "title": "SK하이닉스 액면분할설 ‘솔솔’⋯“가능성 없진 않아” - etoday.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -94,6 +84,22 @@
    "agents": []
   },
   {
+   "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - dt.co.kr",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "메모리 병목 뚫는다… SK하이닉스, HBF 표준규격 첫 공개 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "[그래픽] SK하이닉스 HBF 개요 - 연합뉴스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -116,22 +122,6 @@
   },
   {
    "title": "삼성·SK하이닉스 성과급 관련 경찰 수사 착수 - MTN 머니투데이방송",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - dt.co.kr",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "“SK하이닉스 비켜”…삼성전자 3D메모리로 ‘판뒤집기’ - 국제신문",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -342,12 +332,13 @@
    "agents": []
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
-   "pub": "Tue, 17 Feb 2026",
+   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - 글로벌이코노믹",
+   "pub": "Thu, 16 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "C-CHINA"
+    "C-CHINA",
+    "M-CYCLE"
    ]
   },
   {
@@ -374,13 +365,12 @@
    "agents": []
   },
   {
-   "title": "마이크론 8% 급락… 중국 반도체 CXMT IPO에 메모리 시장 판도 흔들리나 - 글로벌이코노믹",
-   "pub": "Thu, 16 Jul 2026",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "C-CHINA",
-    "M-CYCLE"
+    "C-CHINA"
    ]
   },
   {
@@ -430,7 +420,7 @@
    ]
   },
   {
-   "title": "[마감시황]코스피, 개인 매수에 6,358.95로 반등 마감…외국인·기관은 동반 순매도 - 서울신문",
+   "title": "[마감시황]코스피, 개인 매수에 6,358.95로 반등 마감…외국인·기관은 동반 순매도 - seoul.co.kr",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -553,8 +543,8 @@
    "agents": []
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -562,8 +552,8 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -598,6 +588,15 @@
    ]
   },
   {
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
    "pub": "Sun, 02 Aug 2026",
    "src": "kr",
@@ -618,15 +617,6 @@
   {
    "title": "[아주증시포커스] 말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 外 - 아주경제",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -657,16 +647,14 @@
    ]
   },
   {
-   "title": "Bank of America doubles down on Micron stock price for 2026",
+   "title": "EXCLUSIVE: The Memory Bottleneck Is Set To Persist Until 2028, Expert Says",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "Micron Stock Rises After Musk Flags Surging Memory Prices",
+   "title": "Bank of America doubles down on Micron stock price for 2026",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
