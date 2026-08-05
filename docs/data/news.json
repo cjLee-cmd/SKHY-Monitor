@@ -1,80 +1,34 @@
 {
- "ts_kst": "08-05 13:36",
- "n_items": 105,
+ "ts_kst": "08-05 13:46",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
-  "P-ADR": 2,
-  "M-CYCLE": 17,
+  "P-ADR": 3,
+  "M-CYCLE": 16,
   "C-CHINA": 8,
   "F-ACTIVE": 5,
   "M-RISK": 1,
   "R-LEVERAGE": 14
  },
- "unassigned": 59,
- "alerts": [],
+ "unassigned": 58,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "코스피 6,200선 '털썩'...코스닥은 '매수 사이드카' - ytn.co.kr",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
-  {
-   "title": "최태원 \"SK하닉 사라\" 이유?…'배당 2.5%·액면분할' 지라시에 술렁 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"최태원이 하닉 사라고 한 이유\"…'배당 2.5%·액분' 지라시가 돈다 - v.daum.net",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“최태원 회장이 SK하이닉스 사라고 했다”는 지라시에…커지는 기대·경계감 - 매일경제 마켓",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
   {
    "title": "최태원, 오늘 밤 침묵 깨나…SK하이닉스 주주환원책 공개 기대감 - 매일경제",
    "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주주환원 기다리는 시장, 5일에 목매는 이유 - 한국경제",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스, 현금 쌓여도 주가는 제자리…주주환원만 기다린다 - 인베스트조선",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 ‘그림자 시장’ 커졌다…본주로 충격 번질까 - 데일리안",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "두 달간 주가 반토막 난 SK하이닉스…핵심 관전포인트 4가지 - 한국경제",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주가, 오늘 왜 떨어지나? - Investing.com 한국어",
-   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -98,12 +52,12 @@
    ]
   },
   {
-   "title": "\"SK하이닉스-마이크론 D램 점유율 격차 1%로 축소\"…배경은? - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "\"SK하이닉스 저평가, 2배 더 간다\"...월가 분석에 ADR 8% 급등 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "M-CYCLE"
+    "P-ADR"
    ]
   },
   {
@@ -128,6 +82,69 @@
    "agents": []
   },
   {
+   "title": "두 달간 주가 반토막 난 SK하이닉스…핵심 관전포인트 4가지 - 한국경제",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 美샌디스크와 HBF 첫 표준규격 공개 - 동아일보",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“SK하이닉스 흔든 진범 잡혔다”…다시 ‘300만닉스’ 갈까? [잇슈 머니] - KBS 뉴스",
+   "pub": "Sun, 02 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한화운용, SK하이닉스·샌디스크 담은 채권혼합 ETF 출시 - 서울경제",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한화운용, SK하이닉스·샌디스크 50% 담은 채권혼합 ETF 출시 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한화운용, SK하이닉스·샌디스크 담은 채권혼합 ETF 상장 - 조선비즈 - Chosunbiz",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "무디스, '파죽지세' SK하이닉스 신용등급 ‘A3’로 상향 - marketin.edaily.co.kr",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "국제 신평사 무디스, SK하이닉스 신용등급 첫 A등급대로 상향 - v.daum.net",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, FMS 2026서 차세대 3D 메모리 비전 제시 - samsung.com",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "\"AI 병목 뚫는다\"…삼성·SK, 세계 최대 반도체 전시회서 '메모리 기술大戰'(종합) - v.daum.net",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -142,13 +159,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "삼성전자, FMS 2026서 차세대 3D 메모리 비전 제시 - samsung.com",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "삼성전자, HBM5 대비 성능 최대 8배 'zHBM' 공개 - 전자신문",
@@ -174,7 +184,7 @@
    "agents": []
   },
   {
-   "title": "피델릭스, 삼성전자에 메모리반도체 114억원 규모 공급 계약 체결 - 디지털투데이",
+   "title": "피델릭스, 삼성전자에 메모리반도체 114억원 규모 공급 계약 체결 - digitaltoday.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -213,7 +223,7 @@
    ]
   },
   {
-   "title": "삼성전자, AI 반도체 한계 돌파할 3D 아키텍처 'zHBM' 전격 공개 - 파이낸스스코프",
+   "title": "삼성전자, AI 반도체 한계 돌파할 3D 아키텍처 'zHBM' 전격 공개 - finance-scope.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -231,13 +241,6 @@
   {
    "title": "“SK하이닉스 비켜”…삼성전자 3D메모리로 ‘판뒤집기’ - 국제신문",
    "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자 - 연합뉴스",
-   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -328,11 +331,13 @@
    "agents": []
   },
   {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "pub": "Thu, 09 Jul 2026",
+   "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ - Investing.com 한국어",
+   "pub": "Sat, 25 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
@@ -351,13 +356,6 @@
    "agents": []
   },
   {
-   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
-   "pub": "Wed, 20 May 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
@@ -365,6 +363,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
+   "pub": "Wed, 20 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
@@ -383,7 +388,7 @@
    ]
   },
   {
-   "title": "코스피 6,200선 '털썩'...코스닥은 '매수 사이드카' - YTN",
+   "title": "코스피 6,200선 '털썩'...코스닥은 '매수 사이드카' - ytn.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -520,7 +525,7 @@
    ]
   },
   {
-   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - fieldnews.kr",
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -617,7 +622,7 @@
    ]
   },
   {
-   "title": "Micron Trades at Just 5 Times Forward Earnings. Here's Why the Market Doesn't Trust the Memory Supercycle Yet.",
+   "title": "Is SK Hynix Quietly Winning the AI Memory Supercycle Against Micron and Sandisk?",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -635,7 +640,14 @@
    ]
   },
   {
-   "title": "Is SK Hynix Quietly Winning the AI Memory Supercycle Against Micron and Sandisk?",
+   "title": "SK Hynix Climbs as Investors Bet on Shareholder Return Plan",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron Trades at Just 5 Times Forward Earnings. Here's Why the Market Doesn't Trust the Memory Supercycle Yet.",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
