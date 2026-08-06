@@ -1,88 +1,31 @@
 {
- "ts_kst": "08-06 20:22",
+ "ts_kst": "08-06 20:31",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 12,
   "P-ADR": 3,
-  "M-RISK": 4,
+  "M-CYCLE": 15,
   "C-CHINA": 9,
   "F-ACTIVE": 6,
+  "M-RISK": 2,
   "R-LEVERAGE": 13
  },
- "unassigned": 60,
+ "unassigned": 59,
  "alerts": [
   {
    "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - MBC 뉴스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스피 6,200선 '털썩'...코스닥은 '매수 사이드카' - YTN",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "agents": [
     "R-LEVERAGE"
    ]
   }
  ],
  "items": [
-  {
-   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"삼성전자·SK하이닉스, 재무건전성 유지 속 주주환원 확대 검토\" - MBC 뉴스",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 “주주환원 확대”...삼성은 ‘조만간’, 하이닉스는 ‘연말까지’ - 조선일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스, 현금 쌓여도 주가는 제자리…주주환원만 기다린다 - 인베스트조선",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
   {
    "title": "월가 증권사들 \"SK하이닉스 저평가\"…ADR 주가 급등세 - 연합뉴스",
    "pub": "Tue, 04 Aug 2026",
@@ -93,7 +36,7 @@
    ]
   },
   {
-   "title": "월가 IB 11곳 \"SK하이닉스ADR 사라\" - 머니투데이 - mt.co.kr",
+   "title": "\"SK하이닉스ADR 사라\" 월가 IB 11곳 '러브콜' - 매일경제 마켓",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -111,6 +54,15 @@
    ]
   },
   {
+   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "SK하이닉스 또 프리마켓 하한가…달랑 11주에 시초가 소동 - v.daum.net",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -118,22 +70,25 @@
    "agents": []
   },
   {
-   "title": "코스피 장중 6300선 ‘매도 사이드카’…SK하이닉스 8% 급락 - 한겨레",
+   "title": "11주 주문에 SK하이닉스 하한가…반복되는 넥스트레이드 가격 왜곡 - 조선일보",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
+   "agents": []
   },
   {
-   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - MBC 뉴스",
+   "title": "SK하이닉스, 프리마켓서 또 시초가 논란...‘11주 거래로 하한가’ - dt.co.kr",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
+   "agents": []
+  },
+  {
+   "title": "\"삼성전자·SK하이닉스, 재무건전성 유지 속 주주환원 확대 검토\" - MBC 뉴스",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "美 반도체 충격에 코스피 급락…SK하이닉스 10%대↓ - 연합뉴스TV",
@@ -157,18 +112,36 @@
    "agents": []
   },
   {
-   "title": "'SSD 프리미엄' 놓친 SK하이닉스, 솔리다임 띄운다 - 뉴스핌",
+   "title": "솔리다임 IPO 채비로 윤곽 드러나는 SK그룹의 美 AI컴퍼니 구상 - 인베스트조선",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "하이닉스 10% 폭락…프리마켓서 29.98% 빠진 가격에 팔리기도 - 한겨레",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "148만·280만·470만…SK하이닉스를 바라보는 3가지 시선[머니닥터 시장진단] - 매일경제 마켓",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - dt.co.kr",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "“HBM 다음은 이거다”…SK하이닉스가 선점하려는 미래 먹거리는 - 매일경제",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
@@ -425,15 +398,6 @@
    ]
   },
   {
-   "title": "외국인 3.3조 순매도…코스피 6290선 하락 마감 [시황] - dailian.co.kr",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "코스피, 레버리지 규제이후 '외국인·기관' 순매수 확대 종목은? - 오피니언뉴스",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -443,7 +407,7 @@
    ]
   },
   {
-   "title": "코스피, 외국인 3조원 순매도에 6200선 후퇴···4%↓ - 현대경제신문",
+   "title": "외국인 3.3조 순매도…코스피 6290선 하락 마감 [시황] - 데일리안",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -468,13 +432,6 @@
    ]
   },
   {
-   "title": "[마감시황] 코스피 4%대 급락…반도체 조정에 외국인 매도세 - 브릿지경제",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "반도체 쇼크에 코스피 4.6% 급락…외국인 3.3조 '팔자' - 코리아리포트",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -483,6 +440,13 @@
   },
   {
    "title": "개인은 사고 외국인 팔고…최근 상승세였던 코스피, 4%대 급락 마감 - v.daum.net",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "[마감시황] 코스피 4%대 급락…반도체 조정에 외국인 매도세 - 브릿지경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -505,7 +469,7 @@
    ]
   },
   {
-   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - newsis.com",
+   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -525,6 +489,15 @@
    "q": "외국인 순매도 코스피",
    "agents": [
     "M-RISK"
+   ]
+  },
+  {
+   "title": "[마감시황]코스피, 개인 매수에 6,358.95로 반등 마감…외국인·기관은 동반 순매도 - 서울신문",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
    ]
   },
   {
@@ -562,7 +535,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -659,6 +632,15 @@
    ]
   },
   {
+   "title": "This Comment From Apple CEO Tim Cook Supports Buying the Dip in Micron Stock",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "PANW Stock Holds Near Record Highs Despite Fresh China Security Review That Mirrors Micron Case",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
@@ -683,15 +665,6 @@
   },
   {
    "title": "Micron Is Falling as Memory Stocks Take Another Hit",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Amazon Cites Higher Memory Costs for Raising Capital Expenditures to $220 Billion. Here's Why the Micron Stock Price Still Dropped.",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
