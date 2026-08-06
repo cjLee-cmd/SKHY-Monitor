@@ -1,70 +1,70 @@
 {
- "ts_kst": "08-06 10:46",
- "score": 12.3,
+ "ts_kst": "08-06 11:35",
+ "score": 10.6,
  "verdict": "정당한 재평가",
  "components": {
   "A_통계극단성": 0,
   "B_체인동조성": 0.0,
   "C_펀더멘털배율": 0,
-  "D_역사되돌림": 12.3
+  "D_역사되돌림": 10.6
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -4.17,
+   "cum": -3.54,
    "sd": 4.58,
-   "z": -0.64,
-   "n_episodes": 18,
+   "z": -0.55,
+   "n_episodes": 16,
    "forward": {
     "5": {
-     "mean": 2.27,
-     "median": 1.94,
-     "up_rate": 67
+     "mean": 2.03,
+     "median": 1.68,
+     "up_rate": 62
     },
     "20": {
-     "mean": 5.56,
+     "mean": 6.11,
      "median": 2.39,
-     "up_rate": 61
+     "up_rate": 56
     },
     "60": {
-     "mean": 21.52,
-     "median": 11.62,
-     "up_rate": 72
+     "mean": 23.13,
+     "median": 17.04,
+     "up_rate": 75
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -4.31,
+   "cum": -3.36,
    "sd": 5.59,
-   "z": -0.55,
-   "n_episodes": 13,
+   "z": -0.43,
+   "n_episodes": 8,
    "forward": {
     "5": {
-     "mean": 4.09,
-     "median": 3.49,
-     "up_rate": 69
+     "mean": 6.75,
+     "median": 6.64,
+     "up_rate": 88
     },
     "20": {
-     "mean": 11.9,
-     "median": 0.97,
-     "up_rate": 62
+     "mean": 15.33,
+     "median": 11.93,
+     "up_rate": 50
     },
     "60": {
-     "mean": 35.86,
-     "median": 20.61,
-     "up_rate": 69
+     "mean": 29.92,
+     "median": 27.09,
+     "up_rate": 75
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -4.17,
-  "SK하이닉스": -4.31,
+  "삼성전자": -11.81,
+  "SK하이닉스": -3.36,
   "마이크론": 7.68,
-  "TSMC": 1.94,
+  "TSMC": 2.41,
   "ASML": 2.17,
-  "필라델피아반도체": 5.06,
+  "필라델피아반도체": 6.25,
   "엔비디아": 6.09
  },
  "threat": {
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -0.64,
-  "drop_avg": 4.24,
-  "fundamental_ratio": 0.55,
+  "z_min": -0.55,
+  "drop_avg": 3.45,
+  "fundamental_ratio": 0.45,
   "chain_negative": "0/5"
  },
- "caveat": "역사 표본 18개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 16개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
