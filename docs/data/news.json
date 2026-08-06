@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-06 23:06",
+ "ts_kst": "08-06 23:16",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -8,36 +8,18 @@
  "routed": {
   "M-CYCLE": 10,
   "P-ADR": 3,
-  "M-RISK": 4,
+  "M-RISK": 3,
   "C-CHINA": 9,
-  "F-ACTIVE": 6,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
  "unassigned": 62,
  "alerts": [
   {
    "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스피 장중 6300선 ‘매도 사이드카’…SK하이닉스 8% 급락 - 한겨레",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - MBC 뉴스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "title": "'빚투' 신용융자 잔고 27조원대로↓…7월 반대매매 1조원 육박 - 싱글리스트",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -56,6 +38,13 @@
   {
    "title": "\"삼성전자·SK하이닉스, 재무건전성 유지 속 주주환원 확대 검토\" - MBC 뉴스",
    "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[그래픽] SK하이닉스 5~6일 주가 추이 - v.daum.net",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -120,6 +109,13 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 이번엔 ‘11주 하한가’…프리마켓 시초가 논란 [마켓시그널] - 서울경제",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "솔리다임, 美 상장 공시 담당자 뽑는다… SK하이닉스는 “프리IPO 미확정” - 조선비즈 - Chosunbiz",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -141,21 +137,7 @@
    "agents": []
   },
   {
-   "title": "AI주도 메모리 호황이 '초기'…SK하이닉스, 실적 가시성 '명확'-시티 - 마켓인",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"지금 털면 죽어요\"…SK하이닉스 손실 중인 미자, 버티면 다시 웃을까 - 뉴시스",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "미자, 주식 1억 원 손실 후… “SK하이닉스 지금 못 판다” - v.daum.net",
+   "title": "AI주도 메모리 호황이 '초기'…SK하이닉스, 실적 가시성 '명확'-시티 - marketin.edaily.co.kr",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -227,7 +209,7 @@
    "agents": []
   },
   {
-   "title": "60조 반도체 이익의 그늘···삼성전자 勞勞 갈등 심화 - 뉴스웨이",
+   "title": "60조 반도체 이익의 그늘···삼성전자 勞勞 갈등 심화 - newsway.co.kr",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -314,15 +296,6 @@
    ]
   },
   {
-   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
-   "pub": "Sat, 01 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "중국 최대 메모리 반도체 업체인 창신메모리(CXMT)가 베이징에 두 번째 D램(DRAM) - 씽크풀 AI",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -330,6 +303,15 @@
    "agents": [
     "C-CHINA",
     "M-CYCLE"
+   ]
+  },
+  {
+   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
    ]
   },
   {
@@ -508,12 +490,12 @@
    ]
   },
   {
-   "title": "코스피 급락에 '매도 사이드카' 발동 - 위키트리",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "[마감시황]코스피, 개인 매수에 6,358.95로 반등 마감…외국인·기관은 동반 순매도 - 서울신문",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
-    "M-RISK"
+    "F-ACTIVE"
    ]
   },
   {
@@ -535,7 +517,7 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -560,6 +542,13 @@
    ]
   },
   {
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -567,13 +556,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -639,13 +621,20 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "pub": "Wed, 22 Jul 2026",
+   "title": "'빚투' 신용융자 잔고 27조원대로↓…7월 반대매매 1조원 육박 - 싱글리스트",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "Steve Eisman Pushes Back on Michael Burry's Market Top Call: 'I Think It's Premature'",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "The AI Memory Boom Isn’t Over. Investors Are Just Pricing It Like It Is",
@@ -672,13 +661,6 @@
   },
   {
    "title": "Sandisk, Western Digital, D-Wave, IonQ, AppLovin, Datadog, and More Stocks That Explain Today’s Market",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Citi says buy the pullback in memory stocks as upcycle is still in early innings",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
