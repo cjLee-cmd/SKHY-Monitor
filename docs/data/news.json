@@ -1,45 +1,27 @@
 {
- "ts_kst": "08-06 18:42",
+ "ts_kst": "08-06 18:52",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 11,
   "P-ADR": 3,
   "M-RISK": 4,
   "C-CHINA": 9,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 60,
+ "unassigned": 61,
  "alerts": [
   {
    "level": "critical",
    "kw": "사이드카",
    "src": "kr",
-   "title": "코스피 장중 6300선 ‘매도 사이드카’…SK하이닉스 8% 급락 - 한겨레",
+   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - imnews.imbc.com",
    "agents": [
     "M-RISK"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - MBC 뉴스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
    ]
   }
  ],
@@ -52,7 +34,7 @@
    "agents": []
   },
   {
-   "title": "\"삼성전자·SK하이닉스, 재무건전성 유지 속 주주환원 확대 검토\" - MBC 뉴스",
+   "title": "\"삼성전자·SK하이닉스, 재무건전성 유지 속 주주환원 확대 검토\" - imnews.imbc.com",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -137,7 +119,7 @@
    "agents": []
   },
   {
-   "title": "솔리다임 IPO 채비로 윤곽 드러나는 SK그룹의 美 AI컴퍼니 구상 - 인베스트조선",
+   "title": "'SSD 프리미엄' 놓친 SK하이닉스, 솔리다임 띄운다 - 뉴스핌",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -153,7 +135,7 @@
    ]
   },
   {
-   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - MBC 뉴스",
+   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - imnews.imbc.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -187,14 +169,14 @@
    ]
   },
   {
-   "title": "삼성전자노조 “메가특구특별법, 노동자 건강권 외면”…주 52시간 예외 철회 촉구 - 한겨레",
+   "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
+   "title": "삼성전자노조 “메가특구특별법, 노동자 건강권 외면”…주 52시간 예외 철회 촉구 - 한겨레",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -243,7 +225,7 @@
    "agents": []
   },
   {
-   "title": "앤트로픽도 AI칩 자체 개발…삼성 파운드리, ASIC 시장 확대 기회 잡나 - asiatoday.co.kr",
+   "title": "앤트로픽도 AI칩 자체 개발…삼성 파운드리, ASIC 시장 확대 기회 잡나 - 아시아투데이",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -407,7 +389,7 @@
    ]
   },
   {
-   "title": "외국인 3.3조 순매도…코스피 6290선 하락 마감 [시황] - 데일리안",
+   "title": "외국인 3.3조 순매도…코스피 6290선 하락 마감 [시황] - dailian.co.kr",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -494,6 +476,13 @@
    "agents": []
   },
   {
+   "title": "‘하루 사고 하루 팔고’…외국인 차익실현에 코스피 1%대 하락 - 디지털데일리",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피 급락에 '매도 사이드카' 발동 - 위키트리",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -501,13 +490,6 @@
    "agents": [
     "M-RISK"
    ]
-  },
-  {
-   "title": "‘하루 사고 하루 팔고’…외국인 차익실현에 코스피 1%대 하락 - 디지털데일리",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "AI 랠리 하루 만에 제동…코스피 4.58% 하락, 외국인 3조 원 넘게 순매도 - 이코노미사이언스",
@@ -537,6 +519,13 @@
    ]
   },
   {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - biz.newdaily.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -544,13 +533,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
@@ -650,6 +632,13 @@
    ]
   },
   {
+   "title": "AI momentum stocks tumble as earnings season shakes the tech sector",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Nvidia, Micron, and Sandisk Are Up Over 1,000% Since the AI Boom Started. These 2 AI Stocks Could Be the Next Big Winners.",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
@@ -680,15 +669,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Alphabet CEO Sundar Pichai Just Made a $200 Billion Infrastructure Move. Nvidia, Micron, and Broadcom Investors Should Rejoice.",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
