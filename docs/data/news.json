@@ -1,23 +1,33 @@
 {
- "ts_kst": "08-06 15:36",
- "n_items": 104,
+ "ts_kst": "08-06 15:46",
+ "n_items": 105,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "M-RISK": 4,
   "P-ADR": 2,
   "C-CHINA": 8,
-  "F-ACTIVE": 2,
+  "F-ACTIVE": 3,
   "R-LEVERAGE": 13
  },
- "unassigned": 67,
- "alerts": [],
+ "unassigned": 66,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - biz.chosun.com",
+   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -40,7 +50,7 @@
    "agents": []
   },
   {
-   "title": "솔리다임, 美 상장 공시 담당자 뽑는다… SK하이닉스는 “프리IPO 미확정” - 조선비즈 - biz.chosun.com",
+   "title": "솔리다임, 美 상장 공시 담당자 뽑는다… SK하이닉스는 “프리IPO 미확정” - 조선비즈 - Chosunbiz",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -61,7 +71,7 @@
    "agents": []
   },
   {
-   "title": "'167만원→117만원' SK하이닉스 '하한가' 충격…프리마켓 시초가 논란 - 아시아경제",
+   "title": "달랑 11주에…SK하이닉스 또 프리마켓 하한가 충격 - 아시아경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -123,7 +133,7 @@
    ]
   },
   {
-   "title": "월가, SK하이닉스 ADR 분석 개시…저평가 '매수' 의견(종합) - v.daum.net",
+   "title": "피말리는 9개월 \"발행 기준을 세웠다\"…SK하이닉스 ADR 뒷이야기 - 머니투데이 - 머니투데이",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -137,6 +147,22 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "삼성전자 차세대 메모리 'V낸드·PIM', FMS 2026 어워드서 2관왕 - etnews.com",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "GPU 위에 HBM 쌓는다…삼성전자, 첨단 메모리반도체 'zHBM' 공개 - 한국경제",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - businesspost.co.kr",
@@ -218,20 +244,6 @@
   {
    "title": "“AI 반도체 호황, 주주에게도”… 삼성전자·SK하이닉스, 주주환원 확대 카드 검토 - Korea IT Times",
    "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "\"삼성·SK하이닉스, 중국산 반도체 장비 시험 평가\"...양사는 공식 부인 - AI타임스",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성도 차세대 AI 메모리칩 공개… 속도·전력 효율 극대화 - v.daum.net",
-   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -331,7 +343,7 @@
    "agents": []
   },
   {
-   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
+   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - epnc.co.kr",
    "pub": "Mon, 20 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -384,13 +396,6 @@
    "agents": []
   },
   {
-   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피 급락에 '매도 사이드카' 발동 - 위키트리",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -398,6 +403,13 @@
    "agents": [
     "M-RISK"
    ]
+  },
+  {
+   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - newsis.com",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "[마감시황]코스피, 개인 매수에 6,358.95로 반등 마감…외국인·기관은 동반 순매도 - 서울신문",
@@ -423,15 +435,15 @@
    "agents": []
   },
   {
-   "title": "코스피 반등의 열쇠는 외국인…증권가 '추가 매도 압력 제한적' - 데일리한국",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "차익실현에 코스피 4%대 하락…외국인 매도 공세 - 네이트",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "차익실현에 코스피 4%대 하락…외국인 매도 공세 - 네이트",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "코스피 반등의 열쇠는 외국인…증권가 '추가 매도 압력 제한적' - 데일리한국",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -458,6 +470,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "[서울데이터랩]코스피, 개장 직후 4%대 급락…반도체 약세에 외국인 순매도 - twig24.com",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "“이번에도 개미만 당했다?”…비싼 값에 털고 나간 외국인들, 주도권 다시 쥐나 - 매일경제 마켓",
@@ -501,7 +522,7 @@
    "agents": []
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -629,13 +650,6 @@
   },
   {
    "title": "The SOXL ETF Is a Popular—and Dangerous—Way to Play Chip Stocks",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Earnings Picture Remains Robust: A Closer Look",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
