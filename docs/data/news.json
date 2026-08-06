@@ -1,8 +1,8 @@
 {
- "ts_kst": "08-06 12:44",
- "n_items": 104,
+ "ts_kst": "08-06 12:53",
+ "n_items": 105,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 30
  },
  "routed": {
@@ -10,7 +10,7 @@
   "P-ADR": 3,
   "M-RISK": 2,
   "C-CHINA": 7,
-  "F-ACTIVE": 3,
+  "F-ACTIVE": 4,
   "R-LEVERAGE": 13
  },
  "unassigned": 64,
@@ -24,6 +24,20 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "삼성전자, SK하이닉스 가뿐히 제쳤다…놀라운 반전 결과 - 한국경제",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성, D램 왕좌 탈환…SK하이닉스 제치고 점유율 1위 - 서울경제",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "\"삼성전자·SK하이닉스, 재무건전성 유지 속 주주환원 확대 검토\" - MBC 뉴스",
@@ -118,20 +132,6 @@
    "agents": [
     "M-RISK"
    ]
-  },
-  {
-   "title": "코스피, 장 초반 1%대 하락…SK하이닉스, 4%대 약세 - MTN 머니투데이방송",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "외국인 돌아왔지만 …'삼전·하이닉스'는 사고 급등주는 팔았다 - 뉴스핌",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "삼성전자, GPU 위에 HBM 시공…차세대 ‘주상복합 반도체’ 공개 - 경향신문",
@@ -234,7 +234,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 차세대 메모리, 'FMS 2026'서 2개 부문 수상…기술력 입증 - 아시아경제",
+   "title": "삼성전자 차세대 메모리, 'FMS 2026'서 2개 부문 수상…기술력 입증 - asiae.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -464,6 +464,15 @@
    ]
   },
   {
+   "title": "[서울데이터랩]코스피, 개장 직후 4%대 급락…반도체 약세에 외국인 순매도 - twig24.com",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "“이번에도 개미만 당했다?”…비싼 값에 털고 나간 외국인들, 주도권 다시 쥐나 - 매일경제 마켓",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -557,6 +566,15 @@
    ]
   },
   {
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
    "pub": "Tue, 14 Jul 2026",
    "src": "kr",
@@ -577,15 +595,6 @@
   {
    "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -633,15 +642,6 @@
   },
   {
    "title": "Micron Retreats From Earlier Gains After Musk Flagged Surging Memory Prices",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SpaceX, Alphabet, Nvidia, Micron, AMD, Uber, CVS, Lilly, and More Stocks That Explain Today’s Market",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
