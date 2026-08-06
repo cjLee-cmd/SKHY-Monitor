@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-06 15:46",
+ "ts_kst": "08-06 15:56",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -8,23 +8,13 @@
  "routed": {
   "M-CYCLE": 10,
   "M-RISK": 4,
-  "P-ADR": 2,
+  "P-ADR": 3,
   "C-CHINA": 8,
   "F-ACTIVE": 3,
   "R-LEVERAGE": 13
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
@@ -50,28 +40,14 @@
    "agents": []
   },
   {
-   "title": "솔리다임, 美 상장 공시 담당자 뽑는다… SK하이닉스는 “프리IPO 미확정” - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "솔리다임 IPO 채비로 윤곽 드러나는 SK그룹의 美 AI컴퍼니 구상 - 인베스트조선",
+   "title": "'167만원→117만원' SK하이닉스 '하한가' 충격…프리마켓 시초가 논란 - v.daum.net",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 시초가 고작 116만원?…프리마켓 개장직후 또 하한가 - v.daum.net",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "달랑 11주에…SK하이닉스 또 프리마켓 하한가 충격 - 아시아경제",
+   "title": "11주 주문에 SK하이닉스 하한가…반복되는 넥스트레이드 가격 왜곡 - 조선일보",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -142,6 +118,22 @@
    ]
   },
   {
+   "title": "\"이럴거면 굳이\"…SK하이닉스는 ADR 나스닥 상장 왜 추진한 걸까 - 인베스트조선",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "148만·280만·470만…SK하이닉스를 바라보는 3가지 시선[머니닥터 시장진단] - 매일경제 마켓",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성전자, FMS 2026서 차세대 3D 메모리 비전 제시 - samsung.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -179,15 +171,15 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美반도체 약세에 동반 하락…하이닉스 5%↓ - 이투데이",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "美 제재 강화에 삼성·SK, 중국산 반도체 장비 도입 검토 - IT조선",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "美 규제의 역설…삼성·SK, 中 반도체 장비 평가 검토 - 파이낸셜뉴스",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "[특징주] 삼성전자·SK하이닉스, 美반도체 약세에 동반 하락…하이닉스 5%↓ - 이투데이",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -221,7 +213,7 @@
    "agents": []
   },
   {
-   "title": "삼성맨이 지은 반도체 입문서…신간 ‘내일 아침 반도체가 사라진다면’ - edaily.co.kr",
+   "title": "美 규제의 역설…삼성·SK, 中 반도체 장비 평가 검토 - 파이낸셜뉴스",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
