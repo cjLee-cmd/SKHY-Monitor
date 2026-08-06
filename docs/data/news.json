@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-06 21:20",
+ "ts_kst": "08-06 21:30",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -8,13 +8,21 @@
  "routed": {
   "P-ADR": 3,
   "M-RISK": 4,
-  "M-CYCLE": 14,
+  "M-CYCLE": 13,
   "C-CHINA": 9,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 58,
- "alerts": [],
+ "unassigned": 59,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - 뉴스핌",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "11주 주문에 SK하이닉스 하한가…반복되는 넥스트레이드 가격 왜곡 - 조선일보",
@@ -58,27 +66,6 @@
    ]
   },
   {
-   "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - 한국경제",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "솔리다임, 美 상장 공시 담당자 뽑는다… SK하이닉스는 “프리IPO 미확정” - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 美낸드 자회사… ‘프리 IPO’로 5조 조달 검토 - 동아일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "코스피 장중 6300선 ‘매도 사이드카’…SK하이닉스 8% 급락 - 한겨레",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -97,8 +84,29 @@
    ]
   },
   {
-   "title": "美 반도체 충격에 코스피 급락…SK하이닉스 10%대↓ - 연합뉴스TV",
+   "title": "솔리다임 쪼개기 상장 악재?... SK하이닉스 급락, 본질은 차익실현 - 조선비즈 - Chosunbiz",
    "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "솔리다임, 美 상장 공시 담당자 뽑는다… SK하이닉스는 “프리IPO 미확정” - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - 한국경제",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 美낸드 자회사… ‘프리 IPO’로 5조 조달 검토 - 동아일보",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -120,15 +128,15 @@
    "agents": []
   },
   {
-   "title": "'SSD 프리미엄' 놓친 SK하이닉스, 솔리다임 띄운다 - newspim.com",
+   "title": "'SSD 프리미엄' 놓친 SK하이닉스, 솔리다임 띄운다 - 뉴스핌",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "하이닉스 10% 폭락…프리마켓서 29.98% 빠진 가격에 팔리기도 - 한겨레",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "148만·280만·470만…SK하이닉스를 바라보는 3가지 시선[머니닥터 시장진단] - 매일경제 마켓",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -180,7 +188,7 @@
    "agents": []
   },
   {
-   "title": "美 규제의 역설…삼성·SK, 中 반도체 장비 평가 검토 - fnnews.com",
+   "title": "美 규제의 역설…삼성·SK, 中 반도체 장비 평가 검토 - 파이낸셜뉴스",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -201,7 +209,7 @@
    "agents": []
   },
   {
-   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - newspim.com",
+   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - 뉴스핌",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -270,7 +278,7 @@
    ]
   },
   {
-   "title": "\"막았더니 경쟁자로 돌아왔다\"…창신메모리가 보여준 '규제의 역설' - fnnews.com",
+   "title": "\"막았더니 경쟁자로 돌아왔다\"…창신메모리가 보여준 '규제의 역설' - 파이낸셜뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -649,20 +657,20 @@
    ]
   },
   {
-   "title": "Here's the Major Winner of Amazon's 2026 $220 Billion Capital Expenditure Bill",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Nvidia, Micron, and Sandisk Are Up Over 1,000% Since the AI Boom Started. These 2 AI Stocks Could Be the Next Big Winners.",
+   "title": "PANW Stock Holds Near Record Highs Despite Fresh China Security Review That Mirrors Micron Case",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Sandisk, AppLovin, Moderna, and More Stocks That Explain Today’s Market",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
