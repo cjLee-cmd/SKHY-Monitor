@@ -1,31 +1,35 @@
 {
- "ts_kst": "08-06 12:24",
- "n_items": 104,
+ "ts_kst": "08-06 12:34",
+ "n_items": 105,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
-  "M-RISK": 3,
-  "P-ADR": 3,
+  "M-CYCLE": 12,
+  "M-RISK": 2,
+  "P-ADR": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 13
  },
- "unassigned": 62,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
+  {
+   "title": "삼성, D램 왕좌 탈환…SK하이닉스 제치고 점유율 1위 - 서울경제",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, SK하이닉스 가뿐히 제쳤다…놀라운 반전 결과 - 한국경제",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 05 Aug 2026",
@@ -43,21 +47,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 “주주환원 확대”...삼성은 ‘조만간’, 하이닉스는 ‘연말까지’ - 조선일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'너도나도 마이너스' 개미들 웃을까…삼전·하이닉스 '역대급 배당' 예고 - v.daum.net",
+   "title": "산업부 장관, 삼성·SK하이닉스 이익 배분론에 \"정부 몫은 세금이 맥시멈\" - v.daum.net",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "산업부 장관, 삼성·SK하이닉스 이익 배분론에 \"정부 몫은 세금이 맥시멈\" - v.daum.net",
+   "title": "SK하이닉스, 프리마켓서 또 하한가 체결…시초가 논란 재점화 - 한국경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -80,34 +77,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주가 장중 9% 내려, 반도체주 약세에 코스피 '매도 사이드카' 발동 - 비즈니스포스트",
+   "title": "외국인 돌아왔지만 …'삼전·하이닉스'는 사고 급등주는 팔았다 - 뉴스핌",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
+   "agents": []
   },
   {
    "title": "월가, SK하이닉스 ADR 분석 개시…저평가 '매수' 의견(종합) - v.daum.net",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "월가 증권사들 \"SK하이닉스 저평가\"…ADR 주가 급등세 - 연합뉴스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "\"이럴거면 굳이\"…SK하이닉스는 ADR 나스닥 상장 왜 추진한 걸까 - 인베스트조선",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -137,13 +114,18 @@
    "agents": []
   },
   {
-   "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - dt.co.kr",
+   "title": "[그래픽] SK하이닉스 HBF 개요 - 연합뉴스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
+  },
+  {
+   "title": "[속보] SK하이닉스, 프리장서 29.98% 급락 - TV조선뉴스",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "삼성전자, GPU 위에 HBM 시공…차세대 ‘주상복합 반도체’ 공개 - 경향신문",
@@ -233,6 +215,13 @@
   },
   {
    "title": "삼성도 차세대 AI 메모리칩 공개… 속도·전력 효율 극대화 - v.daum.net",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 “주주환원 확대”...삼성은 ‘조만간’, 하이닉스는 ‘연말까지’ - 조선일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -571,6 +560,15 @@
    ]
   },
   {
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
    "pub": "Tue, 14 Jul 2026",
    "src": "kr",
@@ -598,8 +596,8 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
+   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -607,12 +605,12 @@
    ]
   },
   {
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "Alphabet CEO Sundar Pichai Just Made a $200 Billion Infrastructure Move. Nvidia, Micron, and Broadcom Investors Should Rejoice.",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
   },
   {
@@ -623,43 +621,21 @@
    "agents": []
   },
   {
+   "title": "The SOXL ETF Is a Popular—and Dangerous—Way to Play Chip Stocks",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Earnings Picture Remains Robust: A Closer Look",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Retreats From Earlier Gains After Musk Flagged Surging Memory Prices",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SpaceX, Alphabet, Nvidia, Micron, AMD, Uber, CVS, Lilly, and More Stocks That Explain Today’s Market",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Drops Stunning Clue About Next Memory Cycle",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Elon Musk Just Gave Micron Stock a Big Boost. What to Know.",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Can Microchip's Micron Alliance Help it Challenge AVGO & ALAB?",
    "pub": "Wed, 05 Aug 2026",
    "src": "en",
    "q": "MU",
