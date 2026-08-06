@@ -1,14 +1,14 @@
 {
- "ts_kst": "08-06 19:11",
+ "ts_kst": "08-06 19:21",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "P-ADR": 3,
-  "M-RISK": 4,
+  "M-RISK": 3,
   "C-CHINA": 9,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 13
@@ -19,9 +19,18 @@
    "level": "critical",
    "kw": "사이드카",
    "src": "kr",
-   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - MBC 뉴스",
+   "title": "코스피 6,200선 '털썩'...코스닥은 '매수 사이드카' - ytn.co.kr",
    "agents": [
     "M-RISK"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "agents": [
+    "R-LEVERAGE"
    ]
   }
  ],
@@ -38,29 +47,6 @@
   {
    "title": "\"삼성전자·SK하이닉스, 재무건전성 유지 속 주주환원 확대 검토\" - MBC 뉴스",
    "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - dt.co.kr",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스, 샌디스크와 첫 HBF 표준 규격 공개 “차세대 HBF 생태계 확대” - v.daum.net",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "버벅이는 AI, 메모리 부족 때문…SK하이닉스가 HBF에 집중하는 이유 - v.daum.net",
-   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -93,6 +79,13 @@
    ]
   },
   {
+   "title": "SK하이닉스 또 프리마켓 하한가…달랑 11주에 시초가 소동 - v.daum.net",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "'167만원→117만원' 또 하한가…하이닉스 무너진 황당한 이유 [종목+] - 한국경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -100,25 +93,7 @@
    "agents": []
   },
   {
-   "title": "코스피 장중 6300선 ‘매도 사이드카’…SK하이닉스 8% 급락 - 한겨레",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - MBC 뉴스",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "[오늘의 주목주] 'SK하이닉스 최대주주' SK스퀘어 주가 13%대 내려, 코스피 반도체 약세에 6290선 하락 마감 - 비즈니스포스트",
+   "title": "하이닉스 10% 폭락…프리마켓서 29.98% 빠진 가격에 팔리기도 - 한겨레",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -139,11 +114,41 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스·올영·한전 참여\"…인크루트, 채용설명회 연다 - 디지털데일리",
+   "title": "\"SK하이닉스·올영·한전 참여\"…인크루트, 채용설명회 연다 - ddaily.co.kr",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진 - 한국경제",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "솔리다임, 美 상장 공시 담당자 뽑는다… SK하이닉스는 “프리IPO 미확정” - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'SSD 프리미엄' 놓친 SK하이닉스, 솔리다임 띄운다 - 뉴스핌",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피 장중 6300선 ‘매도 사이드카’…SK하이닉스 8% 급락 - 한겨레",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
    "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
@@ -241,7 +246,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 넷리스트와 전략적 제휴…특허 분쟁 종료 - yonhapnewstv.co.kr",
+   "title": "삼성전자, 넷리스트와 전략적 제휴…특허 분쟁 종료 - 연합뉴스TV",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -409,7 +414,7 @@
    ]
   },
   {
-   "title": "코스피, 레버리지 규제이후 '외국인·기관' 순매수 확대 종목은? - opinionnews.co.kr",
+   "title": "코스피, 레버리지 규제이후 '외국인·기관' 순매수 확대 종목은? - 오피니언뉴스",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -455,7 +460,7 @@
    "agents": []
   },
   {
-   "title": "코스피 6,200선 '털썩'...코스닥은 '매수 사이드카' - YTN",
+   "title": "코스피 6,200선 '털썩'...코스닥은 '매수 사이드카' - ytn.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -478,7 +483,7 @@
    "agents": []
   },
   {
-   "title": "‘하루 사고 하루 팔고’…외국인 차익실현에 코스피 1%대 하락 - 디지털데일리",
+   "title": "‘하루 사고 하루 팔고’…외국인 차익실현에 코스피 1%대 하락 - ddaily.co.kr",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -537,7 +542,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -643,22 +648,6 @@
    ]
   },
   {
-   "title": "Amazon Cites Higher Memory Costs for Raising Capital Expenditures to $220 Billion. Here's Why the Micron Stock Price Still Dropped.",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "AI momentum stocks tumble as earnings season shakes the tech sector",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Nvidia, Micron, and Sandisk Are Up Over 1,000% Since the AI Boom Started. These 2 AI Stocks Could Be the Next Big Winners.",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
@@ -669,6 +658,22 @@
   },
   {
    "title": "Micron Is an Incredible Bargain Below $1,000",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Wall Street Is Selling Memory Stocks – Chipmakers Are Buying Them Back",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Alphabet CEO Sundar Pichai Just Made a $200 Billion Infrastructure Move. Nvidia, Micron, and Broadcom Investors Should Rejoice.",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
