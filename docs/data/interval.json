@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-07 00:08",
+ "ts_kst": "08-07 00:19",
  "targets": {
   "samsung": {
    "name": "삼성전자",
@@ -161,7 +161,7 @@
  "method": "EWMA λ=0.94",
  "pending": {
   "samsung": {
-   "made": "08-07 00:08",
+   "made": "08-07 00:19",
    "for_date": "2026-08-05",
    "base_price": 246000.0,
    "bands": {
@@ -183,7 +183,7 @@
    }
   },
   "hynix": {
-   "made": "08-07 00:08",
+   "made": "08-07 00:19",
    "for_date": "2026-08-05",
    "base_price": 1668000.0,
    "bands": {
@@ -205,7 +205,7 @@
    }
   },
   "kospi": {
-   "made": "08-07 00:08",
+   "made": "08-07 00:19",
    "for_date": "2026-08-05",
    "base_price": 6598.259765625,
    "bands": {
@@ -918,46 +918,6 @@
    }
   }
  ],
- "scored_now": [
-  {
-   "key": "samsung",
-   "name": "삼성전자",
-   "made": "08-06 23:58",
-   "base": 230500.0,
-   "actual": 246000.0,
-   "move_pct": 6.72,
-   "hits": {
-    "68": true,
-    "90": true,
-    "95": true
-   }
-  },
-  {
-   "key": "hynix",
-   "name": "SK하이닉스",
-   "made": "08-06 23:58",
-   "base": 1495000.0,
-   "actual": 1668000.0,
-   "move_pct": 11.57,
-   "hits": {
-    "68": false,
-    "90": true,
-    "95": true
-   }
-  },
-  {
-   "key": "kospi",
-   "name": "코스피",
-   "made": "08-06 23:58",
-   "base": 6296.3798828125,
-   "actual": 6598.26,
-   "move_pct": 4.79,
-   "hits": {
-    "68": true,
-    "90": true,
-    "95": true
-   }
-  }
- ],
+ "scored_now": [],
  "note": "방향이 아니라 범위 예측. 243일 백테스트 90% 구간 86.2% 적중."
 }
