@@ -1,40 +1,21 @@
 {
- "ts_kst": "08-07 15:57",
- "n_items": 105,
+ "ts_kst": "08-07 16:07",
+ "n_items": 106,
  "by_source": {
   "kr": 75,
   "en": 29,
-  "dart": 1
+  "dart": 2
  },
  "routed": {
+  "M-CYCLE": 11,
   "P-ADR": 2,
-  "M-CYCLE": 10,
   "C-CHINA": 10,
   "F-ACTIVE": 7,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 솔리다임 키우기 나선 이유는…“이번 사이클이 최적의 기회” - 조선비즈 - Chosunbiz",
@@ -44,15 +25,17 @@
    "agents": []
   },
   {
-   "title": "솔리다임 IPO 채비로 윤곽 드러나는 SK그룹의 美 AI컴퍼니 구상 - 인베스트조선",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - v.daum.net",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "하이닉스 자회사 '솔리다임' 나스닥 추진…'중복상장 가이드라인' 시험대 - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "솔리다임 IPO 채비로 윤곽 드러나는 SK그룹의 美 AI컴퍼니 구상 - 인베스트조선",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -65,11 +48,34 @@
    "agents": []
   },
   {
-   "title": "'하닉 1주에 하한가' 시장왜곡…프리마켓 상·하한가 한시 금지 - 연합뉴스",
+   "title": "하이닉스, 전날 10% 폭락이어 또 4.8% 급락…삼전 0.2%↑(종합) - 연합뉴스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "버벅이는 AI, 메모리 부족 때문…SK하이닉스가 HBF에 집중하는 이유 - v.daum.net",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 美 FMS서 'AI 메모리 종합 솔루션 기업' 경쟁력 입증 - 아시아경제",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "\"이럴거면 굳이\"…SK하이닉스는 ADR 나스닥 상장 왜 추진한 걸까 - 인베스트조선",
@@ -88,37 +94,13 @@
    "agents": []
   },
   {
-   "title": "[뉴욕증시 마감] 호르무즈 긴장에 유가 4% 급등…SK하이닉스 ADR 5%↓ - v.daum.net",
+   "title": "美 AI 반도체주 혼조…SK하이닉스 ADR 4.7%·마이크론 1.3% 하락 - v.daum.net",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
+    "M-CYCLE",
     "P-ADR"
-   ]
-  },
-  {
-   "title": "버벅이는 AI, 메모리 부족 때문…SK하이닉스가 HBF에 집중하는 이유 - v.daum.net",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, HBM 넘어 HBF 띄운다…AI 메모리 '계층화' 승부 - dailian.co.kr",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
    ]
   },
   {
@@ -254,8 +236,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자, CSS 사업팀 인력 60% 재배치…메모리·파운드리로 이동 - 아이뉴스24",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "AI 반도체 호황, 한국의 직업·집값·문화를 바꾸다 - g-enews.com",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -313,6 +295,15 @@
    ]
   },
   {
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "중국 최대 메모리 반도체 업체인 창신메모리(CXMT)가 베이징에 두 번째 D램(DRAM) - 씽크풀 AI",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -320,15 +311,6 @@
    "agents": [
     "C-CHINA",
     "M-CYCLE"
-   ]
-  },
-  {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
    ]
   },
   {
@@ -392,7 +374,23 @@
    "agents": []
   },
   {
-   "title": "외국인 3조3000억 순매도에 코스피 6200선 후퇴…반도체주 급락 - 굿모닝경제",
+   "title": "코스피, 6400 회복했다 6200대로 '뚝'…외국인 매도에 이틀째 하락 - hidomin.com",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "'오락가락' 코스피 6250선 약보합...외국인 1조원 순매도 - 디지털투데이",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "외국인 3조3000억 순매도에 코스피 6200선 후퇴…반도체주 급락 - goodkyung.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -474,6 +472,13 @@
    ]
   },
   {
+   "title": "[속보] '상승 출발' 코스피, 외국인 매도세에 하락 전환 - 프레시안",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 외국인 3조원 순매도에 6200선 후퇴···4%↓ - 현대경제신문",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -481,29 +486,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "160조 매도폭탄에 2배 ETF… 변동성 키워 [반도체 쇼크와 외국인 ②] - IT조선",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외국인 1.4조원 순매수…코스피 6600선 눈앞 마감 - 전자신문",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "'7월 급락장' 막판에 부러진 개인 매수세…코스피, 다시 '외국인' 손에 - 뉴스1",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - newsquest.co.kr",
@@ -610,8 +592,8 @@
    ]
   },
   {
-   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
+   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -619,8 +601,8 @@
    ]
   },
   {
-   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
