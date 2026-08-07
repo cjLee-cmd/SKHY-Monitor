@@ -1,29 +1,19 @@
 {
- "ts_kst": "08-08 04:33",
+ "ts_kst": "08-08 04:43",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 15,
+  "M-CYCLE": 12,
   "C-CHINA": 8,
   "F-ACTIVE": 3,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
-   "agents": [
-    "M-RISK"
-   ]
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 주당 375원 분기배당…추가 주주환원 예고 - v.daum.net",
@@ -40,7 +30,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 2천733억원 분기배당 결정…\"추가 주주환원 검토\" - 연합인포맥스",
+   "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - 연합뉴스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -63,13 +53,11 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "SK하이닉스, 솔리다임 키우기 나선 이유는…“이번 사이클이 최적의 기회” - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "마이크론, SK하이닉스 대규모 투자 계획에 약세 - 마켓인",
@@ -88,41 +76,7 @@
    "agents": []
   },
   {
-   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "엔비디아 HBM 축소 우려…SK하이닉스 4.8% 하락[핫종목](종합) - 뉴스1",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "뜨거운 관심에 SK하이닉스 매수 쉬쉬하는 채권시장 - 연합인포맥스",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 中 충칭공장 지분 매각 검토 - 에너지경제신문",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -136,7 +90,35 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스, 中 충칭공장 지분 매각 검토 - 에너지경제신문",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스, 용인 Y2·청주 M17에 54조원 투자 - 전자신문",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 용인·청주에 54조 투자 확정 - 한국경제",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 용인·청주에 54조 투자…AI 메모리 생산기지 키운다 - v.daum.net",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피 이틀째 하락 6200대…SK하이닉스 또 4.9% 급락 - 부산일보",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -420,6 +402,13 @@
    "agents": []
   },
   {
+   "title": "외국인이 오늘도 8천억을 던졌는데, 코스피는 왜 버텼을까요 - 네이버 프리미엄콘텐츠",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "[마감시황] 코스피, 외국인 팔자에 6200선 마감…코스닥도 하락 - 아주경제",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -448,21 +437,21 @@
    "agents": []
   },
   {
-   "title": "'오락가락' 코스피 6250선 약보합...외국인 1조원 순매도 - 디지털투데이",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
     "M-RISK"
+   ]
+  },
+  {
+   "title": "'오락가락' 코스피 6250선 약보합...외국인 1조원 순매도 - 디지털투데이",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
    ]
   },
   {
@@ -480,13 +469,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - newsis.com",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
@@ -629,13 +611,6 @@
    ]
   },
   {
-   "title": "China opens formal probe into Palo Alto just as stock hits highs",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -645,18 +620,29 @@
    ]
   },
   {
-   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
+   "title": "SK Hynix Slides and the ProShares Ultra SK Hynix ETF (SKHU) Tumbles With It",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Silvaco Group Q2 Earnings Call Highlights",
+   "title": "SK Hynix Drops 5% After Approving $38B in New Memory Fabs; Seagate Falls 7%, Micron Barely Dips",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Citi cuts Micron stock target, sees memory chip prices peaking in 2Q27",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
