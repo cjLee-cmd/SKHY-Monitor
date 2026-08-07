@@ -1,27 +1,34 @@
 {
- "ts_kst": "08-08 03:54",
+ "ts_kst": "08-08 04:04",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 10,
+  "M-CYCLE": 11,
   "C-CHINA": 8,
   "F-ACTIVE": 4,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 68,
+ "unassigned": 67,
  "alerts": [
   {
    "level": "critical",
-   "kw": "사이드카",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - munhwa.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "agents": [
-    "M-RISK"
+    "R-LEVERAGE"
    ]
+  },
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
+   "agents": []
   }
  ],
  "items": [
@@ -163,14 +170,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자노조 “1군 발암물질 가득한 반도체 공장…메가특구법은 외면” - 한겨레",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 2%·SK하이닉스 1%↑…증권가 \"반도체 매도 실익 낮다\"[핫스탁] - 뉴시스",
+   "title": "삼성전자 2%·SK하이닉스 1%↑…증권가 \"반도체 매도 실익 낮다\"[핫스탁] - newsis.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -186,6 +186,13 @@
   {
    "title": "반도체가 돌아왔다…삼성전자·SK하이닉스부터 소부장도 강세 [종목+] - 한국경제",
    "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자노조 “1군 발암물질 가득한 반도체 공장…메가특구법은 외면” - 한겨레",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -235,8 +242,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자, CSS 사업팀 인력 60% 재배치…메모리·파운드리로 이동 - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "삼성전자 반도체서 89조 넘게 벌었지만 스마트폰 사상 첫 적자 - 조선일보",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -465,8 +472,8 @@
    "agents": []
   },
   {
-   "title": "[마감시황]코스피, 장중 상승분 반납하고 6258.77 마감…외국인 8581억원 순매도 - 서울신문",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "코스피, 외국인 3.3조 순매도에 4%대 급락…6300선 하회 마감 - 메트로신문",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -474,8 +481,8 @@
    ]
   },
   {
-   "title": "코스피, 외국인 3.3조 순매도에 4%대 급락…6300선 하회 마감 - 메트로신문",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "[마감시황]코스피, 장중 상승분 반납하고 6258.77 마감…외국인 8581억원 순매도 - 서울신문",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -517,7 +524,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -614,13 +621,6 @@
    ]
   },
   {
-   "title": "China opens formal probe into Palo Alto just as stock hits highs",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -630,21 +630,32 @@
    ]
   },
   {
-   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Silvaco Group Q2 Earnings Call Highlights",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "SK Hynix Slides and the ProShares Ultra SK Hynix ETF (SKHU) Tumbles With It",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "SK Hynix Drops 5% After Approving $38B in New Memory Fabs; Seagate Falls 7%, Micron Barely Dips",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Citi cuts Micron stock target, sees memory chip prices peaking in 2Q27",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Can MU Stock Compound Its Way Higher?",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
