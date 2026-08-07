@@ -1,20 +1,30 @@
 {
- "ts_kst": "08-08 01:43",
+ "ts_kst": "08-08 01:53",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 10,
+  "M-CYCLE": 14,
   "P-ADR": 1,
   "C-CHINA": 8,
   "F-ACTIVE": 4,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 68,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 주당 375원 분기배당…추가 주주환원 예고 - v.daum.net",
@@ -24,7 +34,16 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - 중앙일보",
+   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -33,21 +52,16 @@
    ]
   },
   {
-   "title": "솔리다임 IPO說에 SK하이닉스 급락···LG엔솔 중복상장 포비아? - 시사저널e",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "엔비디아 HBM 축소 우려…SK하이닉스 4.8% 하락[핫종목](종합) - 뉴스1",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "SK하이닉스, 솔리다임 키우기 나선 이유는…“이번 사이클이 최적의 기회” - 조선비즈 - biz.chosun.com",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 용인·청주에 신규 팹 짓는다… 54조 원 규모 투자 - 동아일보",
+   "title": "SK하이닉스, 용인 2기 팹·청주 M17에 총 54조 투자 확정 - 연합뉴스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -112,15 +126,17 @@
    "agents": []
   },
   {
-   "title": "\"경력 다 떼고 신입 지원하라네요\"…SK하이닉스 이직길 막힌 삼성맨들 '부글부글' - 아시아경제",
+   "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - 중앙일보",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "코스피 6258선 마감…SK하이닉스 4.88% 내려 - 전자신문",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "솔리다임 IPO說에 SK하이닉스 급락···LG엔솔 중복상장 포비아? - 시사저널e",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -154,7 +170,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 2%·SK하이닉스 1%↑…증권가 \"반도체 매도 실익 낮다\"[핫스탁] - 뉴시스",
+   "title": "삼성전자 2%·SK하이닉스 1%↑…증권가 \"반도체 매도 실익 낮다\"[핫스탁] - newsis.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -375,7 +391,7 @@
    "agents": []
   },
   {
-   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - 경북매일",
+   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - kbmaeil.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -508,7 +524,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -605,16 +621,7 @@
    ]
   },
   {
-   "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron's Memory Boom Just Got a New Expiration Date",
+   "title": "SK Hynix Drops 5% After Approving $38B in New Memory Fabs; Seagate Falls 7%, Micron Barely Dips",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -630,14 +637,23 @@
    "agents": []
   },
   {
-   "title": "Claude AI’s Newest Stock Picks Are Also Hedge Fund Favorites: One Breakout Biotech, One AI Chip Bet",
+   "title": "Tech Stocks Shake Off Another Memory Stock Slide",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
+   "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron's Memory Boom Just Got a New Expiration Date",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
