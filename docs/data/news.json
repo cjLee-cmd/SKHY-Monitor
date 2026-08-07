@@ -1,29 +1,19 @@
 {
- "ts_kst": "08-08 00:22",
- "n_items": 103,
+ "ts_kst": "08-08 00:32",
+ "n_items": 104,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 29
  },
  "routed": {
   "M-CYCLE": 12,
-  "C-CHINA": 9,
+  "C-CHINA": 8,
   "F-ACTIVE": 3,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 68,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - 연합뉴스",
@@ -47,6 +37,13 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스, 中 충칭공장 지분 매각 검토 - 에너지경제신문",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -56,7 +53,7 @@
    ]
   },
   {
-   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
+   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - biz.chosun.com",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -74,20 +71,6 @@
    ]
   },
   {
-   "title": "SK하이닉스, 中 충칭공장 지분 매각 검토 - 에너지경제신문",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'167만원→117만원' SK하이닉스 '하한가' 충격…프리마켓 시초가 논란 - v.daum.net",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "뜨거운 관심에 SK하이닉스 매수 쉬쉬하는 채권시장 - news.einfomax.co.kr",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -95,7 +78,7 @@
    "agents": []
   },
   {
-   "title": "\"애플의 '중국 메모리 카드' 실패…삼성·SK하이닉스만 웃었다\" - zdnet.co.kr",
+   "title": "\"애플의 '중국 메모리 카드' 실패…삼성·SK하이닉스만 웃었다\" - 지디넷코리아",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -118,7 +101,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 솔리다임 키우기 나선 이유는…“이번 사이클이 최적의 기회” - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스, 솔리다임 키우기 나선 이유는…“이번 사이클이 최적의 기회” - 조선비즈 - biz.chosun.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -133,6 +116,13 @@
   },
   {
    "title": "SK하이닉스, 용인·청주에 신규 팹 짓는다… 54조 원 규모 투자 - 동아일보",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 용인·청주에 54조 투자…AI 메모리 생산기지 키운다 - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -280,15 +270,6 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -361,6 +342,15 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
+  },
+  {
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "pub": "Thu, 05 Feb 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - 조선일보",
@@ -616,7 +606,30 @@
    "agents": []
   },
   {
+   "title": "Doximity, Trade Desk, SK Hynix, SpaceX, Rigetti, Atlassian, and More Stocks That Explain Today’s Market",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Claude AI’s Newest Stock Picks Are Also Hedge Fund Favorites: One Breakout Biotech, One AI Chip Bet",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Not Micron, Not Nvidia. This Artificial Intelligence (AI) Giant Could Be the Ultimate Winner of the AI Arms Race.",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -627,31 +640,6 @@
   {
    "title": "Citi cuts Micron stock target, sees memory chip prices peaking in 2Q27",
    "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Can MU Stock Compound Its Way Higher?",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Shares Surge: What's Driving the Sudden Momentum",
-   "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
