@@ -1,19 +1,29 @@
 {
- "ts_kst": "08-08 03:47",
+ "ts_kst": "08-08 03:54",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 10,
   "C-CHINA": 8,
   "F-ACTIVE": 4,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 67,
- "alerts": [],
+ "unassigned": 68,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - munhwa.com",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 주당 375원 분기배당…추가 주주환원 예고 - v.daum.net",
@@ -90,14 +100,14 @@
    "agents": []
   },
   {
-   "title": "하이닉스 단 1주 하한가, 실수인가 조작인가? \"상하한가 주문 금지\" - MBC 뉴스",
+   "title": "SK하이닉스, 中 충칭공장 지분 매각 검토 - 에너지경제신문",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 中 충칭공장 지분 매각 검토 - 에너지경제신문",
+   "title": "하이닉스 단 1주 하한가, 실수인가 조작인가? \"상하한가 주문 금지\" - MBC 뉴스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -111,8 +121,8 @@
    "agents": []
   },
   {
-   "title": "코스피 이틀째 하락 6200대…SK하이닉스 또 4.9% 급락 - 부산일보",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "코스피 숨 고르기? 1% 안팎 하락 6,400선 출발‥SK하이닉스는 5% 급락 - MBC 뉴스",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -125,14 +135,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
+   "title": "포스텍·삼성전자, 3D 낸드(NAND) 반도체 한계 넘는 기술 개발 - 전자신문",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "포스텍·삼성전자, 3D 낸드(NAND) 반도체 한계 넘는 기술 개발 - 전자신문",
+   "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -409,7 +419,7 @@
    "agents": []
   },
   {
-   "title": "외국인 '팔자'에 코스피 이틀째 하락…SK하이닉스 2일간 15% 급락 - koreareport.co.kr",
+   "title": "외국인 '팔자'에 코스피 이틀째 하락…SK하이닉스 2일간 15% 급락 - 코리아리포트",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -439,7 +449,7 @@
    ]
   },
   {
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - munhwa.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -604,6 +614,13 @@
    ]
   },
   {
+   "title": "China opens formal probe into Palo Alto just as stock hits highs",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -632,15 +649,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "SK Hynix Drops 5% After Approving $38B in New Memory Fabs; Seagate Falls 7%, Micron Barely Dips",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
