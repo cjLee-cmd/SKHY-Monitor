@@ -1,20 +1,30 @@
 {
- "ts_kst": "08-07 18:17",
+ "ts_kst": "08-07 18:27",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 10,
+  "M-CYCLE": 9,
   "P-ADR": 2,
-  "C-CHINA": 12,
+  "C-CHINA": 10,
   "F-ACTIVE": 2,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 68,
- "alerts": [],
+ "unassigned": 70,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - 중앙일보",
@@ -42,21 +52,42 @@
    ]
   },
   {
-   "title": "SK하이닉스, 용인 Y2·청주 M17에 54조 원 투자 - 전자신문",
+   "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - 연합뉴스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 용인·청주에 54조원 '승부수'…신규 팹 확충 - 아시아경제",
+   "title": "SK하이닉스, 주당 375원 분기배당…\"3분기 중 주주환원 방안 발표\" - 뉴스1",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 용인·청주에 54조 투자 확정 - 한국경제",
+   "title": "SK하이닉스, 주당 375원 배당 확정…이르면 이달 주주환원 확대 방안 발표 - 한겨레",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 용인 Y2·청주 M17에 54조원 투자 확정 - 조선일보",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 용인·청주 추가 팹에 54조 투자…AI 메모리 수요 대응 - 머니투데이 - 머니투데이",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 용인·청주에 54조 투자… AI 메모리 주도권 잡는다 - IT조선",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -111,30 +142,6 @@
    ]
   },
   {
-   "title": "SK하이닉스·마이크론 D램 점유율, 1%p 차로 좁혀져…CXMT도 1년새 두배 늘어 - 헤럴드경제",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE",
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "SK하이닉스, 주당 375원 분기배당…\"3분기 중 주주환원 방안 발표\" - 뉴스1",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - 연합뉴스",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -170,7 +177,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·브로드컴, 2,000억 달러 규모 ‘전략적 협력’ - semiconductor.samsung.com",
+   "title": "삼성전자·브로드컴, 2,000억 달러 규모 ‘전략적 협력’ - samsung.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -294,6 +301,15 @@
    ]
   },
   {
+   "title": "\"막았더니 경쟁자로 돌아왔다\"…창신메모리가 보여준 '규제의 역설' - 파이낸셜뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
@@ -310,15 +326,6 @@
    "agents": [
     "C-CHINA",
     "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"막았더니 경쟁자로 돌아왔다\"…창신메모리가 보여준 '규제의 역설' - 파이낸셜뉴스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
    ]
   },
   {
@@ -366,13 +373,6 @@
    "agents": []
   },
   {
-   "title": "반짝 상승 출발한 코스피, 다시 하락세…외국인·개인 매도세 - 한겨레",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - 경북매일",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -388,6 +388,13 @@
   },
   {
    "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - 뉴스핌",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "반짝 상승 출발한 코스피, 다시 하락세…외국인·개인 매도세 - 한겨레",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -495,6 +502,13 @@
    ]
   },
   {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - 뉴데일리",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -502,13 +516,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
@@ -590,7 +597,7 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
    "pub": "Wed, 22 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -603,6 +610,13 @@
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": []
   },
   {
@@ -633,14 +647,7 @@
    ]
   },
   {
-   "title": "Buy 5 Top-Ranked Growth Stocks for August to Tap Market Rally",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Micron's Selloff Exposes a New Risk in the Memory Boom",
+   "title": "NVDA Reportedly Weighs Lower-Memory Rubin Ultra GPU Designs To Ease HBM Bottleneck — Why Retail Is Watching Micron",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
