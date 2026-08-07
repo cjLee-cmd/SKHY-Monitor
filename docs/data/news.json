@@ -1,20 +1,39 @@
 {
- "ts_kst": "08-07 21:52",
- "n_items": 104,
+ "ts_kst": "08-07 22:00",
+ "n_items": 95,
  "by_source": {
   "kr": 75,
-  "en": 29
+  "en": 20
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "P-ADR": 1,
   "C-CHINA": 8,
   "F-ACTIVE": 3,
   "M-RISK": 1,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 13
  },
- "unassigned": 67,
- "alerts": [],
+ "unassigned": 56,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "'빚투' 신용융자 잔고 27조원대로↓…7월 반대매매 1조원 육박 - slist.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - yna.co.kr",
@@ -114,7 +133,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - 아이뉴스24",
+   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - inews24.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -188,6 +207,13 @@
    "agents": []
   },
   {
+   "title": "[특징주] 삼성전자·SK하이닉스, 美반도체 약세에 동반 하락…하이닉스 5%↓ - 이투데이",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, GPU 위에 HBM 시공…차세대 ‘주상복합 반도체’ 공개 - khan.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -195,13 +221,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美반도체 약세에 동반 하락…하이닉스 5%↓ - 이투데이",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "포스텍·삼성전자, 3D 낸드(NAND) 반도체 한계 넘는 기술 개발 - 전자신문",
@@ -503,15 +522,6 @@
    "agents": []
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - 뉴데일리",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -521,8 +531,8 @@
    ]
   },
   {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -537,7 +547,16 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -573,6 +592,15 @@
    ]
   },
   {
+   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
    "pub": "Sun, 02 Aug 2026",
    "src": "kr",
@@ -591,19 +619,21 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "'빚투' 신용융자 잔고 27조원대로↓…7월 반대매매 1조원 육박 - slist.kr",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Citi cuts Micron stock target, sees memory chip prices peaking in 2Q27",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -635,13 +665,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
