@@ -1,18 +1,18 @@
 {
- "ts_kst": "08-08 08:22",
- "n_items": 102,
+ "ts_kst": "08-08 08:32",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 13,
   "C-CHINA": 8,
   "F-ACTIVE": 2,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 68,
+ "unassigned": 67,
  "alerts": [],
  "items": [
   {
@@ -66,13 +66,6 @@
    ]
   },
   {
-   "title": "[베스트&워스트] 삼성전자·SK하이닉스 밀린 한 주…상상인증권은 85% 급등 - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "뜨거운 관심에 SK하이닉스 매수 쉬쉬하는 채권시장 - 연합인포맥스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -122,8 +115,17 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 中 충칭공장 지분 매각 검토 - 에너지경제신문",
+   "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - 중앙일보",
    "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "솔리다임 IPO說에 SK하이닉스 급락···LG엔솔 중복상장 포비아? - 시사저널e",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -216,6 +218,13 @@
   },
   {
    "title": "삼성전자·브로드컴, 2,000억 달러 규모 ‘전략적 협력’ - samsung.com",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[베스트&워스트] 삼성전자·SK하이닉스 밀린 한 주…상상인증권은 85% 급등 - 이투데이",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -323,7 +332,7 @@
    "agents": []
   },
   {
-   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
+   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - epnc.co.kr",
    "pub": "Mon, 20 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -425,13 +434,6 @@
    "agents": []
   },
   {
-   "title": "[마감] 코스피, 외국인 매도에 6250선 후퇴 - 알파경제",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -439,6 +441,13 @@
    "agents": [
     "M-RISK"
    ]
+  },
+  {
+   "title": "[마감] 코스피, 외국인 매도에 6250선 후퇴 - 알파경제",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "“이번에도 개미만 당했다?”…비싼 값에 털고 나간 외국인들, 주도권 다시 쥐나 - 매일경제 마켓",
@@ -595,13 +604,6 @@
    ]
   },
   {
-   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Citi Revamps Micron Target Target With A Twist",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -609,13 +611,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SK Hynix invests $38B in new plants amid AI memory shortages",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
@@ -627,13 +622,6 @@
    ]
   },
   {
-   "title": "Michael Burry issues blunt warning as he bets against 2 AI favorites",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Stock Slips as Citi Cuts Target by $250",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -641,6 +629,22 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK Hynix Slides and the ProShares Ultra SK Hynix ETF (SKHU) Tumbles With It",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
