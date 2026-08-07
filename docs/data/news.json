@@ -1,54 +1,21 @@
 {
- "ts_kst": "08-07 12:58",
+ "ts_kst": "08-07 13:08",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 11,
-  "C-CHINA": 9,
   "P-ADR": 2,
+  "M-CYCLE": 10,
+  "C-CHINA": 10,
   "F-ACTIVE": 8,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - 뉴스핌",
-   "agents": []
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
-  {
-   "title": "\"애플의 '중국 메모리 카드' 실패…삼성·SK하이닉스만 웃었다\" - 지디넷코리아",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "마이크론에 추격 당한 SK하이닉스 위기?…“제품 출하 시점 감안해야” - 스트레이트뉴스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "HP·에이수스·에이서, 中 CXMT 칩 도입… 삼전·SK하이닉스 눈치 보며 ‘조용한 채택’ - 글로벌이코노믹",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
   {
    "title": "SK하이닉스, 솔리다임 키우기 나선 이유는…“이번 사이클이 최적의 기회” - 조선비즈 - Chosunbiz",
    "pub": "Thu, 06 Aug 2026",
@@ -66,27 +33,6 @@
   {
    "title": "`상법개정해도 주주가 `봉``…하이닉스 솔리다임 상장설에 술렁[개미와글와글] - 매일신문",
    "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"경력 다 떼고 신입 지원하라네요\"…SK하이닉스 이직길 막힌 삼성맨들 '부글부글' - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 시총 1100조인데…11주 거래에 하한가 - 서울경제",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 6%↓·SK하이닉스 10%↓‥반도체주 급락에 코스피 4% 넘게 하락 마감 - MBC 뉴스",
-   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -118,21 +64,68 @@
    ]
   },
   {
-   "title": "[특징주] 삼성전자, 장 초반 1%대 상승…SK하이닉스 하락전환 - yna.co.kr",
+   "title": "\"경력 다 떼고 신입 지원하라네요\"…SK하이닉스 이직길 막힌 삼성맨들 '부글부글' - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "현금 넘치는 삼성·SK하닉, 투자 이어 주주환원 경쟁도 본격화 - 아시아투데이",
+   "title": "이틀 연속 SK하이닉스 던졌다…삼성전기·오이솔루션은 매수 [주식 초고수는 지금] - 서울경제",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 6%↓·SK하이닉스 10%↓‥반도체주 급락에 코스피 4% 넘게 하락 마감 - MBC 뉴스",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"삼성전자·SK하이닉스, 재무건전성 유지 속 주주환원 확대 검토\" - MBC 뉴스",
+   "title": "\"애플의 '중국 메모리 카드' 실패…삼성·SK하이닉스만 웃었다\" - 지디넷코리아",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스·마이크론 D램 점유율, 1%p 차로 좁혀져…CXMT도 1년새 두배 늘어 - v.daum.net",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE",
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "HP·에이수스·에이서, 中 CXMT 칩 도입… 삼전·SK하이닉스 눈치 보며 ‘조용한 채택’ - 글로벌이코노믹",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 프리마켓서 개장직후 또 하한가…시초가 논란 지속 - yna.co.kr",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[속보]삼성전자·SK하이닉스 동반 강보합…1%대 상승 출발 - 뉴시스",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 “주주환원 확대”...삼성은 ‘조만간’, 하이닉스는 ‘연말까지’ - v.daum.net",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -146,14 +139,14 @@
    "agents": []
   },
   {
-   "title": "포스텍·삼성전자, 3D 낸드 성능 한계 넘는 반도체 기술 개발 - 경향신문",
+   "title": "삼성전자, 16비트 RAW 지원 센서 ‘아이소셀 HPC’ 선봬 - IT조선",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 16비트 RAW 지원 센서 ‘아이소셀 HPC’ 선봬 - IT조선",
+   "title": "포스텍·삼성전자, 3D 낸드 성능 한계 넘는 반도체 기술 개발 - 경향신문",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -299,7 +292,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -338,7 +331,7 @@
    "agents": []
   },
   {
-   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - chosun.com",
+   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -361,7 +354,7 @@
    ]
   },
   {
-   "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - chosun.com",
+   "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - 조선일보",
    "pub": "Sun, 26 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -624,6 +617,13 @@
    ]
   },
   {
+   "title": "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
@@ -658,13 +658,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SpaceX, Honeywell Aerospace, Sandisk, D-Wave, Datadog, and More Stocks That Explain Today’s Market",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
