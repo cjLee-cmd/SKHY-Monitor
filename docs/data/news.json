@@ -1,20 +1,30 @@
 {
- "ts_kst": "08-07 21:13",
- "n_items": 105,
+ "ts_kst": "08-07 21:23",
+ "n_items": 104,
  "by_source": {
   "kr": 75,
-  "en": 30
+  "en": 29
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 11,
   "P-ADR": 1,
-  "C-CHINA": 8,
+  "M-RISK": 2,
+  "C-CHINA": 9,
   "F-ACTIVE": 2,
-  "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 69,
- "alerts": [],
+ "unassigned": 67,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - MBC 뉴스",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 용인·청주에 54조 투자 확정 - 한국경제",
@@ -65,13 +75,6 @@
    ]
   },
   {
-   "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - yna.co.kr",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"이럴거면 굳이\"…SK하이닉스는 ADR 나스닥 상장 왜 추진한 걸까 - 인베스트조선",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -81,14 +84,21 @@
    ]
   },
   {
-   "title": "월가, SK하이닉스 일제히 '매수' 추천 - 한국경제",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "170만원 찍고 이틀 만에 '140만닉스' 위태…SK하이닉스 4%대 급락 - v.daum.net",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "170만원 찍고 이틀 만에 '140만닉스' 위태…SK하이닉스 4%대 급락 - v.daum.net",
+   "title": "\"이틀 새 15% 빠지네\"… SK하이닉스 추가 하락 가능성은 - 뉴시스",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 주당 375원 분기배당…추가 주주환원 예고 - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -109,21 +119,23 @@
    "agents": []
   },
   {
-   "title": "현금 88조 쌓인 SK하이닉스, 국내 채권시장 '큰손' 됐다…최대 40조 투자 - v.daum.net",
+   "title": "코스피 6258선 마감…SK하이닉스 4.88% 내려 - 전자신문",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[단독] SK하이닉스, 신한證에 최대 2000억 투자...증권사 채권시장 '큰손' 부상[fn마켓워치] - 파이낸셜뉴스",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - MBC 뉴스",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
-   "title": "코스피 6258선 마감…SK하이닉스 4.88% 내려 - 전자신문",
+   "title": "\"어제도 10% 빠졌는데 또\"…SK하이닉스 개미들 '곡소리' - 한국경제",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -569,8 +581,8 @@
    ]
   },
   {
-   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -578,8 +590,8 @@
    ]
   },
   {
-   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
+   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -605,22 +617,8 @@
    ]
   },
   {
-   "title": "AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Steve Eisman Pushes Back on Michael Burry's Market Top Call: 'I Think It's Premature'",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
+   "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
@@ -628,15 +626,33 @@
    ]
   },
   {
-   "title": "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "Micron Shares Surge: What's Driving the Sudden Momentum",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron & 2 Profitable Stocks Smart Investors Are Buying in August",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Buy 5 Top-Ranked Growth Stocks for August to Tap Market Rally",
+   "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
+   "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
