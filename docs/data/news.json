@@ -1,30 +1,20 @@
 {
- "ts_kst": "08-07 21:23",
+ "ts_kst": "08-07 21:32",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 13,
   "P-ADR": 1,
   "M-RISK": 2,
-  "C-CHINA": 9,
-  "F-ACTIVE": 2,
+  "C-CHINA": 8,
+  "F-ACTIVE": 3,
   "R-LEVERAGE": 13
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스피 5% 급락 매도 사이드카 발동‥SK하이닉스 10% 가까이 급락 - MBC 뉴스",
-   "agents": [
-    "M-RISK"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 용인·청주에 54조 투자 확정 - 한국경제",
@@ -98,7 +88,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 주당 375원 분기배당…추가 주주환원 예고 - v.daum.net",
+   "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - 연합뉴스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -106,13 +96,6 @@
   },
   {
    "title": "\"애플의 '중국 메모리 카드' 실패…삼성·SK하이닉스만 웃었다\" - 지디넷코리아",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "뜨거운 관심에 SK하이닉스 매수 쉬쉬하는 채권시장 - 연합인포맥스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -142,15 +125,17 @@
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - inews24.com",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "[업계뒷談] ‘돈으로 산 기술’의 부메랑…삼성전자 DX, 품질 리스크에 발목① - 녹색경제신문",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -228,13 +213,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자·브로드컴, 2,000억 달러 규모 ‘전략적 협력’ - samsung.com",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "포스텍·삼성전자, 3D 낸드(NAND) 반도체 한계 넘는 기술 개발 - 전자신문",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -242,7 +220,21 @@
    "agents": []
   },
   {
+   "title": "삼성전자·브로드컴, 2,000억 달러 규모 ‘전략적 협력’ - samsung.com",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "포스텍·삼성전자, 3D 낸드 성능 한계 넘는 반도체 기술 개발 - khan.co.kr",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[업계뒷談] ‘돈으로 산 기술’의 부메랑…삼성전자 DX, 품질 리스크에 발목① - 녹색경제신문",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -265,7 +257,7 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -292,7 +284,7 @@
    ]
   },
   {
-   "title": "\"막았더니 경쟁자로 돌아왔다\"…창신메모리가 보여준 '규제의 역설' - 파이낸셜뉴스",
+   "title": "\"막았더니 경쟁자로 돌아왔다\"…창신메모리가 보여준 '규제의 역설' - fnnews.com",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -403,13 +395,6 @@
    "agents": []
   },
   {
-   "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - 에너지경제신문",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "[마감시황] 코스피, 외국인 팔자에 6200선 마감…코스닥도 하락 - 아주경제",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -456,6 +441,22 @@
    ]
   },
   {
+   "title": "“이번에도 개미만 당했다?”…비싼 값에 털고 나간 외국인들, 주도권 다시 쥐나 - 매일경제 마켓",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
    "title": "코스피, 외국인 매도에 6200선 후퇴···SK하이닉스 이틀째 급락 - 이지경제",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -470,19 +471,12 @@
    "agents": []
   },
   {
-   "title": "“이번에도 개미만 당했다?”…비싼 값에 털고 나간 외국인들, 주도권 다시 쥐나 - 매일경제 마켓",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "title": "코스피, 외국인 3.3조 순매도에 4%대 급락…6300선 하회 마감 - 메트로신문",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
-    "M-RISK"
+    "F-ACTIVE"
    ]
   },
   {
@@ -554,7 +548,7 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - yna.co.kr",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -581,8 +575,8 @@
    ]
   },
   {
-   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
+   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -590,8 +584,8 @@
    ]
   },
   {
-   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -617,35 +611,22 @@
    ]
   },
   {
-   "title": "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "The Overlooked Chip Stock Poised to Lead the AI Memory Boom",
+   "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "Micron Shares Surge: What's Driving the Sudden Momentum",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition",
+   "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "Micron & 2 Profitable Stocks Smart Investors Are Buying in August",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Buy 5 Top-Ranked Growth Stocks for August to Tap Market Rally",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "Steve Eisman Pushes Back on Michael Burry's Market Top Call: 'I Think It's Premature'",
+   "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
@@ -658,6 +639,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
