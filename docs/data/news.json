@@ -1,9 +1,9 @@
 {
- "ts_kst": "08-08 02:32",
- "n_items": 102,
+ "ts_kst": "08-08 02:42",
+ "n_items": 103,
  "by_source": {
   "kr": 75,
-  "en": 27
+  "en": 28
  },
  "routed": {
   "M-CYCLE": 13,
@@ -13,8 +13,18 @@
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 주당 375원 분기배당…추가 주주환원 예고 - v.daum.net",
@@ -557,7 +567,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -611,32 +621,14 @@
    ]
   },
   {
-   "title": "SK Hynix Slides and the ProShares Ultra SK Hynix ETF (SKHU) Tumbles With It",
+   "title": "Silvaco Group Q2 Earnings Call Highlights",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Citi cuts Micron stock target, sees memory chip prices peaking in 2Q27",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Can MU Stock Compound Its Way Higher?",
+   "title": "SK Hynix Slides and the ProShares Ultra SK Hynix ETF (SKHU) Tumbles With It",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -650,6 +642,20 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "SK Hynix, SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Tech Stocks Shake Off Another Memory Stock Slide",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
