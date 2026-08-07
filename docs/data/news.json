@@ -1,28 +1,26 @@
 {
- "ts_kst": "08-07 14:07",
+ "ts_kst": "08-07 14:16",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 10,
-  "C-CHINA": 11,
-  "P-ADR": 1,
+  "M-CYCLE": 12,
+  "C-CHINA": 12,
+  "P-ADR": 2,
   "F-ACTIVE": 7,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 63,
+ "unassigned": 61,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "수주",
    "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - 뉴스핌",
+   "agents": []
   }
  ],
  "items": [
@@ -34,20 +32,19 @@
    "agents": []
   },
   {
-   "title": "마이크론에 추격 당한 SK하이닉스 위기?…“제품 출하 시점 감안해야” - 스트레이트뉴스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "테슬라 스페이스X '테라팹'에 D램 전문가 채용 중, \"삼성전자 SK하이닉스에 도전\" 분석 - businesspost.co.kr",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "HP·에이수스·에이서, 中 CXMT 칩 도입… 삼전·SK하이닉스 눈치 보며 ‘조용한 채택’ - 글로벌이코노믹",
+   "title": "SK하이닉스·마이크론 D램 점유율, 1%p 차로 좁혀져…CXMT도 1년새 두배 늘어 - 헤럴드경제",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
+    "M-CYCLE",
     "C-CHINA"
    ]
   },
@@ -73,13 +70,6 @@
    "agents": []
   },
   {
-   "title": "버벅이는 AI, 메모리 부족 때문…SK하이닉스가 HBF에 집중하는 이유 - v.daum.net",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "HBM 잇는 ‘HBF’ 표준 벼락 발표…SK하이닉스·샌디스크, AI 메모리 동맹 강화 - dt.co.kr",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -89,7 +79,14 @@
    ]
   },
   {
-   "title": "삼성·엔비디아 SK·구글, 나란히 미래 메모리 기술 논의 - chosun.com",
+   "title": "버벅이는 AI, 메모리 부족 때문…SK하이닉스가 HBF에 집중하는 이유 - v.daum.net",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성·엔비디아 SK·구글, 나란히 미래 메모리 기술 논의 - 조선일보",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -112,35 +109,38 @@
    "agents": []
   },
   {
-   "title": "170만원 찍고 이틀 만에 '140만닉스' 위태…SK하이닉스 4%대 급락 - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "美 AI 반도체주 혼조…SK하이닉스 ADR 4.7%·마이크론 1.3% 하락 - v.daum.net",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE",
+    "P-ADR"
+   ]
   },
   {
-   "title": "\"경력 다 떼고 신입 지원하라네요\"…SK하이닉스 이직길 막힌 삼성맨들 '부글부글' - 아시아경제",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 이번엔 ‘11주 하한가’…프리마켓 시초가 논란 [마켓시그널] - 서울경제",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 6%↓·SK하이닉스 10%↓‥반도체주 급락에 코스피 4% 넘게 하락 마감 - MBC 뉴스",
+   "title": "달랑 11주에…SK하이닉스 또 프리마켓 하한가 충격 - 아시아경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
+   "title": "[속보]삼성전자·SK하이닉스 동반 강보합…1%대 상승 출발 - 뉴시스",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하이닉스 10%대 폭락, 삼전 6.3%↓…외인·기관 팔았다(종합) - v.daum.net",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - businesspost.co.kr",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -154,7 +154,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자노조 “1군 발암물질 가득한 반도체 공장…메가특구법은 외면” - 한겨레",
+   "title": "삼성전자노조 “1군 발암물질 가득한 반도체 공장…메가특구법은 외면” - hani.co.kr",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -196,15 +196,8 @@
    "agents": []
   },
   {
-   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - newspim.com",
+   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - 뉴스핌",
    "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, FMS 2026서 차세대 3D 메모리 비전 제시 - samsung.com",
-   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -222,6 +215,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "삼성전자, GPU 위에 HBM 시공…차세대 ‘주상복합 반도체’ 공개 - 경향신문",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "포스텍·삼성전자, 3D 낸드 성능 한계 넘는 반도체 기술 개발 - 경향신문",
@@ -300,7 +302,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -309,7 +311,7 @@
    ]
   },
   {
-   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
+   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - businesspost.co.kr",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -349,14 +351,14 @@
    "agents": []
   },
   {
-   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - chosun.com",
+   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - chosun.com",
+   "title": "애플 \"中반도체 써야\" 마이크론 \"안돼\"... 트럼프 선택은 - 조선일보",
    "pub": "Sun, 26 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -374,7 +376,7 @@
    ]
   },
   {
-   "title": "반짝 상승 출발한 코스피, 다시 하락세…외국인·개인 매도세 - 한겨레",
+   "title": "반짝 상승 출발한 코스피, 다시 하락세…외국인·개인 매도세 - hani.co.kr",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -626,13 +628,6 @@
    ]
   },
   {
-   "title": "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
@@ -660,7 +655,14 @@
    ]
   },
   {
-   "title": "NVDA Reportedly Weighs Lower-Memory Rubin Ultra GPU Designs To Ease HBM Bottleneck — Why Retail Is Watching Micron",
+   "title": "Buy 5 Top-Ranked Growth Stocks for August to Tap Market Rally",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron's Selloff Exposes a New Risk in the Memory Boom",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
