@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-08 03:27",
+ "ts_kst": "08-08 03:37",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -13,7 +13,17 @@
   "R-LEVERAGE": 13
  },
  "unassigned": 67,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 주당 375원 분기배당…추가 주주환원 예고 - v.daum.net",
@@ -104,14 +114,14 @@
    "agents": []
   },
   {
-   "title": "코스피 이틀째 하락 6200대…SK하이닉스 또 4.9% 급락 - 부산일보",
+   "title": "코스피 6258선 마감…SK하이닉스 4.88% 내려 - 전자신문",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "코스피 6258선 마감…SK하이닉스 4.88% 내려 - 전자신문",
+   "title": "코스피 이틀째 하락 6200대…SK하이닉스 또 4.9% 급락 - 부산일보",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -133,13 +143,6 @@
   },
   {
    "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "\"일당 30만원 줘도 사람 못 구해\"…시골 마을에 무슨 일이 - 한국경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -209,6 +212,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "[특징주] 삼성전자·SK하이닉스, 美반도체 약세에 동반 하락…하이닉스 5%↓ - 이투데이",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "삼성전자·브로드컴, 2,000억 달러 규모 ‘전략적 협력’ - samsung.com",
@@ -388,14 +398,14 @@
    "agents": []
   },
   {
-   "title": "반짝 상승 출발한 코스피, 다시 하락세…외국인·개인 매도세 - 한겨레",
+   "title": "[0807마감체크] 코스피, 외국인 매도세에 6200선 마감... 코스닥도 하락 - 인포스탁데일리",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[0807마감체크] 코스피, 외국인 매도세에 6200선 마감... 코스닥도 하락 - 인포스탁데일리",
+   "title": "반짝 상승 출발한 코스피, 다시 하락세…외국인·개인 매도세 - 한겨레",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -550,7 +560,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -604,6 +614,22 @@
    ]
   },
   {
+   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Silvaco Group Q2 Earnings Call Highlights",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -625,20 +651,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SK Hynix, SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Tech Stocks Shake Off Another Memory Stock Slide",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
