@@ -1,12 +1,12 @@
 {
- "ts_kst": "08-08 02:12",
- "n_items": 103,
+ "ts_kst": "08-08 02:22",
+ "n_items": 102,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 27
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 12,
   "P-ADR": 1,
   "C-CHINA": 8,
   "F-ACTIVE": 4,
@@ -14,26 +14,7 @@
   "R-LEVERAGE": 13
  },
  "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 주당 375원 분기배당…추가 주주환원 예고 - v.daum.net",
@@ -170,6 +151,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자노조 “1군 발암물질 가득한 반도체 공장…메가특구법은 외면” - 한겨레",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자 2%·SK하이닉스 1%↑…증권가 \"반도체 매도 실익 낮다\"[핫스탁] - 뉴시스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -186,13 +174,6 @@
   {
    "title": "반도체가 돌아왔다…삼성전자·SK하이닉스부터 소부장도 강세 [종목+] - 한국경제",
    "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자노조 “1군 발암물질 가득한 반도체 공장…메가특구법은 외면” - 한겨레",
-   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -228,8 +209,8 @@
    "agents": []
   },
   {
-   "title": "앤트로픽도 AI칩 자체 개발…삼성 파운드리, ASIC 시장 확대 기회 잡나 - 아시아투데이",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "삼성·SK, '메모리 장벽' 넘을 차세대 반도체 공개 - v.daum.net",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -463,21 +444,21 @@
    ]
   },
   {
-   "title": "[마감시황]코스피, 장중 상승분 반납하고 6258.77 마감…외국인 8581억원 순매도 - 서울신문",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
     "M-RISK"
+   ]
+  },
+  {
+   "title": "[마감시황]코스피, 장중 상승분 반납하고 6258.77 마감…외국인 8581억원 순매도 - 서울신문",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
    ]
   },
   {
@@ -635,7 +616,7 @@
    "agents": []
   },
   {
-   "title": "SK Hynix Drops 5% After Approving $38B in New Memory Fabs; Seagate Falls 7%, Micron Barely Dips",
+   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -644,21 +625,23 @@
    ]
   },
   {
-   "title": "SK Hynix, SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
+   "title": "Citi cuts Micron stock target, sees memory chip prices peaking in 2Q27",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Can MU Stock Compound Its Way Higher?",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Tech Stocks Shake Off Another Memory Stock Slide",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
+   "title": "SK Hynix Drops 5% After Approving $38B in New Memory Fabs; Seagate Falls 7%, Micron Barely Dips",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
