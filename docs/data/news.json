@@ -1,20 +1,29 @@
 {
- "ts_kst": "08-07 23:53",
+ "ts_kst": "08-08 00:02",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 13,
-  "P-ADR": 1,
+  "M-CYCLE": 12,
   "C-CHINA": 8,
   "F-ACTIVE": 3,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 68,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - 연합뉴스",
@@ -33,7 +42,7 @@
    ]
   },
   {
-   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - Chosunbiz",
+   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - biz.chosun.com",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -58,31 +67,15 @@
    "agents": []
   },
   {
-   "title": "\"이럴거면 굳이\"…SK하이닉스는 ADR 나스닥 상장 왜 추진한 걸까 - 인베스트조선",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "월가, SK하이닉스 일제히 '매수' 추천 - hankyung.com",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "170만원 찍고 이틀 만에 '140만닉스' 위태…SK하이닉스 4%대 급락 - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "'167만원→117만원' SK하이닉스 '하한가' 충격…프리마켓 시초가 논란 - v.daum.net",
    "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "뜨거운 관심에 SK하이닉스 매수 쉬쉬하는 채권시장 - news.einfomax.co.kr",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -95,14 +88,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 용인·청주에 54조 투자 확정 - hankyung.com",
+   "title": "SK하이닉스, 용인·청주 팹에 54조 투자…“수요 선제 대응” - 문화일보",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 용인·청주에 신규 팹 짓는다… 54조 원 규모 투자 - 동아일보",
+   "title": "SK하이닉스, 용인·청주에 54조 투자 확정 - hankyung.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -132,6 +125,20 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스, 솔리다임 키우기 나선 이유는…“이번 사이클이 최적의 기회” - 조선비즈 - biz.chosun.com",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"경력 다 떼고 신입 지원하라네요\"…SK하이닉스 이직길 막힌 삼성맨들 '부글부글' - 아시아경제",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성전자 SK하이닉스 소극적 주주환원에 해외 증권가 비판, \"반도체 호황 지속성 의문\" - 비즈니스포스트",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -141,6 +148,13 @@
   {
    "title": "포스텍·삼성전자, 3D 낸드(NAND) 반도체 한계 넘는 기술 개발 - etnews.com",
    "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, CSS 사업팀 인력 60% 재배치…메모리·파운드리로 이동 - 아이뉴스24",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -181,7 +195,7 @@
    "agents": []
   },
   {
-   "title": "AI 메모리 경쟁은 장비 확보부터…삼성·SK하이닉스, 2027년 물량 선점 - g-enews.com",
+   "title": "AI 메모리 경쟁은 장비 확보부터…삼성·SK하이닉스, 2027년 물량 선점 - 글로벌이코노믹",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -202,13 +216,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, CSS 사업팀 인력 60% 재배치…메모리·파운드리로 이동 - 아이뉴스24",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자, GPU 위에 HBM 시공…차세대 ‘주상복합 반도체’ 공개 - 경향신문",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -218,7 +225,7 @@
    ]
   },
   {
-   "title": "삼성전자·브로드컴, 2,000억 달러 규모 ‘전략적 협력’ - semiconductor.samsung.com",
+   "title": "삼성전자·브로드컴, 2,000억 달러 규모 ‘전략적 협력’ - samsung.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -437,7 +444,7 @@
    "agents": []
   },
   {
-   "title": "'오락가락' 코스피 6250선 약보합...외국인 1조원 순매도 - digitaltoday.co.kr",
+   "title": "'오락가락' 코스피 6250선 약보합...외국인 1조원 순매도 - 디지털투데이",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -487,7 +494,7 @@
    ]
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -609,7 +616,30 @@
    "agents": []
   },
   {
+   "title": "Doximity, Trade Desk, SK Hynix, SpaceX, Rigetti, Atlassian, and More Stocks That Explain Today’s Market",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Claude AI’s Newest Stock Picks Are Also Hedge Fund Favorites: One Breakout Biotech, One AI Chip Bet",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Not Micron, Not Nvidia. This Artificial Intelligence (AI) Giant Could Be the Ultimate Winner of the AI Arms Race.",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -620,31 +650,6 @@
   {
    "title": "Citi cuts Micron stock target, sees memory chip prices peaking in 2Q27",
    "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Can MU Stock Compound Its Way Higher?",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Shares Surge: What's Driving the Sudden Momentum",
-   "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
