@@ -1,183 +1,187 @@
 {
- "ts": "2026-08-07T01:00:46.181215+09:00",
- "ts_kst": "08-07 01:00",
+ "ts": "2026-08-07T09:39:48.025320+09:00",
+ "ts_kst": "08-07 09:39",
  "groups": {
   "해외지수": {
    "spx": {
     "name": "S&P 500",
-    "cur": 7703.8,
-    "chg_1d": -0.26,
-    "chg_5d": 3.58,
-    "chg_20d": 2.12,
-    "chg_60d": 4.6,
-    "range_pos": 93.0
+    "cur": 7709.96,
+    "chg_1d": -0.18,
+    "chg_5d": 3.66,
+    "chg_20d": 2.2,
+    "chg_60d": 5.08,
+    "range_pos": 94.0
    },
    "ndx": {
     "name": "나스닥",
-    "cur": 26319.32,
-    "chg_1d": -0.17,
-    "chg_5d": 4.77,
-    "chg_20d": 0.43,
-    "chg_60d": 1.86,
-    "range_pos": 71.0
+    "cur": 26348.35,
+    "chg_1d": -0.06,
+    "chg_5d": 4.88,
+    "chg_20d": 0.54,
+    "chg_60d": 2.1,
+    "range_pos": 72.0
    },
    "sox": {
     "name": "필라델피아반도체",
-    "cur": 12142.28,
-    "chg_1d": 1.11,
-    "chg_5d": 7.43,
-    "chg_20d": -6.31,
-    "chg_60d": 5.84,
-    "range_pos": 40.0
+    "cur": 12048.69,
+    "chg_1d": 0.33,
+    "chg_5d": 6.6,
+    "chg_20d": -7.03,
+    "chg_60d": 7.95,
+    "range_pos": 38.0
    }
   },
   "국내지수": {
    "kospi": {
     "name": "코스피",
-    "cur": 6296.38,
-    "chg_1d": -0.98,
-    "chg_5d": 11.18,
-    "chg_20d": -17.76,
-    "chg_60d": -14.74,
-    "range_pos": 20.0
+    "cur": 6333.37,
+    "chg_1d": -4.01,
+    "chg_5d": 13.23,
+    "chg_20d": -12.6,
+    "chg_60d": -15.44,
+    "range_pos": 21.0
    },
    "kosdaq": {
     "name": "코스닥",
-    "cur": 801.67,
-    "chg_1d": 2.68,
-    "chg_5d": 20.97,
-    "chg_20d": -3.56,
-    "chg_60d": -33.76,
-    "range_pos": 28.0
+    "cur": 806.95,
+    "chg_1d": 0.92,
+    "chg_5d": 25.15,
+    "chg_20d": 2.8,
+    "chg_60d": -32.71,
+    "range_pos": 29.0
    }
   },
   "변동성": {
    "vix": {
     "name": "VIX",
-    "cur": 15.5,
-    "chg_1d": -1.96,
-    "chg_5d": -9.3,
-    "chg_20d": -2.15,
-    "chg_60d": -10.87,
-    "range_pos": 7.0
+    "cur": 15.15,
+    "chg_1d": -4.17,
+    "chg_5d": -11.35,
+    "chg_20d": -4.36,
+    "chg_60d": -12.88,
+    "range_pos": 2.0
    },
    "vxn": {
     "name": "나스닥 VIX",
-    "cur": 24.54,
-    "chg_1d": 1.61,
-    "chg_5d": -10.93,
-    "chg_20d": -8.81,
-    "chg_60d": 4.07,
-    "range_pos": 19.0
+    "cur": 23.95,
+    "chg_1d": -0.83,
+    "chg_5d": -13.07,
+    "chg_20d": -11.0,
+    "chg_60d": 3.46,
+    "range_pos": 14.0
    },
    "vvix": {
     "name": "VVIX",
-    "cur": 89.03,
-    "chg_1d": -1.55,
-    "chg_5d": -5.95,
-    "chg_20d": 0.28,
-    "chg_60d": -4.98,
-    "range_pos": 14.0
+    "cur": 88.72,
+    "chg_1d": -1.89,
+    "chg_5d": -6.28,
+    "chg_20d": -0.07,
+    "chg_60d": -5.22,
+    "range_pos": 13.0
    },
    "skew": {
     "name": "SKEW 꼬리위험",
-    "cur": 133.32,
-    "chg_1d": 5.47,
-    "chg_5d": -4.46,
-    "chg_20d": -11.0,
-    "chg_60d": -1.55,
-    "range_pos": 24.0
+    "cur": 134.73,
+    "chg_1d": 1.06,
+    "chg_5d": -3.7,
+    "chg_20d": -6.87,
+    "chg_60d": -1.01,
+    "range_pos": 29.0
    },
    "vkospi": {
     "name": "VKOSPI",
-    "cur": 78.55,
-    "chg_1d": -4.27,
+    "cur": 77.17,
+    "chg_1d": -1.76,
     "chg_5d": 0,
     "chg_20d": 0,
     "chg_60d": 0,
-    "range_pos": 75,
-    "date": "20260805",
+    "range_pos": 73,
+    "date": "20260806",
     "src": "KRX"
    }
   },
   "원자재": {
    "oil": {
     "name": "WTI 유가",
-    "cur": 76.9,
-    "chg_1d": 2.23,
-    "chg_5d": -8.0,
-    "chg_20d": 6.69,
-    "chg_60d": -19.12,
-    "range_pos": 21.0
+    "cur": 78.25,
+    "chg_1d": 4.03,
+    "chg_5d": -6.39,
+    "chg_20d": 8.56,
+    "chg_60d": -17.7,
+    "range_pos": 24.0
    },
    "gold": {
     "name": "금",
-    "cur": 4307.4,
-    "chg_1d": 1.45,
-    "chg_5d": 5.06,
-    "chg_20d": 4.28,
-    "chg_60d": -8.0,
-    "range_pos": 44.0
+    "cur": 4301.4,
+    "chg_1d": 1.31,
+    "chg_5d": 4.91,
+    "chg_20d": 4.13,
+    "chg_60d": -8.13,
+    "range_pos": 43.0
    },
    "copper": {
     "name": "구리",
-    "cur": 6.69,
-    "chg_1d": -0.13,
-    "chg_5d": 3.88,
-    "chg_20d": 7.72,
-    "chg_60d": 9.09,
-    "range_pos": 99.0
+    "cur": 6.71,
+    "chg_1d": 0.16,
+    "chg_5d": 4.18,
+    "chg_20d": 8.03,
+    "chg_60d": 9.41,
+    "range_pos": 100.0
    }
   },
   "반도체Peer": {
    "mu": {
     "name": "마이크론",
-    "cur": 897.67,
-    "chg_1d": 0.5,
-    "chg_5d": 2.63,
-    "chg_20d": -9.48,
-    "chg_60d": 34.67,
-    "range_pos": 44.0
+    "cur": 881.47,
+    "chg_1d": -1.31,
+    "chg_5d": 0.78,
+    "chg_20d": -11.11,
+    "chg_60d": 36.32,
+    "range_pos": 41.0
    },
    "tsm": {
     "name": "TSMC",
-    "cur": 419.42,
-    "chg_1d": 1.31,
-    "chg_5d": 3.99,
-    "chg_20d": -4.01,
-    "chg_60d": -0.02,
-    "range_pos": 43.0
+    "cur": 418.2,
+    "chg_1d": 1.01,
+    "chg_5d": 3.69,
+    "chg_20d": -4.29,
+    "chg_60d": 0.98,
+    "range_pos": 42.0
    },
    "nvda": {
     "name": "엔비디아",
-    "cur": 217.63,
-    "chg_1d": -0.73,
-    "chg_5d": 11.58,
-    "chg_20d": 7.32,
-    "chg_60d": 4.72,
-    "range_pos": 60.0
+    "cur": 218.99,
+    "chg_1d": -0.1,
+    "chg_5d": 12.28,
+    "chg_20d": 7.99,
+    "chg_60d": 3.54,
+    "range_pos": 63.0
    }
   }
  },
  "derived": {
-  "mu_vs_sox_20d": -3.17,
-  "kospi_vs_spx_20d": -19.88,
-  "sox_vs_ndx_20d": -6.74,
-  "vkospi_vix_ratio": 5.07,
+  "mu_vs_sox_20d": -4.08,
+  "kospi_vs_spx_20d": -14.8,
+  "sox_vs_ndx_20d": -7.57,
+  "vkospi_vix_ratio": 5.09,
   "vxn_vix_ratio": 1.58
  },
  "alerts": [
   {
    "level": "high",
-   "text": "VKOSPI 78.5 — 고공포 구간."
+   "text": "VKOSPI 77.2 — 고공포 구간."
   },
   {
    "level": "high",
    "text": "VXN/VIX 1.58 — 공포가 기술주에 집중."
   },
   {
+   "level": "high",
+   "text": "마이크론 20일 -11.1% — 메모리 사이클 경고."
+  },
+  {
    "level": "mid",
-   "text": "코스피가 S&P 대비 -19.9%p 열위 — 한국 디스카운트 확대."
+   "text": "코스피가 S&P 대비 -14.8%p 열위 — 한국 디스카운트 확대."
   }
  ],
  "log": [
