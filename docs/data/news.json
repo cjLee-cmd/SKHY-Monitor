@@ -1,20 +1,30 @@
 {
- "ts_kst": "08-07 20:06",
+ "ts_kst": "08-07 20:16",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 15,
-  "P-ADR": 2,
-  "C-CHINA": 8,
+  "M-CYCLE": 16,
+  "P-ADR": 1,
+  "C-CHINA": 9,
   "F-ACTIVE": 2,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "'빚투' 신용융자 잔고 27조원대로↓…7월 반대매매 1조원 육박 - slist.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - 중앙일보",
@@ -42,14 +52,7 @@
    ]
   },
   {
-   "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - 연합뉴스",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 용인·청주에 신규 팹 짓는다… 54조 원 규모 투자 - 동아일보",
+   "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -57,6 +60,13 @@
   },
   {
    "title": "SK하이닉스, 용인 2기 팹·청주 M17에 총 54조 투자 확정 - 연합뉴스",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 용인·청주에 신규 팹 짓는다… 54조 원 규모 투자 - 동아일보",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -72,6 +82,13 @@
    ]
   },
   {
+   "title": "\"경력 다 떼고 신입 지원하라네요\"…SK하이닉스 이직길 막힌 삼성맨들 '부글부글' - v.daum.net",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "\"이럴거면 굳이\"…SK하이닉스는 ADR 나스닥 상장 왜 추진한 걸까 - 인베스트조선",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -81,6 +98,13 @@
    ]
   },
   {
+   "title": "월가, SK하이닉스 일제히 '매수' 추천 - 한국경제",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "\"이틀 새 15% 빠지네\"… SK하이닉스 추가 하락 가능성은 - 뉴시스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -88,24 +112,7 @@
    "agents": []
   },
   {
-   "title": "美 AI 반도체주 혼조…SK하이닉스 ADR 4.7%·마이크론 1.3% 하락 - v.daum.net",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE",
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "\"경력 다 떼고 신입 지원하라네요\"…SK하이닉스 이직길 막힌 삼성맨들 '부글부글' - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - v.daum.net",
+   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - 아이뉴스24",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -123,11 +130,13 @@
    ]
   },
   {
-   "title": "“15% 빠졌는데 사도 되나”...SK하이닉스 급락 부른 ‘루빈 리스크’ - 에너지경제신문",
+   "title": "엔비디아 HBM 축소 우려…SK하이닉스 4.8% 하락[핫종목](종합) - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "\"애플의 '중국 메모리 카드' 실패…삼성·SK하이닉스만 웃었다\" - 지디넷코리아",
@@ -384,13 +393,6 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - 뉴스핌",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "반짝 상승 출발한 코스피, 다시 하락세…외국인·개인 매도세 - 한겨레",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -398,14 +400,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피, 외국인 팔자에 6200선 마감…코스닥도 하락 - 아주경제",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피, 외국인 ‘팔자’에 6,200선 후퇴…반도체주 약세 부담 - 산경투데이",
+   "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - 뉴스핌",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -419,7 +414,14 @@
    "agents": []
   },
   {
-   "title": "[마감] 코스피, 외국인 매도에 6250선 후퇴 - 알파경제",
+   "title": "[마감시황] 코스피, 외국인 팔자에 6200선 마감…코스닥도 하락 - 아주경제",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피, 외국인 ‘팔자’에 6,200선 후퇴…반도체주 약세 부담 - sankyungtoday.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -433,6 +435,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "[마감] 코스피, 외국인 매도에 6250선 후퇴 - 알파경제",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피, 외국인 1조원대 매도에 상승분 반납···6250선 약세 마감 - 서울파이낸스",
@@ -451,15 +460,8 @@
    ]
   },
   {
-   "title": "코스피, 외국인 매도에 6200선 후퇴···SK하이닉스 이틀째 급락 - 이지경제",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피, 외국인 매도에 6200대로 후퇴…이틀째 하락 - 애드뉴스인천",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "“이번에도 개미만 당했다?”…비싼 값에 털고 나간 외국인들, 주도권 다시 쥐나 - 매일경제 마켓",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -474,8 +476,15 @@
    ]
   },
   {
-   "title": "“이번에도 개미만 당했다?”…비싼 값에 털고 나간 외국인들, 주도권 다시 쥐나 - 매일경제 마켓",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피, 외국인 매도에 6200대로 후퇴…이틀째 하락 - 애드뉴스인천",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -576,8 +585,8 @@
    ]
   },
   {
-   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
+   "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -585,8 +594,8 @@
    ]
   },
   {
-   "title": "[증시 프리즘] 폭락장 부른 '빚투' 역풍…신용융자 잔고 감소속 반대매매 급증 - thefairnews.co.kr",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -603,36 +612,13 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 27조원대로↓…7월 반대매매 1조원 육박 - 싱글리스트",
+   "title": "'빚투' 신용융자 잔고 27조원대로↓…7월 반대매매 1조원 육박 - slist.kr",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "Steve Eisman Pushes Back on Michael Burry's Market Top Call: 'I Think It's Premature'",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
@@ -645,6 +631,31 @@
   },
   {
    "title": "Micron Shares Surge: What's Driving the Sudden Momentum",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron & 2 Profitable Stocks Smart Investors Are Buying in August",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Buy 5 Top-Ranked Growth Stocks for August to Tap Market Rally",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron's Selloff Exposes a New Risk in the Memory Boom",
    "pub": "Thu, 06 Aug 2026",
    "src": "en",
    "q": "MU",
