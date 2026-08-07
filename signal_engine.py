@@ -153,9 +153,44 @@ def kakao_send(text):
         return False
 
 
-def notify(title, body, high=False):
+def notify(title, body, high=False, short=None):
+    """ntfy에는 전문(body), 카카오에는 축약본(short)을 보낸다.
+
+    카카오 text 템플릿은 190자에서 잘리므로, 경고 문구를 추가하면 기존 본문의
+    면책 문구까지 잘려나간다. short를 주면 카카오에만 축약본을 사용한다.
+    """
     ntfy_send(title, body, high)
-    kakao_send(title + "\n" + body)
+    kakao_send(title + "\n" + (short if short else body))
+
+
+ROUNDTRIP_COST_LO = 0.5   # 왕복비용 하한(%): 수수료+환전+스프레드
+ROUNDTRIP_COST_HI = 1.4   # 왕복비용 상한(%)
+PERF_WARN_MIN_N = 5       # 경고 산출 최소 완결 표본
+PERF_WARN_WINDOW = 20     # 최근 N건만 평가
+
+
+def perf_warning(st):
+    """최근 완결 왕복 평균 손익이 왕복비용 이하이면 경고 문구를 반환한다.
+
+    2026-08-07 재보정 실측: 완결 12건 gross +4.08%p(평균 +0.34, 승률 25%),
+    비용 0.5% 차감 시 -1.92%p / 1.4% 차감 시 -12.72%p. 사용자가 비용 차감 후
+    실질 성과를 알림에서 바로 인지하도록 한다. 산출 실패는 무시(알림 유지).
+    """
+    try:
+        pn = [s["pnl_pct"] for s in st.get("signals", [])
+              if isinstance(s.get("pnl_pct"), (int, float))][-PERF_WARN_WINDOW:]
+        if len(pn) < PERF_WARN_MIN_N:
+            return ""
+        avg = sum(pn) / len(pn)
+        if avg > ROUNDTRIP_COST_HI:
+            return ""
+        win = 100.0 * sum(1 for x in pn if x > 0) / len(pn)
+        return ("[경고] 최근 완결 {}건 평균 {:+.2f}%p / 승률 {:.0f}% — "
+                "왕복비용({:.1f}~{:.1f}%) 이하, 순손실 가능.\n").format(
+            len(pn), avg, win, ROUNDTRIP_COST_LO, ROUNDTRIP_COST_HI)
+    except Exception as e:
+        print("perf_warning 산출 실패(무시):", e)
+        return ""
 
 
 SWITCH_CONFIRM = 2        # 2회 연속 관측 확인 (실측: 밴드 첫 진입의 17%가 1틱 노이즈)
@@ -299,12 +334,17 @@ def main():
         save_state(st)
         label = "매수 신호" if fired == "BUY" else "청산 신호"
         pnl_line = "손익 {:+.2f}% (수수료 미반영)\n".format(pnl) if pnl is not None else ""
-        body = ("{}\n프리미엄 {:.2f}% ({})\n한국 {:,.0f}원 / ADR ${:.2f}\n{}"
+        warn_line = perf_warning(st)
+        body = ("{}\n프리미엄 {:.2f}% ({})\n한국 {:,.0f}원 / ADR ${:.2f}\n{}{}"
                 "규칙 v2: 매수>={:.2f}% 청산<={:.2f}% 스탑 -{:.0f}%\n"
                 "* 검증 중인 가설입니다. 투자 판단은 본인 책임.").format(
-            why, prem, last["ts_kst"], kr, last["adr_price"], pnl_line,
+            why, prem, last["ts_kst"], kr, last["adr_price"], pnl_line, warn_line,
             BUY_AT, SELL_AT, STOP_PCT)
-        notify("[SKHY] " + label, body, high=True)
+        short = ("{}\n프리미엄 {:.2f}% | 한국 {:,.0f}원 | ADR ${:.2f}\n{}{}"
+                 "* 가설 검증 중, 투자 판단은 본인 책임.").format(
+            why.split(" (")[0].split(":")[0], prem, kr, last["adr_price"],
+            pnl_line, warn_line)
+        notify("[SKHY] " + label, body, high=True, short=short)
         print("SIGNAL {}: {} / 프리미엄 {:.2f}% @ {}".format(fired, why, prem, last["ts_kst"]))
     else:
         save_state(st)
