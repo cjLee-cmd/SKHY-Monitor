@@ -1,25 +1,25 @@
 {
- "ts_kst": "08-07 22:19",
+ "ts_kst": "08-07 22:29",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 15,
-  "P-ADR": 2,
+  "M-CYCLE": 13,
+  "P-ADR": 1,
   "C-CHINA": 8,
   "F-ACTIVE": 3,
   "M-RISK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 64,
+ "unassigned": 66,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "'빚투' 신용융자 잔고 27조원대로↓…7월 반대매매 1조원 육박 - 싱글리스트",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -75,14 +75,11 @@
    "agents": []
   },
   {
-   "title": "\"마이크론보다 저렴, SK하닉 320달러까지 간다\"…월가는 왜 ADR '매수'인가 - v.daum.net",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "\"이틀 새 15% 빠지네\"… SK하이닉스 추가 하락 가능성은 - 뉴시스",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE",
-    "P-ADR"
-   ]
+   "agents": []
   },
   {
    "title": "SK하이닉스 11주에 또 하한가… NXT 프리마켓 가격 왜곡 또 재발 - 조선비즈 - Chosunbiz",
@@ -194,6 +191,13 @@
    "agents": []
   },
   {
+   "title": "AI 메모리 경쟁은 장비 확보부터…삼성·SK하이닉스, 2027년 물량 선점 - 글로벌이코노믹",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, GPU 위에 HBM 시공…차세대 ‘주상복합 반도체’ 공개 - khan.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -219,13 +223,6 @@
   {
    "title": "삼성전자, FMS 2026서 차세대 3D 메모리 비전 제시 - samsung.com",
    "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[고환율 완화 언제까지] 삼성, 반도체 수요·가격이 상쇄…모바일·가전 설상가상 - 네이트",
-   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -378,6 +375,13 @@
    ]
   },
   {
+   "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - 뉴스핌",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - 경북매일",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -386,13 +390,6 @@
   },
   {
    "title": "코스피, 6400 회복했다 6200대로 '뚝'…외국인 매도에 이틀째 하락 - hidomin.com",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - 뉴스핌",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -434,7 +431,7 @@
    "agents": []
   },
   {
-   "title": "'오락가락' 코스피 6250선 약보합...외국인 1조원 순매도 - digitaltoday.co.kr",
+   "title": "'오락가락' 코스피 6250선 약보합...외국인 1조원 순매도 - 디지털투데이",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -550,7 +547,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -640,6 +637,13 @@
    ]
   },
   {
+   "title": "Can MU Stock Compound Its Way Higher?",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "The Overlooked Chip Stock Poised to Lead the AI Memory Boom",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -648,13 +652,6 @@
   },
   {
    "title": "AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Steve Eisman Pushes Back on Michael Burry's Market Top Call: 'I Think It's Premature'",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
