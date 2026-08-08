@@ -1,29 +1,19 @@
 {
- "ts_kst": "08-08 15:00",
+ "ts_kst": "08-08 15:10",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 13,
   "C-CHINA": 7,
   "F-ACTIVE": 4,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 69,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
   {
    "title": "하이닉스 단 1주 하한가, 실수인가 조작인가? \"상하한가 주문 금지\" - MBC 뉴스",
@@ -47,7 +37,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 용인 2기 팹·청주 M17에 총 54조 투자 확정 - 연합뉴스",
+   "title": "SK하이닉스, 용인 2기 팹·청주 M17에 총 54조 투자 확정 - yna.co.kr",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -98,15 +88,17 @@
    ]
   },
   {
-   "title": "“15% 빠졌는데 사도 되나”...SK하이닉스 급락 부른 ‘루빈 리스크’ - 에너지경제신문",
+   "title": "'불안과 기대 사이' 널뛰는 SK하이닉스…증권가 \"HBM4·LTA 기반 펀터멘털 견고\" - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "\"삼성전자·SK하이닉스 연말 순현금 375조원…엔비디아의 2배\" - v.daum.net",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "“15% 빠졌는데 사도 되나”...SK하이닉스 급락 부른 ‘루빈 리스크’ - 에너지경제신문",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -195,7 +187,7 @@
    "agents": []
   },
   {
-   "title": "삼성 파운드리, 4나노 풀캐파에 5나노 주문 늘어…AI·서버로 영역 확대 - zdnet.co.kr",
+   "title": "삼성 파운드리, 4나노 풀캐파에 5나노 주문 늘어…AI·서버로 영역 확대 - 지디넷코리아",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -375,14 +367,14 @@
    "agents": []
   },
   {
-   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - 경북매일",
+   "title": "[0807마감체크] 코스피, 외국인 매도세에 6200선 마감... 코스닥도 하락 - 인포스탁데일리",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[0807마감체크] 코스피, 외국인 매도세에 6200선 마감... 코스닥도 하락 - 인포스탁데일리",
+   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - 경북매일",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -476,7 +468,7 @@
    ]
   },
   {
-   "title": "[주간증시전망] 코스피, 급락 후 반등세 이어갈까…美 CPI·외국인 수급 촉각 - ajunews.com",
+   "title": "[주간증시전망] 코스피, 급락 후 반등세 이어갈까…美 CPI·외국인 수급 촉각 - 아주경제",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -526,7 +518,7 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - nspna.com",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -612,20 +604,6 @@
    "agents": []
   },
   {
-   "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Citi Revamps Micron Target Target With A Twist",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -635,13 +613,6 @@
    ]
   },
   {
-   "title": "SK Hynix invests $38B in new plants amid AI memory shortages",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -649,6 +620,31 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Micron Stock Slips as Citi Cuts Target by $250",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK Hynix Slides and the ProShares Ultra SK Hynix ETF (SKHU) Tumbles With It",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
