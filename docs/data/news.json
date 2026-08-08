@@ -1,19 +1,36 @@
 {
- "ts_kst": "08-08 15:49",
+ "ts_kst": "08-08 15:50",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 13,
   "C-CHINA": 7,
   "F-ACTIVE": 5,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 65,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - newspim.com",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "하이닉스 단 1주 하한가, 실수인가 조작인가? \"상하한가 주문 금지\" - MBC 뉴스",
@@ -37,7 +54,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 용인 2기 팹·청주 M17에 총 54조 투자 확정 - yna.co.kr",
+   "title": "SK하이닉스, 용인 2기 팹·청주 M17에 총 54조 투자 확정 - 연합뉴스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -74,7 +91,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 2천733억원 분기배당 결정…\"추가 주주환원 검토\" - 연합인포맥스",
+   "title": "\"10억 넣어도 25만원\"?…SK하이닉스, '쥐꼬리 배당금' 여론 보니 - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -88,6 +105,20 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "“15% 빠졌는데 사도 되나”...SK하이닉스 급락 부른 ‘루빈 리스크’ - 에너지경제신문",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"삼성전자·SK하이닉스 연말 순현금 375조원…엔비디아의 2배\" - v.daum.net",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "SK하이닉스, ‘솔리다임’ 상장 포석…주주가치 희석 딜레마 - 서울경제TV",
@@ -115,21 +146,7 @@
    ]
   },
   {
-   "title": "이틀 연속 SK하이닉스 던졌다…삼성전기·오이솔루션은 매수 [주식 초고수는 지금] - 서울경제",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“15% 빠졌는데 사도 되나”...SK하이닉스 급락 부른 ‘루빈 리스크’ - ekn.kr",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "포스텍·삼성전자, 3D 낸드(NAND) 반도체 한계 넘는 기술 개발 - etnews.com",
+   "title": "포스텍·삼성전자, 3D 낸드(NAND) 반도체 한계 넘는 기술 개발 - 전자신문",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -187,14 +204,14 @@
    "agents": []
   },
   {
-   "title": "삼성 파운드리, 4나노 풀캐파에 5나노 주문 늘어…AI·서버로 영역 확대 - zdnet.co.kr",
+   "title": "삼성 파운드리, 4나노 풀캐파에 5나노 주문 늘어…AI·서버로 영역 확대 - 지디넷코리아",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - 뉴스핌",
+   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - newspim.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -245,7 +262,7 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -353,7 +370,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - 뉴스핌",
+   "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - newspim.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -415,7 +432,7 @@
    "agents": []
   },
   {
-   "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - ekn.kr",
+   "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - 에너지경제신문",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -436,7 +453,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피 4%대 급락…반도체 조정에 외국인 매도세 - 브릿지경제",
+   "title": "[마감시황] 코스피 4%대 급락…반도체 조정에 외국인 매도세 - viva100.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -513,7 +530,7 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - nspna.com",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -538,7 +555,7 @@
    "agents": []
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - yna.co.kr",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -574,7 +591,7 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
    "pub": "Wed, 22 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -599,20 +616,6 @@
    ]
   },
   {
-   "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Citi Revamps Micron Target Target With A Twist",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -620,13 +623,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SK Hynix invests $38B in new plants amid AI memory shortages",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
@@ -638,11 +634,38 @@
    ]
   },
   {
-   "title": "Michael Burry issues blunt warning as he bets against 2 AI favorites",
+   "title": "Micron Stock Slips as Citi Cuts Target by $250",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK Hynix Slides and the ProShares Ultra SK Hynix ETF (SKHU) Tumbles With It",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "SK Hynix Drops 5% After Approving $38B in New Memory Fabs; Seagate Falls 7%, Micron Barely Dips",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
