@@ -1,45 +1,19 @@
 {
- "ts_kst": "08-08 16:10",
+ "ts_kst": "08-08 16:20",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 14,
+  "M-CYCLE": 15,
   "C-CHINA": 7,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - munhwa.com",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - 뉴스핌",
-   "agents": []
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "하이닉스 단 1주 하한가, 실수인가 조작인가? \"상하한가 주문 금지\" - MBC 뉴스",
@@ -56,8 +30,22 @@
    "agents": []
   },
   {
-   "title": "하이닉스, 전날 10% 폭락이어 또 4.8% 급락…삼전 0.2%↑(종합) - v.daum.net",
+   "title": "SK하이닉스 주당 375원 배당…“3분기 중 주주환원 방안 확정” - dt.co.kr",
    "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 주당 375원 분기배당…3분기 추가 주주환원도 예고 - 주간조선",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "역대급 실적에 화답...SK하이닉스, 주주환원 시점 3분기로 조기 발표 - v.daum.net",
+   "pub": "Sat, 08 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -86,21 +74,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주당 375원 배당…“3분기 중 주주환원 방안 확정” - dt.co.kr",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 주당 375원 분기배당…3분기 추가 주주환원도 예고 - 주간조선",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"10억 넣어도 25만원\"?…SK하이닉스, '쥐꼬리 배당금' 여론 보니 - v.daum.net",
+   "title": "뜨거운 관심에 SK하이닉스 매수 쉬쉬하는 채권시장 - 연합인포맥스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -201,7 +175,7 @@
    "agents": []
   },
   {
-   "title": "美 반도체 혼조…삼성전자 2%, SK하이닉스 1% 상승[핫종목] - 뉴스1",
+   "title": "美 반도체 혼조…삼성전자 2%, SK하이닉스 1% 상승[핫종목] - news1.kr",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -404,13 +378,6 @@
    "agents": []
   },
   {
-   "title": "[0807마감체크] 코스피, 외국인 매도세에 6200선 마감... 코스닥도 하락 - 인포스탁데일리",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - munhwa.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -421,6 +388,13 @@
   },
   {
    "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - 경북매일",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "[0807마감체크] 코스피, 외국인 매도세에 6200선 마감... 코스닥도 하락 - 인포스탁데일리",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -636,20 +610,6 @@
    ]
   },
   {
-   "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Citi Revamps Micron Target Target With A Twist",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -659,13 +619,6 @@
    ]
   },
   {
-   "title": "SK Hynix invests $38B in new plants amid AI memory shortages",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -673,6 +626,31 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Micron Stock Slips as Citi Cuts Target by $250",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK Hynix Slides and the ProShares Ultra SK Hynix ETF (SKHU) Tumbles With It",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
