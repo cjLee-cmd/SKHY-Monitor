@@ -1,36 +1,32 @@
 {
- "ts_kst": "08-08 14:24",
+ "ts_kst": "08-08 14:34",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 10,
+  "M-CYCLE": 12,
   "C-CHINA": 7,
-  "F-ACTIVE": 3,
+  "F-ACTIVE": 4,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 71,
- "alerts": [],
+ "unassigned": 68,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "하이닉스 단 1주 하한가, 실수인가 조작인가? \"상하한가 주문 금지\" - MBC 뉴스",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'167만원→117만원' SK하이닉스 '하한가' 충격…프리마켓 시초가 논란 - v.daum.net",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "NXT, 12일부터 프리마켓 상·하한가 주문 제한…'SK하이닉스 사태' 재발 방지 - 뉴스핌",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -79,7 +75,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주당 375원 배당…“3분기 중 주주환원 방안 확정” - dt.co.kr",
+   "title": "SK하이닉스, 주당 375원 분기배당…“3분기 중 추가 주주환원 방안 발표” - 전자신문",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -93,7 +89,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - v.daum.net",
+   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - 아이뉴스24",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -109,13 +105,11 @@
    "agents": []
   },
   {
-   "title": "먼저 맺은 LTA, 손해로 돌아올까… SK하이닉스, HBM 선점의 기회비용 - 조선비즈 - biz.chosun.com",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "\"삼성전자·SK하이닉스 연말 순현금 375조원…엔비디아의 2배\" - v.daum.net",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "SK하이닉스, ‘솔리다임’ 상장 포석…주주가치 희석 딜레마 - 서울경제TV",
@@ -123,6 +117,24 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - 중앙일보",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - v.daum.net",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "포스텍·삼성전자, 3D 낸드(NAND) 반도체 한계 넘는 기술 개발 - 전자신문",
@@ -183,7 +195,7 @@
    "agents": []
   },
   {
-   "title": "삼성 파운드리, 4나노 풀캐파에 5나노 주문 늘어…AI·서버로 영역 확대 - 지디넷코리아",
+   "title": "삼성 파운드리, 4나노 풀캐파에 5나노 주문 늘어…AI·서버로 영역 확대 - zdnet.co.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -225,7 +237,7 @@
    "agents": []
   },
   {
-   "title": "포스텍·삼성전자, 3D 낸드 성능 한계 넘는 반도체 기술 개발 - 경향신문",
+   "title": "[베스트&워스트] 삼성전자·SK하이닉스 밀린 한 주…상상인증권은 85% 급등 - 이투데이",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -386,7 +398,7 @@
    ]
   },
   {
-   "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - ekn.kr",
+   "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - 에너지경제신문",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -446,18 +458,13 @@
    "agents": []
   },
   {
-   "title": "외국인이 오늘도 8천억을 던졌는데, 코스피는 왜 버텼을까요 - 네이버 프리미엄콘텐츠",
+   "title": "[마감시황]코스피, 장중 상승분 반납하고 6258.77 마감…외국인 8581억원 순매도 - 서울Pn",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "[주간증시전망] 코스피, 급락 후 반등세 이어갈까…美 CPI·외국인 수급 촉각 - 아주경제",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피, 레버리지 규제이후 '외국인·기관' 순매수 확대 종목은? - 오피니언뉴스",
@@ -467,6 +474,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "외국인이 오늘도 8천억을 던졌는데, 코스피는 왜 버텼을까요 - 네이버 프리미엄콘텐츠",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
@@ -582,15 +596,6 @@
    ]
   },
   {
-   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
@@ -598,18 +603,13 @@
    "agents": []
   },
   {
-   "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "Citi Revamps Micron Target Target With A Twist",
@@ -621,13 +621,6 @@
    ]
   },
   {
-   "title": "SK Hynix invests $38B in new plants amid AI memory shortages",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -635,6 +628,31 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Micron Stock Slips as Citi Cuts Target by $250",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK Hynix Slides and the ProShares Ultra SK Hynix ETF (SKHU) Tumbles With It",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
