@@ -1,19 +1,45 @@
 {
- "ts_kst": "08-08 16:00",
- "n_items": 102,
+ "ts_kst": "08-08 16:10",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
   "M-CYCLE": 14,
   "C-CHINA": 7,
-  "F-ACTIVE": 5,
   "M-RISK": 1,
+  "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 65,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - munhwa.com",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - 뉴스핌",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "하이닉스 단 1주 하한가, 실수인가 조작인가? \"상하한가 주문 금지\" - MBC 뉴스",
@@ -44,7 +70,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 용인·청주 신규 팹에 54조원 투자… HBM·낸드 생산 확대 - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스, 용인·청주 신규 팹에 54조원 투자… HBM·낸드 생산 확대 - 조선비즈 - biz.chosun.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -189,15 +215,15 @@
    "agents": []
   },
   {
-   "title": "삼성 파운드리, 4나노 풀캐파에 5나노 주문 늘어…AI·서버로 영역 확대 - 지디넷코리아",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - 뉴스핌",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "앤스로픽도 AI칩 직접 만든다…삼성전자 2나노 수주 '촉각' - newspim.com",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "삼성 파운드리, 4나노 풀캐파에 5나노 주문 늘어…AI·서버로 영역 확대 - 지디넷코리아",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -226,6 +252,13 @@
   {
    "title": "미 산타클라라에 집중된 시선…삼성전자 반도체 3D 메모리로 그린 미래 AI 기술 - 파이낸셜포스트",
    "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "포스텍·삼성전자, 3D 낸드 성능 한계 넘는 반도체 기술 개발 - khan.co.kr",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -300,7 +333,7 @@
    "agents": []
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - khan.co.kr",
    "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -316,11 +349,13 @@
    ]
   },
   {
-   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
-   "pub": "Mon, 20 Jul 2026",
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
@@ -339,7 +374,14 @@
    ]
   },
   {
-   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
+   "pub": "Mon, 20 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - khan.co.kr",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -348,14 +390,7 @@
    ]
   },
   {
-   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
-   "pub": "Wed, 20 May 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - newspim.com",
+   "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - 뉴스핌",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -376,16 +411,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피 장중 6411서 6258로 밀려…외국인 1조 1370억 순매도 - 자본시장뉴스",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - munhwa.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -399,6 +425,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "[마감시황] 코스피 장중 6411서 6258로 밀려…외국인 1조 1370억 순매도 - 자본시장뉴스",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피, 외국인 3.3조 순매도에 4%대 급락…6300선 하회 마감 - 메트로신문",
@@ -424,13 +459,6 @@
    "agents": []
   },
   {
-   "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - 에너지경제신문",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 6400 회복했다 6200대로 '뚝'…외국인 매도에 이틀째 하락 - hidomin.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -438,7 +466,14 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피 4%대 급락…반도체 조정에 외국인 매도세 - viva100.com",
+   "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - 에너지경제신문",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "[마감시황] 코스피 4%대 급락…반도체 조정에 외국인 매도세 - 브릿지경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -576,7 +611,7 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
    "pub": "Wed, 22 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -601,6 +636,20 @@
    ]
   },
   {
+   "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Citi Revamps Micron Target Target With A Twist",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -610,41 +659,14 @@
    ]
   },
   {
-   "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Slips as Citi Cuts Target by $250",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK Hynix Slides and the ProShares Ultra SK Hynix ETF (SKHU) Tumbles With It",
+   "title": "SK Hynix invests $38B in new plants amid AI memory shortages",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "SK Hynix Drops 5% After Approving $38B in New Memory Fabs; Seagate Falls 7%, Micron Barely Dips",
+   "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
