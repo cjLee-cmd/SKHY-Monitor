@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-09 07:37",
+ "ts_kst": "08-09 07:47",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,24 +7,14 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 16,
+  "M-CYCLE": 14,
   "C-CHINA": 8,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 62,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 주당 375원 분기배당…3분기 추가 주주환원도 예고 - 주간조선",
@@ -48,7 +38,7 @@
    "agents": []
   },
   {
-   "title": "[속보]“SK하이닉스, 中패키징공장 매각 검토…중국서 인수 거론” - 국제신문",
+   "title": "블룸버그 \"SK하이닉스, 中 충칭 공장 지분 매각 검토\"… SK \"확정된 바 없어\" - 조선일보",
    "pub": "Sat, 08 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -184,15 +174,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, GPU 위에 HBM 시공…차세대 ‘주상복합 반도체’ 공개 - 경향신문",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "[특징주] 삼성전자·SK하이닉스, 美반도체 약세에 동반 하락…하이닉스 5%↓ - 이투데이",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -208,6 +189,13 @@
   },
   {
    "title": "삼성전자 2%·SK하이닉스 1%↑…증권가 \"반도체 매도 실익 낮다\"[핫스탁] - 네이트",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "포스텍·삼성전자, 3D 낸드 성능 한계 넘는 반도체 기술 개발 - 경향신문",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -562,6 +550,15 @@
    "agents": []
   },
   {
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -571,8 +568,8 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "pub": "Tue, 14 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -605,8 +602,8 @@
    "agents": []
   },
   {
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "pub": "Tue, 14 Jul 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -614,12 +611,12 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "Why the Market Continues to Sleep on Micron's Growth Potential",
+   "pub": "Sat, 08 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
   },
   {
@@ -641,26 +638,15 @@
    ]
   },
   {
+   "title": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher",
+   "pub": "Sat, 08 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years?",
    "pub": "Sat, 08 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Is Micron Stock Too Cheap to Ignore?",
-   "pub": "Sat, 08 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Citi Revamps Micron Target Target With A Twist",
-   "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
