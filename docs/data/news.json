@@ -1,19 +1,19 @@
 {
- "ts_kst": "08-09 04:04",
- "n_items": 104,
+ "ts_kst": "08-09 04:14",
+ "n_items": 103,
  "by_source": {
   "kr": 75,
-  "en": 29
+  "en": 28
  },
  "routed": {
   "P-ADR": 3,
-  "M-CYCLE": 13,
+  "M-CYCLE": 15,
   "C-CHINA": 8,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
+ "unassigned": 61,
  "alerts": [],
  "items": [
   {
@@ -24,7 +24,7 @@
    "agents": []
   },
   {
-   "title": "블룸버그 \"SK하이닉스, 중국 충칭 공장 지분 매각 등 검토\" - v.daum.net",
+   "title": "SK하이닉스, 中 충칭 후공정 공장 지분 매각 검토…'4조원 규모' - v.daum.net",
    "pub": "Sat, 08 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -38,14 +38,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 주당 375원 분기배당…3분기 추가 주주환원도 예고 - weekly.chosun.com",
+   "title": "SK하이닉스, 주당 375원 분기배당…3분기 추가 주주환원도 예고 - 주간조선",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 분기배당 375원 확정…주주환원책 9월로 앞당겨 발표 - 이투데이",
+   "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - 연합뉴스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -73,7 +73,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 용인·청주 신규 팹 건설에 총 54조 투자키로 - 경향신문",
+   "title": "SK하이닉스, 용인 반도체에 54조 베팅…대규모 투자 나선다 - 서울경제",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하이닉스, 전날 10% 폭락이어 또 4.8% 급락…삼전 0.2%↑(종합) - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -98,21 +105,14 @@
    ]
   },
   {
-   "title": "美 AI 반도체주 혼조…SK하이닉스 ADR 4.7%·마이크론 1.3% 하락 - v.daum.net",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "\"마이크론보다 저렴, SK하닉 320달러까지 간다\"…월가는 왜 ADR '매수'인가 - v.daum.net",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "M-CYCLE",
     "P-ADR"
    ]
-  },
-  {
-   "title": "하이닉스, 전날 10% 폭락이어 또 4.8% 급락…삼전 0.2%↑(종합) - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "뜨거운 관심에 SK하이닉스 매수 쉬쉬하는 채권시장 - 연합인포맥스",
@@ -318,11 +318,13 @@
    ]
   },
   {
-   "title": "“중국산 메모리 쓰지 말라”…美여야 의원들, 애플에 경고 - 조선일보",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
@@ -630,13 +632,6 @@
    ]
   },
   {
-   "title": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher",
-   "pub": "Sat, 08 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years?",
    "pub": "Sat, 08 Aug 2026",
    "src": "en",
@@ -648,6 +643,15 @@
   {
    "title": "Is Micron Stock Too Cheap to Ignore?",
    "pub": "Sat, 08 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Citi Revamps Micron Target Target With A Twist",
+   "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
