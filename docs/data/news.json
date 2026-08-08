@@ -1,18 +1,18 @@
 {
- "ts_kst": "08-08 19:05",
+ "ts_kst": "08-08 19:15",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 11,
   "C-CHINA": 8,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 69,
+ "unassigned": 67,
  "alerts": [],
  "items": [
   {
@@ -137,13 +137,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 16비트 RAW 지원 센서 ‘아이소셀 HPC’ 선봬 - it.chosun.com",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "\"반도체 근원 경쟁력 회복 신호탄\"…삼성, 3D HBM 승부수 [강경주의 테크X] - 한국경제",
    "pub": "Sat, 08 Aug 2026",
    "src": "kr",
@@ -151,6 +144,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "삼성전자, 16비트 RAW 지원 센서 ‘아이소셀 HPC’ 선봬 - IT조선",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "[업계뒷談] ‘돈으로 산 기술’의 부메랑…삼성전자 DX, 품질 리스크에 발목① - 녹색경제신문",
@@ -611,20 +611,6 @@
    ]
   },
   {
-   "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Citi Revamps Micron Target Target With A Twist",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
@@ -634,11 +620,31 @@
    ]
   },
   {
-   "title": "SK Hynix invests $38B in new plants amid AI memory shortages",
+   "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Slips as Citi Cuts Target by $250",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
