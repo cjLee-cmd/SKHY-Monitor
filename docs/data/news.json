@@ -1,33 +1,24 @@
 {
- "ts_kst": "08-08 13:41",
- "n_items": 93,
+ "ts_kst": "08-08 13:51",
+ "n_items": 103,
  "by_source": {
   "kr": 75,
-  "en": 18
+  "en": 28
  },
  "routed": {
-  "M-CYCLE": 7,
+  "M-CYCLE": 11,
   "C-CHINA": 7,
-  "F-ACTIVE": 2,
+  "F-ACTIVE": 3,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
+ "unassigned": 70,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -460,13 +451,6 @@
    "agents": []
   },
   {
-   "title": "외국인이 오늘도 8천억을 던졌는데, 코스피는 왜 버텼을까요 - contents.premium.naver.com",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "[마감시황] 코스피 4%대 급락…반도체 조정에 외국인 매도세 - viva100.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -474,18 +458,27 @@
    "agents": []
   },
   {
-   "title": "[주간증시전망] 코스피, 급락 후 반등세 이어갈까…美 CPI·외국인 수급 촉각 - 아주경제",
+   "title": "외국인이 오늘도 8천억을 던졌는데, 코스피는 왜 버텼을까요 - contents.premium.naver.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "외국인 '팔자'에 코스피 이틀째 하락…SK하이닉스 2일간 15% 급락 - 코리아리포트",
+   "title": "[마감시황] 코스피, 외국인 팔자에 6200선 마감…코스닥도 하락 - 아주경제",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "코스피, 레버리지 규제이후 '외국인·기관' 순매수 확대 종목은? - 오피니언뉴스",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
@@ -594,15 +587,6 @@
    ]
   },
   {
-   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
@@ -617,39 +601,52 @@
    "agents": []
   },
   {
-   "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
-   "q": "ASML",
+   "q": "MU",
    "agents": []
   },
   {
-   "title": "Chinese AI Chipmakers Poised to Gain From Beijing’s Tech Push",
+   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
-   "q": "ASML",
+   "q": "MU",
    "agents": []
   },
   {
-   "title": "PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "Citi Revamps Micron Target Target With A Twist",
+   "pub": "Fri, 07 Aug 2026",
    "src": "en",
-   "q": "ASML",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK Hynix invests $38B in new plants amid AI memory shortages",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": []
   },
   {
-   "title": "Tesla's $16.8 Billion Chip Bet Could Create Several New Winners",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
+   "pub": "Fri, 07 Aug 2026",
    "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Nuclear Utility Constellation Leads Nasdaq 100 After Earnings",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
