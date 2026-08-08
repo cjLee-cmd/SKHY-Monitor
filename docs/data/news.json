@@ -1,24 +1,24 @@
 {
- "ts_kst": "08-08 13:32",
- "n_items": 103,
+ "ts_kst": "08-08 13:41",
+ "n_items": 93,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 18
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 7,
   "C-CHINA": 7,
   "F-ACTIVE": 2,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 73,
+ "unassigned": 65,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -27,7 +27,7 @@
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -42,21 +42,21 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 프리마켓서 개장직후 또 하한가…시초가 논란 지속 - 연합뉴스",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "SK하이닉스, 주당 375원 분기배당…3분기 추가 주주환원도 예고 - 주간조선",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'167만원→117만원' SK하이닉스 '하한가' 충격…프리마켓 시초가 논란 - v.daum.net",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "SK하이닉스 주당 375원 배당…“3분기 중 주주환원 방안 확정” - dt.co.kr",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"SK하이닉스, 中 충칭공장 지분 일부 처분 검토…4조원 규모 자산\" - 머니투데이 - 머니투데이",
+   "title": "\"10억 넣어도 25만원\"?…SK하이닉스, '쥐꼬리 배당금' 여론 보니 - v.daum.net",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -91,34 +91,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 주당 375원 분기배당…3분기 추가 주주환원도 예고 - 주간조선",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주당 375원 배당…“3분기 중 주주환원 방안 확정” - dt.co.kr",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"10억 넣어도 25만원\"?…SK하이닉스, '쥐꼬리 배당금' 여론 보니 - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "뜨거운 관심에 SK하이닉스 매수 쉬쉬하는 채권시장 - 연합인포맥스",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - 아이뉴스24",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -137,6 +109,38 @@
   {
    "title": "\"삼성전자·SK하이닉스 연말 순현금 375조원…엔비디아의 2배\" - v.daum.net",
    "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, ‘솔리다임’ 상장 포석…주주가치 희석 딜레마 - 서울경제TV",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - 중앙일보",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, HBM 덤핑 루머 일축…솔리다임 IPO설에 주주 불안감 여전 - v.daum.net",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "\"SK하이닉스, 中 충칭공장 지분 일부 처분 검토…4조원 규모 자산\" - 머니투데이 - 머니투데이",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -449,14 +453,14 @@
    "agents": []
   },
   {
-   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
+   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "외국인이 오늘도 8천억을 던졌는데, 코스피는 왜 버텼을까요 - 네이버 프리미엄콘텐츠",
+   "title": "외국인이 오늘도 8천억을 던졌는데, 코스피는 왜 버텼을까요 - contents.premium.naver.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -518,7 +522,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -563,7 +567,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -590,6 +594,15 @@
    ]
   },
   {
+   "title": "말라가는 증시 대기자금…한 달 새 예탁금 16조 증발·신용융자 하루 3.2조 청산 - 네이트",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
@@ -604,52 +617,39 @@
    "agents": []
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
+   "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
-   "q": "MU",
+   "q": "ASML",
    "agents": []
   },
   {
-   "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
+   "title": "Chinese AI Chipmakers Poised to Gain From Beijing’s Tech Push",
    "pub": "Fri, 07 Aug 2026",
    "src": "en",
-   "q": "MU",
+   "q": "ASML",
    "agents": []
   },
   {
-   "title": "Citi Revamps Micron Target Target With A Twist",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain",
+   "pub": "Thu, 06 Aug 2026",
    "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK Hynix invests $38B in new plants amid AI memory shortages",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "en",
-   "q": "MU",
+   "q": "ASML",
    "agents": []
   },
   {
-   "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "Tesla's $16.8 Billion Chip Bet Could Create Several New Winners",
+   "pub": "Thu, 06 Aug 2026",
    "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Nuclear Utility Constellation Leads Nasdaq 100 After Earnings",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
   }
  ],
  "guards": {
