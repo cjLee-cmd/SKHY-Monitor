@@ -1,20 +1,31 @@
 {
- "ts_kst": "08-09 09:35",
+ "ts_kst": "08-09 09:45",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 13,
+  "C-BUYBACK": 1,
+  "M-CYCLE": 15,
   "P-ADR": 1,
   "C-CHINA": 9,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 60,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "“성과급은 자사주, 적자 땐 임금조정” SK하이닉스 임단협 ‘난기류’ - 서울경제",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 中 충칭 후공정 공장 지분매각 검토 - 뉴시스",
@@ -52,35 +63,23 @@
    "agents": []
   },
   {
-   "title": "‘기술 유출’ SK하이닉스 전 직원 2심도 징역 1년 6개월 - 동아일보",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 영업비밀 중국 회사에 유출…전 직원 2심도 징역1년6개월 - news.sbs.co.kr",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 통합노조 신설 추진…구성원간 성과급 불만 확산 - 네이트",
+   "title": "SK하이닉스 통합노조 신설 추진…구성원간 성과급 불만 확산 - v.daum.net",
    "pub": "Sat, 08 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'성과급 약속 지켜라'… 재협상에 뿔난 SK하이닉스 노조 통합 움직임 - v.daum.net",
+   "title": "“성과급은 자사주, 적자 땐 임금조정” SK하이닉스 임단협 ‘난기류’ - 서울경제",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
-   "title": "\"성과급 약속 지켜라\"…SK하이닉스 통합노조 출범 추진 - 부산파이낸셜뉴스",
+   "title": "SK하이닉스 노사 '성과급 주식지급' 평행선, 곽노정 'N% 성과급' 법적 논란 벗을지 주목 - 비즈니스포스트",
    "pub": "Sat, 08 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -121,6 +120,24 @@
   {
    "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - 아이뉴스24",
    "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, HBM 넘어 '계층형 메모리' 제시…AI 인프라 최적화 승부수 - v.daum.net",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[비즈토크] 삼성은 쌓고 SK는 잇고…'포스트 HBM' 주도권 누가 잡을까 - 경제 | 기사 - 더팩트",
+   "pub": "Sat, 08 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -379,7 +396,7 @@
    "agents": []
   },
   {
-   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - 경북매일",
+   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - kbmaeil.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
