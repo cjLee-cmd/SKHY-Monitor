@@ -1,24 +1,33 @@
 {
- "ts_kst": "08-10 00:30",
- "n_items": 102,
+ "ts_kst": "08-10 00:40",
+ "n_items": 103,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 13,
   "C-CHINA": 9,
+  "M-CYCLE": 13,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 63,
+ "unassigned": 64,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -40,20 +49,6 @@
    "agents": []
   },
   {
-   "title": "“주식 반토막에 배당금은 더 속상” SK하이닉스, ‘나스닥’급 주주환원 나설까 - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "투자자 압박에 백기 든 SK하이닉스, ‘나스닥급’ 주주환원 나설까 [선데이 머니카페] - 서울경제",
-   "pub": "Sat, 08 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
@@ -66,22 +61,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "모건스탠리 “메모리주 급락 조정 끝났다”…삼성·하이닉스 재진입 기회 - 산경투데이",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[마켓인사이드] 삼성전자·SK하이닉스·마이크론, 메모리 ‘3강 방어전’에 수백조원 투자 - 뉴스투데이",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "SK하이닉스, 4조원대 中 충칭공장 지분 매각 검토 - 한국경제",
@@ -98,7 +77,14 @@
    "agents": []
   },
   {
-   "title": "“SK하이닉스, 중국 충칭 패키징공장 지분매각 등 검토” - 전자신문",
+   "title": "“SK하이닉스, 4조원대 中 충칭 패키징 공장 매각 검토” - 동아일보",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "모건스탠리 “메모리주 급락 조정 끝났다”…삼성·하이닉스 재진입 기회 - 산경투데이",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -120,6 +106,27 @@
   },
   {
    "title": "중국이 무섭게 추격하는데…SK하이닉스 비밀 빼낸 전 직원의 형량 - 네이트",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한달여만에 주가 반토막 난 SK하이닉스…향후 관찰 포인트는 - 한국경제",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 54조 시설투자…최태원 \"공급 늘려 가격 낮춰야\" - 연합인포맥스",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 ‘11주 하한가’ 쇼크…12일부터 상·하한가 주문 금지 - 한겨레",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -207,8 +214,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자노조 “1군 발암물질 가득한 반도체 공장…메가특구법은 외면” - 한겨레",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "반도체, 이젠 5년짜리 계약이 뉴노멀인 까닭은 - 네이트",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -219,6 +226,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "[마켓인사이드] 삼성전자·SK하이닉스·마이크론, 메모리 ‘3강 방어전’에 수백조원 투자 - 뉴스투데이",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "포스텍·삼성전자, 3D 낸드 성능 한계 넘는 반도체 기술 개발 - 경향신문",
@@ -516,8 +532,8 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -525,8 +541,8 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -568,8 +584,15 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "pub": "Wed, 22 Jul 2026",
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -577,11 +600,13 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "pub": "Tue, 14 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": []
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - 뉴데일리",
@@ -593,12 +618,12 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "Nvidia and Micron Have Driven the S&P 500’s 2026 Rally to Record Highs. History Says It’s Not Over",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
   },
   {
@@ -636,24 +661,6 @@
   {
    "title": "Micron's Stock Price Has Corrected 30% From Its All-Time High. Is It Time to Buy?",
    "pub": "Sun, 09 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why the Market Continues to Sleep on Micron's Growth Potential",
-   "pub": "Sat, 08 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Nvidia, Micron or Broadcom: What Would Raymond Dalio Do?",
-   "pub": "Sat, 08 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
