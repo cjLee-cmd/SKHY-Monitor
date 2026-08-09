@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-09 12:06",
+ "ts_kst": "08-09 12:16",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,33 +7,14 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 10,
+  "M-CYCLE": 14,
   "C-CHINA": 9,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
    "title": "하이닉스, 2733억 분기배당…\"추가 주주환원 3분기 확정\" - 한국경제",
@@ -57,7 +38,7 @@
    "agents": []
   },
   {
-   "title": "블룸버그 “SK하이닉스, 中 충칭 공장 지분 매각 검토”… SK “확정된 바 없어” - v.daum.net",
+   "title": "SK하이닉스, 中 충칭 후공정 공장 지분매각 검토 - 뉴시스",
    "pub": "Sat, 08 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -71,21 +52,7 @@
    "agents": []
   },
   {
-   "title": "중국 회사 이직하려고 SK하이닉스 영업비밀 유출…항소심도 실형 - 네이트",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "中회사 이직하려고 SK하이닉스 영업비밀 유출…前직원, 2심도 징역 1년6개월 - 조선비즈 - Chosunbiz",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“중국 회사로 이직하려고”…SK하이닉스 영업비밀 빼돌린 직원, 2심도 실형 - v.daum.net",
+   "title": "\"중국 업체 가려고\" 기술 유출 前 SK하이닉스직원, 2심도 징역 1년6개월 - 경기일보",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -122,6 +89,31 @@
    ]
   },
   {
+   "title": "[비즈토크] 삼성은 쌓고 SK는 잇고…'포스트 HBM' 주도권 누가 잡을까 - 경제 | 기사 - 더팩트",
+   "pub": "Sat, 08 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - v.daum.net",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 'FMS 2026'서 CXL 기반 차세대 메모리 기술 선뵈 - 연합인포맥스",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스, 용인·청주 팹에 54조 투자…“수요 선제 대응” - 문화일보",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
@@ -129,15 +121,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 용인 Y2·청주 M17에 54조원 투자 확정 - chosun.com",
+   "title": "SK하이닉스, 용인 Y2·청주 M17에 54조원 투자 확정 - 조선일보",
    "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "용인 SK 반도체클러스터 두 번째 팹 윤곽…내년 7월 착공 - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -295,7 +280,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -330,7 +315,7 @@
    ]
   },
   {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - chosun.com",
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -355,7 +340,7 @@
    "agents": []
   },
   {
-   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - chosun.com",
+   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -651,14 +636,16 @@
    ]
   },
   {
-   "title": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher",
+   "title": "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years?",
    "pub": "Sat, 08 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years?",
+   "title": "Is Micron Stock Too Cheap to Ignore?",
    "pub": "Sat, 08 Aug 2026",
    "src": "en",
    "q": "MU",
