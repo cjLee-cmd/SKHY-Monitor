@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-10 01:29",
+ "ts_kst": "08-10 01:33",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -13,7 +13,26 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 64,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "\"성과급이 주식이라니\"…불만 터진 SK하이닉스 직원들 '통합노조' 결집 - v.daum.net",
@@ -107,7 +126,7 @@
    "agents": []
   },
   {
-   "title": "중국이 무섭게 추격하는데…SK하이닉스 비밀 빼낸 전 직원의 형량 - news.nate.com",
+   "title": "중국이 무섭게 추격하는데…SK하이닉스 비밀 빼낸 전 직원의 형량 - 네이트",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -156,7 +175,7 @@
    "agents": []
   },
   {
-   "title": "삼성·SK, 호남반도체 전력망 직접 투자 하나 - 남도일보",
+   "title": "삼성·SK, 호남반도체 전력망 직접 투자 하나 - namdonews.com",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -170,7 +189,7 @@
    "agents": []
   },
   {
-   "title": "삼성⋅SK 차세대 3D·계층형 메모리 맞대결… CXMT 배짱이 불러온 K반도체 협력 우위 [위클리반도체] - ddaily.co.kr",
+   "title": "삼성⋅SK 차세대 3D·계층형 메모리 맞대결… CXMT 배짱이 불러온 K반도체 협력 우위 [위클리반도체] - 디지털데일리",
    "pub": "Sat, 08 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -195,7 +214,7 @@
    "agents": []
   },
   {
-   "title": "\"생산 가능 절반 이상을 LTA로\"…반도체 산업 체질 바꾸는 LTA - news.nate.com",
+   "title": "\"생산 가능 절반 이상을 LTA로\"…반도체 산업 체질 바꾸는 LTA - 네이트",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -420,7 +439,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피 4%대 급락…반도체 조정에 외국인 매도세 - 브릿지경제",
+   "title": "[마감시황] 코스피 4%대 급락…반도체 조정에 외국인 매도세 - viva100.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -445,7 +464,7 @@
    ]
   },
   {
-   "title": "외국인 3조3000억 순매도에 코스피 6200선 후퇴…반도체주 급락 - 굿모닝경제",
+   "title": "외국인 3조3000억 순매도에 코스피 6200선 후퇴…반도체주 급락 - goodkyung.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -513,8 +532,8 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -522,8 +541,8 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -565,15 +584,6 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "pub": "Wed, 22 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
@@ -581,8 +591,8 @@
    "agents": []
   },
   {
-   "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - 뉴데일리",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -590,8 +600,17 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "pub": "Tue, 14 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - 뉴데일리",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -606,6 +625,20 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Citi Recommends Buying the Dip in Memory Stocks as AI Cycle Gains Momentum",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "3 Artificial Intelligence (AI) Stocks to Load Up On in August",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Micron (MU) Secures Strategic Auto Deals and AI Momentum to Offset Cyclical Pressures",
@@ -628,24 +661,6 @@
   {
    "title": "Micron's Stock Price Has Corrected 30% From Its All-Time High. Is It Time to Buy?",
    "pub": "Sun, 09 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why the Market Continues to Sleep on Micron's Growth Potential",
-   "pub": "Sat, 08 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Nvidia, Micron or Broadcom: What Would Raymond Dalio Do?",
-   "pub": "Sat, 08 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
