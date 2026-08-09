@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-09 17:03",
+ "ts_kst": "08-09 17:12",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,14 +7,24 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 11,
+  "M-CYCLE": 12,
   "C-CHINA": 9,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 65,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "역대급 실적에 화답...SK하이닉스, 주주환원 시점 3분기로 조기 발표 - v.daum.net",
@@ -24,7 +34,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 보통주 375원 현금배당…\"주주환원방안 9월내 확정\" - yna.co.kr",
+   "title": "SK하이닉스, 주당 375원 분기배당 결정…3분기 중 추가 주주환원 발표 - 뉴시스",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -39,6 +49,48 @@
   },
   {
    "title": "\"10% 성과급 현금 지급 지켜라\"…SK하이닉스 '통합노조' 설립 추진 - 머니투데이 - 머니투데이",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 용인·청주 팹에 54조 투자…“수요 선제 대응” - 문화일보",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 용인 Y2·청주 M17에 54조원 투자 확정 - chosun.com",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 中 충칭 털고 용인·청주 54조 폭풍 투자…AI 메모리 '선택과 집중' - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "블룸버그 \"SK하이닉스, 中 충칭 패키징 공장 지분 매각 검토\" - 한국경제",
+   "pub": "Sat, 08 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK하이닉스, 4조원대 中 충칭공장 지분 매각 검토\" - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 4조원대 中 충칭공장 지분 매각 검토 - 한국경제",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -66,34 +118,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 中 충칭공장 지분 매각 검토 - 에너지경제신문",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"SK하이닉스, 4조원대 中 충칭공장 지분 매각 검토\" - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 4조원대 中 충칭공장 지분 매각 검토 - 한국경제",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 54조 시설투자…최태원 \"공급 늘려 가격 낮춰야\" - 연합인포맥스",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"이럴거면 굳이\"…SK하이닉스는 ADR 나스닥 상장 왜 추진한 걸까 - investchosun.com",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -110,20 +134,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ‘하한가 쇼크’ 재발 막는다…12일부터 상·하한가 주문 한시 금지 - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 ‘11주 하한가’ 쇼크…12일부터 상·하한가 주문 금지 - 한겨레",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "포스텍·삼성전자, 3D 낸드(NAND) 반도체 한계 넘는 기술 개발 - 전자신문",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -131,14 +141,14 @@
    "agents": []
   },
   {
-   "title": "“전력반도체 성패, 삼성에 달렸다”…정부 역할론 제기 - v.daum.net",
+   "title": "\"생산 가능 절반 이상을 LTA로\"...반도체 산업 체질 바꾸는 LTA - chosun.com",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "\"생산 가능 절반 이상을 LTA로\"...반도체 산업 체질 바꾸는 LTA - 조선일보",
+   "title": "“전력반도체 성패, 삼성에 달렸다”…정부 역할론 제기 - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -219,7 +229,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 美 테일러팹 첫 인턴십 채용…TSMC와 현지 인재 확보전 - 매일일보",
+   "title": "삼성전자, 美 테일러팹 첫 인턴십 채용…TSMC와 현지 인재 확보전 - m-i.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -267,7 +277,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -311,7 +321,7 @@
    ]
   },
   {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - chosun.com",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -336,7 +346,7 @@
    "agents": []
   },
   {
-   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
+   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - chosun.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -366,7 +376,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - newspim.com",
+   "title": "[마감시황] 코스피, 7주 연속 하락…외국인 매도에 6258.77 - 뉴스핌",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -494,20 +504,11 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
-  },
-  {
-   "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - 뉴데일리",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -519,7 +520,16 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "'빚투' 신용잔고 30조원 붕괴 … 1月 이래 최초 - 뉴데일리",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -641,11 +651,13 @@
    ]
   },
   {
-   "title": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher",
+   "title": "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years?",
    "pub": "Sat, 08 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
