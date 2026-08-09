@@ -1,8 +1,8 @@
 {
- "ts_kst": "08-10 02:23",
- "n_items": 103,
+ "ts_kst": "08-10 02:30",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
@@ -12,11 +12,21 @@
   "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "SK하이닉스, 이르면 이달 주주환원책 확정…주주가치 제고 속도 - newsis.com",
+   "title": "SK하이닉스, 이르면 이달 주주환원책 확정…주주가치 제고 속도 - 뉴시스",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -51,6 +61,13 @@
    "agents": []
   },
   {
+   "title": "\"어제도 10% 빠졌는데 또\"…SK하이닉스 개미들 '곡소리' - 한국경제",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스, 中 충칭공장 지분 판다?…“확정된 바는 없다” - 중앙일보",
    "pub": "Sat, 08 Aug 2026",
    "src": "kr",
@@ -65,7 +82,7 @@
    "agents": []
   },
   {
-   "title": "“SK하이닉스, 4조원대 中 충칭 패키징 공장 매각 검토” - 동아일보",
+   "title": "“SK하이닉스, 4조원대 中 충칭 패키징 공장 매각 검토” - donga.com",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -74,13 +91,6 @@
   {
    "title": "한달여만에 주가 반토막 난 SK하이닉스…향후 관찰 포인트는 - 한국경제",
    "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 54조 시설투자…최태원 \"공급 늘려 가격 낮춰야\" - 연합인포맥스",
-   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -100,7 +110,14 @@
    "agents": []
   },
   {
-   "title": "중국이 무섭게 추격하는데…SK하이닉스 비밀 빼낸 전 직원의 형량 - 네이트",
+   "title": "중국이 무섭게 추격하는데…SK하이닉스 비밀 빼낸 전 직원의 형량 - news.nate.com",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 54조 시설투자…최태원 \"공급 늘려 가격 낮춰야\" - 연합인포맥스",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -156,7 +173,7 @@
    "agents": []
   },
   {
-   "title": "삼성·SK, 호남반도체 전력망 직접 투자 하나 - 남도일보",
+   "title": "삼성·SK, 호남반도체 전력망 직접 투자 하나 - namdonews.com",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -195,14 +212,14 @@
    "agents": []
   },
   {
-   "title": "\"생산 가능 절반 이상을 LTA로\"…반도체 산업 체질 바꾸는 LTA - 네이트",
+   "title": "\"생산 가능 절반 이상을 LTA로\"…반도체 산업 체질 바꾸는 LTA - news.nate.com",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 등 수원 집결…차세대 반도체 패키징 산업전 열린다 - 뉴스타운",
+   "title": "삼성전자·SK하이닉스 등 수원 집결…차세대 반도체 패키징 산업전 열린다 - newstown.co.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -216,7 +233,7 @@
    "agents": []
   },
   {
-   "title": "[마켓인사이드] 삼성전자·SK하이닉스·마이크론, 메모리 ‘3강 방어전’에 수백조원 투자 - 뉴스투데이",
+   "title": "[마켓인사이드] 삼성전자·SK하이닉스·마이크론, 메모리 ‘3강 방어전’에 수백조원 투자 - news2day.co.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -321,7 +338,7 @@
    ]
   },
   {
-   "title": "“중국산 메모리 쓰지 말라”…美여야 의원들, 애플에 경고 - 조선일보",
+   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -413,7 +430,7 @@
    "agents": []
   },
   {
-   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - newsis.com",
+   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -533,7 +550,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -634,15 +651,6 @@
   },
   {
    "title": "SpaceX Lost $2 Billion in the First Half of 2026. Micron Made $28 Billion in Profits in Its Latest Quarter. But the Better Stock Pick Isn't as Obvious as Those Numbers Suggest.",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron's Stock Price Has Corrected 30% From Its All-Time High. Is It Time to Buy?",
    "pub": "Sun, 09 Aug 2026",
    "src": "en",
    "q": "MU",
