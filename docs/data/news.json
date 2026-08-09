@@ -1,30 +1,42 @@
 {
- "ts_kst": "08-09 13:11",
- "n_items": 102,
+ "ts_kst": "08-09 13:21",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 12,
+  "M-CYCLE": 13,
   "C-CHINA": 9,
   "M-RISK": 1,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
  "unassigned": 63,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "하이닉스, 2733억 분기배당…\"추가 주주환원 3분기 확정\" - 한국경제",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 주당 375원 분기배당 결정…3분기 중 추가 주주환원 발표 - newsis.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -38,7 +50,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 中 충칭 후공정 공장 지분매각 검토 - newsis.com",
+   "title": "투자자 압박에 백기 든 SK하이닉스, ‘나스닥급’ 주주환원 나설까 [선데이 머니카페] - 서울경제",
+   "pub": "Sat, 08 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 中 충칭 후공정 공장 지분매각 검토 - 뉴시스",
    "pub": "Sat, 08 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -89,6 +108,33 @@
    ]
   },
   {
+   "title": "FMS 열기 핫칩스로…삼성·SK, 넥스트 HBM으로 ‘생각하는 메모리’ 기술 선보인다 [칩칩팹팹] - 헤럴드경제",
+   "pub": "Sat, 08 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[비즈토크] 삼성은 쌓고 SK는 잇고…'포스트 HBM' 주도권 누가 잡을까 - v.daum.net",
+   "pub": "Sat, 08 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 엔비디아 HBM 반값 공급설에 \"전혀 사실무근\" - 아이뉴스24",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "SK하이닉스, 언제 다시 오를까? 팔란티어를 보자. - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 08 Aug 2026",
    "src": "kr",
@@ -96,29 +142,8 @@
    "agents": []
   },
   {
-   "title": "\"어제도 10% 빠졌는데 또\"…SK하이닉스 개미들 '곡소리' - 한국경제",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "주주환원 실망에 SK하이닉스↓…코스피도 하락 전환 - v.daum.net",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "반도체 '희비' 삼성전자 0.22%↑·SK하이닉스 4.88%↓마감 - newsis.com",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "월가 'SK하이닉스 저평가'… 목표가 최고 320달러 제시, 왜? - 금강일보",
-   "pub": "Sat, 08 Aug 2026",
+   "title": "코스피 숨 고르기? 1% 안팎 하락 6,400선 출발‥SK하이닉스는 5% 급락 - MBC 뉴스",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -133,6 +158,13 @@
   {
    "title": "삼성전자, 美 테일러팹 인턴 선발…대만 TSMC와 '인재 쟁탈전' - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "반도체 '희비' 삼성전자 0.22%↑·SK하이닉스 4.88%↓마감 - 뉴시스",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -405,7 +437,7 @@
    "agents": []
   },
   {
-   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - newsis.com",
+   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -530,7 +562,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -546,7 +578,7 @@
    "agents": []
   },
   {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -625,26 +657,15 @@
    ]
   },
   {
+   "title": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher",
+   "pub": "Sat, 08 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years?",
    "pub": "Sat, 08 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Is Micron Stock Too Cheap to Ignore?",
-   "pub": "Sat, 08 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Citi Revamps Micron Target Target With A Twist",
-   "pub": "Fri, 07 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
