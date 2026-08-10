@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-10 17:17",
+ "ts_kst": "08-10 17:27",
  "n_items": 101,
  "by_source": {
   "kr": 72,
@@ -16,15 +16,22 @@
  "alerts": [
   {
    "level": "critical",
-   "kw": "사이드카",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "코스닥 7% 급등에 매수 사이드카…외국인 1조 넘게 팔고도 코스피 반등 - e-science.co.kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
    "agents": [
-    "M-RISK"
+    "R-LEVERAGE"
    ]
   }
  ],
  "items": [
+  {
+   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "추미애 “반도체 폐수부터 줄여라”…삼성·SK하이닉스 정조준 - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
@@ -34,13 +41,6 @@
   },
   {
    "title": "추미애 “삼성·SK하이닉스, 반도체 공정수 방류 최소화하라” - 중앙일보",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -82,6 +82,13 @@
    "agents": []
   },
   {
+   "title": "반도체株 안전판인가 족쇄인가… 삼전닉스 ‘5년 계약’의 두 얼굴 - 조선일보",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 54조 시설투자…최태원 \"공급 늘려 가격 낮춰야\" - 연합인포맥스",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
@@ -103,21 +110,14 @@
    "agents": []
   },
   {
-   "title": "'통합' 택한 SK하이닉스, '분리' 택한 삼성전자…성과급이 흔든 노사판[NW리포트] - v.daum.net",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "\"성과급이 주식이라니\"…불만 터진 SK하이닉스 직원들 '통합노조' 결집 - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작 - 지디넷코리아",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "반도체株 안전판인가 족쇄인가…삼성·SK하이닉스 ‘5년 계약’의 두 얼굴 - 조선일보",
+   "title": "인텔 부활 이끄는 '한국인 3인방'…삼성·SK하이닉스 출신 [IT썰] - 머니투데이 - mt.co.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -159,15 +159,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스 D램 가격에 해외 증권가 '고점' 시각 나와, 장기 계약에 단점 부각 - businesspost.co.kr",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "반도체로 89조 번 삼성…110조 투자 어디로 향하나 [삼성 AI 투자지도①] - 쿠키뉴스",
+   "pub": "Sat, 08 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "반도체로 89조 번 삼성…110조 투자 어디로 향하나 [삼성 AI 투자지도①] - 쿠키뉴스",
-   "pub": "Sat, 08 Aug 2026",
+   "title": "삼성전자 SK하이닉스 D램 가격에 해외 증권가 '고점' 시각 나와, 장기 계약에 단점 부각 - businesspost.co.kr",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -420,7 +420,7 @@
    ]
   },
   {
-   "title": "외국인 '팔자'에 코스피 0.6%↓…SK하이닉스 4.88%↓ - marketin.edaily.co.kr",
+   "title": "외국인 '팔자'에 코스피 0.6%↓…SK하이닉스 4.88%↓ - 마켓인",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -443,6 +443,13 @@
    "agents": []
   },
   {
+   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "삼성전자·SK하이닉스 장중 급등 후 하락 마감…외국인 1조9천억 순매도 - 스페셜타임스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -450,13 +457,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
@@ -486,7 +486,7 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -561,7 +561,7 @@
    "agents": []
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -622,13 +622,6 @@
    ]
   },
   {
-   "title": "Apple's Favorite Bullying Tactic Just Died in China. It Could Cost You Hundreds on Your Next iPhone.",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Unpacking the Latest Pullback in Micron Stock",
    "pub": "Sun, 09 Aug 2026",
    "src": "en",
@@ -648,6 +641,15 @@
   },
   {
    "title": "Opinion: The Best AI Memory Stock to Buy Isn't Micron or Sandisk -- It's This Korean Giant",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Nvidia and Micron Have Driven the S&P 500’s 2026 Rally to Record Highs. History Says It’s Not Over",
    "pub": "Sun, 09 Aug 2026",
    "src": "en",
    "q": "MU",
