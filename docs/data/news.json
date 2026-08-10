@@ -1,38 +1,18 @@
 {
- "ts_kst": "08-11 05:41",
- "n_items": 102,
+ "ts_kst": "08-11 05:50",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
   "C-CHINA": 8,
-  "M-CYCLE": 6,
-  "F-ACTIVE": 2,
-  "M-RISK": 1,
+  "M-CYCLE": 7,
+  "F-ACTIVE": 3,
   "R-LEVERAGE": 12
  },
  "unassigned": 73,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "SK그룹, 정부에 중복상장 규제 개선 제안…솔리다임 IPO 염두 - 인베스트조선",
@@ -49,14 +29,28 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ‘11주 하한가’ 쇼크…12일부터 상·하한가 주문 금지 - 한겨레",
+   "title": "\"주식 반토막에 배당금은 더 속상\" SK하이닉스, ‘나스닥’급 주주환원 나설까 - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[성공예감] SK하이닉스 배당 375원…중국보다 낮은 배당률, 한국 증시 명운이 걱정입니다 – 홍춘욱 대표(프리즘 투자자문) - v.daum.net",
+   "title": "KB \"삼전 주주환원 10배 예상\"… 6000피 횡보장 벗어날까 - 조선일보",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 이르면 이달 주주환원책 확정…주주가치 제고 속도 - 뉴시스",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -71,13 +65,6 @@
   },
   {
    "title": "추미애 “삼성·SK하이닉스, 반도체 공정수 방류 최소화하라” - 중앙일보",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -126,7 +113,7 @@
    "agents": []
   },
   {
-   "title": "성과급 갈등에 SK하이닉스 ‘통합노조’ 추진…사흘 만에 3500명 모여 - 경향신문",
+   "title": "\"이건 못 참지, 약속한 성과급 왜 바꾸나\"…SK하이닉스 직원 3500명 '우르르' - 아시아경제",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -263,15 +250,15 @@
    ]
   },
   {
-   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - mt.co.kr",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - mt.co.kr",
-   "pub": "Sun, 09 Aug 2026",
+   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -400,7 +387,7 @@
    "agents": []
   },
   {
-   "title": "올해만 194조 팔아치운 외국인…집 나간 큰 손 언제 돌아오나 - imaeil.com",
+   "title": "올해만 194조 팔아치운 외국인…집 나간 큰 손 언제 돌아오나 - 매일신문",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -463,12 +450,12 @@
    "agents": []
   },
   {
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
+   "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
-    "M-RISK"
+    "F-ACTIVE"
    ]
   },
   {
@@ -601,6 +588,15 @@
    ]
   },
   {
+   "title": "Micron poised for \"structural reset\" in earnings power, UBS says, as HBM squeeze tightens further",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Stock Rises Despite Reported Apple Supplier Threat",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -627,24 +623,6 @@
   },
   {
    "title": "Why Micron is Decisively Better Positioned Than Intel Now",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Microsoft, Amazon, Micron and Alphabet are part of Zacks Earnings Preview",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Slips Amid Apple China Chip Threat",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
