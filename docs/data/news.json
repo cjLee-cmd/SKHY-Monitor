@@ -1,19 +1,27 @@
 {
- "ts_kst": "08-10 19:18",
+ "ts_kst": "08-10 19:28",
  "n_items": 101,
  "by_source": {
   "kr": 73,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 8,
-  "C-CHINA": 10,
+  "C-CHINA": 9,
+  "M-CYCLE": 9,
   "F-ACTIVE": 3,
   "M-RISK": 2,
   "R-LEVERAGE": 12
  },
  "unassigned": 66,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - 아시아투데이",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작 - 지디넷코리아",
@@ -23,15 +31,15 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 148만원 vs 470만원\"…같은 주식 두고 목표가 2배 넘게 벌어진 이유 - 아시아경제",
+   "title": "\"SK하이닉스 148만원 vs 470만원\"…같은 주식 두고 목표가 2배 넘게 벌어진 이유 - v.daum.net",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스·에코프로 1000원부터 산다…카카오페이證, 국내 주식 소수점 거래 시작 - 조선비즈 - Chosunbiz",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "한달여만에 주가 반토막 난 SK하이닉스…향후 관찰 포인트는 - 한국경제",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -72,14 +80,14 @@
    "agents": []
   },
   {
-   "title": "\"주식 반토막에 배당금은 더 속상\" SK하이닉스, ‘나스닥’급 주주환원 나설까 - v.daum.net",
+   "title": "SK하이닉스, 이르면 이달 주주환원책 확정…주주가치 제고 속도 - 뉴시스",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 이르면 이달 주주환원책 확정…주주가치 제고 속도 - 뉴시스",
+   "title": "\"주식 반토막에 배당금은 더 속상\" SK하이닉스, ‘나스닥’급 주주환원 나설까 - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -100,7 +108,7 @@
    "agents": []
   },
   {
-   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
+   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - weekly.chosun.com",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -121,20 +129,6 @@
    "agents": []
   },
   {
-   "title": "성과급 갈등 풀어낸 SK하이닉스 vs 키운 삼성전자…반도체 노사 '엇갈린 행보' - 폴리뉴스 Polinews",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "반도체株 주주환원 시동 거나…삼성전자·SK하이닉스 '현금 곳간' 연다 - fnnews.com",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "\"전력반도체 성패, 삼성에 달렸다\"…정부 역할론 제기 - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
@@ -149,8 +143,22 @@
    "agents": []
   },
   {
+   "title": "성과급 갈등 풀어낸 SK하이닉스 vs 키운 삼성전자…반도체 노사 '엇갈린 행보' - 폴리뉴스 Polinews",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "반도체로 89조 번 삼성…110조 투자 어디로 향하나 [삼성 AI 투자지도①] - 쿠키뉴스",
    "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "반도체株 주주환원 시동 거나…삼성전자·SK하이닉스 '현금 곳간' 연다 - fnnews.com",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -163,24 +171,15 @@
    "agents": []
   },
   {
-   "title": "\"반도체 근원 경쟁력 회복 신호탄\"…삼성, 3D HBM 승부수 [강경주의 테크X] - 한국경제",
-   "pub": "Sat, 08 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "코스피 6300선 눈앞…삼성전자·SK하이닉스 약세에 비반도체 관심 확대 - 스포츠한국",
+   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - 아시아투데이",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "'성과급 잭팟' 터진 삼성·SK … AI 반도체 이익 배분 시험대 - 뉴데일리",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급등에 '강세' - 글로벌이코노믹",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -200,14 +199,21 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급등에 '강세' - 글로벌이코노믹",
+   "title": "추미애 “삼성·SK하이닉스, 반도체 공정수 방류 최소화하라” - 중앙일보",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "추미애 “삼성·SK하이닉스, 반도체 공정수 방류 최소화하라” - 중앙일보",
+   "title": "삼성 메모리 호황의 역설…중국과 협력해 비용 줄이나 - news.mtn.co.kr",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[산업분석] 메모리 반도체 삼성전자·SK하이닉스, 5년 LTA 시험대 - 톱스타뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -239,6 +245,13 @@
    "agents": []
   },
   {
+   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "애플, 중국 창신테크 메모리 반도체 테스트…아이폰·맥북 등에 적용 검토 - 파이낸스투데이",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
@@ -246,13 +259,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
@@ -601,22 +607,6 @@
    ]
   },
   {
-   "title": "S&P 500, Nasdaq, Dow Futures Mixed As Hormuz Uncertainty Weighs: Why AAPL, TSM, MU, SPCX, ASTS, SLS Stocks Are In Focus",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "Why Micron is Decisively Better Positioned Than Intel Now",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -635,6 +625,24 @@
   {
    "title": "Micron Technology Just Bounced 10% Off Its Lows. History Reveals What a $5,000 Investment Will Be Worth by Mid-2027.",
    "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK Hynix and Samsung Just Sent a Major Warning to Micron Investors",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Unpacking the Latest Pullback in Micron Stock",
+   "pub": "Sun, 09 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
