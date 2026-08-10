@@ -1,9 +1,9 @@
 {
- "ts_kst": "08-10 22:15",
- "n_items": 103,
+ "ts_kst": "08-10 22:26",
+ "n_items": 102,
  "by_source": {
   "kr": 73,
-  "en": 30
+  "en": 29
  },
  "routed": {
   "C-CHINA": 9,
@@ -12,8 +12,27 @@
   "M-RISK": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 71,
- "alerts": [],
+ "unassigned": 70,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "코스닥 7% 급등에 매수 사이드카…외국인 1조 넘게 팔고도 코스피 반등 - e-science.co.kr",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK그룹, 정부에 중복상장 규제 개선 제안…솔리다임 IPO 염두 - 인베스트조선",
@@ -23,8 +42,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 엇갈린 주가 흐름 이유는…주주환원 '온도차' - 더팩트",
+   "title": "\"SK하이닉스 148만원 vs 470만원\"…같은 주식 두고 목표가 2배 넘게 벌어진 이유 - 아시아경제",
    "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 ‘11주 하한가’ 쇼크…12일부터 상·하한가 주문 금지 - 한겨레",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -93,7 +119,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 54조 시설투자…최태원 \"공급 늘려 가격 낮춰야\" - news.einfomax.co.kr",
+   "title": "SK하이닉스 54조 시설투자…최태원 \"공급 늘려 가격 낮춰야\" - 연합인포맥스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -101,20 +127,6 @@
   },
   {
    "title": "[특징주] 반도체 장비주, SK하이닉스 투자 규모 확정에 강세 - 연합뉴스",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 中 충칭 털고 용인·청주 54조 폭풍 투자…AI 메모리 '선택과 집중' - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"SK하이닉스 148만원 vs 470만원\"…같은 주식 두고 목표가 2배 넘게 벌어진 이유 - 아시아경제",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -144,6 +156,13 @@
   {
    "title": "\"전력반도체 성패, 삼성에 달렸다\"…정부 역할론 제기 - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 엇갈린 주가 흐름 이유는…주주환원 '온도차' - 더팩트",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -372,7 +391,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피, 외국인 '사자'에 강보합 6299.66…코스닥은 7% 급등 - 뉴스핌",
+   "title": "[마감시황] 코스피, 외국인 '사자'에 강보합 6299.66…코스닥은 7% 급등 - newspim.com",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -407,7 +426,7 @@
    "agents": []
   },
   {
-   "title": "코스닥 7% 급등에 매수 사이드카…외국인 1조 넘게 팔고도 코스피 반등 - 이코노미사이언스",
+   "title": "코스닥 7% 급등에 매수 사이드카…외국인 1조 넘게 팔고도 코스피 반등 - e-science.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -416,7 +435,7 @@
    ]
   },
   {
-   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - 경북매일",
+   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - kbmaeil.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -439,7 +458,7 @@
    ]
   },
   {
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - munhwa.com",
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -577,6 +596,15 @@
    ]
   },
   {
+   "title": "Prediction: Micron and Taiwan Semiconductor Manufacturing Stocks Will Both Rebound to Fresh Highs Before 2026 Ends",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Stock Rises Despite Apple China Chip Threat",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -625,15 +653,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "C-CHINA"
-   ]
   }
  ],
  "guards": {
