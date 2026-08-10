@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-11 00:59",
+ "ts_kst": "08-11 01:08",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,13 +7,23 @@
  },
  "routed": {
   "C-CHINA": 8,
-  "M-CYCLE": 8,
+  "M-CYCLE": 7,
   "F-ACTIVE": 2,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 73,
- "alerts": [],
+ "unassigned": 74,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK그룹, 정부에 중복상장 규제 개선 제안…솔리다임 IPO 염두 - 인베스트조선",
@@ -25,6 +35,13 @@
   {
    "title": "\"SK하이닉스 148만원 vs 470만원\"…같은 주식 두고 목표가 2배 넘게 벌어진 이유 - 아시아경제",
    "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한달여만에 주가 반토막 난 SK하이닉스…향후 관찰 포인트는 - 한국경제",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -51,8 +68,8 @@
    "agents": []
   },
   {
-   "title": "추미애 “반도체 폐수부터 줄여라”…삼성·SK하이닉스 정조준 - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
+   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -65,8 +82,8 @@
    "agents": []
   },
   {
-   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "추미애 “반도체 폐수부터 줄여라”…삼성·SK하이닉스 정조준 - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -100,24 +117,17 @@
    "agents": []
   },
   {
-   "title": "인텔 부활 이끄는 '한국인 3인방'…삼성·SK하이닉스 출신 [IT썰] - 머니투데이 - 머니투데이",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "특징주, 삼성전기-S7(삼성전자/SK하이닉스 등) 테마 상승세에 6.03% ↑ - 매일경제 마켓",
+   "title": "[특징주] 삼성전자· SK하이닉스, 장 초반 강세 - 연합뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 장중 반락…약보합 마감[핫스탁](종합) - 뉴시스",
+   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
-   "q": "SK하이닉스",
+   "q": "삼성전자 반도체",
    "agents": []
   },
   {
@@ -444,8 +454,8 @@
    "agents": []
   },
   {
-   "title": "코스닥 7% 급등에 매수 사이드카…외국인 1조 넘게 팔고도 코스피 반등 - 이코노미사이언스",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -591,39 +601,43 @@
    ]
   },
   {
-   "title": "Samsung Just Raised Pressure on Micron",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology Stock Surged On A Shortage The Company Had Already Described",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Semis Surge, Michael Burry’s Shorts Feel the Pressure — But Don’t Expect Him to Run for Cover After His Latest “1987-Style” Crash Warning",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Memory chip crunch could last 2 more years, JPMorgan says",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Stock Slips Amid Apple China Chip Threat",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Prediction: Micron and Taiwan Semiconductor Manufacturing Stocks Will Both Rebound to Fresh Highs Before 2026 Ends",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron’s Memory Boom Is Heading For A Peak, Analyst Warns",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Trades at 6 Times Next Year's Earnings. The $38 Billion of Capacity That Ends This Cycle Doesn't Open Until 2028.",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
