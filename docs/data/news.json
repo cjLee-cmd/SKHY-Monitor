@@ -1,29 +1,20 @@
 {
- "ts_kst": "08-10 18:19",
+ "ts_kst": "08-10 18:28",
  "n_items": 101,
  "by_source": {
   "kr": 73,
   "en": 28
  },
  "routed": {
+  "C-BUYBACK": 1,
   "M-CYCLE": 8,
   "C-CHINA": 10,
   "F-ACTIVE": 3,
   "M-RISK": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스닥 7% 급등에 매수 사이드카…외국인 1조 넘게 팔고도 코스피 반등 - 이코노미사이언스",
-   "agents": [
-    "M-RISK"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "\"SK하이닉스 148만원 vs 470만원\"…같은 주식 두고 목표가 2배 넘게 벌어진 이유 - 아시아경제",
@@ -61,21 +52,7 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스, 중국 충칭 패키징 공장 지분매각 등 검토\" - YTN 사이언스",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 中 충칭 공장 매각설에 \"다양한 방안 검토 중\" - 뉴스1",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 中 충칭 후공정 공장 매각설에 \"확정된 바 없다\" - v.daum.net",
+   "title": "SK그룹 쏠림 완화…거래대금 비중 30%대로 - 서울경제",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -118,6 +95,22 @@
   },
   {
    "title": "SK하이닉스 성과급 60% 주식?…뿔난 직원들 수요일 통합노조 출범 - v.daum.net",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 노사협상 난항…성과급 자사주 지급이 쟁점 - 서울경제",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 中 충칭 후공정 공장 매각설에 \"확정된 바 없다\" - v.daum.net",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -173,21 +166,21 @@
    "agents": []
   },
   {
-   "title": "반도체株 주주환원 시동 거나…삼성전자·SK하이닉스 '현금 곳간' 연다 - 파이낸셜뉴스",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "반도체로 89조 번 삼성…110조 투자 어디로 향하나 [삼성 AI 투자지도①] - 쿠키뉴스",
-   "pub": "Mon, 10 Aug 2026",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
    "title": "삼성전자 SK하이닉스 D램 가격에 해외 증권가 '고점' 시각 나와, 장기 계약에 단점 부각 - 비즈니스포스트",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "반도체株 주주환원 시동 거나…삼성전자·SK하이닉스 '현금 곳간' 연다 - 파이낸셜뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -210,6 +203,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자 반도체 산단 첫삽 뜨나···현대건설·대우건설 재격돌 - 시사저널e",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "반도체특별법 D-1…삼성전자·SK하이닉스에 성큼 다가온 '제도적 전환점' - 파이낸셜포스트",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -217,15 +217,8 @@
    "agents": []
   },
   {
-   "title": "삼성 메모리 호황의 역설…중국과 협력해 비용 줄이나 - news.mtn.co.kr",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "'세계 반도체 빅3 체제' 균열 주범, 중국 창신메모리의 현주소는 - 이코노미스트",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -233,8 +226,8 @@
    ]
   },
   {
-   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
-   "pub": "Sun, 09 Aug 2026",
+   "title": "'세계 반도체 빅3 체제' 균열 주범, 중국 창신메모리의 현주소는 - 이코노미스트",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -464,8 +457,8 @@
    "agents": []
   },
   {
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -473,8 +466,8 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -593,6 +586,15 @@
    ]
   },
   {
+   "title": "Micron Trades at 6 Times Next Year's Earnings. The $38 Billion of Capacity That Ends This Cycle Doesn't Open Until 2028.",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Stock Gains Even as Apple Looks to China for Memory-Chip Supply",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -636,15 +638,6 @@
   {
    "title": "Micron Technology Just Bounced 10% Off Its Lows. History Reveals What a $5,000 Investment Will Be Worth by Mid-2027.",
    "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK Hynix and Samsung Just Sent a Major Warning to Micron Investors",
-   "pub": "Sun, 09 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
