@@ -1,29 +1,19 @@
 {
- "ts_kst": "08-11 04:34",
- "n_items": 102,
+ "ts_kst": "08-11 04:44",
+ "n_items": 103,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 29
  },
  "routed": {
   "C-CHINA": 8,
-  "M-CYCLE": 7,
+  "M-CYCLE": 6,
   "F-ACTIVE": 2,
-  "M-RISK": 2,
+  "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 71,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스닥 7% 급등에 매수 사이드카…외국인 1조 넘게 팔고도 코스피 반등 - 이코노미사이언스",
-   "agents": [
-    "M-RISK"
-   ]
-  }
- ],
+ "unassigned": 74,
+ "alerts": [],
  "items": [
   {
    "title": "SK그룹, 정부에 중복상장 규제 개선 제안…솔리다임 IPO 염두 - investchosun.com",
@@ -47,7 +37,7 @@
    "agents": []
   },
   {
-   "title": "베일리 기퍼드 “중국 AI 야망에도 TSMC·SK하이닉스 준독점 지위 공고”│Global Money Club - 중앙일보",
+   "title": "베일리 기퍼드 “중국 AI 야망에도 TSMC·SK하이닉스 준독점 지위 공고”│Global Money Club - joongang.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -82,7 +72,7 @@
    "agents": []
   },
   {
-   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
+   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - weekly.chosun.com",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -96,7 +86,7 @@
    "agents": []
   },
   {
-   "title": "추미애 “삼성·SK하이닉스, 반도체 공정수 방류 최소화하라” - 중앙일보",
+   "title": "추미애 “삼성·SK하이닉스, 반도체 공정수 방류 최소화하라” - joongang.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -131,6 +121,13 @@
    "agents": []
   },
   {
+   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "\"이번엔 다르다\" 파격 전망…삼전닉스 '역대급 겹호재' 터졌다 [테크로그] - 한국경제",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -138,7 +135,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스 D램 가격에 해외 증권가 '고점' 시각 나와, 장기 계약에 단점 부각 - businesspost.co.kr",
+   "title": "삼성전자 SK하이닉스 D램 가격에 해외 증권가 '고점' 시각 나와, 장기 계약에 단점 부각 - 비즈니스포스트",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -152,7 +149,7 @@
    "agents": []
   },
   {
-   "title": "반도체株 주주환원 시동 거나…삼성전자·SK하이닉스 '현금 곳간' 연다 - fnnews.com",
+   "title": "반도체株 주주환원 시동 거나…삼성전자·SK하이닉스 '현금 곳간' 연다 - 파이낸셜뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -254,13 +251,6 @@
    "agents": []
   },
   {
-   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - 머니투데이",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -268,6 +258,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - 머니투데이",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "애플, 중국 창신테크 메모리 반도체 테스트…아이폰·맥북 등에 적용 검토 - 파이낸스투데이",
@@ -313,7 +310,7 @@
    ]
   },
   {
-   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - businesspost.co.kr",
+   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -377,7 +374,7 @@
    "agents": []
   },
   {
-   "title": "올해만 194조 팔아치운 외국인…집 나간 큰 손 언제 돌아오나 - 매일신문",
+   "title": "올해만 194조 팔아치운 외국인…집 나간 큰 손 언제 돌아오나 - imaeil.com",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -440,15 +437,6 @@
    "agents": []
   },
   {
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
    "title": "코스닥 7% 급등에 매수 사이드카…외국인 1조 넘게 팔고도 코스피 반등 - 이코노미사이언스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -456,6 +444,13 @@
    "agents": [
     "M-RISK"
    ]
+  },
+  {
+   "title": "외국인 '팔자'에 코스피 0.6%↓…SK하이닉스 4.88%↓ - 마켓인",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -467,8 +462,8 @@
    ]
   },
   {
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -476,8 +471,8 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -631,15 +626,6 @@
   },
   {
    "title": "Prediction: Micron and Taiwan Semiconductor Manufacturing Stocks Will Both Rebound to Fresh Highs Before 2026 Ends",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
