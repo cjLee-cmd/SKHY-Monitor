@@ -1,19 +1,29 @@
 {
- "ts_kst": "08-10 17:37",
+ "ts_kst": "08-10 17:46",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 10,
+  "M-CYCLE": 9,
   "C-CHINA": 10,
   "F-ACTIVE": 3,
   "M-RISK": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 66,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "\"SK하이닉스 148만원 vs 470만원\"…같은 주식 두고 목표가 2배 넘게 벌어진 이유 - v.daum.net",
@@ -23,14 +33,14 @@
    "agents": []
   },
   {
-   "title": "한달여만에 주가 반토막 난 SK하이닉스…향후 관찰 포인트는 - 한국경제",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "삼성전자·SK하이닉스·에코프로 1000원부터 산다…카카오페이證, 국내 주식 소수점 거래 시작 - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "인텔 부활 이끄는 '한국인 3인방'…삼성·SK하이닉스 출신 [IT썰] - 머니투데이 - mt.co.kr",
+   "title": "인텔 부활 이끄는 '한국인 3인방'…삼성·SK하이닉스 출신 [IT썰] - 머니투데이 - 머니투데이",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -58,7 +68,21 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스, 中 후공정 매각 검토…AI 메모리 중심 재편 조짐 - MTN 머니투데이방송",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "추미애 “삼성·SK하이닉스, 반도체 공정수 방류 최소화하라” - 중앙일보",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -67,13 +91,6 @@
   {
    "title": "추미애 “반도체 폐수부터 줄여라”…삼성·SK하이닉스 정조준 - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "추미애 “삼성·SK하이닉스, 반도체 공정수 방류 최소화하라” - 중앙일보",
-   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -93,21 +110,14 @@
    "agents": []
   },
   {
-   "title": "\"10% 성과급 현금 지급 지켜라\"…SK하이닉스 '통합노조' 설립 추진 - 머니투데이 - mt.co.kr",
+   "title": "\"10% 성과급 현금 지급 지켜라\"…SK하이닉스 '통합노조' 설립 추진 - 머니투데이 - 머니투데이",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 성과급 60% 주식?…뿔난 직원들 수요일 통합노조 출범 - v.daum.net",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 이르면 이달 주주환원책 확정…주주가치 제고 속도 - 뉴시스",
+   "title": "\"성과급이 주식이라니\"…불만 터진 SK하이닉스 직원들 '통합노조' 결집 - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -121,6 +131,13 @@
    "agents": []
   },
   {
+   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "반도체株 안전판인가 족쇄인가… 삼전닉스 ‘5년 계약’의 두 얼굴 - 조선일보",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
@@ -128,7 +145,7 @@
    "agents": []
   },
   {
-   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급등에 '강세' - 글로벌이코노믹",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -137,6 +154,13 @@
   {
    "title": "[마켓 프리뷰] 美 반도체 훈풍에 코스피 반등 시동…외국인, 삼성전자·SK하이닉스 돌아올까 - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "코스피 6300선 눈앞…삼성전자·SK하이닉스 약세에 비반도체 관심 확대 - 스포츠한국",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -193,21 +217,7 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급등에 '강세' - 글로벌이코노믹",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "[산업분석] 메모리 반도체 삼성전자·SK하이닉스, 5년 LTA 시험대 - 톱스타뉴스",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "추미애, 삼성전자·SK하이닉스에 \"반도체 폐수 방류 최소화하라\" - 키즈맘",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -232,7 +242,7 @@
    ]
   },
   {
-   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - mt.co.kr",
+   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - 머니투데이",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -383,6 +393,13 @@
    "agents": []
   },
   {
+   "title": "코스닥 7% 가까이 폭등…외국인·기관 ‘쌍끌이’에 850선 탈환 - 굿모닝경제",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "[주간수급리포트] 외국인·기관 '반도체 팔자'…개인 홀로 코스피 버팀목 - 이투데이",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
@@ -442,13 +459,6 @@
   {
    "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - 에너지경제신문",
    "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "190조 털고 나간 외국인…다시 코스피 방향타 쥐나 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -556,7 +566,7 @@
    "agents": []
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -580,6 +590,15 @@
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "C-CHINA"
    ]
   },
   {
@@ -617,25 +636,14 @@
    ]
   },
   {
+   "title": "Apple's Favorite Bullying Tactic Just Died in China. It Could Cost You Hundreds on Your Next iPhone.",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Unpacking the Latest Pullback in Micron Stock",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Has Surged 207% This Year. Brace for a Steep Pullback.",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Opinion: The Best AI Memory Stock to Buy Isn't Micron or Sandisk -- It's This Korean Giant",
    "pub": "Sun, 09 Aug 2026",
    "src": "en",
    "q": "MU",
