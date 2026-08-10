@@ -1,18 +1,18 @@
 {
- "ts_kst": "08-10 21:29",
- "n_items": 102,
+ "ts_kst": "08-10 21:39",
+ "n_items": 103,
  "by_source": {
   "kr": 73,
-  "en": 29
+  "en": 30
  },
  "routed": {
-  "C-CHINA": 9,
-  "M-CYCLE": 7,
-  "F-ACTIVE": 3,
+  "C-CHINA": 8,
+  "M-CYCLE": 8,
+  "F-ACTIVE": 2,
   "M-RISK": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 69,
+ "unassigned": 71,
  "alerts": [],
  "items": [
   {
@@ -24,6 +24,13 @@
   },
   {
    "title": "SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작 - zdnet.co.kr",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'반토막' SK하이닉스…월가는 '작은 주름'이라는데 [B급기자의 B급리포트] - v.daum.net",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -58,7 +65,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 中 충칭 공장 매각설에 \"다양한 방안 검토 중\" - 뉴스1",
+   "title": "SK하이닉스, 中 충칭 후공정 공장 매각설에 \"확정된 바 없다\" - asiae.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -93,7 +100,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 54조 시설투자…최태원 \"공급 늘려 가격 낮춰야\" - news.einfomax.co.kr",
+   "title": "SK하이닉스 54조 시설투자…최태원 \"공급 늘려 가격 낮춰야\" - 연합인포맥스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -101,13 +108,6 @@
   },
   {
    "title": "[특징주] 반도체 장비주, SK하이닉스 투자 규모 확정에 강세 - 연합뉴스",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[특징주] 반도체 장비주, SK하이닉스 투자 규모 확정에 급등(종합) - v.daum.net",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -342,7 +342,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인 1.5조 순매도에 6300선 턱밑… 코스닥 7% 강세 - it.chosun.com",
+   "title": "코스피, 외국인 1.5조 순매도에 6300선 턱밑… 코스닥 7% 강세 - IT조선",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -380,6 +380,13 @@
   },
   {
    "title": "[마감시황] 외국인 1.5조 '팔자'에 코스피 주춤...코스닥은 7% 급등 - 폴리뉴스 Polinews",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "[마감시황] 코스피 6299.66 강보합…코스닥 6.97% 급등 854.47 - 자본시장뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -439,15 +446,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "[마감시황] 코스피 장중 6411서 6258로 밀려…외국인 1조 1370억 순매도 - 자본시장뉴스",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -579,11 +577,13 @@
    ]
   },
   {
-   "title": "Schwab: Retail investors want AI stocks on the cheap",
+   "title": "Micron Stock Rises Despite Apple China Chip Threat",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August",
@@ -613,7 +613,7 @@
    ]
   },
   {
-   "title": "Micron Stock Gains Even as Apple Looks to China for Memory-Chip Supply",
+   "title": "Why Micron is Decisively Better Positioned Than Intel Now",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -622,19 +622,19 @@
    ]
   },
   {
-   "title": "S&P 500, Nasdaq, Dow Futures Mixed As Hormuz Uncertainty Weighs: Why AAPL, TSM, MU, SPCX, ASTS, SLS Stocks Are In Focus",
+   "title": "MU Outpaced SNDK, WDC This Week: Now, Retail Traders Bet On Outlook Raise At Key Analyst Event",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
+   "title": "Micron Technology Just Bounced 10% Off Its Lows. History Reveals What a $5,000 Investment Will Be Worth by Mid-2027.",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
-    "C-CHINA"
+    "M-CYCLE"
    ]
   }
  ],
