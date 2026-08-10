@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-11 01:28",
+ "ts_kst": "08-11 01:38",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,27 +7,18 @@
  },
  "routed": {
   "C-CHINA": 9,
-  "M-CYCLE": 8,
+  "M-CYCLE": 7,
   "F-ACTIVE": 2,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 72,
+ "unassigned": 73,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -77,8 +68,8 @@
    "agents": []
   },
   {
-   "title": "추미애 “반도체 폐수부터 줄여라”…삼성·SK하이닉스 정조준 - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
+   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -91,8 +82,8 @@
    "agents": []
   },
   {
-   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "추미애 “반도체 폐수부터 줄여라”…삼성·SK하이닉스 정조준 - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -526,7 +517,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -603,6 +594,13 @@
    ]
   },
   {
+   "title": "These Stocks Could Be Ready for Their Next Big Move",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Why Micron is Decisively Better Positioned Than Intel Now",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -640,13 +638,6 @@
   },
   {
    "title": "Semis Surge, Michael Burry’s Shorts Feel the Pressure — But Don’t Expect Him to Run for Cover After His Latest “1987-Style” Crash Warning",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Memory chip crunch could last 2 more years, JPMorgan says",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
