@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-11 04:25",
+ "ts_kst": "08-11 04:34",
  "n_items": 102,
  "by_source": {
   "kr": 73,
@@ -7,20 +7,20 @@
  },
  "routed": {
   "C-CHINA": 8,
-  "M-CYCLE": 6,
+  "M-CYCLE": 7,
   "F-ACTIVE": 2,
-  "M-RISK": 1,
+  "M-RISK": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 73,
+ "unassigned": 71,
  "alerts": [
   {
    "level": "critical",
-   "kw": "반대매매",
+   "kw": "사이드카",
    "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "title": "코스닥 7% 급등에 매수 사이드카…외국인 1조 넘게 팔고도 코스피 반등 - 이코노미사이언스",
    "agents": [
-    "R-LEVERAGE"
+    "M-RISK"
    ]
   }
  ],
@@ -152,7 +152,7 @@
    "agents": []
   },
   {
-   "title": "반도체株 주주환원 시동 거나…삼성전자·SK하이닉스 '현금 곳간' 연다 - 파이낸셜뉴스",
+   "title": "반도체株 주주환원 시동 거나…삼성전자·SK하이닉스 '현금 곳간' 연다 - fnnews.com",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -426,7 +426,7 @@
    "agents": []
   },
   {
-   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - kbmaeil.com",
+   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - 경북매일",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -449,11 +449,13 @@
    ]
   },
   {
-   "title": "외국인 '팔자'에 코스피 0.6%↓…SK하이닉스 4.88%↓ - 마켓인",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "코스닥 7% 급등에 매수 사이드카…외국인 1조 넘게 팔고도 코스피 반등 - 이코노미사이언스",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -585,13 +587,6 @@
    ]
   },
   {
-   "title": "Apple, Sionna, AbCellera, Sandisk, SpaceX, Berkshire,  and More Stocks That Explain Today’s Market",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Technology's Earnings Outlook Strengthens on Higher Memory Pricing, UBS Says",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -599,13 +594,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "The Next Breakout For This Tech Stock Could Be Hiding in Plain Sight",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "These Stocks Could Be Ready for Their Next Big Move",
@@ -624,7 +612,7 @@
    ]
   },
   {
-   "title": "Samsung Just Raised Pressure on Micron",
+   "title": "Microsoft, Amazon, Micron and Alphabet are part of Zacks Earnings Preview",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -633,7 +621,25 @@
    ]
   },
   {
-   "title": "Microsoft, Amazon, Micron and Alphabet are part of Zacks Earnings Preview",
+   "title": "Micron Stock Slips Amid Apple China Chip Threat",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Prediction: Micron and Taiwan Semiconductor Manufacturing Stocks Will Both Rebound to Fresh Highs Before 2026 Ends",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
