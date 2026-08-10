@@ -1,29 +1,19 @@
 {
- "ts_kst": "08-10 20:07",
+ "ts_kst": "08-10 20:17",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "C-CHINA": 8,
-  "M-CYCLE": 9,
+  "C-CHINA": 9,
+  "M-CYCLE": 7,
   "F-ACTIVE": 3,
   "M-RISK": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 68,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - munhwa.com",
-   "agents": [
-    "M-RISK"
-   ]
-  }
- ],
+ "unassigned": 69,
+ "alerts": [],
  "items": [
   {
    "title": "SK그룹, 정부에 중복상장 규제 개선 제안…솔리다임 IPO 염두 - 인베스트조선",
@@ -96,7 +86,7 @@
    "agents": []
   },
   {
-   "title": "SK하닉 \"中공장 매각 등 다각도 검토\"… AI 패키징 전략 강화 속도 - v.daum.net",
+   "title": "SK하이닉스, 충칭공장 지분 매각설에 \"확정된 사항 없다\" - 마켓인",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -295,7 +285,7 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -469,7 +459,7 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - yna.co.kr",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -580,7 +570,7 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - yna.co.kr",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -616,6 +606,22 @@
    ]
   },
   {
+   "title": "S&P 500, Nasdaq, Dow Futures Mixed As Hormuz Uncertainty Weighs: Why AAPL, TSM, MU, SPCX, ASTS, SLS Stocks Are In Focus",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "Why Micron is Decisively Better Positioned Than Intel Now",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -630,24 +636,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron Technology Just Bounced 10% Off Its Lows. History Reveals What a $5,000 Investment Will Be Worth by Mid-2027.",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK Hynix and Samsung Just Sent a Major Warning to Micron Investors",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
