@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-11 01:08",
+ "ts_kst": "08-11 01:18",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,20 +7,20 @@
  },
  "routed": {
   "C-CHINA": 8,
-  "M-CYCLE": 7,
+  "M-CYCLE": 8,
   "F-ACTIVE": 2,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 74,
+ "unassigned": 73,
  "alerts": [
   {
    "level": "critical",
-   "kw": "사이드카",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "agents": [
-    "M-RISK"
+    "R-LEVERAGE"
    ]
   }
  ],
@@ -40,8 +40,8 @@
    "agents": []
   },
   {
-   "title": "한달여만에 주가 반토막 난 SK하이닉스…향후 관찰 포인트는 - 한국경제",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "삼성전자·SK하이닉스·에코프로 1000원부터 산다…카카오페이證, 국내 주식 소수점 거래 시작 - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -479,8 +479,8 @@
    "agents": []
   },
   {
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -488,8 +488,8 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -515,7 +515,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -542,15 +542,6 @@
    ]
   },
   {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - fieldnews.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -563,6 +554,15 @@
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
+  },
+  {
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
@@ -601,7 +601,7 @@
    ]
   },
   {
-   "title": "Micron Stock Slips Amid Apple China Chip Threat",
+   "title": "Samsung Just Raised Pressure on Micron",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -610,7 +610,7 @@
    ]
   },
   {
-   "title": "Prediction: Micron and Taiwan Semiconductor Manufacturing Stocks Will Both Rebound to Fresh Highs Before 2026 Ends",
+   "title": "Microsoft, Amazon, Micron and Alphabet are part of Zacks Earnings Preview",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -619,7 +619,7 @@
    ]
   },
   {
-   "title": "Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August",
+   "title": "Micron Technology Stock Surged On A Shortage The Company Had Already Described",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -628,22 +628,18 @@
    ]
   },
   {
-   "title": "Micron’s Memory Boom Is Heading For A Peak, Analyst Warns",
+   "title": "Semis Surge, Michael Burry’s Shorts Feel the Pressure — But Don’t Expect Him to Run for Cover After His Latest “1987-Style” Crash Warning",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "Micron Trades at 6 Times Next Year's Earnings. The $38 Billion of Capacity That Ends This Cycle Doesn't Open Until 2028.",
+   "title": "Memory chip crunch could last 2 more years, JPMorgan says",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
