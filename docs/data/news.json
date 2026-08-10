@@ -1,39 +1,29 @@
 {
- "ts_kst": "08-10 17:46",
- "n_items": 102,
+ "ts_kst": "08-10 17:56",
+ "n_items": 101,
  "by_source": {
   "kr": 73,
-  "en": 29
+  "en": 28
  },
  "routed": {
-  "M-CYCLE": 9,
-  "C-CHINA": 10,
+  "M-CYCLE": 10,
+  "C-CHINA": 9,
   "F-ACTIVE": 3,
   "M-RISK": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
-   "title": "\"SK하이닉스 148만원 vs 470만원\"…같은 주식 두고 목표가 2배 넘게 벌어진 이유 - v.daum.net",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "한달여만에 주가 반토막 난 SK하이닉스…향후 관찰 포인트는 - 한국경제",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스·에코프로 1000원부터 산다…카카오페이證, 국내 주식 소수점 거래 시작 - 조선비즈 - Chosunbiz",
+   "title": "\"SK하이닉스 148만원 vs 470만원\"…같은 주식 두고 목표가 2배 넘게 벌어진 이유 - 아시아경제",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -441,7 +431,7 @@
    ]
   },
   {
-   "title": "외국인 '팔자'에 코스피 0.6%↓…SK하이닉스 4.88%↓ - marketin.edaily.co.kr",
+   "title": "외국인 '팔자'에 코스피 0.6%↓…SK하이닉스 4.88%↓ - 마켓인",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -552,15 +542,15 @@
    ]
   },
   {
-   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
@@ -590,15 +580,6 @@
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "C-CHINA"
    ]
   },
   {
@@ -636,14 +617,25 @@
    ]
   },
   {
-   "title": "Apple's Favorite Bullying Tactic Just Died in China. It Could Cost You Hundreds on Your Next iPhone.",
+   "title": "Unpacking the Latest Pullback in Micron Stock",
    "pub": "Sun, 09 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "Unpacking the Latest Pullback in Micron Stock",
+   "title": "Micron Has Surged 207% This Year. Brace for a Steep Pullback.",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Opinion: The Best AI Memory Stock to Buy Isn't Micron or Sandisk -- It's This Korean Giant",
    "pub": "Sun, 09 Aug 2026",
    "src": "en",
    "q": "MU",
