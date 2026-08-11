@@ -1,9 +1,9 @@
 {
- "ts_kst": "08-12 02:30",
- "n_items": 102,
+ "ts_kst": "08-12 02:40",
+ "n_items": 101,
  "by_source": {
   "kr": 73,
-  "en": 29
+  "en": 28
  },
  "routed": {
   "M-CYCLE": 13,
@@ -11,8 +11,16 @@
   "F-ACTIVE": 4,
   "R-LEVERAGE": 11
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - asiatoday.co.kr",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
@@ -73,27 +81,6 @@
    "agents": []
   },
   {
-   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "정부가 길 닦는다…삼성전자·SK하이닉스 반도체 투자 속도 붙나 - 뉴스1",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "급등장에 SK하이닉스 담보대출 1년새 438%↑…40대 이하서 쑥 - 연합뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -109,6 +96,27 @@
   },
   {
    "title": "SK하이닉스 담보대출 1년 새 5배…40대 비중도 두 배 뛰었다 By EBN - Investing.com 한국어",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "정부가 길 닦는다…삼성전자·SK하이닉스 반도체 투자 속도 붙나 - 뉴스1",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -152,14 +160,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
+   "title": "삼성전자, 5%대 급등…반도체 수출·주주환원 기대 [특징주] - edaily.co.kr",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 5%대 급등…반도체 수출·주주환원 기대 [특징주] - edaily.co.kr",
+   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -175,8 +183,8 @@
    ]
   },
   {
-   "title": "'성과급 잭팟' 터진 삼성·SK … AI 반도체 이익 배분 시험대 - biz.newdaily.co.kr",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - asiatoday.co.kr",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -212,7 +220,7 @@
    ]
   },
   {
-   "title": "與 메가 특위, 용인 반도체 찾아 “조기 완공 전폭 지원” - 전자신문",
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급락.. '약세' - 글로벌이코노믹",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -586,6 +594,15 @@
    "agents": []
   },
   {
+   "title": "Elon Musk’s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified.",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Elon Musk Says Memory Is Now AI's Biggest Bottleneck. Here's What That Means for Micron and Sandisk.",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -614,15 +631,6 @@
   },
   {
    "title": "The Undeniable Reasons Why Micron Stock Is a Buy This August",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron is Gaining Share. These Bulls See More Upside Ahead",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
