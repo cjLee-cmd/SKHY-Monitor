@@ -1,31 +1,28 @@
 {
- "ts_kst": "08-11 18:23",
- "n_items": 102,
+ "ts_kst": "08-11 18:33",
+ "n_items": 101,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 27
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 10,
   "C-CHINA": 7,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
  "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 사실상 日 키옥시아 최대 주주로… 도시바 지분 매각에 순위 역전 - 조선비즈 - Chosunbiz",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 日키옥시아 최대주주로…낸드 지형 바뀌나 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -39,13 +36,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 일본 키오시아의 사실상 최대주주 등극 - 한겨레",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, 채권 투자 전격 중단…발행 하루 전 통보 - 연합인포맥스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -53,7 +43,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
+   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -65,29 +55,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[특징주] 반도체 장비주, SK하이닉스 투자 규모 확정에 급등(종합) - v.daum.net",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - v.daum.net",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "SK그룹, 정부에 중복상장 규제 개선 제안…솔리다임 IPO 염두 - 인베스트조선",
@@ -132,10 +99,26 @@
    "agents": []
   },
   {
+   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - 매일경제",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
-   "q": "삼성전자 반도체",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "인텔 부활 이끄는 '한국인 3인방'…삼성·SK하이닉스 출신 [IT썰] - 머니투데이 - mt.co.kr",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
    "agents": []
   },
   {
@@ -169,13 +152,6 @@
    ]
   },
   {
-   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "정부가 길 닦는다…삼성전자·SK하이닉스 반도체 투자 속도 붙나 - 뉴스1",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -183,22 +159,29 @@
    "agents": []
   },
   {
-   "title": "반도체株 안전판인가 족쇄인가… 삼전닉스 ‘5년 계약’의 두 얼굴 - 조선일보",
+   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[마켓뷰] 삼성전자 4% 올라 코스피 6340선 사수…반도체가 살렸다 - 조선비즈 - Chosunbiz",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 美 테일러팹 인턴 선발…대만 TSMC와 '인재 쟁탈전' - 아이뉴스24",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - 아시아투데이",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "반도체 다음은 전력이다…삼성 SDS·SDI·전기 총출동 [삼성 AI 투자지도②] - 쿠키뉴스",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "'성과급 잭팟' 터진 삼성·SK … AI 반도체 이익 배분 시험대 - 뉴데일리",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -227,14 +210,14 @@
    ]
   },
   {
-   "title": "[마켓뷰] 삼성전자 4% 올라 코스피 6340선 사수…반도체가 살렸다 - 조선비즈 - Chosunbiz",
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급락.. '약세' - 글로벌이코노믹",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급락.. '약세' - 글로벌이코노믹",
+   "title": "반도체가 끌어올린 코스피…삼성전자 4%대 강세에 6340선 사수 - 굿모닝경제",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -608,6 +591,13 @@
    ]
   },
   {
+   "title": "1 No-Brainer Growth ETF to Buy Right Now for Less Than $1,000",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron vs. SK Hynix: Which Memory Chip Giant Is the Better Buy?",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -615,6 +605,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "3 Dividend-Paying Industrial Stocks to Buy in August",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
@@ -633,22 +630,11 @@
    ]
   },
   {
-   "title": "Micron poised for \"structural reset\" in earnings power, UBS says, as HBM squeeze tightens further",
+   "title": "Stock Screening Made Simple: A Guide",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Rises Despite Reported Apple Supplier Threat",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
