@@ -1,26 +1,31 @@
 {
- "ts_kst": "08-12 00:40",
- "n_items": 105,
+ "ts_kst": "08-12 00:50",
+ "n_items": 104,
  "by_source": {
   "kr": 75,
-  "en": 30
+  "en": 29
  },
  "routed": {
-  "M-CYCLE": 16,
+  "M-CYCLE": 12,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
+ "unassigned": 67,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "high",
+   "kw": "적자",
    "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "반도체도 적자 땐 성과급 0%였는데…DX노조 '1000주' 요구 논란 - 메트로신문",
+   "agents": []
+  },
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - 아시아투데이",
+   "agents": []
   }
  ],
  "items": [
@@ -48,7 +53,7 @@
    ]
   },
   {
-   "title": "SK하이닉스, 日 키옥시아 사실상 최대 주주 등극…도시바 지분 축소 여파 - chosun.com",
+   "title": "SK하이닉스, 日 키옥시아 사실상 최대 주주 등극…도시바 지분 축소 여파 - 조선일보",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -63,6 +68,13 @@
   },
   {
    "title": "SK하이닉스, 日 낸드 전문 '키옥시아' 최대주주로 사실상 등극 - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "1분 만에 퇴근 '역대급 꼼수'…9억5000만원 날린 하이닉스 직원 - 한국경제",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -90,29 +102,6 @@
    "agents": []
   },
   {
-   "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“마이크론 말고 SK하이닉스 사라” 美 투자지 추천에도…한국선 주가 빠지는 이유 - 전자신문",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"주가 빠졌네? 오히려 좋아\"…美매체 추천한 SK하이닉스 - v.daum.net",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "급등장에 SK하이닉스 담보대출 1년새 438%↑…40대 이하서 쑥 - 연합뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -128,6 +117,20 @@
   },
   {
    "title": "SK하이닉스 담보대출 1년 새 5배…40대 비중도 두 배 뛰었다 By EBN - Investing.com 한국어",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "곽노정 SK하이닉스 CEO, 더불어민주당 3대 메가프로젝트 지원 특별위원회 현장 간담회 인사말 - newsis.com",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "곽노정 SK하이닉스 CEO, 민주당 현장간담회 인사말 - 뉴스1",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -157,42 +160,7 @@
    "agents": []
   },
   {
-   "title": "'성과급 잭팟' 터진 삼성·SK … AI 반도체 이익 배분 시험대 - 뉴데일리",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "추미애 경기도지사, 삼성전자·SK하이닉스 ‘폐수방류 최소화’ 재차 촉구 - 경기신문",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[마켓 프리뷰] 美 반도체 훈풍에 코스피 반등 시동…외국인, 삼성전자·SK하이닉스 돌아올까 - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[배종찬 빅데이터 분석] 삼성전자 SK하이닉스, AI 거품인가 아닌가 - 비즈니스포스트",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급락.. '약세' - 글로벌이코노믹",
+   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - zdnet.co.kr",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -206,8 +174,52 @@
    "agents": []
   },
   {
+   "title": "삼성전자 판 초고수…순매수 1위도 'OO전자' - 한국경제",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 5%대 급등…반도체 수출·주주환원 기대 [특징주] - edaily.co.kr",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "1조5000억달러 반도체 시장 열린다…삼성·SK·마이크론 ‘메모리 전쟁’ - 테크월드",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "[마켓뷰] 삼성전자 4% 올라 코스피 6340선 사수…반도체가 살렸다 - 조선비즈 - Chosunbiz",
    "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - 아시아투데이",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "반도체도 적자 땐 성과급 0%였는데…DX노조 '1000주' 요구 논란 - 메트로신문",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "반도체 다음은 전력이다…삼성 SDS·SDI·전기 총출동 [삼성 AI 투자지도②] - 쿠키뉴스",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -232,15 +244,6 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
-  },
-  {
-   "title": "삼성전자, 3D 반도체 zHBM/zNAND 신기술, AI 반도체 판을 뒤집나? - 미디어피아",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
@@ -293,7 +296,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -352,7 +355,7 @@
    ]
   },
   {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - chosun.com",
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -476,7 +479,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피 6299.66 강보합…코스닥 6.97% 급등 854.47 - jabon.co.kr",
+   "title": "[食전食후] 코스피, 외국인 매도에 상승폭 축소…코스닥은 5%대 급등 - v.daum.net",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -612,6 +615,13 @@
    ]
   },
   {
+   "title": "Apple Already Increased the Price of iPhones Up to $300. Their Price Hikes Might Be Just Starting.",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "This Is the Big Question With Micron Technology Stock",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -630,25 +640,16 @@
    ]
   },
   {
+   "title": "Nvidia, Micron, DJT, SpaceX, Rocket Lab, Plug Power, Fermi, and More Stocks That Explain Today’s Market",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "The Undeniable Reasons Why Micron Stock Is a Buy This August",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron is Gaining Share. These Bulls See More Upside Ahead",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Is Down 28%, and Here Is What Investors Need to Know",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
