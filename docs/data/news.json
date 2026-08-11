@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-11 23:41",
+ "ts_kst": "08-11 23:51",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -9,21 +9,11 @@
   "P-ADR": 1,
   "M-CYCLE": 14,
   "C-CHINA": 7,
-  "F-ACTIVE": 5,
+  "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
    "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
@@ -63,13 +53,6 @@
    ]
   },
   {
-   "title": "[기자의눈] 삼전하닉에 ‘주주 환원’ 빗발치는 이유 - 서울경제",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -93,7 +76,7 @@
    "agents": []
   },
   {
-   "title": "“마이크론 말고 SK하이닉스 사라” 美 투자지 추천에도…한국선 주가 빠지는 이유 - etnews.com",
+   "title": "“마이크론 말고 SK하이닉스 사라” 美 투자지 추천에도…한국선 주가 빠지는 이유 - 전자신문",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -130,8 +113,15 @@
    "agents": []
   },
   {
-   "title": "곽노정 SK하이닉스 CEO, 더불어민주당 3대 메가프로젝트 지원 특별위원회 현장 간담회 인사말 - 뉴시스",
+   "title": "인사말하는 곽노정 SK하이닉스 CEO - 뉴시스",
    "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'델 테크 포럼' 25일 개최…SK하이닉스 등 글로벌 빅테크 모인다 - 머니투데이 - 머니투데이",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -174,7 +164,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
+   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - zdnet.co.kr",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -264,7 +254,7 @@
    "agents": []
   },
   {
-   "title": "'세계 반도체 빅3 체제' 균열 주범, 중국 창신메모리의 현주소는 - 이코노미스트",
+   "title": "'세계 반도체 빅3 체제' 균열 주범, 중국 창신메모리의 현주소는 - economist.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -323,7 +313,7 @@
    ]
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - khan.co.kr",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
    "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -355,7 +345,7 @@
    ]
   },
   {
-   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - khan.co.kr",
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -419,15 +409,6 @@
    "agents": []
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
-   "pub": "Tue, 30 Jun 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "[마감시황] 코스피, 외국인 '사자'에 강보합 6299.66…코스닥은 7% 급등 - 뉴스핌",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -458,8 +439,8 @@
    "agents": []
   },
   {
-   "title": "외국인, 이달 역대 최대로 '코스피 팔고 코스닥 담았다' - 연합뉴스",
-   "pub": "Sun, 31 May 2026",
+   "title": "코스피 6천300 문턱…외국인 1.5조 매도, 코스닥은 7% 급등 - idaegu.com",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -480,6 +461,13 @@
   },
   {
    "title": "美 고용 쇼크가 부른 금리 안도…외국인, 코스피로 돌아오나 - ebn.co.kr",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "[마감시황] 코스피 6299.66 강보합…코스닥 6.97% 급등 854.47 - 자본시장뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -633,6 +621,15 @@
    ]
   },
   {
+   "title": "Can Micron's Take-or-Pay Deals Improve Revenue Growth Visibility?",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "The Changing Dynamics Behind Micron Technology (MU)",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -647,15 +644,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron is Gaining Share. These Bulls See More Upside Ahead",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
