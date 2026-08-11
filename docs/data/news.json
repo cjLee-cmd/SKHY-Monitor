@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-12 05:32",
+ "ts_kst": "08-12 05:42",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -12,17 +12,7 @@
   "R-LEVERAGE": 11
  },
  "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
@@ -60,7 +50,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - v.daum.net",
+   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -74,8 +64,8 @@
    "agents": []
   },
   {
-   "title": "'역대급 실적' 삼성전자·SK하이닉스, 주주환원·시설투자 균형추 맞출까 - 뉴시스",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "\"주식 반토막에 배당금은 더 속상\" SK하이닉스, ‘나스닥’급 주주환원 나설까 - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -421,13 +411,11 @@
    "agents": []
   },
   {
-   "title": "[EBN 데이터센터] 코스피, 외국인·개인 순매수에도 6225.55로 하락 마감...대형 반도체 약세 부담 - ebn.co.kr",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "美 고용 쇼크가 부른 금리 안도…외국인, 코스피로 돌아오나 - ebn.co.kr",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "[마감시황] 코스피 장중 6411서 6258로 밀려…외국인 1조 1370억 순매도 - 자본시장뉴스",
@@ -460,15 +448,17 @@
    "agents": []
   },
   {
-   "title": "[주간수급리포트] 외국인·기관 '반도체 팔자'…개인 홀로 코스피 버팀목 - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
+   "title": "[EBN 데이터센터] 코스피, 외국인·개인 순매수에도 하락 출발…반도체 약세 부담 By EBN - Investing.com 한국어",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
-   "title": "美 고용 쇼크가 부른 금리 안도…외국인, 코스피로 돌아오나 - ebn.co.kr",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "[주간수급리포트] 외국인·기관 '반도체 팔자'…개인 홀로 코스피 버팀목 - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -608,16 +598,7 @@
    "agents": []
   },
   {
-   "title": "Could $25,000 Invested in Micron Stock Make You a Millionaire?",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Slips Despite Mizuho's Massive $1,375 Target",
+   "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today’s Market",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -635,7 +616,16 @@
    ]
   },
   {
-   "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today’s Market",
+   "title": "Could $25,000 Invested in Micron Stock Make You a Millionaire?",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Slips Despite Mizuho's Massive $1,375 Target",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
