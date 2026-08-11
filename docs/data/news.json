@@ -1,28 +1,18 @@
 {
- "ts_kst": "08-11 12:42",
+ "ts_kst": "08-11 12:52",
  "n_items": 101,
  "by_source": {
   "kr": 74,
   "en": 27
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 11
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "high",
-   "kw": "목표가+하향",
-   "src": "kr",
-   "title": "키움증권 “삼성전자·SK하닉 목표가 하향… HBM 모멘텀은 유효” - v.daum.net",
-   "agents": [
-    "M-CYCLE"
-   ]
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
    "title": "SK그룹, 정부에 중복상장 규제 개선 제안…솔리다임 IPO 염두 - 인베스트조선",
@@ -85,27 +75,25 @@
    "agents": []
   },
   {
-   "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓ - yna.co.kr",
+   "title": "급등장에 SK하이닉스 담보대출 1년새 438%↑…40대 이하서 쑥 - v.daum.net",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 담보대출 1년 새 5배…40대 비중도 두 배 뛰었다 By EBN - Investing.com 한국어",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"반도체 실적 올해가 정점\"…키움證, 삼전·SK하닉 목표가 또 낮췄다 - 뉴스1",
+   "title": "상반기 급등장 때 하이닉스 담보대출 5배로… 40대 '빚투' 우려 - 한국일보",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "키움증권 “삼성전자·SK하닉 목표가 하향… HBM 모멘텀은 유효” - v.daum.net",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "\"SK하이닉스, 중국 충칭 패키징 공장 지분매각 등 검토\" - YTN 사이언스",
@@ -317,7 +305,7 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -367,11 +355,13 @@
    "agents": []
   },
   {
-   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "[EBN 데이터센터] 코스피, 외국인·개인 순매수에도 하락 출발…반도체 약세 부담 By EBN - Investing.com 한국어",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "한때 '만스피' 바라보던 코스피 지지부진…\"외국인 복귀가 관건\" - 파이낸셜뉴스",
@@ -399,15 +389,6 @@
   {
    "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
    "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "[EBN 데이터센터] 코스피, 외국인·개인 순매수에도 6225.55로 하락 마감...대형 반도체 약세 부담 - ebn.co.kr",
-   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -459,8 +440,15 @@
    ]
   },
   {
-   "title": "코스닥 7% 가까이 폭등…외국인·기관 ‘쌍끌이’에 850선 탈환 - 굿모닝경제",
+   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
    "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - 경북매일",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -489,7 +477,7 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - yna.co.kr",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -616,20 +604,6 @@
    ]
   },
   {
-   "title": "Stock Screening Made Simple: A Guide",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Apple, Sionna, AbCellera, Sandisk, SpaceX, Berkshire,  and More Stocks That Explain Today’s Market",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron poised for \"structural reset\" in earnings power, UBS says, as HBM squeeze tightens further",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -655,6 +629,22 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Micron Technology's Earnings Outlook Strengthens on Higher Memory Pricing, UBS Says",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "These Stocks Could Be Ready for Their Next Big Move",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
