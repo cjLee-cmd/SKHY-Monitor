@@ -1,24 +1,24 @@
 {
- "ts_kst": "08-12 06:26",
- "n_items": 100,
+ "ts_kst": "08-12 06:36",
+ "n_items": 104,
  "by_source": {
-  "kr": 73,
-  "en": 27
+  "kr": 74,
+  "en": 30
  },
  "routed": {
-  "P-ADR": 1,
-  "M-CYCLE": 12,
+  "P-ADR": 2,
+  "M-CYCLE": 11,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 62,
+ "unassigned": 66,
  "alerts": [
   {
-   "level": "info",
-   "kw": "수주",
+   "level": "high",
+   "kw": "목표주가+하향",
    "src": "kr",
-   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - 아시아투데이",
+   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
    "agents": []
   }
  ],
@@ -54,6 +54,15 @@
    ]
   },
   {
+   "title": "필라델피아 반도체 지수 0.9% 상승…SK하닉 ADR 4.7%↑ - 뉴스1",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
    "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -68,7 +77,7 @@
    "agents": []
   },
   {
-   "title": "'역대급 실적' 삼성전자·SK하이닉스, 주주환원·시설투자 균형추 맞출까 - 뉴시스",
+   "title": "'삼전닉스' 주가는 왜 엇갈렸나…AI보다 무서운 '주주환원' 경쟁 [증시는 왜] - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -89,13 +98,11 @@
    "agents": []
   },
   {
-   "title": "엔비디아 HBM 탑재량 줄여도 삼성전자 SK하이닉스 '탄탄대로' 전망, AI 반도체 수요 강력 - 비즈니스포스트",
+   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓ - 연합뉴스",
@@ -126,15 +133,6 @@
    "agents": []
   },
   {
-   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - 매일경제",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "'삼성의 달수'를 아십니까[광화문] - 머니투데이 - 머니투데이",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -154,6 +152,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "엔비디아 HBM 탑재량 줄여도 삼성전자 SK하이닉스 '탄탄대로' 전망, AI 반도체 수요 강력 - 비즈니스포스트",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자 판 초고수…순매수 1위도 'OO전자' - hankyung.com",
@@ -225,13 +232,6 @@
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "무섭게 따라오는 중국 반도체…초고속 성장 ‘3가지 비결’ 있었다 - 한겨레",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
    "agents": []
   },
   {
@@ -351,6 +351,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
+   "pub": "Wed, 20 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
@@ -595,6 +602,13 @@
    ]
   },
   {
+   "title": "SanDisk Traded Margin Upside For Years Of Contracted Revenue",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today’s Market",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -632,24 +646,6 @@
   },
   {
    "title": "Micron Stock Could Be Worth $2,000 by 2030. Here Is the Bull Case",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Elon Musk’s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified.",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Elon Musk Says Memory Is Now AI's Biggest Bottleneck. Here's What That Means for Micron and Sandisk.",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
