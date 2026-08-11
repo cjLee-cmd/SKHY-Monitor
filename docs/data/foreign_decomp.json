@@ -1,0 +1,78 @@
+{
+ "ts_kst": "08-11 12:26",
+ "stocks": {
+  "samsung": {
+   "name": "삼성전자",
+   "decomp": {
+    "n": 379,
+    "beta": -1.913,
+    "alpha": 0.303,
+    "r2_pct": 13.4,
+    "recent5": {
+     "total": 8.56,
+     "short_linked": -18.05,
+     "residual": 26.6
+    },
+    "last_date": "2026-07-24"
+   },
+   "brokers": {
+    "sell": {
+     "total": 6371852.0,
+     "foreign": 0.0,
+     "foreign_pct": 0.0,
+     "houses": []
+    },
+    "buy": {
+     "total": 5815566.0,
+     "foreign": 1141734.0,
+     "foreign_pct": 19.6,
+     "houses": [
+      {
+       "name": "골드만",
+       "qty": 1141734.0
+      }
+     ]
+    },
+    "net_foreign_qty": 1141734.0,
+    "foreign_share_pct": 9.4
+   }
+  },
+  "hynix": {
+   "name": "SK하이닉스",
+   "decomp": {
+    "n": 379,
+    "beta": -1.59,
+    "alpha": 0.153,
+    "r2_pct": 24.1,
+    "recent5": {
+     "total": 9.99,
+     "short_linked": -23.13,
+     "residual": 33.12
+    },
+    "last_date": "2026-07-24"
+   },
+   "brokers": {
+    "sell": {
+     "total": 870468.0,
+     "foreign": 161929.0,
+     "foreign_pct": 18.6,
+     "houses": [
+      {
+       "name": "모간서울",
+       "qty": 161929.0
+      }
+     ]
+    },
+    "buy": {
+     "total": 935552.0,
+     "foreign": 0.0,
+     "foreign_pct": 0.0,
+     "houses": []
+    },
+    "net_foreign_qty": -161929.0,
+    "foreign_share_pct": 9.0
+   }
+  }
+ },
+ "note": "공매도 회귀 분해 + 외국계 창구 비중. 패시브/액티브 분리는 데이터 부재로 미제공."
+}

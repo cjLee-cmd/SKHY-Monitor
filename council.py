@@ -226,7 +226,7 @@ def main():
     log = {"at": now.strftime('%Y-%m-%d %H:%M'), "rounds": [], "data_asof": stale}
 
     # ── R1: 전원 발언 (그룹 순서) ──
-    order = ['F-PASSIVE','F-ACTIVE','F-SHORT','I-DEALER','I-FUND','I-PENSION',
+    order = ['F-ACTIVE','F-SHORT','I-DEALER','I-FUND','I-PENSION',
              'I-MINOR','R-RETAIL','R-LEVERAGE','C-BUYBACK','P-ARB','B-RATES','M-CYCLE','M-RISK','P-ADR','C-CHINA']
     r1, silent = [], []
     for aid in order:
