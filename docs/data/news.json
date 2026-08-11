@@ -1,27 +1,19 @@
 {
- "ts_kst": "08-12 07:40",
- "n_items": 101,
+ "ts_kst": "08-12 07:49",
+ "n_items": 102,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 27
  },
  "routed": {
+  "M-CYCLE": 12,
   "P-ADR": 1,
-  "M-CYCLE": 11,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
  "unassigned": 64,
- "alerts": [
-  {
-   "level": "high",
-   "kw": "목표주가+하향",
-   "src": "kr",
-   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
-   "agents": []
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
@@ -38,18 +30,20 @@
    "agents": []
   },
   {
-   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
+   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
+   "title": "\"로봇 덕분에\" 달리는 삼성전자…\"HBM 때문에\" 맥 빠진 하이닉스 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "\"사라더니 목표가 30% 낮추나\"…증권가 엇갈린 '삼전닉스' 전망 - v.daum.net",
@@ -59,7 +53,7 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 솔리다임 상장은 투자재원 확충\"…\"삼성전기 목표가 300만원\" MLCC 공급 부족 계속 전망 [株토피아] - 파이낸셜뉴스",
+   "title": "미래證 “SK하이닉스, 솔리다임 상장은 후속 투자재원 확충” - 조선비즈 - Chosunbiz",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -73,7 +67,7 @@
    "agents": []
   },
   {
-   "title": "“SK하이닉스, 40조원 규모 '통 큰 주주환원' 기대”[클릭e종목] - 아시아경제",
+   "title": "“SK하이닉스, 40조원 규모 '통 큰 주주환원' 기대”[클릭e종목] - core.asiae.co.kr",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -147,6 +141,13 @@
   {
    "title": "추미애 경기도지사, 삼성전자·SK하이닉스 ‘폐수방류 최소화’ 재차 촉구 - 경기신문",
    "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -299,7 +300,7 @@
    ]
   },
   {
-   "title": "\"애플, 중국 칩 테스트\"‥\"메모리주 급락 끝나\" - MBC 뉴스",
+   "title": "\"애플, 중국 칩 테스트\"‥\"메모리주 급락 끝나\" - imnews.imbc.com",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -434,14 +435,14 @@
    "agents": []
   },
   {
-   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - kbmaeil.com",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "코스피 6천300 문턱…외국인 1.5조 매도, 코스닥은 7% 급등 - 대구일보",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - 에너지경제신문",
+   "title": "외국인 1.1조 던졌다…코스피 반등 실패, 6258 마감 - kbmaeil.com",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -635,15 +636,6 @@
   },
   {
    "title": "Micron Stock Slips Despite Mizuho's Massive $1,375 Target",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Could Be Worth $2,000 by 2030. Here Is the Bull Case",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
