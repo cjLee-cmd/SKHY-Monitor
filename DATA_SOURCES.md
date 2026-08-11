@@ -72,6 +72,43 @@ KRX_AUTH_KEY                    KRX Data Marketplace
 KAKAO_REST_KEY, KAKAO_REFRESH_TOKEN, NTFY_TOPIC   알림
 ```
 
+## 6. 실시간 투자자 수급 ⭐ (2026-08-11 확보)
+
+HTS의 별표(*) 수치와 동일한 **장중 실시간** 추정 순매수. 마감을 기다릴 필요가 없다.
+
+| 항목 | 값 |
+|---|---|
+| path | `/uapi/domestic-stock/v1/quotations/investor-trend-estimate` |
+| **tr_id** | **`HHPTJ04160200`** |
+| **파라미터** | **`MKSC_SHRN_ISCD=005930`** |
+| 산출 파일 | `realtime_flow.json` |
+
+**응답 필드**
+
+| 필드 | 의미 |
+|---|---|
+| `bsop_hour_gb` | 시간대 구분 |
+| `frgn_fake_ntby_qty` | 외국인 추정 순매수 |
+| `orgn_fake_ntby_qty` | 기관 추정 순매수 |
+| `sum_fake_ntby_qty` | 합계 → **개인 = −합계** (역산) |
+
+### ⚠️ 반드시 지킬 것
+
+- **토큰 캐시 필수** — 발급 1분 1회 제한. `.kistoken`에 저장해 재사용하지 않으면 **403**
+- 값은 **추정치** — 마감 확정치와 오차 있음
+- 개인은 직접 제공 안 됨 → 수급 항등식으로 역산
+
+### ❌ 실패한 경로 (재시도 금지)
+
+| 경로 | 실패 이유 |
+|---|---|
+| `inquire-investor` | 장중 전부 **0** |
+| `foreign-institution-total` | 상위 30 랭킹 — 종목 **조용히 누락** |
+| `FHPTJ04160200` / `FHKST644400C0` | 없는 코드 / 파라미터 불일치 |
+| `FID_INPUT_ISCD` 파라미터 | `MKSC_SHRN_ISCD`만 작동 |
+| 네이버·KRX 웹 | CORS·로그인 차단, 샌드박스 403 |
+
+
 ## 5. 검증 규칙
 
 - **수급 항등식**: Σ(11분류) = 0 (±1e6). 위반 시 검증 에이전트가 기각.
