@@ -1,21 +1,52 @@
 {
- "ts_kst": "08-11 20:14",
+ "ts_kst": "08-11 20:25",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 11,
   "C-CHINA": 7,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 68,
- "alerts": [],
+ "unassigned": 69,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
+   "title": "SK하이닉스, 사실상 日 키옥시아 최대 주주로… 도시바 지분 매각에 순위 역전 - 조선비즈 - Chosunbiz",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 日 키옥시아 사실상 최대주주로 - mk.co.kr",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 일본 키옥시아 단일 최대주주 지위 올라섰다 - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - hankyung.com",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -45,28 +76,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 사실상 日 키옥시아 최대 주주로… 도시바 지분 매각에 순위 역전 - 조선비즈 - Chosunbiz",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "키옥시아 최대주주 바뀌었다…SK하이닉스, 사실상 최대 의결권 확보 - 헤럴드경제",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 일본 키옥시아 단일 최대주주 지위 올라섰다 - v.daum.net",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - 매일경제",
+   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - mk.co.kr",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -103,14 +113,7 @@
    "agents": []
   },
   {
-   "title": "인사말하는 곽노정 SK하이닉스 CEO - 뉴시스",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 담보대출 1년 새 5배…40대 비중도 두 배 뛰었다 By EBN - Investing.com 한국어",
+   "title": "인사말하는 곽노정 SK하이닉스 CEO - newsis.com",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -124,7 +127,14 @@
    "agents": []
   },
   {
-   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
+   "title": "SK하이닉스 주식담보대출 1년새 5배…40대 레버리지 10배 폭증 - 브릿지경제",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - mk.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -145,7 +155,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자 판 초고수…순매수 1위도 'OO전자' - 한국경제",
+   "title": "삼성전자 판 초고수…순매수 1위도 'OO전자' - hankyung.com",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -169,13 +186,6 @@
   },
   {
    "title": "[마켓뷰] 삼성전자 4% 올라 코스피 6340선 사수…반도체가 살렸다 - 조선비즈 - Chosunbiz",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -219,7 +229,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 3D 반도체 zHBM/zNAND 신기술, AI 반도체 판을 뒤집나? - 미디어피아",
+   "title": "삼성전자, 3D 반도체 zHBM/zNAND 신기술, AI 반도체 판을 뒤집나? - mediapia.co.kr",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -267,7 +277,7 @@
    "agents": []
   },
   {
-   "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
+   "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - hankyung.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -326,7 +336,7 @@
    ]
   },
   {
-   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - 매일경제",
+   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - mk.co.kr",
    "pub": "Wed, 06 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -415,7 +425,7 @@
    ]
   },
   {
-   "title": "[마감시황] 코스피, 외국인 '사자'에 강보합 6299.66…코스닥은 7% 급등 - newspim.com",
+   "title": "[마감시황] 코스피, 외국인 '사자'에 강보합 6299.66…코스닥은 7% 급등 - 뉴스핌",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -473,8 +483,8 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -491,8 +501,8 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -500,8 +510,8 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -543,13 +553,27 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
@@ -561,27 +585,13 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
@@ -600,6 +610,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "Is the Artificial Intelligence (AI) Bubble About to Pop? Investors Who Make This 1 Move Will Come Out on Top, According to History.",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Micron Says Customers Are Scrambling for Memory Even at ‘Very High’ Prices",
@@ -634,13 +651,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "3 Dividend-Paying Industrial Stocks to Buy in August",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
