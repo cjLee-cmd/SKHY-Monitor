@@ -1,32 +1,23 @@
 {
- "ts_kst": "08-12 02:10",
+ "ts_kst": "08-12 02:20",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 13,
-  "C-CHINA": 9,
+  "M-CYCLE": 12,
+  "C-CHINA": 8,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 11
  },
- "unassigned": 65,
+ "unassigned": 67,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "수주",
    "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "목표주가+하향",
-   "src": "kr",
-   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
+   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - 아시아투데이",
    "agents": []
   }
  ],
@@ -90,20 +81,6 @@
    "agents": []
   },
   {
-   "title": "“잠깐 떴다 지는 주도주”... 韓 증시 발목 잡는 ‘푼돈 배당’ - 조선비즈 - Chosunbiz",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[성공예감] SK하이닉스 배당 375원…중국보다 낮은 배당률, 한국 증시 명운이 걱정입니다 – 홍춘욱 대표(프리즘 투자자문) - v.daum.net",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -139,10 +116,17 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
+   "title": "SK하이닉스 담보대출 1년 새 5배…40대 비중도 두 배 뛰었다 By EBN - Investing.com 한국어",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
-   "q": "삼성전자 반도체",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 통합노조 출범, ‘성과급 갈등 2라운드’ 불붙나? - 내외뉴스통신",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
    "agents": []
   },
   {
@@ -176,6 +160,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 5%대 급등…반도체 수출·주주환원 기대 [특징주] - edaily.co.kr",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -192,8 +183,8 @@
    ]
   },
   {
-   "title": "'성과급 잭팟' 터진 삼성·SK … AI 반도체 이익 배분 시험대 - 뉴데일리",
-   "pub": "Fri, 07 Aug 2026",
+   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - 아시아투데이",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -277,15 +268,6 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "애플, 중국 창신테크 메모리 반도체 테스트…아이폰·맥북 등에 적용 검토 - 파이낸스투데이",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
@@ -336,22 +318,11 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - 매일경제",
+   "pub": "Wed, 06 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
@@ -360,6 +331,22 @@
    "q": "메모리 반도체 중국",
    "agents": [
     "M-CYCLE"
+   ]
+  },
+  {
+   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
+   "pub": "Wed, 20 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "pub": "Tue, 17 Feb 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
    ]
   },
   {
@@ -612,6 +599,42 @@
    ]
   },
   {
+   "title": "This Is the Big Question With Micron Technology Stock",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "How Micron Stock Can Bust Out of Its Slump",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "The Undeniable Reasons Why Micron Stock Is a Buy This August",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron is Gaining Share. These Bulls See More Upside Ahead",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Humanoid Robots Need 10x the Memory of a Self-Driving Car. Micron Is Positioned to Win",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -622,36 +645,6 @@
   },
   {
    "title": "Micron, SpaceX, Nvidia, Intel, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today’s Market",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Michael Burry Has a Stark Warning for Investors Betting on Today's Market",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Apple Already Increased the Price of iPhones Up to $300. Their Price Hikes Might Be Just Starting.",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Can Silicon Motion's New MonTitan SSD Solution Drive Growth?",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "This Is the Big Question With Micron Technology Stock",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
