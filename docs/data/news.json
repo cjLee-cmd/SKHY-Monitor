@@ -1,25 +1,26 @@
 {
- "ts_kst": "08-11 18:13",
- "n_items": 103,
+ "ts_kst": "08-11 18:23",
+ "n_items": 102,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 27
  },
  "routed": {
-  "M-CYCLE": 10,
+  "M-CYCLE": 11,
   "C-CHINA": 7,
-  "F-ACTIVE": 4,
-  "M-RISK": 1,
+  "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 69,
+ "unassigned": 67,
  "alerts": [
   {
-   "level": "info",
-   "kw": "수주",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - 아시아투데이",
-   "agents": []
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   }
  ],
  "items": [
@@ -31,7 +32,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 日키옥시아 최대주주로…낸드 지형 바뀌나 - v.daum.net",
+   "title": "SK하이닉스, 日 키옥시아 최대주주 됐지만… - 한국경제",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -52,6 +53,20 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 다롄·청주서 월 55만장 물량전…범용 낸드·HBF 영토 동시 확장 - 서울경제",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -60,13 +75,6 @@
   },
   {
    "title": "[특징주] 반도체 장비주, SK하이닉스 투자 규모 확정에 급등(종합) - v.daum.net",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 54조 시설투자…최태원 \"공급 늘려 가격 낮춰야\" - 연합인포맥스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -110,13 +118,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주식담보대출 1년새 5배…40대 레버리지 10배 폭증 - 브릿지경제",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "급등장에 SK하이닉스 담보대출 1년새 438%↑…40대 이하서 쑥 - 연합뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -124,7 +125,7 @@
    "agents": []
   },
   {
-   "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
+   "title": "올 봄 급등장 때 SK하이닉스 담보대출 437%↑…‘빚투’로 유입 가능성 - khan.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -226,14 +227,14 @@
    ]
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급락.. '약세' - 글로벌이코노믹",
+   "title": "[마켓뷰] 삼성전자 4% 올라 코스피 6340선 사수…반도체가 살렸다 - 조선비즈 - Chosunbiz",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "반도체가 끌어올린 코스피…삼성전자 4%대 강세에 6340선 사수 - 굿모닝경제",
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급락.. '약세' - 글로벌이코노믹",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -411,6 +412,15 @@
    "agents": []
   },
   {
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
+   "pub": "Tue, 30 Jun 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "[마감시황] 코스피, 외국인 '사자'에 강보합 6299.66…코스닥은 7% 급등 - 뉴스핌",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -448,15 +458,6 @@
    "agents": []
   },
   {
-   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
    "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -478,8 +479,8 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -496,8 +497,8 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -505,8 +506,8 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -548,24 +549,6 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -575,6 +558,13 @@
    ]
   },
   {
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
@@ -582,11 +572,22 @@
    "agents": []
   },
   {
-   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": []
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
@@ -616,13 +617,6 @@
    ]
   },
   {
-   "title": "3 Dividend-Paying Industrial Stocks to Buy in August",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -639,11 +633,22 @@
    ]
   },
   {
-   "title": "Stock Screening Made Simple: A Guide",
+   "title": "Micron poised for \"structural reset\" in earnings power, UBS says, as HBM squeeze tightens further",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Rises Despite Reported Apple Supplier Threat",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
