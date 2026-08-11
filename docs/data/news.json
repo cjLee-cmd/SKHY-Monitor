@@ -1,23 +1,32 @@
 {
- "ts_kst": "08-12 04:02",
+ "ts_kst": "08-12 04:12",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 14,
+  "M-CYCLE": 15,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
-  "R-LEVERAGE": 11
+  "R-LEVERAGE": 12
  },
- "unassigned": 66,
+ "unassigned": 64,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -39,21 +48,21 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 日 키옥시아 사실상 최대 주주 등극…도시바 지분 축소 여파 - chosun.com",
+   "title": "SK하이닉스, 日 키옥시아 사실상 최대 주주 등극…도시바 지분 축소 여파 - 조선일보",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 日키옥시아 사실상 최대주주 등극 - 아시아경제",
+   "title": "SK하이닉스, 日키옥시아 사실상 최대주주 등극 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 日 낸드 전문 '키옥시아' 최대주주로 사실상 등극 - v.daum.net",
+   "title": "SK하이닉스, 日 낸드 전문 '키옥시아' 최대주주로 사실상 등극 - 노컷뉴스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -111,13 +120,6 @@
    "agents": []
   },
   {
-   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - businesspost.co.kr",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -125,7 +127,16 @@
    "agents": []
   },
   {
-   "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓ - 연합뉴스",
+   "title": "\"로봇 덕분에\" 달리는 삼성전자…\"HBM 때문에\" 맥 빠진 하이닉스 - 뉴스1",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - businesspost.co.kr",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -277,7 +288,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -345,15 +356,6 @@
    ]
   },
   {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - chosun.com",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
@@ -361,6 +363,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - businesspost.co.kr",
+   "pub": "Wed, 20 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
@@ -386,13 +395,6 @@
    "agents": []
   },
   {
-   "title": "한때 '만스피' 바라보던 코스피 지지부진…\"외국인 복귀가 관건\" - 파이낸셜뉴스",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -402,7 +404,21 @@
    ]
   },
   {
+   "title": "한때 '만스피' 바라보던 코스피 지지부진…\"외국인 복귀가 관건\" - 파이낸셜뉴스",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "외국인 1.5조 매도에 코스피 '찔끔' 상승…코스닥은 7% 폭등 - v.daum.net",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "올해만 194조 팔아치운 외국인…집 나간 큰 손 언제 돌아오나 - 매일신문",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -443,13 +459,6 @@
   {
    "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - 에너지경제신문",
    "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피 6천300 문턱…외국인 1.5조 매도, 코스닥은 7% 급등 - idaegu.com",
-   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -512,6 +521,15 @@
    ]
   },
   {
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -546,20 +564,20 @@
    ]
   },
   {
-   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
@@ -596,11 +614,13 @@
    ]
   },
   {
-   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
-   "pub": "Mon, 08 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
+   "title": "Micron Stock Slips Despite Mizuho's Massive $1,375 Target",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "How Micron Stock Can Bust Out of Its Slump",
@@ -640,15 +660,6 @@
   },
   {
    "title": "Elon Musk Says Memory Is Now AI's Biggest Bottleneck. Here's What That Means for Micron and Sandisk.",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "This Is the Big Question With Micron Technology Stock",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
