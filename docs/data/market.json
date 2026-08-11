@@ -1,6 +1,6 @@
 {
- "ts": "2026-08-11T16:02:14.006201+09:00",
- "ts_kst": "08-11 16:02",
+ "ts": "2026-08-11T16:04:42.630231+09:00",
+ "ts_kst": "08-11 16:04",
  "groups": {
   "해외지수": {
    "spx": {
@@ -87,45 +87,34 @@
     "chg_20d": -5.88,
     "chg_60d": -2.2,
     "range_pos": 38.0
-   },
-   "vkospi": {
-    "name": "VKOSPI",
-    "cur": 69.55,
-    "chg_1d": -7.99,
-    "chg_5d": 0,
-    "chg_20d": 0,
-    "chg_60d": 0,
-    "range_pos": 64,
-    "date": "20260810",
-    "src": "KRX"
    }
   },
   "원자재": {
    "oil": {
     "name": "WTI 유가",
-    "cur": 83.53,
-    "chg_1d": 1.7,
-    "chg_5d": 10.24,
-    "chg_20d": 5.28,
-    "chg_60d": -14.83,
-    "range_pos": 37.0
+    "cur": 83.64,
+    "chg_1d": 1.84,
+    "chg_5d": 10.39,
+    "chg_20d": 5.42,
+    "chg_60d": -14.71,
+    "range_pos": 38.0
    },
    "gold": {
     "name": "금",
-    "cur": 4425.6,
-    "chg_1d": 1.46,
-    "chg_5d": 8.06,
-    "chg_20d": 8.98,
-    "chg_60d": -6.21,
-    "range_pos": 60.0
+    "cur": 4420.5,
+    "chg_1d": 1.35,
+    "chg_5d": 7.94,
+    "chg_20d": 8.85,
+    "chg_60d": -6.32,
+    "range_pos": 59.0
    },
    "copper": {
     "name": "구리",
-    "cur": 6.64,
-    "chg_1d": 0.66,
-    "chg_5d": 0.29,
-    "chg_20d": 4.87,
-    "chg_60d": 3.5,
+    "cur": 6.63,
+    "chg_1d": 0.57,
+    "chg_5d": 0.2,
+    "chg_20d": 4.77,
+    "chg_60d": 3.41,
     "range_pos": 91.0
    }
   },
@@ -163,14 +152,9 @@
   "mu_vs_sox_20d": -5.24,
   "kospi_vs_spx_20d": -9.94,
   "sox_vs_ndx_20d": -5.7,
-  "vkospi_vix_ratio": 4.5,
   "vxn_vix_ratio": 1.49
  },
  "alerts": [
-  {
-   "level": "high",
-   "text": "VKOSPI 69.5 — 고공포 구간."
-  },
   {
    "level": "high",
    "text": "VXN/VIX 1.49 — 공포가 기술주에 집중."
