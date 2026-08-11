@@ -1,8 +1,8 @@
 {
- "ts_kst": "08-11 13:31",
- "n_items": 102,
+ "ts_kst": "08-11 13:41",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
@@ -11,8 +11,18 @@
   "F-ACTIVE": 5,
   "R-LEVERAGE": 11
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "목표가+하향",
+   "src": "kr",
+   "title": "키움증권 “삼성전자·SK하닉 목표가 하향… HBM 모멘텀은 유효” - v.daum.net",
+   "agents": [
+    "M-CYCLE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
@@ -22,7 +32,7 @@
    "agents": []
   },
   {
-   "title": "미 투자지 \"마이크론 말고 SK하이닉스 사라\" 호평인데… 한국선 왜 주가 빠지나 - 조선일보",
+   "title": "미 투자지 “마이크론 말고 SK하이닉스 사라” 호평인데…한국선 왜 주가 빠지나 - 조선비즈 - Chosunbiz",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -47,14 +57,14 @@
    "agents": []
   },
   {
-   "title": "미래證 “SK하이닉스, 솔리다임 상장은 후속 투자재원 확충” - 조선비즈 - Chosunbiz",
+   "title": "미래에셋 “SK하이닉스, 주주환원 40조 전망...솔리다임 상장은 투자재원 확충” - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "미래에셋 “SK하이닉스, 주주환원 40조 전망...솔리다임 상장은 투자재원 확충” - v.daum.net",
+   "title": "미래證 “SK하이닉스, 솔리다임 상장은 후속 투자재원 확충” - 조선비즈 - Chosunbiz",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -82,11 +92,13 @@
    "agents": []
   },
   {
-   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
+   "title": "4조원 충칭 낸드공장 매각설…SK하이닉스, HBM 투자 실탄 확보 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "SK하이닉스, 日 키옥시아 사실상 최대 주주 됐다 - 마켓인",
@@ -117,15 +129,24 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스, 중국 충칭 패키징 공장 지분매각 등 검토\" - YTN 사이언스",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "키움증권 “삼성전자·SK하닉 목표가 하향… HBM 모멘텀은 유효” - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
    "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -551,6 +572,13 @@
    ]
   },
   {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - nongmin.com",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -574,13 +602,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
@@ -608,6 +629,20 @@
    ]
   },
   {
+   "title": "Stock Screening Made Simple: A Guide",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Apple, Sionna, AbCellera, Sandisk, SpaceX, Berkshire,  and More Stocks That Explain Today’s Market",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron poised for \"structural reset\" in earnings power, UBS says, as HBM squeeze tightens further",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -624,31 +659,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Micron vs. SK hynix: One Stock Rules AI Memory. The Other Has More Room to Run.",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology's Earnings Outlook Strengthens on Higher Memory Pricing, UBS Says",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "These Stocks Could Be Ready for Their Next Big Move",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
