@@ -1,19 +1,29 @@
 {
- "ts_kst": "08-11 09:51",
- "n_items": 103,
+ "ts_kst": "08-11 10:01",
+ "n_items": 102,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 28,
   "dart": 1
  },
  "routed": {
   "M-CYCLE": 8,
   "C-CHINA": 9,
-  "F-ACTIVE": 3,
+  "F-ACTIVE": 4,
   "R-LEVERAGE": 11
  },
- "unassigned": 72,
- "alerts": [],
+ "unassigned": 70,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK그룹, 정부에 중복상장 규제 개선 제안…솔리다임 IPO 염두 - investchosun.com",
@@ -30,13 +40,6 @@
    "agents": []
   },
   {
-   "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓ - v.daum.net",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "'델 테크 포럼' 25일 개최…SK하이닉스 등 글로벌 빅테크 모인다 - 머니투데이 - 머니투데이",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -44,7 +47,21 @@
    "agents": []
   },
   {
+   "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓ - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "[크레디트 쏠림의 그늘] '구원투수'하이닉스에도 조달 딜레마 - 연합인포맥스",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -65,14 +82,7 @@
    "agents": []
   },
   {
-   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"SK하이닉스, 4조원대 中 충칭공장 지분 매각 검토\" - 지디넷코리아",
+   "title": "\"SK하이닉스, 4조원대 中 충칭공장 지분 매각 검토\" - zdnet.co.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -107,8 +117,8 @@
    "agents": []
   },
   {
-   "title": "[성공예감] SK하이닉스 배당 375원…중국보다 낮은 배당률, 한국 증시 명운이 걱정입니다 – 홍춘욱 대표(프리즘 투자자문) - KBS 뉴스",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "SK하이닉스, ‘낸드 원조’ 日 키옥시아 1대 주주 올라 - 서울경제",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -144,13 +154,6 @@
   {
    "title": "삼성전자, 美 테일러팹 인턴 선발…대만 TSMC와 '인재 쟁탈전' - 아이뉴스24",
    "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
-   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -200,8 +203,8 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급등에 '강세' - 글로벌이코노믹",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급락.. '약세' - g-enews.com",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -387,6 +390,15 @@
    "agents": []
   },
   {
+   "title": "[EBN 데이터센터] 코스피, 외국인·개인 순매수에도 6225.55로 하락 마감...대형 반도체 약세 부담 - ebn.co.kr",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "[마감시황] 코스피, 외국인 '사자'에 강보합 6299.66…코스닥은 7% 급등 - 뉴스핌",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -395,13 +407,6 @@
   },
   {
    "title": "[마감시황] 외국인 1.5조 '팔자'에 코스피 주춤...코스닥은 7% 급등 - polinews.co.kr",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "[EBN 데이터센터] 코스닥 급등에 코스피도 반등 성공…외국인 팔자에도 기관·개인 매수 - ebn.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -436,13 +441,6 @@
    "agents": []
   },
   {
-   "title": "[0807마감체크] 코스피, 외국인 매도세에 6200선 마감... 코스닥도 하락 - 인포스탁데일리",
-   "pub": "Fri, 07 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스닥 7% 가까이 폭등…외국인·기관 ‘쌍끌이’에 850선 탈환 - goodkyung.com",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -457,6 +455,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "외국인 '팔자'에 코스피 0.6%↓…SK하이닉스 4.88%↓ - 마켓인",
+   "pub": "Fri, 07 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -511,7 +516,7 @@
    ]
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -586,20 +591,6 @@
    "agents": []
   },
   {
-   "title": "Stock Screening Made Simple: A Guide",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Apple, Sionna, AbCellera, Sandisk, SpaceX, Berkshire,  and More Stocks That Explain Today’s Market",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron poised for \"structural reset\" in earnings power, UBS says, as HBM squeeze tightens further",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -618,13 +609,6 @@
    ]
   },
   {
-   "title": "Coherent (COHR) Stock Is Tumbling Today After Massive Optics vs. Memory Debate on Social Media This Weekend",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Technology's Earnings Outlook Strengthens on Higher Memory Pricing, UBS Says",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -632,6 +616,38 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "These Stocks Could Be Ready for Their Next Big Move",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Why Micron is Decisively Better Positioned Than Intel Now",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Microsoft, Amazon, Micron and Alphabet are part of Zacks Earnings Preview",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Apple, Sionna, AbCellera, Sandisk, SpaceX, Berkshire,  and More Stocks That Explain Today’s Market",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
