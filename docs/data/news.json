@@ -1,26 +1,18 @@
 {
- "ts_kst": "08-12 01:10",
+ "ts_kst": "08-12 01:20",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 13,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "high",
-   "kw": "목표주가+하향",
-   "src": "kr",
-   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
-   "agents": []
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
@@ -510,13 +502,6 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -524,6 +509,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
@@ -603,27 +595,6 @@
    ]
   },
   {
-   "title": "Michael Burry Has a Stark Warning for Investors Betting on Today's Market",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Apple Already Increased the Price of iPhones Up to $300. Their Price Hikes Might Be Just Starting.",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Can Silicon Motion's New MonTitan SSD Solution Drive Growth?",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "This Is the Big Question With Micron Technology Stock",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -642,13 +613,38 @@
    ]
   },
   {
-   "title": "Nvidia, Micron, DJT, SpaceX, Rocket Lab, Plug Power, Fermi, and More Stocks That Explain Today’s Market",
+   "title": "The Undeniable Reasons Why Micron Stock Is a Buy This August",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Micron is Gaining Share. These Bulls See More Upside Ahead",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Is Down 28%, and Here Is What Investors Need to Know",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Michael Burry Has a Stark Warning for Investors Betting on Today's Market",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
