@@ -1,18 +1,28 @@
 {
- "ts_kst": "08-11 12:07",
+ "ts_kst": "08-11 12:17",
  "n_items": 102,
  "by_source": {
   "kr": 75,
   "en": 27
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 11
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK그룹, 정부에 중복상장 규제 개선 제안…솔리다임 IPO 염두 - 인베스트조선",
@@ -22,7 +32,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 일본 낸드 업체 키옥시아 1대주주 등극 - 연합인포맥스",
+   "title": "SK하이닉스, 日키옥시아 최대주주 지위 확보.. 실질 지배력 확대 - 한국경제",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -38,27 +48,6 @@
   {
    "title": "SK하이닉스, 日 낸드 기업 키옥시아 최대주주로 등극 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 채권 투자 전격 중단…발행 하루 전 통보 - 연합인포맥스",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
-   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -82,54 +71,66 @@
    ]
   },
   {
-   "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓ - yna.co.kr",
+   "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 채권 투자 전격 중단…발행 하루 전 통보 - 연합인포맥스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"SK하이닉스, 4조원대 中 충칭공장 지분 매각 검토\" - 지디넷코리아",
-   "pub": "Sun, 09 Aug 2026",
+   "title": "급등장에 SK하이닉스 담보대출 1년새 438%↑…40대 이하서 쑥 - v.daum.net",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[Why&Next]SK하닉 충칭 팹 매각설 속내는…구형칩 줄이고 '고부가 HBM' 올인 - v.daum.net",
+   "title": "SK하이닉스 담보대출 1년 새 5배…40대 비중도 두 배 뛰었다 By EBN - Investing.com 한국어",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "거래소, SK하이닉스 ‘충칭공장 지분매각설’ 조회공시 요구 - 조선비즈 - Chosunbiz",
+   "title": "상반기 급등장 때 하이닉스 담보대출 5배로… 40대 '빚투' 우려 - 한국일보",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK하이닉스, 중국 충칭 패키징 공장 지분매각 등 검토\" - science.ytn.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "성과급에 뿔난 SK하이닉스 직원들…사흘 만에 3500명 '통합노조' 뭉쳤다 - 주간조선",
+   "title": "추미애 “삼성·SK하이닉스, 반도체 공정수 방류 최소화하라” - 중앙일보",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'델 테크 포럼' 25일 개최…SK하이닉스 등 글로벌 빅테크 모인다 - 머니투데이 - 머니투데이",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "반도체株 안전판인가 족쇄인가… 삼전닉스 ‘5년 계약’의 두 얼굴 - 조선일보",
+   "title": "추미애 “반도체 폐수부터 줄여라”…삼성·SK하이닉스 정조준 - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
-   "q": "삼성전자 반도체",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\" - 주간조선",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
    "agents": []
   },
   {
@@ -140,6 +141,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "반도체株 안전판인가 족쇄인가… 삼전닉스 ‘5년 계약’의 두 얼굴 - 조선일보",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
@@ -520,7 +528,7 @@
    "agents": []
   },
   {
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - newsquest.co.kr",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -613,28 +621,34 @@
    ]
   },
   {
-   "title": "Stock Screening Made Simple: A Guide",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Apple, Sionna, AbCellera, Sandisk, SpaceX, Berkshire,  and More Stocks That Explain Today’s Market",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron poised for \"structural reset\" in earnings power, UBS says, as HBM squeeze tightens further",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Rises Despite Reported Apple Supplier Threat",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron vs. SK hynix: One Stock Rules AI Memory. The Other Has More Room to Run.",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Technology's Earnings Outlook Strengthens on Higher Memory Pricing, UBS Says",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
