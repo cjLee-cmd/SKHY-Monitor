@@ -1,22 +1,39 @@
 {
- "ts_kst": "08-12 07:04",
- "n_items": 103,
+ "ts_kst": "08-12 07:13",
+ "n_items": 101,
  "by_source": {
-  "kr": 73,
-  "en": 30
+  "kr": 74,
+  "en": 27
  },
  "routed": {
-  "M-CYCLE": 12,
   "P-ADR": 1,
+  "M-CYCLE": 12,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 11
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘블랙먼데이’ 공포 속 빚투 최고치…반대매매 뇌관 커진다 - 조선비즈 - Chosunbiz",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "high",
+   "kw": "목표주가+하향",
+   "src": "kr",
+   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
+   "agents": []
+  }
+ ],
  "items": [
   {
-   "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
+   "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - sedaily.com",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -30,30 +47,14 @@
    "agents": []
   },
   {
-   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
+   "title": "[뉴욕증시] 호르무즈 불확실성 지속에 하락...SK하닉, 4.7% 급등 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "엔비디아 HBM 탑재량 줄여도 삼성전자 SK하이닉스 '탄탄대로' 전망, AI 반도체 수요 강력 - 비즈니스포스트",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"사라더니 목표가 30% 낮추나\"…증권가 엇갈린 '삼전닉스' 전망 - v.daum.net",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "필라델피아 반도체 지수 0.9% 상승…SK하닉 ADR 4.7%↑ - 뉴스1",
+   "title": "필라델피아 반도체 지수 0.9% 상승…SK하닉 ADR 4.7%↑ - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -76,7 +77,28 @@
    "agents": []
   },
   {
-   "title": "'삼전닉스' 주가는 왜 엇갈렸나…AI보다 무서운 '주주환원' 경쟁 [증시는 왜] - v.daum.net",
+   "title": "[성공예감] SK하이닉스 배당 375원…중국보다 낮은 배당률, 한국 증시 명운이 걱정입니다 – 홍춘욱 대표(프리즘 투자자문) - v.daum.net",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓ - 연합뉴스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -90,21 +112,21 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 日 키옥시아 사실상 최대 주주 등극…도시바 지분 축소 여파 - 조선일보",
+   "title": "SK하이닉스, 日 키옥시아 사실상 최대 주주 등극…도시바 지분 축소 여파 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 日키옥시아 사실상 최대주주 등극 - 아시아경제",
+   "title": "SK하이닉스, 日 키옥시아 최대주주 올라서 - 한경매거진&북",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 日 낸드 전문 '키옥시아' 최대주주로 사실상 등극 - v.daum.net",
+   "title": "SK하이닉스, 일본 낸드기업 키옥시아 사실상 최대주주로 등극 - 비즈니스포스트",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -118,13 +140,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SK하이닉스 통합노조 출범, ‘성과급 갈등 2라운드’ 불붙나? - 내외뉴스통신",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "'삼성의 달수'를 아십니까[광화문] - 머니투데이 - 머니투데이",
@@ -148,11 +163,13 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
+   "title": "엔비디아 HBM 탑재량 줄여도 삼성전자 SK하이닉스 '탄탄대로' 전망, AI 반도체 수요 강력 - 비즈니스포스트",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자 판 초고수…순매수 1위도 'OO전자' - 한국경제",
@@ -164,6 +181,13 @@
   {
    "title": "정부가 길 닦는다…삼성전자·SK하이닉스 반도체 투자 속도 붙나 - 뉴스1",
    "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -368,6 +392,15 @@
    "agents": []
   },
   {
+   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "외국인 1.5조 매도에 코스피 '찔끔' 상승…코스닥은 7% 폭등 - v.daum.net",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -387,15 +420,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "美 고용 쇼크가 부른 금리 안도…외국인, 코스피로 돌아오나 - ebn.co.kr",
@@ -476,8 +500,8 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -485,8 +509,8 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -519,8 +543,8 @@
    ]
   },
   {
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -537,24 +561,8 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
@@ -569,8 +577,15 @@
    ]
   },
   {
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "pub": "Tue, 14 Jul 2026",
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "증시 변동성에 증거금률 줄상향…신용융자·미수거래 빗장 - 대한경제",
+   "pub": "Thu, 09 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -578,13 +593,20 @@
    ]
   },
   {
-   "title": "신용융자 38조 육박 빚투 과열, 삼전닉스에 9조 쏠렸다 - 자본시장뉴스",
-   "pub": "Fri, 19 Jun 2026",
+   "title": "‘블랙먼데이’ 공포 속 빚투 최고치…반대매매 뇌관 커진다 - 조선비즈 - Chosunbiz",
+   "pub": "Sun, 07 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "빚투 못 갚아 강제청산, 하루 373억…작년보다 3배 - 한겨레",
+   "pub": "Wed, 24 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today’s Market",
@@ -633,15 +655,6 @@
   },
   {
    "title": "Elon Musk’s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified.",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Elon Musk Says Memory Is Now AI's Biggest Bottleneck. Here's What That Means for Micron and Sandisk.",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
