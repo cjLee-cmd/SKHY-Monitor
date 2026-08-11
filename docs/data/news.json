@@ -1,36 +1,19 @@
 {
- "ts_kst": "08-11 19:28",
+ "ts_kst": "08-11 19:38",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 13,
   "C-CHINA": 7,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
-  {
-   "title": "SK하이닉스, 채권 투자 전격 중단…발행 하루 전 통보 - 연합인포맥스",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
   {
    "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
    "pub": "Mon, 10 Aug 2026",
@@ -49,6 +32,13 @@
   },
   {
    "title": "\"주가 빠졌네? 오히려 좋아\"…美매체 추천한 SK하이닉스 - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 채권 투자 전격 중단…발행 하루 전 통보 - 연합인포맥스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -92,6 +82,13 @@
    "agents": []
   },
   {
+   "title": "인사말하는 곽노정 SK하이닉스 CEO - 뉴시스",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 담보대출 1년 새 5배…40대 비중도 두 배 뛰었다 By EBN - Investing.com 한국어",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -127,14 +124,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 임단협 6차 본교섭…'성과급 주식지급' 입장차 좁힐까 - 뉴시스",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - mk.co.kr",
+   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -222,6 +212,13 @@
    "agents": []
   },
   {
+   "title": "與 메가 특위, 용인 반도체 찾아 “조기 완공 전폭 지원” - 전자신문",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 3D 반도체 zHBM/zNAND 신기술, AI 반도체 판을 뒤집나? - 미디어피아",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -229,13 +226,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "與 메가 특위, 용인 반도체 찾아 “조기 완공 전폭 지원” - 전자신문",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급락.. '약세' - 글로벌이코노믹",
@@ -304,7 +294,7 @@
    ]
   },
   {
-   "title": "\"애플, 중국 칩 테스트\"‥\"메모리주 급락 끝나\" - imnews.imbc.com",
+   "title": "\"애플, 중국 칩 테스트\"‥\"메모리주 급락 끝나\" - MBC 뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -336,7 +326,7 @@
    ]
   },
   {
-   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - mk.co.kr",
+   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - 매일경제",
    "pub": "Wed, 06 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -483,8 +473,8 @@
    "agents": []
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -501,8 +491,8 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -510,8 +500,8 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -553,27 +543,13 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
@@ -585,13 +561,27 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
@@ -612,13 +602,6 @@
    ]
   },
   {
-   "title": "1 No-Brainer Growth ETF to Buy Right Now for Less Than $1,000",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron vs. SK Hynix: Which Memory Chip Giant Is the Better Buy?",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -626,13 +609,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "3 Dividend-Paying Industrial Stocks to Buy in August",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
@@ -644,6 +620,24 @@
   {
    "title": "Micron Says AI Memory Crunch Could Last Beyond 2027 as DRAM Demand Soars",
    "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron poised for \"structural reset\" in earnings power, UBS says, as HBM squeeze tightens further",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Rises Despite Reported Apple Supplier Threat",
+   "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
