@@ -1,25 +1,26 @@
 {
- "ts_kst": "08-11 17:32",
- "n_items": 103,
+ "ts_kst": "08-11 17:42",
+ "n_items": 102,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 27
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 11,
   "C-CHINA": 7,
   "F-ACTIVE": 4,
+  "M-RISK": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 69,
+ "unassigned": 68,
  "alerts": [
   {
    "level": "critical",
-   "kw": "반대매매",
+   "kw": "사이드카",
    "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
    "agents": [
-    "R-LEVERAGE"
+    "M-RISK"
    ]
   }
  ],
@@ -69,7 +70,7 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 솔리다임 상장은 투자재원 확충\"…\"삼성전기 목표가 300만원\" MLCC 공급 부족 계속 전망 [株토피아] - v.daum.net",
+   "title": "미래에셋 “SK하이닉스, 주주환원 40조 전망...솔리다임 상장은 투자재원 확충” - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -99,13 +100,11 @@
    ]
   },
   {
-   "title": "HBM 부족하면 'CXL'로…삼성·하이닉스 AI 메모리 영토 넓힌다 - 머니투데이 - 머니투데이",
+   "title": "\"주가 빠졌네? 오히려 좋아\"…美매체 추천한 SK하이닉스 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "SK하이닉스 담보대출 1년 새 5배…40대 비중도 두 배 뛰었다 By EBN - Investing.com 한국어",
@@ -453,11 +452,13 @@
    "agents": []
   },
   {
-   "title": "코스피 6천300 문턱…외국인 1.5조 매도, 코스닥은 7% 급등 - 대구일보",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
    "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
@@ -608,6 +609,15 @@
    "agents": []
   },
   {
+   "title": "Micron vs. SK Hynix: Which Memory Chip Giant Is the Better Buy?",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "3 Dividend-Paying Industrial Stocks to Buy in August",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -632,13 +642,6 @@
   },
   {
    "title": "Stock Screening Made Simple: A Guide",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Apple, Sionna, AbCellera, Sandisk, SpaceX, Berkshire,  and More Stocks That Explain Today’s Market",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
