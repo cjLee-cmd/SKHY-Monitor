@@ -1,24 +1,45 @@
 {
- "ts_kst": "08-11 16:24",
+ "ts_kst": "08-11 16:34",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 14,
+  "M-CYCLE": 12,
   "C-CHINA": 7,
-  "F-ACTIVE": 4,
+  "F-ACTIVE": 5,
+  "M-RISK": 1,
   "R-LEVERAGE": 11
  },
  "unassigned": 66,
  "alerts": [
   {
-   "level": "info",
-   "kw": "수주",
+   "level": "critical",
+   "kw": "사이드카",
    "src": "kr",
-   "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대 - 아시아투데이",
-   "agents": []
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   }
  ],
  "items": [
@@ -30,7 +51,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 日 키옥시아 최대주주로…도시바 지분 축소 여파 - IT조선",
+   "title": "SK하이닉스, 사실상 日 키옥시아 최대 주주로… 도시바 지분 매각에 순위 역전 - 조선비즈 - Chosunbiz",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -137,6 +158,13 @@
    "agents": []
   },
   {
+   "title": "TSMC 소니와 이미지 센서 공동 생산은 이례적 평가, 외신 \"삼성전자 중국업체와 경쟁 의식\" - 비즈니스포스트",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - 머니투데이",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -158,23 +186,7 @@
    "agents": []
   },
   {
-   "title": "엔비디아 HBM 탑재량 줄여도 삼성전자 SK하이닉스 '탄탄대로' 전망, AI 반도체 수요 강력 - 비즈니스포스트",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "정부가 길 닦는다…삼성전자·SK하이닉스 반도체 투자 속도 붙나 - 뉴스1",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -188,8 +200,15 @@
    "agents": []
   },
   {
-   "title": "반도체株 주주환원 시동 거나…삼성전자·SK하이닉스 '현금 곳간' 연다 - 파이낸셜뉴스",
+   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
    "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급락.. '약세' - 글로벌이코노믹",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -202,11 +221,13 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 지수 급락.. '약세' - 글로벌이코노믹",
+   "title": "엔비디아 HBM 탑재량 줄여도 삼성전자 SK하이닉스 '탄탄대로' 전망, AI 반도체 수요 강력 - 비즈니스포스트",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "전력·용수 이어 폐수까지…삼성·SK 반도체 투자 변수 확대 By EBN - Investing.com 한국어",
@@ -407,18 +428,13 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피, 외국인 '사자'에 강보합 6299.66…코스닥은 7% 급등 - 뉴스핌",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "[마감시황] 코스피 장중 6411서 6258로 밀려…외국인 1조 1370억 순매도 - 자본시장뉴스",
+   "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "[마감시황] 코스피 6299.66 강보합…코스닥 6.97% 급등 854.47 - 자본시장뉴스",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피, 외국인 순매수에 상승 전환…삼전 3%대 상승 - supple.kr",
@@ -430,7 +446,7 @@
    ]
   },
   {
-   "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - 에너지경제신문",
+   "title": "코스피 약보합 마감…반도체 혼조세에도 기관 순매수로 낙폭 제한 [마감시황] - ekn.kr",
    "pub": "Fri, 07 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -449,6 +465,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "외국인 2.5조 던졌다…코스피 장중 6300 붕괴 ‘매도 사이드카’ - 문화일보",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
    "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
@@ -490,7 +515,7 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -499,7 +524,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -542,7 +567,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -615,6 +640,20 @@
    ]
   },
   {
+   "title": "Stock Screening Made Simple: A Guide",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Apple, Sionna, AbCellera, Sandisk, SpaceX, Berkshire,  and More Stocks That Explain Today’s Market",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron poised for \"structural reset\" in earnings power, UBS says, as HBM squeeze tightens further",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
@@ -625,24 +664,6 @@
   },
   {
    "title": "Micron Stock Rises Despite Reported Apple Supplier Threat",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron vs. SK hynix: One Stock Rules AI Memory. The Other Has More Room to Run.",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology's Earnings Outlook Strengthens on Higher Memory Pricing, UBS Says",
    "pub": "Mon, 10 Aug 2026",
    "src": "en",
    "q": "MU",
