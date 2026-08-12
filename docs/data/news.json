@@ -1,18 +1,18 @@
 {
- "ts_kst": "08-13 00:45",
- "n_items": 103,
+ "ts_kst": "08-13 00:55",
+ "n_items": 104,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 29
  },
  "routed": {
   "M-CYCLE": 8,
-  "C-CHINA": 11,
+  "C-CHINA": 10,
   "F-ACTIVE": 6,
   "M-RISK": 3,
   "R-LEVERAGE": 10
  },
- "unassigned": 66,
+ "unassigned": 68,
  "alerts": [],
  "items": [
   {
@@ -202,7 +202,7 @@
    "agents": []
   },
   {
-   "title": "추미애 “삼성전자·SK하이닉스, 용수 퍼줬는데 폐수 안 줄여”…공개 압박 - 매일경제",
+   "title": "삼성 메모리 호황의 역설…중국과 협력해 비용 줄이나 - MTN 머니투데이방송",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -440,6 +440,13 @@
    "agents": []
   },
   {
+   "title": "[EBN 데이터센터] 코스피, 반도체 강세에 6500선 돌파…외국인·기관 동반 매수 - ebn.co.kr",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "외국인 2.8조 몰리자 코스피 3.68% 급등...매수 사이드카 발동 - 디지털투데이",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -449,8 +456,8 @@
    ]
   },
   {
-   "title": "[EBN 데이터센터] 코스피, 반도체 강세에 6500선 돌파…외국인·기관 동반 매수 - ebn.co.kr",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "올해만 194조 팔아치운 외국인…집 나간 큰 손 언제 돌아오나 - 매일신문",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -463,13 +470,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "올해만 194조 팔아치운 외국인…집 나간 큰 손 언제 돌아오나 - 매일신문",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "[마켓뷰] 외국인, 반도체 집중 매수… 코스피 급등 - 조선비즈 - Chosunbiz",
@@ -604,7 +604,7 @@
    "agents": []
   },
   {
-   "title": "SK Hynix and SanDisk Climb 8%, Western Digital Gains 4% as Memory Shortage Deepens",
+   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -620,13 +620,6 @@
    ]
   },
   {
-   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Netlist Files Patent Infringement Action Against Micron at U.S. International Trade Commission",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
@@ -636,11 +629,22 @@
    ]
   },
   {
-   "title": "Tech leads sectors higher in early trading as chip stocks gain: AlphaCheck",
+   "title": "Micron Set A Margin Record On Prices It Has Agreed To Cap",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "The Old Fear-Based Paradigm Around Memory Cyclicality is Dead, So I’m Buying Micron",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
