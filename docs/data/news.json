@@ -1,18 +1,18 @@
 {
- "ts_kst": "08-13 05:31",
+ "ts_kst": "08-13 05:41",
  "n_items": 101,
  "by_source": {
   "kr": 73,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 7,
-  "C-CHINA": 11,
+  "M-CYCLE": 10,
+  "C-CHINA": 10,
   "F-ACTIVE": 7,
   "M-RISK": 3,
   "R-LEVERAGE": 10
  },
- "unassigned": 64,
+ "unassigned": 62,
  "alerts": [],
  "items": [
   {
@@ -51,6 +51,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자 초기업노조, SK하이닉스 통합노조와 접촉⋯\"노사 현안 논의\" - v.daum.net",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 ‘통합노조’ 곧 출범…‘성과급 100% 현금 지급’ 요구 - khan.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -59,13 +66,6 @@
   },
   {
    "title": "SK하이닉스 통합노조 출범 초읽기..삼성 초기업노조와 '공동성명' 검토 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 노사, 밤샘 임단협에도 결론 못내…이틀째 협상 - v.daum.net",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -88,18 +88,20 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 美인디애나 팹 27일 착공식 확정…최태원·젠슨 황 만날까 - 뉴시스",
+   "title": "SK하이닉스, 27일 인디애나 팹 착공식…최태원·젠슨 황 참석 가능성 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 '인디애나 팹' 27일 착공식…최태원·젠슨황 또 만날까 - v.daum.net",
+   "title": "SK하이닉스, 27일 미국 인디애나주 HBM 패키징 공장 착공식 - 머니투데이 - 머니투데이",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성·SK하이닉스, 이르면 이달 주주환원 공개…'100조원+α' 기대감 - 연합인포맥스",
@@ -590,13 +592,11 @@
    "agents": []
   },
   {
-   "title": "Apple’s CXMT Bet Could Strengthen Its Memory Supply, But Risks Remain",
+   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "C-CHINA"
-   ]
+   "agents": []
   },
   {
    "title": "Samsung Sends Fresh Signal to Micron Investors",
@@ -606,13 +606,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "The Best Value Stocks to Buy",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Why Micron Stock Is Surging Today",
@@ -633,18 +626,31 @@
    ]
   },
   {
-   "title": "NLST Stock Rallies After ITC Patent Action Against MU, SMCI, HPE – Roth Capital Sees Settlement Upside",
+   "title": "Micron Technology’s (MU) Competitive Edge in a Rapidly Evolving Industry",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "Prediction: This Storage Stock Could Be a Surprising AI Winner",
+   "title": "Netlist Files Patent Infringement Action Against Micron at U.S. International Trade Commission",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Set A Margin Record On Prices It Has Agreed To Cap",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
