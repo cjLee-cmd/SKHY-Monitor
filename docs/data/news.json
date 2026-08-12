@@ -1,9 +1,9 @@
 {
- "ts_kst": "08-12 10:49",
- "n_items": 100,
+ "ts_kst": "08-12 10:59",
+ "n_items": 103,
  "by_source": {
   "kr": 73,
-  "en": 27
+  "en": 30
  },
  "routed": {
   "P-ADR": 1,
@@ -12,8 +12,18 @@
   "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 68,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
@@ -53,7 +63,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 4%·SK하이닉스 2% 상승…코스피 6500선 탈환[장중시황] - v.daum.net",
+   "title": "삼성전자 4%·SK하이닉스 2% 상승…코스피 6500선 탈환[장중시황] - 뉴스1",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -68,20 +78,6 @@
   },
   {
    "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'역대급 실적' 삼성전자·SK하이닉스, 주주환원·시설투자 균형추 맞출까 - 뉴시스",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성·SK하이닉스, 이르면 이달 주주환원 공개…'100조원+α' 기대감 - 연합인포맥스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -109,14 +105,28 @@
    "agents": []
   },
   {
-   "title": "성과급에 뿔난 SK하이닉스 직원들…사흘 만에 3500명 '통합노조' 뭉쳤다 - 주간조선",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "SK하이닉스 통합노조 출범 초읽기…\"과반노조 달성 총력\" - 아시아경제",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
    "title": "SK하이닉스 통합노조 출범 임박···\"성과급 현금 지급 원칙 지킨다\" - 뉴스웨이",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 통합노조 출범 임박…\"과반노조 만들어 교섭력 강화\" - 연합뉴스",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'역대급 실적' 삼성전자·SK하이닉스, 주주환원·시설투자 균형추 맞출까 - 뉴시스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -174,8 +184,8 @@
    ]
   },
   {
-   "title": "CPI 발표 앞두고 반도체훈풍… 삼성전자·SK하이닉스 프리마켓 오름세 - gukjenews.com",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "삼성 메모리 호황의 역설…중국과 협력해 비용 줄이나 - MTN 머니투데이방송",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -452,7 +462,7 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -581,20 +591,6 @@
    ]
   },
   {
-   "title": "Peak Memory Fears Put Focus on Samsung, SK Hynix Cash Returns",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SanDisk Traded Margin Upside For Years Of Contracted Revenue",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today’s Market",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -632,6 +628,24 @@
   },
   {
    "title": "Micron Stock Could Be Worth $2,000 by 2030. Here Is the Bull Case",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Elon Musk’s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified.",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Elon Musk Says Memory Is Now AI's Biggest Bottleneck. Here's What That Means for Micron and Sandisk.",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
