@@ -1,19 +1,29 @@
 {
- "ts_kst": "08-12 20:35",
- "n_items": 102,
+ "ts_kst": "08-12 20:45",
+ "n_items": 101,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 27
  },
  "routed": {
-  "M-CYCLE": 9,
-  "C-CHINA": 10,
+  "M-CYCLE": 12,
+  "C-CHINA": 9,
   "F-ACTIVE": 5,
-  "M-RISK": 3,
+  "M-RISK": 4,
   "R-LEVERAGE": 10
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "코스피, 외국인·기관 매수에 6570선 회복···반도체주 급등에 사이드카 발동 - 스마트비즈",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "테마섹의 투자 보도에 삼성전자·SK하이닉스 주가 급등 - Investing.com 한국어",
@@ -125,7 +135,7 @@
    "agents": []
   },
   {
-   "title": "외신도 주목한 ‘한국 1등 신랑감’…“첫 데이트서 삼성·하이닉스 직장 숨긴다” - 조선비즈 - Chosunbiz",
+   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -139,14 +149,21 @@
    "agents": []
   },
   {
-   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - v.daum.net",
+   "title": "\"돈 때문일까 봐\"…외신도 조명한 'K-반도체맨' 결혼 고충[뉴스럽다] - v.daum.net",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "AI 반도체 덮친 ‘금리 5% 공포’…삼성전자·SK하이닉스 새 복병 By EBN - Investing.com 한국어",
+   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - 뉴스타파",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -162,15 +179,15 @@
    ]
   },
   {
-   "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - 머니투데이",
+   "title": "AI 반도체 덮친 ‘금리 5% 공포’…삼성전자·SK하이닉스 새 복병 By EBN - Investing.com 한국어",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "[단독] \"한 달 걸릴 설계·검증 이틀로 단축\"…삼성전자 반도체, 앤트로픽 '클로드' 투입해 성과 - 네이트",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -184,13 +201,6 @@
   },
   {
    "title": "삼성 반도체 공장따라… 래미안도 광주 간다 - dt.co.kr",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "美 반도체 훈풍에 삼성전자·SK하이닉스↑…코스피 6400선 회복 - 한국경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -219,13 +229,6 @@
   },
   {
    "title": "한전·기후부·전남광주통합시·삼성전자·SK하이닉스, 호남권·용인 반도체 메가프로젝트 적기 전력공급 위한 업무협약 체결 - 인공지능신문",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 8% 오른 이유…“큰손 삼전닉스 담는다” [머니+] - 에너지경제신문",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -282,15 +285,6 @@
    "agents": []
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -309,20 +303,20 @@
    ]
   },
   {
-   "title": "\"중국 창신메모리 제품, HP 등 글로벌 PC 업체에 채택돼\" - 연합뉴스",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "\"애플, 중국 칩 테스트\"‥\"메모리주 급락 끝나\" - MBC 뉴스",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
+  },
+  {
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
@@ -359,6 +353,15 @@
    ]
   },
   {
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "pub": "Thu, 05 Feb 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -373,13 +376,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "[마켓뷰] 외국인, 반도체 집중 매수… 코스피 급등 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
@@ -399,6 +395,15 @@
    ]
   },
   {
+   "title": "코스피, 외국인 1.5조 순매도에 6300선 턱밑… 코스닥 7% 강세 - IT조선",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "코스피, 외국인·기관 쌍끌이에 4%대 급등…매수 사이드카 발동 - v.daum.net",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -408,14 +413,7 @@
    ]
   },
   {
-   "title": "[마감시황] 코스피, 외국인·기관 '쌍끌이'에 3%대 상승…6570선 회복 - newspim.com",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "“외국인 돌아왔나” 삼성전자·SK하이닉스 상승에 코스피 6500선 안착 - 이코노미스트",
+   "title": "[마감시황] 코스피, 외국인·기관 '쌍끌이'에 3%대 상승…6570선 회복 - 뉴스핌",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -470,13 +468,20 @@
    ]
   },
   {
-   "title": "코스피, 외국인 1.5조 순매도에 6300선 턱밑… 코스닥 7% 강세 - IT조선",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "코스피, 외국인·기관 매수에 6570선 회복···반도체주 급등에 사이드카 발동 - 스마트비즈",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
-    "F-ACTIVE"
+    "M-RISK"
    ]
+  },
+  {
+   "title": "한때 '만스피' 바라보던 코스피 지지부진…\"외국인 복귀가 관건\" - 파이낸셜뉴스",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
@@ -515,7 +520,7 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -604,20 +609,6 @@
    "agents": []
   },
   {
-   "title": "Social Buzz: Wallstreetbets Stocks Advance Premarket Wednesday; CoreWeave, Super Micro Computer to Open Higher",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Forget big tech: the real AI money is in plumbing",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "MU, SNDK, SKHY: Memory Stocks Rise As Report Of Temasek’s Planned Investments In Samsung, SK Hynix Boosts KOSPI",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
@@ -625,8 +616,8 @@
    "agents": []
   },
   {
-   "title": "Micron (MU) Stock Looks Cheap Even After A Huge Run",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today’s Market",
+   "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
@@ -634,11 +625,40 @@
    ]
   },
   {
-   "title": "Peak Memory Fears Put Focus on Samsung, SK Hynix Cash Returns",
+   "title": "Micron Shakes Off Its Slump",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Could $25,000 Invested in Micron Stock Make You a Millionaire?",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Slips Despite Mizuho's Massive $1,375 Target",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Could Be Worth $2,000 by 2030. Here Is the Bull Case",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
