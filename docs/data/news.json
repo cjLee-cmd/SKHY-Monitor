@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-13 01:18",
+ "ts_kst": "08-13 01:28",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -13,7 +13,24 @@
   "R-LEVERAGE": 10
  },
  "unassigned": 67,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "high",
+   "kw": "목표주가+하향",
+   "src": "kr",
+   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "테마섹의 투자 보도에 삼성전자·SK하이닉스 주가 급등 - Investing.com 한국어",
@@ -44,8 +61,24 @@
    "agents": []
   },
   {
-   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - 매일경제",
+   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
    "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성·SK하이닉스, 美 핫칩스서 차세대 HBM 기술 맞대결 - 아이뉴스24",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -103,22 +136,6 @@
   },
   {
    "title": "SK하이닉스, 27일 인디애나 팹 착공식…최태원·젠슨 황 참석 가능성 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 27일 미국 인디애나주 HBM 패키징 공장 착공식 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "코스피, 1% 상승하며 6,400 회복‥삼성전자 4%, SK하이닉스 2% 상승 - MBC 뉴스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -341,7 +358,7 @@
    ]
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -458,7 +475,7 @@
    "agents": []
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
    "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -533,7 +550,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -606,7 +623,7 @@
    "agents": []
   },
   {
-   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
+   "title": "SK Hynix and SanDisk Climb 8%, Western Digital Gains 4% as Memory Shortage Deepens",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -622,6 +639,13 @@
    ]
   },
   {
+   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Netlist Files Patent Infringement Action Against Micron at U.S. International Trade Commission",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
@@ -631,22 +655,11 @@
    ]
   },
   {
-   "title": "Micron Set A Margin Record On Prices It Has Agreed To Cap",
+   "title": "Tech leads sectors higher in early trading as chip stocks gain: AlphaCheck",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "The Old Fear-Based Paradigm Around Memory Cyclicality is Dead, So I’m Buying Micron",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
