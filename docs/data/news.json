@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-13 02:25",
+ "ts_kst": "08-13 02:35",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,18 +7,27 @@
  },
  "routed": {
   "M-CYCLE": 9,
-  "C-CHINA": 11,
+  "C-CHINA": 10,
   "F-ACTIVE": 7,
   "M-RISK": 3,
   "R-LEVERAGE": 10
  },
- "unassigned": 65,
+ "unassigned": 66,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -68,6 +77,50 @@
    "agents": []
   },
   {
+   "title": "삼성·SK하이닉스, 이르면 이달 주주환원 공개…'100조원+α' 기대감 - 연합인포맥스",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 SK하이닉스 주주환원 강화로 주가 상승 여력 충분 블룸버그 전망, \"장기 계약으로 현금흐름 안정적\" - 비즈니스포스트",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 인디애나팹 27일 착공식…최태원·젠슨황 만날까 - 연합뉴스",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 27일 인디애나 팹 착공식…최태원·젠슨 황 참석 가능성 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 27일 미국 인디애나주 HBM 패키징 공장 착공식 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "SK하이닉스, 日 키옥시아 최대주주 됐지만… - 한국경제",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -84,54 +137,6 @@
   {
    "title": "SK하이닉스, 日 낸드 전문 '키옥시아' 최대주주로 사실상 등극 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM 12단서 8단 후퇴 검토…삼성·SK하이닉스 수율이 판 가른다 - g-enews.com",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - v.daum.net",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "인텔 이석희 앞세워 저전력 AI용 D램 개발, 삼성전자·SK하이닉스 HBM 아성 흔들지 주목 - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성·SK하이닉스, 이르면 이달 주주환원 공개…'100조원+α' 기대감 - 연합인포맥스",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'300조' 돈폭탄 전망…삼전닉스 개미들 기대감 폭발한 까닭 [분석+] - 한국경제",
-   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -172,7 +177,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스는 HBM 설계, 삼성전자는 美테일러 인력…반도체 인재채용 '러시' - newsis.com",
+   "title": "SK하이닉스는 HBM 설계, 삼성전자는 美테일러 인력…반도체 인재채용 '러시' - 뉴시스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -244,7 +249,7 @@
    "agents": []
   },
   {
-   "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - 한겨레",
+   "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - hani.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -353,7 +358,7 @@
    ]
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -394,7 +399,7 @@
    ]
   },
   {
-   "title": "[마감시황] 코스피 3.68% 급등 6579.04…외국인 3조 4370억 순매수 - 자본시장뉴스",
+   "title": "[마감]반도체 심리 회복에 코스피 급등…외국인 순매수로 6500선 안착 - 알파경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -403,7 +408,7 @@
    ]
   },
   {
-   "title": "[마감]반도체 심리 회복에 코스피 급등…외국인 순매수로 6500선 안착 - 알파경제",
+   "title": "[마감시황] 코스피 3.68% 급등 6579.04…외국인 3조 4370억 순매수 - 자본시장뉴스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -547,7 +552,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -563,7 +568,7 @@
    "agents": []
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -620,6 +625,22 @@
    "agents": []
   },
   {
+   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Why Micron Stock Is Surging Today",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Why Micron Stock Popped Wednesday",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
@@ -629,28 +650,16 @@
    ]
   },
   {
-   "title": "NLST Stock Rallies After ITC Patent Action Against MU, SMCI, HPE – Roth Capital Sees Settlement Upside",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Prediction: This Storage Stock Could Be a Surprising AI Winner",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SK Hynix and SanDisk Climb 8%, Western Digital Gains 4% as Memory Shortage Deepens",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Technology’s (MU) Competitive Edge in a Rapidly Evolving Industry",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Netlist Files Patent Infringement Action Against Micron at U.S. International Trade Commission",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
