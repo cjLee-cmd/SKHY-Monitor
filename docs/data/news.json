@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-13 00:25",
+ "ts_kst": "08-13 00:35",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -8,11 +8,11 @@
  "routed": {
   "M-CYCLE": 8,
   "C-CHINA": 11,
-  "F-ACTIVE": 6,
+  "F-ACTIVE": 7,
   "M-RISK": 3,
   "R-LEVERAGE": 10
  },
- "unassigned": 66,
+ "unassigned": 65,
  "alerts": [],
  "items": [
   {
@@ -280,6 +280,15 @@
    "agents": []
   },
   {
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "애플, 중국 창신테크 메모리 반도체 테스트…아이폰·맥북 등에 적용 검토 - fntoday.co.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
@@ -332,15 +341,6 @@
   {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
-   "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -408,14 +408,23 @@
    ]
   },
   {
-   "title": "[마감시황] 코스피, 외국인·기관 '쌍끌이'에 3%대 상승…6570선 회복 - newspim.com",
+   "title": "반도체 쌍끌이에 코스피 3.68% 급등…외국인 3.4조 순매수 - 굿모닝경제",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "[마감시황] 반도체주 급등에 코스피 6500선 회복…외국인·기관 쌍끌이 매수 - 한양경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[마감시황] 반도체주 급등에 코스피 6500선 회복…외국인·기관 쌍끌이 매수 - 한양경제",
+   "title": "[마감시황] 코스피, 외국인·기관 '쌍끌이'에 3%대 상승…6570선 회복 - newspim.com",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -428,15 +437,6 @@
    "q": "외국인 순매도 코스피",
    "agents": [
     "M-RISK"
-   ]
-  },
-  {
-   "title": "반도체 쌍끌이에 코스피 3.68% 급등…외국인 3.4조 순매수 - 굿모닝경제",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
    ]
   },
   {
@@ -472,11 +472,13 @@
    "agents": []
   },
   {
-   "title": "[마켓뷰] 외국인, 반도체 집중 매수… 코스피 급등 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -556,7 +558,7 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - nongmin.com",
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -604,7 +606,7 @@
    "agents": []
   },
   {
-   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
+   "title": "SK Hynix and SanDisk Climb 8%, Western Digital Gains 4% as Memory Shortage Deepens",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -620,6 +622,13 @@
    ]
   },
   {
+   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Netlist Files Patent Infringement Action Against Micron at U.S. International Trade Commission",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
@@ -629,22 +638,11 @@
    ]
   },
   {
-   "title": "Micron Set A Margin Record On Prices It Has Agreed To Cap",
+   "title": "Tech leads sectors higher in early trading as chip stocks gain: AlphaCheck",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "The Old Fear-Based Paradigm Around Memory Cyclicality is Dead, So I’m Buying Micron",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
