@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-12 22:05",
+ "ts_kst": "08-12 22:15",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -8,30 +8,13 @@
  "routed": {
   "C-CHINA": 10,
   "P-ADR": 3,
-  "M-CYCLE": 11,
+  "M-CYCLE": 8,
   "F-ACTIVE": 6,
   "M-RISK": 3,
   "R-LEVERAGE": 10
  },
- "unassigned": 62,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "목표주가+하향",
-   "src": "kr",
-   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
-   "agents": []
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "테마섹의 투자 보도에 삼성전자·SK하이닉스 주가 급등 - kr.investing.com",
@@ -57,7 +40,7 @@
    ]
   },
   {
-   "title": "SK하이닉스 ADR 이틀째 급등…싱가포르 국부펀드 투자 계획설 - 연합인포맥스",
+   "title": "SK하이닉스 ADR, 싱가포르 테마섹 투자 검토에 4%↑ - 마켓인",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -66,7 +49,7 @@
    ]
   },
   {
-   "title": "SK하이닉스 ADR, 싱가포르 테마섹 투자 검토에 4%↑ - 마켓인",
+   "title": "SK하이닉스 ADR 이틀째 급등…싱가포르 국부펀드 투자 계획설 - 연합인포맥스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -139,14 +122,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
+   "title": "삼성·SK하이닉스, 이르면 이달 주주환원 공개…'100조원+α' 기대감 - 연합인포맥스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성·SK하이닉스, 이르면 이달 주주환원 공개…'100조원+α' 기대감 - 연합인포맥스",
+   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -181,13 +164,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "AI 반도체 덮친 ‘금리 5% 공포’…삼성전자·SK하이닉스 새 복병 By EBN - kr.investing.com",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -196,7 +172,7 @@
   },
   {
    "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 11 Aug 2026",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -210,6 +186,13 @@
   },
   {
    "title": "삼성 반도체 공장따라… 래미안도 광주 간다 - dt.co.kr",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "美 반도체 훈풍에 삼성전자·SK하이닉스↑…코스피 6400선 회복 - 한국경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -394,7 +377,7 @@
    ]
   },
   {
-   "title": "[마감]반도체 심리 회복에 코스피 급등…외국인 순매수로 6500선 안착 - 알파경제",
+   "title": "[마감]반도체 심리 회복에 코스피 급등…외국인 순매수로 6500선 안착 - alphabiz.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -634,47 +617,41 @@
    ]
   },
   {
-   "title": "MU, SNDK, SKHY: Memory Stocks Rise As Report Of Temasek’s Planned Investments In Samsung, SK Hynix Boosts KOSPI",
+   "title": "Why Micron Stock Is Being Outpaced by Memory Chip Rival SK Hynix",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "5 S&P 500 Stocks Crank Out $4,000 Per Second Starting Now",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today’s Market",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "Latest News In AI Chips - Advanced Chip Packaging Sparks Market Growth Shift",
+   "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "Micron Shakes Off Its Slump",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "The Best AI Stocks of 2026 Shouldn’t Be in Your Three-Year Plan: Here’s Why",
+   "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "Could $25,000 Invested in Micron Stock Make You a Millionaire?",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "Social Buzz: Wallstreetbets Stocks Advance Premarket Wednesday; CoreWeave, Super Micro Computer to Open Higher",
+   "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Slips Despite Mizuho's Massive $1,375 Target",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
