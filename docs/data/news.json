@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-12 14:44",
+ "ts_kst": "08-12 14:54",
  "n_items": 103,
  "by_source": {
   "kr": 73,
@@ -7,20 +7,29 @@
  },
  "routed": {
   "M-CYCLE": 9,
-  "M-RISK": 2,
+  "M-RISK": 3,
   "C-CHINA": 9,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 11
  },
- "unassigned": 67,
+ "unassigned": 66,
  "alerts": [
   {
    "level": "critical",
    "kw": "사이드카",
    "src": "kr",
-   "title": "삼전닉스 7% 급등, 코스피 6600선 회복…매수 사이드카 발동[장중시황] - v.daum.net",
+   "title": "코스피 급등에 매수 사이드카 발동...삼성전자·SK하이닉스 7% 상승세 - 조선일보",
    "agents": [
     "M-RISK"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "agents": [
+    "R-LEVERAGE"
    ]
   }
  ],
@@ -33,21 +42,21 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "SK하이닉스 통합노조 출범 초읽기⋯ 삼성 초기업노조 연대 가능성도 - 브릿지경제",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'역대급 실적' 삼성전자·SK하이닉스, 주주환원·시설투자 균형추 맞출까 - 뉴시스",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "SK하이닉스 통합노조 출범 임박…1250명 확보 - 디지털데일리",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼전닉스 주주환원, 200조? 300조? - v.daum.net",
+   "title": "삼성 초기업노조·SK하이닉스 통합노조 접촉…공동 성명 검토 - 이투데이",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -68,28 +77,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 통합노조 출범 초읽기⋯ 삼성 초기업노조 연대 가능성도 - 브릿지경제",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "과반노조로 교섭력 높인다…SK하이닉스 통합노조 출범 초읽기 - 아주경제",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성 초기업노조·SK하이닉스 통합노조 접촉…공동 성명 검토 - 이투데이",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - 매일경제",
+   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -98,25 +86,34 @@
    ]
   },
   {
-   "title": "올 봄 급등장 때 SK하이닉스 담보대출 437%↑…‘빚투’로 유입 가능성 - 경향신문",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 담보대출 1년 새 5배…40대 비중도 두 배 뛰었다 By EBN - Investing.com 한국어",
+   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "급등장에 SK하이닉스 담보대출 1년새 438%↑…40대 이하서 쑥 - v.daum.net",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "'역대급 실적' 삼성전자·SK하이닉스, 주주환원·시설투자 균형추 맞출까 - newsis.com",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "삼성·SK하이닉스, 이르면 이달 주주환원 공개…'100조원+α' 기대감 - 연합인포맥스",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피 급등에 매수 사이드카 발동...삼성전자·SK하이닉스 7% 상승세 - 조선일보",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
    "title": "코스피, 1% 상승하며 6,400 회복‥삼성전자 4%, SK하이닉스 2% 상승 - MBC 뉴스",
@@ -135,7 +132,21 @@
    ]
   },
   {
-   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
+   "title": "올 봄 급등장 때 SK하이닉스 담보대출 437%↑…‘빚투’로 유입 가능성 - 경향신문",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "급등장에 SK하이닉스 담보대출 1년새 438%↑…40대 이하서 쑥 - v.daum.net",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - biz.chosun.com",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -163,6 +174,20 @@
    "agents": []
   },
   {
+   "title": "CPI 발표 앞두고 반도체훈풍… 삼성전자·SK하이닉스 프리마켓 오름세 - gukjenews.com",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "美 반도체 훈풍에 삼성전자·SK하이닉스↑…코스피 6400선 회복 - 한국경제",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - 머니투데이",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
@@ -177,22 +202,22 @@
    "agents": []
   },
   {
-   "title": "美 반도체 훈풍에 삼성전자·SK하이닉스↑…코스피 6400선 회복 - 한국경제",
+   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - zdnet.co.kr",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 반도체 노조 ‘연대’ 움직임 - 아시아타임즈",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "CPI 발표 앞두고 반도체훈풍… 삼성전자·SK하이닉스 프리마켓 오름세 - gukjenews.com",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "반도체 다음은 전력이다…삼성 SDS·SDI·전기 총출동 [삼성 AI 투자지도②] - 쿠키뉴스",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -205,21 +230,7 @@
    "agents": []
   },
   {
-   "title": "케이씨텍, 삼성전자에 반도체 제조 장비 401억원 공급 계약 - 디지털투데이",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "한전·기후부·전남광주통합시·삼성전자·SK하이닉스, 호남권·용인 반도체 메가프로젝트 적기 전력공급 위한 업무협약 체결 - 인공지능신문",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "케이씨텍, 삼성전자와 반도체 제조 장비 공급 계약 체결 - 톱스타뉴스",
+   "title": "삼성전자 \"호남권 투자, 매우 당겨질 것\"…SK하닉 \"광주팹, 제2의 용인\"(종합) - 연합인포맥스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -411,7 +422,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
+   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - seoul.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -436,15 +447,15 @@
    "agents": []
   },
   {
-   "title": "[마감] 코스피, 외국인·기관 매수세에 반등 마감…대형 반도체주 상승 견인 - 알파경제",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "[마감시황] 코스피, 외국인 '사자'에 강보합 6299.66…코스닥은 7% 급등 - 뉴스핌",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피, 외국인 '사자'에 강보합 6299.66…코스닥은 7% 급등 - 뉴스핌",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "[마감] 코스피, 외국인·기관 매수세에 반등 마감…대형 반도체주 상승 견인 - 알파경제",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -545,7 +556,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -593,6 +604,20 @@
    "agents": []
   },
   {
+   "title": "Peak Memory Fears Put Focus on Samsung, SK Hynix Cash Returns",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "SanDisk Traded Margin Upside For Years Of Contracted Revenue",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today’s Market",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
@@ -630,24 +655,6 @@
   },
   {
    "title": "Micron Stock Could Be Worth $2,000 by 2030. Here Is the Bull Case",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Elon Musk’s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified.",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Elon Musk Says Memory Is Now AI's Biggest Bottleneck. Here's What That Means for Micron and Sandisk.",
    "pub": "Tue, 11 Aug 2026",
    "src": "en",
    "q": "MU",
