@@ -1,29 +1,19 @@
 {
- "ts_kst": "08-13 05:54",
- "n_items": 104,
+ "ts_kst": "08-13 06:04",
+ "n_items": 102,
  "by_source": {
-  "kr": 75,
-  "en": 29
+  "kr": 74,
+  "en": 28
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "C-CHINA": 11,
   "F-ACTIVE": 7,
   "M-RISK": 2,
   "R-LEVERAGE": 10
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
    "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
@@ -47,18 +37,20 @@
    "agents": []
   },
   {
-   "title": "직장인 행복도 SK하이닉스 상위 3%…삼성전자는 60%에 그쳐 - yna.co.kr",
+   "title": "직장인 행복도 SK하이닉스 상위 3%…삼성전자는 60%에 그쳐 - 연합뉴스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 지원자 주목…'바뀐 전형' 잡는 가천대 취업지원 노하우 - 머니투데이 - 머니투데이",
+   "title": "'핀셋 채용' 나선 SK하이닉스, HBM 인력 정조준 - 머니투데이 - 머니투데이",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "SK하이닉스, '맞춤형 메모리' 판 키운다…설계 인력 채용 돌입 - v.daum.net",
@@ -68,7 +60,7 @@
    "agents": []
   },
   {
-   "title": "'핀셋 채용' 나선 SK하이닉스, HBM 인력 정조준 - 머니투데이 - 머니투데이",
+   "title": "SK하이닉스는 HBM 설계, 삼성전자는 美테일러 인력…반도체 인재채용 '러시' - 뉴시스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -91,23 +83,7 @@
    "agents": []
   },
   {
-   "title": "AI 낸드 경쟁 판 커진다…삼성·SK, 기술·투자 승부 - 이투데이",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "삼성·SK하이닉스 낸드 양강…中 YMTC, 키옥시아 제치고 3위 - v.daum.net",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "삼성·SK하이닉스 낸드 양강…中 YMTC, 키옥시아 제치고 3위 - 네이트",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -137,6 +113,22 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 통합노조 출범 초읽기..삼성 초기업노조와 '공동성명' 검토 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - 매일경제",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - biz.chosun.com",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -158,16 +150,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스는 HBM 설계, 삼성전자는 美테일러 인력…반도체 인재채용 '러시' - 뉴시스",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "삼성전자, 1나노부터 고개구율 EUV 기술 적용 - 지디넷코리아",
+   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -181,8 +171,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스 주주환원 강화로 주가 상승 여력 충분 블룸버그 전망, \"장기 계약으로 현금흐름 안정적\" - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "‘인재 블랙홀’ 된 삼성·SK의 나비효과… 팹리스 핵심 인력 줄이탈 - 조선비즈 - biz.chosun.com",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -209,14 +199,14 @@
    "agents": []
   },
   {
-   "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - 머니투데이",
+   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - 뉴스타파",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - 뉴스타파",
+   "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - 머니투데이",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -231,13 +221,6 @@
   },
   {
    "title": "한전·기후부·전남광주통합시·삼성전자·SK하이닉스, 호남권·용인 반도체 메가프로젝트 적기 전력공급 위한 업무협약 체결 - 인공지능신문",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "하이닉스, AI 도입 KPI 반영…반도체 장비에도 AI 에이전트 '바람' - thelec.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -260,7 +243,7 @@
    ]
   },
   {
-   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
+   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - ytn.co.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -335,7 +318,7 @@
    "agents": []
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -518,7 +501,7 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - yna.co.kr",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -651,6 +634,15 @@
   },
   {
    "title": "Micron Technology’s (MU) Competitive Edge in a Rapidly Evolving Industry",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Netlist Files Patent Infringement Action Against Micron at U.S. International Trade Commission",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
