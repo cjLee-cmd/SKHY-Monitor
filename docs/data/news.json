@@ -1,36 +1,19 @@
 {
- "ts_kst": "08-13 01:28",
- "n_items": 104,
+ "ts_kst": "08-13 01:38",
+ "n_items": 103,
  "by_source": {
   "kr": 75,
-  "en": 29
+  "en": 28
  },
  "routed": {
   "M-CYCLE": 9,
-  "C-CHINA": 10,
+  "C-CHINA": 11,
   "F-ACTIVE": 6,
   "M-RISK": 3,
   "R-LEVERAGE": 10
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "목표주가+하향",
-   "src": "kr",
-   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
-   "agents": []
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "테마섹의 투자 보도에 삼성전자·SK하이닉스 주가 급등 - Investing.com 한국어",
@@ -40,7 +23,7 @@
    "agents": []
   },
   {
-   "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - sedaily.com",
+   "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -61,20 +44,20 @@
    "agents": []
   },
   {
-   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - v.daum.net",
+   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - 매일경제",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "키움증권 \"삼성전자·SK하이닉스 목표주가 하향, 내년 범용D램 가격 30%대 하락 예상\" - 비즈니스포스트",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "삼성·SK하이닉스, 美 핫칩스서 차세대 HBM 기술 맞대결 - 아이뉴스24",
@@ -491,8 +474,8 @@
    "agents": []
   },
   {
-   "title": "[마켓뷰] 외국인, 반도체 집중 매수… 코스피 급등 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "외국인 1.5조 매도에 코스피 '찔끔' 상승…코스닥은 7% 폭등 - v.daum.net",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -623,7 +606,7 @@
    "agents": []
   },
   {
-   "title": "SK Hynix and SanDisk Climb 8%, Western Digital Gains 4% as Memory Shortage Deepens",
+   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -639,13 +622,6 @@
    ]
   },
   {
-   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Netlist Files Patent Infringement Action Against Micron at U.S. International Trade Commission",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
@@ -655,11 +631,22 @@
    ]
   },
   {
-   "title": "Tech leads sectors higher in early trading as chip stocks gain: AlphaCheck",
+   "title": "Micron Set A Margin Record On Prices It Has Agreed To Cap",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "The Old Fear-Based Paradigm Around Memory Cyclicality is Dead, So I’m Buying Micron",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
