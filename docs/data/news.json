@@ -1,20 +1,30 @@
 {
- "ts_kst": "08-13 07:59",
+ "ts_kst": "08-13 08:08",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "P-ADR": 4,
-  "M-CYCLE": 7,
-  "C-CHINA": 11,
+  "P-ADR": 1,
+  "M-CYCLE": 12,
+  "C-CHINA": 10,
   "F-ACTIVE": 7,
-  "M-RISK": 2,
+  "M-RISK": 1,
   "R-LEVERAGE": 10
  },
  "unassigned": 64,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "테마섹의 투자 보도에 삼성전자·SK하이닉스 주가 급등 - Investing.com 한국어",
@@ -40,7 +50,7 @@
    "agents": []
   },
   {
-   "title": "삼전도 하이닉스도 아니었다... 직장인 행복도 1위는 가스公 - chosun.com",
+   "title": "삼전도 하이닉스도 아니었다... 직장인 행복도 1위는 가스公 - 조선일보",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -54,37 +64,19 @@
    "agents": []
   },
   {
-   "title": "'삼전 4.5만 매수' 김구라, \"하이닉스 132만원이면 들어가야\" - 머니투데이 - 머니투데이",
+   "title": "'삼전 4.5만 매수' 김구라, \"하이닉스 132만원이면 들어가야\" - 머니투데이 - mt.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 ADR이 불붙인 달러 매도…달러 약세 어디까지 - 매일경제 마켓",
+   "title": "삼성·SK하이닉스, HBM4 경쟁 본격화…변수는 평균판매가 - MTN 머니투데이방송",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "[뉴욕증시 마감] AI 투자 기대에 나스닥 0.54%↑…SK하이닉스 ADR 9% 급등 - 아주경제",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "[서울데이터랩]SK하이닉스 ADR 9% 급등…나스닥·S＆P500 상승, 다우 약보합 - 서울신문",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
+    "M-CYCLE"
    ]
   },
   {
@@ -95,7 +87,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ‘통합노조’ 곧 출범…‘성과급 100% 현금 지급’ 요구 - 경향신문",
+   "title": "SK하이닉스 ‘통합노조’ 곧 출범…‘성과급 100% 현금 지급’ 요구 - khan.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -116,7 +108,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - news.kbs.co.kr",
+   "title": "SK하이닉스 주주들은 한 달 뒤에 웃을 수 있을까 [핫클립] - KBS 뉴스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -128,6 +120,24 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "인텔 영입한 이석희 앞세워 저전력 AI용 D램 개발 서둘러, 삼성전자 SK하이닉스 HBM 아성 흔들지 주목 - 비즈니스포스트",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[단독] “HBM은 형편없다” 전 인텔 CEO 도발하자…SK하이닉스 임원 대답이 - 매일경제",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
@@ -188,7 +198,7 @@
    "agents": []
   },
   {
-   "title": "'삼성의 달수'를 아십니까[광화문] - 머니투데이 - 머니투데이",
+   "title": "'삼성의 달수'를 아십니까[광화문] - 머니투데이 - mt.co.kr",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -216,7 +226,7 @@
    "agents": []
   },
   {
-   "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - 머니투데이",
+   "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - mt.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -271,7 +281,7 @@
    ]
   },
   {
-   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - 머니투데이",
+   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - mt.co.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -287,7 +297,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -330,7 +340,7 @@
    ]
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - khan.co.kr",
    "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -470,6 +480,13 @@
    ]
   },
   {
+   "title": "[마감시황] 반도체주 급등에 코스피 6500선 회복…외국인·기관 쌍끌이 매수 - 한양경제",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "[EBN 데이터센터] 코스피, 반도체 강세에 6500선 돌파…외국인·기관 동반 매수 - ebn.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -477,16 +494,7 @@
    "agents": []
   },
   {
-   "title": "외국인 2.8조 몰리자 코스피 3.68% 급등...매수 사이드카 발동 - 디지털투데이",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -604,10 +612,17 @@
    ]
   },
   {
-   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
+   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - khan.co.kr",
    "pub": "Mon, 08 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": []
   },
   {
@@ -620,14 +635,7 @@
    ]
   },
   {
-   "title": "Michael Burry Adds To NBIS, MU, ORCL Shorts — Says Nebius Is ‘What The Top Of A Boom Looks Like’",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Why Micron Stock Is Being Outpaced by Memory Chip Rival SK Hynix",
+   "title": "Samsung Sends Fresh Signal to Micron Investors",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -636,16 +644,16 @@
    ]
   },
   {
-   "title": "Apple’s CXMT Bet Could Strengthen Its Memory Supply, But Risks Remain",
+   "title": "Why Micron Stock Is Surging Today",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
-    "C-CHINA"
+    "M-CYCLE"
    ]
   },
   {
-   "title": "Samsung Sends Fresh Signal to Micron Investors",
+   "title": "Why Micron Stock Popped Wednesday",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
