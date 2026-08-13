@@ -1,48 +1,37 @@
 {
- "ts_kst": "08-14 04:57",
+ "ts_kst": "08-14 05:07",
  "n_items": 101,
  "by_source": {
   "kr": 73,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "P-ADR": 2,
   "C-CHINA": 9,
-  "F-ACTIVE": 6,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 65,
+ "unassigned": 63,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - newsquest.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "agents": [
     "R-LEVERAGE"
    ]
   }
  ],
  "items": [
+  {
+   "title": "최태원 \"메모리는 전쟁\"…CNBC가 본 SK하이닉스 '1000조원 베팅' - edaily.co.kr",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "윤풍영 SK수펙스 사장, SK하이닉스 '글로벌 성장 TF장' 겸임 - 머니투데이 - 머니투데이",
    "pub": "Thu, 13 Aug 2026",
@@ -59,13 +48,6 @@
   },
   {
    "title": "[단독] ‘혁신 지휘자’ 윤풍영 수펙스 사장, SK하이닉스 글로벌 성장 TF장으로… “AI 글로벌 확장 이끈다” - 조선비즈 - Chosunbiz",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "미국발 반도체 훈풍에…삼성전자·SK하이닉스, 장 초반 동반 상승세 - 매일경제 마켓",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -127,7 +109,7 @@
    "agents": []
   },
   {
-   "title": "최태원 \"메모리는 전쟁\"…CNBC가 본 SK하이닉스 '1000조원 베팅' - edaily.co.kr",
+   "title": "미국발 반도체 훈풍에…삼성전자·SK하이닉스, 장 초반 동반 상승세 - 매일경제 마켓",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -197,7 +179,7 @@
    "agents": []
   },
   {
-   "title": "[단독] \"한 달 걸릴 설계·검증 이틀로 단축\"…삼성전자 반도체, 앤트로픽 '클로드' 투입해 성과 - news.nate.com",
+   "title": "[단독] \"한 달 걸릴 설계·검증 이틀로 단축\"…삼성전자 반도체, 앤트로픽 '클로드' 투입해 성과 - 네이트",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -416,15 +398,15 @@
    "agents": []
   },
   {
-   "title": "'ETF 투자' 개인은 코스피 상승, 외국인은 하락에 베팅했다 - TBS 서울",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "'ETF 투자' 개인은 코스피 상승, 외국인은 하락에 베팅했다 - TBS 서울",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -437,11 +419,20 @@
    "agents": []
   },
   {
-   "title": "외국인 '사자' vs 개인 '팔자'에 코스피 6800선 줄다리기[장중시황] - 뉴스1",
+   "title": "외국인 '사자' vs 개인 '팔자'에 코스피 6800선 줄다리기[장중시황] - news1.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
@@ -483,13 +474,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "166조 팔던 외국인 수급 저점 통과 기대 ↑… 코스피 반등 열쇠 쥐나 - v.daum.net",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -585,7 +569,7 @@
    "agents": []
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -601,7 +585,7 @@
    "agents": []
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
    "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -635,28 +619,7 @@
    ]
   },
   {
-   "title": "Sandisk Soars 14% on New Long-Term Profit Targets",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "S&P 500 Hits Record as Cooling Inflation Boosts Rate-Cut Hopes",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Memory Stocks Stay Strong With Sandisk, SK Hynix, and Western Digital Leading the Storage Stack",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Stock Market Today: Nasdaq 100 Leads Upside; Computer Maker Lenovo Soars Past Entry Point (Live Coverage)",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -668,6 +631,33 @@
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "Why Micron Stock Rallied on Thursday",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Sandisk, Cisco, Micron, Ondas, Coherent, Cerebras, and More Stocks That Explain Today’s Market",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "DRAM Movers: These Memory/Storage ETFs Are Soaring as Sandisk, Micron Rally",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
