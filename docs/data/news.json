@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-14 05:41",
+ "ts_kst": "08-14 05:50",
  "n_items": 101,
  "by_source": {
   "kr": 73,
@@ -7,23 +7,13 @@
  },
  "routed": {
   "P-ADR": 3,
-  "M-CYCLE": 6,
+  "M-CYCLE": 10,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
    "title": "윤풍영 SK수펙스 사장, SK하이닉스 '글로벌 성장 TF장' 겸임 - 머니투데이 - 머니투데이",
@@ -48,6 +38,13 @@
   },
   {
    "title": "미국발 반도체 훈풍에…삼성전자·SK하이닉스, 장 초반 동반 상승세 - 매일경제 마켓",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“이제라도 살까?”…삼전 16%·하닉 12% 급등 뒤 ‘964조·300조’의 실체 [숫자 뒤의 진실] - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -96,13 +93,6 @@
   },
   {
    "title": "하이닉스 손자회사도 나스닥행?…‘다단계 중복상장’ 논란 - 한겨레",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“이제라도 살까?”…삼전 16%·하닉 12% 급등 뒤 ‘964조·300조’의 실체 [숫자 뒤의 진실] - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -165,13 +155,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스 주주환원 강화로 주가 상승 여력 충분 블룸버그 전망, \"장기 계약으로 현금흐름 안정적\" - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성·SK하닉 물스트레스 '중상'···반도체 메가팹 '용수 확보전' - 뉴스웨이",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -186,13 +169,6 @@
    "agents": []
   },
   {
-   "title": "\"첫 만남엔 삼성 다니는 거 숨겨요\"…반도체 호황이 바꾼 결혼시장 - 매일신문",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "[산업분석] 메모리 반도체, 삼성전자·SK하이닉스 HBM +65%…LTA는 방패인가 - 톱스타뉴스",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -202,14 +178,21 @@
    ]
   },
   {
-   "title": "반도체 미래·삼성 성과급 갈등...권오현 전 삼성 회장의 ‘소신발언’ - 공공뉴스",
+   "title": "\"첫 만남엔 삼성 다니는 거 숨겨요\"…반도체 호황이 바꾼 결혼시장 - 매일신문",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "반도체 초유의 현금흐름…삼성·SK, ‘주주가치 제고’ 대전(大戰) ‘막’ 오르나 - 더퍼블릭",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 3일 연속 강세...글로벌 반도체도 상승세 - ppss.kr",
+   "title": "반도체 미래·삼성 성과급 갈등...권오현 전 삼성 회장의 ‘소신발언’ - 공공뉴스",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -218,6 +201,13 @@
   {
    "title": "삼성전자, ‘원자층 식각’ ALE 적용 공정 확대···첨단 반도체 미세화 승부수 - 시사저널e",
    "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 3일 연속 강세...글로벌 반도체도 상승세 - ppss.kr",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -458,8 +448,8 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피, 반도체 강세에 3.56% 급등…외국인 2조원 넘게 순매수 - 브릿지경제",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
+   "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -467,8 +457,8 @@
    ]
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
-   "pub": "Tue, 30 Jun 2026",
+   "title": "코스피, 외국인 1.5조 순매도에 6300선 턱밑… 코스닥 7% 강세 - IT조선",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -555,7 +545,7 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -601,11 +591,29 @@
    "agents": []
   },
   {
+   "title": "Sandisk, Cisco, Micron, Ondas, Coherent, Cerebras, and More Stocks That Explain Today’s Market",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Michael Burry Loads Up On QQQ Puts, Boosts MU Short As He Braces For ‘Larger Fall’ — Here’s What He Did To NVDA, PLTR And TSLA",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "Micron Stock Keeps Rallying. Watch Out for This New Memory-Chip Rival.",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "Micron Ventures Launches $250 Million Fund to Invest in the Next Generation of AI",
@@ -615,13 +623,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Make Your STX Shares Pay You 26% Per Year While You Hold Them",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Micron and Sandisk Stock Have Plummeted. Here's Why Now Is the Perfect Time to Buy",
@@ -640,13 +641,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Sandisk Soars 14% on New Long-Term Profit Targets",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "S&P 500 Hits Record as Cooling Inflation Boosts Rate-Cut Hopes",
