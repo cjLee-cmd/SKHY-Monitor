@@ -1,18 +1,18 @@
 {
- "ts_kst": "08-14 04:10",
+ "ts_kst": "08-14 04:20",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 10,
   "P-ADR": 2,
   "C-CHINA": 10,
-  "F-ACTIVE": 7,
+  "F-ACTIVE": 6,
   "R-LEVERAGE": 10
  },
- "unassigned": 61,
+ "unassigned": 64,
  "alerts": [],
  "items": [
   {
@@ -42,15 +42,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "‘삼전닉스’ 이틀 새 12% 뛰었는데 美마이크론 또 6%↑…오늘 ‘7000피’ 첫 시험대 - 녹색경제신문",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "“HBM4 헐값이라더니”…美 IB가 본 SK하이닉스 가격은 달랐다 - v.daum.net",
@@ -123,6 +114,13 @@
   },
   {
    "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - 연합인포맥스",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 27일 인디애나팹 착공식…최태원·젠슨황 또 만날까 - 동아일보",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -231,20 +229,20 @@
    ]
   },
   {
-   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - ytn.co.kr",
+   "title": "'회색 코뿔소' 중국 메모리…반도체 슈퍼사이클 최대 변수로 부상 - ebn.co.kr",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "'회색 코뿔소' 중국 메모리…반도체 슈퍼사이클 최대 변수로 부상 - ebn.co.kr",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
@@ -420,7 +418,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - asiae.co.kr",
+   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -443,15 +441,6 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피, 반도체 강세에 3.56% 급등…외국인 2조원 넘게 순매수 - 브릿지경제",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
    "pub": "Tue, 30 Jun 2026",
    "src": "kr",
@@ -468,6 +457,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "외국인 3일 연속 ‘사자’에 코스피 6800선…국내 증시 시총 6000조원 회복 [투자360] - v.daum.net",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -595,6 +591,13 @@
    "agents": []
   },
   {
+   "title": "S&P 500 Hits Record as Cooling Inflation Boosts Rate-Cut Hopes",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Why Micron Stock Rallied on Thursday",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
@@ -640,16 +643,7 @@
    ]
   },
   {
-   "title": "Michael Burry Sends Fresh AI Warning on Nebius, Micron and Oracle",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Stock Market Today: Nasdaq 100 Leads Upside; Sellers Yank Coach Bag Firm Lower (Live Coverage)",
+   "title": "Memory Stocks Stay Strong With Sandisk, SK Hynix, and Western Digital Leading the Storage Stack",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
