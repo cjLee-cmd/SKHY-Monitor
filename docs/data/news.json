@@ -1,24 +1,24 @@
 {
- "ts_kst": "08-13 20:54",
+ "ts_kst": "08-13 21:04",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "P-ADR": 2,
-  "M-CYCLE": 8,
-  "C-CHINA": 11,
+  "P-ADR": 3,
+  "M-CYCLE": 9,
+  "C-CHINA": 10,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 64,
+ "unassigned": 63,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -27,7 +27,7 @@
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -42,14 +42,14 @@
    "agents": []
   },
   {
-   "title": "윤풍영 SK수펙스 사장, SK하이닉스 '글로벌 성장 TF장' 겸임 - MTN 머니투데이방송",
+   "title": "윤풍영 SK수펙스 사장, SK하이닉스 글로벌 성장 TF장 임명 - etnews.com",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "윤풍영 SK수펙스 사장, SK하이닉스 글로벌 성장 TF장 임명 - etnews.com",
+   "title": "윤풍영 SK수펙스추구협의회 사장 하이닉스 글로벌성장TF장으로 - 마켓인",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -74,11 +74,13 @@
    ]
   },
   {
-   "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "﻿美 물가 둔화·AI 훈풍에 나스닥 0.5%↑…SK하이닉스 ADR 9% 급등 By EBN - Investing.com 한국어",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "미국발 반도체 훈풍에…삼성전자·SK하이닉스, 장 초반 동반 상승세 - 매일경제 마켓",
@@ -102,14 +104,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 통합노조 공식 출범… 과반 노조 목표 - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스 통합노조 공식 출범…과반 노조 목표[비즈 360] - 헤럴드경제",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 통합노조 공식 출범…설립 인가 완료 - v.daum.net",
+   "title": "SK하이닉스 통합노조 공식 출범…조합원 2400명 돌파 - 머니투데이 - mt.co.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -186,13 +188,6 @@
    "agents": []
   },
   {
-   "title": "\"첫 만남엔 삼성 다니는 거 숨겨요\"…반도체 호황이 바꾼 결혼시장 - 매일신문",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - mt.co.kr",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -200,8 +195,15 @@
    "agents": []
   },
   {
-   "title": "[미르의 글로벌 레이더]삼성 반도체 공장이 도시를 바꾼다…美테일러에 AI데이터센터 속속 집결 - 미디어펜",
+   "title": "화웨이·SMIC 3나노 모바일CPU 상용화, 삼성전자 초격차 AI폰·1나노급 공정 서두른다 - 비즈니스포스트",
    "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "추미애 경기도지사, 삼성전자·SK하이닉스 ‘폐수방류 최소화’ 재차 촉구 - 경기신문",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -214,7 +216,14 @@
    "agents": []
   },
   {
-   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - seoul.co.kr",
+   "title": "[미르의 글로벌 레이더]삼성 반도체 공장이 도시를 바꾼다…美테일러에 AI데이터센터 속속 집결 - 미디어펜",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - 서울신문",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -228,13 +237,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "삼성전자·SK하이닉스, 뉴욕 반도체 훈풍에 4~5%대 급등 출발 - 뉴스인",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "'회색 코뿔소' 중국 메모리…반도체 슈퍼사이클 최대 변수로 부상 - ebn.co.kr",
@@ -393,7 +395,7 @@
    ]
   },
   {
-   "title": "[마감시황] 코스피, 외국인·기관 쌍끌이 삼전닉스 투자에 6800선 안착 - newspim.com",
+   "title": "[마감시황] 코스피, 외국인·기관 쌍끌이 삼전닉스 투자에 6800선 안착 - 뉴스핌",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -521,26 +523,8 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
    "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
-   "pub": "Wed, 22 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -596,11 +580,29 @@
    "agents": []
   },
   {
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "pub": "Thu, 04 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
+  },
+  {
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "pub": "Mon, 13 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
@@ -618,6 +620,15 @@
   },
   {
    "title": "Korea’s Stock Market Surges Another 3.5% Overnight. Intel, Coherent, and Micron Among Most Active Premarket Stocks in US Trading.",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Falls as It Faces a Fresh Chinese Memory-Chip Threat",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -656,15 +667,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Memory Stocks Rally Wednesday: SK Hynix, SanDisk, Micron All Jump. Here’s Why",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
