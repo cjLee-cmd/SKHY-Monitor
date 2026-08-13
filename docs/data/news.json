@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-14 06:20",
+ "ts_kst": "08-14 06:30",
  "n_items": 101,
  "by_source": {
   "kr": 73,
@@ -7,13 +7,23 @@
  },
  "routed": {
   "P-ADR": 3,
-  "M-CYCLE": 8,
+  "M-CYCLE": 9,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "윤풍영 SK수펙스 사장, SK하이닉스 '글로벌 성장 TF장' 겸임 - 머니투데이 - mt.co.kr",
@@ -51,24 +61,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ADR 이틀째 급등…싱가포르 국부펀드 투자 계획설 - news.einfomax.co.kr",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "[뉴욕증시 마감] AI 투자 기대에 나스닥 0.54%↑…SK하이닉스 ADR 9% 급등 - v.daum.net",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
    "title": "[속보] SK하이닉스 ADR 7.31% 급등… 미증시 일제 상승 - 국민일보",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -78,25 +70,29 @@
    ]
   },
   {
-   "title": "\"이건 아닙니다 회장님\"…SK하이닉스 '5단 중복상장' 추진에 쏟아진 비판 - v.daum.net",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "SK하이닉스 ADR 이틀째 급등…싱가포르 국부펀드 투자 계획설 - news.einfomax.co.kr",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - news.einfomax.co.kr",
+   "title": "ADR 훈풍 타고 '160만닉스' 복귀…SK하이닉스 7%대 강세 - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "하이닉스 손자회사도 나스닥행?…‘다단계 중복상장’ 논란 - 한겨레",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "SK하이닉스 ‘통합노조’ 출범…성과급·임단협에 목소리 낸다 - kyeonggi.com",
@@ -120,7 +116,14 @@
    "agents": []
   },
   {
-   "title": "미국발 반도체 훈풍에…삼성전자·SK하이닉스, 장 초반 동반 상승세 - 매일경제 마켓",
+   "title": "\"이건 아닙니다 회장님\"…SK하이닉스 '5단 중복상장' 추진에 쏟아진 비판 - v.daum.net",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - news.einfomax.co.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -141,15 +144,15 @@
    "agents": []
   },
   {
-   "title": "AI 반도체 덮친 ‘금리 5% 공포’…삼성전자·SK하이닉스 새 복병 By EBN - Investing.com 한국어",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "미국발 반도체 훈풍에…삼성전자·SK하이닉스, 장 초반 동반 상승세 - 매일경제 마켓",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스 주주환원 강화로 주가 상승 여력 충분 블룸버그 전망, \"장기 계약으로 현금흐름 안정적\" - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "AI 반도체 덮친 ‘금리 5% 공포’…삼성전자·SK하이닉스 새 복병 By EBN - Investing.com 한국어",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -185,8 +188,15 @@
    "agents": []
   },
   {
-   "title": "[재계핫이슈] 호남반도체, ‘속도전’ 다그쳐도 쉽지않은 삼성전자 SK하이닉스 - 펜앤마이크",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "반도체 초유의 현금흐름…삼성·SK, ‘주주가치 제고’ 대전(大戰) ‘막’ 오르나 - 더퍼블릭",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "화웨이·SMIC 3나노 공정 모바일 CPU 상용화, 삼성전자 초격차 AI폰·1나노급 공정 서두른다 - 비즈니스포스트",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -313,7 +323,7 @@
    ]
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -418,13 +428,6 @@
    ]
   },
   {
-   "title": "외국인 '사자' vs 개인 '팔자'에 코스피 6800선 줄다리기[장중시황] - 뉴스1",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - asiae.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -432,6 +435,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "외국인 '사자' vs 개인 '팔자'에 코스피 6800선 줄다리기[장중시황] - 뉴스1",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "[食전食후] 코스피, 외국인·기관 사자에 장중 6900선 근접…코스닥 1%대 강세 - 아주경제",
@@ -457,8 +467,8 @@
    ]
   },
   {
-   "title": "코스피, 외국인 1.5조 순매도에 6300선 턱밑… 코스닥 7% 강세 - IT조선",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "[마감시황] 코스피, 반도체 강세에 3.56% 급등…외국인 2조원 넘게 순매수 - 브릿지경제",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -527,7 +537,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -575,7 +585,7 @@
    "agents": []
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
    "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -588,13 +598,6 @@
    "pub": "Mon, 08 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "Dow Jones Futures: S&P 500 Hits High On Workday, Sandisk, Oil Prices; Applied Materials Earnings Late",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
    "agents": []
   },
   {
@@ -632,13 +635,6 @@
    ]
   },
   {
-   "title": "Make Your STX Shares Pay You 26% Per Year While You Hold Them",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron and Sandisk Stock Have Plummeted. Here's Why Now Is the Perfect Time to Buy",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
@@ -646,6 +642,22 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Micron Stock Extends Winning Streak on Strong AI Memory Demand",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "S&P 500 Hits Record as Cooling Inflation Boosts Rate-Cut Hopes",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
