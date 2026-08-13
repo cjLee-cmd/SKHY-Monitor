@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-13 19:14",
+ "ts_kst": "08-13 19:24",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,13 +7,23 @@
  },
  "routed": {
   "P-ADR": 3,
-  "M-CYCLE": 10,
-  "C-CHINA": 12,
+  "M-CYCLE": 7,
+  "C-CHINA": 13,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 10
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 65,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 채권 투자 돌연 변경…주주환원 앞두고 자금 운용 ‘주목’ - 조선비즈 - Chosunbiz",
@@ -32,7 +42,7 @@
    ]
   },
   {
-   "title": "[뉴욕증시 마감] AI 투자 기대에 나스닥 0.54%↑…SK하이닉스 ADR 9% 급등 - v.daum.net",
+   "title": "[서울데이터랩]SK하이닉스 ADR 9% 급등…나스닥·S＆P500 상승, 다우 약보합 - 서울신문",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -41,16 +51,37 @@
    ]
   },
   {
-   "title": "SK하이닉스 ADR이 불붙인 달러 매도…달러 약세 어디까지 - 매일경제",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "SK하닉 ADR 매집한 서학개미…증권가 \"프리미엄 과도, 격차 좁혀질 것\" - v.daum.net",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "P-ADR"
    ]
+  },
+  {
+   "title": "윤풍영 SK수펙스 사장, SK하이닉스 글로벌 성장 TF장 임명 - 전자신문",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "SK하이닉스 글로벌 성장TF장에 윤풍영 SK수펙스 사장 - 연합뉴스",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] '혁신 지휘자' 윤풍영 수펙스 사장, SK하이닉스 글로벌 성장 TF장으로… \"AI 글로벌 확장 이끈다\" - Chosunbiz",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, \"극도로 저평가\" 상태—애널리스트 - Investing.com 한국어",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -92,7 +123,7 @@
    "agents": []
   },
   {
-   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - 연합인포맥스",
+   "title": "“최태원 회장님, 창피합니다”… ‘솔리다임’ 5단 중복상장 논란 - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -106,29 +137,6 @@
    "agents": []
   },
   {
-   "title": "“HBM4 헐값이라더니”…美 IB가 본 SK하이닉스 가격은 달랐다 - 아이뉴스24",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "여주시·SK하이닉스, 취약계층 어르신 100명에 보행기 지원 - 인천일보",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스, \"극도로 저평가\" 상태—애널리스트 - Investing.com 한국어",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -136,8 +144,8 @@
    "agents": []
   },
   {
-   "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - 머니투데이",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "삼성·TSMC 손 뗀 구형 반도체, 공급난에 가격 줄인상 - edaily.co.kr",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -178,8 +186,8 @@
    "agents": []
   },
   {
-   "title": "삼성·TSMC 손 뗀 구형 반도체, 공급난에 가격 줄인상 - edaily.co.kr",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "\"첫 만남엔 삼성 다니는 거 숨겨요\"…반도체 호황이 바꾼 결혼시장 - 매일신문",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -192,8 +200,8 @@
    "agents": []
   },
   {
-   "title": "\"첫 만남엔 삼성 다니는 거 숨겨요\"…반도체 호황이 바꾼 결혼시장 - 매일신문",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - 머니투데이",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -213,6 +221,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자 노조 `호남 반도체` 요구가 발단?…민주노총 `대기업 봐주기` 반발 - 매일신문",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "[산업분석] 메모리 반도체, 삼성전자·SK하이닉스 HBM +65%…LTA는 방패인가 - 톱스타뉴스",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -223,13 +238,6 @@
   },
   {
    "title": "삼성전자·SK하이닉스, 뉴욕 반도체 훈풍에 4~5%대 급등 출발 - 뉴스인",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 노조 `호남 반도체` 요구가 발단?…민주노총 `대기업 봐주기` 반발 - 매일신문",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -482,7 +490,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -559,6 +567,13 @@
    "agents": []
   },
   {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -566,13 +581,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
@@ -607,6 +615,13 @@
    "agents": []
   },
   {
+   "title": "Michael Burry Warns of a 1987-Style Crash. Here Are 2 Index ETFs to Buy Anyway.",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "What Is Micron Technology (MU) Up Against In The New AI Stock Race?",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
@@ -625,25 +640,14 @@
    ]
   },
   {
+   "title": "Q2 Earnings Scorecard: Record Margins, Strong Beats, and Upward Revisions",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Memory Stocks Rally Wednesday: SK Hynix, SanDisk, Micron All Jump. Here’s Why",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Samsung Sends Fresh Signal to Micron Investors",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Micron Stock Is Surging Today",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
