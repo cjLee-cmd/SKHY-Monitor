@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-13 13:56",
+ "ts_kst": "08-13 14:08",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,23 +7,13 @@
  },
  "routed": {
   "P-ADR": 3,
-  "M-CYCLE": 10,
+  "M-CYCLE": 13,
   "C-CHINA": 11,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 10
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 채권 투자 돌연 변경…주주환원 앞두고 자금 운용 ‘주목’ - 조선비즈 - Chosunbiz",
@@ -33,7 +23,7 @@
    "agents": []
   },
   {
-   "title": "[뉴욕증시 마감] AI 투자 기대에 나스닥 0.54%↑…SK하이닉스 ADR 9% 급등 - v.daum.net",
+   "title": "[뉴욕증시 마감] AI 투자 기대에 나스닥 0.54%↑…SK하이닉스 ADR 9% 급등 - ajunews.com",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -42,8 +32,8 @@
    ]
   },
   {
-   "title": "[서울데이터랩]SK하이닉스 ADR 9% 급등…나스닥·S＆P500 상승, 다우 약보합 - 서울신문",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "ADR 훈풍 타고 '160만닉스' 복귀…SK하이닉스 7%대 강세 - v.daum.net",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -60,29 +50,26 @@
    ]
   },
   {
-   "title": "코스피 삼전·하닉 강세에 4%대 상승…6800선 돌파 - 마켓인",
+   "title": "“HBM4 헐값이라더니”…美 IB가 본 SK하이닉스 가격은 달랐다 - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "코스피 급등 출발… 삼성전자·SK하이닉스 동반 강세 - 조선일보",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 4%·SK하이닉스 2% 상승…코스피 6500선 탈환[장중시황] - v.daum.net",
+   "title": "삼성·SK하이닉스, HBM4 경쟁 본격화…변수는 평균판매가 - MTN 머니투데이방송",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "“HBM4 헐값이라더니”…美 IB가 본 SK하이닉스 가격은 달랐다 - v.daum.net",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "인텔 영입한 이석희 앞세워 저전력 AI용 D램 개발 서둘러, 삼성전자 SK하이닉스 HBM 아성 흔들지 주목 - 비즈니스포스트",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -139,6 +126,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "'핀셋 채용' 나선 SK하이닉스, HBM 인력 정조준 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
@@ -412,6 +408,13 @@
    "agents": []
   },
   {
+   "title": "“코스피 못 믿겠다”…외국인 자금, 한국 떠나 대만으로 - 한경매거진&북",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -469,13 +472,6 @@
   {
    "title": "개미들 이달 '코스피 베팅', 외국인과 정반대 흐름 - v.daum.net",
    "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 3%대 강세, 코스피 상승 전환...오르던 코스닥은 하락 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
