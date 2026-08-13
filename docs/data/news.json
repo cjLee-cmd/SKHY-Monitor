@@ -1,19 +1,29 @@
 {
- "ts_kst": "08-14 06:43",
+ "ts_kst": "08-14 06:53",
  "n_items": 101,
  "by_source": {
   "kr": 73,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 9,
-  "P-ADR": 3,
+  "M-CYCLE": 11,
+  "P-ADR": 2,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "최태원 \"메모리는 전쟁\"…CNBC가 본 SK하이닉스의 1000조원 베팅 - edaily.co.kr",
@@ -99,12 +109,12 @@
    ]
   },
   {
-   "title": "[속보] SK하이닉스 ADR 7.31% 급등… 미증시 일제 상승 - 국민일보",
+   "title": "‘삼전닉스’ 이틀 새 12% 뛰었는데 美마이크론 또 6%↑…오늘 ‘7000피’ 첫 시험대 - 녹색경제신문",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "P-ADR"
+    "M-CYCLE"
    ]
   },
   {
@@ -164,13 +174,6 @@
    "agents": []
   },
   {
-   "title": "\"첫 만남엔 삼성 다니는 거 숨겨요\"…반도체 호황이 바꾼 결혼시장 - 매일신문",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "[산업분석] 메모리 반도체, 삼성전자·SK하이닉스 HBM +65%…LTA는 방패인가 - 톱스타뉴스",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -178,6 +181,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "\"첫 만남엔 삼성 다니는 거 숨겨요\"…반도체 호황이 바꾼 결혼시장 - 매일신문",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "반도체 초유의 현금흐름…삼성·SK, ‘주주가치 제고’ 대전(大戰) ‘막’ 오르나 - 더퍼블릭",
@@ -315,7 +325,7 @@
    ]
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -529,7 +539,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -593,20 +603,6 @@
    "agents": []
   },
   {
-   "title": "Dow Jones Futures: S&P 500 Hits High On Workday, Sandisk, Oil Prices; Applied Materials Earnings Late",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Applied Materials Forecast Gets Tepid Reaction After Stock Rally",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Sandisk, Cisco, Micron, Ondas, Coherent, Cerebras, and More Stocks That Explain Today’s Market",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
@@ -641,7 +637,25 @@
    ]
   },
   {
-   "title": "Make Your STX Shares Pay You 26% Per Year While You Hold Them",
+   "title": "Micron and Sandisk Stock Have Plummeted. Here's Why Now Is the Perfect Time to Buy",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Extends Winning Streak on Strong AI Memory Demand",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "S&P 500 Hits Record as Cooling Inflation Boosts Rate-Cut Hopes",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
