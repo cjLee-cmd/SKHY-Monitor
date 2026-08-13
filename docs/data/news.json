@@ -1,19 +1,29 @@
 {
- "ts_kst": "08-14 01:38",
+ "ts_kst": "08-14 01:47",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "P-ADR": 3,
   "C-CHINA": 11,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "윤풍영 SK수펙스 사장, SK하이닉스 '글로벌 성장 TF장' 겸임 - 머니투데이 - 머니투데이",
@@ -67,15 +77,15 @@
    "agents": []
   },
   {
-   "title": "'역대급 실적' 삼성전자·SK하이닉스, 주주환원·시설투자 균형추 맞출까 - 뉴시스",
+   "title": "삼성·SK하이닉스, 이르면 이달 주주환원 공개…'100조원+α' 기대감 - 연합인포맥스",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성·SK하이닉스, 이르면 이달 주주환원 공개…'100조원+α' 기대감 - 연합인포맥스",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "곳간 채운 삼성전자·SK하이닉스, '통큰' 주주환원 기대감 - 데일리한국",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -88,6 +98,15 @@
    "agents": []
   },
   {
+   "title": "﻿美 물가 둔화·AI 훈풍에 나스닥 0.5%↑…SK하이닉스 ADR 9% 급등 By EBN - Investing.com 한국어",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
    "title": "SK하이닉스 ADR 이틀째 급등…싱가포르 국부펀드 투자 계획설 - 연합인포맥스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -97,16 +116,7 @@
    ]
   },
   {
-   "title": "[뉴욕증시 마감] AI 투자 기대에 나스닥 0.54%↑…SK하이닉스 ADR 9% 급등 - v.daum.net",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "ADR 훈풍 타고 '160만닉스' 복귀…SK하이닉스 7%대 강세 - 더팩트",
+   "title": "ADR 훈풍 타고 '160만닉스' 복귀…SK하이닉스 7%대 강세 - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -130,13 +140,6 @@
   },
   {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성·TSMC 손 뗀 구형 반도체, 공급난에 가격 줄인상 - edaily.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -192,6 +195,15 @@
    "agents": []
   },
   {
+   "title": "[산업분석] 메모리 반도체, 삼성전자·SK하이닉스 HBM +65%…LTA는 방패인가 - 톱스타뉴스",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "반도체 미래·삼성 성과급 갈등...권오현 전 삼성 회장의 ‘소신발언’ - 공공뉴스",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -213,13 +225,11 @@
    "agents": []
   },
   {
-   "title": "[산업분석] 메모리 반도체, 삼성전자·SK하이닉스 HBM +65%…LTA는 방패인가 - topstarnews.net",
+   "title": "삼성전자·SK하이닉스, 뉴욕 반도체 훈풍에 4~5%대 급등 출발 - 뉴스인",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - hani.co.kr",
@@ -247,7 +257,7 @@
    ]
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - businesspost.co.kr",
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -315,7 +325,7 @@
    "agents": []
   },
   {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - contents.premium.naver.com",
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 27 Jun 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -324,7 +334,7 @@
    ]
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -333,7 +343,7 @@
    ]
   },
   {
-   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - businesspost.co.kr",
+   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
    "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -406,15 +416,15 @@
    "agents": []
   },
   {
-   "title": "반도체가 끌어올린 코스피…외국인 2.4조 매수에 6800선 탈환 - 굿모닝경제",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "반도체가 끌어올린 코스피…외국인 2.4조 매수에 6800선 탈환 - 굿모닝경제",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -427,7 +437,7 @@
    "agents": []
   },
   {
-   "title": "[食전食후] 코스피, 외국인·기관 사자에 장중 6900선 근접…코스닥 1%대 강세 - ajunews.com",
+   "title": "[食전食후] 코스피, 외국인·기관 사자에 장중 6900선 근접…코스닥 1%대 강세 - 아주경제",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -531,7 +541,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -579,7 +589,7 @@
    "agents": []
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
    "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -595,13 +605,6 @@
    "agents": []
   },
   {
-   "title": "Sandisk Unveils Multi-Year Financial Model and Growth Strategy, Memory Stocks Soar",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Stock Keeps Rallying. Watch Out for This New Memory-Chip Rival.",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
@@ -609,29 +612,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Déjà Vu. Why Intel Is Eyeing a Return to Memory.",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Can Micron's AI Memory Focus Help It Outpace SK Hynix and Sandisk?",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Wall Street Analysts Predict 70% Upside for This AI Memory Stock in 2027",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Micron Technology (MU): A Clear Beneficiary of the AI Infrastructure Buildout?",
@@ -643,7 +623,43 @@
    ]
   },
   {
-   "title": "Market Would Fall by 12,152 Points in a ‘Black Monday’ Style Crash. Big Short Investor Says It’s Possible.",
+   "title": "Korea’s Stock Market Surges Another 3.5% Overnight. Intel, Coherent, and Micron Among Most Active Premarket Stocks in US Trading.",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "What Is Micron Technology (MU) Up Against In The New AI Stock Race?",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Wall Street Analysts Are Predicting a Huge Move for Micron by Mid-2027",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Memory Stocks Rally Wednesday: SK Hynix, SanDisk, Micron All Jump. Here’s Why",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Wall Street Analysts Predict 70% Upside for This AI Memory Stock in 2027",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
