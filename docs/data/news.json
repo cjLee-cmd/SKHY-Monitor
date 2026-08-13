@@ -1,18 +1,18 @@
 {
- "ts_kst": "08-14 03:25",
+ "ts_kst": "08-14 03:35",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 9,
   "P-ADR": 3,
   "C-CHINA": 10,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 61,
+ "unassigned": 63,
  "alerts": [],
  "items": [
   {
@@ -233,13 +233,6 @@
    ]
   },
   {
-   "title": "'회색 코뿔소' 중국 메모리…반도체 슈퍼사이클 최대 변수로 부상 - ebn.co.kr",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
@@ -247,6 +240,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "'회색 코뿔소' 중국 메모리…반도체 슈퍼사이클 최대 변수로 부상 - ebn.co.kr",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
@@ -422,15 +422,6 @@
    "agents": []
   },
   {
-   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -440,15 +431,15 @@
    ]
   },
   {
-   "title": "166조 팔던 외국인 수급 저점 통과 기대 ↑… 코스피 반등 열쇠 쥐나 - v.daum.net",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "[食전食후] 코스피, 외국인·기관 사자에 장중 6900선 근접…코스닥 1%대 강세 - 아주경제",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[食전食후] 코스피, 외국인·기관 사자에 장중 6900선 근접…코스닥 1%대 강세 - 아주경제",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "166조 팔던 외국인 수급 저점 통과 기대 ↑… 코스피 반등 열쇠 쥐나 - v.daum.net",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -465,6 +456,15 @@
   {
    "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
    "pub": "Tue, 30 Jun 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "코스피, 외국인 1.5조 순매도에 6300선 턱밑… 코스닥 7% 강세 - IT조선",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -597,6 +597,29 @@
    "agents": []
   },
   {
+   "title": "DRAM Movers: These Memory/Storage ETFs Are Soaring as Sandisk, Micron Rally",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Stock Market Today: Nasdaq 100 Leads Upside; Sellers Yank Coach Bag Firm Lower (Live Coverage)",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Cerebras Plummets 13% After Earnings. But Intel & AMD Barrel Ahead with Strong Gains.",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Faces a New Burry Bet as China Memory Pressure Builds",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
@@ -615,7 +638,7 @@
    ]
   },
   {
-   "title": "Micron Stock Keeps Rallying. Watch Out for This New Memory-Chip Rival.",
+   "title": "Memory Stocks Open Flat And Then Soar: Micron Up 6%, SK Hynix 8%, SanDisk Up 15%. Here’s What’s Driving the Move.",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -624,32 +647,7 @@
    ]
   },
   {
-   "title": "Micron Technology (MU): A Clear Beneficiary of the AI Infrastructure Buildout?",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Wall Street Analysts Predict 70% Upside for This AI Memory Stock in 2027",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "DRAM Movers: These Memory/Storage ETFs Are Soaring as Sandisk, Micron Rally",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Stock Market Today: Nasdaq 100 Leads Upside; Sellers Yank Coach Bag Firm Lower (Live Coverage)",
+   "title": "Sandisk Stock Jumps On Bullish Outlook, Leads Memory Names Higher",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
