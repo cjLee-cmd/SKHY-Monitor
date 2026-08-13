@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-13 19:24",
+ "ts_kst": "08-13 19:33",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,23 +7,13 @@
  },
  "routed": {
   "P-ADR": 3,
-  "M-CYCLE": 7,
-  "C-CHINA": 13,
-  "F-ACTIVE": 6,
+  "M-CYCLE": 10,
+  "C-CHINA": 11,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 채권 투자 돌연 변경…주주환원 앞두고 자금 운용 ‘주목’ - 조선비즈 - Chosunbiz",
@@ -95,14 +85,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 통합노조 공식 출범…\"생산·기술·사무직 아우른다\" - 뉴시스",
+   "title": "SK하이닉스 통합노조 공식 출범…생산·기술·사무직 포함 - 동아일보",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 통합노조 공식 출범…TF \"정식 노조 승인됐다\" - v.daum.net",
+   "title": "SK하이닉스 통합노조 공식 출범…조합원 2400명 돌파 - 머니투데이 - 머니투데이",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -228,7 +218,7 @@
    "agents": []
   },
   {
-   "title": "[산업분석] 메모리 반도체, 삼성전자·SK하이닉스 HBM +65%…LTA는 방패인가 - 톱스타뉴스",
+   "title": "[산업분석] 메모리 반도체, 삼성전자·SK하이닉스 HBM +65%…LTA는 방패인가 - topstarnews.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -355,8 +345,8 @@
    ]
   },
   {
-   "title": "亞증시 혼조 속 중국 창신메모리 상장 첫날 470% 폭등[Asia오전] - 머니투데이 - 머니투데이",
-   "pub": "Mon, 27 Jul 2026",
+   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
+   "pub": "Sat, 01 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -364,12 +354,21 @@
    ]
   },
   {
-   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
-   "pub": "Sat, 01 Aug 2026",
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "C-CHINA"
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[0813마감체크] 코스피, 외국인·기관 순매수에 6800선 회복... 삼전닉스 급등 By 인포스탁데일리 - Investing.com 한국어",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
    ]
   },
   {
@@ -392,13 +391,6 @@
   },
   {
    "title": "[마감시황] 코스피, 외국인·기관 쌍끌이 삼전닉스 투자에 6800선 안착 - 뉴스핌",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "돌아온 외국인에 코스피 날았다…15거래일 만에 6800선 탈환 - 뉴스토마토",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -449,13 +441,6 @@
    ]
   },
   {
-   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -472,6 +457,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "개미들 이달 '코스피 베팅', 외국인과 정반대 흐름 - v.daum.net",
@@ -615,13 +607,6 @@
    "agents": []
   },
   {
-   "title": "Michael Burry Warns of a 1987-Style Crash. Here Are 2 Index ETFs to Buy Anyway.",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "What Is Micron Technology (MU) Up Against In The New AI Stock Race?",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
@@ -640,14 +625,25 @@
    ]
   },
   {
-   "title": "Q2 Earnings Scorecard: Record Margins, Strong Beats, and Upward Revisions",
+   "title": "Memory Stocks Rally Wednesday: SK Hynix, SanDisk, Micron All Jump. Here’s Why",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "Memory Stocks Rally Wednesday: SK Hynix, SanDisk, Micron All Jump. Here’s Why",
+   "title": "Samsung Sends Fresh Signal to Micron Investors",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why Micron Stock Is Surging Today",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
