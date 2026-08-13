@@ -1,18 +1,28 @@
 {
- "ts_kst": "08-13 12:39",
+ "ts_kst": "08-13 15:25",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
-   "price": 268000.0,
-   "chg_pct": 4.89,
-   "slot": "3",
-   "foreign_qty": 1763000.0,
-   "foreign_eok": 4724.8,
-   "inst_qty": -29000.0,
-   "inst_eok": -77.7,
-   "retail_qty": -1734000.0,
-   "retail_eok": -4647.1,
+   "price": 265000.0,
+   "chg_pct": 3.72,
+   "slot": "5",
+   "foreign_qty": 5396000.0,
+   "foreign_eok": 14299.4,
+   "inst_qty": -46000.0,
+   "inst_eok": -121.9,
+   "retail_qty": -5350000.0,
+   "retail_eok": -14177.5,
    "slots": [
+    {
+     "slot": "5",
+     "frgn": 5396000.0,
+     "orgn": -46000.0
+    },
+    {
+     "slot": "4",
+     "frgn": 3153000.0,
+     "orgn": 394000.0
+    },
     {
      "slot": "3",
      "frgn": 1763000.0,
@@ -32,16 +42,26 @@
   },
   "hynix": {
    "name": "SK하이닉스",
-   "price": 1616000.0,
-   "chg_pct": 7.45,
-   "slot": "3",
-   "foreign_qty": 561000.0,
-   "foreign_eok": 9065.8,
-   "inst_qty": 142000.0,
-   "inst_eok": 2294.7,
-   "retail_qty": -703000.0,
-   "retail_eok": -11360.5,
+   "price": 1587000.0,
+   "chg_pct": 5.52,
+   "slot": "5",
+   "foreign_qty": 613000.0,
+   "foreign_eok": 9728.3,
+   "inst_qty": 98000.0,
+   "inst_eok": 1555.3,
+   "retail_qty": -711000.0,
+   "retail_eok": -11283.6,
    "slots": [
+    {
+     "slot": "5",
+     "frgn": 613000.0,
+     "orgn": 98000.0
+    },
+    {
+     "slot": "4",
+     "frgn": 528000.0,
+     "orgn": 219000.0
+    },
     {
      "slot": "3",
      "frgn": 561000.0,
@@ -65,12 +85,12 @@
   {
    "stock": "삼성전자",
    "level": "high",
-   "text": "역할 전환 — 외국인 매수 +4,725억 / 개인 매도 -4,647억"
+   "text": "역할 전환 — 외국인 매수 +14,299억 / 개인 매도 -14,178억"
   },
   {
    "stock": "SK하이닉스",
    "level": "high",
-   "text": "역할 전환 — 외국인 매수 +9,066억 / 개인 매도 -11,360억"
+   "text": "역할 전환 — 외국인 매수 +9,728억 / 개인 매도 -11,284억"
   }
  ],
  "log": [
@@ -1226,6 +1246,11 @@
    "ts": "08-13 12:39",
    "samsung": 4724.8,
    "hynix": 9065.8
+  },
+  {
+   "ts": "08-13 15:25",
+   "samsung": 14299.4,
+   "hynix": 9728.3
   }
  ]
 }
