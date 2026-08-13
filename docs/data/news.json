@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-13 18:47",
+ "ts_kst": "08-13 18:57",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,13 +7,21 @@
  },
  "routed": {
   "P-ADR": 3,
-  "M-CYCLE": 12,
-  "C-CHINA": 10,
-  "F-ACTIVE": 5,
+  "M-CYCLE": 9,
+  "C-CHINA": 11,
+  "F-ACTIVE": 6,
   "R-LEVERAGE": 10
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 65,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "“10년간 일감 걱정 없다”… SK하이닉스 용인 클러스터 증설 현장 - 주간동아",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 채권 투자 돌연 변경…주주환원 앞두고 자금 운용 ‘주목’ - 조선비즈 - Chosunbiz",
@@ -23,7 +31,7 @@
    "agents": []
   },
   {
-   "title": "[뉴욕증시 마감] AI 투자 기대에 나스닥 0.54%↑…SK하이닉스 ADR 9% 급등 - v.daum.net",
+   "title": "SK하이닉스 ADR 이틀째 급등…싱가포르 국부펀드 투자 계획설 - 연합인포맥스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -32,7 +40,7 @@
    ]
   },
   {
-   "title": "SK하이닉스 ADR 이틀째 급등…싱가포르 국부펀드 투자 계획설 - 연합인포맥스",
+   "title": "[뉴욕증시 마감] AI 투자 기대에 나스닥 0.54%↑…SK하이닉스 ADR 9% 급등 - v.daum.net",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -57,21 +65,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ‘통합노조’ 곧 출범…‘성과급 100% 현금 지급’ 요구 - 경향신문",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 통합노조 출범 초읽기..삼성 초기업노조와 '공동성명' 검토 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 통합노조 공식 출범…TF \"정식 노조 승인됐다\" - v.daum.net",
+   "title": "[기획] 빅테크 ‘AI 거품’ 해소에… 랠리 훈풍 탄 삼전닉스 - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -99,27 +93,32 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 27일 인디애나팹 착공식…최태원·젠슨황 또 만날까 - 동아일보",
+   "title": "“10년간 일감 걱정 없다”… SK하이닉스 용인 클러스터 증설 현장 - 주간동아",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 ‘통합노조’ 곧 출범…‘성과급 100% 현금 지급’ 요구 - 경향신문",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 통합노조 출범 초읽기..삼성 초기업노조와 '공동성명' 검토 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 통합노조 공식 출범…TF \"정식 노조 승인됐다\" - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "SK하이닉스, 27일 인디애나 팹 착공식…최태원·젠슨 황 참석 가능성 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 27일 미국 인디애나주 HBM 패키징 공장 착공식 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "“HBM4 헐값이라더니”…美 IB가 본 SK하이닉스 가격은 달랐다 - 아이뉴스24",
@@ -129,6 +128,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "여주시·SK하이닉스, 취약계층 어르신 100명에 보행기 지원 - 인천일보",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
@@ -173,7 +179,7 @@
    "agents": []
   },
   {
-   "title": "AI 반도체 덮친 ‘금리 5% 공포’…삼성전자·SK하이닉스 새 복병 By EBN - Investing.com 한국어",
+   "title": "AI 반도체 덮친 ‘금리 5% 공포’…삼성전자·SK하이닉스 새 복병 By EBN - kr.investing.com",
    "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -413,14 +419,14 @@
    "agents": []
   },
   {
-   "title": "166조 팔던 외국인 수급 저점 통과 기대 ↑… 코스피 반등 열쇠 쥐나 - v.daum.net",
+   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
+   "title": "166조 팔던 외국인 수급 저점 통과 기대 ↑… 코스피 반등 열쇠 쥐나 - v.daum.net",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -443,15 +449,8 @@
    ]
   },
   {
-   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
+   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - kr.investing.com",
    "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "'돌아온 외국인·살아난 반도체'…코스피, 나흘연속 상승 6810선 마감 - 조세일보",
-   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -480,6 +479,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "코스피, 외국인 1.5조 순매도에 6300선 턱밑… 코스닥 7% 강세 - IT조선",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -607,6 +615,13 @@
    "agents": []
   },
   {
+   "title": "Michael Burry Warns of a 1987-Style Crash. Here Are 2 Index ETFs to Buy Anyway.",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "What Is Micron Technology (MU) Up Against In The New AI Stock Race?",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
@@ -625,25 +640,14 @@
    ]
   },
   {
+   "title": "Q2 Earnings Scorecard: Record Margins, Strong Beats, and Upward Revisions",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Memory Stocks Rally Wednesday: SK Hynix, SanDisk, Micron All Jump. Here’s Why",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Samsung Sends Fresh Signal to Micron Investors",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Micron Stock Is Surging Today",
    "pub": "Wed, 12 Aug 2026",
    "src": "en",
    "q": "MU",
