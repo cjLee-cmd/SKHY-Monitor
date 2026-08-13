@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-13 20:32",
+ "ts_kst": "08-13 20:42",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -8,17 +8,26 @@
  "routed": {
   "P-ADR": 2,
   "M-CYCLE": 9,
-  "C-CHINA": 11,
+  "C-CHINA": 10,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 64,
+ "unassigned": 65,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -26,7 +35,7 @@
  ],
  "items": [
   {
-   "title": "윤풍영 SK수펙스 사장, SK하이닉스 '글로벌 성장 TF장' 겸임 - 머니투데이 - 머니투데이",
+   "title": "윤풍영 SK수펙스 사장, SK하이닉스 '글로벌 성장 TF장' 겸임 - 머니투데이 - mt.co.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -40,7 +49,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 글로벌 성장TF장에 윤풍영 SK수펙스 사장 - yna.co.kr",
+   "title": "윤풍영 SK수펙스 사장, SK하이닉스 글로벌 성장 TF장 임명 - 전자신문",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -56,7 +65,14 @@
    ]
   },
   {
-   "title": "ADR 훈풍 타고 '160만닉스' 복귀…SK하이닉스 7%대 강세 - v.daum.net",
+   "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하닉 ADR 매집한 서학개미…증권가 \"프리미엄 과도, 격차 좁혀질 것\" - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -65,14 +81,7 @@
    ]
   },
   {
-   "title": "\"하이닉스 지금 줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+] - 한국경제",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 통합노조 공식 출범…설립 인가 완료 - yna.co.kr",
+   "title": "SK하이닉스 ‘통합노조’ 출범…성과급·임단협에 목소리 낸다 - 경기일보",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -86,7 +95,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ‘통합노조’ 출범…성과급·임단협에 목소리 낸다 - 경기일보",
+   "title": "SK하이닉스 통합노조 공식 출범…설립 인가 완료 - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -114,7 +123,7 @@
    "agents": []
   },
   {
-   "title": "\"솔리다임 상장, SK하이닉스 주주에 불리…주주환원 주목\"-토스 - 머니투데이 - 머니투데이",
+   "title": "\"솔리다임 상장, SK하이닉스 주주에 불리…주주환원 주목\"-토스 - 머니투데이 - mt.co.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -163,8 +172,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스·삼성전자 노조 손잡는다…반도체 '성과급 전선' 확대 - v.daum.net",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "대통령 '전격전' 주문에…삼성전자·SK하이닉스 지방 투자 빨라지나 - v.daum.net",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -191,8 +200,8 @@
    "agents": []
   },
   {
-   "title": "화웨이·SMIC 3나노 모바일CPU 상용화, 삼성전자 초격차 AI폰·1나노급 공정 서두른다 - 비즈니스포스트",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자 - 머니투데이 - mt.co.kr",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -212,7 +221,7 @@
    "agents": []
   },
   {
-   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - 서울신문",
+   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - seoul.co.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -262,6 +271,15 @@
   {
    "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - 한겨레",
    "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "상장으로 실탄 장전한 창신메모리…韓 반도체, 생존 전략 다시 짜야 [권상집의 논전(論戰)] - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -328,15 +346,6 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
@@ -364,7 +373,7 @@
    ]
   },
   {
-   "title": "7월 외국인 주식 순매도 207억달러… 코스피 하락하자 리밸런싱 완화 - 조선비즈 - Chosunbiz",
+   "title": "[0813마감체크] 코스피, 외국인·기관 순매수에 6800선 회복... 삼전닉스 급등 By 인포스탁데일리 - Investing.com 한국어",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -382,7 +391,16 @@
    ]
   },
   {
-   "title": "[마감시황] 코스피, 외국인·기관 쌍끌이 삼전닉스 투자에 6800선 안착 - 뉴스핌",
+   "title": "7월 외국인 주식 순매도 207억달러… 코스피 하락하자 리밸런싱 완화 - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "[마감시황] 코스피, 외국인·기관 쌍끌이 삼전닉스 투자에 6800선 안착 - newspim.com",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -403,13 +421,6 @@
    "agents": []
   },
   {
-   "title": "166조 팔던 외국인 수급 저점 통과 기대 ↑… 코스피 반등 열쇠 쥐나 - v.daum.net",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인 '사자' vs 개인 '팔자'에 코스피 6800선 줄다리기[장중시황] - 뉴스1",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -417,13 +428,11 @@
    "agents": []
   },
   {
-   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
+   "title": "166조 팔던 외국인 수급 저점 통과 기대 ↑… 코스피 반등 열쇠 쥐나 - v.daum.net",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "[食전食후] 코스피, 외국인·기관 사자에 장중 6900선 근접…코스닥 1%대 강세 - 아주경제",
@@ -442,7 +451,16 @@
    ]
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
+   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
    "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -458,7 +476,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - go.seoul.co.kr",
+   "title": "코스피, 외국인 1.5조 순매도에 6300선 턱밑… 코스닥 7% 강세 - IT조선",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -472,15 +490,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "코스피, 외국인 1.5조 순매도에 6300선 턱밑… 코스닥 7% 강세 - IT조선",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -519,8 +528,26 @@
    ]
   },
   {
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
    "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
+   "pub": "Wed, 22 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -576,15 +603,6 @@
    "agents": []
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "pub": "Thu, 04 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -592,20 +610,20 @@
    "agents": []
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
-   "pub": "Mon, 13 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
    "pub": "Mon, 08 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
+  },
+  {
+   "title": "Korea’s Stock Market Surges Another 3.5% Overnight. Intel, Coherent, and Micron Among Most Active Premarket Stocks in US Trading.",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "What Is Micron Technology (MU) Up Against In The New AI Stock Race?",
@@ -649,15 +667,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Korea’s Stock Market Surges Another 3.5% Overnight. Intel, Coherent, and Micron Among Most Active Premarket Stocks in US Trading.",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
