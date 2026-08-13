@@ -1,24 +1,24 @@
 {
- "ts_kst": "08-14 01:08",
+ "ts_kst": "08-14 01:18",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 9,
   "P-ADR": 3,
-  "C-CHINA": 10,
+  "C-CHINA": 11,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 61,
+ "unassigned": 62,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -125,7 +125,7 @@
    ]
   },
   {
-   "title": "SK하이닉스 통합노조 공식 출범… 과반 노조 목표 - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스 ‘통합노조’ 출범…성과급·임단협에 목소리 낸다 - 경기일보",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -409,14 +409,14 @@
    "agents": []
   },
   {
-   "title": "반도체가 끌어올린 코스피…외국인 2.4조 매수에 6800선 탈환 - 굿모닝경제",
+   "title": "외국인 '사자' vs 개인 '팔자'에 코스피 6800선 줄다리기[장중시황] - 뉴스1",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "외국인 '사자' vs 개인 '팔자'에 코스피 6800선 줄다리기[장중시황] - 뉴스1",
+   "title": "반도체가 끌어올린 코스피…외국인 2.4조 매수에 6800선 탈환 - 굿모닝경제",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -453,7 +453,7 @@
    ]
   },
   {
-   "title": "[마감시황] 코스피, 반도체 강세에 3.56% 급등…외국인 2조원 넘게 순매수 - 브릿지경제",
+   "title": "[마감시황] 코스피, 반도체 강세에 3.56% 급등…외국인 2조원 넘게 순매수 - viva100.com",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -525,7 +525,7 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
    "pub": "Wed, 22 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -566,6 +566,13 @@
    "agents": []
   },
   {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -573,13 +580,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
@@ -605,6 +605,13 @@
    "agents": []
   },
   {
+   "title": "Sandisk Unveils Multi-Year Financial Model and Growth Strategy, Memory Stocks Soar",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Stock Keeps Rallying. Watch Out for This New Memory-Chip Rival.",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
@@ -612,6 +619,29 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Déjà Vu. Why Intel Is Eyeing a Return to Memory.",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Can Micron's AI Memory Focus Help It Outpace SK Hynix and Sandisk?",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Wall Street Analysts Predict 70% Upside for This AI Memory Stock in 2027",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Micron Technology (MU): A Clear Beneficiary of the AI Infrastructure Buildout?",
@@ -623,43 +653,7 @@
    ]
   },
   {
-   "title": "Korea’s Stock Market Surges Another 3.5% Overnight. Intel, Coherent, and Micron Among Most Active Premarket Stocks in US Trading.",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "What Is Micron Technology (MU) Up Against In The New AI Stock Race?",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Wall Street Analysts Are Predicting a Huge Move for Micron by Mid-2027",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Memory Stocks Rally Wednesday: SK Hynix, SanDisk, Micron All Jump. Here’s Why",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Wall Street Analysts Predict 70% Upside for This AI Memory Stock in 2027",
+   "title": "Market Would Fall by 12,152 Points in a ‘Black Monday’ Style Crash. Big Short Investor Says It’s Possible.",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
