@@ -1,25 +1,27 @@
 {
- "ts_kst": "08-14 23:02",
+ "ts_kst": "08-14 23:12",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
+  "M-CYCLE": 11,
   "P-ADR": 3,
-  "M-CYCLE": 8,
   "C-CHINA": 9,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 10
  },
- "unassigned": 69,
+ "unassigned": 66,
  "alerts": [
   {
-   "level": "info",
-   "kw": "수주",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
-   "agents": []
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   }
  ],
  "items": [
@@ -52,18 +54,27 @@
    "agents": []
   },
   {
-   "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - 아이뉴스24",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - 연합인포맥스",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "\"이건 아닙니다 회장님\"…SK하이닉스 '5단 중복상장' 추진에 쏟아진 비판 - 아시아경제",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“HBM4 헐값이라더니”…美 IB가 본 SK하이닉스 가격은 달랐다 - v.daum.net",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "SK하이닉스 ADR 2% 상승…AI 낙관론 속 나흘째 질주하나 - 연합인포맥스",
@@ -93,6 +104,13 @@
    ]
   },
   {
+   "title": "SK하이닉스, 새 보따리 푼다…주주환원 추가 방안 이달 발표 - 뉴스1",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -116,22 +134,8 @@
    ]
   },
   {
-   "title": "SK하이닉스, 새 보따리 푼다…주주환원 추가 방안 이달 발표 - 뉴스1",
+   "title": "SK하이닉스 생산·사무직 통합노조도 출범... 노조 총 4개로 - 조선일보",
    "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "너도나도 사더니 SK하이닉스도 이제 '국민주'…1년 만에 68만→346만명 - 머니투데이 - 머니투데이",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 소액주주 346만명… 1년 새 278만명 증가 - 조선비즈 - Chosunbiz",
-   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -237,7 +241,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 공정에 AI 심는다…외부 전문가 수혈 속도 - 파이낸셜뉴스",
+   "title": "삼성전자, 반도체 경쟁력 강화 위해 AI 전문가 2명 영입 - 이투데이",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -292,15 +296,6 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "상장으로 실탄 장전한 창신메모리…韓 반도체, 생존 전략 다시 짜야 [권상집의 논전(論戰)] - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
   },
   {
    "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
@@ -362,6 +357,15 @@
    ]
   },
   {
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -394,15 +398,15 @@
    "agents": []
   },
   {
-   "title": "외국인 귀환에 코스피 7000 터치…5거래일 연속 상승 - 굿모닝경제",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "외국인 귀환에 코스피 7000 터치…5거래일 연속 상승 - 굿모닝경제",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -445,7 +449,7 @@
    ]
   },
   {
-   "title": "외국인 3조 순매수에 코스피 6900선 탈환…닷새째 상승 - 메트로신문",
+   "title": "외국인 3조 순매수에 코스피 6900선 탈환…닷새째 상승 - metroseoul.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -547,7 +551,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -611,6 +615,15 @@
    "agents": []
   },
   {
+   "title": "Micron: New Street upgrades to buy, says memory is no longer a cyclical story",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "S&P Steady After Record Close",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -637,15 +650,6 @@
   },
   {
    "title": "Micron Is Hot Again: Here’s Why The Rally Has Legs",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Not Micron, Not Sandisk. This Artificial Intelligence (AI) Memory Stock Could Be the Next Nvidia.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
