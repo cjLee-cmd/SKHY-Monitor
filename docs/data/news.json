@@ -1,13 +1,13 @@
 {
- "ts_kst": "08-15 08:40",
- "n_items": 104,
+ "ts_kst": "08-15 08:49",
+ "n_items": 102,
  "by_source": {
   "kr": 75,
-  "en": 29
+  "en": 27
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 11,
+  "M-CYCLE": 9,
   "C-CHINA": 9,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 10
@@ -16,20 +16,20 @@
  "alerts": [],
  "items": [
   {
-   "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 ADR 7.31% 급등… 미증시 일제 상승 마감 - v.daum.net",
+   "title": "[뉴욕증시 마감] 물가 안도에 S&P500 최고치…SK하이닉스 ADR 7% 급등 - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "P-ADR"
    ]
+  },
+  {
+   "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "“내년 물량 2배 달라, 전쟁 중”…‘반토막’ 났던 SK하이닉스 160만원 탈환 - v.daum.net",
@@ -109,14 +109,14 @@
    "agents": []
   },
   {
-   "title": "\"주가 겨우 살아났는데\"...SK하이닉스 '5단 중복상장' 논란, 개미들 '불안' - v.daum.net",
+   "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - inews24.com",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - inews24.com",
+   "title": "\"주가 겨우 살아났는데\"...SK하이닉스 '5단 중복상장' 논란, 개미들 '불안' - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -382,13 +382,6 @@
    ]
   },
   {
-   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피 장중 7천 돌파…외국인 3조 원 순매수 - KBS 뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -396,6 +389,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "외국인 다시 사들이지만...하루 만에 수조원 포지션 뒤집기 [증시는 왜] - 파이낸셜뉴스",
@@ -601,6 +601,13 @@
    "agents": []
   },
   {
+   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -619,7 +626,7 @@
    ]
   },
   {
-   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
+   "title": "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -628,18 +635,13 @@
    ]
   },
   {
-   "title": "Lam Research bets $3 billion on speed, not size",
+   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Soros Capital Loads Up On MU, AMAT, AMD And TSM In Massive Semiconductor Pivot",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
