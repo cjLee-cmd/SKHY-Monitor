@@ -1,8 +1,8 @@
 {
- "ts_kst": "08-14 21:51",
- "n_items": 104,
+ "ts_kst": "08-14 22:01",
+ "n_items": 103,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 29
  },
  "routed": {
@@ -11,26 +11,66 @@
   "F-ACTIVE": 4,
   "R-LEVERAGE": 10
  },
- "unassigned": 73,
- "alerts": [],
+ "unassigned": 72,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "SK하이닉스 직원, 상반기 평균급여 1억4400만원… 곽노정 261억원 - 조선비즈 - biz.chosun.com",
+   "title": "SK하이닉스 직원, 상반기 평균급여 1억4400만원… 곽노정 261억원 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - v.daum.net",
+   "title": "SK하이닉스, 상반기 직원 평균급여 1억4000만 원 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 직원들 상반기 평균 1억4000만원 벌었다 - 아시아경제",
+   "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "현금 88조인데 또 상장?…SK하이닉스, 솔리다임 '쪼개기' 논란 - v.daum.net",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - 아이뉴스24",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - news.einfomax.co.kr",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -43,7 +83,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…전체 13% 차지 - 서울경제",
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - KBS 뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -57,11 +97,13 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 美 매출 84.6조…엔비디아 추정 고객 17.6조 - v.daum.net",
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
@@ -78,6 +120,13 @@
    "agents": []
   },
   {
+   "title": "'반도체 투심' 회복에 SK하이닉스 장중 8% 급등‥\"안심은 이르다\" - v.daum.net",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "美 반도체주 훈풍에 'S7' 웃는다… SK하이닉스, 5%대↑ - 머니투데이 - 머니투데이",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -85,35 +134,7 @@
    "agents": []
   },
   {
-   "title": "외인 2조5000억원 쓸어담았다…삼성전자 2%·하이닉스 3% 상승 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "'국민주' SK하이닉스 소액주주 346만명…1년 만에 5배 증가 - 연합뉴스",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "너도나도 사더니 SK하이닉스도 이제 '국민주'…1년 만에 68만→346만명 - 머니투데이 - 머니투데이",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼전닉스 합쳐 1100만명…반도체株 '국민주' 됐다 - 전자신문",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 품다… 떴다방 등장한 ‘동일하이빌 파크밸리’[현장] - 동아일보",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -176,16 +197,7 @@
    "agents": []
   },
   {
-   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - 뉴스타파",
+   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - newstapa.org",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -222,7 +234,7 @@
    "agents": []
   },
   {
-   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - biz.chosun.com",
+   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -372,7 +384,7 @@
    ]
   },
   {
-   "title": "[마켓뷰] 코스피, 외국인 ‘폭풍 매수’에 7000선 턱밑 마감… 코스닥도 강보합 - 조선비즈 - biz.chosun.com",
+   "title": "[마켓뷰] 코스피, 외국인 ‘폭풍 매수’에 7000선 턱밑 마감… 코스닥도 강보합 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -462,14 +474,14 @@
    "agents": []
   },
   {
-   "title": "코스피 장중 ‘7000피’ 탈환…외국인 3조원 쓸어담았다 - kbmaeil.com",
+   "title": "코스피 장중 ‘7000피’ 탈환…외국인 3조원 쓸어담았다 - 경북매일",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -530,7 +542,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -629,6 +641,13 @@
   },
   {
    "title": "Latest News In AI Chips - Cerebras Expands Amidst Rising Demand For AI Innovation",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Sandisk, Reddit, Applied Materials, and More Stocks That Explain Today’s Market",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
