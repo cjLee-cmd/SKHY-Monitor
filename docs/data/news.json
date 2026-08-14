@@ -1,23 +1,23 @@
 {
- "ts_kst": "08-14 22:01",
+ "ts_kst": "08-14 22:02",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 8,
+  "M-CYCLE": 7,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 10
  },
- "unassigned": 72,
+ "unassigned": 73,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -26,7 +26,16 @@
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - newsquest.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -55,8 +64,15 @@
    "agents": []
   },
   {
-   "title": "현금 88조인데 또 상장?…SK하이닉스, 솔리다임 '쪼개기' 논란 - v.daum.net",
+   "title": "\"주가 겨우 살아났는데\"...SK하이닉스 '5단 중복상장' 논란, 개미들 '불안' - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - 연합인포맥스",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -69,8 +85,8 @@
    "agents": []
   },
   {
-   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - news.einfomax.co.kr",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "\"남은 현금 몽땅 주주에게\"…샌디스크 파격에 SK하닉 개미 '울분' - 한국경제",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -106,13 +122,6 @@
    ]
   },
   {
-   "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "코스피, 2%대 상승 출발하며 개장 직후 7천 회복‥SK하이닉스 5% 급등 - MBC 뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -120,14 +129,14 @@
    "agents": []
   },
   {
-   "title": "'반도체 투심' 회복에 SK하이닉스 장중 8% 급등‥\"안심은 이르다\" - v.daum.net",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "美 반도체주 훈풍에 'S7' 웃는다… SK하이닉스, 5%대↑ - 머니투데이 - 머니투데이",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "美 반도체주 훈풍에 'S7' 웃는다… SK하이닉스, 5%대↑ - 머니투데이 - 머니투데이",
+   "title": "외인 2조5000억원 쓸어담았다…삼성전자 2%·하이닉스 3% 상승 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -148,8 +157,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체, 딥러닝·비전 AI 전문가 영입해 AX 가속화 - 연합뉴스",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -170,6 +179,13 @@
   },
   {
    "title": "삼성전자, 상반기 R&D·시설투자 55조…메모리 가격은 3배로 - 조선일보",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 반도체, 딥러닝·비전 AI 전문가 영입해 AX 가속화 - 연합뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -197,14 +213,14 @@
    "agents": []
   },
   {
-   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - newstapa.org",
+   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - 뉴스타파",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "미국發 반도체 랠리에…삼성그룹 시총 2000조 탈환 [코주부] - 서울경제",
+   "title": "미국發 반도체 랠리에…삼성그룹 시총 2000조 탈환 [코주부] - sedaily.com",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -227,21 +243,14 @@
    "agents": []
   },
   {
-   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
+   "title": "삼성전자 반도체, 딥러닝·비전 AI 전문가 영입해 AX 가속화 - 서울신문",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "\"반도체 호황\"…창신메모리, 텐센트 제치고 중국 최대 상장기업 - news.einfomax.co.kr",
+   "title": "\"반도체 호황\"…창신메모리, 텐센트 제치고 중국 최대 상장기업 - 연합인포맥스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -289,15 +298,6 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "상장으로 실탄 장전한 창신메모리…韓 반도체, 생존 전략 다시 짜야 [권상집의 논전(論戰)] - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
   },
   {
    "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
@@ -359,6 +359,15 @@
    ]
   },
   {
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -398,7 +407,7 @@
    "agents": []
   },
   {
-   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - news.einfomax.co.kr",
+   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -412,7 +421,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 5거래일 연속 상승…외국인 4거래일 연속 '사자' [종합] - etoday.co.kr",
+   "title": "코스피, 5거래일 연속 상승…외국인 4거래일 연속 '사자' [종합] - 이투데이",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -453,7 +462,7 @@
    ]
   },
   {
-   "title": "돌아온 외국인, 4거래일 연속 ‘사자’…장중 7000선 터치 - 서울경제",
+   "title": "돌아온 외국인, 4거래일 연속 ‘사자’…장중 7000선 터치 - sedaily.com",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -481,7 +490,7 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -517,7 +526,7 @@
    ]
   },
   {
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - newsquest.co.kr",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -542,7 +551,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -590,7 +599,7 @@
    "agents": []
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
    "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -606,13 +615,27 @@
    "agents": []
   },
   {
-   "title": "The next AI winners may look nothing like Nvidia or Micron: One Big Investment Idea",
+   "title": "Could Intel return to the red-hot memory market after $20B raise and recent hire?",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "A $250 Million Reason Why Micron Stock Is in Focus",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Dow Jones Futures: Sandisk, Memory Stocks Extend Gains; Applied Materials Tumbles",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Micron Is Hot Again: Here’s Why The Rally Has Legs",
@@ -624,22 +647,6 @@
    ]
   },
   {
-   "title": "Not Micron, Not Sandisk. This Artificial Intelligence (AI) Memory Stock Could Be the Next Nvidia.",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "U.S. Futures Steady After Closing Higher",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Latest News In AI Chips - Cerebras Expands Amidst Rising Demand For AI Innovation",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -647,11 +654,13 @@
    "agents": []
   },
   {
-   "title": "Sandisk, Reddit, Applied Materials, and More Stocks That Explain Today’s Market",
+   "title": "Not Micron, Not Sandisk. This Artificial Intelligence (AI) Memory Stock Could Be the Next Nvidia.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
