@@ -1,23 +1,23 @@
 {
- "ts_kst": "08-15 04:32",
+ "ts_kst": "08-15 04:41",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 8,
   "C-CHINA": 9,
-  "F-ACTIVE": 5,
-  "R-LEVERAGE": 10
+  "F-ACTIVE": 4,
+  "R-LEVERAGE": 11
  },
- "unassigned": 67,
+ "unassigned": 70,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -211,7 +211,7 @@
    ]
   },
   {
-   "title": "삼성전자, 美 테일러로 파운드리 승부수…인텔과 맞불 - inews24.com",
+   "title": "삼성전자, 美 테일러로 파운드리 승부수…인텔과 맞불 - 아이뉴스24",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -398,7 +398,7 @@
    "agents": []
   },
   {
-   "title": "“외국인이 돌아왔다?”…코스피, 기다리던 7000선 터치 - magazine.hankyung.com",
+   "title": "“외국인이 돌아왔다?”…코스피, 기다리던 7000선 터치 - 한경매거진&북",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -442,6 +442,13 @@
    "agents": []
   },
   {
+   "title": "코스피, 5거래일 연속 상승…외국인 4거래일 연속 '사자' [종합] - 이투데이",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "'ETF 투자' 개인은 코스피 상승, 외국인은 하락에 베팅했다 - TBS 서울",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -451,15 +458,6 @@
   {
    "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
    "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
-   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -560,6 +558,15 @@
    "agents": []
   },
   {
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -592,13 +599,6 @@
    ]
   },
   {
-   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
-   "pub": "Mon, 08 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -615,6 +615,13 @@
    "agents": []
   },
   {
+   "title": "SanDisk Has Delivered A Return The Index Cannot, And The Swings That Come With It",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Soros Capital Loads Up On MU, AMAT, AMD And TSM In Massive Semiconductor Pivot",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -622,25 +629,14 @@
    "agents": []
   },
   {
+   "title": "1 Semiconductor Stock on Our Buy List and 2 We Brush Off",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Renaissance Nearly Triples Nvidia Stake, Slashes Micron",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
