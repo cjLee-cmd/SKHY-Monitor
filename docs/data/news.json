@@ -1,28 +1,18 @@
 {
- "ts_kst": "08-15 07:41",
+ "ts_kst": "08-15 07:50",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 11,
   "C-CHINA": 9,
   "F-ACTIVE": 5,
-  "R-LEVERAGE": 11
+  "R-LEVERAGE": 10
  },
- "unassigned": 69,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 68,
+ "alerts": [],
  "items": [
   {
    "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
@@ -53,8 +43,22 @@
    "agents": []
   },
   {
-   "title": "8월 들어 '삼전하닉' 목표가 또 낮춘 증권사…\"2027년은 하락\" - v.daum.net",
+   "title": "8월 들어 '삼전하닉' 목표가 또 낮춘 증권사…\"2027년은 하락\" - fnnews.com",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“2027년 PER 3배 저평가”…K-반도체, ‘1000조 실적 호황’ 속 재평가 속도 - v.daum.net",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, \"극도로 저평가\" 상태—애널리스트 - Investing.com 한국어",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -81,8 +85,8 @@
    "agents": []
   },
   {
-   "title": "현금 88조인데 또 상장?…SK하이닉스, 솔리다임 '쪼개기' 논란 - news.tf.co.kr",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "솔리다임 나스닥 상장 추진 검토에…SK하이닉스 주가에 악재? - 매일경제 마켓",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -111,20 +115,6 @@
   {
    "title": "'메모리 투톱' 삼성·SK하이닉스 소액주주 1143만명…반년 새 604만명↑ - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 통합노조 출범…\"조합원 1만8000명 확보 목표\" - 지디넷코리아",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 생산·사무직 통합노조도 출범... 노조 총 4개로 - chosun.com",
-   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -225,8 +215,8 @@
    "agents": []
   },
   {
-   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - 서울신문",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -412,6 +402,13 @@
    "agents": []
   },
   {
+   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 외국인 3조원대 순매수에 2%대 상승···'7천피' 턱밑 마감 - 서울파이낸스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -419,13 +416,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "외국인 귀환에 코스피 7000 터치…5거래일 연속 상승 - 굿모닝경제",
@@ -449,13 +439,6 @@
    "agents": []
   },
   {
-   "title": "“외국인 3조원 넘게 사들였다”…코스피 장중 7000 돌파, 6977 마감 - 디지털데일리",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -465,6 +448,13 @@
    ]
   },
   {
+   "title": "“외국인 3조원 넘게 사들였다”…코스피 장중 7000 돌파, 6977 마감 - 디지털데일리",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 5거래일 연속 상승…외국인 4거래일 연속 '사자' [종합] - etoday.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -472,8 +462,8 @@
    "agents": []
   },
   {
-   "title": "외국인·기관 순매수에 코스피 3.56%↑, 모건스탠리가 찍은 삼성전기 12.58% 올라 - 이코노미스트",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -567,15 +557,6 @@
    "agents": []
   },
   {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -608,10 +589,10 @@
    ]
   },
   {
-   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
+   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
+   "pub": "Mon, 08 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
    "agents": []
   },
   {
@@ -633,7 +614,7 @@
    ]
   },
   {
-   "title": "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
+   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -642,13 +623,18 @@
    ]
   },
   {
-   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
+   "title": "Lam Research bets $3 billion on speed, not size",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
+  },
+  {
+   "title": "Soros Capital Loads Up On MU, AMAT, AMD And TSM In Massive Semiconductor Pivot",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
