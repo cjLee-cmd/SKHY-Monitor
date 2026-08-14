@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-14 09:09",
+ "ts_kst": "08-14 09:18",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -17,37 +17,37 @@
    },
    "brokers": {
     "sell": {
-     "total": 1069122.0,
-     "foreign": 275092.0,
-     "foreign_pct": 25.7,
+     "total": 1556874.0,
+     "foreign": 383898.0,
+     "foreign_pct": 24.7,
      "houses": [
       {
        "name": "JP모간",
-       "qty": 275092.0
+       "qty": 383898.0
       }
      ]
     },
     "buy": {
-     "total": 1025748.0,
-     "foreign": 618637.0,
-     "foreign_pct": 60.3,
+     "total": 1537267.0,
+     "foreign": 884318.0,
+     "foreign_pct": 57.5,
      "houses": [
       {
        "name": "골드만",
-       "qty": 244207.0
-      },
-      {
-       "name": "메릴린치",
-       "qty": 195037.0
+       "qty": 326237.0
       },
       {
        "name": "모간서울",
-       "qty": 179393.0
+       "qty": 310072.0
+      },
+      {
+       "name": "메릴린치",
+       "qty": 248009.0
       }
      ]
     },
-    "net_foreign_qty": 343545.0,
-    "foreign_share_pct": 42.7
+    "net_foreign_qty": 500420.0,
+    "foreign_share_pct": 41.0
    }
   },
   "hynix": {
@@ -66,36 +66,32 @@
    },
    "brokers": {
     "sell": {
-     "total": 239394.0,
+     "total": 358536.0,
      "foreign": 0.0,
      "foreign_pct": 0.0,
      "houses": []
     },
     "buy": {
-     "total": 256072.0,
-     "foreign": 188036.0,
-     "foreign_pct": 73.4,
+     "total": 361549.0,
+     "foreign": 197396.0,
+     "foreign_pct": 54.6,
      "houses": [
       {
-       "name": "맥쿼리",
-       "qty": 60641.0
-      },
-      {
        "name": "골드만",
-       "qty": 57222.0
+       "qty": 80737.0
       },
       {
-       "name": "JP모간",
-       "qty": 39763.0
+       "name": "맥쿼리",
+       "qty": 61466.0
       },
       {
-       "name": "UBS",
-       "qty": 30410.0
+       "name": "모간서울",
+       "qty": 55193.0
       }
      ]
     },
-    "net_foreign_qty": 188036.0,
-    "foreign_share_pct": 38.0
+    "net_foreign_qty": 197396.0,
+    "foreign_share_pct": 27.4
    }
   }
  },
