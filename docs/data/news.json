@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-14 22:22",
+ "ts_kst": "08-14 22:32",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -7,13 +7,21 @@
  },
  "routed": {
   "P-ADR": 3,
-  "M-CYCLE": 9,
+  "M-CYCLE": 8,
   "C-CHINA": 9,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 10
  },
- "unassigned": 67,
- "alerts": [],
+ "unassigned": 68,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
@@ -85,7 +93,7 @@
    ]
   },
   {
-   "title": "SK하이닉스, 새 보따리 푼다…주주환원 추가 방안 이달 발표 - 뉴스1",
+   "title": "SK하이닉스, 새 보따리 푼다…주주환원 추가 방안 이달 발표 - news1.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -136,8 +144,8 @@
    "agents": []
   },
   {
-   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "삼성전자 반도체, 딥러닝·비전 AI 전문가 영입해 AX 가속화 - 연합뉴스",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -158,13 +166,6 @@
   },
   {
    "title": "삼성전자, 상반기 R&D·시설투자 55조…메모리 가격은 3배로 - 조선일보",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 반도체, 딥러닝·비전 AI 전문가 영입해 AX 가속화 - 연합뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -222,8 +223,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체, 딥러닝·비전 AI 전문가 영입해 AX 가속화 - 서울신문",
+   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -277,15 +285,6 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "상장으로 실탄 장전한 창신메모리…韓 반도체, 생존 전략 다시 짜야 [권상집의 논전(論戰)] - v.daum.net",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
   },
   {
    "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
@@ -347,6 +346,15 @@
    ]
   },
   {
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -380,6 +388,13 @@
   },
   {
    "title": "외국인 귀환에 코스피 7000 터치…5거래일 연속 상승 - 굿모닝경제",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피 장중 ‘7000피’ 탈환…외국인 3조원 쓸어담았다 - 경북매일",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -450,13 +465,6 @@
   {
    "title": "'ETF 투자' 개인은 코스피 상승, 외국인은 하락에 베팅했다 - TBS 서울",
    "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피 장중 ‘7000피’ 탈환…외국인 3조원 쓸어담았다 - 경북매일",
-   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -596,15 +604,6 @@
    "agents": []
   },
   {
-   "title": "The next AI winners may look nothing like Nvidia or Micron: One Big Investment Idea",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "Sandisk Jumps 7%, Western Digital Gains 4%, Micron Climbs 3% as the Kospi Returns to a Bull Market",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -642,6 +641,13 @@
   },
   {
    "title": "U.S. Futures Steady After Closing Higher",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "SanDisk Rally Continues on Friday with Shares up 7%. Here’s What Wall Street Is Saying About the Stock.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
