@@ -1,23 +1,23 @@
 {
- "ts_kst": "08-14 22:02",
+ "ts_kst": "08-14 22:12",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 7,
+  "M-CYCLE": 8,
   "C-CHINA": 9,
-  "F-ACTIVE": 4,
+  "F-ACTIVE": 5,
   "R-LEVERAGE": 10
  },
- "unassigned": 73,
+ "unassigned": 71,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -26,22 +26,20 @@
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - newsquest.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
    "agents": [
     "R-LEVERAGE"
    ]
   }
  ],
  "items": [
+  {
+   "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "SK하이닉스 직원, 상반기 평균급여 1억4400만원… 곽노정 261억원 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 14 Aug 2026",
@@ -50,14 +48,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 직원 평균급여 1억4000만 원 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
+   "title": "SK하이닉스 직원들 상반기 평균 1억4000만원 벌었다 - 아시아경제",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -71,15 +62,15 @@
    "agents": []
   },
   {
-   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - 연합인포맥스",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - 아이뉴스24",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - 아이뉴스24",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - 연합인포맥스",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -199,14 +190,14 @@
    "agents": []
   },
   {
-   "title": "반도체株 주도권, SK하이닉스서 삼성전자로 이동할까 - 스트레이트뉴스",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "[ET특징주] 삼성전자·SK하이닉스 강세… 美 반도체 훈풍·주주환원 기대감 - 전자신문",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "SK하이닉스 346만·삼성전자 797만…반도체株 '국민주' 됐다 - 데일리안",
+   "title": "반도체株 주도권, SK하이닉스서 삼성전자로 이동할까 - 스트레이트뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -300,6 +291,15 @@
    "agents": []
   },
   {
+   "title": "상장으로 실탄 장전한 창신메모리…韓 반도체, 생존 전략 다시 짜야 [권상집의 논전(論戰)] - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -356,15 +356,6 @@
    "q": "메모리 반도체 중국",
    "agents": [
     "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
    ]
   },
   {
@@ -476,13 +467,6 @@
    "agents": []
   },
   {
-   "title": "외국인 4거래일 연속 '사자'…코스피 6900선 후반 마감 [MTN 마감시황] - MTN 머니투데이방송",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피 장중 ‘7000피’ 탈환…외국인 3조원 쓸어담았다 - 경북매일",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -490,7 +474,16 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -526,7 +519,7 @@
    ]
   },
   {
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - newsquest.co.kr",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -615,7 +608,23 @@
    "agents": []
   },
   {
+   "title": "Sandisk Jumps 7%, Western Digital Gains 4%, Micron Climbs 3% as the Kospi Returns to a Bull Market",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Could Intel return to the red-hot memory market after $20B raise and recent hire?",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "SanDisk Rally Continues on Friday with Shares up 7%. Here’s What Wall Street Is Saying About the Stock.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -639,22 +648,6 @@
   },
   {
    "title": "Micron Is Hot Again: Here’s Why The Rally Has Legs",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Latest News In AI Chips - Cerebras Expands Amidst Rising Demand For AI Innovation",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Not Micron, Not Sandisk. This Artificial Intelligence (AI) Memory Stock Could Be the Next Nvidia.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
