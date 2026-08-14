@@ -1,37 +1,19 @@
 {
- "ts_kst": "08-14 22:12",
+ "ts_kst": "08-14 22:22",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 8,
+  "P-ADR": 3,
+  "M-CYCLE": 9,
   "C-CHINA": 9,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 10
  },
- "unassigned": 71,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
   {
    "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
@@ -76,15 +58,49 @@
    "agents": []
   },
   {
-   "title": "\"남은 현금 몽땅 주주에게\"…샌디스크 파격에 SK하닉 개미 '울분' - 한국경제",
+   "title": "SK하이닉스 ADR 2% 상승…AI 낙관론 속 나흘째 질주하나 - 연합인포맥스",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "SK하이닉스 ADR 7.31% 급등… 미증시 일제 상승 마감 - v.daum.net",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "SK하이닉스 ADR이 불붙인 달러 매도…달러 약세 어디까지 - 매일경제",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 새 보따리 푼다…주주환원 추가 방안 이달 발표 - 뉴스1",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 새 보따리 푼다…주주환원 추가 방안 이달 발표 - 뉴스1",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "삼성·SK하이닉스, 이르면 이달 주주환원 공개…'100조원+α' 기대감 - 연합인포맥스",
+   "pub": "Tue, 11 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"남은 현금 몽땅 주주에게\"…샌디스크 파격에 SK하닉 개미 '울분' - 한국경제",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -111,34 +127,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "코스피, 2%대 상승 출발하며 개장 직후 7천 회복‥SK하이닉스 5% 급등 - MBC 뉴스",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "美 반도체주 훈풍에 'S7' 웃는다… SK하이닉스, 5%대↑ - 머니투데이 - 머니투데이",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "외인 2조5000억원 쓸어담았다…삼성전자 2%·하이닉스 3% 상승 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'국민주' SK하이닉스 소액주주 346만명…1년 만에 5배 증가 - 연합뉴스",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "삼성전자, 기흥 신규 R&D팹 '파운드리' 활용 추진…엔비디아 수요 선제 대응 - 지디넷코리아",
@@ -435,8 +423,8 @@
    ]
   },
   {
-   "title": "외국인 3조 순매수에 코스피 6900선 탈환…닷새째 상승 - 메트로신문",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "[0813마감체크] 코스피, 외국인·기관 순매수에 6800선 회복... 삼전닉스 급등 - 인포스탁데일리",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -444,8 +432,8 @@
    ]
   },
   {
-   "title": "[0813마감체크] 코스피, 외국인·기관 순매수에 6800선 회복... 삼전닉스 급등 - 인포스탁데일리",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "외국인 3조 순매수에 코스피 6900선 탈환…닷새째 상승 - 메트로신문",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -608,7 +596,7 @@
    "agents": []
   },
   {
-   "title": "Sandisk Jumps 7%, Western Digital Gains 4%, Micron Climbs 3% as the Kospi Returns to a Bull Market",
+   "title": "The next AI winners may look nothing like Nvidia or Micron: One Big Investment Idea",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -617,18 +605,13 @@
    ]
   },
   {
-   "title": "Could Intel return to the red-hot memory market after $20B raise and recent hire?",
+   "title": "Sandisk Jumps 7%, Western Digital Gains 4%, Micron Climbs 3% as the Kospi Returns to a Bull Market",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SanDisk Rally Continues on Friday with Shares up 7%. Here’s What Wall Street Is Saying About the Stock.",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "A $250 Million Reason Why Micron Stock Is in Focus",
@@ -640,13 +623,6 @@
    ]
   },
   {
-   "title": "Dow Jones Futures: Sandisk, Memory Stocks Extend Gains; Applied Materials Tumbles",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Is Hot Again: Here’s Why The Rally Has Legs",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -654,6 +630,22 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Not Micron, Not Sandisk. This Artificial Intelligence (AI) Memory Stock Could Be the Next Nvidia.",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "U.S. Futures Steady After Closing Higher",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
