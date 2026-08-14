@@ -1,20 +1,36 @@
 {
- "ts_kst": "08-15 07:31",
+ "ts_kst": "08-15 07:41",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "P-ADR": 1,
-  "M-CYCLE": 11,
+  "M-CYCLE": 9,
   "C-CHINA": 9,
-  "F-ACTIVE": 6,
-  "R-LEVERAGE": 10
+  "F-ACTIVE": 5,
+  "R-LEVERAGE": 11
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 69,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
+  {
+   "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
    "pub": "Fri, 14 Aug 2026",
@@ -31,29 +47,6 @@
   },
   {
    "title": "SK하이닉스 상반기 직원 평균급여 1억 4,400만원 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 ADR 사흘째 상승…유가 하락 속 美 도매물가 안도 - 연합인포맥스",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "[특징주] SK하이닉스 6%↑…美 메모리주 급등에 동반 강세 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -88,14 +81,14 @@
    "agents": []
   },
   {
-   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - 연합인포맥스",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "현금 88조인데 또 상장?…SK하이닉스, 솔리다임 '쪼개기' 논란 - news.tf.co.kr",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "솔리다임 나스닥 상장 추진 검토에…SK하이닉스 주가에 악재? - 매일경제 마켓",
+   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - news.einfomax.co.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -118,6 +111,20 @@
   {
    "title": "'메모리 투톱' 삼성·SK하이닉스 소액주주 1143만명…반년 새 604만명↑ - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 통합노조 출범…\"조합원 1만8000명 확보 목표\" - 지디넷코리아",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 생산·사무직 통합노조도 출범... 노조 총 4개로 - chosun.com",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -158,7 +165,7 @@
    "agents": []
   },
   {
-   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - businesspost.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -181,7 +188,7 @@
    "agents": []
   },
   {
-   "title": "하나증권 \"AI 인프라 확장에 메모리반도체 수요 지속, 삼성전자 SK하이닉스 주식 투심 개선 전망\" - 비즈니스포스트",
+   "title": "하나증권 \"AI 인프라 확장에 메모리반도체 수요 지속, 삼성전자 SK하이닉스 주식 투심 개선 전망\" - businesspost.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -232,7 +239,7 @@
    "agents": []
   },
   {
-   "title": "\"반도체 호황\"…창신메모리, 텐센트 제치고 중국 최대 상장기업 - 연합인포맥스",
+   "title": "\"반도체 호황\"…창신메모리, 텐센트 제치고 중국 최대 상장기업 - news.einfomax.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -241,7 +248,7 @@
    ]
   },
   {
-   "title": "레노버 2분기 매출 급증 비결로 '중국 메모리' 꼽아, 삼성전자 SK하이닉스 마이크론 의존 낮출 움직임 주목 - 비즈니스포스트",
+   "title": "레노버 2분기 매출 급증 비결로 '중국 메모리' 꼽아, 삼성전자 SK하이닉스 마이크론 의존 낮출 움직임 주목 - businesspost.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -350,7 +357,7 @@
    ]
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - businesspost.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -359,14 +366,14 @@
    ]
   },
   {
-   "title": "외국인 3조원 '폭풍 매수'…코스피 7천선 목전 - v.daum.net",
+   "title": "[마켓뷰] 코스피, 외국인 ‘폭풍 매수’에 7000선 턱밑 마감… 코스닥도 강보합 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[마켓뷰] 코스피, 외국인 ‘폭풍 매수’에 7000선 턱밑 마감… 코스닥도 강보합 - 조선비즈 - Chosunbiz",
+   "title": "외국인 3조원 '폭풍 매수'…코스피 7천선 목전 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -382,13 +389,6 @@
    ]
   },
   {
-   "title": "외국인 다시 사들이지만...하루 만에 수조원 포지션 뒤집기 [증시는 왜] - fnnews.com",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피 장중 7천 돌파…외국인 3조 원 순매수 - KBS 뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -398,37 +398,14 @@
    ]
   },
   {
-   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
+   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - news.einfomax.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "“외국인 3조원 넘게 사들였다”…코스피 장중 7000 돌파, 6977 마감 - 디지털데일리",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피 장중 ‘7000피’ 탈환…외국인 3조원 쓸어담았다 - 경북매일",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피, 5거래일 연속 상승…외국인 4거래일 연속 '사자' [종합] - 이투데이",
+   "title": "외국인 다시 사들이지만...하루 만에 수조원 포지션 뒤집기 [증시는 왜] - fnnews.com",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -444,17 +421,8 @@
    ]
   },
   {
-   "title": "외국인·기관 순매수에 코스피 3.56%↑, 모건스탠리가 찍은 삼성전기 12.58% 올라 - 이코노미스트",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "이달 초순 개인은 코스피 상승, 외국인은 하락에 베팅했다 - 매일경제 마켓",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -467,7 +435,44 @@
    "agents": []
   },
   {
-   "title": "7월 외국인 주식 순매도 207억달러… 코스피 하락하자 리밸런싱 완화 - 조선비즈 - Chosunbiz",
+   "title": "'ETF 투자' 개인은 코스피 상승, 외국인은 하락에 베팅했다 - TBS 서울",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피 장중 ‘7000피’ 탈환…외국인 3조원 쓸어담았다 - 경북매일",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "“외국인 3조원 넘게 사들였다”…코스피 장중 7000 돌파, 6977 마감 - 디지털데일리",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "코스피, 5거래일 연속 상승…외국인 4거래일 연속 '사자' [종합] - etoday.co.kr",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "외국인·기관 순매수에 코스피 3.56%↑, 모건스탠리가 찍은 삼성전기 12.58% 올라 - 이코노미스트",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -562,6 +567,15 @@
    "agents": []
   },
   {
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -585,7 +599,7 @@
    "agents": []
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
    "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -594,10 +608,10 @@
    ]
   },
   {
-   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
-   "pub": "Mon, 08 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": []
   },
   {
@@ -619,7 +633,7 @@
    ]
   },
   {
-   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
+   "title": "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -628,18 +642,13 @@
    ]
   },
   {
-   "title": "Lam Research bets $3 billion on speed, not size",
+   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Soros Capital Loads Up On MU, AMAT, AMD And TSM In Massive Semiconductor Pivot",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
