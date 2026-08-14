@@ -1,18 +1,37 @@
 {
- "ts_kst": "08-15 02:30",
- "n_items": 103,
+ "ts_kst": "08-15 02:40",
+ "n_items": 102,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 10,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
-  "R-LEVERAGE": 10
+  "R-LEVERAGE": 11
  },
- "unassigned": 67,
- "alerts": [],
+ "unassigned": 68,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
@@ -57,6 +76,27 @@
    "agents": []
   },
   {
+   "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - v.daum.net",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "현금 88조인데 또 상장?…SK하이닉스, 솔리다임 '쪼개기' 논란 - 더팩트",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - 연합인포맥스",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -87,35 +127,14 @@
    "agents": []
   },
   {
-   "title": "美 반도체주 훈풍에 'S7' 웃는다… SK하이닉스, 5%대↑ - 머니투데이 - 머니투데이",
+   "title": "반도체株 주도권, SK하이닉스서 삼성전자로 이동할까 - 스트레이트뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "외인 2조5000억원 쓸어담았다…삼성전자 2%·하이닉스 3% 상승 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "하루 1조씩 사더니…채권투자 중단한 SK하이닉스, 왜? - 마켓인",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 생산·사무직 통합노조도 출범... 노조 총 4개로 - 조선일보",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 통합노조 출범…\"조합원 1만8000명 확보 목표\" - 지디넷코리아",
+   "title": "'반도체 투심' 회복에 SK하이닉스 장중 8% 급등‥\"안심은 이르다\" - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -164,13 +183,6 @@
    "agents": []
   },
   {
-   "title": "반도체株 주도권, SK하이닉스서 삼성전자로 이동할까 - 스트레이트뉴스",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "하나증권 \"AI 인프라 확장에 메모리반도체 수요 지속, 삼성전자 SK하이닉스 주식 투심 개선 전망\" - 비즈니스포스트",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -178,15 +190,15 @@
    "agents": []
   },
   {
-   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - newstapa.org",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "미국發 반도체 랠리에…삼성그룹 시총 2000조 탈환 [코주부] - 서울경제",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "미국發 반도체 랠리에…삼성그룹 시총 2000조 탈환 [코주부] - 서울경제",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - newstapa.org",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -404,7 +416,7 @@
    ]
   },
   {
-   "title": "코스피 장중 ‘7000피’ 탈환…외국인 3조원 쓸어담았다 - kbmaeil.com",
+   "title": "코스피 장중 ‘7000피’ 탈환…외국인 3조원 쓸어담았다 - 경북매일",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -523,7 +535,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -546,6 +558,15 @@
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
+  },
+  {
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
@@ -580,13 +601,6 @@
    ]
   },
   {
-   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
-   "pub": "Mon, 08 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "Renaissance Nearly Triples Nvidia Stake, Slashes Micron",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -603,6 +617,22 @@
    "agents": []
   },
   {
+   "title": "Stock Market Midday, Aug. 14: Stocks Wobble on Falling Consumer Confidence, Reddit Jumps 14%",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Upgraded to Buy on the Claim Memory Stopped Being Cyclical",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -612,25 +642,14 @@
    ]
   },
   {
+   "title": "AI Memory Boom Is Causing ‘Chipflation’ — And Your Next iPhone Could Cost More",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Is Micron or Sandisk Better Poised For Upside Through The End of September?",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Michael Burry Ramped Up His Bets Against Micron and the QQQ ETF. Is the ‘Big Short’ Investor Asking for Trouble?",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron’s Market Cap Could Soar Up To $3 Trillion By 2030 As AI Supercharges Memory Demand, Says New Street",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
