@@ -1,8 +1,8 @@
 {
- "ts_kst": "08-14 21:12",
- "n_items": 104,
+ "ts_kst": "08-14 21:22",
+ "n_items": 103,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 29
  },
  "routed": {
@@ -11,11 +11,28 @@
   "F-ACTIVE": 4,
   "R-LEVERAGE": 11
  },
- "unassigned": 72,
- "alerts": [],
+ "unassigned": 71,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 직원, 상반기 평균급여 1억4400만원… 곽노정 261억원 - 조선비즈 - Chosunbiz",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -29,36 +46,8 @@
    "agents": []
   },
   {
-   "title": "최태원 빠진 SK하이닉스 '보수 톱5'…1위 곽노정 261억 - 머니투데이 - 머니투데이",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, 새 보따리 푼다…주주환원 추가 방안 이달 발표 - 뉴스1",
    "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK스퀘어, 2분기 영업익 19.2조…하이닉스 호조로 분기 최대 실적 - 동아일보",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK스퀘어, 2분기 영업익 19.2조 '사상 최대'…\"SK하이닉스 효과\" - dailian.co.kr",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK스퀘어, 2분기 영업익 19.2조 '사상 최대'…SK하이닉스 호실적 효과 - 지디넷코리아",
-   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -85,28 +74,7 @@
    "agents": []
   },
   {
-   "title": "\"주가 겨우 살아났는데\"...SK하이닉스 '5단 중복상장' 논란, 개미들 '불안' - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - 아이뉴스24",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - 연합인포맥스",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…전체 13% 차지 - 서울경제",
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - KBS 뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -114,6 +82,50 @@
   },
   {
    "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "엔비디아 '파인만' AI 반도체 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'반도체 투심' 회복에 SK하이닉스 장중 8% 급등‥\"안심은 이르다\" - MBC 뉴스",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "美 반도체주 훈풍에 'S7' 웃는다… SK하이닉스, 5%대↑ - 머니투데이 - 머니투데이",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "외인 2조5000억원 쓸어담았다…삼성전자 2%·하이닉스 3% 상승 - v.daum.net",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 품다… 떴다방 등장한 ‘동일하이빌 파크밸리’[현장] - 동아일보",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -169,15 +181,6 @@
    "agents": []
   },
   {
-   "title": "엔비디아 '파인만' AI 반도체 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "美반도체 훈풍에 프리마켓서 삼성전자 3%↑…SK하닉 6% 강세 - 뉴시스",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -199,15 +202,15 @@
    "agents": []
   },
   {
-   "title": "미국發 반도체 랠리에…삼성그룹 시총 2000조 탈환 [코주부] - 서울경제",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - 뉴스타파",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - 뉴스타파",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "미국發 반도체 랠리에…삼성그룹 시총 2000조 탈환 [코주부] - 서울경제",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -331,7 +334,7 @@
    ]
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - khan.co.kr",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
    "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -416,6 +419,13 @@
    ]
   },
   {
+   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "외국인 3조 순매수에 코스피 6900선 탈환…닷새째 상승 - 메트로신문",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -423,13 +433,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "돌아온 외국인, 4거래일 연속 ‘사자’…장중 7000선 터치 - 서울경제",
@@ -530,7 +533,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -605,7 +608,7 @@
    ]
   },
   {
-   "title": "Not Micron, Not Sandisk. This Artificial Intelligence (AI) Memory Stock Could Be the Next Nvidia.",
+   "title": "Micron Is Hot Again: Here’s Why The Rally Has Legs",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -614,8 +617,8 @@
    ]
   },
   {
-   "title": "Is Micron (MU) Using Its New AI Fund to Quietly Redefine Its Memory Strategy?",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "Not Micron, Not Sandisk. This Artificial Intelligence (AI) Memory Stock Could Be the Next Nvidia.",
+   "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
@@ -631,6 +634,13 @@
   },
   {
    "title": "Sandisk, Reddit, Applied Materials, and More Stocks That Explain Today’s Market",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
