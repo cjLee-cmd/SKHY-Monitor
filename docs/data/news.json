@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-14 22:32",
+ "ts_kst": "08-14 22:42",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -15,11 +15,13 @@
  "unassigned": 68,
  "alerts": [
   {
-   "level": "info",
-   "kw": "수주",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
-   "agents": []
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   }
  ],
  "items": [
@@ -38,14 +40,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 직원들 상반기 평균 1억4000만원 벌었다 - 아시아경제",
+   "title": "SK하이닉스 상반기 직원 평균급여 1억 4,400만원 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"주가 겨우 살아났는데\"...SK하이닉스 '5단 중복상장' 논란, 개미들 '불안' - v.daum.net",
+   "title": "현금 88조인데 또 상장?…SK하이닉스, 솔리다임 '쪼개기' 논란 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -114,14 +116,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - KBS 뉴스",
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -287,6 +289,15 @@
    "agents": []
   },
   {
+   "title": "상장으로 실탄 장전한 창신메모리…韓 반도체, 생존 전략 다시 짜야 [권상집의 논전(論戰)] - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -343,15 +354,6 @@
    "q": "메모리 반도체 중국",
    "agents": [
     "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
    ]
   },
   {
@@ -415,18 +417,20 @@
    "agents": []
   },
   {
-   "title": "코스피, 5거래일 연속 상승…외국인 4거래일 연속 '사자' [종합] - 이투데이",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "5거래일 연속 상승 코스피, 외국인 6.8조 순매수에 7000 선 회복 코앞 - 주간동아",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피, 외국인 3조원대 순매수에 2.4% 상승…6970선 돌파 마감 - 미디어펜",
@@ -445,6 +449,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "코스피, 5거래일 연속 상승…외국인 4거래일 연속 '사자' [종합] - 이투데이",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "외국인 3조 순매수에 코스피 6900선 탈환…닷새째 상승 - 메트로신문",
@@ -470,16 +481,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -604,6 +606,13 @@
    "agents": []
   },
   {
+   "title": "Korean Stocks Rally Again Overnight. KOSPI Closes Up 2.41% As SK Hynix and Samsung Rally.",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Sandisk Jumps 7%, Western Digital Gains 4%, Micron Climbs 3% as the Kospi Returns to a Bull Market",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -611,6 +620,20 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Could Intel return to the red-hot memory market after $20B raise and recent hire?",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "SanDisk Rally Continues on Friday with Shares up 7%. Here’s What Wall Street Is Saying About the Stock.",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "A $250 Million Reason Why Micron Stock Is in Focus",
@@ -622,32 +645,7 @@
    ]
   },
   {
-   "title": "Micron Is Hot Again: Here’s Why The Rally Has Legs",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Not Micron, Not Sandisk. This Artificial Intelligence (AI) Memory Stock Could Be the Next Nvidia.",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "U.S. Futures Steady After Closing Higher",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SanDisk Rally Continues on Friday with Shares up 7%. Here’s What Wall Street Is Saying About the Stock.",
+   "title": "Dow Jones Futures: Sandisk, Memory Stocks Extend Gains; Applied Materials Tumbles",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
