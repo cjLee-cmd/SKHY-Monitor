@@ -1,18 +1,28 @@
 {
- "ts_kst": "08-14 20:52",
+ "ts_kst": "08-14 21:02",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 8,
+  "M-CYCLE": 7,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 11
  },
- "unassigned": 71,
- "alerts": [],
+ "unassigned": 72,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
@@ -115,7 +125,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 \"상반기 파생상품서 4조 손실…주식교환 영향\" [공시] - 파이낸셜뉴스",
+   "title": "SK하이닉스 \"상반기 파생상품서 4조 손실…주식교환 영향\" [공시] - fnnews.com",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -206,7 +216,7 @@
    "agents": []
   },
   {
-   "title": "TSMC, AI칩 패키징 질주…삼성전자, HBM·파운드리·패키징 역량 총력 - 파이낸셜뉴스",
+   "title": "TSMC, AI칩 패키징 질주…삼성전자, HBM·파운드리·패키징 역량 총력 - fnnews.com",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -324,7 +334,7 @@
    ]
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - khan.co.kr",
    "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -523,7 +533,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -589,13 +599,18 @@
    ]
   },
   {
-   "title": "The next AI winners may look nothing like Nvidia or Micron: One Big Investment Idea",
+   "title": "Dow Jones Futures: Sandisk, Memory Stocks Extend Gains; Applied Materials Tumbles",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
+  },
+  {
+   "title": "Latest News In AI Chips - Cerebras Expands Amidst Rising Demand For AI Innovation",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Not Micron, Not Sandisk. This Artificial Intelligence (AI) Memory Stock Could Be the Next Nvidia.",
@@ -607,16 +622,7 @@
    ]
   },
   {
-   "title": "Is Micron (MU) Using Its New AI Fund to Quietly Redefine Its Memory Strategy?",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Latest News In AI Chips - Cerebras Expands Amidst Rising Demand For AI Innovation",
+   "title": "Social Buzz: Wallstreetbets Stocks Mostly Higher Premarket Friday; Reddit, Sandisk to Advance",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -630,7 +636,7 @@
    "agents": []
   },
   {
-   "title": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+   "title": "Mark Zuckerberg Just Said That Everyone Will Have \"An Exceptionally Capable Personal Agent.\" These 3 AI Stocks Will Benefit",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
