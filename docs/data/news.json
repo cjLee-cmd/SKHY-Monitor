@@ -1,28 +1,18 @@
 {
- "ts_kst": "08-14 16:31",
+ "ts_kst": "08-14 16:40",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 6,
   "C-CHINA": 8,
-  "F-ACTIVE": 6,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 70,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 72,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 새 보따리 푼다…주주환원 추가 방안 이달 발표 - 뉴스1",
@@ -95,8 +85,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자 초기업노조, SK하이닉스 통합노조와 접촉⋯\"노사 현안 논의\" - v.daum.net",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "SK하이닉스 ‘통합노조’ 출범…성과급·임단협에 목소리 낸다 - 경기일보",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -230,7 +220,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 설계·생산에 AI 심는다…외부 전문가 잇단 영입 - 뉴스퀘스트",
+   "title": "삼성전자, 반도체 공정에 AI 심는다…외부 전문가 수혈 속도 - 파이낸셜뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -328,7 +318,7 @@
    ]
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - khan.co.kr",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
    "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -353,7 +343,7 @@
    ]
   },
   {
-   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - khan.co.kr",
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -435,15 +425,15 @@
    ]
   },
   {
-   "title": "이달 초순 개인은 코스피 상승, 외국인은 하락에 베팅했다 - 매일경제 마켓",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "코스피, 5거래일 연속 상승…외국인 4거래일 연속 '사자' [종합] - 이투데이",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "닷새 내리 오른 코스피…외국인 3조원에 7000선 ‘터치’ - ezyeconomy.com",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "이달 초순 개인은 코스피 상승, 외국인은 하락에 베팅했다 - 매일경제 마켓",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -465,18 +455,20 @@
    ]
   },
   {
-   "title": "코스피, 외국인 매수세에 1%대 상승…장중 7000선 돌파 - 미디어펜",
+   "title": "[마감시황] 코스피 외국인 3조 '사자'에 7000선 눈앞…코스닥도 5일째 상승 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "“외국인이 돌아왔다?”…코스피, 기다리던 7000선 터치 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
@@ -597,48 +589,42 @@
    ]
   },
   {
-   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - khan.co.kr",
+   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
    "pub": "Mon, 08 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
   },
   {
-   "title": "Is Micron (MU) Using Its New AI Fund to Quietly Redefine Its Memory Strategy?",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "Alphabet and Amazon Are Spending $420 Billion on Infrastructure. These 2 Stocks Are Primed to Cash in on It.",
+   "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "Sandisk, Cisco, Micron, Ondas, Coherent, Cerebras, and More Stocks That Explain Today’s Market",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "Dow Jones Futures: S&P 500 Hits High On Workday, Sandisk, Oil Prices; Applied Materials Earnings Late",
+   "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "Michael Burry Loads Up On QQQ Puts, Boosts MU Short As He Braces For ‘Larger Fall’ — Here’s What He Did To NVDA, PLTR And TSLA",
+   "title": "'Big Short' Michael Burry takes aim at surging AI stock",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Sandisk Stock Jumps On Bullish Outlook, Leads Memory Names Higher",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Micron Stock Keeps Rallying. Watch Out for This New Memory-Chip Rival.",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Ventures Launches $250 Million Fund to Invest in the Next Generation of AI",
+   "title": "Is Micron (MU) Using Its New AI Fund to Quietly Redefine Its Memory Strategy?",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
