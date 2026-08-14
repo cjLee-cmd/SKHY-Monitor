@@ -1,18 +1,28 @@
 {
- "ts_kst": "08-14 15:12",
+ "ts_kst": "08-14 15:22",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 6,
+  "M-CYCLE": 8,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 71,
- "alerts": [],
+ "unassigned": 69,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 새 보따리 푼다…주주환원 추가 방안 이달 발표 - 뉴스1",
@@ -36,22 +46,8 @@
    "agents": []
   },
   {
-   "title": "\"주가 겨우 살아났는데\"...SK하이닉스 '5단 중복상장' 논란, 개미들 '불안' - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - 연합인포맥스",
+   "title": "\"이건 아닙니다 회장님\"…SK하이닉스 '5단 중복상장' 추진에 쏟아진 비판 - v.daum.net",
    "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"주가 겨우 살아났는데\"…SK하이닉스 '5단 중복상장' 논란, 개미들 '불안' - 네이트",
-   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -64,14 +60,28 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ‘통합노조’ 출범…성과급·임단협에 목소리 낸다 - 경기일보",
+   "title": "코스피 급등 출발… 삼성전자·SK하이닉스 동반 강세 - chosun.com",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 통합노조 공식 출범… 과반 노조 목표 - 조선비즈 - Chosunbiz",
+   "title": "美 반도체주 훈풍에 'S7' 웃는다… SK하이닉스, 5%대↑ - 머니투데이 - 머니투데이",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 통합노조 공식 출범…설립 인가 완료 - 연합뉴스",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 ‘통합노조’ 출범…성과급·임단협에 목소리 낸다 - 경기일보",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -284,7 +294,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -391,6 +401,13 @@
    ]
   },
   {
+   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "외국인·기관 순매수에 코스피 3.56%↑, 모건스탠리가 찍은 삼성전기 12.58% 올라 - 이코노미스트",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -398,13 +415,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "[0810마감체크] 코스피, 개인·기관 순매수에 강보합... 코스닥은 급등 By 인포스탁데일리 - Investing.com 한국어",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
@@ -480,7 +490,7 @@
    ]
   },
   {
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -550,7 +560,7 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -596,27 +606,6 @@
    "agents": []
   },
   {
-   "title": "Dow Jones Futures: S&P 500 Hits High On Workday, Sandisk, Oil Prices; Applied Materials Earnings Late",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "'Big Short' Michael Burry takes aim at surging AI stock",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Sandisk Stock Jumps On Bullish Outlook, Leads Memory Names Higher",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Is Micron (MU) Using Its New AI Fund to Quietly Redefine Its Memory Strategy?",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
@@ -626,11 +615,38 @@
    ]
   },
   {
-   "title": "The Bull Market Is Almost Back for Chip Stocks",
+   "title": "Sandisk, Cisco, Micron, Ondas, Coherent, Cerebras, and More Stocks That Explain Today’s Market",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Michael Burry Loads Up On QQQ Puts, Boosts MU Short As He Braces For ‘Larger Fall’ — Here’s What He Did To NVDA, PLTR And TSLA",
    "pub": "Thu, 13 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "Micron Stock Keeps Rallying. Watch Out for This New Memory-Chip Rival.",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Ventures Launches $250 Million Fund to Invest in the Next Generation of AI",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
