@@ -1,19 +1,36 @@
 {
- "ts_kst": "08-15 17:36",
- "n_items": 101,
+ "ts_kst": "08-15 17:46",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
-  "en": 27
+  "kr": 75,
+  "en": 28
  },
  "routed": {
-  "M-CYCLE": 7,
+  "M-CYCLE": 9,
   "C-CHINA": 10,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
  "unassigned": 67,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
+  {
+   "title": "SK하이닉스 美 전공정 팹 검토…최태원 \"내년 메모리 전쟁\" - 뉴스핌",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "최태원 빠진 SK하이닉스 '보수 톱5'…1위 곽노정 261억 - 머니투데이 - mt.co.kr",
    "pub": "Fri, 14 Aug 2026",
@@ -22,14 +39,7 @@
    "agents": []
   },
   {
-   "title": "[단독] “최태원 회장 결단 없으면 투쟁”…SK하이닉스 노조마저 거리로 나서나 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 美 전공정 팹 검토…최태원 \"내년 메모리 전쟁\" - 뉴스핌",
+   "title": "최태원 “고객 원하면 美에 전공정 팹도”…SK하이닉스 추가 투자 가능성 시사 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -57,22 +67,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 상반기 R&D·시설투자 55조 돌파…SK하이닉스는 빅테크 고객사 다변화 결실 - 서울경제",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "증권가 '팔자' 외치는데…\"삼성전자 오른다\" 보고서 등장 [종목+] - 한국경제",
    "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "특징주, 삼성생명-S7(삼성전자/SK하이닉스 등) 테마 상승세에 5.15% ↑ - 매일경제 마켓",
-   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -120,6 +116,20 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - v.daum.net",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -127,7 +137,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 딥러닝·데이터 전문가 영입…반도체 AX 가속 - 전자신문",
+   "title": "삼성전자, AI 석학·메타 출신 데이터 전문가 영입… 반도체 AX 강화 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -155,14 +165,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 美 테일러로 파운드리 승부수…인텔과 맞불 - v.daum.net",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "반도체株 주도권, SK하이닉스서 삼성전자로 이동할까 - 스트레이트뉴스",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "반도체株 주도권, SK하이닉스서 삼성전자로 이동할까 - 스트레이트뉴스",
+   "title": "삼성전자, 상반기 R&D·시설투자 55조 돌파…SK하이닉스는 빅테크 고객사 다변화 결실 - 서울경제",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -178,6 +188,13 @@
   {
    "title": "삼성전자, 상반기 R&D 27.4조·시설투자 28조 '역대 최대'…\"반도체 경쟁력 강화\" - 뉴시스",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - 서울신문",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -395,13 +412,6 @@
    ]
   },
   {
-   "title": "외국인 다시 사들이지만...하루 만에 수조원 포지션 뒤집기 [증시는 왜] - 파이낸셜뉴스",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인·기관 순매수에 코스피 3.56%↑, 모건스탠리가 찍은 삼성전기 12.58% 올라 - economist.co.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -409,6 +419,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "외국인 다시 사들이지만...하루 만에 수조원 포지션 뒤집기 [증시는 왜] - 파이낸셜뉴스",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
@@ -427,6 +444,13 @@
    "agents": []
   },
   {
+   "title": "외국인 3조원 '폭풍 매수'…코스피 7천선 목전 - v.daum.net",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -434,13 +458,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "외국인 3조원 '폭풍 매수'…코스피 7천선 목전 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "[마감시황] 코스피, 외국인·기관 쌍끌이 삼전닉스 투자에 6800선 안착 - 뉴스핌",
@@ -475,15 +492,6 @@
    ]
   },
   {
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -493,8 +501,26 @@
    ]
   },
   {
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
    "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -516,6 +542,15 @@
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
+  },
+  {
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
@@ -541,24 +576,6 @@
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
-  },
-  {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
   },
   {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
@@ -591,11 +608,13 @@
    "agents": []
   },
   {
-   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
+   "pub": "Sat, 15 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
@@ -608,15 +627,6 @@
   },
   {
    "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
