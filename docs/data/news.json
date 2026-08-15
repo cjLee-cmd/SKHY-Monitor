@@ -1,17 +1,18 @@
 {
- "ts_kst": "08-15 23:08",
- "n_items": 95,
+ "ts_kst": "08-15 23:17",
+ "n_items": 103,
  "by_source": {
   "kr": 75,
-  "en": 20
+  "en": 28
  },
  "routed": {
-  "M-CYCLE": 2,
+  "M-CYCLE": 8,
+  "P-ADR": 1,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 67,
+ "unassigned": 68,
  "alerts": [],
  "items": [
   {
@@ -22,7 +23,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 상반기 직원 평균급여 1억4천여만원…전년보다 23%↑ - 연합뉴스",
+   "title": "SK하이닉스 상반기 직원 평균급여 1.4억 원 - KBS 뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -36,7 +37,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 직원, 상반기 평균급여 1억4400만원… 곽노정 사장 261억원(장기보상성과 포함) - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스 상반기 직원 평균급여 1억4천여만원…전년보다 23%↑ - 연합뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -71,21 +72,7 @@
    "agents": []
   },
   {
-   "title": "“제2의 SK하이닉스 되나”…美서 키옥시아 레버리지 ETF 추진[마켓무버] - sedaily.com",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - KBS 뉴스",
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -99,11 +86,13 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…전체 13% 차지 - sedaily.com",
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - v.daum.net",
@@ -118,6 +107,22 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "‘SK하이닉스 주주들 난리난다’ 하루만에 10% 급락…‘솔리다임’ 상장 무섭네 [투자360] - 헤럴드경제",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 ADR 2% 상승…AI 낙관론 속 나흘째 질주하나 - 연합인포맥스",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
@@ -400,8 +405,8 @@
    ]
   },
   {
-   "title": "외국인·기관 순매수에 코스피 3.56%↑, 모건스탠리가 찍은 삼성전기 12.58% 올라 - 이코노미스트",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
+   "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -409,8 +414,8 @@
    ]
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
-   "pub": "Tue, 30 Jun 2026",
+   "title": "외국인·기관 순매수에 코스피 3.56%↑, 모건스탠리가 찍은 삼성전기 12.58% 올라 - 이코노미스트",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -596,39 +601,45 @@
    "agents": []
   },
   {
-   "title": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
+   "title": "Prediction: These 3 Artificial Intelligence (AI) Stocks Will Rise More than 30% Before 2026 Is Over",
    "pub": "Sat, 15 Aug 2026",
    "src": "en",
-   "q": "ASML",
+   "q": "MU",
    "agents": []
   },
   {
-   "title": "Stock Market Week Ahead: Walmart, Target Lead Retail Earnings; Nvidia Among Stocks In Buy Areas",
+   "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
-   "q": "ASML",
+   "q": "MU",
    "agents": []
   },
   {
-   "title": "Applied Materials slips as investors seek faster growth after stellar run",
+   "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
-   "q": "ASML",
-   "agents": []
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "Analyst Sees Trouble Brewing for Hot Chip Stocks",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market",
+   "pub": "Fri, 14 Aug 2026",
    "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "5 Semiconductor Stocks Jim Cramer Could Be Talking About on Thursday",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
