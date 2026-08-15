@@ -1,23 +1,32 @@
 {
- "ts_kst": "08-15 14:08",
- "n_items": 102,
+ "ts_kst": "08-15 14:18",
+ "n_items": 103,
  "by_source": {
   "kr": 75,
-  "en": 27
+  "en": 28
  },
  "routed": {
-  "M-CYCLE": 8,
+  "M-CYCLE": 10,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 68,
+ "unassigned": 67,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -53,7 +62,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 직원, 상반기 평균급여 1억4400만원… 곽노정 사장 261억원(장기보상성과 포함) - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스 직원 반년 급여 평균 1억4400만원 - chosun.com",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -67,7 +76,7 @@
    "agents": []
   },
   {
-   "title": "'최태원의 전략통'…SK하이닉스 AI 신사업 발굴 맡은 기타리스트 [강경주의 테크X] - 한국경제",
+   "title": "'최태원의 전략통'…SK하이닉스 AI 신사업 발굴 맡은 기타리스트 [강경주의 테크X] - hankyung.com",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -102,14 +111,14 @@
    "agents": []
   },
   {
-   "title": "\"주가 겨우 살아났는데\"...SK하이닉스 '5단 중복상장' 논란, 개미들 '불안' - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "하이닉스, 88조 쌓아두고 중복상장 논란…\"단순배당으론 주주반발 못막아\" - news.einfomax.co.kr",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK는 왜 ‘4중 상장’에 도전하나…63조원 미스테리와 아메리카 드림[홍길용의 화식열전](909회) - 헤럴드경제",
+   "title": "\"주가 겨우 살아났는데\"...SK하이닉스 '5단 중복상장' 논란, 개미들 '불안' - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -123,17 +132,22 @@
    "agents": []
   },
   {
-   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - KBS 뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "삼성전자, AI 석학·메타 출신 데이터 전문가 영입… 반도체 AX 강화 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -167,15 +181,15 @@
    "agents": []
   },
   {
-   "title": "美반도체 훈풍에 프리마켓서 삼성전자 3%↑…SK하닉 6% 강세 - 뉴시스",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "삼성전자, 상반기 R&D·시설투자 55조 돌파…SK하이닉스는 빅테크 고객사 다변화 결실 - 서울경제",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 상반기 R&D·시설투자 55조 돌파…SK하이닉스는 빅테크 고객사 다변화 결실 - 서울경제",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "미국발 반도체 훈풍에…삼성전자·SK하이닉스, 장 초반 동반 상승세 - 매일경제 마켓",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -211,13 +225,6 @@
    "agents": []
   },
   {
-   "title": "화웨이·SMIC 3나노 공정 모바일 CPU 상용화, 삼성전자 초격차 AI폰·1나노급 공정 서두른다 - 비즈니스포스트",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -225,15 +232,17 @@
    "agents": []
   },
   {
-   "title": "AI 반도체 덮친 ‘금리 5% 공포’…삼성전자·SK하이닉스 새 복병 By EBN - Investing.com 한국어",
-   "pub": "Tue, 11 Aug 2026",
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "'AI 훈풍' 탄 삼성전자…반기보고서로 입증한 반도체 부활과 역대급 55조 투자 - 파이낸셜포스트",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -248,7 +257,7 @@
    ]
   },
   {
-   "title": "\"반도체 호황\"…창신메모리, 텐센트 제치고 중국 최대 상장기업 - 연합인포맥스",
+   "title": "\"반도체 호황\"…창신메모리, 텐센트 제치고 중국 최대 상장기업 - news.einfomax.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -332,7 +341,7 @@
    ]
   },
   {
-   "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
+   "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - hankyung.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -364,7 +373,7 @@
    "agents": []
   },
   {
-   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
+   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - news.einfomax.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -417,8 +426,8 @@
    "agents": []
   },
   {
-   "title": "코스피 장중 7천 돌파…외국인 3조 원 순매수 - KBS 뉴스",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -426,8 +435,8 @@
    ]
   },
   {
-   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "코스피 장중 7천 돌파…외국인 3조 원 순매수 - KBS 뉴스",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -544,7 +553,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -576,7 +585,7 @@
    "agents": []
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -608,13 +617,6 @@
    "agents": []
   },
   {
-   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -633,7 +635,7 @@
    ]
   },
   {
-   "title": "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
+   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -642,13 +644,18 @@
    ]
   },
   {
-   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
+   "title": "Lam Research bets $3 billion on speed, not size",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
+  },
+  {
+   "title": "Soros Capital Loads Up On MU, AMAT, AMD And TSM In Massive Semiconductor Pivot",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
