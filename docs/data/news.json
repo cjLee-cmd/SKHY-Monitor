@@ -1,12 +1,12 @@
 {
- "ts_kst": "08-16 01:22",
- "n_items": 103,
+ "ts_kst": "08-16 01:32",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "C-CHINA": 10,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
@@ -14,22 +14,11 @@
  "unassigned": 67,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "수주",
    "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
+   "agents": []
   }
  ],
  "items": [
@@ -111,20 +100,6 @@
    "agents": []
   },
   {
-   "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“제2의 SK하이닉스 되나”…美서 키옥시아 레버리지 ETF 추진[마켓무버] - sedaily.com",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -139,15 +114,45 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체, 딥러닝·비전 AI 전문가 영입해 AX 가속화 - 연합뉴스",
+   "title": "SK하이닉스, 상반기 美 매출 3배 늘어난 84조6000억원… 매출 10% 이상 ‘큰손’ 2곳 - 조선비즈 - Chosunbiz",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성전자, AI 석학·메타 출신 데이터 전문가 영입… 반도체 AX 강화 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "“반도체 지금 팔아라?” 충격적 65만→35만원, 삼성전자 목표주가 믿어도 되나 - v.daum.net",
+   "title": "“반도체 지금 팔아라?” 충격적 65만→35만원, 삼성전자 목표주가 믿어도 되나 - 헤럴드경제",
    "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+] - 한국경제",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 상반기 R&D·시설투자 55조 돌파…SK하이닉스는 빅테크 고객사 다변화 결실 - sedaily.com",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -169,20 +174,6 @@
   {
    "title": "반도체 호황에 삼성전자 미·중 수출 ‘껑충’ - 남도일보",
    "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+] - 한국경제",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 상반기 R&D·시설투자 55조 돌파…SK하이닉스는 빅테크 고객사 다변화 결실 - sedaily.com",
-   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -227,6 +218,13 @@
   {
    "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - 뉴스타파",
    "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -291,7 +289,7 @@
    ]
   },
   {
-   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이",
+   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - mt.co.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -421,7 +419,7 @@
    ]
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
    "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -478,8 +476,8 @@
    "agents": []
   },
   {
-   "title": "외국인 3조원 '폭풍 매수'…코스피 7천선 목전 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "외국인, 이달 역대 최대로 '코스피 팔고 코스닥 담았다' - 연합뉴스",
+   "pub": "Sun, 31 May 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -647,15 +645,6 @@
   },
   {
    "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
