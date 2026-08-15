@@ -1,18 +1,18 @@
 {
- "ts_kst": "08-15 21:33",
- "n_items": 102,
+ "ts_kst": "08-15 21:43",
+ "n_items": 103,
  "by_source": {
   "kr": 75,
-  "en": 27
+  "en": 28
  },
  "routed": {
+  "M-CYCLE": 10,
   "P-ADR": 1,
-  "M-CYCLE": 7,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
-  "R-LEVERAGE": 11
+  "R-LEVERAGE": 10
  },
- "unassigned": 67,
+ "unassigned": 66,
  "alerts": [],
  "items": [
   {
@@ -86,28 +86,16 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 美 매출 3배 늘어난 84조6000억원… 매출 10% 이상 ‘큰손’ 2곳 - 조선비즈 - Chosunbiz",
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "하루 1조씩 사더니…채권투자 중단한 SK하이닉스, 왜? - 마켓인",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“제2의 SK하이닉스 되나”…美서 키옥시아 레버리지 ETF 추진[마켓무버] - 서울경제",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물' - 한국경제",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -121,6 +109,20 @@
    "agents": [
     "P-ADR"
    ]
+  },
+  {
+   "title": "SK하이닉스 품다… 떴다방 등장한 ‘동일하이빌 파크밸리’[현장] - 동아일보",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - 아이뉴스24",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
@@ -551,13 +553,6 @@
    "agents": []
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - nongmin.com",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -576,6 +571,13 @@
    ]
   },
   {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - nongmin.com",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -592,19 +594,10 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
+   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
+   "pub": "Mon, 08 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "Prediction: These 3 Artificial Intelligence (AI) Stocks Will Rise More than 30% Before 2026 Is Over",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "en",
-   "q": "MU",
    "agents": []
   },
   {
@@ -615,13 +608,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
@@ -640,6 +626,22 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Lam Research bets $3 billion on speed, not size",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
