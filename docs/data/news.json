@@ -1,19 +1,29 @@
 {
- "ts_kst": "08-15 09:19",
- "n_items": 103,
+ "ts_kst": "08-15 09:29",
+ "n_items": 102,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 27
  },
  "routed": {
   "P-ADR": 2,
-  "M-CYCLE": 11,
+  "M-CYCLE": 9,
   "C-CHINA": 9,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 10
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 66,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 ADR 사흘째 상승…유가 하락 속 美 도매물가 안도 - 연합인포맥스",
@@ -41,20 +51,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 직원, 상반기 평균급여 1억4400만원… 곽노정 사장 261억원(장기보상성과 포함) - 조선비즈 - Chosunbiz",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 상반기 직원 평균급여 1억4천여만원…전년보다 23%↑ - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -62,15 +58,29 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 통합노조 출범…\"조합원 1만8000명 확보 목표\" - 지디넷코리아",
+   "title": "SK하이닉스 직원, 상반기 평균급여 1억4400만원… 곽노정 사장 261억원(장기보상성과 포함) - 조선비즈 - Chosunbiz",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 상반기 직원 평균급여 1억 4,400만원 - v.daum.net",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 생산·사무직 통합노조도 출범... 노조 총 4개로 - 조선일보",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 생산·사무직 통합노조도 출범... 노조 총 4개로 - chosun.com",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "삼성전자 초기업노조, SK하이닉스 통합노조와 접촉⋯\"노사 현안 논의\" - v.daum.net",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -83,15 +93,15 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 美 전공정 메모리 팹 부지 검토…공급망 현지화 대응 - 글로벌이코노믹",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "[e가상자산] 하이닉스도 크립토시장서 24시간 거래…원리는 '토큰·선물' - 이투데이",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[e가상자산] 하이닉스도 크립토시장서 24시간 거래…원리는 '토큰·선물' - 이투데이",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "“내년 물량 2배 달라, 전쟁 중”…‘반토막’ 났던 SK하이닉스 160만원 탈환 - v.daum.net",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -139,7 +149,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 상반기 R&D·시설투자 55조…메모리 가격은 3배로 - chosun.com",
+   "title": "삼성전자, 상반기 R&D·시설투자 55조…메모리 가격은 3배로 - 조선일보",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -162,6 +172,13 @@
    ]
   },
   {
+   "title": "삼성전자, 美 테일러로 파운드리 승부수…인텔과 맞불 - v.daum.net",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "美반도체 훈풍에 프리마켓서 삼성전자 3%↑…SK하닉 6% 강세 - 뉴시스",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -169,14 +186,14 @@
    "agents": []
   },
   {
-   "title": "반도체株 주도권, SK하이닉스서 삼성전자로 이동할까 - 스트레이트뉴스",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "미국발 반도체 훈풍에…삼성전자·SK하이닉스, 장 초반 동반 상승세 - 매일경제 마켓",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "하나증권 \"AI 인프라 확장에 메모리반도체 수요 지속, 삼성전자 SK하이닉스 주식 투심 개선 전망\" - 비즈니스포스트",
+   "title": "반도체株 주도권, SK하이닉스서 삼성전자로 이동할까 - 스트레이트뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -204,13 +221,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - 서울신문",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
@@ -277,7 +287,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -384,6 +394,13 @@
    ]
   },
   {
+   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피 장중 7천 돌파…외국인 3조 원 순매수 - KBS 뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -391,13 +408,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "외국인 다시 사들이지만...하루 만에 수조원 포지션 뒤집기 [증시는 왜] - 파이낸셜뉴스",
@@ -414,6 +424,13 @@
    "agents": []
   },
   {
+   "title": "'ETF 투자' 개인은 코스피 상승, 외국인은 하락에 베팅했다 - TBS 서울",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 외국인 3조원대 순매수에 2%대 상승···'7천피' 턱밑 마감 - 서울파이낸스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -421,13 +438,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "'ETF 투자' 개인은 코스피 상승, 외국인은 하락에 베팅했다 - TBS 서울",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
@@ -462,13 +472,6 @@
    ]
   },
   {
-   "title": "“외국인 3조원 넘게 사들였다”…코스피 장중 7000 돌파, 6977 마감 - 디지털데일리",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "[마감시황]코스피, 0.65% 올라 6299.66 마감…방산주 강세 속 외국인 순매도 - 서울신문",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -476,6 +479,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "“외국인 3조원 넘게 사들였다”…코스피 장중 7000 돌파, 6977 마감 - 디지털데일리",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -487,7 +497,7 @@
    ]
   },
   {
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -603,6 +613,13 @@
    "agents": []
   },
   {
+   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -621,7 +638,7 @@
    ]
   },
   {
-   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
+   "title": "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -630,18 +647,13 @@
    ]
   },
   {
-   "title": "Lam Research bets $3 billion on speed, not size",
+   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Soros Capital Loads Up On MU, AMAT, AMD And TSM In Massive Semiconductor Pivot",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
