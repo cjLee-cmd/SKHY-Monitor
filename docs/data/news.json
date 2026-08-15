@@ -1,44 +1,18 @@
 {
- "ts_kst": "08-16 05:20",
+ "ts_kst": "08-16 05:30",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 10,
+  "M-CYCLE": 11,
   "C-CHINA": 10,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 11
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
-   "agents": []
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
    "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - v.daum.net",
@@ -90,7 +64,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 상반기 직원 평균급여 1억4천여만원…전년보다 23%↑ - 연합뉴스",
+   "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -104,7 +78,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 직원, 상반기 평균급여 1억4400만원… 곽노정 사장 261억원(장기보상성과 포함) - 조선비즈 - Chosunbiz",
+   "title": "곽노정 SK하이닉스 사장, 상반기 보수 261억원 수령 - 연합인포맥스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -141,7 +115,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - KBS 뉴스",
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -641,6 +615,13 @@
    ]
   },
   {
+   "title": "Prediction: These 3 Artificial Intelligence (AI) Stocks Will Rise More than 30% Before 2026 Is Over",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
    "pub": "Sat, 15 Aug 2026",
    "src": "en",
@@ -650,25 +631,14 @@
    ]
   },
   {
+   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
