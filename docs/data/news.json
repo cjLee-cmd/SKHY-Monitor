@@ -1,18 +1,26 @@
 {
- "ts_kst": "08-16 02:49",
+ "ts_kst": "08-16 02:59",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 11,
   "C-CHINA": 10,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 11
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "[단독] “최태원 회장 결단 없으면 투쟁”…SK하이닉스 노조마저 거리로 나서나 - v.daum.net",
@@ -43,8 +51,17 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 상반기 R&D·시설투자 55조 돌파…SK하이닉스는 빅테크 고객사 다변화 결실 - 서울경제",
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+] - 한국경제",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -52,13 +69,6 @@
   {
    "title": "외인 2조5000억원 쓸어담았다…삼성전자 2%·하이닉스 3% 상승 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+] - 한국경제",
-   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -155,6 +165,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 상반기 R&D·시설투자 55조 돌파…SK하이닉스는 빅테크 고객사 다변화 결실 - 서울경제",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 반도체 호황에 대미·대중 수출 모두 급증 - KBS 뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -171,13 +188,6 @@
   {
    "title": "삼성전자, 상반기 R&D 27.4조·시설투자 28조 '역대 최대'…\"반도체 경쟁력 강화\" - 뉴시스",
    "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - 서울신문",
-   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -206,7 +216,7 @@
    "agents": []
   },
   {
-   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - thelec.kr",
+   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -254,7 +264,7 @@
    ]
   },
   {
-   "title": "레노버 2분기 매출 급증 비결로 '중국 메모리' 꼽아, 삼성전자 SK하이닉스 마이크론 의존 낮출 움직임 주목 - businesspost.co.kr",
+   "title": "레노버 2분기 매출 급증 비결로 '중국 메모리' 꼽아, 삼성전자 SK하이닉스 마이크론 의존 낮출 움직임 주목 - 비즈니스포스트",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -322,7 +332,7 @@
    ]
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - businesspost.co.kr",
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -459,8 +469,8 @@
    "agents": []
   },
   {
-   "title": "외국인, 이달 역대 최대로 '코스피 팔고 코스닥 담았다' - 연합뉴스",
-   "pub": "Sun, 31 May 2026",
+   "title": "“외국인이 돌아왔다?”…코스피, 기다리던 7000선 터치 - magazine.hankyung.com",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -620,6 +630,13 @@
    ]
   },
   {
+   "title": "Prediction: These 3 Artificial Intelligence (AI) Stocks Will Rise More than 30% Before 2026 Is Over",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
    "pub": "Sat, 15 Aug 2026",
    "src": "en",
@@ -629,22 +646,11 @@
    ]
   },
   {
-   "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
+   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
