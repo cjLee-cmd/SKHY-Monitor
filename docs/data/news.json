@@ -1,29 +1,19 @@
 {
- "ts_kst": "08-15 18:06",
+ "ts_kst": "08-15 18:16",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 8,
+  "M-CYCLE": 10,
   "P-ADR": 1,
-  "C-CHINA": 10,
+  "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 美 전공정 팹 검토…최태원 \"내년 메모리 전쟁\" - 뉴스핌",
@@ -198,14 +188,14 @@
    "agents": []
   },
   {
-   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - 서울신문",
+   "title": "권오현 전 삼성 회장 \"반도체 최소 10년 성장…기업 혁신은 리더십부터” - edaily.co.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "권오현 전 삼성 회장 \"반도체 최소 10년 성장…기업 혁신은 리더십부터” - edaily.co.kr",
+   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - 서울신문",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -328,6 +318,13 @@
    ]
   },
   {
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
+   "pub": "Mon, 04 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -337,29 +334,20 @@
    ]
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
-   "pub": "Mon, 04 May 2026",
+   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - 매일경제",
+   "pub": "Wed, 06 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
+  },
+  {
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "pub": "Tue, 17 Feb 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
@@ -615,13 +603,6 @@
    ]
   },
   {
-   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
@@ -640,7 +621,7 @@
    ]
   },
   {
-   "title": "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
+   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -649,13 +630,18 @@
    ]
   },
   {
-   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
+   "title": "Lam Research bets $3 billion on speed, not size",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
+  },
+  {
+   "title": "Soros Capital Loads Up On MU, AMAT, AMD And TSM In Massive Semiconductor Pivot",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
