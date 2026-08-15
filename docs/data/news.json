@@ -1,19 +1,27 @@
 {
- "ts_kst": "08-15 19:30",
- "n_items": 103,
+ "ts_kst": "08-15 19:40",
+ "n_items": 102,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 27
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 9,
   "P-ADR": 1,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 66,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "[단독] “최태원 회장 결단 없으면 투쟁”…SK하이닉스 노조마저 거리로 나서나 - v.daum.net",
@@ -104,7 +112,7 @@
    "agents": []
   },
   {
-   "title": "'국민주' 반열에 오른 SK하이닉스…소액주주 68만→346만 명 돌파 - 파이낸셜뉴스",
+   "title": "'국민주' 반열에 오른 SK하이닉스…소액주주 68만→346만 명 돌파 - fnnews.com",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -136,13 +144,6 @@
   {
    "title": "삼성전자 반도체, 딥러닝·비전 AI 전문가 영입해 AX 가속화 - 연합뉴스",
    "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+] - 한국경제",
-   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -211,7 +212,7 @@
    "agents": []
   },
   {
-   "title": "TSMC, AI칩 패키징 질주…삼성전자, HBM·파운드리·패키징 역량 총력 - 파이낸셜뉴스",
+   "title": "TSMC, AI칩 패키징 질주…삼성전자, HBM·파운드리·패키징 역량 총력 - fnnews.com",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -222,6 +223,13 @@
   {
    "title": "[다큐 뉴스타파]6억, 6백 그리고 0원_삼성 반도체 성과급, 보상은 공정했나? - 뉴스타파",
    "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -448,7 +456,7 @@
    ]
   },
   {
-   "title": "외국인 다시 사들이지만...하루 만에 수조원 포지션 뒤집기 [증시는 왜] - 파이낸셜뉴스",
+   "title": "외국인 다시 사들이지만...하루 만에 수조원 포지션 뒤집기 [증시는 왜] - fnnews.com",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -603,6 +611,13 @@
    "agents": []
   },
   {
+   "title": "US presses Apple to avoid Chinese memory chips amid shortage - WSJ reports",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
    "pub": "Sat, 15 Aug 2026",
    "src": "en",
@@ -610,6 +625,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
@@ -628,22 +650,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Micron Stock Jumps 2.1% as Memory Pricing Tightens Again",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Lam Research bets $3 billion on speed, not size",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
