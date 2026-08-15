@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-15 23:40",
+ "ts_kst": "08-15 23:50",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -10,27 +10,13 @@
   "P-ADR": 1,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
-  "R-LEVERAGE": 10
+  "R-LEVERAGE": 11
  },
- "unassigned": 68,
+ "unassigned": 67,
  "alerts": [],
  "items": [
   {
    "title": "[단독] “최태원 회장 결단 없으면 투쟁”…SK하이닉스 노조마저 거리로 나서나 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 직원 반년 급여 평균 1억4400만원 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -44,15 +30,29 @@
    "agents": []
   },
   {
-   "title": "\"몽땅 주주에게\" 샌디스크의 파격…SK하닉은 '100조 축포' 쏘나 - 한국경제",
+   "title": "SK하이닉스 직원 반년 급여 평균 1억4400만원 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼전닉스 역대급 실적인데…주주환원 정책에 쏠리는 눈, 얼마나 풀까 - v.daum.net",
+   "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전닉스 역대급 실적인데…주주환원 정책에 쏠리는 눈, 얼마나 풀까 - 매일경제",
    "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"몽땅 주주에게\" 샌디스크의 파격…SK하닉은 '100조 축포' 쏘나 - 한국경제",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -93,7 +93,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - KBS 뉴스",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -160,15 +160,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 美 테일러로 파운드리 승부수…인텔과 맞불 - v.daum.net",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "삼성전자, 상반기 R&D 27.4조·시설투자 28조 '역대 최대'…\"반도체 경쟁력 강화\" - 뉴시스",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 상반기 R&D 27.4조·시설투자 28조 '역대 최대'…\"반도체 경쟁력 강화\" - 뉴시스",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - seoul.co.kr",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -594,11 +594,22 @@
    ]
   },
   {
-   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
-   "pub": "Mon, 08 Jun 2026",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": []
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "SpaceX vs. Micron: Which High-Growth Titan Is the Better Buy?",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
@@ -635,13 +646,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Lam Research bets $3 billion on speed, not size",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
