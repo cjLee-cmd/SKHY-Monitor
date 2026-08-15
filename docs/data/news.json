@@ -1,18 +1,26 @@
 {
- "ts_kst": "08-16 02:11",
+ "ts_kst": "08-16 02:19",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 10,
-  "C-CHINA": 11,
+  "M-CYCLE": 11,
+  "C-CHINA": 10,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 11
  },
  "unassigned": 64,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - thelec.kr",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "[단독] “최태원 회장 결단 없으면 투쟁”…SK하이닉스 노조마저 거리로 나서나 - v.daum.net",
@@ -36,14 +44,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 상반기 직원 평균급여 1억4천여만원…전년보다 23%↑ - 연합뉴스",
+   "title": "SK하이닉스 상반기 직원 평균급여 1억4천여만원…전년보다 23%↑ - yna.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"몽땅 주주에게\" 샌디스크의 파격…SK하닉은 '100조 축포' 쏘나 - 한국경제",
+   "title": "\"몽땅 주주에게\" 샌디스크의 파격…SK하닉은 '100조 축포' 쏘나 - hankyung.com",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -64,7 +72,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - 연합뉴스",
+   "title": "SK하이닉스, 상반기 엔비디아 매출 17조…미국 비중 64% - yna.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -106,17 +114,15 @@
    "agents": []
   },
   {
-   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
+   "title": "삼성전자, 상반기 R&D·시설투자 55조 돌파…SK하이닉스는 빅테크 고객사 다변화 결실 - 서울경제",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+] - 한국경제",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "외인 2조5000억원 쓸어담았다…삼성전자 2%·하이닉스 3% 상승 - v.daum.net",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -136,8 +142,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 상반기 R&D·시설투자 55조 돌파…SK하이닉스는 빅테크 고객사 다변화 결실 - sedaily.com",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "美반도체 훈풍에 프리마켓서 삼성전자 3%↑…SK하닉 6% 강세 - 뉴시스",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -145,20 +151,6 @@
   {
    "title": "삼성전자, 반도체 호황에 대미·대중 수출 모두 급증 - KBS 뉴스",
    "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "'AI 반도체 호황 덕'... 삼성전자, 올 상반기 對美ㆍ 對中 수출 급증 - 글로벌경제신문",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "반도체 호황에 삼성전자 미·중 수출 ‘껑충’ - 남도일보",
-   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -173,13 +165,6 @@
   {
    "title": "삼성전자, 상반기 R&D 27.4조·시설투자 28조 '역대 최대'…\"반도체 경쟁력 강화\" - 뉴시스",
    "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "한국, 보이나? “러 드론서 ‘삼성전자’ 메모리칩 나왔다”…증거 공개한 우크라 [배틀라인] - 서울신문",
-   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -208,15 +193,38 @@
    "agents": []
   },
   {
-   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
+   "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - thelec.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - businesspost.co.kr",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원 - yna.co.kr",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 반도체 ‘AI 특수’…미국 수출 2배·중국 207% 폭증 - 키즈맘",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -240,15 +248,6 @@
    ]
   },
   {
-   "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - 한겨레",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "'회색 코뿔소' 중국 메모리…반도체 슈퍼사이클 최대 변수로 부상 - ebn.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -256,7 +255,7 @@
    "agents": []
   },
   {
-   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
+   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - ytn.co.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -265,7 +264,7 @@
    ]
   },
   {
-   "title": "레노버 2분기 매출 급증 비결로 '중국 메모리' 꼽아, 삼성전자 SK하이닉스 마이크론 의존 낮출 움직임 주목 - 비즈니스포스트",
+   "title": "레노버 2분기 매출 급증 비결로 '중국 메모리' 꼽아, 삼성전자 SK하이닉스 마이크론 의존 낮출 움직임 주목 - businesspost.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -290,7 +289,7 @@
    "agents": []
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -306,7 +305,7 @@
    "agents": []
   },
   {
-   "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
+   "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - hankyung.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -333,7 +332,7 @@
    ]
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - businesspost.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -349,6 +348,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - khan.co.kr",
+   "pub": "Mon, 04 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "7월 외국인 주식 순매도 207억달러… 코스피 하락하자 리밸런싱 완화 - 조선비즈 - Chosunbiz",
@@ -397,7 +403,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - asiae.co.kr",
+   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -463,8 +469,8 @@
    "agents": []
   },
   {
-   "title": "외국인 3조원 '폭풍 매수'…코스피 7천선 목전 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "외국인, 이달 역대 최대로 '코스피 팔고 코스닥 담았다' - yna.co.kr",
+   "pub": "Sun, 31 May 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -497,7 +503,7 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - yna.co.kr",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -588,7 +594,7 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - yna.co.kr",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -624,6 +630,13 @@
    ]
   },
   {
+   "title": "Prediction: These 3 Artificial Intelligence (AI) Stocks Will Rise More than 30% Before 2026 Is Over",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
    "pub": "Sat, 15 Aug 2026",
    "src": "en",
@@ -633,22 +646,11 @@
    ]
   },
   {
-   "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
+   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
