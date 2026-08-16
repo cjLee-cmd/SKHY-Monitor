@@ -1,9 +1,9 @@
 {
- "ts_kst": "08-17 00:39",
- "n_items": 103,
+ "ts_kst": "08-17 00:49",
+ "n_items": 104,
  "by_source": {
   "kr": 74,
-  "en": 29
+  "en": 30
  },
  "routed": {
   "P-ADR": 2,
@@ -12,18 +12,8 @@
   "C-CHINA": 9,
   "F-ACTIVE": 6
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
    "title": "\"삼성전자·SK하이닉스 연간 최대 300조원 주주환원\"...코스피 반등 열쇠될까 - 조선일보",
@@ -35,6 +25,13 @@
   {
    "title": "‘SK하이닉스 주주들 난리난다’ 하루만에 10% 급락…‘솔리다임’ 상장 무섭네 [투자360] - 헤럴드경제",
    "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스(000660) - 매일경제 마켓",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -90,13 +87,6 @@
   {
    "title": "SK스퀘어 팔고 SK하이닉스로 갈아탄 국민연금 - 파이낸셜뉴스",
    "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "기존 예측을 뒤엎는 신호 ! 이 신호를 보고 대응했습니다 (ft.SK하이닉스) - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -433,7 +423,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인 매수에 5일 연속 상승…‘7천피’ 재탈환 시도 - sankyungtoday.com",
+   "title": "코스피, 외국인 매수에 5일 연속 상승…‘7천피’ 재탈환 시도 - 산경투데이",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -610,6 +600,36 @@
    ]
   },
   {
+   "title": "What Could Intel (INTC) Returning To Memory Mean For Investors?",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "These 5 AI Stocks Have Returned 300%-Plus Over the Past 3 Years -- and 1 Still Looks Dirt Cheap",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "These 2 Potential Stock Splits Look Like Screaming Deals Right Now",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "5-star analyst sets jaw-dropping Micron stock price target for 2026",
    "pub": "Sat, 15 Aug 2026",
    "src": "en",
@@ -626,40 +646,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SpaceX vs. Micron: Which High-Growth Titan Is the Better Buy?",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "What Could Intel (INTC) Returning To Memory Mean For Investors?",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
