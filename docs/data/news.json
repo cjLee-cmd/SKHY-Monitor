@@ -1,28 +1,18 @@
 {
- "ts_kst": "08-16 11:31",
- "n_items": 103,
+ "ts_kst": "08-16 11:41",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 12,
+  "R-LEVERAGE": 12,
+  "M-CYCLE": 11,
   "C-CHINA": 9,
-  "F-ACTIVE": 6,
-  "R-LEVERAGE": 11
+  "F-ACTIVE": 6
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
    "title": "‘SK하이닉스 주주들 난리난다’ 하루만에 10% 급락…‘솔리다임’ 상장 무섭네 [투자360] - 헤럴드경제",
@@ -46,22 +36,8 @@
    "agents": []
   },
   {
-   "title": "하이닉스 통합노조 출범에 '성과급 갈등' 재점화?‥노란봉투법 '구체화' - MBC 뉴스",
+   "title": "[단독] “최태원 회장 결단 없으면 투쟁”…SK하이닉스 노조마저 거리로 나서나 - v.daum.net",
    "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 통합노조 공식 출범…설립 인가 완료 - 연합뉴스",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 생산·사무직 통합노조도 출범... 노조 총 4개로 - v.daum.net",
-   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -88,6 +64,15 @@
    "agents": []
   },
   {
+   "title": "반도체주 반등에 다시 불붙은 ‘빚투’…삼전닉스 신용잔고 급증 - 미주중앙일보",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "2027년 범용 메모리 가격 하락 전망, 삼성전자·SK하이닉스 HBM 생산비중 더 높아진다 - 비즈니스포스트",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -97,20 +82,6 @@
    ]
   },
   {
-   "title": "美 정부, 애플에 中 메모리 사용 차단 압박…삼성·SK하이닉스 반사이익 전망 - 글로벌이코노믹",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[특징주] SK하이닉스 6%↑…美 메모리주 급등에 동반 강세 - v.daum.net",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+] - 한국경제",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -118,8 +89,36 @@
    "agents": []
   },
   {
-   "title": "8월 들어 '삼전하닉' 목표가 또 낮춘 증권사…\"2027년은 하락\" - v.daum.net",
+   "title": "SK하이닉스 SSD 보증교환서 ‘재고 없다’…환불 논란 - 글로벌이코노믹",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "올 상반기 SK하이닉스 직원 평균급여 1억4400만원 - 매일경제 마켓",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'국민주' 반열에 오른 SK하이닉스…소액주주 68만→346만 명 돌파 - 파이낸셜뉴스",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'메모리 투톱' 삼성·SK하이닉스 소액주주 1143만명…반년 새 604만명↑ - v.daum.net",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“이 정도면 국민주 맞네”…반도체株 열풍에 ‘삼전닉스’ 개미 1100만명 넘었다 - 서울경제",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -128,7 +127,7 @@
    "title": "“반도체 지금 팔아라?” 충격적 65만→35만원, 삼성전자 목표주가 믿어도 되나 - 헤럴드경제",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
-   "q": "SK하이닉스",
+   "q": "삼성전자 반도체",
    "agents": []
   },
   {
@@ -183,13 +182,6 @@
    "agents": []
   },
   {
-   "title": "‘반도체 대장주’에 개미 몰렸다…삼성전자·SK하이닉스 소액주주 1143만명 - mediapen.com",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "TSMC, AI칩 패키징 질주…삼성전자, HBM·파운드리·패키징 역량 총력 - 파이낸셜뉴스",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -199,6 +191,13 @@
    ]
   },
   {
+   "title": "[코스피·코스닥지수] 삼성전자와 SK하이닉스 등 반도체 주가 상승으로 코스피, 반도체 훈풍에 코스닥 추월 - 한국강사신문",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "씨케이솔루션, 삼성전자 평택 P5 공사 수주...308억원 규모 - 디일렉",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
@@ -206,8 +205,8 @@
    "agents": []
   },
   {
-   "title": "[코스피·코스닥지수] 삼성전자와 SK하이닉스 등 반도체 주가 상승으로 코스피, 반도체 훈풍에 코스닥 추월 - 한국강사신문",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "삼성전자, 딥러닝·데이터 전문가 영입…반도체 AX 가속 - 전자신문",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -293,13 +292,6 @@
    ]
   },
   {
-   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -307,6 +299,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - sisain.co.kr",
@@ -412,7 +411,7 @@
    "agents": []
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
    "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -630,13 +629,6 @@
    ]
   },
   {
-   "title": "Prediction: These 3 Artificial Intelligence (AI) Stocks Will Rise More than 30% Before 2026 Is Over",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
    "pub": "Sat, 15 Aug 2026",
    "src": "en",
@@ -646,11 +638,13 @@
    ]
   },
   {
-   "title": "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
+   "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
    "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
