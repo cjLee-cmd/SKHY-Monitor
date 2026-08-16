@@ -1,46 +1,52 @@
 {
- "ts_kst": "08-16 20:38",
- "n_items": 104,
+ "ts_kst": "08-16 20:48",
+ "n_items": 105,
  "by_source": {
   "kr": 75,
-  "en": 29
+  "en": 30
  },
  "routed": {
+  "P-ADR": 1,
   "R-LEVERAGE": 15,
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "C-CHINA": 8,
   "F-ACTIVE": 5
  },
- "unassigned": 67,
- "alerts": [],
+ "unassigned": 66,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "삼전닉스 안 팔고 버텼는데…\"300조 역대급 환원\" 희소식 예고 - hankyung.com",
+   "title": "“삼성전자·SK하이닉스 연간 최대 300조원 주주환원“...코스피 반등 열쇠될까 - v.daum.net",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "“여보, 삼전닉스 아직 안팔았지?”…‘300조’ 관측에 반도체 개미 ‘들썩’ - sedaily.com",
+   "title": "‘SK하이닉스 주주들 난리난다’ 하루만에 10% 급락…‘솔리다임’ 상장 무섭네 [투자360] - 헤럴드경제",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"화요일 국장 비상\"?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - v.daum.net",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼전닉스 주주환원, 연간 200조 넘어 300조 가능할까 - 연합뉴스",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "‘SK하이닉스 주주들 난리난다’ 하루만에 10% 급락…‘솔리다임’ 상장 무섭네 [투자360] - biz.heraldcorp.com",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "쉬어가던 반도체 들썩이자 삼전닉스 '빚투' 신용잔고 다시 '쑥' - 연합뉴스",
@@ -123,6 +129,13 @@
   {
    "title": "SK스퀘어, 2분기 영업익 1920억 원으로 사상 최대… SK하이닉스 덕 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "기존 예측을 뒤엎는 신호 ! 이 신호를 보고 대응했습니다 (ft.SK하이닉스) - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -477,7 +490,7 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -604,29 +617,6 @@
    ]
   },
   {
-   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "These 5 AI Stocks Have Returned 300%-Plus Over the Past 3 Years -- and 1 Still Looks Dirt Cheap",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "These 2 Potential Stock Splits Look Like Screaming Deals Right Now",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "5-star analyst sets jaw-dropping Micron stock price target for 2026",
    "pub": "Sat, 15 Aug 2026",
    "src": "en",
@@ -638,6 +628,33 @@
   {
    "title": "Social Media Went Negative on Memory Stocks like SanDisk & Micron Last Weekend. Then They Rallied.",
    "pub": "Sat, 15 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SpaceX vs. Micron: Which High-Growth Titan Is the Better Buy?",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Edges Back Toward $1,000. How Far It Could Go.",
+   "pub": "Fri, 14 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
