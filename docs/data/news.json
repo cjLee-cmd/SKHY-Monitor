@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-17 03:36",
+ "ts_kst": "08-17 03:46",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,24 +7,14 @@
  },
  "routed": {
   "C-BUYBACK": 1,
-  "P-ADR": 2,
+  "P-ADR": 1,
   "M-CYCLE": 9,
-  "R-LEVERAGE": 13,
-  "C-CHINA": 9,
+  "R-LEVERAGE": 15,
+  "C-CHINA": 8,
   "F-ACTIVE": 6
  },
  "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "삼성·SK하이닉스 주주환원 ‘300조설’…배당·자사주에 얼마 풀까 - 스트레이트뉴스",
@@ -68,6 +58,20 @@
    "agents": []
   },
   {
+   "title": "기존 예측을 뒤엎는 신호 ! 이 신호를 보고 대응했습니다 (ft.SK하이닉스) - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "’황제주’ SK하이닉스 쪼개질까…주가 가를 진짜 카드는 3분기 환원책 By EBN - Investing.com 한국어",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "‘300조’ 돈벼락 오나…삼전닉스 주가 재평가 신호탄 된다는 이것 - 중앙일보",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
@@ -77,6 +81,24 @@
   {
    "title": "쉬어가던 반도체 들썩이자 삼전닉스 '빚투' 신용잔고 다시 '쑥' - 연합뉴스",
    "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "반도체 반등에 또 '빚투'⋯삼전닉스 신용잔고 '쑥' - v.daum.net",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "삼성전자·SK하이닉스 '빚투' 다시 증가세…신용잔고 5조원 육박 - 매일경제TV",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -112,38 +134,6 @@
    "agents": []
   },
   {
-   "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "[분석] 트럼프 \"中 CXMT 칩 안 된다\" 제동…삼성전자·SK하이닉스 반사이익 기대 - 알파경제",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "\"이건 아닙니다 회장님\"…SK하이닉스 '5단 중복상장' 추진에 쏟아진 비판 - v.daum.net",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성·SK하이닉스 환원 200조 검토…2분기 영업이익 합산 150조 - 자본시장뉴스",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "“반도체 지금 팔아라?” 충격적 65만→35만원, 삼성전자 목표주가 믿어도 되나 - 헤럴드경제",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -158,7 +148,7 @@
    "agents": []
   },
   {
-   "title": "전영현 “갈 길 멀다, 자만 말라”…HBM4 성공에도 삼성 반도체 ‘긴장’[biz-플러스] - sedaily.com",
+   "title": "전영현 “갈 길 멀다, 자만 말라”…HBM4 성공에도 삼성 반도체 ‘긴장’[biz-플러스] - 서울경제",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -271,8 +261,8 @@
    ]
   },
   {
-   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
-   "pub": "Sun, 09 Aug 2026",
+   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -280,8 +270,8 @@
    ]
   },
   {
-   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -401,7 +391,7 @@
    ]
   },
   {
-   "title": "외국인, 코스피 80조 팔았는데…지분율 늘어난 ＇마법＇ [B급기자의 B급리포트] - wowtv.co.kr",
+   "title": "외국인, 코스피 80조 팔았는데…지분율 늘어난 ＇마법＇ [B급기자의 B급리포트] - 한국경제TV",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -615,6 +605,36 @@
    ]
   },
   {
+   "title": "What Could Intel (INTC) Returning To Memory Mean For Investors?",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "These 5 AI Stocks Have Returned 300%-Plus Over the Past 3 Years -- and 1 Still Looks Dirt Cheap",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "These 2 Potential Stock Splits Look Like Screaming Deals Right Now",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "5-star analyst sets jaw-dropping Micron stock price target for 2026",
    "pub": "Sat, 15 Aug 2026",
    "src": "en",
@@ -631,40 +651,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SpaceX vs. Micron: Which High-Growth Titan Is the Better Buy?",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "What Could Intel (INTC) Returning To Memory Mean For Investors?",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
