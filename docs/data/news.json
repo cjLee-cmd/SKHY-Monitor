@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-17 02:11",
+ "ts_kst": "08-17 02:17",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -8,12 +8,22 @@
  "routed": {
   "P-ADR": 2,
   "M-CYCLE": 9,
-  "R-LEVERAGE": 13,
+  "R-LEVERAGE": 12,
   "C-CHINA": 9,
   "F-ACTIVE": 6
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 66,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "\"삼성전자·SK하이닉스 연간 최대 300조원 주주환원\"...코스피 반등 열쇠될까 - 조선일보",
@@ -39,7 +49,7 @@
    ]
   },
   {
-   "title": "범용 메모리 가격 2027년 하락 전망, 삼성전자·SK하이닉스 HBM 생산비중 더 높아진다 - 비즈니스포스트",
+   "title": "범용 메모리 가격 2027년 하락 전망, 삼성전자·SK하이닉스 HBM 생산비중 더 높아진다 - businesspost.co.kr",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -62,7 +72,7 @@
    "agents": []
   },
   {
-   "title": "'최태원의 전략통'…SK하이닉스 AI 신사업 발굴 맡은 기타리스트 [강경주의 테크X] - 한국경제",
+   "title": "'최태원의 전략통'…SK하이닉스 AI 신사업 발굴 맡은 기타리스트 [강경주의 테크X] - hankyung.com",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -92,7 +102,7 @@
    "agents": []
   },
   {
-   "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
+   "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - ajunews.com",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -196,7 +206,7 @@
    "agents": []
   },
   {
-   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - businesspost.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -205,7 +215,7 @@
    ]
   },
   {
-   "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+] - 한국경제",
+   "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+] - hankyung.com",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -226,7 +236,7 @@
    "agents": []
   },
   {
-   "title": "AI 열풍 타고 삼성전자 반도체 수출 2배↑…미국 70조 돌파 - cbci.co.kr",
+   "title": "AI 열풍 타고 삼성전자 반도체 수출 2배↑…미국 70조 돌파 - CBC뉴스",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -249,7 +259,7 @@
    "agents": []
   },
   {
-   "title": "레노버 2분기 매출 급증 비결로 '중국 메모리' 꼽아, 삼성전자 SK하이닉스 마이크론 의존 낮출 움직임 주목 - 비즈니스포스트",
+   "title": "레노버 2분기 매출 급증 비결로 '중국 메모리' 꼽아, 삼성전자 SK하이닉스 마이크론 의존 낮출 움직임 주목 - businesspost.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -308,7 +318,7 @@
    "agents": []
   },
   {
-   "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
+   "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - hankyung.com",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -365,7 +375,7 @@
    ]
   },
   {
-   "title": "개미들 6조원 팔아치울 때…'삼전닉스' 쓸어담은 외국인 - 한국경제",
+   "title": "개미들 6조원 팔아치울 때…'삼전닉스' 쓸어담은 외국인 - hankyung.com",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -455,7 +465,7 @@
    "agents": []
   },
   {
-   "title": "외국인 지난주 6.5조 순매수…삼전닉스만 4.6조원 - biz.sbs.co.kr",
+   "title": "외국인 지난주 6.5조 순매수…삼전닉스만 4.6조원 - SBS Biz",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -464,7 +474,7 @@
    ]
   },
   {
-   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
+   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - asiae.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -473,7 +483,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -500,13 +510,6 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
    "pub": "Wed, 22 Jul 2026",
    "src": "kr",
@@ -525,11 +528,27 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
+  },
+  {
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "pub": "Tue, 14 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
@@ -543,15 +562,6 @@
   {
    "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "pub": "Tue, 14 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -575,17 +585,15 @@
    ]
   },
   {
-   "title": "신용융자 38조 육박 빚투 과열, 삼전닉스에 9조 쏠렸다 - 자본시장뉴스",
-   "pub": "Fri, 19 Jun 2026",
+   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
+   "pub": "Mon, 08 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "agents": []
   },
   {
-   "title": "\"코스피 9000 바라보는데\"…신용잔고 38조·대차거래 190조 돌파 '경고음' - v.daum.net",
-   "pub": "Thu, 04 Jun 2026",
+   "title": "신용융자 38조 육박 빚투 과열, 삼전닉스에 9조 쏠렸다 - 자본시장뉴스",
+   "pub": "Fri, 19 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -600,6 +608,36 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "What Could Intel (INTC) Returning To Memory Mean For Investors?",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "These 5 AI Stocks Have Returned 300%-Plus Over the Past 3 Years -- and 1 Still Looks Dirt Cheap",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "These 2 Potential Stock Splits Look Like Screaming Deals Right Now",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "5-star analyst sets jaw-dropping Micron stock price target for 2026",
@@ -618,40 +656,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SpaceX vs. Micron: Which High-Growth Titan Is the Better Buy?",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "What Could Intel (INTC) Returning To Memory Mean For Investors?",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
