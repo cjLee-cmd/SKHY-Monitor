@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-16 19:11",
+ "ts_kst": "08-16 19:20",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -8,11 +8,21 @@
  "routed": {
   "M-CYCLE": 10,
   "R-LEVERAGE": 14,
-  "C-CHINA": 9,
+  "C-CHINA": 8,
   "F-ACTIVE": 5
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 67,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "\"삼성전자·SK하이닉스 연간 최대 300조원 주주환원\"...코스피 반등 열쇠될까 - 조선일보",
@@ -50,13 +60,34 @@
    "agents": []
   },
   {
-   "title": "범용 메모리 가격 2027년 하락 전망, 삼성전자·SK하이닉스 HBM 생산비중 더 높아진다 - businesspost.co.kr",
+   "title": "범용 메모리 가격 2027년 하락 전망, 삼성전자·SK하이닉스 HBM 생산비중 더 높아진다 - 비즈니스포스트",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "美 정부, 애플에 中 메모리 사용 차단 압박…삼성·SK하이닉스 반사이익 전망 - 글로벌이코노믹",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "최태원 \"메모리는 전쟁\"…CNBC가 본 SK하이닉스 '1000조원 베팅' - edaily.co.kr",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "‘300조’ 돈벼락 오나…삼전닉스 주가 재평가 신호탄 된다는 이것 - joongang.co.kr",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "SK하이닉스 SSD 보증교환서 ‘재고 없다’…환불 논란 - 글로벌이코노믹",
@@ -84,13 +115,20 @@
    ]
   },
   {
-   "title": "반도체주 반등에 다시 불붙은 ‘빚투’…삼전닉스 신용잔고 급증 - 미주중앙일보",
+   "title": "반도체주 반등에 다시 불붙은 ‘빚투’…삼전닉스 신용잔고 급증 - koreadaily.com",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "“반도체 지금 팔아라?” 충격적 65만→35만원, 삼성전자 목표주가 믿어도 되나 - 헤럴드경제",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+] - 한국경제",
@@ -100,37 +138,7 @@
    "agents": []
   },
   {
-   "title": "기존 예측을 뒤엎는 신호 ! 이 신호를 보고 대응했습니다 (ft.SK하이닉스) - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "고점서 물린 삼전·SK하닉 레버리지 ETF 최대 77% 손실…원금 회복까진 얼마나? - 이투데이",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'국민주' 반열에 오른 SK하이닉스…소액주주 68만→346만 명 돌파 - 파이낸셜뉴스",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[분석] 트럼프 \"中 CXMT 칩 안 된다\" 제동…삼성전자·SK하이닉스 반사이익 기대 - 알파경제",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - businesspost.co.kr",
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -139,7 +147,7 @@
    ]
   },
   {
-   "title": "삼성전자 목표가 30만부터 65만원까지…반도체 전망 ‘극과 극’ - 미주중앙일보",
+   "title": "삼성전자 목표가 30만부터 65만원까지…반도체 전망 ‘극과 극’ - koreadaily.com",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -255,7 +263,7 @@
    "agents": []
   },
   {
-   "title": "레노버 2분기 매출 급증 비결로 '중국 메모리' 꼽아, 삼성전자 SK하이닉스 마이크론 의존 낮출 움직임 주목 - businesspost.co.kr",
+   "title": "레노버 2분기 매출 급증 비결로 '중국 메모리' 꼽아, 삼성전자 SK하이닉스 마이크론 의존 낮출 움직임 주목 - 비즈니스포스트",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -307,13 +315,6 @@
    "agents": []
   },
   {
-   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - 머니투데이",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -321,6 +322,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - 머니투데이",
+   "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
@@ -390,7 +398,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - news.nate.com",
+   "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - 네이트",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -422,7 +430,7 @@
    "agents": []
   },
   {
-   "title": "외국인 지난주 6.5조 순매수…삼전닉스만 4.6조원 - biz.sbs.co.kr",
+   "title": "외국인 지난주 6.5조 순매수…삼전닉스만 4.6조원 - SBS Biz",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -447,7 +455,7 @@
    ]
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
    "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -470,7 +478,7 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -642,8 +650,8 @@
    ]
   },
   {
-   "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market",
-   "pub": "Fri, 14 Aug 2026",
+   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
+   "pub": "Sun, 16 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
