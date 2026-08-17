@@ -1,19 +1,29 @@
 {
- "ts_kst": "08-17 20:33",
- "n_items": 101,
+ "ts_kst": "08-17 20:43",
+ "n_items": 102,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 28
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 11,
+  "M-CYCLE": 10,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 11
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
@@ -23,13 +33,6 @@
    "agents": [
     "P-ADR"
    ]
-  },
-  {
-   "title": "SK하이닉스 직원, 상반기에만 평균 1.4억…내년엔 달라질 수도 - 아이뉴스24",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "SK하이닉스, 상반기 직원 1601명 급증… 삼성전자 5배 - it.chosun.com",
@@ -46,7 +49,14 @@
    "agents": []
   },
   {
-   "title": "삼전닉스 ‘300조 주주환원’ 기대에 또 빚투 돌아왔다 - v.daum.net",
+   "title": "[영상] AI 반도체 호황, SK하이닉스 급여로 증명…상반기 1억4400만 원 - 서울경제",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 5일째↑…앤트로픽 호실적에 상장 시초가 '170달러' 넘겨 - news.einfomax.co.kr",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -60,15 +70,22 @@
    "agents": []
   },
   {
-   "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - 연합인포맥스",
+   "title": "‘SK하이닉스 주주들 난리난다’ 하루만에 10% 급락…‘솔리다임’ 상장 무섭네 [투자360] - 헤럴드경제",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하이닉스 '솔리다임' IPO설…증권가 \"지분희석\" vs \"실익있다\" - 연합뉴스",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "KB금융 \"SK하이닉스 수처리시설 대출, 생물다양성 리스크 검토해야\" - 머니투데이 - 머니투데이",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "SK하이닉스 솔리다임 IPO설 ＇모락모락＇…주주에 득일까, 실일까 - 한국경제TV",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -81,14 +98,7 @@
    "agents": []
   },
   {
-   "title": "\"삼성전자·SK하이닉스 연간 최대 300조원 주주환원\"...코스피 반등 열쇠될까 - 조선일보",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[이슈&인사이트] 원화 강세는 진짜인가: SK하이닉스 착시와 재정의 그림자 - 에너지경제신문",
+   "title": "KB금융 \"SK하이닉스 수처리시설 대출, 생물다양성 리스크 검토해야\" - 머니투데이 - 머니투데이",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -102,22 +112,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 호실적에 상반기 현금 117조 증가 - 조선일보",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하닉 1.5조 사더니…국민연금이 '9600억 주식' 판 회사 - 한국경제",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "만들기 무섭게 팔렸다···SK하이닉스, HBM 풀가동에 재고 회전속도 껑충 - 아주경제",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "범용 메모리 가격 2027년 하락 전망, 삼성전자·SK하이닉스 HBM 생산비중 더 높아진다 - businesspost.co.kr",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -125,8 +121,29 @@
    ]
   },
   {
+   "title": "\"삼성전자·SK하이닉스 연간 최대 300조원 주주환원\"...코스피 반등 열쇠될까 - 조선일보",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 호실적에 상반기 현금 117조 증가 - 조선일보",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "“반도체 지금 팔아라?” 충격적 65만→35만원, 삼성전자 목표주가 믿어도 되나 - 헤럴드경제",
    "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - news.einfomax.co.kr",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -220,7 +237,7 @@
    "agents": []
   },
   {
-   "title": "\"반도체 호황\"…창신메모리, 텐센트 제치고 중국 최대 상장기업 - 연합인포맥스",
+   "title": "\"반도체 호황\"…창신메모리, 텐센트 제치고 중국 최대 상장기업 - news.einfomax.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -386,7 +403,7 @@
    ]
   },
   {
-   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
+   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - news.einfomax.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -400,7 +417,7 @@
    "agents": []
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
    "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -464,7 +481,7 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -591,13 +608,6 @@
    ]
   },
   {
-   "title": "Stocks Mostly Up Pre-Bell as Traders Await Fed Meeting Minutes, Retail Earnings",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "The Global DRAM Market Report 2026–2036: Evaluating HBM4, DDR5/GDDR7 Adoption, CMOS-Bonded Arrays, and Strategies of SK Hynix, Samsung, Micron, and ASML",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
@@ -607,27 +617,11 @@
    ]
   },
   {
-   "title": "Sandisk Stock Is Getting Its Mojo Back Amid China Memory-Chip Move",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Intel, Oracle, Marvell, Alibaba, and More Stocks That Explain Today’s Market",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Elon Musk’s 5-Word Statement Should Have Every Micron Investor Paying Attention",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "Social Buzz: Wallstreetbets Stocks Mostly Higher Premarket Monday; Sandisk, Micron to Advance",
@@ -640,6 +634,24 @@
   },
   {
    "title": "Elon Musk Just Uttered 3 Massively Bullish Words for Micron, Sandisk, and SK Hynix",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Bank of America Says the AI Memory Boom Isn’t Over: Why It Sees Micron’s Earnings Exploding 34% a Year",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Billionaire Stanley Druckenmiller Dumped Micron and Intel, and More Than 11X'd Duquesne Family Office's Stake in an AI Pioneer",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
    "q": "MU",
