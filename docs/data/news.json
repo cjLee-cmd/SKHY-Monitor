@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-17 18:20",
+ "ts_kst": "08-17 18:30",
  "n_items": 101,
  "by_source": {
   "kr": 73,
@@ -7,21 +7,19 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 7,
+  "M-CYCLE": 8,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
+ "unassigned": 64,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "증설",
    "src": "kr",
-   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "정부 '반도체 속도전' 반영…SKH, 용인·청주 증설 총력 - v.daum.net",
+   "agents": []
   }
  ],
  "items": [
@@ -42,6 +40,15 @@
    "agents": []
   },
   {
+   "title": "만들기 무섭게 팔렸다···SK하이닉스, HBM 풀가동에 재고 회전속도 '껑충' - v.daum.net",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "SK하닉 1.5조 사더니…국민연금이 '9600억 주식' 판 회사 - 한국경제",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
@@ -49,7 +56,7 @@
    "agents": []
   },
   {
-   "title": "“10조 잭팟인가, 쪼개기 꼼수인가”…SK하닉 흔드는 솔리다임 美 상장설 - v.daum.net",
+   "title": "정부 '반도체 속도전' 반영…SKH, 용인·청주 증설 총력 - v.daum.net",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -63,13 +70,6 @@
    "agents": []
   },
   {
-   "title": "'SK하닉 280층' 고점에 물린 랄랄, 우울증 고백...\"왜 이렇게 살아야 하나\" - 머니투데이 - 머니투데이",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "'77kg→68kg' 랄랄, SK하이닉스 41% 폭락 속 \"살 확 빠졌다\" - v.daum.net",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
@@ -77,7 +77,21 @@
    "agents": []
   },
   {
-   "title": "“하이닉스 280층에 사람 있어요”…랄랄, 주식 하락장에 우울증 토로 - 매일경제",
+   "title": "'SK하닉 280층' 고점에 물린 랄랄, 우울증 고백...\"왜 이렇게 살아야 하나\" - 머니투데이 - 머니투데이",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'하이닉스 280층' 랄랄 \"주식 하락장 우울증…행복하지 않아\" - 뉴스1",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하이닉스 '솔리다임' IPO설…증권가 \"지분희석\" vs \"실익있다\" - 연합뉴스",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -98,36 +112,22 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스(000660) - 매일경제 마켓",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 소액주주, 1100만명 넘겼다…반년 만에 2배 급증 - 뉴시스",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "성인 4명 중 한 명은 '삼전닉스 개미' - v.daum.net",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "성인 4명 중 한 명은 ‘삼전닉스 개미’…소액주주 1100만명 넘어서 - 매일경제",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "[그래픽] 삼성전자·SK하이닉스 상반기 현금·현금성 자산 - v.daum.net",
    "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "KB금융 \"SK하이닉스 수처리시설 대출, 생물다양성 리스크 검토해야\" - 머니투데이 - 머니투데이",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 SSD 보증교환서 ‘재고 없다’…환불 논란 - 글로벌이코노믹",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -524,6 +524,13 @@
    ]
   },
   {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
    "pub": "Wed, 22 Jul 2026",
    "src": "kr",
@@ -531,13 +538,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
@@ -549,8 +549,8 @@
    ]
   },
   {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "pub": "Tue, 14 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -558,8 +558,8 @@
    ]
   },
   {
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "pub": "Tue, 14 Jul 2026",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -601,6 +601,20 @@
    ]
   },
   {
+   "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? SPCX, NVDA, SNDK, MU, NLST, BABA, SLS, RKLB Stocks In Focus",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Market Chatter: Apple May Buy Chinese Memory Chips Despite US Request",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Stock Inches Closer to $1,000 Per Share, but Time Is Running Out for a Stock Split in 2026",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
@@ -626,30 +640,14 @@
    ]
   },
   {
+   "title": "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Is Worth $1.1 Trillion and Sits 23% Below Its 52-Week High. Is the Stock a Buy?",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? SPCX, NVDA, SNDK, MU, NLST, BABA, SLS, RKLB Stocks In Focus",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Billionaire Investor David Tepper Just Exited 12 Stocks. These 5 Are the Most Surprising.",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
    "pub": "Sun, 16 Aug 2026",
    "src": "en",
    "q": "MU",
