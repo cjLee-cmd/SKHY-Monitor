@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-17 19:09",
+ "ts_kst": "08-17 19:19",
  "n_items": 102,
  "by_source": {
   "kr": 73,
@@ -7,21 +7,13 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "C-CHINA": 9,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 11
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "정부 '반도체 속도전' 반영…SKH, 용인·청주 증설 총력 - v.daum.net",
-   "agents": []
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
    "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
@@ -63,14 +55,14 @@
    ]
   },
   {
-   "title": "SK하닉 1.5조 사더니…국민연금이 '9600억 주식' 판 회사 - 한국경제",
+   "title": "정부 '반도체 속도전' 반영…SKH, 용인·청주 증설 총력 - v.daum.net",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "정부 '반도체 속도전' 반영…SKH, 용인·청주 증설 총력 - v.daum.net",
+   "title": "삼전닉스 ‘300조 주주환원’ 기대에 또 빚투 돌아왔다 - v.daum.net",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -112,6 +104,13 @@
    "agents": []
   },
   {
+   "title": "겁먹은 개미 머뭇거릴 때…외국인은 삼전닉스 '5조 베팅' [분석+] - 한국경제",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "[이슈&인사이트] 원화 강세는 진짜인가: SK하이닉스 착시와 재정의 그림자 - 에너지경제신문",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
@@ -119,14 +118,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스(000660) - 매일경제 마켓",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[그래픽] 삼성전자·SK하이닉스 상반기 현금·현금성 자산 - v.daum.net",
+   "title": "SK하닉 1.5조 사더니…국민연금이 '9600억 주식' 판 회사 - 한국경제",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -244,6 +236,15 @@
    "agents": []
   },
   {
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -253,8 +254,8 @@
    ]
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - businesspost.co.kr",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -269,15 +270,6 @@
    "agents": []
   },
   {
-   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -285,13 +277,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
-   "pub": "Mon, 04 May 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
@@ -319,8 +304,15 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
+   "pub": "Mon, 04 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "상장으로 실탄 장전한 창신메모리…韓 반도체, 생존 전략 다시 짜야 [권상집의 논전(論戰)] - v.daum.net",
+   "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -344,11 +336,13 @@
    ]
   },
   {
-   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - businesspost.co.kr",
-   "pub": "Wed, 20 May 2026",
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "'6.5조' 쓸어담은 외국인…이번 주 순매수 이어갈까 - v.daum.net",
@@ -599,6 +593,15 @@
    ]
   },
   {
+   "title": "Bank of America Says the AI Memory Boom Isn’t Over: Why It Sees Micron’s Earnings Exploding 34% a Year",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Billionaire Stanley Druckenmiller Dumped Micron and Intel, and More Than 11X'd Duquesne Family Office's Stake in an AI Pioneer",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
@@ -644,13 +647,6 @@
   {
    "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? SPCX, NVDA, SNDK, MU, NLST, BABA, SLS, RKLB Stocks In Focus",
    "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Billionaire Investor David Tepper Just Exited 12 Stocks. These 5 Are the Most Surprising.",
-   "pub": "Sun, 16 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
