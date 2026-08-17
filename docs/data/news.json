@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-18 03:46",
+ "ts_kst": "08-18 03:56",
  "n_items": 102,
  "by_source": {
   "kr": 74,
@@ -7,18 +7,18 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 14,
+  "M-CYCLE": 12,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
- "unassigned": 59,
+ "unassigned": 61,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -403,15 +403,15 @@
    "agents": []
   },
   {
-   "title": "코스피, 外人 귀환에 ‘추가 상승’ 기대…낙관론 확산[주간증시] - 에너지경제신문",
-   "pub": "Sun, 16 Aug 2026",
+   "title": "외국인 나흘새 8조 ‘컴백’…삼전닉스 사고 코스닥은 팔았다 - ebn.co.kr",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "외국인 나흘새 8조 ‘컴백’…삼전닉스 사고 코스닥은 팔았다 - ebn.co.kr",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "코스피, 外人 귀환에 ‘추가 상승’ 기대…낙관론 확산[주간증시] - 에너지경제신문",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -422,6 +422,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
+   "pub": "Tue, 30 Jun 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "개미들 6조원 팔아치울 때…'삼전닉스' 쓸어담은 외국인 - 한국경제",
@@ -436,15 +445,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
-   "pub": "Tue, 30 Jun 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "[0813마감체크] 코스피, 외국인·기관 순매수에 6800선 회복... 삼전닉스 급등 - 인포스탁데일리",
@@ -524,15 +524,6 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -549,8 +540,8 @@
    ]
   },
   {
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "pub": "Tue, 14 Jul 2026",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -592,6 +583,15 @@
    ]
   },
   {
+   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
+   "pub": "Wed, 03 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
@@ -610,6 +610,13 @@
    ]
   },
   {
+   "title": "SanDisk Rallied On Contracts It Had Already Signed",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Hedge Fund Heavyweights Are Dumping Micron (MU). Except One Billionaire.",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
@@ -617,6 +624,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Stock Market Today: Dow Falls, Oil Up After Trump Oman Threat; Energy Stock Clears Entry (Live Coverage)",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Druckenmiller dumps Micron, Intel, buys Amazon in Q2 2026",
@@ -638,24 +652,6 @@
   },
   {
    "title": "Not Micron, Not Sandisk. This AI Stock Will Be the Biggest Beneficiary of the Next Infrastructure Bottleneck",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Claws Back From Lows To A Buy Point",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology (MU) Watches As A Major Customer Weighs Chinese Memory Chips",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
    "q": "MU",
