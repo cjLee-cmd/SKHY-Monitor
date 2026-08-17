@@ -1,38 +1,19 @@
 {
- "ts_kst": "08-18 02:35",
+ "ts_kst": "08-18 02:45",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 15,
+  "M-CYCLE": 12,
   "P-ADR": 1,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
- "unassigned": 58,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 61,
+ "alerts": [],
  "items": [
   {
    "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
@@ -56,19 +37,21 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 평균급여 1.44억…전년比 2700만원 늘었다 - 뉴시스",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "만들기 무섭게 팔렸다···SK하이닉스, HBM 풀가동에 재고 회전속도 '껑충' - v.daum.net",
+   "title": "만들기 무섭게 팔렸다···SK하이닉스, HBM 풀가동에 재고 회전속도 껑충 - 아주경제",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "M-CYCLE"
+   ]
+  },
+  {
+   "title": "\"화요일 국장 비상\"?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - v.daum.net",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
    ]
   },
   {
@@ -84,15 +67,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
   },
   {
    "title": "KB금융 \"SK하이닉스 수처리시설 대출, 생물다양성 리스크 검토해야\" - 머니투데이 - 머니투데이",
@@ -138,6 +112,13 @@
   },
   {
    "title": "'하이닉스 280층' 랄랄, 결국 우울증 걸렸다 \"나아질 기미 안 보여\" 충동적 탈색까지 - 네이트",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[이슈&인사이트] 원화 강세는 진짜인가: SK하이닉스 착시와 재정의 그림자 - 에너지경제신문",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -621,6 +602,13 @@
    ]
   },
   {
+   "title": "Stock Market Today: Dow Falls, Oil Up After Trump Oman Threat; Energy Stock Clears Entry (Live Coverage)",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Druckenmiller dumps Micron, Intel, buys Amazon in Q2 2026",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
@@ -657,20 +645,11 @@
    ]
   },
   {
-   "title": "Chip stocks rally as US pressure on Chinese memory suppliers boosts sentiment",
+   "title": "Investors Remember Why They Love Memory-Chip Stocks",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Prediction: Micron Is Up 240% This Year, and Here Is the Next Catalyst",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
