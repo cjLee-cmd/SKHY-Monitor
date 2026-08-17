@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-18 03:56",
+ "ts_kst": "08-18 04:06",
  "n_items": 102,
  "by_source": {
   "kr": 74,
@@ -7,23 +7,13 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 12,
-  "C-CHINA": 9,
-  "F-ACTIVE": 7,
+  "M-CYCLE": 14,
+  "C-CHINA": 8,
+  "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
  "unassigned": 61,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
@@ -253,6 +243,15 @@
    "agents": []
   },
   {
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -264,15 +263,6 @@
   {
    "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
    "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -344,13 +334,11 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - v.daum.net",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
+   "agents": []
   },
   {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
@@ -424,15 +412,6 @@
    "agents": []
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
-   "pub": "Tue, 30 Jun 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "개미들 6조원 팔아치울 때…'삼전닉스' 쓸어담은 외국인 - 한국경제",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
@@ -445,6 +424,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - joongang.co.kr",
+   "pub": "Tue, 30 Jun 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "[0813마감체크] 코스피, 외국인·기관 순매수에 6800선 회복... 삼전닉스 급등 - 인포스탁데일리",
@@ -472,13 +460,11 @@
    ]
   },
   {
-   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - asiae.co.kr",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "이달 개인은 코스피 상승, 외국인은 하락 ‘베팅’ - 국제신문",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -610,13 +596,6 @@
    ]
   },
   {
-   "title": "SanDisk Rallied On Contracts It Had Already Signed",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Hedge Fund Heavyweights Are Dumping Micron (MU). Except One Billionaire.",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
@@ -624,13 +603,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Stock Market Today: Dow Falls, Oil Up After Trump Oman Threat; Energy Stock Clears Entry (Live Coverage)",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Druckenmiller dumps Micron, Intel, buys Amazon in Q2 2026",
@@ -652,6 +624,24 @@
   },
   {
    "title": "Not Micron, Not Sandisk. This AI Stock Will Be the Biggest Beneficiary of the Next Infrastructure Bottleneck",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Claws Back From Lows To A Buy Point",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Technology (MU) Watches As A Major Customer Weighs Chinese Memory Chips",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
    "q": "MU",
