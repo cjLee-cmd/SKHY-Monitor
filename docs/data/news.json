@@ -1,27 +1,19 @@
 {
- "ts_kst": "08-17 18:30",
- "n_items": 101,
+ "ts_kst": "08-17 18:39",
+ "n_items": 100,
  "by_source": {
-  "kr": 73,
+  "kr": 72,
   "en": 28
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 8,
+  "M-CYCLE": 9,
+  "R-LEVERAGE": 12,
   "C-CHINA": 9,
-  "F-ACTIVE": 7,
-  "R-LEVERAGE": 12
+  "F-ACTIVE": 7
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "정부 '반도체 속도전' 반영…SKH, 용인·청주 증설 총력 - v.daum.net",
-   "agents": []
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
    "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
@@ -56,7 +48,7 @@
    "agents": []
   },
   {
-   "title": "정부 '반도체 속도전' 반영…SKH, 용인·청주 증설 총력 - v.daum.net",
+   "title": "SK하이닉스 직원 상반기에만 평균 1억4천만원 - 충청매일",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -91,8 +83,8 @@
    "agents": []
   },
   {
-   "title": "하이닉스 '솔리다임' IPO설…증권가 \"지분희석\" vs \"실익있다\" - 연합뉴스",
-   "pub": "Sun, 16 Aug 2026",
+   "title": "삼성전자·SK하이닉스, 호실적에 상반기 현금 117조 증가 - 조선일보",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -105,8 +97,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 호실적에 상반기 현금 117조 증가 - 조선일보",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "SK하이닉스(000660) - 매일경제 마켓",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -133,11 +125,13 @@
    "agents": []
   },
   {
-   "title": "AI 반도체에 43조 쏟았다…삼성·SK, 투자 35% 확대 - 이투데이",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "쉬어가던 반도체 들썩이자 삼전닉스 '빚투' 신용잔고 다시 '쑥' - 매일경제 마켓",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "삼성전자, 기흥 신규 R&D팹 '파운드리' 활용 추진…엔비디아 수요 선제 대응 - 지디넷코리아",
@@ -170,13 +164,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원 - 연합뉴스",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자, 상반기 반도체 대중 수출 625억달러 기록…미국 제쳐 - 글로벌이코노믹",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
@@ -184,8 +171,22 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 'AI 특수'…미국 수출 2배·중국 207% 폭증 - 네이트",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "삼성전자, 러닝·데이터 전문가 영입…반도체 AI 전환 '가속화' : 네이버 블로그 - Naver Blog",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "테일러 팹 가동 앞둔 삼성전자, 美 단기파견 모집 ‘냉랭’… “업무 강도 대비 보상 적어” - 조선비즈 - Chosunbiz",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원 - 연합뉴스",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -200,29 +201,15 @@
    ]
   },
   {
-   "title": "테일러 팹 가동 앞둔 삼성전자, 美 단기파견 모집 ‘냉랭’… “업무 강도 대비 보상 적어” - 조선비즈 - Chosunbiz",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 러닝·데이터 전문가 영입…반도체 AI 전환 '가속화' : 네이버 블로그 - blog.naver.com",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성, 메모리가격 급등 사업구조 ‘쏠림’ 심화. 가전·스마트폰 치명타 - 엠투데이",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 목표주가 '극과 극'…AI 반도체는 사이클인가 성장산업인가 - 폴리뉴스 Polinews",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -244,8 +231,8 @@
    "agents": []
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -253,8 +240,8 @@
    ]
   },
   {
-   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -296,6 +283,13 @@
    ]
   },
   {
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
+   "pub": "Mon, 04 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -312,13 +306,6 @@
    ]
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
-   "pub": "Mon, 04 May 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "상장으로 실탄 장전한 창신메모리…韓 반도체, 생존 전략 다시 짜야 [권상집의 논전(論戰)] - v.daum.net",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
@@ -328,19 +315,21 @@
    ]
   },
   {
-   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - 머니투데이",
-   "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
     "C-CHINA"
+   ]
+  },
+  {
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 27 Jun 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -424,14 +413,14 @@
    "agents": []
   },
   {
-   "title": "외국인, 코스피 80조 팔았는데…지분율 늘어난 ＇마법＇ [B급기자의 B급리포트] - wowtv.co.kr",
+   "title": "외국인, 코스피 80조 팔았는데…지분율 늘어난 ＇마법＇ [B급기자의 B급리포트] - 한국경제TV",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[0813마감체크] 코스피, 외국인·기관 순매수에 6800선 회복... 삼전닉스 급등 - 인포스탁데일리",
+   "title": "[0813마감체크] 코스피, 외국인·기관 순매수에 6800선 회복... 삼전닉스 급등 - infostockdaily.co.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -481,8 +470,8 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -490,8 +479,8 @@
    ]
   },
   {
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -508,13 +497,6 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -524,8 +506,8 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
@@ -540,8 +522,15 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "pub": "Tue, 14 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -549,8 +538,8 @@
    ]
   },
   {
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "pub": "Tue, 14 Jul 2026",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -583,13 +572,11 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
+   "pub": "Mon, 08 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "agents": []
   },
   {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
@@ -599,20 +586,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? SPCX, NVDA, SNDK, MU, NLST, BABA, SLS, RKLB Stocks In Focus",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Market Chatter: Apple May Buy Chinese Memory Chips Despite US Request",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Micron Stock Inches Closer to $1,000 Per Share, but Time Is Running Out for a Stock Split in 2026",
@@ -640,13 +613,6 @@
    ]
   },
   {
-   "title": "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Is Worth $1.1 Trillion and Sits 23% Below Its 52-Week High. Is the Stock a Buy?",
    "pub": "Sun, 16 Aug 2026",
    "src": "en",
@@ -654,6 +620,36 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? SPCX, NVDA, SNDK, MU, NLST, BABA, SLS, RKLB Stocks In Focus",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Billionaire Investor David Tepper Just Exited 12 Stocks. These 5 Are the Most Surprising.",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Market Chatter: Apple May Buy Chinese Memory Chips Despite US Request",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
