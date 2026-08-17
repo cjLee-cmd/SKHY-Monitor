@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-18 00:43",
+ "ts_kst": "08-18 00:53",
  "n_items": 102,
  "by_source": {
   "kr": 74,
@@ -13,17 +13,7 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 60,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
@@ -42,14 +32,16 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 상반기 직원 1601명 급증… 삼성전자 5배 - IT조선",
+   "title": "만들기 무섭게 팔렸다···SK하이닉스, HBM 풀가동에 재고 회전속도 '껑충' - v.daum.net",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "SK하이닉스, 상반기 평균급여 1.44억…전년比 2700만원 늘었다 - 뉴시스",
+   "title": "SK하이닉스, 상반기 직원 1601명 급증… 삼성전자 5배 - IT조선",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -77,22 +69,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 美 자회사 상장설에 증권가 설왕설래…“지분 희석” vs “위상 강화” [투자360] - 헤럴드경제",
+   "title": "아직 남아있는 박정호 지분... SK하이닉스 솔리다임 - 한국금융신문",
    "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'주가 반토막' SK하이닉스, 손자회사 중복상장 '시끌' - inews24.com",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"주가 겨우 살아났는데\"…SK하이닉스 '5단 중복상장' 논란, 개미들 '불안' - 네이트",
-   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -126,21 +104,35 @@
    "agents": []
   },
   {
-   "title": "'하이닉스 280층' 랄랄, 결국 우울증 걸렸다 \"나아질 기미 안 보여\" 충동적 탈색까지 - 네이트",
+   "title": "'하이닉스 280층' 랄랄, 결국 우울증 걸렸다 \"나아질 기미 안 보여\" 충동적 탈색까지 - news.nate.com",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자, 기흥 신규 R&D팹 '파운드리' 활용 추진…엔비디아 수요 선제 대응 - zdnet.co.kr",
+   "title": "[영상] SK하이닉스, 美 메모리 전공정 공장 검토 - 서울경제",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "KB금융 \"SK하이닉스 수처리시설 대출, 생물다양성 리스크 검토해야\" - 머니투데이 - 머니투데이",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 기흥 신규 R&D팹 '파운드리' 활용 추진…엔비디아 수요 선제 대응 - 지디넷코리아",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자 노조의 ‘호남 반도체 제동’ 후폭풍…흔들리는 노정관계 - khan.co.kr",
+   "title": "삼성전자 노조의 ‘호남 반도체 제동’ 후폭풍…흔들리는 노정관계 - 경향신문",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -170,7 +162,7 @@
    ]
   },
   {
-   "title": "전영현 “갈 길 멀다, 자만 말라”…HBM4 성공에도 삼성 반도체 ‘긴장’[biz-플러스] - sedaily.com",
+   "title": "전영현 “갈 길 멀다, 자만 말라”…HBM4 성공에도 삼성 반도체 ‘긴장’[biz-플러스] - 서울경제",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -253,6 +245,15 @@
    "agents": []
   },
   {
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -264,15 +265,6 @@
   {
    "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
    "pub": "Sun, 09 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -321,7 +313,7 @@
    ]
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - khan.co.kr",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
    "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -344,7 +336,7 @@
    ]
   },
   {
-   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - khan.co.kr",
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -396,6 +388,13 @@
    "agents": []
   },
   {
+   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - 연합인포맥스",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "개미들 6조원 팔아치울 때…'삼전닉스' 쓸어담은 외국인 - 한국경제",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
@@ -442,7 +441,7 @@
    "agents": []
   },
   {
-   "title": "[주간수급리포트] \"외국인 반도체 쓸어담고, 개인은 팔고\"…코스피, 719포인트 급등 - 네이트",
+   "title": "[주간수급리포트] \"외국인 반도체 쓸어담고, 개인은 팔고\"…코스피, 719포인트 급등 - news.nate.com",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -469,13 +468,6 @@
   {
    "title": "이달 개인은 코스피 상승, 외국인은 하락 ‘베팅’ - 국제신문",
    "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "이달 초순 개인은 코스피 상승, 외국인은 하락에 베팅했다 - 매일경제 마켓",
-   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -533,7 +525,7 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -592,8 +584,8 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "\"코스피 9000 바라보는데\"…신용잔고 38조·대차거래 190조 돌파 '경고음' - v.daum.net",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -611,6 +603,13 @@
   },
   {
    "title": "Stock Market Today: Dow Falls After Trump Oman Threat; Homebuilders Decline Despite This Data (Live Coverage)",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Super Micro Computer Pulls Back 4%, Dell Falls 3% as DDR5 Patent Fight Hits AI Server Makers",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -643,15 +642,6 @@
   },
   {
    "title": "SanDisk Rallies 8%, Western Digital Rises 6%, Micron Gains 5% as Elon Musk Flags a Memory Bottleneck",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron shares rise as White House pushes Apple away from Chinese memory chips",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
    "q": "MU",
