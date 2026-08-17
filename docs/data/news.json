@@ -1,19 +1,38 @@
 {
- "ts_kst": "08-17 19:31",
- "n_items": 101,
+ "ts_kst": "08-17 19:40",
+ "n_items": 102,
  "by_source": {
   "kr": 73,
-  "en": 28
+  "en": 29
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 10,
+  "M-CYCLE": 12,
   "C-CHINA": 9,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 11
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
@@ -69,28 +88,14 @@
    "agents": []
   },
   {
-   "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - 연합인포맥스",
+   "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - news.einfomax.co.kr",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'SK하닉 280층' 고점에 물린 랄랄, 우울증 고백...\"왜 이렇게 살아야 하나\" - 머니투데이 - 머니투데이",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'77kg→68kg' 랄랄, SK하이닉스 41% 폭락 속 \"살 확 빠졌다\" - v.daum.net",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'하이닉스 280층' 랄랄 \"주식 하락장 우울증…행복하지 않아\" - 뉴스1",
+   "title": "KB금융 \"SK하이닉스 수처리시설 대출, 생물다양성 리스크 검토해야\" - 머니투데이 - 머니투데이",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -119,6 +124,22 @@
   },
   {
    "title": "SK하닉 1.5조 사더니…국민연금이 '9600억 주식' 판 회사 - 한국경제",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "만들기 무섭게 팔렸다···SK하이닉스, HBM 풀가동에 재고 회전속도 껑충 - 아주경제",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[그래픽] 삼성전자·SK하이닉스 상반기 현금·현금성 자산 - v.daum.net",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -213,14 +234,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 러닝·데이터 전문가 영입…반도체 AI 전환 '가속화' : 네이버 블로그 - Naver Blog",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "삼성전자 반도체 ‘AI 특수’…미국 수출 2배·중국 207% 폭증 - 키즈맘",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "\"반도체 호황\"…창신메모리, 텐센트 제치고 중국 최대 상장기업 - 연합인포맥스",
+   "title": "\"반도체 호황\"…창신메모리, 텐센트 제치고 중국 최대 상장기업 - news.einfomax.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -466,7 +487,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -552,7 +573,7 @@
    ]
   },
   {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - s-d.kr",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -593,6 +614,15 @@
    ]
   },
   {
+   "title": "Elon Musk Just Uttered 3 Massively Bullish Words for Micron, Sandisk, and SK Hynix",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Bank of America Says the AI Memory Boom Isn’t Over: Why It Sees Micron’s Earnings Exploding 34% a Year",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
@@ -611,29 +641,6 @@
    ]
   },
   {
-   "title": "Walmart, Target, Home Depot, Amazon, Micron and Alphabet are part of Zacks Earnings Preview",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? SPCX, NVDA, SNDK, MU, NLST, BABA, SLS, RKLB Stocks In Focus",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Market Chatter: Apple May Buy Chinese Memory Chips Despite US Request",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron Stock Inches Closer to $1,000 Per Share, but Time Is Running Out for a Stock Split in 2026",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
@@ -648,6 +655,24 @@
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "Micron Nears $1,000 – And Apple Could Be The Next Catalyst",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Is Worth $1.1 Trillion and Sits 23% Below Its 52-Week High. Is the Stock a Buy?",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
