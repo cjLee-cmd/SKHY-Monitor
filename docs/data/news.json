@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-17 16:51",
+ "ts_kst": "08-17 17:01",
  "n_items": 102,
  "by_source": {
   "kr": 74,
@@ -9,30 +9,11 @@
   "P-ADR": 1,
   "M-CYCLE": 9,
   "C-CHINA": 9,
-  "F-ACTIVE": 7,
+  "F-ACTIVE": 8,
   "R-LEVERAGE": 11
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
@@ -114,20 +95,6 @@
    "agents": []
   },
   {
-   "title": "외국인 다시 삼전·닉스로…반도체 랠리 재시동 거나 - v.daum.net",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "지난주 삼전ㆍSK하닉에 외국인 4.7조 몰렸다⋯개인은 차익 실현 - etoday.co.kr",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "[이슈&인사이트] 원화 강세는 진짜인가: SK하이닉스 착시와 재정의 그림자 - 에너지경제신문",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
@@ -137,6 +104,20 @@
   {
    "title": "삼성전자·SK하이닉스, 호실적에 상반기 현금 117조 증가 - chosun.com",
    "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 190조ㆍSK하이닉스 88조 현금 실탄…재무 건전성 대폭 개선 - 대한경제",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 SSD 보증교환서 ‘재고 없다’…환불 논란 - 글로벌이코노믹",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -280,7 +261,7 @@
    ]
   },
   {
-   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
+   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - ytn.co.kr",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -419,13 +400,6 @@
    "agents": []
   },
   {
-   "title": "외국인은 ‘바이코리아’, 개인은 차익실현…7천피 다시 끌어올린 반도체 - 진일보",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
    "pub": "Tue, 30 Jun 2026",
    "src": "kr",
@@ -433,6 +407,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "외국인은 ‘바이코리아’, 개인은 차익실현…7천피 다시 끌어올린 반도체 - 진일보",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "외국인, 코스피 80조 팔았는데…지분율 늘어난 ＇마법＇ [B급기자의 B급리포트] - 한국경제TV",
@@ -483,11 +464,13 @@
    "agents": []
   },
   {
-   "title": "겁먹은 개미 머뭇거릴 때…외국인은 삼전닉스 '5조 베팅' [분석+] - 블루밍비트",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "코스피 장중 7천 돌파…외국인 3조 원 순매수 - KBS 뉴스",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -635,17 +618,15 @@
    ]
   },
   {
-   "title": "Micron Is Worth $1.1 Trillion and Sits 23% Below Its 52-Week High. Is the Stock a Buy?",
+   "title": "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
    "pub": "Sun, 16 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "5-star analyst sets jaw-dropping Micron stock price target for 2026",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "Micron Is Worth $1.1 Trillion and Sits 23% Below Its 52-Week High. Is the Stock a Buy?",
+   "pub": "Sun, 16 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
@@ -660,13 +641,11 @@
    "agents": []
   },
   {
-   "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
+   "title": "What Could Intel (INTC) Returning To Memory Mean For Investors?",
    "pub": "Sun, 16 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
