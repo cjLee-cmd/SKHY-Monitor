@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-17 15:42",
+ "ts_kst": "08-17 15:52",
  "n_items": 100,
  "by_source": {
   "kr": 72,
@@ -7,13 +7,23 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 8,
+  "M-CYCLE": 9,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 11
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
@@ -88,8 +98,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 레버리지 ETF, 두 달 새 수수료 1172억원 - v.daum.net",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "“삼성전자·SK하이닉스 연간 최대 300조원 주주환원“...코스피 반등 열쇠될까 - v.daum.net",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -116,7 +126,7 @@
    "agents": []
   },
   {
-   "title": "\"너무 싸졌다\"…40% 빠진 삼성전자·SK하이닉스, 증권가가 찍은 반전 포인트 - asiae.co.kr",
+   "title": "\"너무 싸졌다\"…40% 빠진 삼성전자·SK하이닉스, 증권가가 찍은 반전 포인트 - 아시아경제",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -125,6 +135,20 @@
   {
    "title": "삼성전자, 기흥 신규 R&D팹 '파운드리' 활용 추진…엔비디아 수요 선제 대응 - 지디넷코리아",
    "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "AI 반도체에 43조 쏟았다…삼성·SK, 투자 35% 확대 - 이투데이",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "경총, 삼성전자 노조 겨냥 “호남 반도체 공장 신설은 단체교섭 대상 아냐” - v.daum.net",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -194,20 +218,6 @@
   {
    "title": "삼성, 메모리가격 급등 사업구조 ‘쏠림’ 심화. 가전·스마트폰 치명타 - 엠투데이",
    "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 딥러닝·데이터 전문가 영입…반도체 AX 가속 - 블로터",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -320,19 +330,21 @@
    "agents": []
   },
   {
-   "title": "\"한국산 메모리 돈주고도 못사\" … '꿩 대신 닭' 중국산 사는 기업들 - 매일경제",
-   "pub": "Wed, 06 May 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
     "C-CHINA"
+   ]
+  },
+  {
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "pub": "Thu, 05 Feb 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -432,7 +444,7 @@
    ]
   },
   {
-   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - asiae.co.kr",
+   "title": "코스피, 삼전닉스 업고 3%대 상승 마감…외국인·기관 순매수 - 아시아경제",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -441,7 +453,7 @@
    ]
   },
   {
-   "title": "겁먹은 개미 머뭇거릴 때…외국인은 삼전닉스 '5조 베팅' [분석+] - 블루밍비트",
+   "title": "겁먹은 개미 머뭇거릴 때…외국인은 삼전닉스 '5조 베팅' [분석+] - bloomingbit.io",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -455,7 +467,7 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -591,6 +603,13 @@
    ]
   },
   {
+   "title": "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Is Worth $1.1 Trillion and Sits 23% Below Its 52-Week High. Is the Stock a Buy?",
    "pub": "Sun, 16 Aug 2026",
    "src": "en",
@@ -600,25 +619,14 @@
    ]
   },
   {
-   "title": "5-star analyst sets jaw-dropping Micron stock price target for 2026",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Social Media Went Negative on Memory Stocks like SanDisk & Micron Last Weekend. Then They Rallied.",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "Billionaire Investor David Tepper Just Exited 12 Stocks. These 5 Are the Most Surprising.",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "What Could Intel (INTC) Returning To Memory Mean For Investors?",
    "pub": "Sun, 16 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -634,14 +642,14 @@
    ]
   },
   {
-   "title": "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
+   "title": "These 5 AI Stocks Have Returned 300%-Plus Over the Past 3 Years -- and 1 Still Looks Dirt Cheap",
    "pub": "Sun, 16 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "What Could Intel (INTC) Returning To Memory Mean For Investors?",
+   "title": "These 2 Potential Stock Splits Look Like Screaming Deals Right Now",
    "pub": "Sun, 16 Aug 2026",
    "src": "en",
    "q": "MU",
