@@ -1,29 +1,19 @@
 {
- "ts_kst": "08-18 00:23",
+ "ts_kst": "08-18 00:33",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "P-ADR": 2,
-  "M-CYCLE": 13,
+  "P-ADR": 1,
+  "M-CYCLE": 14,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
  "unassigned": 59,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "화요일 국장 비상?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - 아주경제",
@@ -84,13 +74,6 @@
    "agents": []
   },
   {
-   "title": "나야? 삼전닉스야?…'한국 1등 신랑감'이 돼도 고민 - 전자신문",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "만들기 무섭게 팔렸다···SK하이닉스, HBM 풀가동에 재고 회전속도 '껑충' - v.daum.net",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
@@ -128,23 +111,28 @@
    "agents": []
   },
   {
-   "title": "만들기 무섭게 팔렸다···SK하이닉스, HBM 풀가동에 재고 회전속도 껑충 - 아주경제",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "‘SK하이닉스 주주들 난리난다’ 하루만에 10% 급락…‘솔리다임’ 상장 무섭네 [투자360] - 헤럴드경제",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "삼성전자, 기흥 신규 R&D팹 '파운드리' 활용 추진…엔비디아 수요 선제 대응 - 지디넷코리아",
+   "title": "하이닉스 '솔리다임' IPO설…증권가 \"지분희석\" vs \"실익있다\" - 연합뉴스",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 기흥 신규 R&D팹 '파운드리' 활용 추진…엔비디아 수요 선제 대응 - zdnet.co.kr",
    "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자 노조의 ‘호남 반도체 제동’ 후폭풍…흔들리는 노정관계 - 경향신문",
+   "title": "삼성전자 노조의 ‘호남 반도체 제동’ 후폭풍…흔들리는 노정관계 - v.daum.net",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -163,15 +151,6 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
-  },
-  {
-   "title": "\"화요일 국장 비상\"?…삼성·SK하이닉스, 美 반도체주·ADR 보니 - v.daum.net",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "P-ADR"
-   ]
   },
   {
    "title": "전영현 “갈 길 멀다, 자만 말라”…HBM4 성공에도 삼성 반도체 ‘긴장’[biz-플러스] - sedaily.com",
@@ -220,6 +199,15 @@
    "agents": []
   },
   {
+   "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
+   "pub": "Fri, 14 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -227,15 +215,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 상반기 반도체 대중 수출 625억달러 기록…미국 제쳐 - 글로벌이코노믹",
-   "pub": "Sun, 16 Aug 2026",
+   "title": "삼성전자 노조의 ‘호남 반도체 제동’ 후폭풍…흔들리는 노정관계 - 경향신문",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 ‘AI 특수’…미국 수출 2배·중국 207% 폭증 - 키즈맘",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "삼성전자, 상반기 반도체 대중 수출 625억달러 기록…미국 제쳐 - 글로벌이코노믹",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -257,15 +245,6 @@
    "agents": []
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -277,6 +256,15 @@
   {
    "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
    "pub": "Sun, 09 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -407,15 +395,6 @@
    "agents": []
   },
   {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
-   "pub": "Tue, 30 Jun 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "외국인, 코스피 80조 팔았는데…지분율 늘어난 ＇마법＇ [B급기자의 B급리포트] - 한국경제TV",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -423,11 +402,13 @@
    "agents": []
   },
   {
-   "title": "레버리지ETF 규제 후 코스피 변동성 27%↓…외국인 매도 잦아들까 - KB Think",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
+   "pub": "Tue, 30 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "외국인은 ‘바이코리아’, 개인은 차익실현…7천피 다시 끌어올린 반도체 - 진일보",
@@ -480,6 +461,13 @@
   {
    "title": "이달 개인은 코스피 상승, 외국인은 하락 ‘베팅’ - 국제신문",
    "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "이달 초순 개인은 코스피 상승, 외국인은 하락에 베팅했다 - 매일경제 마켓",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -614,6 +602,15 @@
    ]
   },
   {
+   "title": "Micron's AI Boom Is a Utility Story Too. Here's the Power Angle Wall Street Isn't Pricing In.",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "SanDisk Rallies 8%, Western Digital Rises 6%, Micron Gains 5% as Elon Musk Flags a Memory Bottleneck",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
@@ -641,15 +638,6 @@
    ]
   },
   {
-   "title": "Micron vs. NVIDIA: Which AI Chip Stock Is the Better Buy Now?",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "Billionaire David Tepper Trimmed Micron and Sold out of SanDisk. Here’s the New AI Stocks He’s Buying",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
@@ -659,7 +647,7 @@
    ]
   },
   {
-   "title": "Micron Stock Breaks $1,000 After Key Move by Trump Administration",
+   "title": "Sandisk, Micron, Nvidia, SpaceX, Amazon, L3Harris, and More Stocks That Explain Today’s Market",
    "pub": "Mon, 17 Aug 2026",
    "src": "en",
    "q": "MU",
