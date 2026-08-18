@@ -1,18 +1,27 @@
 {
- "ts_kst": "08-19 05:16",
+ "ts_kst": "08-19 05:22",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
+  "P-ADR": 1,
   "M-CYCLE": 12,
-  "C-CHINA": 7,
+  "C-CHINA": 6,
   "F-ACTIVE": 3,
   "R-LEVERAGE": 12
  },
  "unassigned": 70,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
@@ -29,7 +38,7 @@
    "agents": []
   },
   {
-   "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - 연합인포맥스",
+   "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - news.einfomax.co.kr",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -50,6 +59,15 @@
    "agents": []
   },
   {
+   "title": "[속보] SK하이닉스 ADR 9.19% 급락… 미 증시 일제 하락 - 국민일보",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -64,22 +82,22 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주가, 오늘 하락하는 이유는? - Investing.com 한국어",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 5일째↑…앤트로픽 호실적에 상장 시초가 '170달러' 넘겨 - 연합인포맥스",
+   "title": "“SK하이닉스 배당 늘면 2조 유입”…NH證 “SK스퀘어, 주주환원·M&A 확대 기대” - 조선비즈 - Chosunbiz",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 주가 장중 5%대 올라, 미국 반도체주 훈풍에 SK스퀘어도 강세 - 비즈니스포스트",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "NH證 \"SK스퀘어, SK하이닉스 주가 조정 반영…목표가↓\" - v.daum.net",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK하이닉스 주가 하락 반영\" SK스퀘어 목표주가↓-NH - 머니투데이 - 머니투데이",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -113,13 +131,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 자회사 ‘솔리다임’ 상장 추진설…주주환원 강화되나 - 헤럴드경제",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "“반도체 지금 팔아라?” 충격적 65만→35만원, 삼성전자 목표주가 믿어도 되나 - 헤럴드경제",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -134,7 +145,7 @@
    "agents": []
   },
   {
-   "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - 연합인포맥스",
+   "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - news.einfomax.co.kr",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -266,12 +277,12 @@
    "agents": []
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - chosun.com",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "C-CHINA"
+    "M-CYCLE"
    ]
   },
   {
@@ -323,15 +334,6 @@
    "agents": []
   },
   {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - chosun.com",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
@@ -339,6 +341,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - 연합뉴스",
@@ -438,15 +447,15 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인 매수에 7100선 회복…2%대 강세 출발 - newstomato.com",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "코스피, 外人 귀환에 ‘추가 상승’ 기대…낙관론 확산[주간증시] - 에너지경제신문",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "코스피, 外人 귀환에 ‘추가 상승’ 기대…낙관론 확산[주간증시] - 에너지경제신문",
-   "pub": "Sun, 16 Aug 2026",
+   "title": "코스피, 외국인 매수에 7100선 회복…2%대 강세 출발 - newstomato.com",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -581,6 +590,15 @@
    ]
   },
   {
+   "title": "Micron Stock Crashes 7% as AI Memory Trade Suddenly Reverses",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Stock Market Today: Nasdaq Hit Hard By Chip Names; Sandisk, Micron Slide As Biotech Soars (Live Coverage)",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
@@ -624,13 +642,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Prediction: Wall Street May Be Sleeping on This AI Cloud Giant",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
