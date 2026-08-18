@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-19 03:36",
+ "ts_kst": "08-19 03:46",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,23 +7,13 @@
  },
  "routed": {
   "C-BUYBACK": 1,
-  "M-CYCLE": 12,
+  "M-CYCLE": 11,
   "C-CHINA": 7,
-  "F-ACTIVE": 5,
+  "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - marketin.edaily.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 69,
+ "alerts": [],
  "items": [
   {
    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
@@ -64,13 +54,6 @@
   },
   {
    "title": "‘강대강’ SK하이닉스 노사, 9부 능선 넘었다…오늘 임단협 최종 담판 - v.daum.net",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"SK하이닉스 시총 역전이 과열 신호…코스피 회복엔 시간 필요\" - 뉴시스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -128,6 +111,13 @@
   {
    "title": "SK하이닉스, 재경부 국제금융통 부사장으로 영입 - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK, 하이닉스·이노베이션이 실적 견인…목표가↑-하나 - marketin.edaily.co.kr",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -430,6 +420,13 @@
    "agents": []
   },
   {
+   "title": "외국인, 한 주간 코스피 6.5조 사들여…개인은 7조원 '차익 실현' - 매일경제TV",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피 외국인 순매수 '역대 최대'…\"7000 안착하면 그 이상도 가능\" - 뉴스1",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
@@ -458,15 +455,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "7월 외국인 주식 순매도 207억달러… 코스피 하락하자 리밸런싱 완화 - 조선비즈 - Chosunbiz",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - yna.co.kr",
