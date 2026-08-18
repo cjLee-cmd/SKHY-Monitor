@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-19 04:26",
+ "ts_kst": "08-19 04:36",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -8,11 +8,21 @@
  "routed": {
   "M-CYCLE": 11,
   "C-CHINA": 6,
-  "F-ACTIVE": 5,
+  "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 70,
- "alerts": [],
+ "unassigned": 71,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
@@ -43,14 +53,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 임단협 대표자 교섭⋯ 최종 타결 시도 - 브릿지경제",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "‘강대강’ SK하이닉스 노사, 9부 능선 넘었다…오늘 임단협 최종 담판 - v.daum.net",
+   "title": "삼전닉스 200조원대 주주환원 기대감…주가 재평가 불붙나 - 마켓인",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -99,13 +102,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 5일째↑…앤트로픽 호실적에 상장 시초가 '170달러' 넘겨 - 연합인포맥스",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스 주가 장중 5%대 올라, 미국 반도체주 훈풍에 SK스퀘어도 강세 - 비즈니스포스트",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -113,7 +109,21 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 재경부 출신 국제금융통 영입 - 뉴스1",
+   "title": "SK하이닉스 5일째↑…앤트로픽 호실적에 상장 시초가 '170달러' 넘겨 - 연합인포맥스",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 재경부 출신 국제금융통 영입 - news1.kr",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 재정부 출신 정여진 부사장 영입…\"글로벌 정책 대응 강화\" - 뉴시스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -171,7 +181,7 @@
    "agents": []
   },
   {
-   "title": "[주식시황]앤트로픽 훈풍에 반도체株 질주…삼성전자 3%·SK하이닉스 6%↑ - 남도일보",
+   "title": "[주식시황]앤트로픽 훈풍에 반도체株 질주…삼성전자 3%·SK하이닉스 6%↑ - namdonews.com",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -192,7 +202,7 @@
    "agents": []
   },
   {
-   "title": "국민 재산 쥔 반도체…삼성·SK 등 소액주주, 반년 새 2배 급증 - 아시아투데이",
+   "title": "국민 재산 쥔 반도체…삼성·SK 등 소액주주, 반년 새 2배 급증 - asiatoday.co.kr",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -266,7 +276,7 @@
    "agents": []
   },
   {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - chosun.com",
    "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -415,7 +425,14 @@
    "agents": []
   },
   {
-   "title": "코스피 외국인 순매수 '역대 최대'…\"7000 안착하면 그 이상도 가능\" - 뉴스1",
+   "title": "개미들 6조원 팔아치울 때…'삼전닉스' 쓸어담은 외국인 - 한국경제",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피 외국인 순매수 '역대 최대'…\"7000 안착하면 그 이상도 가능\" - news1.kr",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -424,15 +441,15 @@
    ]
   },
   {
-   "title": "코스피, 외국인 매수에 7100선 회복…2%대 강세 출발 - newstomato.com",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "외국인은 ‘바이코리아’, 개인은 차익실현…7천피 다시 끌어올린 반도체 - 진일보",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "외국인은 ‘바이코리아’, 개인은 차익실현…7천피 다시 끌어올린 반도체 - 진일보",
-   "pub": "Sun, 16 Aug 2026",
+   "title": "코스피, 외국인 매수에 7100선 회복…2%대 강세 출발 - newstomato.com",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -443,15 +460,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "7월 외국인 주식 순매도 207억달러… 코스피 하락하자 리밸런싱 완화 - 조선비즈 - Chosunbiz",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - yna.co.kr",
@@ -472,7 +480,7 @@
    ]
   },
   {
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -506,13 +514,6 @@
    "agents": []
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -520,6 +521,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
@@ -583,6 +591,15 @@
    ]
   },
   {
+   "title": "Stock Market Today: Nasdaq Hit Hard By Chip Names; Sandisk, Micron Slide As Biotech Soars (Live Coverage)",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Why Micron Stock and Its Memory Peers Are Falling",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
@@ -593,15 +610,6 @@
   },
   {
    "title": "Micron, Coherent, SpaceX, Klarna, Amylyx, and More Stocks That Explain Today’s Market",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Stock Market Today: Nasdaq Weighed Down By Chip Names; Credo Plunges With Micron, Sandisk (Live Coverage)",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",

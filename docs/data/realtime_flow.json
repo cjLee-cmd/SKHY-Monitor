@@ -1,104 +1,9 @@
 {
- "ts_kst": "08-19 04:16",
- "stocks": {
-  "samsung": {
-   "name": "삼성전자",
-   "price": 268500.0,
-   "chg_pct": -2.19,
-   "slot": "5",
-   "foreign_qty": 1971000.0,
-   "foreign_eok": 5292.1,
-   "inst_qty": -648000.0,
-   "inst_eok": -1739.9,
-   "retail_qty": -1323000.0,
-   "retail_eok": -3552.3,
-   "slots": [
-    {
-     "slot": "5",
-     "frgn": 1971000.0,
-     "orgn": -648000.0
-    },
-    {
-     "slot": "4",
-     "frgn": 1947000.0,
-     "orgn": -549000.0
-    },
-    {
-     "slot": "3",
-     "frgn": 2330000.0,
-     "orgn": -88000.0
-    },
-    {
-     "slot": "2",
-     "frgn": 2553000.0,
-     "orgn": -24000.0
-    },
-    {
-     "slot": "1",
-     "frgn": 1273000.0,
-     "orgn": 0.0
-    }
-   ]
-  },
-  "hynix": {
-   "name": "SK하이닉스",
-   "price": 1662000.0,
-   "chg_pct": 1.03,
-   "slot": "5",
-   "foreign_qty": 719000.0,
-   "foreign_eok": 11949.8,
-   "inst_qty": -132000.0,
-   "inst_eok": -2193.8,
-   "retail_qty": -587000.0,
-   "retail_eok": -9755.9,
-   "slots": [
-    {
-     "slot": "5",
-     "frgn": 719000.0,
-     "orgn": -132000.0
-    },
-    {
-     "slot": "4",
-     "frgn": 690000.0,
-     "orgn": -126000.0
-    },
-    {
-     "slot": "3",
-     "frgn": 707000.0,
-     "orgn": -23000.0
-    },
-    {
-     "slot": "2",
-     "frgn": 626000.0,
-     "orgn": -21000.0
-    },
-    {
-     "slot": "1",
-     "frgn": 138000.0,
-     "orgn": 0.0
-    }
-   ]
-  }
- },
+ "ts_kst": "08-19 04:36",
+ "stocks": {},
  "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
- "triggers": [
-  {
-   "stock": "삼성전자",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +5,292억 / 개인 매도 -3,552억"
-  },
-  {
-   "stock": "SK하이닉스",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +11,950억 / 개인 매도 -9,756억"
-  }
- ],
+ "triggers": [],
  "log": [
-  {
-   "ts": "08-14 10:27",
-   "samsung": 2346.5,
-   "hynix": 5332.7
-  },
   {
    "ts": "08-14 10:59",
    "samsung": 2353.0,
@@ -3041,6 +2946,9 @@
    "ts": "08-19 04:16",
    "samsung": 5292.1,
    "hynix": 11949.8
+  },
+  {
+   "ts": "08-19 04:36"
   }
  ]
 }
