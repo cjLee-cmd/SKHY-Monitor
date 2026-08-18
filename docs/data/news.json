@@ -1,32 +1,36 @@
 {
- "ts_kst": "08-19 02:55",
+ "ts_kst": "08-19 03:05",
  "n_items": 104,
  "by_source": {
-  "kr": 75,
-  "en": 29
+  "kr": 74,
+  "en": 30
  },
  "routed": {
   "M-CYCLE": 12,
   "C-CHINA": 7,
-  "F-ACTIVE": 4,
+  "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 69,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 68,
+ "alerts": [],
  "items": [
   {
    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "구글 삼성전자·SK하이닉스와 메모리반도체 협상에 유리, AI 서버와 스마트폰용 '통합 구매' - 비즈니스포스트",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - 연합인포맥스",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -116,20 +120,6 @@
    "agents": []
   },
   {
-   "title": "하이닉스·이노베이션 쌍끌…지주사 SK 몸값도 뛴다 - v.daum.net",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 주가 부진한데 ‘중복상장’ 논란까지…증권가도 평가 갈려 [이런국장 저런주식] - 서울경제",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "“반도체 지금 팔아라?” 충격적 65만→35만원, 삼성전자 목표주가 믿어도 되나 - biz.heraldcorp.com",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -138,13 +128,6 @@
   },
   {
    "title": "삼성전자, 삼성디스플레이서 빌린 20조원 전액 상환 - 조선비즈 - Chosunbiz",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "구글 삼성전자·SK하이닉스와 메모리반도체 협상에 유리, AI 서버와 스마트폰용 '통합 구매' - 비즈니스포스트",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -434,13 +417,6 @@
    "agents": []
   },
   {
-   "title": "외국인, 한 주간 코스피 6.5조 사들여…개인은 7조원 '차익 실현' - 매일경제TV",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피 외국인 순매수 '역대 최대'…\"7000 안착하면 그 이상도 가능\" - 뉴스1",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
@@ -469,6 +445,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "7월 외국인 주식 순매도 207억달러… 코스피 하락하자 리밸런싱 완화 - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
@@ -635,6 +620,15 @@
   },
   {
    "title": "WSJ Report Sends Memory Stocks Down. SanDisk Down 9%, Micron Down 7%, Western Digital Down 5%",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron, Coherent, SpaceX, Home Depot, Klarna, Amylyx, and More Stocks That Explain Today’s Market",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
