@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-18 08:51",
+ "ts_kst": "08-18 09:01",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -17,19 +17,53 @@
    },
    "brokers": {
     "sell": {
-     "total": 0.0,
-     "foreign": 0.0,
-     "foreign_pct": 0,
-     "houses": []
+     "total": 449015.0,
+     "foreign": 346242.0,
+     "foreign_pct": 77.1,
+     "houses": [
+      {
+       "name": "메릴린치",
+       "qty": 152805.0
+      },
+      {
+       "name": "UBS",
+       "qty": 100484.0
+      },
+      {
+       "name": "씨티그룹",
+       "qty": 92953.0
+      }
+     ]
     },
     "buy": {
-     "total": 0.0,
-     "foreign": 0.0,
-     "foreign_pct": 0,
-     "houses": []
+     "total": 587305.0,
+     "foreign": 587305.0,
+     "foreign_pct": 100.0,
+     "houses": [
+      {
+       "name": "맥쿼리",
+       "qty": 131443.0
+      },
+      {
+       "name": "UBS",
+       "qty": 127054.0
+      },
+      {
+       "name": "JP모간",
+       "qty": 111966.0
+      },
+      {
+       "name": "메릴린치",
+       "qty": 110544.0
+      },
+      {
+       "name": "씨티그룹",
+       "qty": 106298.0
+      }
+     ]
     },
-    "net_foreign_qty": 0.0,
-    "foreign_share_pct": 0
+    "net_foreign_qty": 241063.0,
+    "foreign_share_pct": 90.1
    }
   },
   "hynix": {
@@ -48,19 +82,33 @@
    },
    "brokers": {
     "sell": {
-     "total": 0.0,
-     "foreign": 0.0,
-     "foreign_pct": 0,
-     "houses": []
+     "total": 153625.0,
+     "foreign": 18546.0,
+     "foreign_pct": 12.1,
+     "houses": [
+      {
+       "name": "UBS",
+       "qty": 18546.0
+      }
+     ]
     },
     "buy": {
-     "total": 0.0,
-     "foreign": 0.0,
-     "foreign_pct": 0,
-     "houses": []
+     "total": 177688.0,
+     "foreign": 98463.0,
+     "foreign_pct": 55.4,
+     "houses": [
+      {
+       "name": "UBS",
+       "qty": 55435.0
+      },
+      {
+       "name": "모간서울",
+       "qty": 43028.0
+      }
+     ]
     },
-    "net_foreign_qty": 0.0,
-    "foreign_share_pct": 0
+    "net_foreign_qty": 79917.0,
+    "foreign_share_pct": 35.3
    }
   }
  },
