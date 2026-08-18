@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-18 09:10",
+ "ts_kst": "08-18 09:20",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -17,41 +17,32 @@
    },
    "brokers": {
     "sell": {
-     "total": 934589.0,
-     "foreign": 158318.0,
-     "foreign_pct": 16.9,
-     "houses": [
-      {
-       "name": "메릴린치",
-       "qty": 158318.0
-      }
-     ]
+     "total": 1592194.0,
+     "foreign": 0.0,
+     "foreign_pct": 0.0,
+     "houses": []
     },
     "buy": {
-     "total": 1091442.0,
-     "foreign": 884768.0,
-     "foreign_pct": 81.1,
+     "total": 1551084.0,
+     "foreign": 961578.0,
+     "foreign_pct": 62.0,
      "houses": [
       {
        "name": "맥쿼리",
-       "qty": 307916.0
+       "qty": 435272.0
       },
       {
        "name": "씨티그룹",
-       "qty": 230194.0
+       "qty": 268495.0
       },
       {
        "name": "JP모간",
-       "qty": 197289.0
-      },
-      {
-       "name": "UBS",
-       "qty": 149369.0
+       "qty": 257811.0
       }
      ]
     },
-    "net_foreign_qty": 726450.0,
-    "foreign_share_pct": 51.5
+    "net_foreign_qty": 961578.0,
+    "foreign_share_pct": 30.6
    }
   },
   "hynix": {
@@ -70,28 +61,33 @@
    },
    "brokers": {
     "sell": {
-     "total": 310503.0,
-     "foreign": 0.0,
-     "foreign_pct": 0.0,
-     "houses": []
-    },
-    "buy": {
-     "total": 296478.0,
-     "foreign": 118143.0,
-     "foreign_pct": 39.8,
+     "total": 410786.0,
+     "foreign": 59482.0,
+     "foreign_pct": 14.5,
      "houses": [
       {
        "name": "모간서울",
-       "qty": 61030.0
-      },
-      {
-       "name": "UBS",
-       "qty": 57113.0
+       "qty": 59482.0
       }
      ]
     },
-    "net_foreign_qty": 118143.0,
-    "foreign_share_pct": 19.5
+    "buy": {
+     "total": 359094.0,
+     "foreign": 127082.0,
+     "foreign_pct": 35.4,
+     "houses": [
+      {
+       "name": "모간서울",
+       "qty": 69523.0
+      },
+      {
+       "name": "UBS",
+       "qty": 57559.0
+      }
+     ]
+    },
+    "net_foreign_qty": 67600.0,
+    "foreign_share_pct": 24.2
    }
   }
  },
