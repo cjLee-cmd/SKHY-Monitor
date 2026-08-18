@@ -1,19 +1,28 @@
 {
- "ts_kst": "08-18 21:52",
- "n_items": 102,
+ "ts_kst": "08-18 22:02",
+ "n_items": 101,
  "by_source": {
   "kr": 74,
-  "en": 28
+  "en": 27
  },
  "routed": {
-  "C-BUYBACK": 1,
-  "M-CYCLE": 12,
   "C-CHINA": 7,
+  "M-CYCLE": 11,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 67,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
@@ -58,24 +67,15 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 임단협 막판 협상… 성과급 자사주 지급은 변수 - v.daum.net",
+   "title": "‘강대강’ SK하이닉스 노사, 9부 능선 넘었다…오늘 임단협 최종 담판 - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
-   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "다시 메모리의 시간…SK하이닉스 8%대 상승 - 조선일보",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -116,7 +116,14 @@
    "agents": []
   },
   {
-   "title": "SK, 하이닉스·이노베이션이 실적 견인…목표가↑-하나 - marketin.edaily.co.kr",
+   "title": "SK, 하이닉스·이노베이션이 실적 견인…목표가↑-하나 - 마켓인",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“SK하이닉스 배당 늘면 2조 유입”…NH證 “SK스퀘어, 주주환원·M&A 확대 기대” - 조선비즈 - Chosunbiz",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -193,13 +200,11 @@
    "agents": []
   },
   {
-   "title": "[반도체 패권 전쟁 ④] 삼성전자·SK하이닉스의 승부수···HBM 넘어 ‘AI 반도체 기업’으로 진화하라 - 서울파이낸스",
+   "title": "삼성, 메모리 반도체 부족하다더니···재고자산 10兆 급증, 왜? - 뉴스웨이",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원 - 연합뉴스",
@@ -436,13 +441,6 @@
    "agents": []
   },
   {
-   "title": "개미들 6조원 팔아치울 때…'삼전닉스' 쓸어담은 외국인 - 한국경제",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "17거래일 만에 돌아온 ‘칠천피’…외국인·반도체가 이끌었다 - 헤럴드경제",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -455,6 +453,22 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "코스피, 外人 귀환에 ‘추가 상승’ 기대…낙관론 확산[주간증시] - 에너지경제신문",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -484,15 +498,6 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
@@ -500,6 +505,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
@@ -527,13 +539,6 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -559,8 +564,8 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
+   "pub": "Wed, 01 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -568,8 +573,8 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -586,7 +591,7 @@
    ]
   },
   {
-   "title": "Micron Vs. SK Hynix: The Newcomer is a Legitimate Threat",
+   "title": "Stock Market Today: Tech Futures Sink As Treasury Yields Jump; Nvidia, Micron, Sandisk All Tumble (Live Coverage)",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -595,7 +600,14 @@
    ]
   },
   {
-   "title": "Stock Market Today: Tech Futures Sink As Treasury Yields Jump; Nvidia, Micron, Sandisk All Tumble (Live Coverage)",
+   "title": "Billionaire David Tepper’s Top 5 Holdings Just Revealed",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron Vs. SK Hynix: The Newcomer is a Legitimate Threat",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -623,15 +635,6 @@
   },
   {
    "title": "Micron Stock Drops. Why Bond Yields Are Hitting the Memory-Chip Boom.",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Meet the Vanguard ETF That's Crushing the S&P 500 and Nasdaq-100 Despite Not Owning Micron, Sandisk, or Any of the \"Magnificent Seven\" Stocks",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
