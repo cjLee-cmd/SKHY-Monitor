@@ -1,46 +1,20 @@
 {
- "ts_kst": "08-19 06:01",
- "n_items": 94,
+ "ts_kst": "08-19 06:11",
+ "n_items": 104,
  "by_source": {
   "kr": 74,
-  "en": 20
+  "en": 30
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 13,
-  "C-CHINA": 6,
+  "M-CYCLE": 14,
+  "C-CHINA": 7,
   "F-ACTIVE": 3,
   "R-LEVERAGE": 12
  },
- "unassigned": 59,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
-  {
-   "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
   {
    "title": "구글 삼성전자·SK하이닉스와 메모리반도체 협상에 유리, AI 서버와 스마트폰용 '통합 구매' - businesspost.co.kr",
    "pub": "Tue, 18 Aug 2026",
@@ -49,7 +23,14 @@
    "agents": []
   },
   {
-   "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - news.einfomax.co.kr",
+   "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - 연합인포맥스",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -79,7 +60,16 @@
    ]
   },
   {
-   "title": "SK하이닉스 5일째↑…앤트로픽 호실적에 상장 시초가 '170달러' 넘겨 - news.einfomax.co.kr",
+   "title": "SK하이닉스 PER 8.1배…마이크론 절반도 안돼 - 글로벌이코노믹",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "NH證 \"SK스퀘어, SK하이닉스 주가 조정 반영…목표가↓\" - v.daum.net",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -93,17 +83,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 PER 8.1배…마이크론 절반도 안돼 - 글로벌이코노믹",
+   "title": "매출 257% 뛴 SK하이닉스, 왜 美 '지금 사야 할 10대 주식'서 빠졌나 - 뉴시스",
    "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "[증시키워드] 삼성전자·SK하이닉스 반등…LG전자 ‘로봇’, 두산에너빌리티 ‘원전’ 주목 - v.daum.net",
-   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -116,8 +97,15 @@
    "agents": []
   },
   {
-   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - hankyung.com",
+   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
    "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "다시 메모리의 시간…SK하이닉스 8%대 상승 - chosun.com",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -131,13 +119,6 @@
   },
   {
    "title": "삼성전자·SK하이닉스, 재경부 출신 국제금융통 영입 - 뉴스1",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 재경부 국제금융통 부사장으로 영입 - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -158,7 +139,7 @@
    "agents": []
   },
   {
-   "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - news.einfomax.co.kr",
+   "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - 연합인포맥스",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -216,7 +197,7 @@
    "agents": []
   },
   {
-   "title": "국민 재산 쥔 반도체…삼성·SK 등 소액주주, 반년 새 2배 급증 - asiatoday.co.kr",
+   "title": "국민 재산 쥔 반도체…삼성·SK 등 소액주주, 반년 새 2배 급증 - 아시아투데이",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -290,17 +271,8 @@
    "agents": []
   },
   {
-   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - chosun.com",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -315,7 +287,16 @@
    "agents": []
   },
   {
-   "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - hankyung.com",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -340,8 +321,8 @@
    ]
   },
   {
-   "title": "중국 반도체 추격 변수로 부상…\"초격차 사수해야\" - 연합뉴스TV",
-   "pub": "Mon, 13 Jul 2026",
+   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - 머니투데이",
+   "pub": "Mon, 10 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -356,11 +337,13 @@
    ]
   },
   {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "pub": "Thu, 09 Jul 2026",
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - chosun.com",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - 연합뉴스",
@@ -416,7 +399,7 @@
    "agents": []
   },
   {
-   "title": "＇돌아온 외국인＇ 순매수에 코스피 5일 연속 ＇빨간불＇ - 한국경제TV",
+   "title": "＇돌아온 외국인＇ 순매수에 코스피 5일 연속 ＇빨간불＇ - wowtv.co.kr",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -432,13 +415,6 @@
    "agents": []
   },
   {
-   "title": "[개장시황] 코스피, 외국인 사자에 2%대 상승…반도체주 강세에 7100선 회복 - 아주경제",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인, 한 주간 코스피 6.5조 사들여…개인은 7조원 '차익 실현' - 매일경제TV",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
@@ -446,7 +422,14 @@
    "agents": []
   },
   {
-   "title": "개미들 6조원 팔아치울 때…'삼전닉스' 쓸어담은 외국인 - hankyung.com",
+   "title": "[개장시황] 코스피, 외국인 사자에 2%대 상승…반도체주 강세에 7100선 회복 - 아주경제",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "개미들 6조원 팔아치울 때…'삼전닉스' 쓸어담은 외국인 - 한국경제",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -467,7 +450,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인 매수에 7100선 회복…2%대 강세 출발 - newstomato.com",
+   "title": "코스피, 외국인 매수에 7100선 회복…2%대 강세 출발 - 뉴스토마토",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -612,6 +595,15 @@
    ]
   },
   {
+   "title": "Why Micron Stock and Its Memory Peers Are Falling",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Big Hedge Funds Cut Micron After Its 255% Rally",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
@@ -639,16 +631,7 @@
    ]
   },
   {
-   "title": "Why Micron Stock and Its Memory Peers Are Falling",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron, Coherent, SpaceX, Klarna, Amylyx, and More Stocks That Explain Today’s Market",
+   "title": "SanDisk sends strong signal to Micron investors, BofA says",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
