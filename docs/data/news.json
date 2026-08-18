@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-18 23:00",
+ "ts_kst": "08-18 23:10",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -7,13 +7,32 @@
  },
  "routed": {
   "P-ADR": 1,
-  "M-CYCLE": 13,
+  "M-CYCLE": 12,
   "C-CHINA": 7,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 67,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
@@ -37,7 +56,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주가, 오늘 왜 급등했나? - Investing.com 한국어",
+   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -51,8 +70,8 @@
    "agents": []
   },
   {
-   "title": "코스피 2%대 상승해 7100선 회복…SK하이닉스 6%↑ - tv.edaily.co.kr",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "NH證 \"SK스퀘어, SK하이닉스 주가 조정 반영…목표가↓\" - v.daum.net",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -67,28 +86,7 @@
    ]
   },
   {
-   "title": "SK하이닉스 노사, 임단협 막판 담판…오늘 최종 타결 시도 - 연합뉴스",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 노사, 임단협 대표자 교섭⋯ 최종 타결 시도 - 브릿지경제",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "‘강대강’ SK하이닉스 노사, 9부 능선 넘었다…오늘 임단협 최종 담판 - v.daum.net",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
+   "title": "“9부 능선 넘었다”…SK하이닉스 노사, 오늘 임단협 최종 담판 - 경기일보",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -102,7 +100,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 재정부 출신 정여진 부사장 영입…\"글로벌 정책 대응 강화\" - newsis.com",
+   "title": "SK하이닉스, 재정부 출신 정여진 부사장 영입…\"글로벌 정책 대응 강화\" - 뉴시스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -118,6 +116,27 @@
   {
    "title": "하이닉스 밀고 SK이노 끈다…SK 목표가 56만→77만원 상향 [오늘 나온 보고서] - 매일경제 마켓",
    "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"하이닉스가 끌고 이노베이션이 민다\" SK 목표가 37.5%↑…LS, 영업익 153% 급증에도 여전히 저평가 [株토피아] - v.daum.net",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK, 하이닉스·이노베이션이 실적 견인…목표가↑-하나 - 마켓인",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 주가 부진한데 ‘중복상장’ 논란까지…증권가도 평가 갈려 [이런국장 저런주식] - 서울경제",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -174,7 +193,7 @@
    "agents": []
   },
   {
-   "title": "[특징주] 연휴 美 반도체 훈풍⋯삼성전자·SK하이닉스 '강세' - 아이뉴스24",
+   "title": "[특징주] 연휴 美 반도체 훈풍⋯삼성전자·SK하이닉스 '강세' - inews24.com",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -262,7 +281,7 @@
    "agents": []
   },
   {
-   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - newsis.com",
+   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - 뉴시스",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -484,7 +503,7 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - nspna.com",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -534,7 +553,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -559,8 +578,8 @@
    ]
   },
   {
-   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
-   "pub": "Wed, 01 Jul 2026",
+   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -586,7 +605,32 @@
    ]
   },
   {
-   "title": "Micron Stock Drops. Why Bond Yields Are Hitting the Memory-Chip Boom.",
+   "title": "Billionaire David Tepper’s Top 5 Holdings Just Revealed",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Memory’s Cyclicality is No More, So I Keep Loading Up on Micron",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why Micron Stock and Its Memory Peers Are Falling",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Technology Falls 5%, SanDisk Sinks 6%, Western Digital Drops 7% as Higher Rates Test the Memory Boom",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -605,31 +649,6 @@
   },
   {
    "title": "Bank of America raises Micron price target to $1,550",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Billionaire David Tepper’s Top 5 Holdings Just Revealed",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Micron Vs. SK Hynix: The Newcomer is a Legitimate Threat",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Abercrombie & Fitch, America Movil, Bath & Body Works, Duolingo, Gorilla Technology, Lumentum Holdings, Micron Technology, Tapestry,and More",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
