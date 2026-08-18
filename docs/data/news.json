@@ -1,24 +1,23 @@
 {
- "ts_kst": "08-18 21:14",
+ "ts_kst": "08-18 21:24",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 1,
-  "M-CYCLE": 11,
-  "C-CHINA": 7,
-  "F-ACTIVE": 5,
+  "M-CYCLE": 13,
+  "C-CHINA": 6,
+  "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
+ "unassigned": 67,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
+   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -26,14 +25,14 @@
  ],
  "items": [
   {
-   "title": "구글 삼성전자·SK하이닉스와 메모리반도체 협상에 유리, AI 서버와 스마트폰용 '통합 구매' - 비즈니스포스트",
+   "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
+   "title": "구글 삼성전자·SK하이닉스와 메모리반도체 협상에 유리, AI 서버와 스마트폰용 '통합 구매' - 비즈니스포스트",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -54,23 +53,28 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 임단협 막판 분수령…오늘 대표자 교섭 - v.daum.net",
+   "title": "SK하이닉스 노사, 임단협 막판 담판…오늘 최종 타결 시도 - 연합뉴스",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 노사, 임단협 대표자 교섭⋯ 최종 타결 시도 - 브릿지경제",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 임단협 막판 협상… 성과급 자사주 지급 ‘변수’ - 조선비즈 - Chosunbiz",
+   "title": "“부동산 잔금, 주식으로 안될까요”…하이닉스 성과급 지급안 담판 - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "“부동산 잔금, 주식으로 안될까요”…하이닉스 성과급 지급안 담판 - v.daum.net",
+   "title": "수백조 ‘돈 폭탄’ 오매불망…애간장 태우는 하이닉스 [재계톡톡] - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -112,7 +116,7 @@
    "agents": []
   },
   {
-   "title": "하이닉스·이노베이션 쌍끌…지주사 SK 몸값도 뛴다 - v.daum.net",
+   "title": "\"하이닉스가 끌고 이노베이션이 민다\" SK 목표가 37.5%↑…LS, 영업익 153% 급증에도 여전히 저평가 [株토피아] - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -120,13 +124,6 @@
   },
   {
    "title": "SK, 하이닉스·이노베이션이 실적 견인…목표가↑-하나 - 마켓인",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[영상] SK하이닉스, 美 메모리 전공정 공장 검토 - 서울경제",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -247,6 +244,13 @@
    "agents": []
   },
   {
+   "title": "미, 반도체·AI까지 ‘중국 편 서지 마’…양자택일 압박 노골화 - 경향신문",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
@@ -320,29 +324,11 @@
    "agents": []
   },
   {
-   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
-   "pub": "Thu, 05 Feb 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - 머니투데이",
    "pub": "Sun, 09 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
-   "pub": "Tue, 17 Feb 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
   },
   {
    "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
@@ -351,6 +337,15 @@
    "q": "메모리 반도체 중국",
    "agents": [
     "C-CHINA"
+   ]
+  },
+  {
+   "title": "D램 3년, HBM 4년으로 격차 좁혀… 中 반도체 추격 속도 무섭다 - 조선일보",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -439,6 +434,13 @@
    "agents": []
   },
   {
+   "title": "개미들 6조원 팔아치울 때…'삼전닉스' 쓸어담은 외국인 - 한국경제",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "17거래일 만에 돌아온 ‘칠천피’…외국인·반도체가 이끌었다 - 헤럴드경제",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -458,15 +460,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "외국인 3600억 순매수에 코스피 1.85%↑···7100선 회복 - 스마트비즈",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
@@ -571,8 +564,8 @@
    ]
   },
   {
-   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
-   "pub": "Wed, 01 Jul 2026",
+   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -598,7 +591,34 @@
    ]
   },
   {
+   "title": "Stock Market Today: Tech Futures Sink As Treasury Yields Jump; Nvidia, Micron, Sandisk All Tumble (Live Coverage)",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Abercrombie & Fitch, America Movil, Bath & Body Works, Duolingo, Gorilla Technology, Lumentum Holdings, Micron Technology, Tapestry,and More",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Situational Awareness 13F: Micron and Sandisk dominated fund before July collapse",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Drops. Why Bond Yields Are Hitting the Memory-Chip Boom.",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -617,31 +637,6 @@
   },
   {
    "title": "“Sometimes the Opportunity Is Too Great and You Can’t Afford Not to Take It”: Cramer Says Red-Hot Stock Can Double Again",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Billionaire David Tepper of Appaloosa Slashed His Micron Stake and Piled Into a \"Fabulous\" AI Stock for a 6th Consecutive Quarter",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology (MU) Climbed, But What Is Driving Attention Now?",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "4 Memory Stocks Cramer Says Could Avoid an AI Bust and Keep Climbing",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
