@@ -1,28 +1,19 @@
 {
- "ts_kst": "08-18 21:34",
+ "ts_kst": "08-18 21:42",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
+  "C-BUYBACK": 1,
   "M-CYCLE": 13,
   "C-CHINA": 7,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
@@ -39,14 +30,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·하이닉스, 코스피 내 비중 한때 50%대 회복(종합) - 연합뉴스",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
+   "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - news.einfomax.co.kr",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -74,8 +58,17 @@
    "agents": []
   },
   {
-   "title": "“부동산 잔금, 주식으로 안될까요”…하이닉스 성과급 지급안 담판 - v.daum.net",
+   "title": "SK하이닉스 노사, 임단협 막판 협상… 성과급 자사주 지급은 변수 - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -123,7 +116,7 @@
    "agents": []
   },
   {
-   "title": "SK, 하이닉스·이노베이션이 실적 견인…목표가↑-하나 - 마켓인",
+   "title": "SK, 하이닉스·이노베이션이 실적 견인…목표가↑-하나 - marketin.edaily.co.kr",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -144,7 +137,7 @@
    "agents": []
   },
   {
-   "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - 연합인포맥스",
+   "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - news.einfomax.co.kr",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
