@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-19 02:09",
+ "ts_kst": "08-19 02:19",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -12,7 +12,17 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 70,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
@@ -22,14 +32,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스(000660) - 매일경제 마켓",
+   "title": "\"SK하이닉스 시총 역전이 과열 신호…코스피 회복엔 시간 필요\" - 뉴시스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 시총 역전이 과열 신호…코스피 회복엔 시간 필요\" - 뉴시스",
+   "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -220,7 +230,7 @@
    "agents": []
   },
   {
-   "title": "[심층진단] 삼성전자, 반도체 승승장구 뒤에는 '초격차' 기술력…R&D 투자로 만들었다 - 굿모닝경제",
+   "title": "[심층진단] 삼성전자, 반도체 승승장구 뒤에는 '초격차' 기술력…R&D 투자로 만들었다 - goodkyung.com",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -385,7 +395,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인·기관 순매수에 7180선 강세 - 소년한국일보",
+   "title": "코스피, 외국인·기관 순매수에 7180선 강세 - kfenews.co.kr",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -470,7 +480,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -590,6 +600,13 @@
    ]
   },
   {
+   "title": "Prediction: Wall Street May Be Sleeping on This AI Cloud Giant",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "WSJ Report Sends Memory Stocks Down. SanDisk Down 9%, Micron Down 7%, Western Digital Down 5%",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
@@ -616,15 +633,6 @@
   },
   {
    "title": "Memory’s Cyclicality is No More, So I Keep Loading Up on Micron",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Micron Stock and Its Memory Peers Are Falling",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
