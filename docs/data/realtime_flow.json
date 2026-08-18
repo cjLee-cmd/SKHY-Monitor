@@ -1,18 +1,23 @@
 {
- "ts_kst": "08-18 10:57",
+ "ts_kst": "08-18 11:07",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
-   "price": 277500.0,
-   "chg_pct": 1.09,
-   "slot": "2",
-   "foreign_qty": 2553000.0,
-   "foreign_eok": 7084.6,
-   "inst_qty": -24000.0,
-   "inst_eok": -66.6,
-   "retail_qty": -2529000.0,
-   "retail_eok": -7018.0,
+   "price": 278500.0,
+   "chg_pct": 1.46,
+   "slot": "3",
+   "foreign_qty": 2330000.0,
+   "foreign_eok": 6489.1,
+   "inst_qty": -88000.0,
+   "inst_eok": -245.1,
+   "retail_qty": -2242000.0,
+   "retail_eok": -6244.0,
    "slots": [
+    {
+     "slot": "3",
+     "frgn": 2330000.0,
+     "orgn": -88000.0
+    },
     {
      "slot": "2",
      "frgn": 2553000.0,
@@ -27,16 +32,21 @@
   },
   "hynix": {
    "name": "SK하이닉스",
-   "price": 1719000.0,
-   "chg_pct": 4.5,
-   "slot": "2",
-   "foreign_qty": 626000.0,
-   "foreign_eok": 10760.9,
-   "inst_qty": -21000.0,
-   "inst_eok": -361.0,
-   "retail_qty": -605000.0,
-   "retail_eok": -10400.0,
+   "price": 1729000.0,
+   "chg_pct": 5.11,
+   "slot": "3",
+   "foreign_qty": 707000.0,
+   "foreign_eok": 12224.0,
+   "inst_qty": -23000.0,
+   "inst_eok": -397.7,
+   "retail_qty": -684000.0,
+   "retail_eok": -11826.4,
    "slots": [
+    {
+     "slot": "3",
+     "frgn": 707000.0,
+     "orgn": -23000.0
+    },
     {
      "slot": "2",
      "frgn": 626000.0,
@@ -55,20 +65,15 @@
   {
    "stock": "삼성전자",
    "level": "high",
-   "text": "역할 전환 — 외국인 매수 +7,085억 / 개인 매도 -7,018억"
+   "text": "역할 전환 — 외국인 매수 +6,489억 / 개인 매도 -6,244억"
   },
   {
    "stock": "SK하이닉스",
    "level": "high",
-   "text": "역할 전환 — 외국인 매수 +10,761억 / 개인 매도 -10,400억"
+   "text": "역할 전환 — 외국인 매수 +12,224억 / 개인 매도 -11,826억"
   }
  ],
  "log": [
-  {
-   "ts": "08-13 17:48",
-   "samsung": 14461.3,
-   "hynix": 9765.1
-  },
   {
    "ts": "08-13 17:58",
    "samsung": 14461.3,
@@ -2957,6 +2962,11 @@
    "ts": "08-18 10:57",
    "samsung": 7084.6,
    "hynix": 10760.9
+  },
+  {
+   "ts": "08-18 11:07",
+   "samsung": 6489.1,
+   "hynix": 12224.0
   }
  ]
 }
