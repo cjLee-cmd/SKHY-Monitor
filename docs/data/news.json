@@ -1,28 +1,19 @@
 {
- "ts_kst": "08-18 22:02",
- "n_items": 101,
+ "ts_kst": "08-18 22:12",
+ "n_items": 103,
  "by_source": {
   "kr": 74,
-  "en": 27
+  "en": 29
  },
  "routed": {
+  "P-ADR": 1,
   "C-CHINA": 7,
-  "M-CYCLE": 11,
+  "M-CYCLE": 13,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 12
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
@@ -46,11 +37,27 @@
    "agents": []
   },
   {
+   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "수백조 ‘돈 폭탄’ 오매불망…애간장 태우는 하이닉스 [재계톡톡] - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "SK하이닉스 ADR 주가 6% 급락…美 금리 부담에 6일만에↓ - news.einfomax.co.kr",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "SK하이닉스 노사, 임단협 막판 담판…오늘 최종 타결 시도 - 연합뉴스",
@@ -69,13 +76,6 @@
   {
    "title": "‘강대강’ SK하이닉스 노사, 9부 능선 넘었다…오늘 임단협 최종 담판 - v.daum.net",
    "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
-   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -117,13 +117,6 @@
   },
   {
    "title": "SK, 하이닉스·이노베이션이 실적 견인…목표가↑-하나 - 마켓인",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“SK하이닉스 배당 늘면 2조 유입”…NH證 “SK스퀘어, 주주환원·M&A 확대 기대” - 조선비즈 - Chosunbiz",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -308,7 +301,7 @@
    ]
   },
   {
-   "title": "중국 반도체 추격 변수로 부상…\"초격차 사수해야\" - 연합뉴스TV",
+   "title": "중국 반도체 추격 변수로 부상…\"초격차 사수해야\" - yonhapnewstv.co.kr",
    "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -356,7 +349,7 @@
    "agents": []
   },
   {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - dnews.co.kr",
+   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -402,7 +395,7 @@
    "agents": []
   },
   {
-   "title": "[개장시황] 코스피, 외국인 사자에 2%대 상승…반도체주 강세에 7100선 회복 - 아주경제",
+   "title": "[개장시황] 코스피, 외국인 사자에 2%대 상승…반도체주 강세에 7100선 회복 - ajunews.com",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -427,7 +420,7 @@
    ]
   },
   {
-   "title": "코스피, 외국인 매수에 7100선 회복…2%대 강세 출발 - newstomato.com",
+   "title": "코스피, 외국인 매수에 7100선 회복…2%대 강세 출발 - 뉴스토마토",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -441,15 +434,15 @@
    "agents": []
   },
   {
-   "title": "17거래일 만에 돌아온 ‘칠천피’…외국인·반도체가 이끌었다 - 헤럴드경제",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "외국인은 ‘바이코리아’, 개인은 차익실현…7천피 다시 끌어올린 반도체 - 진일보",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "외국인은 ‘바이코리아’, 개인은 차익실현…7천피 다시 끌어올린 반도체 - 진일보",
-   "pub": "Sun, 16 Aug 2026",
+   "title": "17거래일 만에 돌아온 ‘칠천피’…외국인·반도체가 이끌었다 - 헤럴드경제",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -591,6 +584,24 @@
    ]
   },
   {
+   "title": "The Billionaire Famous for Betting Big on Micron Just Bought Airline Stocks",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Bank of America raises Micron price target to $1,550",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Stock Market Today: Tech Futures Sink As Treasury Yields Jump; Nvidia, Micron, Sandisk All Tumble (Live Coverage)",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
@@ -617,24 +628,6 @@
   },
   {
    "title": "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Abercrombie & Fitch, America Movil, Bath & Body Works, Duolingo, Gorilla Technology, Lumentum Holdings, Micron Technology, Tapestry,and More",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Situational Awareness 13F: Micron and Sandisk dominated fund before July collapse",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Drops. Why Bond Yields Are Hitting the Memory-Chip Boom.",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
