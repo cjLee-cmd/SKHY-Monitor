@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-18 22:22",
+ "ts_kst": "08-18 22:32",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -9,11 +9,30 @@
   "P-ADR": 1,
   "C-CHINA": 7,
   "M-CYCLE": 13,
-  "F-ACTIVE": 4,
+  "F-ACTIVE": 3,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 67,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - marketin.edaily.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
@@ -31,13 +50,6 @@
   },
   {
    "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - news.einfomax.co.kr",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -81,6 +93,13 @@
    "agents": []
   },
   {
+   "title": "국민연금, 9600억 팔아치운 종목 뭐길래…'뜻밖의 결과' - 한국경제",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성전자·SK하이닉스, 재경부 출신 국제금융통 영입 - 뉴스1",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -116,7 +135,7 @@
    "agents": []
   },
   {
-   "title": "SK, 하이닉스·이노베이션이 실적 견인…목표가↑-하나 - 마켓인",
+   "title": "SK, 하이닉스·이노베이션이 실적 견인…목표가↑-하나 - marketin.edaily.co.kr",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -139,6 +158,13 @@
   {
    "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - news.einfomax.co.kr",
    "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -218,13 +244,6 @@
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
    "agents": []
   },
   {
@@ -411,15 +430,6 @@
    ]
   },
   {
-   "title": "코스피 외국인 순매수 '역대 최대'…\"7000 안착하면 그 이상도 가능\" - 뉴스1",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "코스피, 외국인 매수에 7100선 회복…2%대 강세 출발 - 뉴스토마토",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -455,6 +465,13 @@
    "agents": []
   },
   {
+   "title": "코스피, 외국인 매수·반도체주 강세에 '7천피' 회복 - 파이낸스투데이",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -464,7 +481,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -557,7 +574,7 @@
    ]
   },
   {
-   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
+   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - marketin.edaily.co.kr",
    "pub": "Wed, 01 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -584,6 +601,15 @@
    ]
   },
   {
+   "title": "Stock Market Today: Tech Futures Sink As Treasury Yields Jump; Nvidia, Micron, Sandisk All Tumble (Live Coverage)",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "The Billionaire Famous for Betting Big on Micron Just Bought Airline Stocks",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
@@ -594,15 +620,6 @@
   },
   {
    "title": "Bank of America raises Micron price target to $1,550",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Stock Market Today: Tech Futures Sink As Treasury Yields Jump; Nvidia, Micron, Sandisk All Tumble (Live Coverage)",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
