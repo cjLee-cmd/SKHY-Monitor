@@ -1,20 +1,20 @@
 {
- "ts_kst": "08-20 03:43",
- "n_items": 104,
+ "ts_kst": "08-20 03:53",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 30
  },
  "routed": {
   "C-BUYBACK": 2,
+  "M-CYCLE": 10,
   "P-ADR": 1,
   "B-RATES": 2,
-  "M-CYCLE": 10,
   "C-CHINA": 7,
-  "F-ACTIVE": 5,
+  "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 67,
+ "unassigned": 65,
  "alerts": [],
  "items": [
   {
@@ -46,32 +46,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 ADR 주가 6% 급락…美 금리 부담에 6일만에↓ - 연합인포맥스",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "국채금리에 휘청였던 코스피‥하이닉스 40조 자사주 소각에 반등하나? - MBC 뉴스",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK",
-    "B-RATES"
-   ]
   },
   {
    "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - 뉴스1",
@@ -130,6 +104,32 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 ADR 주가 6% 급락…美 금리 부담에 6일만에↓ - 연합인포맥스",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "국채금리에 휘청였던 코스피‥하이닉스 40조 자사주 소각에 반등하나? - MBC 뉴스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK",
+    "B-RATES"
+   ]
   },
   {
    "title": "반도체 날자 코스피 상장사 순익 4배…삼성전자, SK하이닉스가 65% 차지 - 조선일보",
@@ -225,7 +225,7 @@
    "agents": []
   },
   {
-   "title": "3대 메가프로젝트, 충남 아산 삼성전자 반도체 공장에서 첫삽 - joongang.co.kr",
+   "title": "3대 메가프로젝트, 충남 아산 삼성전자 반도체 공장에서 첫삽 - 중앙일보",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -451,18 +451,13 @@
    ]
   },
   {
-   "title": "[마켓뷰] 美 금리 쇼크에 흘러내린 코스피…6470선에 ‘털썩’ - 조선비즈 - Chosunbiz",
+   "title": "원-달러 환율, 11개월만에 1300원대 진입...외국인, 코스피시장서 2조원 넘게 순매도에도 13원 넘게 떨어져 - 비욘드포스트",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
@@ -594,7 +589,7 @@
    ]
   },
   {
-   "title": "Will Agentic AI Adoption Expand Micron's Memory Growth Opportunity?",
+   "title": "Micron Gained Memory Market Share. The Stock Is Dropping Anyway.",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -603,7 +598,7 @@
    ]
   },
   {
-   "title": "Micron Gained Memory Market Share. The Stock Is Dropping Anyway.",
+   "title": "Will Agentic AI Adoption Expand Micron's Memory Growth Opportunity?",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -640,6 +635,15 @@
   },
   {
    "title": "Micron Is Trading at About 7 Times Next Year's Earnings Estimate Even After Crossing $1 Trillion in Market Cap. Here's Why That Multiple Looks Nothing Like Nvidia's.",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Moderna, Merck, Micron, Marvell, Estée Lauder, Honeywell Aerospace, and More Stocks That Explain Today’s Market",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
