@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-20 00:11",
+ "ts_kst": "08-20 00:21",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -8,33 +8,14 @@
  "routed": {
   "C-BUYBACK": 2,
   "P-ADR": 1,
-  "M-CYCLE": 10,
+  "M-CYCLE": 11,
   "C-CHINA": 7,
   "F-ACTIVE": 6,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 40조 자사주 취득·소각 “주주가치 제고” - 경향신문",
@@ -134,13 +115,6 @@
    "agents": []
   },
   {
-   "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - 연합인포맥스",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "HBM 잘나가자 삼성·SK하이닉스에 특허공세…美 소송부터 中 기술유출까지 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -148,6 +122,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - 연합인포맥스",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "삼성전자, 평택 반도체 신설공장 ‘3층 팹’으로 확대 추진 - 동아일보",
@@ -318,15 +299,15 @@
    ]
   },
   {
-   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -386,13 +367,6 @@
    ]
   },
   {
-   "title": "美 금리 충격·외국인 ’팔자’…코스피 5.8%↓ - 연합뉴스TV",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -400,6 +374,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "美 금리 충격·외국인 ’팔자’…코스피 5.8%↓ - 연합뉴스TV",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스닥 급반등에 차익실현 나선 외국인들...상승세 이어질까? - 조선일보",
@@ -494,7 +475,7 @@
    "agents": []
   },
   {
-   "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - yna.co.kr",
+   "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -614,12 +595,21 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - yna.co.kr",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Micron Gained Memory Market Share. The Stock Is Dropping Anyway.",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -633,15 +623,6 @@
   },
   {
    "title": "Micron Technology (MU) Is Earning More Than Apple or Microsoft, but Can It Last?",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Is Under Pressure but the Market Is Missing the Good News",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
