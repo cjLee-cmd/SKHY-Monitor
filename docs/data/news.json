@@ -1,33 +1,25 @@
 {
- "ts_kst": "08-19 16:10",
- "n_items": 106,
+ "ts_kst": "08-19 16:20",
+ "n_items": 108,
  "by_source": {
-  "kr": 73,
+  "kr": 75,
   "en": 30,
   "dart": 3
  },
  "routed": {
-  "C-BUYBACK": 2,
+  "C-BUYBACK": 4,
   "P-ADR": 1,
-  "M-CYCLE": 11,
+  "M-CYCLE": 13,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - 국민일보",
-   "agents": []
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
-   "title": "[속보] SK하이닉스 40조 자사주 취득…“소각 통해 주주가치 제고” - 중앙일보",
+   "title": "[속보]SK하이닉스 40조 자사주 취득·소각 “주주가치 제고” - 경향신문",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -36,32 +28,13 @@
    ]
   },
   {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
+   "title": "삼성전자·SK하이닉스 동반 급락…하이닉스 40조원 자사주 소각 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "반도체 날자 코스피 상장사 순익 4배…삼성전자, SK하이닉스가 65% 차지 - 조선일보",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[속보]삼성전자 7.82%, SK하이닉스 9.75% 하락 마감 - 뉴시스",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "상반기 '역대 최대' 실적…삼전닉스 빼도 코스피 영업익 143조 - 마켓인",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - 뉴스1",
@@ -85,15 +58,17 @@
    "agents": []
   },
   {
-   "title": "빅쇼트 마이클 버리 \"SK하이닉스가 찜한 ’에치드’, 엔비디아의 진정한 대항마\" By The Guru - Investing.com 한국어",
+   "title": "[속보]SK하이닉스, 40조원 규모 자사주 2407만주 취득 결정 - 뉴시스",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
-   "title": "대기업 고액연봉자 보수 중 36%가 주식보상···곽노정 SK하이닉스 사장 ‘218억원’ 최고 - 경향신문",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "빅쇼트 마이클 버리 \"SK하이닉스가 찜한 ’에치드’, 엔비디아의 진정한 대항마\" By The Guru - Investing.com 한국어",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -122,11 +97,20 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 마라톤 교섭 끝 임단협 잠정합의 수순…\"세부내용 곧 발표\" - 뉴시스",
+   "title": "SK하이닉스 성과급 해법 찾았나..노사 밤샘 협상 끝 '잠정합의' 수순 - 머니투데이 - 머니투데이",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "구글 AMD와 차기 AI 반도체 협력 전망, 삼성전자와 SK하이닉스 HBM도 수혜 커지나 - 비즈니스포스트",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "[단독] SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착' - 뉴스핌",
@@ -136,6 +120,22 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "HBM 잘나가자 삼성·SK하이닉스에 특허공세…美 소송부터 中 기술유출까지 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "반도체 호황에…SK하이닉스 공장 있는 충북 광공업 생산 27.8%↑ - 한겨레",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "삼성, 메모리 반도체 부족하다더니···재고자산 10兆 급증, 왜? - 뉴스웨이",
@@ -155,6 +155,20 @@
   },
   {
    "title": "삼성전자 6조 반도체 공장, 다음달 착공···충남 ‘3대 메가 프로젝트’ 첫 삽 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "반도체 날자 코스피 상장사 순익 4배…삼성전자, SK하이닉스가 65% 차지 - 조선일보",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -411,6 +425,13 @@
    ]
   },
   {
+   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -464,13 +485,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "개인 '팔자'에 코스피 다시 7,000선 아래로…외국인은 9천억 '사자' - KB Think",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
@@ -637,24 +651,6 @@
   },
   {
    "title": "Why Micron Stock and Its Memory Peers Are Falling",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Big Hedge Funds Cut Micron After Its 255% Rally",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Stock Market Today: Nasdaq Slides Along With Chip Names; Sandisk, Micron Lose Big",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
