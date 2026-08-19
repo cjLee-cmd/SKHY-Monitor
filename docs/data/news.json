@@ -1,14 +1,14 @@
 {
- "ts_kst": "08-19 21:43",
+ "ts_kst": "08-19 21:53",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 3,
+  "C-BUYBACK": 5,
   "P-ADR": 1,
-  "M-CYCLE": 9,
+  "M-CYCLE": 7,
   "C-CHINA": 6,
   "F-ACTIVE": 6,
   "B-RATES": 1,
@@ -17,18 +17,34 @@
  "unassigned": 69,
  "alerts": [
   {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "level": "info",
    "kw": "자사주+매입",
    "src": "kr",
-   "title": "SK하이닉스, 40조 자사주 매입·소각…배당 확대 검토 - hani.co.kr",
+   "title": "SK하이닉스, 자사주 40조원 규모 2천407만주 매입(상보) - 연합인포맥스",
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - 국민일보",
+   "agents": []
   }
  ],
  "items": [
   {
-   "title": "SK하이닉스 40조 자사주 취득·소각 “주주가치 제고” - khan.co.kr",
+   "title": "[속보] SK하이닉스 40조원 자사주 취득…“소각 통해 주주가치 제고” - 매일경제",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -61,32 +77,7 @@
    "agents": []
   },
   {
-   "title": "HBM 잘나가자 삼성·SK하이닉스에 특허공세…美 소송부터 中 기술유출까지 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "[단독] SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착' - 뉴스핌",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - news1.kr",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 노사 밤샘협상…'현금은 연봉 50%·초과분 주식' 가닥 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -100,7 +91,14 @@
    "agents": []
   },
   {
-   "title": "[집중취재] SK하이닉스 성과급 접점 찾았지만…솔리다임 논란·주주환원은 숙제 - 매일경제 마켓",
+   "title": "[집중취재] SK하이닉스 성과급 접점 찾았지만…솔리다임 논란·주주환원은 숙제 - 매일경제TV",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 성과급 해법 찾았나..노사 밤샘 협상 끝 '잠정합의' 수순 - 머니투데이 - 머니투데이",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -128,14 +126,34 @@
    "agents": []
   },
   {
-   "title": "수익률 1%, SK하이닉스 사고 삼성전자 팔았다 [주식 초고수는 지금] - 서울경제",
+   "title": "[단독] SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착' - 뉴스핌",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "SK하이닉스, 40조 자사주 매입·소각…배당 확대 검토 - hani.co.kr",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 자사주 40조원 규모 2천407만주 매입(상보) - 연합인포맥스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 40조 자사주 사들여 전량 소각…시간외 주가 급반등 - 조선일보",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -200,7 +218,21 @@
    "agents": []
   },
   {
+   "title": "삼성전자 6조 반도체 공장, 다음달 착공···충남 ‘3대 메가 프로젝트’ 첫 삽 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "충남도, 삼성 반도체 '광속 착공' 202조 첨단산업 투자 스타트…3대 메가 프로젝트 첫삽 - 전자신문",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - 국민일보",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -209,6 +241,13 @@
   {
    "title": "삼성전자, 삼성D 차입금 '20조' 미리 다 갚았다…AI 메모리 효과 - 지디넷코리아",
    "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 평택캠 용적률 상향 추진…반도체 생산 1.5배 늘어난다 - 주간한국",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -223,29 +262,6 @@
   {
    "title": "'동상이몽2' 이현이, 400% 대박 수익률…삼성전자 반도체 부장 남편 '화제' - 네이트",
    "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "전영현 “갈 길 멀다, 자만 말라”…HBM4 성공에도 삼성 반도체 ‘긴장’[biz-플러스] - 서울경제",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성전자, 아산 온양캠퍼스에 6조 투자…AI 반도체 공장 내달 착공 - ebn.co.kr",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "3대 메가프로젝트, 충남 아산 삼성전자 반도체 공장에서 첫삽 - 중앙일보",
-   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -513,6 +529,15 @@
    ]
   },
   {
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
@@ -606,15 +631,6 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "pub": "Wed, 22 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "Dow Jones Futures Waver After Sandisk, Micron, Credo Lead AI Losses; Target Earnings Beat",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
@@ -649,7 +665,7 @@
    ]
   },
   {
-   "title": "US futures are flat as AI-related stocks hit by heavy selling, oil prices rise",
+   "title": "These Are 3 of the Cheapest Stocks on the Nasdaq-100 Right Now. Are They Deals, or Is There Underlying Risk Here?",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
