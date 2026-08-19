@@ -1,20 +1,20 @@
 {
- "ts_kst": "08-20 00:49",
- "n_items": 105,
+ "ts_kst": "08-20 00:59",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 2,
+  "C-BUYBACK": 3,
   "P-ADR": 1,
+  "B-RATES": 2,
   "M-CYCLE": 12,
   "C-CHINA": 7,
-  "F-ACTIVE": 6,
-  "B-RATES": 1,
+  "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
+ "unassigned": 64,
  "alerts": [],
  "items": [
   {
@@ -43,13 +43,6 @@
    "agents": []
   },
   {
-   "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - 뉴스1",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스 ADR 주가 6% 급락…美 금리 부담에 6일만에↓ - 연합인포맥스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -59,14 +52,24 @@
    ]
   },
   {
-   "title": "외국인 2.9조 '팔자'…SK하이닉스 10%·삼성전자 8% 급락[핫종목](종합) - v.daum.net",
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 -9% ‘털썩’…코스피 -5.8% 급락 - 서울신문",
+   "title": "국채금리에 휘청였던 코스피‥하이닉스 40조 자사주 소각에 반등하나? - MBC 뉴스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK",
+    "B-RATES"
+   ]
+  },
+  {
+   "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - 뉴스1",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -369,6 +372,13 @@
    ]
   },
   {
+   "title": "美 금리 충격·외국인 ’팔자’…코스피 5.8%↓ - 연합뉴스TV",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -376,13 +386,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "美 금리 충격·외국인 ’팔자’…코스피 5.8%↓ - 연합뉴스TV",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "코스닥 급반등에 차익실현 나선 외국인들...상승세 이어질까? - 조선일보",
@@ -399,13 +402,6 @@
    "agents": []
   },
   {
-   "title": "코스피, 외인 3.5조·기관 1.3조 동반 순매도...5.8% 급락 - s-d.kr",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - 연합뉴스",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
@@ -413,6 +409,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "코스피, 외인 3.5조·기관 1.3조 동반 순매도...5.8% 급락 - s-d.kr",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피, 외국인·기관 ‘쌍끌이 매도’에 5.8% 급락…6500선 붕괴 - 뉴스인",
@@ -430,22 +433,6 @@
   },
   {
    "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "원-달러 환율, 11개월만에 1300원대 진입...외국인, 코스피시장서 2조원 넘게 순매도에도 13원 넘게 떨어져 - 비욘드포스트",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "[개장시황] 코스피, 외국인 6000억원 매수에 7000선 회복 - 뉴스핌",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -470,7 +457,14 @@
    ]
   },
   {
-   "title": "[마켓뷰] 美 금리 쇼크에 흘러내린 코스피…6470선에 ‘털썩’ - 조선비즈 - Chosunbiz",
+   "title": "[개장시황] 코스피, 외국인 6000억원 매수에 7000선 회복 - 뉴스핌",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피 5.8% 급락해 6471선 마감…외국인·기관 ‘매물 폭탄’ - goodkyung.com",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -643,6 +637,15 @@
   },
   {
    "title": "Micron Is Trading at About 7 Times Next Year's Earnings Estimate Even After Crossing $1 Trillion in Market Cap. Here's Why That Multiple Looks Nothing Like Nvidia's.",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK Hynix’s U.S. Listing Didn’t Fix Its Micron Discount. Now It Has a New Plan.",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
