@@ -1,8 +1,8 @@
 {
- "ts_kst": "08-20 01:50",
- "n_items": 104,
+ "ts_kst": "08-20 02:00",
+ "n_items": 105,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 30
  },
  "routed": {
@@ -14,18 +14,8 @@
   "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 40조 자사주 취득·소각 “주주가치 제고” - 경향신문",
@@ -223,7 +213,7 @@
    "agents": []
   },
   {
-   "title": "'동상이몽2' 이현이, 400% 대박 수익률…삼성전자 반도체 부장 남편 '화제' - news.nate.com",
+   "title": "'동상이몽2' 이현이, 400% 대박 수익률…삼성전자 반도체 부장 남편 '화제' - 네이트",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -479,6 +469,13 @@
    ]
   },
   {
+   "title": "[마켓뷰] 美 금리 쇼크에 흘러내린 코스피…6470선에 ‘털썩’ - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - yna.co.kr",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -488,8 +485,8 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -497,8 +494,8 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -531,15 +528,6 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
@@ -556,6 +544,15 @@
    ]
   },
   {
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -565,7 +562,7 @@
    ]
   },
   {
-   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - fieldnews.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -645,15 +642,6 @@
   },
   {
    "title": "Dow Jones Futures Waver After Sandisk, Micron, Credo Lead AI Losses; Target Earnings Beat",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Is Trading at About 7 Times Next Year's Earnings Estimate Even After Crossing $1 Trillion in Market Cap. Here's Why That Multiple Looks Nothing Like Nvidia's.",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
