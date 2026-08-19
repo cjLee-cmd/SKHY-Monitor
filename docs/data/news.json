@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-19 23:02",
+ "ts_kst": "08-19 23:12",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -14,7 +14,17 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 68,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 40조 자사주 취득·소각 “주주가치 제고” - 경향신문",
@@ -24,13 +34,6 @@
    "agents": [
     "C-BUYBACK"
    ]
-  },
-  {
-   "title": "SK하이닉스 최대 고객인 엔비디아, 삼성전자선 5위 밖인 이유는 - 조선일보",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "빅쇼트 마이클 버리 \"SK하이닉스가 찜한 ’에치드’, 엔비디아의 진정한 대항마\" By The Guru - Investing.com 한국어",
@@ -61,6 +64,13 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 최대 고객인 엔비디아, 삼성전자선 5위 밖인 이유는 - 조선일보",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 노사 밤샘협상…'현금은 연봉 50%·초과분 주식' 가닥 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -75,7 +85,7 @@
    "agents": []
   },
   {
-   "title": "[집중취재] SK하이닉스 성과급 접점 찾았지만…솔리다임 논란·주주환원은 숙제 - 매일경제 마켓",
+   "title": "[집중취재] SK하이닉스 성과급 접점 찾았지만…솔리다임 논란·주주환원은 숙제 - 매일경제TV",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -193,7 +203,7 @@
    "agents": []
   },
   {
-   "title": "DX 수익성 급락한 삼성전자…“경쟁사도 원가 압박, 점유율 뺏겠다” - 조선비즈 - biz.chosun.com",
+   "title": "DX 수익성 급락한 삼성전자…“경쟁사도 원가 압박, 점유율 뺏겠다” - 조선비즈 - Chosunbiz",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -214,7 +224,7 @@
    "agents": []
   },
   {
-   "title": "'동상이몽2' 이현이, 400% 대박 수익률…삼성전자 반도체 부장 남편 '화제' - 네이트",
+   "title": "'동상이몽2' 이현이, 400% 대박 수익률…삼성전자 반도체 부장 남편 '화제' - news.nate.com",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -255,15 +265,6 @@
    "agents": []
   },
   {
-   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
    "pub": "Mon, 10 Aug 2026",
    "src": "kr",
@@ -275,6 +276,15 @@
   {
    "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -483,7 +493,7 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - nspna.com",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -517,7 +527,7 @@
    "agents": []
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -639,11 +649,13 @@
    ]
   },
   {
-   "title": "MU, SNDK Dip Overnight: KOSPI Hits Halt Amid Asian Tech Chip Rout, SoftBank, Samsung, SK Hynix Retreat",
+   "title": "Moderna, Merck, SK Hynix, Micron, Target, Estée Lauder, and More Stocks That Explain Today’s Market",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
