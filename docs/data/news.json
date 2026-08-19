@@ -1,8 +1,8 @@
 {
- "ts_kst": "08-20 04:23",
- "n_items": 105,
+ "ts_kst": "08-20 04:24",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
@@ -14,8 +14,18 @@
   "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 67,
- "alerts": [],
+ "unassigned": 66,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 40조 자사주 취득·소각 “주주가치 제고” - 경향신문",
@@ -204,7 +214,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 평택 반도체 신설공장 '3층 팹'으로 확대 추진 - 네이트",
+   "title": "삼성전자, 평택 반도체 신설공장 '3층 팹'으로 확대 추진 - news.nate.com",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -442,7 +452,7 @@
    "agents": []
   },
   {
-   "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - 네이트",
+   "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - news.nate.com",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -458,20 +468,13 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인·기관 순매수에 7180선 강세 - kfenews.co.kr",
+   "title": "코스피, 외국인·기관 순매수에 7180선 강세 - 소년한국일보",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "[마켓뷰] 美 금리 쇼크에 흘러내린 코스피…6470선에 ‘털썩’ - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
@@ -510,7 +513,7 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -535,7 +538,7 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -640,6 +643,15 @@
   },
   {
    "title": "Dow Jones Futures Waver After Sandisk, Micron, Credo Lead AI Losses; Target Earnings Beat",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Is Trading at About 7 Times Next Year's Earnings Estimate Even After Crossing $1 Trillion in Market Cap. Here's Why That Multiple Looks Nothing Like Nvidia's.",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
