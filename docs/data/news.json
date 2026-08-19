@@ -1,21 +1,30 @@
 {
- "ts_kst": "08-20 05:13",
+ "ts_kst": "08-20 05:23",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 2,
+  "C-BUYBACK": 3,
   "M-CYCLE": 10,
-  "P-ADR": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 6,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
  "unassigned": 66,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스, 40조 자사주 매입·소각…배당 확대 검토 - 한겨레",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 40조 자사주 취득·소각 “주주가치 제고” - 경향신문",
@@ -117,20 +126,20 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ADR 주가 6% 급락…美 금리 부담에 6일만에↓ - 연합인포맥스",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "외국인 2.9조 '팔자'…SK하이닉스 10%·삼성전자 8% 급락[핫종목](종합) - v.daum.net",
+   "title": "경찰, ‘삼성·SK하이닉스 성과급 배임’ 고발인 조사 - 에너지경제신문",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "SK하이닉스, 40조 자사주 매입·소각…배당 확대 검토 - 한겨레",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
