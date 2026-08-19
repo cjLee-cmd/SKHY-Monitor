@@ -1,6 +1,6 @@
 {
- "ts": "2026-08-20T07:53:02.977603+09:00",
- "ts_kst": "08-20 07:53",
+ "ts": "2026-08-20T08:02:50.710468+09:00",
+ "ts_kst": "08-20 08:02",
  "groups": {
   "해외지수": {
    "spx": {
@@ -90,13 +90,13 @@
    },
    "vkospi": {
     "name": "VKOSPI",
-    "cur": 56.97,
-    "chg_1d": 3.0,
+    "cur": 60.63,
+    "chg_1d": 6.42,
     "chg_5d": 0,
     "chg_20d": 0,
     "chg_60d": 0,
-    "range_pos": 49,
-    "date": "20260818",
+    "range_pos": 54,
+    "date": "20260819",
     "src": "KRX"
    }
   },
@@ -112,20 +112,20 @@
    },
    "gold": {
     "name": "금",
-    "cur": 4575.1,
-    "chg_1d": 4.79,
-    "chg_5d": 3.77,
-    "chg_20d": 10.33,
-    "chg_60d": 1.53,
+    "cur": 4577.5,
+    "chg_1d": 4.84,
+    "chg_5d": 3.82,
+    "chg_20d": 10.38,
+    "chg_60d": 1.58,
     "range_pos": 100.0
    },
    "copper": {
     "name": "구리",
     "cur": 6.5,
-    "chg_1d": 0.33,
-    "chg_5d": -1.41,
-    "chg_20d": 0.82,
-    "chg_60d": 5.5,
+    "chg_1d": 0.32,
+    "chg_5d": -1.42,
+    "chg_20d": 0.81,
+    "chg_60d": 5.48,
     "range_pos": 74.0
    }
   },
@@ -163,10 +163,14 @@
   "mu_vs_sox_20d": 3.09,
   "kospi_vs_spx_20d": -3.48,
   "sox_vs_ndx_20d": -7.91,
-  "vkospi_vix_ratio": 3.83,
+  "vkospi_vix_ratio": 4.07,
   "vxn_vix_ratio": 1.48
  },
  "alerts": [
+  {
+   "level": "high",
+   "text": "VKOSPI 60.6 — 고공포 구간."
+  },
   {
    "level": "high",
    "text": "VXN/VIX 1.48 — 공포가 기술주에 집중."
