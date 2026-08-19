@@ -1,46 +1,48 @@
 {
- "ts_kst": "08-19 11:18",
- "n_items": 104,
+ "ts_kst": "08-19 11:28",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 15,
+  "M-CYCLE": 17,
   "C-CHINA": 7,
-  "F-ACTIVE": 4,
+  "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
+ "unassigned": 62,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "agents": [
     "R-LEVERAGE"
    ]
   },
   {
-   "level": "info",
-   "kw": "수주",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "한성크린텍, SK하이닉스서 307억 규모 수주…반도체 CAPA 확대 수혜 - 머니투데이 - 머니투데이",
-   "agents": []
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   }
  ],
  "items": [
   {
-   "title": "SK하이닉스 노사, 임단협 막판 담판…오늘 최종 타결 시도 - 연합뉴스",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "SK하이닉스 노사, 마라톤 교섭 끝에 임단협 잠정합의…\"세부내용 곧 발표\" - 뉴시스",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 마라톤 교섭 끝에 임단협 잠정합의…\"세부내용 곧 발표\" - 뉴시스",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "성과급 ‘주식 지급’ 합의할까…SK하이닉스 노사 교섭 ‘9부 능선’ - it.chosun.com",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -60,28 +62,25 @@
    "agents": []
   },
   {
-   "title": "한성크린텍, SK하이닉스서 307억 규모 수주…반도체 CAPA 확대 수혜 - 머니투데이 - 머니투데이",
+   "title": "만들기 무섭게 팔렸다···SK하이닉스, HBM 풀가동에 재고 회전속도 '껑충' - v.daum.net",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "구글 AMD와 차기 AI 반도체 협력 전망, 삼성전자와 SK하이닉스 HBM도 수혜 커지나 - 비즈니스포스트",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - 주간동아",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스·삼성 급락에 코스피지수 5% 넘게 떨어지며 거래 일시 중단 - Investing.com 한국어",
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -95,8 +94,8 @@
    "agents": []
   },
   {
-   "title": "매출 257% 뛴 SK하이닉스, 왜 美 '지금 사야 할 10대 주식'서 빠졌나 - 뉴시스",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "NH證 \"SK스퀘어, SK하이닉스 주가 조정 반영…목표가↓\" - v.daum.net",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -107,6 +106,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "SK하이닉스 PER 8.1배…마이크론 절반도 안돼 - 글로벌이코노믹",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
@@ -123,14 +131,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 재정부 출신 정여진 부사장 영입…\"글로벌 정책 대응 강화\" - 뉴시스",
+   "title": "삼성전자·SK하이닉스, 재경부 출신 국제금융통 영입 - 뉴스1",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 재경부 출신 국제금융통 영입 - v.daum.net",
+   "title": "SK하이닉스, 재정부 출신 정여진 부사장 영입…\"글로벌 정책 대응 강화\" - 뉴시스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -151,13 +159,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "삼성전자 7%·SK하이닉스 9% 급락…반도체 투톱 '휘청'[핫스탁] - 뉴시스",
@@ -232,13 +233,11 @@
    "agents": []
   },
   {
-   "title": "구글 AMD와 차기 AI 반도체 협력 전망, 삼성전자와 SK하이닉스 HBM도 수혜 커지나 - 비즈니스포스트",
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - 주간동아",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
@@ -248,7 +247,7 @@
    "agents": []
   },
   {
-   "title": "\"미·중 갈등 없었다면... 중국 반도체, 한국 턱밑까지 위협했을 것\" [인터뷰] - 한국일보",
+   "title": "\"미·중 갈등 없었다면... 중국 반도체, 한국 턱밑까지 위협했을 것\" [인터뷰] - hankookilbo.com",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -424,13 +423,6 @@
    "agents": []
   },
   {
-   "title": "코스피, 반도체주 강세에 7100선 회복…외국인 매수세 유입 - news21tongsin.co.kr",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "[마감시황] 7200 찍고 6869.83…외국인 매수 7821억서 468억으로 - 자본시장뉴스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -475,6 +467,15 @@
    "agents": []
   },
   {
+   "title": "코스피 외국인 순매수 '역대 최대'…\"7000 안착하면 그 이상도 가능\" - 뉴스1",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -484,7 +485,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -511,7 +512,7 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -650,6 +651,15 @@
   },
   {
    "title": "Micron Stock Crashes 7% as AI Memory Trade Suddenly Reverses",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Palantir, SpaceX and Micron: Buy, Sell or Hold?",
    "pub": "Tue, 18 Aug 2026",
    "src": "en",
    "q": "MU",
