@@ -1,9 +1,15 @@
 {
- "ts_kst": "08-19 23:22",
- "premium": 34.23,
+ "ts_kst": "08-19 23:32",
+ "premium": 36.24,
  "kr": 1624000.0,
- "adr": 157.24,
- "alerts": [],
+ "adr": 159.6,
+ "alerts": [
+  {
+   "trigger": "T3",
+   "level": "critical",
+   "text": "한국 마감 후 ADR +5.53% ($151.24 → $159.60). 익일 개장 갭 예고."
+  }
+ ],
  "leverage": {
   "samsung": {
    "n": 7,

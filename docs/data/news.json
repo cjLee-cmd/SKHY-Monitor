@@ -1,28 +1,27 @@
 {
- "ts_kst": "08-19 23:22",
- "n_items": 104,
+ "ts_kst": "08-19 23:32",
+ "n_items": 105,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 30
  },
  "routed": {
   "C-BUYBACK": 1,
-  "M-CYCLE": 11,
+  "P-ADR": 1,
+  "M-CYCLE": 10,
   "C-CHINA": 7,
-  "F-ACTIVE": 5,
+  "F-ACTIVE": 6,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
  "unassigned": 68,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "증설",
    "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - kmib.co.kr",
+   "agents": []
   }
  ],
  "items": [
@@ -50,14 +49,30 @@
    "agents": []
   },
   {
-   "title": "[집중취재] SK하이닉스 성과급 접점 찾았지만…솔리다임 논란·주주환원은 숙제 - 매일경제TV",
+   "title": "[집중취재] SK하이닉스 성과급 접점 찾았지만…솔리다임 논란·주주환원은 숙제 - 매일경제 마켓",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "빅쇼트 마이클 버리 \"SK하이닉스가 찜한 ’에치드’, 엔비디아의 진정한 대항마\" By The Guru - kr.investing.com",
+   "title": "SK하이닉스 ADR 주가 6% 급락…美 금리 부담에 6일만에↓ - 연합인포맥스",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "외국인 2.9조 '팔자'…SK하이닉스 10%·삼성전자 8% 급락[핫종목](종합) - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피 마감, 6,471.17P (-5.8%↓) SK스퀘어, SK하이닉스등 하락세 - 매일경제 마켓",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -71,20 +86,6 @@
    "agents": []
   },
   {
-   "title": "\"삼성 170조·SK하이닉스 100조 환원하라\"…주주단체, 이사진 고발 예고 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, '국내 최대' 40조 주주환원…삼성전자 통 큰 응답 나올까 - 뉴시스",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스 최대 고객인 엔비디아, 삼성전자선 5위 밖인 이유는 - 조선일보",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -92,7 +93,23 @@
    "agents": []
   },
   {
-   "title": "\"SK하닉, 160층 뚫고 쭉쭉?\"...역대급 주주환원, 주가 영향은 - 머니투데이 - 머니투데이",
+   "title": "HBM 잘나가자 삼성·SK하이닉스에 특허공세…美 소송부터 中 기술유출까지 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - 연합인포맥스",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "빅쇼트 마이클 버리 \"SK하이닉스가 찜한 ’에치드’, 엔비디아의 진정한 대항마\" By The Guru - Investing.com 한국어",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -106,32 +123,14 @@
    "agents": []
   },
   {
-   "title": "[단독] SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착' - 뉴스핌",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "HBM 잘나가자 삼성·SK하이닉스에 특허공세…美 소송부터 中 기술유출까지 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스, S&P 신용등급 'A-'로 상향⋯전망도 '긍정적' - 아이뉴스24",
+   "title": "\"SK하닉, 160층 뚫고 쭉쭉?\"...역대급 주주환원, 주가 영향은 - 머니투데이 - 머니투데이",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[오늘의 주요공시] SK하이닉스ㆍ대우건설ㆍ고려아연 등 - 이투데이",
+   "title": "[오늘의 주요공시] SK하이닉스ㆍ대우건설ㆍ고려아연 등 - etoday.co.kr",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -180,7 +179,7 @@
    "agents": []
   },
   {
-   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - 국민일보",
+   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - kmib.co.kr",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -224,7 +223,7 @@
    "agents": []
   },
   {
-   "title": "'동상이몽2' 이현이, 400% 대박 수익률…삼성전자 반도체 부장 남편 '화제' - news.nate.com",
+   "title": "'동상이몽2' 이현이, 400% 대박 수익률…삼성전자 반도체 부장 남편 '화제' - 네이트",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -274,8 +273,8 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -283,8 +282,8 @@
    ]
   },
   {
-   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -376,6 +375,13 @@
    ]
   },
   {
+   "title": "美 금리 충격·외국인 ’팔자’…코스피 5.8%↓ - 연합뉴스TV",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -383,13 +389,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "美 금리 충격·외국인 ’팔자’…코스피 5.8%↓ - 연합뉴스TV",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "코스닥 급반등에 차익실현 나선 외국인들...상승세 이어질까? - 조선일보",
@@ -459,7 +458,7 @@
    "agents": []
   },
   {
-   "title": "코스피 5.8% 급락해 6471선 마감…외국인·기관 ‘매물 폭탄’ - 굿모닝경제",
+   "title": "코스피 5.8% 급락해 6471선 마감…외국인·기관 ‘매물 폭탄’ - goodkyung.com",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -468,6 +467,15 @@
   {
    "title": "코스피, 외국인·기관 순매수에 7180선 강세 - 소년한국일보",
    "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "＇돌아온 외국인＇ 순매수에 코스피 5일 연속 ＇빨간불＇ - 한국경제TV",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -568,7 +576,7 @@
    "agents": []
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
    "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -641,15 +649,6 @@
   },
   {
    "title": "Micron Is Trading at About 7 Times Next Year's Earnings Estimate Even After Crossing $1 Trillion in Market Cap. Here's Why That Multiple Looks Nothing Like Nvidia's.",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Moderna, Merck, SK Hynix, Micron, Target, Estée Lauder, and More Stocks That Explain Today’s Market",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
