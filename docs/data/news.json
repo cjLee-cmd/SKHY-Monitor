@@ -1,20 +1,30 @@
 {
- "ts_kst": "08-19 22:12",
+ "ts_kst": "08-19 22:22",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 5,
+  "C-BUYBACK": 4,
   "M-CYCLE": 8,
   "C-CHINA": 6,
   "F-ACTIVE": 6,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 68,
- "alerts": [],
+ "unassigned": 69,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스, 40조 자사주 매입·소각…배당 확대 검토 - 한겨레",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[속보] SK하이닉스 40조원 자사주 취득…“소각 통해 주주가치 제고” - 매일경제",
@@ -26,16 +36,21 @@
    ]
   },
   {
-   "title": "SK하이닉스, 40조 자사주 사들여 전량 소각…시간외 주가 급반등 - 조선일보",
+   "title": "\"SK하닉, 160층 뚫고 쭉쭉?\"...역대급 주주환원, 주가 영향은 - 머니투데이 - 머니투데이",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "S&P Global, SK하이닉스 등급 ’A-’로 상향 조정... AI 경쟁력 부각 - Investing.com 한국어",
+   "title": "SK하이닉스 최대 고객인 엔비디아, 삼성전자선 5위 밖인 이유는 - 조선일보",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "빅쇼트 마이클 버리 \"SK하이닉스가 찜한 ’에치드’, 엔비디아의 진정한 대항마\" By The Guru - Investing.com 한국어",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -70,8 +85,8 @@
    "agents": []
   },
   {
-   "title": "\"SK하닉, 160층 뚫고 쭉쭉?\"...역대급 주주환원, 주가 영향은 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "삼성·SK하이닉스, 반년 만에 설비투자 45조…AI 메모리 '쩐의 전쟁' - 연합인포맥스",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -100,14 +115,7 @@
    ]
   },
   {
-   "title": "SK하이닉스 -9% ‘털썩’…코스피 -5.8% 급락 - 서울신문",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "‘40조 자사주 소각’… SK하이닉스, 주가 부양 칼 빼들다 - 조선일보",
+   "title": "SK하이닉스, 40조 자사주 매입·소각…배당 확대 검토 - 한겨레",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -116,7 +124,7 @@
    ]
   },
   {
-   "title": "SK하이닉스, 40조 자사주 매입·소각…배당 확대 검토 - hani.co.kr",
+   "title": "‘40조 자사주 소각’… SK하이닉스, 주가 부양 칼 빼들다 - 조선일보",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -314,7 +322,7 @@
    "agents": []
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -398,6 +406,13 @@
    "agents": []
   },
   {
+   "title": "코스피, 외국인·기관 ‘쌍끌이 매도’에 5.8% 급락…6500선 붕괴 - 뉴스인",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "외국인 3.3조 던졌다…코스피 5.8% 폭락, 6500선 붕괴 - ebn.co.kr",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -405,20 +420,13 @@
    "agents": []
   },
   {
-   "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - 연합뉴스",
+   "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - yna.co.kr",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "코스피, 외국인·기관 ‘쌍끌이 매도’에 5.8% 급락…6500선 붕괴 - 뉴스인",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "원-달러 환율, 11개월만에 1300원대 진입...외국인, 코스피시장서 2조원 넘게 순매도에도 13원 넘게 떨어져 - 비욘드포스트",
@@ -476,7 +484,7 @@
    "agents": []
   },
   {
-   "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
+   "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - yna.co.kr",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -596,12 +604,21 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - yna.co.kr",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Micron (MU) Is Earning More Than Apple or Microsoft, but Can It Last?",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -637,13 +654,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "These Are 3 of the Cheapest Stocks on the Nasdaq-100 Right Now. Are They Deals, or Is There Underlying Risk Here?",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
