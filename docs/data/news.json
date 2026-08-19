@@ -1,30 +1,108 @@
 {
- "ts_kst": "08-19 21:32",
+ "ts_kst": "08-19 21:42",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 2,
+  "C-BUYBACK": 5,
   "P-ADR": 1,
-  "M-CYCLE": 7,
+  "M-CYCLE": 8,
   "C-CHINA": 6,
   "F-ACTIVE": 6,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 71,
- "alerts": [],
+ "unassigned": 68,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스 ADR 하루만에 급반등…美 금리 진정 속 40조 자사주 매입 - 연합인포맥스",
+   "agents": [
+    "P-ADR",
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스, 자사주 40조원 규모 2천407만주 매입(상보) - 연합인포맥스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "SK하이닉스 40조 자사주 취득·소각 “주주가치 제고” - 경향신문",
+   "title": "[속보] SK하이닉스 40조원 자사주 취득…“소각 통해 주주가치 제고” - 매일경제",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "SK하이닉스 ADR 하루만에 급반등…美 금리 진정 속 40조 자사주 매입 - 연합인포맥스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR",
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "S&P Global, SK하이닉스 등급 ’A-’로 상향 조정... AI 경쟁력 부각 - Investing.com 한국어",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 최대 고객인 엔비디아, 삼성전자선 5위 밖인 이유는 - 조선일보",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - news1.kr",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "SK하이닉스 노사 밤샘협상…'현금은 연봉 50%·초과분 주식' 가닥 - v.daum.net",
@@ -34,7 +112,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 마라톤 교섭 끝 임단협 잠정합의 수순…\"세부내용 곧 발표\" - newsis.com",
+   "title": "SK하이닉스 노사, 마라톤 교섭 끝 임단협 잠정합의 수순…\"세부내용 곧 발표\" - 뉴시스",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -48,14 +126,7 @@
    "agents": []
   },
   {
-   "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - 뉴스1",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 최대 고객인 엔비디아, 삼성전자선 5위 밖인 이유는 - 조선일보",
+   "title": "\"SK하닉, 160층 뚫고 쭉쭉?\"...역대급 주주환원, 주가 영향은 - 머니투데이 - 머니투데이",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -76,51 +147,34 @@
    "agents": []
   },
   {
-   "title": "수익률 1%, SK하이닉스 사고 삼성전자 팔았다 [주식 초고수는 지금] - 서울경제",
+   "title": "[단독] SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착' - 뉴스핌",
    "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 ADR 주가 6% 급락…美 금리 부담에 6일만에↓ - 연합인포맥스",
-   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "P-ADR"
+    "M-CYCLE"
    ]
   },
   {
-   "title": "경찰, ‘삼성·SK하이닉스 성과급 배임’ 고발인 조사 - 에너지경제신문",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "外人 반도체 차익실현에…삼성전자 7.8%·SK하이닉스 9.8% 급락[핫스탁](종합) - newsis.com",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 최대 고객인 엔비디아, 삼성전자선 5위 밖인 이유는 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, 40조 자사주 매입·소각…배당 확대 검토 - 한겨레",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 자사주 40조원 규모 2천407만주 매입(상보) - 연합인포맥스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 40조 자사주 사들여 전량 소각…시간외 주가 급반등 - 조선일보",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -213,7 +267,7 @@
    "agents": []
   },
   {
-   "title": "전영현 “갈 길 멀다, 자만 말라”…HBM4 성공에도 삼성 반도체 ‘긴장’[biz-플러스] - 서울경제",
+   "title": "전영현 “갈 길 멀다, 자만 말라”…HBM4 성공에도 삼성 반도체 ‘긴장’[biz-플러스] - sedaily.com",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -279,7 +333,7 @@
    ]
   },
   {
-   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - newsis.com",
+   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - 뉴시스",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -498,7 +552,7 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -539,7 +593,7 @@
    ]
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -591,7 +645,7 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
    "pub": "Wed, 22 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -634,7 +688,7 @@
    ]
   },
   {
-   "title": "US futures nearly unchanged as AI-related stocks hit by heavy selling, oil prices rise",
+   "title": "US futures are flat as AI-related stocks hit by heavy selling, oil prices rise",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
