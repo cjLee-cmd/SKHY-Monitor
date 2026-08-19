@@ -1,13 +1,13 @@
 {
- "ts_kst": "08-19 19:58",
+ "ts_kst": "08-19 20:08",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 4,
-  "M-CYCLE": 10,
+  "C-BUYBACK": 3,
+  "M-CYCLE": 11,
   "C-CHINA": 6,
   "F-ACTIVE": 6,
   "B-RATES": 1,
@@ -16,13 +16,11 @@
  "unassigned": 67,
  "alerts": [
   {
-   "level": "info",
-   "kw": "자사주+매입",
+   "level": "high",
+   "kw": "적자",
    "src": "kr",
-   "title": "SK하이닉스, 자사주 40조원 규모 2천407만주 매입(상보) - news.einfomax.co.kr",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "title": "삼성전자 “DX, 당분간 적자 이어질 것”…시장점유율 확대로 정면돌파 - 전자신문",
+   "agents": []
   }
  ],
  "items": [
@@ -110,6 +108,22 @@
    ]
   },
   {
+   "title": "SK하이닉스 최대 고객인 엔비디아, 삼성전자선 5위 밖인 이유는 - 조선일보",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "HBM 잘나가자 삼성·SK하이닉스에 특허공세…美 소송부터 中 기술유출까지 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "수익률 1%, SK하이닉스 사고 삼성전자 팔았다 [주식 초고수는 지금] - 서울경제",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -124,22 +138,6 @@
    "agents": [
     "C-BUYBACK"
    ]
-  },
-  {
-   "title": "SK하이닉스, 자사주 40조원 규모 2천407만주 매입(상보) - news.einfomax.co.kr",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "SK하이닉스 최대 고객인 엔비디아, 삼성전자선 5위 밖인 이유는 - 조선일보",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "삼성전자, 평택 반도체 신설공장 ‘3층 팹’으로 확대 추진 - 동아일보",
@@ -184,7 +182,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자DX \"당분간 적자 불가피, 점유율 확대로 승부\" 정면돌파 - 매일경제 마켓",
+   "title": "삼성전자 “DX, 당분간 적자 이어질 것”…시장점유율 확대로 정면돌파 - 전자신문",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -473,7 +471,7 @@
    ]
   },
   {
-   "title": "＇돌아온 외국인＇ 순매수에 코스피 5일 연속 ＇빨간불＇ - 한국경제TV",
+   "title": "＇돌아온 외국인＇ 순매수에 코스피 5일 연속 ＇빨간불＇ - wowtv.co.kr",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
