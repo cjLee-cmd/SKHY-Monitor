@@ -1,38 +1,20 @@
 {
- "ts_kst": "08-19 12:54",
+ "ts_kst": "08-19 13:04",
  "n_items": 103,
  "by_source": {
   "kr": 73,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 14,
+  "P-ADR": 1,
+  "M-CYCLE": 13,
   "C-CHINA": 6,
   "F-ACTIVE": 7,
-  "B-RATES": 1,
+  "B-RATES": 2,
   "R-LEVERAGE": 12
  },
  "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 노사, 임단협 막판 담판…오늘 최종 타결 시도 - 연합뉴스",
@@ -63,7 +45,7 @@
    "agents": []
   },
   {
-   "title": "반도체 날자 코스피 상장사 순익 4배…삼성전자, SK하이닉스가 65% 차지 - v.daum.net",
+   "title": "삼성전자·SK하이닉스 빼도 76%↑…상반기 상장사 실적 '껑충' - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -77,7 +59,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 빼도 76%↑…상반기 상장사 실적 '껑충' - v.daum.net",
+   "title": "반도체 날자 코스피 상장사 순익 4배…삼성전자, SK하이닉스가 65% 차지 - chosun.com",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -91,11 +73,13 @@
    "agents": []
   },
   {
-   "title": "NH證 \"SK스퀘어, SK하이닉스 주가 조정 반영…목표가↓\" - v.daum.net",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "SK하이닉스 ADR 주가 6% 급락…美 금리 부담에 6일만에↓ - 연합인포맥스",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "“AI 메모리 없어서 못 판다더니 왜?”…美 ‘지금 사야 할 10대 주식’서 빠진 하이닉스 - 매일경제",
@@ -119,21 +103,21 @@
    "agents": []
   },
   {
-   "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - news1.kr",
+   "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 - v.daum.net",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“요며칠 조금 오르나 싶더니 또”…삼전닉스, 6~8%대 동반 급락 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "“SK하이닉스 배당 늘면 2조 유입”…NH證 “SK스퀘어, 주주환원·M&A 확대 기대” - 조선비즈 - Chosunbiz",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[특징주] SK스퀘어, SK하이닉스 급락에 100만원선 아래로 - 뉴스핌",
+   "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - news1.kr",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -356,6 +340,16 @@
    ]
   },
   {
+   "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE",
+    "B-RATES"
+   ]
+  },
+  {
    "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -456,15 +450,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "[0813마감체크] 코스피, 외국인·기관 순매수에 6800선 회복... 삼전닉스 급등 - 인포스탁데일리",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
