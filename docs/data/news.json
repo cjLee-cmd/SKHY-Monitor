@@ -1,30 +1,21 @@
 {
- "ts_kst": "08-20 22:55",
+ "ts_kst": "08-20 23:04",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 6,
+  "C-BUYBACK": 5,
   "M-CYCLE": 11,
   "M-RISK": 1,
   "B-RATES": 2,
-  "P-ADR": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 61,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
-   "agents": []
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 노사 임단협 잠정합의…성과급 60% 자사주로 지급 - 연합뉴스",
@@ -43,6 +34,13 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "SK하이닉스 주가 오늘 급등한 이유는? - Investing.com 한국어",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "2주 전엔 \"화났다\"…SK하이닉스 40조 승부수에 평가 반전 - v.daum.net",
@@ -140,16 +138,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ADR 하루만에 급반등…美 금리 진정 속 40조 자사주 매입 - 연합인포맥스",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR",
-    "C-BUYBACK"
-   ]
-  },
-  {
    "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -171,14 +159,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자 “DX, 당분간 적자 이어질 것”…시장점유율 확대로 정면돌파 - 전자신문",
+   "title": "반도체 호황의 역설..'칩플레이션'에 눌린 삼성 DX부문, 점유율 확대로 돌파 - 머니투데이 - 머니투데이",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "반도체 호황의 역설..'칩플레이션'에 눌린 삼성 DX부문, 점유율 확대로 돌파 - 머니투데이 - 머니투데이",
+   "title": "삼성전자 “DX, 당분간 적자 이어질 것”…시장점유율 확대로 정면돌파 - 전자신문",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -623,6 +611,15 @@
    ]
   },
   {
+   "title": "Micron's $50 Billion AI Buildout Is Transforming Boise",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron unveils $10 billion AI memory research lab in Boise",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
@@ -657,13 +654,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Tech & Energy Fuel S&P 500 Growth Engine",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
