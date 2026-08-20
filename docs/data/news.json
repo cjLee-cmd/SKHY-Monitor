@@ -1,25 +1,43 @@
 {
- "ts_kst": "08-20 10:18",
- "n_items": 105,
+ "ts_kst": "08-20 10:28",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
   "C-BUYBACK": 2,
   "M-CYCLE": 9,
-  "B-RATES": 2,
-  "P-ADR": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
+  "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 67,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "SK하이닉스, 40조 자사주 소각… 현금배당도 검토 - 동아일보",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "SK하이닉스, 자사주 취득 소식에 장초반 6%대 강세 - 머니투데이 - 머니투데이",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -34,8 +52,36 @@
    "agents": []
   },
   {
-   "title": "HBM 잘나가자 삼성·SK하이닉스에 특허공세…美 소송부터 中 기술유출까지 - 아이뉴스24",
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - 뉴스1",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 노조, 오늘 오후 긴급임시대의원대회…임단협 잠정합의안 '주목' - newsis.com",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - 연합뉴스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "HBM 넘어 ‘빛으로 연결’…SK하이닉스, CPO로 AI 시스템 공략 - 마켓인",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -43,8 +89,22 @@
    ]
   },
   {
-   "title": "SK하이닉스 40조 질렀다…삼성전자 '현금 91조' 어디로 [fn마켓워치] - v.daum.net",
+   "title": "'빛'으로 병목 해결…SK하이닉스, 차세대 AI 인프라 'CPO' 청사진 제시 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "S&P, SK하이닉스 신용등급 'BBB+'→'A-'로 상향 - 연합인포맥스",
    "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 40조 환원에 급등…코스피 4%대↑ - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -64,45 +124,6 @@
    "agents": []
   },
   {
-   "title": "코스피, 하이닉스 주주환원·美국채금리 진정에 2~3%대 상승(종합) - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "B-RATES"
-   ]
-  },
-  {
-   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM 넘어 ‘빛으로 연결’…SK하이닉스, CPO로 AI 시스템 공략 - 마켓인",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "빛으로 데이터 병목 해결...SK하이닉스, 차세대 AI 인프라 'CPO' 로드맵 공개 - 지디넷코리아",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "바클레이즈 \"하이닉스 저평가…주주환원, 강력한 신호\" - 매일경제 마켓",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "[증시키워드] SK하이닉스 ‘40조 자사주 소각’ 승부수…삼성전자 급락·현대차 파업 - 이투데이",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -112,24 +133,17 @@
    ]
   },
   {
-   "title": "SK하이닉스 ADR 9.19% 급락… 미 증시 일제 하락 마감 - 국민일보",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "[단독] SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착' - 뉴스핌",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "P-ADR"
+    "M-CYCLE"
    ]
   },
   {
    "title": "SK, 美 AI컴퍼니 출범·솔리다임 프리IPO 앞두고 중복상장 규제 고민 - 인베스트조선",
    "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
-   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -156,14 +170,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "반도체 날자 코스피 상장사 순익 4배…삼성전자, SK하이닉스가 65% 차지 - 조선일보",
+   "title": "반도체 날자 코스피 상장사 순익 4배…삼성전자, SK하이닉스가 65% 차지 - chosun.com",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -272,7 +279,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -299,7 +306,7 @@
    ]
   },
   {
-   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - 뉴시스",
+   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - newsis.com",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -368,6 +375,15 @@
    ]
   },
   {
+   "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -375,15 +391,6 @@
    "agents": [
     "F-ACTIVE",
     "B-RATES"
-   ]
-  },
-  {
-   "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
    ]
   },
   {
@@ -440,15 +447,15 @@
    ]
   },
   {
-   "title": "외국인 3.3조 던졌다…코스피 5.8% 폭락, 6500선 붕괴 - ebn.co.kr",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "외국인 3.3조 던졌다…코스피 5.8% 폭락, 6500선 붕괴 - ebn.co.kr",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -497,7 +504,7 @@
    ]
   },
   {
-   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - 조선일보",
+   "title": "7월 반대매매 1조원 육박...‘빚투’ 6개월만에 30조원 아래로 - chosun.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -540,7 +547,7 @@
    "agents": []
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -643,6 +650,15 @@
   },
   {
    "title": "Moderna, Merck, Micron, Marvell, Estée Lauder, Honeywell Aerospace, and More Stocks That Explain Today’s Market",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Bridgewater Dramatically Trimmed Its Position in Micron During Q2. What This Means for MU Stock.",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
