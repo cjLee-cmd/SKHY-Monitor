@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-20 13:14",
+ "ts_kst": "08-20 13:24",
  "score": 35.0,
  "verdict": "판단 유보",
  "components": {
@@ -11,9 +11,9 @@
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": 0.65,
+   "cum": 0.56,
    "sd": 4.65,
-   "z": 0.1,
+   "z": 0.09,
    "n_episodes": 4,
    "forward": {
     "5": {
@@ -76,9 +76,9 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": 0.1,
-  "drop_avg": 1.44,
-  "fundamental_ratio": 0.19,
+  "z_min": 0.09,
+  "drop_avg": 1.4,
+  "fundamental_ratio": 0.18,
   "chain_negative": "5/5"
  },
  "caveat": "역사 표본 4개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
