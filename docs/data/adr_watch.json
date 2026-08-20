@@ -1,25 +1,208 @@
 {
- "ts_kst": "08-21 00:24",
- "premium": 32.4,
+ "ts_kst": "08-21 00:32",
+ "premium": 32.62,
  "kr": 1710000.0,
- "adr": 162.54,
- "alerts": [],
+ "adr": 162.825,
+ "alerts": [
+  {
+   "level": "high",
+   "trigger": "LEV",
+   "text": "하이닉스 레버ETF 평균 -18.6%. 반대매매·환매 압력."
+  }
+ ],
  "leverage": {
   "samsung": {
-   "n": 0,
-   "mktcap_jo": 0.0,
-   "vol_jo": 0.0,
-   "chg_avg": 0
+   "n": 7,
+   "mktcap_jo": 2.45,
+   "vol_jo": 0.14,
+   "chg_avg": -14.77
   },
   "hynix": {
-   "n": 0,
-   "mktcap_jo": 0.0,
-   "vol_jo": 0.0,
-   "chg_avg": 0
+   "n": 7,
+   "mktcap_jo": 3.28,
+   "vol_jo": 0.46,
+   "chg_avg": -18.57
   },
-  "inverse_n": 0
+  "inverse_n": 2
  },
- "etf_detail": [],
+ "etf_detail": [
+  {
+   "code": "0198D0",
+   "name": "1Q SK하이닉스선물단일종목레버리지",
+   "close": 7140.0,
+   "nav": 7394.79,
+   "chg": -18.86,
+   "mktcap": 22169700000.0,
+   "shares": 3105000.0,
+   "vol": 1029342327.0,
+   "inverse": false
+  },
+  {
+   "code": "0198B0",
+   "name": "1Q 삼성전자선물단일종목레버리지",
+   "close": 10480.0,
+   "nav": 10471.52,
+   "chg": -14.66,
+   "mktcap": 22951200000.0,
+   "shares": 2190000.0,
+   "vol": 415695337.0,
+   "inverse": false
+  },
+  {
+   "code": "0194T0",
+   "name": "ACE SK하이닉스단일종목레버리지",
+   "close": 6900.0,
+   "nav": 7016.65,
+   "chg": -18.58,
+   "mktcap": 48300000000.0,
+   "shares": 7000000.0,
+   "vol": 1795410590.0,
+   "inverse": false
+  },
+  {
+   "code": "0194M0",
+   "name": "ACE 삼성전자단일종목레버리지",
+   "close": 10120.0,
+   "nav": 10107.2,
+   "chg": -14.92,
+   "mktcap": 48829000000.0,
+   "shares": 4825000.0,
+   "vol": 1278546007.0,
+   "inverse": false
+  },
+  {
+   "code": "0194R0",
+   "name": "KIWOOM SK하이닉스선물단일종목레버리지",
+   "close": 6720.0,
+   "nav": 7014.58,
+   "chg": -18.4,
+   "mktcap": 10920000000.0,
+   "shares": 1625000.0,
+   "vol": 229256585.0,
+   "inverse": false
+  },
+  {
+   "code": "0194N0",
+   "name": "KIWOOM 삼성전자선물단일종목레버리지",
+   "close": 10170.0,
+   "nav": 10219.59,
+   "chg": -15.11,
+   "mktcap": 8898750000.0,
+   "shares": 875000.0,
+   "vol": 199620525.0,
+   "inverse": false
+  },
+  {
+   "code": "0193T0",
+   "name": "KODEX SK하이닉스단일종목레버리지",
+   "close": 8065.0,
+   "nav": 8315.89,
+   "chg": -18.62,
+   "mktcap": 1961811250000.0,
+   "shares": 243250000.0,
+   "vol": 318838607783.0,
+   "inverse": false
+  },
+  {
+   "code": "0193W0",
+   "name": "KODEX 삼성전자단일종목레버리지",
+   "close": 11030.0,
+   "nav": 11031.96,
+   "chg": -14.76,
+   "mktcap": 1463129500000.0,
+   "shares": 132650000.0,
+   "vol": 94610207658.0,
+   "inverse": false
+  },
+  {
+   "code": "0193K0",
+   "name": "PLUS 삼성전자단일종목레버리지",
+   "close": 11000.0,
+   "nav": 11101.15,
+   "chg": -14.99,
+   "mktcap": 15675000000.0,
+   "shares": 1425000.0,
+   "vol": 510222817.0,
+   "inverse": false
+  },
+  {
+   "code": "0193L0",
+   "name": "PLUS 삼성전자선물단일종목인버스2X",
+   "close": 10910.0,
+   "nav": 10899.69,
+   "chg": 14.48,
+   "mktcap": 16365000000.0,
+   "shares": 1500000.0,
+   "vol": 12912938057.0,
+   "inverse": true
+  },
+  {
+   "code": "0192L0",
+   "name": "RISE SK하이닉스단일종목레버리지",
+   "close": 7000.0,
+   "nav": 7175.98,
+   "chg": -18.32,
+   "mktcap": 32725000000.0,
+   "shares": 4675000.0,
+   "vol": 645133997.0,
+   "inverse": false
+  },
+  {
+   "code": "0192M0",
+   "name": "RISE 삼성전자단일종목레버리지",
+   "close": 10240.0,
+   "nav": 10226.89,
+   "chg": -14.24,
+   "mktcap": 28416000000.0,
+   "shares": 2775000.0,
+   "vol": 264224035.0,
+   "inverse": false
+  },
+  {
+   "code": "0197W0",
+   "name": "SOL SK하이닉스단일종목레버리지",
+   "close": 6740.0,
+   "nav": 6908.09,
+   "chg": -18.6,
+   "mktcap": 46169000000.0,
+   "shares": 6850000.0,
+   "vol": 3141029882.0,
+   "inverse": false
+  },
+  {
+   "code": "0197X0",
+   "name": "SOL SK하이닉스선물단일종목인버스2X",
+   "close": 9420.0,
+   "nav": 9014.93,
+   "chg": 18.57,
+   "mktcap": 89490000000.0,
+   "shares": 9500000.0,
+   "vol": 171798995796.0,
+   "inverse": true
+  },
+  {
+   "code": "0195S0",
+   "name": "TIGER SK하이닉스단일종목레버리지",
+   "close": 6875.0,
+   "nav": 7061.32,
+   "chg": -18.59,
+   "mktcap": 1158609375000.0,
+   "shares": 168525000.0,
+   "vol": 129781608716.0,
+   "inverse": false
+  },
+  {
+   "code": "0195R0",
+   "name": "TIGER 삼성전자단일종목레버리지",
+   "close": 10085.0,
+   "nav": 10035.11,
+   "chg": -14.68,
+   "mktcap": 863780250000.0,
+   "shares": 85650000.0,
+   "vol": 44240354730.0,
+   "inverse": false
+  }
+ ],
  "thresholds": {
   "T1": 8.0,
   "T2": 1.5,
