@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-20 15:42",
+ "ts_kst": "08-20 15:52",
  "score": 35.0,
  "verdict": "판단 유보",
  "components": {
@@ -35,9 +35,9 @@
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": 1.87,
+   "cum": 1.74,
    "sd": 5.7,
-   "z": 0.23,
+   "z": 0.22,
    "n_episodes": 3,
    "forward": {
     "5": {
@@ -60,7 +60,7 @@
  },
  "chain": {
   "삼성전자": 0.93,
-  "SK하이닉스": 1.87,
+  "SK하이닉스": 1.74,
   "마이크론": -7.38,
   "TSMC": -4.38,
   "ASML": -6.98,
@@ -77,8 +77,8 @@
  },
  "detail": {
   "z_min": 0.14,
-  "drop_avg": 1.4,
-  "fundamental_ratio": 0.18,
+  "drop_avg": 1.33,
+  "fundamental_ratio": 0.17,
   "chain_negative": "5/5"
  },
  "caveat": "역사 표본 3개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
