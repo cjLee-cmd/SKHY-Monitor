@@ -1,21 +1,28 @@
 {
- "ts_kst": "08-20 09:30",
+ "ts_kst": "08-20 09:40",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 1,
-  "P-ADR": 1,
+  "C-BUYBACK": 2,
+  "M-CYCLE": 8,
+  "B-RATES": 2,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
-  "B-RATES": 1,
-  "R-LEVERAGE": 12,
-  "M-CYCLE": 6
+  "R-LEVERAGE": 12
  },
- "unassigned": 70,
- "alerts": [],
+ "unassigned": 68,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - kmib.co.kr",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스 실적은 ‘역대급’인데… 소부장은 ‘K자 양극화’ - 조선비즈 - Chosunbiz",
@@ -48,25 +55,29 @@
    ]
   },
   {
-   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - v.daum.net",
+   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - 연합뉴스",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'빛'으로 병목 해결…SK하이닉스, 차세대 AI 인프라 'CPO' 청사진 제시 - 아시아경제",
+   "title": "HBM 넘어 ‘빛으로 연결’…SK하이닉스, CPO로 AI 시스템 공략 - 마켓인",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "SK하이닉스, 'CPO 기술'로 차세대 AI 데이터센터 병목 허문다 - 뉴시스",
+   "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "S&P, SK하이닉스 신용등급 'BBB+'→'A-'로 상향 - 연합인포맥스",
@@ -97,7 +108,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 임단협 잠정합의 수순 - 지디넷코리아",
+   "title": "SK하이닉스 노사, 마라톤 교섭 끝 임단협 잠정합의 수순…\"세부내용 곧 발표\" - 뉴시스",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -118,12 +129,13 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ADR 9.19% 급락… 미 증시 일제 하락 마감 - 국민일보",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "美 국채금리 쇼크에 코스피 5.8%↓…SK하이닉스는 자사주 소각 계획 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "P-ADR"
+    "C-BUYBACK",
+    "B-RATES"
    ]
   },
   {
@@ -218,7 +230,7 @@
    "agents": []
   },
   {
-   "title": "[더트래커 2026 상반기 제조업 리포트②] 삼성전자, 반도체가 만든 사상 최대 실적…가전은 HVAC로 활로 - 더트래커",
+   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - kmib.co.kr",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -291,6 +303,13 @@
    ]
   },
   {
+   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - sisain.co.kr",
+   "pub": "Thu, 06 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "중국 메모리반도체 YMTC도 상장 절차 속도, CXMT '대성공' 사례 재현 전망 - 비즈니스포스트",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -298,13 +317,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - sisain.co.kr",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
