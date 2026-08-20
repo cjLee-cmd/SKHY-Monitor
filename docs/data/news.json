@@ -1,57 +1,21 @@
 {
- "ts_kst": "08-20 10:57",
+ "ts_kst": "08-20 11:07",
  "n_items": 103,
  "by_source": {
   "kr": 73,
   "en": 30
  },
  "routed": {
-  "M-RISK": 1,
   "C-BUYBACK": 2,
+  "M-CYCLE": 9,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "B-RATES": 1,
-  "R-LEVERAGE": 12,
-  "M-CYCLE": 8
+  "R-LEVERAGE": 12
  },
  "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "‘역대급 주주환원’ SK하이닉스 11% 상승…코스피 매수 사이드카 - 한겨레",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
-  {
-   "title": "‘역대급 주주환원’ SK하이닉스 11% 상승…코스피 매수 사이드카 - 한겨레",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "코스피, 상승 출발...SK하이닉스도 7%대 급등 - YTN",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
   {
    "title": "SK하이닉스 40조 환원에 급등…코스피 4%대↑ - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
@@ -97,13 +61,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "빛으로 데이터 병목 해결...SK하이닉스, 차세대 AI 인프라 'CPO' 로드맵 공개 - 지디넷코리아",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -111,8 +68,22 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 차세대 광 연결 ‘CPO’ 로드맵 제시… 네이처 일렉트로닉스에 논문 게재 - Chosunbiz",
+   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - 연합뉴스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 차세대 광 연결 ‘CPO’ 로드맵 제시… 네이처 일렉트로닉스에 논문 게재 - 조선비즈 - Chosunbiz",
    "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "S&P, SK하이닉스 신용등급 'BBB+'→'A-'로 상향 - 연합인포맥스",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -148,7 +119,16 @@
    ]
   },
   {
-   "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - etnews.com",
+   "title": "[단독] SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착' - 뉴스핌",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -157,6 +137,13 @@
   {
    "title": "반도체 날자 코스피 상장사 순익 4배…삼성전자, SK하이닉스가 65% 차지 - chosun.com",
    "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 非반도체 노조, 20일 서초사옥 집회…휴무 활용 적법성 '논란' - newsis.com",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -211,8 +198,8 @@
    "agents": []
   },
   {
-   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "충남 아산 삼성전자 신규 반도체 제조공장 내달 착공 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -232,14 +219,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원 - 연합뉴스",
-   "pub": "Fri, 14 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "YMTC, 상장 문턱 넘자 韓 메모리 경고등···중국 반도체 추격 더 빨라졌다 - 스마트비즈",
+   "title": "YMTC, 상장 문턱 넘자 韓 메모리 경고등···중국 반도체 추격 더 빨라졌다 - smartbizn.com",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -312,8 +292,8 @@
    "agents": []
   },
   {
-   "title": "중국 메모리반도체 YMTC도 상장 절차 속도, CXMT '대성공' 사례 재현 전망 - 비즈니스포스트",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -321,8 +301,8 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "중국 메모리반도체 YMTC도 상장 절차 속도, CXMT '대성공' 사례 재현 전망 - 비즈니스포스트",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
