@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-20 19:48",
+ "ts_kst": "08-20 19:58",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,20 +7,20 @@
  },
  "routed": {
   "C-BUYBACK": 7,
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "B-RATES": 2,
   "P-ADR": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 62,
+ "unassigned": 61,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "title": "꺼지지 않는 빚투…지난주 반대매매, 4배 넘게 터졌다 - v.daum.net",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -587,6 +587,15 @@
    "agents": []
   },
   {
+   "title": "꺼지지 않는 빚투…지난주 반대매매, 4배 넘게 터졌다 - v.daum.net",
+   "pub": "Mon, 29 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
    "pub": "Mon, 13 Jul 2026",
    "src": "kr",
@@ -607,15 +616,6 @@
   {
    "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
    "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "pub": "Wed, 22 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
