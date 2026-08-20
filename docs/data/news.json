@@ -1,12 +1,12 @@
 {
- "ts_kst": "08-21 01:53",
+ "ts_kst": "08-21 02:03",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 5,
+  "C-BUYBACK": 6,
   "M-CYCLE": 14,
   "P-ADR": 3,
   "C-CHINA": 6,
@@ -14,19 +14,8 @@
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 58,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "SK하이닉스 ADR 하루만에 급반등…美 금리 진정 속 40조 자사주 매입 - 연합인포맥스",
-   "agents": [
-    "P-ADR",
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 57,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 노사 임단협 잠정합의…성과급 60% 자사주로 지급 - 연합뉴스",
@@ -138,18 +127,20 @@
    "agents": []
   },
   {
-   "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 '40조' 효과‥코스피 6% '급등' - MBC 뉴스",
+   "title": "SK하이닉스 1인당 약 현금 3억원·주식 4억원 받는다···노사 ‘성과급 60% 자사주 지급’ 잠정합의 - 경향신문",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
