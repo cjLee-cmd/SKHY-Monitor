@@ -1,26 +1,28 @@
 {
- "ts_kst": "08-21 07:35",
+ "ts_kst": "08-21 07:45",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 4,
+  "C-BUYBACK": 3,
   "M-CYCLE": 12,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 61,
+ "unassigned": 62,
  "alerts": [
   {
    "level": "info",
-   "kw": "수주",
+   "kw": "자사주+매입",
    "src": "kr",
-   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
-   "agents": []
+   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - 연합뉴스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   }
  ],
  "items": [
@@ -48,6 +50,36 @@
    "agents": []
   },
   {
+   "title": "\"지금이 체질 개선 기회\"…삼성·SK하이닉스 '내부 정비' 속도 - 뉴스1",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - 연합뉴스",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스 12% '풀쩍'‥이제는 본격 반등? - MBC 뉴스",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -66,14 +98,7 @@
    ]
   },
   {
-   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - 연합뉴스",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
+   "title": "\"지금이 체질 개선 기회\"…삼성·SK하이닉스 '내부 정비' 속도 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -113,31 +138,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“40조 소각·100조 환원”…SK하이닉스, 주가 부양 승부수 - 서울경제",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "SK하이닉스 1인당 약 현금 3억원·주식 4억원 받는다···노사 ‘성과급 60% 자사주 지급’ 잠정합의 - 경향신문",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
   },
   {
    "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
