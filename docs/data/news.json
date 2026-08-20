@@ -1,21 +1,28 @@
 {
- "ts_kst": "08-21 04:30",
- "n_items": 102,
+ "ts_kst": "08-21 04:39",
+ "n_items": 103,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 3,
+  "C-BUYBACK": 4,
   "M-CYCLE": 13,
-  "M-RISK": 1,
   "C-CHINA": 6,
   "F-ACTIVE": 7,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 60,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 노사 임단협 잠정합의…성과급 60% 자사주로 지급 - 연합뉴스",
@@ -59,24 +66,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 '40조' 효과‥코스피 6% '급등' - MBC 뉴스",
+   "title": "\"AI 시대 인재를 찾습니다\"…SK하이닉스, 전국 채용설명회 - 연합뉴스TV",
    "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "채용설명회도 '오픈런'…SK하이닉스 신입 공채 열기 최고조 - 전자신문",
-   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -89,8 +80,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 전국 채용 설명회…AI시대 인재 찾는다 - 조선비즈 - Chosunbiz",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "채용설명회도 '오픈런'…SK하이닉스 신입 공채 열기 최고조 - 전자신문",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -131,6 +122,22 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 1인당 약 현금 3억원·주식 4억원 받는다···노사 ‘성과급 60% 자사주 지급’ 잠정합의 - 경향신문",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
@@ -424,15 +431,15 @@
    ]
   },
   {
-   "title": "코스피 5.89% 급등···외국인 전기·전자 대량 매수 - 더리포트",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "코스피 5.89% 급등···외국인 전기·전자 대량 매수 - 더리포트",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -449,6 +456,13 @@
   {
    "title": "코스피, 외국인·기관 ‘쌍끌이 매도’에 5.8% 급락…6500선 붕괴 - 뉴스인",
    "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "외국인, 한 주간 코스피 6.5조 사들여…개인은 7조원 '차익 실현' - 매일경제 마켓",
+   "pub": "Sun, 16 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -638,15 +652,6 @@
   },
   {
    "title": "Micron Jumps 2.2% After Unveiling $10 Billion AI Memory Lab",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron launches $10 billion AI memory research lab in Boise",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
    "q": "MU",
