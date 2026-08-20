@@ -1,13 +1,12 @@
 {
- "ts_kst": "08-21 05:19",
+ "ts_kst": "08-21 05:26",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "M-RISK": 1,
+  "C-BUYBACK": 4,
   "M-CYCLE": 13,
   "C-CHINA": 6,
   "F-ACTIVE": 7,
@@ -17,13 +16,20 @@
  "unassigned": 60,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "사이드카",
+   "level": "info",
+   "kw": "자사주+매입",
    "src": "kr",
-   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
+   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - v.daum.net",
    "agents": [
-    "M-RISK"
+    "C-BUYBACK"
    ]
+  },
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
+   "agents": []
   }
  ],
  "items": [
@@ -58,20 +64,41 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 '40조' 효과‥코스피 6% '급등' - MBC 뉴스",
+   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스 12% '풀쩍'‥이제는 본격 반등? - MBC 뉴스",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
+   "title": "채용설명회도 '오픈런'…SK하이닉스 신입 공채 열기 최고조 - 전자신문",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 전국 채용 설명회…AI시대 인재 찾는다 - 연합뉴스",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
+   "agents": []
+  },
+  {
+   "title": "\"AI 시대 인재를 찾습니다\"…SK하이닉스, 전국 채용설명회 - 연합뉴스TV",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "SK하이닉스, 구리선 대신 ‘빛’으로 AI데이터 병목 뚫는다 - 조선일보",
@@ -99,27 +126,6 @@
    ]
   },
   {
-   "title": "\"AI 시대 인재를 찾습니다\"…SK하이닉스, 전국 채용설명회 - 연합뉴스TV",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 전국 채용 설명회…AI시대 인재 찾는다 - 연합뉴스",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "채용설명회도 '오픈런'…SK하이닉스 신입 공채 열기 최고조 - 전자신문",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -136,8 +142,8 @@
    "agents": []
   },
   {
-   "title": "[ET톡] '코리아 디스카운트' 깨는 삼성전자·SK하이닉스 - 전자신문",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
