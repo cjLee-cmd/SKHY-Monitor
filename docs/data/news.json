@@ -1,35 +1,29 @@
 {
  "ts_kst": "08-21 07:25",
- "n_items": 102,
+ "n_items": 103,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 29
  },
  "routed": {
   "C-BUYBACK": 4,
+  "M-RISK": 1,
   "M-CYCLE": 12,
   "C-CHINA": 7,
-  "F-ACTIVE": 8,
+  "F-ACTIVE": 7,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 59,
+ "unassigned": 60,
  "alerts": [
   {
-   "level": "info",
-   "kw": "자사주+매입",
+   "level": "critical",
+   "kw": "사이드카",
    "src": "kr",
-   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - v.daum.net",
+   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
    "agents": [
-    "C-BUYBACK"
+    "M-RISK"
    ]
-  },
-  {
-   "level": "info",
-   "kw": "공급계약",
-   "src": "kr",
-   "title": "[공시 Pick] 워트, 삼성전자 반도체 장비 공급계약에 10%대 주가 강세 - 뉴스투데이",
-   "agents": []
   }
  ],
  "items": [
@@ -57,12 +51,28 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - 연합뉴스",
+   "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
    ]
   },
   {
@@ -86,29 +96,6 @@
   {
    "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - 연합뉴스",
    "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "SK하이닉스 12% '풀쩍'‥이제는 본격 반등? - MBC 뉴스",
-   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -142,11 +129,20 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 주식 지금 더 사라\"…월가 보고서 나온 이유가 - 한국경제",
+   "title": "글로벌 투자은행 SK하이닉스 주식 스와프 거래 비용 낮춰, 레버리지 거래 줄어든 영향 - 비즈니스포스트",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "SK하이닉스, 자사주 취득 소식에 장초반 6%대 강세 - 머니투데이 - 머니투데이",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
@@ -156,8 +152,8 @@
    "agents": []
   },
   {
-   "title": "삼성, 메모리 반도체 부족하다더니···재고자산 10兆 급증, 왜? - 뉴스웨이",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -165,13 +161,6 @@
   {
    "title": "삼성전자 6만원일 때 \"무조건 사라\" 외쳤던 이채원이 요즘 사는 주식 - 조선일보",
    "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -192,6 +181,20 @@
   },
   {
    "title": "삼성 반도체 공장 내달 첫삽…충남 미래산업 ‘광속 질주’ - 브릿지경제",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 아산 반도체 공장 내달 착공…'3대 메가' 사업 중 처음 - 연합뉴스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "충남도, 삼성 반도체 '광속 착공' 202조 첨단산업 투자 스타트…3대 메가 프로젝트 첫삽 - 전자신문",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -221,15 +224,8 @@
    ]
   },
   {
-   "title": "삼성전자·SK하이닉스 현직자 만난다… 전공 상관없이 듣는 반도체 취업·직무 이야기 - 뉴스H",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[속보] 환경단체들 “삼성 반도체 산단 백지화하라…비용 지역주민에 전가” - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "삼성전자, 평택 반도체 신설공장 '3층 팹'으로 확대 추진 - 네이트",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -242,8 +238,8 @@
    "agents": []
   },
   {
-   "title": "[공시 Pick] 워트, 삼성전자 반도체 장비 공급계약에 10%대 주가 강세 - 뉴스투데이",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "삼성전자·SK하이닉스 현직자 만난다… 전공 상관없이 듣는 반도체 취업·직무 이야기 - 뉴스H",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -421,6 +417,13 @@
    "agents": []
   },
   {
+   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - 매일경제 마켓",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 외국인·기관 '쌍끌이 매도'에 5.8% 급락 … 6470선 후퇴 - 뉴데일리",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -458,15 +461,6 @@
    "agents": []
   },
   {
-   "title": "＇돌아온 외국인＇ 순매수에 코스피 5일 연속 ＇빨간불＇ - 한국경제TV",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -478,6 +472,13 @@
   {
    "title": "코스닥 급반등에 차익실현 나선 외국인들...상승세 이어질까? - 조선일보",
    "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피 폭등에 외국인 보유 국내 주식 가치 급증...2분기 순대외 금융자산 역대 최대 감소 - 조선일보",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -656,15 +657,6 @@
   },
   {
    "title": "Billionaire Stanley Druckenmiller Sells Micron and Is Piling Into This Other Unstoppable Artificial Intelligence (AI) Chip Stock Instead",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Plans $10 Billion Research Lab—Trump and Apple Love It",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
    "q": "MU",
