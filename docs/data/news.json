@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-20 09:50",
+ "ts_kst": "08-20 10:00",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,25 +7,15 @@
  },
  "routed": {
   "C-BUYBACK": 2,
-  "M-CYCLE": 8,
   "B-RATES": 2,
-  "P-ADR": 1,
+  "P-ADR": 2,
+  "M-CYCLE": 8,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
  "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "삼성전자·SK하이닉스 실적은 ‘역대급’인데… 소부장은 ‘K자 양극화’ - 조선비즈 - Chosunbiz",
@@ -65,6 +55,44 @@
    "agents": []
   },
   {
+   "title": "美 국채금리 쇼크에 코스피 5.8%↓…SK하이닉스는 자사주 소각 계획 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK",
+    "B-RATES"
+   ]
+  },
+  {
+   "title": "코스피, 상승 출발...SK하이닉스도 7%대 급등 - YTN",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피, 반도체주 반등에 6600선 회복...SK하이닉스 5%대 강세 - 녹색경제신문",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "채용설명회도 '오픈런'…SK하이닉스 신입 공채 열기 최고조 - 전자신문",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - 뉴스1",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 성과급 해법 찾았나..노사 밤샘 협상 끝 '잠정합의' 수순 - 머니투데이 - 머니투데이",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -86,58 +114,21 @@
    "agents": []
   },
   {
-   "title": "채용설명회도 '오픈런'…SK하이닉스 신입 공채 열기 최고조 - 전자신문",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[오늘의 주요공시] SK하이닉스ㆍ대우건설ㆍ고려아연 등 - 이투데이",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착' - 뉴스핌",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "美 국채금리 쇼크에 코스피 5.8%↓…SK하이닉스는 자사주 소각 계획 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK",
-    "B-RATES"
-   ]
-  },
-  {
-   "title": "[개장시황] 코스피, 저가 매수세 유입에 2%대 반등…SK하이닉스 5%대 상승 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "코스피, 전일 급락 딛고 3%대 반등…SK하이닉스 8%대 급등 - 이투데이",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스 ADR 9.19% 급락… 미 증시 일제 하락 마감 - kmib.co.kr",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "뉴욕증시 하락에도 반도체株 강세…마이크론 4%·SK하이닉스 ADR 3%↑ - v.daum.net",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE",
     "P-ADR"
    ]
   },
@@ -547,8 +538,8 @@
    "agents": []
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -556,8 +547,8 @@
    ]
   },
   {
-   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
