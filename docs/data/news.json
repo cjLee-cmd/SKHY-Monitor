@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-21 03:06",
+ "ts_kst": "08-21 03:16",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -7,15 +7,52 @@
  },
  "routed": {
   "C-BUYBACK": 4,
-  "M-CYCLE": 12,
+  "M-CYCLE": 13,
   "M-RISK": 1,
+  "P-ADR": 3,
   "C-CHINA": 6,
   "F-ACTIVE": 7,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 61,
- "alerts": [],
+ "unassigned": 58,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "\"적자불가피…점유율 늘려 승부\"…정면돌파 선언한 삼성전자 DX - 매일경제",
+   "agents": []
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - v.daum.net",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스 ADR 하루만에 급반등…美 금리 진정 속 40조 자사주 매입 - 연합인포맥스",
+   "agents": [
+    "P-ADR",
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 노사 임단협 잠정합의…성과급 60% 자사주로 지급 - 연합뉴스",
@@ -27,12 +64,19 @@
    ]
   },
   {
-   "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
+   "title": "40조가 끝 아니다…SK하이닉스, 3분기 '2차 주주환원' 얼마나 풀까 - 연합인포맥스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "C-BUYBACK"
+    "M-CYCLE"
    ]
   },
   {
@@ -50,13 +94,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SK하이닉스 최대 고객인 엔비디아, 삼성전자선 5위 밖인 이유는 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "채용설명회도 '오픈런'…SK하이닉스 신입 공채 열기 최고조 - 전자신문",
@@ -87,11 +124,13 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 '40조' 효과‥코스피 6% '급등' - MBC 뉴스",
+   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
@@ -110,27 +149,32 @@
    "agents": []
   },
   {
-   "title": "“40조 소각·100조 환원”…SK하이닉스, 주가 부양 승부수 - 서울경제",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "SK하이닉스 ADR 9.19% 급락… 미 증시 일제 하락 마감 - 국민일보",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "SK하이닉스 ADR 하루만에 급반등…美 금리 진정 속 40조 자사주 매입 - 연합인포맥스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR",
     "C-BUYBACK"
    ]
   },
   {
-   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "미국증시, 유가·장기금리 상승에 기술주 약세…SK하이닉스 ADR 4%대↑ - 톱스타뉴스",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
@@ -140,8 +184,8 @@
    "agents": []
   },
   {
-   "title": "삼성, 메모리 반도체 부족하다더니···재고자산 10兆 급증, 왜? - 뉴스웨이",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -182,21 +226,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자·LG전자 'AI 데이터센터 냉각' 전쟁 본격화, 노태문 '반도체 연계' 류재철 '수직계열화'로 승부 - 비즈니스포스트",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "‘용인 반도체 취소하라’ 환경단체 항소심 첫 재판… 삼성전자 사옥서 시위도 - 조선비즈 - Chosunbiz",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -219,6 +249,20 @@
    ]
   },
   {
+   "title": "삼성전자, 평택 반도체 신설공장 '3층 팹'으로 확대 추진 - 네이트",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "\"적자불가피…점유율 늘려 승부\"…정면돌파 선언한 삼성전자 DX - 매일경제",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 평택 반도체 신설공장 ‘3층 팹’으로 확대 추진 - 동아일보",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -226,8 +270,8 @@
    "agents": []
   },
   {
-   "title": "3대 메가프로젝트, 충남 아산 삼성전자 반도체 공장에서 첫삽 - 중앙일보",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "‘용인 반도체 취소하라’ 환경단체 항소심 첫 재판… 삼성전자 사옥서 시위도 - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -387,6 +431,13 @@
    ]
   },
   {
+   "title": "美 금리 충격·외국인 ’팔자’…코스피 5.8%↓ - 연합뉴스TV",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - 매일경제 마켓",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -463,13 +514,6 @@
    ]
   },
   {
-   "title": "외국인, 한 주간 코스피 6.5조 사들여…개인은 7조원 '차익 실현' - 매일경제 마켓",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -515,8 +559,17 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
@@ -531,26 +584,15 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "agents": []
   },
   {
    "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
-   "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -565,20 +607,13 @@
    "agents": []
   },
   {
-   "title": "증시 변동성에 증거금률 줄상향…신용융자·미수거래 빗장 - 대한경제",
-   "pub": "Thu, 09 Jul 2026",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
@@ -599,6 +634,15 @@
    ]
   },
   {
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "pub": "Wed, 22 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "Billionaire Stanley Druckenmiller Dumped Micron, Intel, and Broadcom: Here Are the AI Infrastructure Stocks He Bought Instead",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
@@ -609,6 +653,15 @@
   },
   {
    "title": "Billionaire Stanley Druckenmiller Sells Micron and Is Piling Into This Other Unstoppable Artificial Intelligence (AI) Chip Stock Instead",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Plans $10 Billion Research Lab—Trump and Apple Love It",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -636,15 +689,6 @@
   },
   {
    "title": "Micron’s $50 Billion Idaho Buildout Is Minting Millionaires and Straining Local Infrastructure",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron's Biggest Risk Is Written In Its Construction Budget",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
    "q": "MU",
