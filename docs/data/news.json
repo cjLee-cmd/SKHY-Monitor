@@ -1,21 +1,51 @@
 {
- "ts_kst": "08-20 16:59",
- "n_items": 104,
+ "ts_kst": "08-20 17:09",
+ "n_items": 105,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "M-RISK": 1,
+  "C-BUYBACK": 6,
   "M-CYCLE": 10,
+  "B-RATES": 3,
+  "P-ADR": 1,
+  "M-RISK": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
-  "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스, 40조원 자사주 매입·소각...주주 환원도 더 늘린다 - 지디넷코리아",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스 ADR 하루만에 급반등…美 금리 진정 속 40조 자사주 매입 - 연합인포맥스",
+   "agents": [
+    "P-ADR",
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 노사 임단협 잠정 합의...성과급 60% 자사주로 지급 - 조선일보",
@@ -27,53 +57,7 @@
    ]
   },
   {
-   "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "‘역대급 주주환원’ SK하이닉스 11% 상승…코스피 매수 사이드카 - 한겨레",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "SK하이닉스 ‘초대형 주주환원’에 코스피 5% 급등…7000선 눈앞 - 경향신문",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "‘빛’으로 데이터 이동…SK하이닉스, ‘CPO’로 AI 병목 뚫는다 - 에너지경제신문",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 구리선 대신 ‘빛’으로 AI데이터 병목 뚫는다 - 조선일보",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스 40조 자사주 취득·소각 “주주가치 제고” - 경향신문",
+   "title": "SK하이닉스, 40조원 자사주 매입·소각...주주 환원도 더 늘린다 - 지디넷코리아",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -103,11 +87,57 @@
    "agents": []
   },
   {
-   "title": "증권사 리포트 총정리, 오이솔루션, SK하이닉스 높은 목표가 제시 - 매일경제 마켓",
+   "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 구리선 대신 ‘빛’으로 AI데이터 병목 뚫는다 - 조선일보",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "‘빛’으로 데이터 이동…SK하이닉스, ‘CPO’로 AI 병목 뚫는다 - 에너지경제신문",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "국채금리 하락·40조 자사주 소각에 코스피 5%, SK하이닉스 11% 급등 - MBC 뉴스",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK",
+    "B-RATES"
+   ]
+  },
+  {
+   "title": "美 국채금리 쇼크에 코스피 5.8%↓…SK하이닉스는 자사주 소각 계획 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK",
+    "B-RATES"
+   ]
+  },
+  {
+   "title": "SK하이닉스 ADR 하루만에 급반등…美 금리 진정 속 40조 자사주 매입 - 연합인포맥스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR",
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "SK하이닉스, 40조 풀고 181조원 더?…\"바닥 다진 주가, 다시 달린다\" - 머니투데이 - 머니투데이",
@@ -117,15 +147,24 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 40조 질렀다…삼성전자 '현금 91조' 어디로 [fn마켓워치] - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 실적은 ‘역대급’인데… 소부장은 ‘K자 양극화’ - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "title": "SK하이닉스 40조 환원에 급등…코스피 4%대↑ - 연합뉴스TV",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -147,6 +186,13 @@
   {
    "title": "SK하이닉스 이어 삼성전자도?…초고수들은 반도체 투톱 담았다 - 한국경제",
    "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 실적은 ‘역대급’인데… 소부장은 ‘K자 양극화’ - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -408,6 +454,13 @@
    "agents": []
   },
   {
+   "title": "코스피 5.89% 급등···외국인 전기·전자 대량 매수 - 더리포트",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 외국인·기관 '쌍끌이 매도'에 5.8% 급락 … 6470선 후퇴 - 뉴데일리",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -447,13 +500,6 @@
    ]
   },
   {
-   "title": "외국인, 한 주간 코스피 6.5조 사들여…개인은 7조원 '차익 실현' - 매일경제 마켓",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -479,7 +525,7 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - nspna.com",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -634,15 +680,6 @@
   },
   {
    "title": "Micron Gained Memory Market Share. The Stock Is Dropping Anyway.",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Pullback: High Growth, Low Multiple Support Upside",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
