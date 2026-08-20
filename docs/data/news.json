@@ -1,28 +1,28 @@
 {
- "ts_kst": "08-21 01:22",
+ "ts_kst": "08-21 01:32",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 5,
+  "C-BUYBACK": 4,
   "M-CYCLE": 13,
-  "B-RATES": 2,
-  "P-ADR": 2,
+  "M-RISK": 1,
   "C-CHINA": 6,
   "F-ACTIVE": 7,
+  "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 57,
+ "unassigned": 59,
  "alerts": [
   {
-   "level": "info",
-   "kw": "자사주+매입",
+   "level": "critical",
+   "kw": "사이드카",
    "src": "kr",
-   "title": "SK하이닉스 자사주 40조 매입…‘꿈의 칩’도 공개 - 서울경제",
+   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
    "agents": [
-    "C-BUYBACK"
+    "M-RISK"
    ]
   }
  ],
@@ -76,34 +76,6 @@
    "agents": []
   },
   {
-   "title": "국채금리에 휘청였던 코스피‥하이닉스 40조 자사주 소각에 반등하나? - MBC 뉴스",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK",
-    "B-RATES"
-   ]
-  },
-  {
-   "title": "SK하이닉스 ADR 이틀째 상승…적극적 주주환원 정책에 5%↑ - 연합인포맥스",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "SK하이닉스 ADR 9.19% 급락… 미 증시 일제 하락 마감 - 국민일보",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
    "title": "글로벌 투자은행 SK하이닉스 주식 스와프 거래 비용 낮춰, 레버리지 거래 줄어든 영향 - 비즈니스포스트",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -118,15 +90,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 40조 풀고 181조원 더?…\"바닥 다진 주가, 다시 달린다\" - 머니투데이 - 머니투데이",
+   "title": "“40조 소각·100조 환원”…SK하이닉스, 주가 부양 승부수 - 서울경제",
    "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 자사주 40조 매입…‘꿈의 칩’도 공개 - 서울경제",
-   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -134,8 +99,38 @@
    ]
   },
   {
-   "title": "[수급분석] 연기금·외국인 쌍끌이 매수 종목 총정리 (SK하이닉스·알테오젠 쌍끌이, 삼성전기 대규모 매도) (2026.08.20) - 네이버 프리미엄콘텐츠",
+   "title": "SK하이닉스, 40조 풀고 181조원 더?…\"바닥 다진 주가, 다시 달린다\" - 머니투데이 - 머니투데이",
    "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 '40조' 효과‥코스피 6% '급등' - MBC 뉴스",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
+   "pub": "Tue, 11 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -157,8 +152,8 @@
    "agents": []
   },
   {
-   "title": "삼성, 메모리 반도체 부족하다더니···재고자산 10兆 급증, 왜? - 뉴스웨이",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -192,13 +187,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성 반도체 공장 내달 첫삽…충남 미래산업 ‘광속 질주’ - 브릿지경제",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -213,7 +201,7 @@
    "agents": []
   },
   {
-   "title": "충남도, 삼성 반도체 '광속 착공' 202조 첨단산업 투자 스타트…3대 메가 프로젝트 첫삽 - 전자신문",
+   "title": "충남 아산 삼성전자 신규 반도체 제조공장 내달 착공 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -245,6 +233,13 @@
   {
    "title": "삼성전자, 평택 반도체 신설공장 '3층 팹'으로 확대 추진 - 네이트",
    "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 삼성디스플레이에 빌린 20조 전액 갚고도 현금 64조↑ - 아이뉴스24",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -618,6 +613,15 @@
    ]
   },
   {
+   "title": "Why Micron Isn’t Buying Back Stock Like Memory-Chip Rivals—and Why It Could",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron's Surge: Here's Why $1,000 Mark Still Matters for ETFs",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
@@ -655,15 +659,6 @@
   },
   {
    "title": "MU Stock Gains On Micron's $10B AI Memory Bet – Nvidia's Jensen Huang, Apple's Tim Cook Back Research Push",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron unveils $10 billion AI memory research lab in Boise",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
    "q": "MU",
