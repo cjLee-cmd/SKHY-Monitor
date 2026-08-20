@@ -1,21 +1,29 @@
 {
- "ts_kst": "08-21 06:45",
+ "ts_kst": "08-21 06:55",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 5,
+  "C-BUYBACK": 4,
   "M-RISK": 1,
-  "M-CYCLE": 12,
+  "M-CYCLE": 11,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 59,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - 국민일보",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 노사 임단협 잠정합의…성과급 60% 자사주로 지급 - 연합뉴스",
@@ -27,13 +35,11 @@
    ]
   },
   {
-   "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "40조가 끝 아니다…SK하이닉스, 3분기 '2차 주주환원' 얼마나 풀까 - 연합인포맥스",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다 - 한겨레",
@@ -68,22 +74,6 @@
    ]
   },
   {
-   "title": "SK하이닉스, 구리선 대신 ‘빛’으로 AI데이터 병목 뚫는다 - 조선일보",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 또 해냈다…HBM 넘어 '빛 반도체' 개념 제시 - 한국경제",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -91,6 +81,20 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "SK하이닉스, 구리선 대신 ‘빛’으로 AI데이터 병목 뚫는다 - 조선일보",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - 연합뉴스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "\"AI 시대 인재를 찾습니다\"…SK하이닉스, 전국 채용설명회 - 연합뉴스TV",
@@ -223,15 +227,15 @@
    "agents": []
   },
   {
-   "title": "3대 메가프로젝트, 충남 아산 삼성전자 반도체 공장에서 첫삽 - 중앙일보",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - 국민일보",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -605,6 +609,15 @@
    ]
   },
   {
+   "title": "Forget Micron for a Minute: This Memory Competitor Just Crossed a Major Profitability Milestone",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "The Biggest Risk Facing the Roundhill Memory ETF (DRAM) Right Now",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
@@ -640,15 +653,6 @@
   },
   {
    "title": "Billionaire Stanley Druckenmiller Sells Micron and Is Piling Into This Other Unstoppable Artificial Intelligence (AI) Chip Stock Instead",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Plans $10 Billion Research Lab—Trump and Apple Love It",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
    "q": "MU",
