@@ -1,26 +1,29 @@
 {
- "ts_kst": "08-21 05:46",
- "n_items": 100,
+ "ts_kst": "08-21 05:57",
+ "n_items": 102,
  "by_source": {
-  "kr": 71,
+  "kr": 73,
   "en": 29
  },
  "routed": {
   "C-BUYBACK": 4,
-  "M-CYCLE": 13,
+  "M-CYCLE": 12,
+  "M-RISK": 1,
   "C-CHINA": 6,
   "F-ACTIVE": 7,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 58,
+ "unassigned": 60,
  "alerts": [
   {
-   "level": "info",
-   "kw": "수주",
+   "level": "critical",
+   "kw": "사이드카",
    "src": "kr",
-   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
-   "agents": []
+   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
+   "agents": [
+    "M-RISK"
+   ]
   }
  ],
  "items": [
@@ -85,13 +88,11 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 또 해냈다…HBM 넘어 '빛 반도체' 개념 제시 - 한국경제",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - 연합뉴스",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
@@ -110,11 +111,13 @@
    ]
   },
   {
-   "title": "SK하이닉스 12% '풀쩍'‥이제는 본격 반등? - MBC 뉴스",
+   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
    "title": "글로벌 투자은행 SK하이닉스 주식 스와프 거래 비용 낮춰, 레버리지 거래 줄어든 영향 - 비즈니스포스트",
@@ -168,6 +171,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성 반도체 공장 내달 첫삽…충남 미래산업 ‘광속 질주’ - 브릿지경제",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -183,13 +193,6 @@
   },
   {
    "title": "충남 아산 삼성전자 신규 반도체 제조공장 내달 착공 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -224,6 +227,20 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "3대 메가프로젝트, 충남 아산 삼성전자 반도체 공장에서 첫삽 - 중앙일보",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
@@ -640,24 +657,6 @@
   },
   {
    "title": "Micron launches $10 billion AI memory research lab in Boise",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron’s $50 Billion Idaho Buildout Is Minting Millionaires and Straining Local Infrastructure",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron's Biggest Risk Is Written In Its Construction Budget",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
    "q": "MU",
