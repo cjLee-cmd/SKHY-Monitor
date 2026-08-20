@@ -1,29 +1,64 @@
 {
- "ts_kst": "08-20 10:47",
- "n_items": 105,
+ "ts_kst": "08-20 10:57",
+ "n_items": 103,
  "by_source": {
-  "kr": 75,
+  "kr": 73,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "M-CYCLE": 11,
+  "M-RISK": 1,
+  "C-BUYBACK": 2,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "B-RATES": 1,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 12,
+  "M-CYCLE": 8
  },
- "unassigned": 65,
+ "unassigned": 66,
  "alerts": [
   {
-   "level": "info",
-   "kw": "증설",
+   "level": "critical",
+   "kw": "사이드카",
    "src": "kr",
-   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - 국민일보",
-   "agents": []
+   "title": "‘역대급 주주환원’ SK하이닉스 11% 상승…코스피 매수 사이드카 - 한겨레",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   }
  ],
  "items": [
+  {
+   "title": "‘역대급 주주환원’ SK하이닉스 11% 상승…코스피 매수 사이드카 - 한겨레",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "title": "코스피, 상승 출발...SK하이닉스도 7%대 급등 - YTN",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 40조 환원에 급등…코스피 4%대↑ - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "“SK하이닉스 자사주 40조원 소각은 시작일뿐”...주가 상승 기대감 ‘쑥’ - chosun.com",
    "pub": "Thu, 20 Aug 2026",
@@ -34,8 +69,15 @@
    ]
   },
   {
-   "title": "‘강대강’ SK하이닉스 노사, 9부 능선 넘었다…오늘 임단협 최종 담판 - v.daum.net",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "SK하이닉스, 전국 채용 설명회…AI시대 인재 찾는다 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 성과급 해법 찾았나..노사 밤샘 협상 끝 '잠정합의' 수순 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -48,14 +90,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노조, 오늘 오후 긴급임시대의원대회…임단협 잠정합의안 '주목' - 뉴시스",
+   "title": "SK하이닉스 노조, 오늘 오후 긴급임시대의원대회…임단협 잠정합의안 '주목' - newsis.com",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - 연합뉴스",
+   "title": "SK하이닉스, 차세대 AI 연결기술 '네이처 일렉트로닉스' 게재 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -69,33 +111,15 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 'HBM 다음' CPO 기술 청사진 제시 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "코스피, 상승 출발...SK하이닉스도 7%대 급등 - YTN",
+   "title": "SK하이닉스, 차세대 광 연결 ‘CPO’ 로드맵 제시… 네이처 일렉트로닉스에 논문 게재 - Chosunbiz",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "코스피 상승 출발…SK하이닉스 자사주 소각 영향 - 전자신문",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "SK하이닉스 40조 환원에 급등…코스피 4%대↑ - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "구글 삼성전자·SK하이닉스와 메모리반도체 협상에 유리, AI 서버와 스마트폰용 '통합 구매' - 비즈니스포스트",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -108,16 +132,7 @@
    "agents": []
   },
   {
-   "title": "HBM 잘나가자 삼성·SK하이닉스에 특허공세…美 소송부터 中 기술유출까지 - 아이뉴스24",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "주주단체 \"삼성·SK하이닉스 성과급 협약 무효\"…270조 원 주주환원 요구 - 뉴스1",
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -133,23 +148,7 @@
    ]
   },
   {
-   "title": "[단독] SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착' - 뉴스핌",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
+   "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - etnews.com",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -158,13 +157,6 @@
   {
    "title": "반도체 날자 코스피 상장사 순익 4배…삼성전자, SK하이닉스가 65% 차지 - chosun.com",
    "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "구글 삼성전자·SK하이닉스와 메모리반도체 협상에 유리, AI 서버와 스마트폰용 '통합 구매' - 비즈니스포스트",
-   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -198,13 +190,6 @@
    "agents": []
   },
   {
-   "title": "삼성, 메모리 반도체 부족하다더니···재고자산 10兆 급증, 왜? - 뉴스웨이",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자 非반도체, 노조 집회 앞두고 설명회… “휴대폰, 당분간 적자 불가피” - 한국일보",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -221,6 +206,13 @@
   {
    "title": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대 - 연합인포맥스",
    "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -306,7 +298,7 @@
    ]
   },
   {
-   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - 뉴시스",
+   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - newsis.com",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -447,7 +439,7 @@
    ]
   },
   {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
+   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - dnews.co.kr",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -547,7 +539,7 @@
    "agents": []
   },
   {
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - newsis.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -650,6 +642,24 @@
   },
   {
    "title": "Micron Gained Memory Market Share. The Stock Is Dropping Anyway.",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Moderna, Merck, Micron, Marvell, Estée Lauder, Honeywell Aerospace, and More Stocks That Explain Today’s Market",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Bridgewater Dramatically Trimmed Its Position in Micron During Q2. What This Means for MU Stock.",
    "pub": "Wed, 19 Aug 2026",
    "src": "en",
    "q": "MU",
