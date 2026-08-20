@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-20 22:45",
+ "ts_kst": "08-20 22:55",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -11,12 +11,20 @@
   "M-RISK": 1,
   "B-RATES": 2,
   "P-ADR": 1,
-  "C-CHINA": 6,
+  "C-CHINA": 7,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 노사 임단협 잠정합의…성과급 60% 자사주로 지급 - 연합뉴스",
@@ -35,6 +43,13 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "2주 전엔 \"화났다\"…SK하이닉스 40조 승부수에 평가 반전 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
@@ -78,6 +93,13 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 40조 환원에 급등…코스피 4%대↑ - 연합뉴스TV",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -87,8 +109,15 @@
    ]
   },
   {
-   "title": "SK하이닉스 40조 환원에 급등…코스피 4%대↑ - 연합뉴스TV",
+   "title": "SK하이닉스, 40조 풀고 181조원 더?…\"바닥 다진 주가, 다시 달린다\" - 머니투데이 - 머니투데이",
    "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "LTA 강조한 SK하이닉스…반기보고서엔 '수주 없음'(?) [이슈체크] - MTN 머니투데이방송",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -121,27 +150,6 @@
    ]
   },
   {
-   "title": "[단독] SK하이닉스, 中 낸드 생산 50% 늘린다 - 서울경제",
-   "pub": "Tue, 11 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"SK하이닉스 주식 지금 더 사라\"…월가 보고서 나온 이유가 - 한국경제",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 40조 쏘자…“470만원 간다” “저가 매수, 강력한 신호” 글로벌 IB 호평 - 전자신문",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -149,15 +157,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "반도체 호황의 역설..'칩플레이션'에 눌린 삼성 DX부문, 점유율 확대로 돌파 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "삼성, 메모리 반도체 부족하다더니···재고자산 10兆 급증, 왜? - 뉴스웨이",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -177,8 +178,22 @@
    "agents": []
   },
   {
+   "title": "반도체 호황의 역설..'칩플레이션'에 눌린 삼성 DX부문, 점유율 확대로 돌파 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "환경단체 \"삼성 반도체사업 비용 주민에 전가…산단 철회해야\" - 연합뉴스",
    "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -235,15 +250,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 삼성디스플레이에 빌린 20조 전액 갚고도 현금 64조↑ - 아이뉴스24",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "충남 아산 삼성전자 신규 반도체 제조공장 내달 착공 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "삼성전자, 평택 반도체 신설공장 ‘3층 팹’으로 확대 추진 - 동아일보",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -288,6 +296,15 @@
    ]
   },
   {
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -320,13 +337,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - 경향신문",
@@ -445,13 +455,6 @@
    "agents": []
   },
   {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "＇돌아온 외국인＇ 순매수에 코스피 5일 연속 ＇빨간불＇ - 한국경제TV",
    "pub": "Mon, 17 Aug 2026",
    "src": "kr",
@@ -459,6 +462,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피, 외국인·기관 ‘쌍끌이 매도’에 5.8% 급락…6500선 붕괴 - 뉴스인",
@@ -613,6 +623,15 @@
    ]
   },
   {
+   "title": "Micron unveils $10 billion AI memory research lab in Boise",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Prediction: Micron Stock Could Go Parabolic After Aug. 26",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
@@ -645,15 +664,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron Trades 59% Above GF Value as Semiconductor Selloff Deepens",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
