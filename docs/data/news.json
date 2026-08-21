@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-21 16:41",
+ "ts_kst": "08-21 16:50",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,23 +7,24 @@
   "dart": 1
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "M-CYCLE": 12,
-  "B-RATES": 3,
-  "P-ADR": 1,
+  "M-CYCLE": 13,
+  "B-RATES": 2,
+  "P-ADR": 2,
+  "C-BUYBACK": 1,
   "C-CHINA": 8,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 62,
+ "unassigned": 63,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "자사주+매입",
    "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "title": "SK하이닉스 ADR 하루만에 급반등…美 금리 진정 속 40조 자사주 매입 - 연합인포맥스",
    "agents": [
-    "R-LEVERAGE"
+    "P-ADR",
+    "C-BUYBACK"
    ]
   }
  ],
@@ -43,7 +44,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 일본에 메모리칩 공장 건설을 검토 중 - 뉴스타운",
+   "title": "SK하이닉스 “日 반도체 공장 건설 추진, 미확정” - 경향신문",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -57,13 +58,11 @@
    "agents": []
   },
   {
-   "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
+   "title": "SK하이닉스 '40조 환원'에 급등…\"다음 타자 삼성전자는 100조 이상?\" - 뉴시스",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
@@ -78,6 +77,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "빛으로 데이터 병목 해결...SK하이닉스, 차세대 AI 인프라 'CPO' 로드맵 공개 - 지디넷코리아",
@@ -103,39 +111,6 @@
    "agents": []
   },
   {
-   "title": "상위 1%는 하이닉스 팔았다...삼성전자엔 베팅 “파운드리 흑자전환 기대” - 한국경제",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "167조 쌓은 삼성전자…SK하이닉스 40조 소각에 어떤 답 내놓나 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "코스피, 장중 상승 전환…삼성전자 1%↑SK하이닉스 4%↑ - 뉴시스",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "국채금리 하락·40조 자사주 소각에 코스피 5%, SK하이닉스 11% 급등 - MBC 뉴스",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK",
-    "B-RATES"
-   ]
-  },
-  {
    "title": "미 증시 국채금리 반등에 하락… SK하이닉스 ADR은 4.38%↑ - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -144,6 +119,30 @@
     "B-RATES",
     "P-ADR"
    ]
+  },
+  {
+   "title": "SK하이닉스 12% '풀쩍'‥이제는 본격 반등? - MBC 뉴스",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 ADR 하루만에 급반등…美 금리 진정 속 40조 자사주 매입 - 연합인포맥스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR",
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 하락 출발후 4%대 상승 전환…코피스는 혼조세 - 마켓인",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
@@ -209,8 +208,8 @@
    "agents": []
   },
   {
-   "title": "삼성반도체 베트남, EVN과 반도체 공장 전력 공급 등 인프라 확충방안 협의 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "삼성전자 아산 반도체 공장 내달 착공…'3대 메가' 사업 중 처음 - 연합뉴스",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
