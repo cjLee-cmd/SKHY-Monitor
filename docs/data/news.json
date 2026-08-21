@@ -1,30 +1,21 @@
 {
- "ts_kst": "08-22 07:01",
- "n_items": 101,
+ "ts_kst": "08-22 07:11",
+ "n_items": 102,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 1,
-  "M-CYCLE": 7,
+  "C-BUYBACK": 2,
+  "B-RATES": 4,
+  "P-ADR": 1,
+  "M-CYCLE": 8,
   "C-CHINA": 6,
   "F-ACTIVE": 8,
-  "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "꺼지지 않는 빚투…지난주 반대매매, 4배 넘게 터졌다 - v.daum.net",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다…미국 압박 거세질 듯 - 한겨레",
@@ -71,11 +62,38 @@
    "agents": []
   },
   {
+   "title": "\"고마운 하닉·삼전\" 전남광주특별시 '명예도로명' 지정 검토 - v.daum.net",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "국채금리 하락·40조 자사주 소각에 코스피 5%, SK하이닉스 11% 급등 - MBC 뉴스",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK",
+    "B-RATES"
+   ]
+  },
+  {
+   "title": "미 증시 국채금리 반등에 하락… SK하이닉스 ADR은 4.38%↑ - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "B-RATES",
+    "P-ADR"
+   ]
   },
   {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
@@ -113,29 +131,6 @@
    "agents": []
   },
   {
-   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "반도체 파고 속 자율 타결 이룬 SK하이닉스…‘함께 미래’ 노사 동행 새 이정표 - 동아일보",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[그래픽] 삼성전자·SK하이닉스 주주환원 규모 현황 - 연합뉴스",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -164,7 +159,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 협력사 인센티브에 789억 원 출연 - 뉴스1",
+   "title": "삼성전자, 미세공정 한계였던 저항 극복 신기술 세계 최초 구현 - 조선일보",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -172,6 +167,13 @@
   },
   {
    "title": "삼성전자, 반도체 협력사에 789억 푼다…안전·생산성 인센티브 - 뉴스핌",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 협력사 인센티브에 789억 원 출연 - 뉴스1",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -206,11 +208,13 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 미세공정 한계였던 저항 극복 신기술 세계 최초 구현 - 조선일보",
+   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성·SK, 반도체 생산거점 확보전 속도…韓美日 전방위 확대 - 서울경제",
@@ -429,8 +433,8 @@
    "agents": []
   },
   {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "개선되는 외국인 국장 복귀 여건, 핵심 변수는? - 데일리안",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -469,8 +473,8 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -478,8 +482,8 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -503,8 +507,8 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -512,8 +516,8 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -553,8 +557,8 @@
    "agents": []
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
-   "pub": "Mon, 13 Jul 2026",
+   "title": "최고치에 가려진 빚투 청구서…반대매매 공포가 시장 흔든다 - v.daum.net",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -562,8 +566,8 @@
    ]
   },
   {
-   "title": "꺼지지 않는 빚투…지난주 반대매매, 4배 넘게 터졌다 - v.daum.net",
-   "pub": "Mon, 29 Jun 2026",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -589,8 +593,8 @@
    ]
   },
   {
-   "title": "최고치에 가려진 빚투 청구서…반대매매 공포가 시장 흔든다 - v.daum.net",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "\"코스피 9000 바라보는데\"…신용잔고 38조·대차거래 190조 돌파 '경고음' - v.daum.net",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -599,6 +603,15 @@
   },
   {
    "title": "Micron’s AI boom rolls on with $10 billion Iowa data center",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron CEO gives investors $10 billion reason to listen",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -641,20 +654,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "This Stock Could Be a Major AI Winner Through 2027. What’s It Worth?",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "BMO starts chip stocks coverage: Here are its preferred picks",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
