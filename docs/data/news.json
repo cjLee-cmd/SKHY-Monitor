@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-21 11:40",
+ "ts_kst": "08-21 11:50",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,8 +7,8 @@
   "dart": 1
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "M-CYCLE": 12,
+  "C-BUYBACK": 4,
+  "M-CYCLE": 11,
   "P-ADR": 1,
   "C-CHINA": 8,
   "F-ACTIVE": 7,
@@ -18,24 +18,26 @@
  "unassigned": 62,
  "alerts": [
   {
-   "level": "high",
-   "kw": "적자",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN",
-   "agents": []
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   }
  ],
  "items": [
   {
-   "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다…미국 압박 변수도 - 한겨레",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "SK하이닉스, 반도체 소부장 강국 일본과 ‘동맹’…대규모 보조금도 기대 - 한겨레",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 반도체 소부장 강국 일본과 ‘동맹’…대규모 보조금도 기대 - 한겨레",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다…미국 압박 변수도 - 한겨레",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -48,11 +50,13 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN",
+   "title": "SK하이닉스, 7억대 '역대급 성과급'…60% 자사주로, 현금은 40% - 주간조선",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "SK하닉 끌어올릴 한방 더 있다? “사팔 말라” 최태원의 장담 - v.daum.net",
@@ -85,17 +89,15 @@
    "agents": []
   },
   {
-   "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
+   "title": "SK하이닉스, 구리선 대신 ‘빛’으로 AI데이터 병목 뚫는다 - 조선일보",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
-   "title": "HBM 잘나가자 삼성·SK하이닉스에 특허공세…美 소송부터 中 기술유출까지 - 아이뉴스24",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -143,6 +145,13 @@
    ]
   },
   {
+   "title": "삼성전자 6만원일 때 \"무조건 사라\" 외쳤던 이채원이 요즘 사는 주식 - 조선일보",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -150,14 +159,21 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 평택 반도체 신설공장 ‘3층 팹’으로 확대 추진 - 동아일보",
+   "title": "\"인텔은 메모리, 삼성은 파운드리\" 교차 진출하는 韓·美 반도체 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성, AI 반도체 ‘배선 저항’ 저감 기술 세계 최초 구현 - v.daum.net",
+   "title": "삼성전자 파운드리, 고객별 가격 차등화…수익성 개선 가속도 - 녹색경제신문",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, AI 반도체 초미세 배선 저항 45% 낮춰…세계 최초 구현 - 뉴스1",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -166,13 +182,6 @@
   {
    "title": "삼성전자·SK하이닉스 장초반 급락… 반도체 덮친 ‘중동 쇼크’ - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 6만원일 때 \"무조건 사라\" 외쳤던 이채원이 요즘 사는 주식 - 조선일보",
-   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -199,14 +208,21 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 삼성디스플레이에 빌린 20조 전액 갚고도 현금 64조↑ - 아이뉴스24",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "삼성전자, 평택 반도체 신설공장 ‘3층 팹’으로 확대 추진 - 동아일보",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "‘용인 반도체 취소하라’ 환경단체 항소심 첫 재판… 삼성전자 사옥서 시위도 - 조선비즈 - Chosunbiz",
+   "title": "삼성, AI 반도체 ‘배선 저항’ 저감 기술 세계 최초 구현 - 헤럴드경제",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 非반도체 노조, 20일 서초사옥 집회…휴무 활용 적법성 '논란' - 뉴시스",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -220,21 +236,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 초미세 배선 저항 45% 저감 기술 세계 최초 개발 - 2news.co.kr",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[더트래커 2026 상반기 제조업 리포트②] 삼성전자, 반도체가 만든 사상 최대 실적…가전은 HVAC로 활로 - 더트래커",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[정책 브리핑] \"삼성 반도체 조기 착공·태안~안성 민자고속도로 속도\" - LG헬로비전",
+   "title": "삼성, AI 반도체 ‘배선 저항’ 저감 기술 세계 최초 구현 - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -491,15 +493,6 @@
    ]
   },
   {
-   "title": "'미수 거래' 19개월만에 최저…신용잔고는 30조원대 유지 - 연합뉴스",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -520,6 +513,15 @@
   {
    "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -593,8 +595,8 @@
    ]
   },
   {
-   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
-   "pub": "Wed, 01 Jul 2026",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -602,12 +604,21 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "pub": "Wed, 22 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Micron CEO Says AI ‘Can’t Scale’ Without Memory – MU Stock Jumps On $10B Research Lab Initiative",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -646,15 +657,6 @@
   },
   {
    "title": "Billionaire Stanley Druckenmiller Dumped Micron, Intel, and Broadcom: Here Are the AI Infrastructure Stocks He Bought Instead",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Billionaire Stanley Druckenmiller Sells Micron and Is Piling Into This Other Unstoppable Artificial Intelligence (AI) Chip Stock Instead",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
    "q": "MU",
