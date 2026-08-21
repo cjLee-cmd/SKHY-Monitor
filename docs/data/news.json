@@ -1,21 +1,32 @@
 {
- "ts_kst": "08-21 12:54",
- "n_items": 103,
+ "ts_kst": "08-21 13:04",
+ "n_items": 102,
  "by_source": {
-  "kr": 73,
+  "kr": 72,
   "en": 29,
   "dart": 1
  },
  "routed": {
-  "M-CYCLE": 13,
-  "C-BUYBACK": 1,
+  "M-CYCLE": 12,
+  "C-BUYBACK": 2,
+  "M-RISK": 1,
   "C-CHINA": 9,
   "F-ACTIVE": 7,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 61,
- "alerts": [],
+ "unassigned": 59,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다…미국 압박 거세질 듯 - 한겨레",
@@ -32,7 +43,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 일본 '반도체 공장' 추진…호남보다 작은 규모일 듯 - v.daum.net",
+   "title": "SK하이닉스, 광주 이어 美日도 반도체 팹 전방위 신설 검토 - 서울경제",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -40,13 +51,6 @@
   },
   {
    "title": "'성과급 60% 주식' 최종 확정되나…SK하이닉스 노조 찬반투표 결과 '촉각' - 뉴시스",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하닉 끌어올릴 한방 더 있다? “사팔 말라” 최태원의 장담 - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -76,23 +80,7 @@
    "agents": []
   },
   {
-   "title": "[증시키워드] SK하이닉스 ‘40조 자사주 소각’ 승부수…삼성전자 급락·현대차 파업 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "삼성전자·SK하이닉스 실적은 ‘역대급’인데… 소부장은 ‘K자 양극화’ - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성·SK하이닉스, R&D 비용 반기에만 33조…마이크론도 나섰다 - 아시아투데이",
+   "title": "\"메모리반도체 수요 충족 어렵다\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -101,18 +89,36 @@
    ]
   },
   {
-   "title": "40조가 끝 아니다…SK하이닉스, 3분기 '2차 주주환원' 얼마나 풀까 - 연합인포맥스",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "코스피, 장중 상승 전환…삼성전자 1%↑SK하이닉스 4%↑ - 뉴시스",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 하락 출발후 4%대 상승 전환…코피스는 혼조세 - 마켓인",
+   "title": "167조 쌓은 삼성전자…SK하이닉스 40조 소각에 어떤 답 내놓나 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "삼전닉스 급등에 개미들, 레버리지 936억원 팔고 ‘인버스’ 탔다 - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
@@ -129,22 +135,17 @@
    "agents": []
   },
   {
-   "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "\"인텔은 메모리, 삼성은 파운드리\" 교차 진출하는 韓·美 반도체 - v.daum.net",
+   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
-   "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -164,14 +165,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자, AI 반도체 초미세 배선 저항 45% 낮춰…세계 최초 구현 - v.daum.net",
+   "title": "삼성, AI 반도체 ‘배선 저항’ 저감 기술 세계 최초 구현 - 헤럴드경제",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성, AI 반도체 ‘배선 저항’ 저감 기술 세계 최초 구현 - v.daum.net",
+   "title": "삼성전자·GIST, 탄소 활용해 반도체 배선 저항 45% 낮췄다 - 네이트",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -186,6 +187,13 @@
   },
   {
    "title": "삼성전자 9%·하이닉스 13% 반도체 불기둥…코스피 5.89% 폭등 By EBN - Investing.com 한국어",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "환경단체들 “삼성 반도체 산단 백지화하라…비용 지역주민에 전가” - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -213,13 +221,11 @@
    "agents": []
   },
   {
-   "title": "\"메모리반도체 수요 충족 어렵다\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "삼성전자, 삼성디스플레이에 빌린 20조 전액 갚고도 현금 64조↑ - 아이뉴스24",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - 국민일보",
@@ -492,6 +498,13 @@
    ]
   },
   {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -533,13 +546,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
@@ -585,8 +591,8 @@
    ]
   },
   {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "pub": "Wed, 22 Jul 2026",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -647,6 +653,15 @@
   },
   {
    "title": "Billionaire Stanley Druckenmiller Sells Micron and Is Piling Into This Other Unstoppable Artificial Intelligence (AI) Chip Stock Instead",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Plans $10 Billion Research Lab—Trump and Apple Love It",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
    "q": "MU",
