@@ -1,9 +1,15 @@
 {
- "ts_kst": "08-22 00:31",
- "premium": 32.61,
+ "ts_kst": "08-22 00:41",
+ "premium": 33.68,
  "kr": 1730000.0,
- "adr": 165.56,
- "alerts": [],
+ "adr": 166.92,
+ "alerts": [
+  {
+   "trigger": "T2",
+   "level": "high",
+   "text": "방향 괴리: 한국 -1.76% vs ADR +2.28%. 뒤따라갈 쪽은 한국."
+  }
+ ],
  "leverage": {
   "samsung": {
    "n": 7,
