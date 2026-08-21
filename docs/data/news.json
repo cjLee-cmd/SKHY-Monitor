@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-21 22:43",
+ "ts_kst": "08-21 22:53",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,16 +7,24 @@
   "dart": 1
  },
  "routed": {
-  "C-BUYBACK": 2,
   "M-CYCLE": 12,
+  "C-BUYBACK": 1,
   "B-RATES": 3,
   "P-ADR": 1,
   "C-CHINA": 6,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 66,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 일본 반도체 공장 건설 추진 보도 - Investing.com 한국어",
@@ -47,13 +55,11 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 1인당 약 현금 3억원·주식 4억원 받는다···노사 ‘성과급 60% 자사주 지급’ 잠정합의 - 경향신문",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "\"안 팔아, 더 기다린다\"…SK하이닉스 수익률 9000%에도 꿋꿋한 이유 - v.daum.net",
@@ -443,13 +449,6 @@
    "agents": []
   },
   {
-   "title": "코스피 약세 출발 6800선 공방⋯외국인ㆍ기관 동반 '팔자' - 이투데이",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "\"고마워요 코스피, 잘 먹고 갑니다\"…외국인, 7개월 내리 팔더니 우르르 몰려갔다 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -471,6 +470,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "코스피 약세 출발 6800선 공방⋯외국인ㆍ기관 동반 '팔자' - v.daum.net",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
