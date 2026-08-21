@@ -1,32 +1,22 @@
 {
- "ts_kst": "08-21 21:43",
- "n_items": 104,
+ "ts_kst": "08-21 21:53",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 29,
   "dart": 1
  },
  "routed": {
-  "C-BUYBACK": 1,
+  "C-BUYBACK": 3,
+  "P-ADR": 2,
+  "M-CYCLE": 12,
   "B-RATES": 3,
-  "P-ADR": 1,
-  "M-CYCLE": 13,
   "C-CHINA": 8,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 61,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 일본 반도체 공장 건설 보도에 \"다양한 방안 검토하고 있다\" - 비즈니스포스트",
@@ -57,6 +47,16 @@
    "agents": []
   },
   {
+   "title": "40조 자사주 소각에도…SK하이닉스 美 ADR '47% 프리미엄' 요지부동 [주주환원 기대 확산, 반도체株 재평가] - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK",
+    "P-ADR"
+   ]
+  },
+  {
    "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -64,28 +64,17 @@
    "agents": []
   },
   {
-   "title": "국채금리 하락·40조 자사주 소각에 코스피 5%, SK하이닉스 11% 급등 - MBC 뉴스",
+   "title": "SK하이닉스 노사 임단협 잠정합의…성과급 60% 자사주로 지급 - 연합뉴스",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "C-BUYBACK",
-    "B-RATES"
+    "C-BUYBACK"
    ]
   },
   {
-   "title": "미 증시 국채금리 반등에 하락… SK하이닉스 ADR은 4.38%↑ - v.daum.net",
+   "title": "[단독]SK하이닉스, 성과급 60% 주식 지급하되 주가 하락시 현금 보전키로 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "B-RATES",
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "삼성전자·SK하이닉스만 버틴 코스피…773종목 하락·코스닥 3%대 급락 - 디지털데일리",
-   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -119,15 +108,8 @@
    "agents": []
   },
   {
-   "title": "빛으로 데이터 병목 해결...SK하이닉스, 차세대 AI 인프라 'CPO' 로드맵 공개 - 지디넷코리아",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 또 해냈다…HBM 넘어 '빛 반도체' 개념 제시 - 한국경제",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -135,12 +117,23 @@
    ]
   },
   {
-   "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
+   "title": "국채금리 하락·40조 자사주 소각에 코스피 5%, SK하이닉스 11% 급등 - MBC 뉴스",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "M-CYCLE"
+    "C-BUYBACK",
+    "B-RATES"
+   ]
+  },
+  {
+   "title": "미 증시 국채금리 반등에 하락… SK하이닉스 ADR은 4.38%↑ - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "B-RATES",
+    "P-ADR"
    ]
   },
   {
@@ -214,30 +207,7 @@
    "agents": []
   },
   {
-   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성전자, AI 반도체 ‘배선 저항’ 45% 낮췄다…미세화 한계 돌파 기술 개발 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, AI 반도체 초미세 배선 저항 45% 낮춰…세계 최초 구현 - 뉴스1",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자-GIST, 반도체 초미세 공정 한계 넘을 기술 확보 - 매일경제",
+   "title": "삼성전자, 미세공정 한계였던 저항 극복 신기술 세계 최초 구현 - 조선일보",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -245,6 +215,22 @@
   },
   {
    "title": "삼성 반도체 공장 내달 첫삽…충남 미래산업 ‘광속 질주’ - 브릿지경제",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 온양캠퍼스 HBM 신규팹 다음달 착공…6조원 규모 - 지디넷코리아",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성전자 아산 반도체 공장 내달 착공…'3대 메가' 사업 중 처음 - 연합뉴스",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -399,6 +385,13 @@
    ]
   },
   {
+   "title": "하닉 40조·삼전 110조 ‘역대급’ 주주환원…외국인 ‘국장 복귀’ 빨라지나 - v.daum.net",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -407,13 +400,6 @@
     "F-ACTIVE",
     "B-RATES"
    ]
-  },
-  {
-   "title": "\"고마워요 코스피, 잘 먹고 갑니다\"…외국인, 7개월 내리 팔더니 우르르 몰려갔다 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - 연합뉴스",
@@ -460,13 +446,11 @@
    "agents": []
   },
   {
-   "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "\"고마워요 코스피, 잘 먹고 갑니다\"…외국인, 7개월 내리 팔더니 우르르 몰려갔다 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "美 금리 충격에 외국인 ’팔자’…코스피 5%대↓ - 연합뉴스TV",
@@ -476,11 +460,13 @@
    "agents": []
   },
   {
-   "title": "[개장시황] 코스피, 외국인 6000억원 매수에 7000선 회복 - 뉴스핌",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -662,6 +648,15 @@
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "Micron to launch US memory research lab with $10bn investment",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
