@@ -1,13 +1,12 @@
 {
- "ts_kst": "08-21 10:51",
+ "ts_kst": "08-21 11:01",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "M-RISK": 1,
+  "C-BUYBACK": 4,
   "M-CYCLE": 11,
   "P-ADR": 1,
   "C-CHINA": 8,
@@ -18,12 +17,12 @@
  "unassigned": 61,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "사이드카",
+   "level": "info",
+   "kw": "자사주+매입",
    "src": "kr",
-   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
+   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - 연합뉴스",
    "agents": [
-    "M-RISK"
+    "C-BUYBACK"
    ]
   }
  ],
@@ -73,6 +72,13 @@
    "agents": []
   },
   {
+   "title": "40조가 끝 아니다…SK하이닉스, 3분기 '2차 주주환원' 얼마나 풀까 - 연합인포맥스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -80,20 +86,20 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 11% 급등에 코스피 5%↑…매수 사이드카 발동 - 조선일보",
+   "title": "SK하이닉스 12% '풀쩍'‥이제는 본격 반등? - MBC 뉴스",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - 연합뉴스",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "M-RISK"
+    "C-BUYBACK"
    ]
-  },
-  {
-   "title": "40조가 끝 아니다…SK하이닉스, 3분기 '2차 주주환원' 얼마나 풀까 - 연합인포맥스",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
@@ -127,13 +133,6 @@
     "C-BUYBACK",
     "P-ADR"
    ]
-  },
-  {
-   "title": "SK하이닉스, 전국 채용 설명회…AI시대 인재 찾는다 - 연합뉴스",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "채용설명회도 '오픈런'…SK하이닉스 신입 공채 열기 최고조 - 전자신문",
