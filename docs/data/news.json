@@ -1,19 +1,109 @@
 {
- "ts_kst": "08-22 08:22",
- "n_items": 88,
+ "ts_kst": "08-22 08:32",
+ "n_items": 102,
  "by_source": {
-  "kr": 60,
+  "kr": 74,
   "en": 28
  },
  "routed": {
   "C-BUYBACK": 1,
   "M-CYCLE": 9,
-  "C-CHINA": 7,
-  "F-ACTIVE": 7,
-  "B-RATES": 2
+  "C-CHINA": 5,
+  "F-ACTIVE": 6,
+  "B-RATES": 1,
+  "R-LEVERAGE": 12
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 69,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "최고치에 가려진 빚투 청구서…반대매매 공포가 시장 흔든다 - v.daum.net",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다…미국 압박 거세질 듯 - 한겨레",
@@ -44,6 +134,20 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "삼성전자, 110조원 역대급 주주환원…SK하이닉스와 다른 점은? - 한국경제",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "반도체 형님들의 '통 큰 주주환원'…국장 수급 개선될까 - v.daum.net",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "\"이게 시총 1·2위 맞아?\"…이틀에 한 번꼴 5% 출렁인 '삼전닉스' [증시는 왜] - v.daum.net",
@@ -88,7 +192,7 @@
    "agents": []
   },
   {
-   "title": "\"안 팔아, 더 기다린다\"…SK하이닉스 수익률 9000%에도 꿋꿋한 이유 - 아시아경제",
+   "title": "\"안 팔아, 더 기다린다\"…SK하이닉스 수익률 9000%에도 꿋꿋한 이유 - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -103,20 +207,6 @@
   },
   {
    "title": "반도체 파고 속 자율 타결 이룬 SK하이닉스…‘함께 미래’ 노사 동행 새 이정표 - 동아일보",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"AI 인재 찾아 종횡무진\"…삼성전자는 외국인 경력·SK하이닉스는 신입 채용 - 뉴시스",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[그래픽] 삼성전자·SK하이닉스 주주환원 규모 현황 - 연합뉴스",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -172,7 +262,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 이어 삼성전자도?…초고수들은 반도체 투톱 담았다 - 한국경제",
+   "title": "SK하닉, 40조 주주환원에 반도체 투심 '활짝'…\"다음은 삼성전자\"[주주환원 기대 확산, 반도체株 재평가] - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -280,15 +370,8 @@
    ]
   },
   {
-   "title": "'회색 코뿔소' 중국 메모리…반도체 슈퍼사이클 최대 변수로 부상 - ebn.co.kr",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - 뉴시스",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -301,15 +384,45 @@
    "agents": []
   },
   {
-   "title": "\"한국 메모리 반도체 호황, 미국·중국 갈등 덕분\" [인터뷰] - 네이트",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "'회색 코뿔소' 중국 메모리…반도체 슈퍼사이클 최대 변수로 부상 - ebn.co.kr",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "애플·마이크론 '중국산 메모리' 놓고 암투...트럼프의 선택은? - YTN",
-   "pub": "Sun, 02 Aug 2026",
+   "title": "중국 반도체 추격 변수로 부상…\"초격차 사수해야\" - 연합뉴스TV",
+   "pub": "Mon, 13 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
+   "pub": "Mon, 20 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - 뉴시스",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "pub": "Tue, 17 Feb 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 27 Jun 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -317,35 +430,8 @@
    ]
   },
   {
-   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "중국 메모리반도체 YMTC도 상장 절차 속도, CXMT '대성공' 사례 재현 전망 - 비즈니스포스트",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "\"한국 메모리 반도체 호황, 미국·중국 갈등 덕분\" [인터뷰] - 네이트",
+   "pub": "Mon, 17 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -388,6 +474,24 @@
    ]
   },
   {
+   "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - 연합뉴스",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "美 금리 충격·외국인 ’팔자’…코스피 5.8%↓ - 연합뉴스TV",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -395,25 +499,15 @@
    "agents": []
   },
   {
-   "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE",
-    "B-RATES"
-   ]
-  },
-  {
-   "title": "코스피, 외국인·기관 '쌍끌이 매도'에 5.8% 급락 … 6470선 후퇴 - 뉴데일리",
+   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - 매일경제 마켓",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "코스피, 외국인·기관 '쌍끌이 매도'에 5.8% 급락 … 6470선 후퇴 - 뉴데일리",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -426,36 +520,18 @@
    "agents": []
   },
   {
-   "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - 강원도민일보",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피, 외인 3.5조·기관 1.3조 동반 순매도...5.8% 급락 - 증권일보",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[개장시황] 코스피, 외국인·기관 매도에 1.18% 하락 출발 - 뉴스핌",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "[개장시황] 코스피, 외국인 6000억원 매수에 7000선 회복 - 뉴스핌",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "외국인 상반기 코스피서 148조원 순매도…증권가 “하반기도 이어질 것” - 중앙일보",
-   "pub": "Tue, 30 Jun 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "美 금리 충격에 외국인 ’팔자’…코스피 5%대↓ - 연합뉴스TV",
@@ -465,11 +541,140 @@
    "agents": []
   },
   {
-   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - v.daum.net",
+   "title": "[마켓뷰] 美 금리 쇼크에 흘러내린 코스피…6470선에 ‘털썩’ - 조선비즈 - Chosunbiz",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "최고치에 가려진 빚투 청구서…반대매매 공포가 시장 흔든다 - v.daum.net",
+   "pub": "Wed, 03 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "pub": "Mon, 13 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "pub": "Wed, 08 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "Micron’s AI boom rolls on with $10 billion Iowa data center",
@@ -524,106 +729,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Micron Technology Puts Have High Yields for Short Sellers Even With MU Stock Higher",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "This Stock Could Be a Major AI Winner Through 2027. What’s It Worth?",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Sandisk (SNDK) Was Hit By A Hedge Fund Liquidation After A $35 Billion Loss",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Can Sandisk's NAS Expansion Help It Challenge MU & STX?",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "ASML Gains as TSMC's Spending Forecast Hits $85 Billion",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Taiwan Semiconductor vs. ASML: Which Semiconductor Titan Is the Better Buy Today?",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML Stock Takes A Break After Rebounding",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Why Is ASML Holding (ENXTAM:ASML) Becoming More Critical To Next Generation DRAM?",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Taiwan Semiconductor (TSM) Sales Just Jumped 45%. Why is the Chip Sector Still Selling Off?",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Paul Tudor Jones Just Liquidated His Entire Stake in Applied Materials Stock. I Don’t Think He’s 100% Bearish on AI Though… Yet",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Applied Materials Rockets 98% in 2026: How Does AMAT Compare to Lam Research and KLA as AI Capex Powers Chip Gear Stocks?",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Zacks Investment Ideas feature highlights: NVDA, GOOGL, AMZN, INTC and others",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Is ASML Stock a Buy as Rapid Growth Tests Its Premium Valuation?",
-   "pub": "Mon, 17 Aug 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
   }
  ],
  "guards": {
