@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-21 19:58",
+ "ts_kst": "08-21 20:08",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -7,15 +7,25 @@
   "dart": 1
  },
  "routed": {
-  "C-BUYBACK": 4,
-  "B-RATES": 2,
-  "M-CYCLE": 11,
+  "C-BUYBACK": 3,
+  "M-CYCLE": 12,
   "C-CHINA": 8,
   "F-ACTIVE": 6,
+  "B-RATES": 1,
   "R-LEVERAGE": 12
  },
  "unassigned": 64,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다…미국 압박 거세질 듯 - 한겨레",
@@ -115,20 +125,21 @@
    "agents": []
   },
   {
-   "title": "삼성전자 vs SK하이닉스⋯투자 전략 갈린 이유는 [찐코노미] - 이투데이",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "국채금리 하락·40조 자사주 소각에 코스피 5%, SK하이닉스 11% 급등 - MBC 뉴스",
+   "title": "SK하이닉스 또 해냈다…HBM 넘어 '빛 반도체' 개념 제시 - 한국경제",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "C-BUYBACK",
-    "B-RATES"
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -160,6 +171,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 미세공정 한계였던 저항 극복 신기술 세계 최초 구현 - 조선일보",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, AI 반도체 ‘배선 저항’ 45% 낮췄다…미세화 한계 돌파 기술 개발 - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -167,14 +185,21 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 협력사 인센티브에 789억 원 출연 - 뉴스1",
+   "title": "삼성전자, AI 반도체 초미세 배선 저항 45% 낮춰…세계 최초 구현 - 뉴스1",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자 \"반도체 협력사에 789억 푼다…상생협력 차원\" - v.daum.net",
+   "title": "삼성전자, 반도체 협력사 인센티브에 789억 원 출연 - v.daum.net",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 협력사에 789억 푼다…안전·생산성 인센티브 - 뉴스핌",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -183,6 +208,27 @@
   {
    "title": "삼성전자 \"반도체 협력사 위해 789억 기금 출연\" - 마켓인",
    "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성·SK, 반도체 생산거점 확보전 속도…韓美日 전방위 확대 - 서울경제",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 이어 삼성전자도?…초고수들은 반도체 투톱 담았다 - 한국경제",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자도 '통 큰 환원' 예고···반도체 빅2 밸류업 본격화에 '들썩' - 뉴스웨이",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -198,41 +244,6 @@
   },
   {
    "title": "\"반도체 불황기엔 DX가 실적 방어\"…삼성 노조, 성과보상 개선 요구 - 뉴스핌",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 '한 지붕 두 회사' 17년…DS·DX 분리·보상 체계 시험대 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[현장] 삼성전자 동행노조 2차집회 \"반도체 중심 임단협 원천 백지화, 10월 한남 집회 계획\" - 비즈니스포스트",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "SK하닉, 40조 주주환원에 반도체 투심 '활짝'…\"다음은 삼성전자\"[주주환원 기대 확산, 반도체株 재평가] - 이투데이",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 주주환원 '새 역사'…반도체 초호황 과실 국민과 나눈다 - 파이낸셜뉴스",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성·SK, 반도체 생산거점 확보전 속도…韓美日 전방위 확대 - 서울경제",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -262,6 +273,15 @@
    ]
   },
   {
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -273,15 +293,6 @@
   {
    "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\" - 한국경제",
    "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -505,22 +516,6 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -562,6 +557,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
@@ -607,6 +609,22 @@
    ]
   },
   {
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "pub": "Wed, 22 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Cramer Calls This Chip Stock Radically Undervalued. Its CEO Sold 40,000 Shares Anyway",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron to launch US memory research lab with $10bn investment",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
@@ -641,13 +659,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "The Biggest Risk Facing the Roundhill Memory ETF (DRAM) Right Now",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
