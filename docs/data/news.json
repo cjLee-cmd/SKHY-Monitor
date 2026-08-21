@@ -1,20 +1,29 @@
 {
- "ts_kst": "08-21 14:15",
- "n_items": 103,
+ "ts_kst": "08-21 14:25",
+ "n_items": 102,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 12,
-  "C-BUYBACK": 1,
+  "C-BUYBACK": 3,
+  "B-RATES": 3,
+  "P-ADR": 1,
+  "M-CYCLE": 11,
   "C-CHINA": 9,
   "F-ACTIVE": 4,
-  "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - 국민일보",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다…미국 압박 거세질 듯 - 한겨레",
@@ -31,7 +40,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 광주 이어 美日도 반도체 팹 전방위 신설 검토 - 서울경제",
+   "title": "한국거래소, 하이닉스에 '日 반도체 공장' 보도 조회공시 요구 - 한국경제",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -45,34 +54,20 @@
    "agents": []
   },
   {
-   "title": "상위 1%는 하이닉스 팔았다...삼성전자엔 베팅 “파운드리 흑자전환 기대” - 한국경제",
+   "title": "코스피, 장중 상승 전환…삼성전자 1%↑SK하이닉스 4%↑ - 뉴시스",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "빛으로 데이터 병목 해결...SK하이닉스, 차세대 AI 인프라 'CPO' 로드맵 공개 - 지디넷코리아",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
+   "title": "167조 쌓은 삼성전자…SK하이닉스 40조 소각에 어떤 답 내놓나 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "M-CYCLE"
+    "C-BUYBACK"
    ]
-  },
-  {
-   "title": "\"AI 인재 찾아 종횡무진\"…삼성전자는 외국인 경력·SK하이닉스는 신입 채용 - 뉴시스",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "특징주, 삼성생명-S7(삼성전자/SK하이닉스 등) 테마 상승세에 6.9% ↑ - 매일경제 마켓",
@@ -82,13 +77,31 @@
    "agents": []
   },
   {
-   "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
+   "title": "국채금리 하락·40조 자사주 소각에 코스피 5%, SK하이닉스 11% 급등 - MBC 뉴스",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "C-BUYBACK"
+    "C-BUYBACK",
+    "B-RATES"
    ]
+  },
+  {
+   "title": "미 증시 국채금리 반등에 하락… SK하이닉스 ADR은 4.38%↑ - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "B-RATES",
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "[이슈체크] SK하이닉스 40조 ‘통 큰 결단’…이제 삼성전자 100조 주주환원 차례? - v.daum.net",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "전원주, SK하이닉스 '9000% 수익'⋯비결은 '이것' - 이투데이",
@@ -105,21 +118,23 @@
    "agents": []
   },
   {
-   "title": "'수익률 최대 9000%'…전원주, 2만 하이닉스→\"한 주도 안 팔아\" ('다큐 인사이드') - v.daum.net",
+   "title": "폭락장 버티니 ‘40조 대박’…‘하이닉스 2만원’ 전원주 “다 그냥 있다” [나만없어] - 서울신문",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "코스피, 5.9% 급등 마감...SK하이닉스 12% 상승 - YTN",
+   "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
-   "title": "SK하이닉스, 40조 풀고 181조원 더?…\"바닥 다진 주가, 다시 달린다\" - 머니투데이 - 머니투데이",
+   "title": "빛으로 데이터 병목 해결...SK하이닉스, 차세대 AI 인프라 'CPO' 로드맵 공개 - 지디넷코리아",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -155,20 +170,6 @@
   },
   {
    "title": "삼성전자, AI 반도체 ‘배선 저항’ 45% 낮췄다…미세화 한계 돌파 기술 개발 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 미세공정 한계였던 저항 극복 신기술 세계 최초 구현 - 조선일보",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성, AI 반도체 ‘배선 저항’ 저감 기술 세계 최초 구현 - 헤럴드경제",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -231,6 +232,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "아산 삼성전자 반도체 제조공장 증설 다음 달 착공 - 국민일보",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
@@ -440,13 +448,6 @@
    "agents": []
   },
   {
-   "title": "코스피, 외인 3.5조·기관 1.3조 동반 순매도...5.8% 급락 - 증권일보",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -458,6 +459,13 @@
   {
    "title": "[개장시황] 코스피, 외국인 6000억원 매수에 7000선 회복 - 뉴스핌",
    "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "[모닝 리포트] \"코스피 하락 출발…외국인 수급 따라 업종 차별화\" - 뉴스핌",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -636,6 +644,15 @@
   },
   {
    "title": "Billionaire Stanley Druckenmiller Dumped Micron, Intel, and Broadcom: Here Are the AI Infrastructure Stocks He Bought Instead",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Billionaire Stanley Druckenmiller Sells Micron and Is Piling Into This Other Unstoppable Artificial Intelligence (AI) Chip Stock Instead",
    "pub": "Thu, 20 Aug 2026",
    "src": "en",
    "q": "MU",
