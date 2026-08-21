@@ -1,34 +1,25 @@
 {
- "ts_kst": "08-21 22:42",
- "n_items": 105,
+ "ts_kst": "08-21 22:43",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 29,
   "dart": 1
  },
  "routed": {
   "C-BUYBACK": 2,
-  "M-CYCLE": 11,
+  "M-CYCLE": 12,
+  "B-RATES": 3,
+  "P-ADR": 1,
   "C-CHINA": 6,
   "F-ACTIVE": 6,
-  "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 68,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - 연합뉴스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
-   "title": "SK하이닉스 “일본 반도체 공장 건설 추진 ‘미확정’···다양한 방안 검토 중” - 경향신문",
+   "title": "SK하이닉스, 일본 반도체 공장 건설 추진 보도 - Investing.com 한국어",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -42,7 +33,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 일본에 메모리칩 공장 건설을 검토 중 - 뉴스타운",
+   "title": "이 대통령, 최태원과 비공개 회동…‘SK하이닉스 일본 반도체 공장’ 보도 속 논의 내용 관심 - 경향신문",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -56,37 +47,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 노사 임단협 잠정합의…성과급 60% 자사주로 지급 - 연합뉴스",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "[단독]SK하이닉스, 성과급 60% 주식 지급하되 주가 하락시 현금 보전키로 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "반도체 파고 속 자율 타결 이룬 SK하이닉스…‘함께 미래’ 노사 동행 새 이정표 - 동아일보",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 자사주 매입 이슈에 코스피 6% 급등 - 연합뉴스",
+   "title": "SK하이닉스 1인당 약 현금 3억원·주식 4억원 받는다···노사 ‘성과급 60% 자사주 지급’ 잠정합의 - 경향신문",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -109,23 +70,14 @@
    "agents": []
   },
   {
-   "title": "'하이닉스' 2만원대에 산 전원주…9000% 수익에도 \"한 주도 안 팔아\" - edaily.co.kr",
+   "title": "전원주, 2만원대 산 하이닉스 1주도 안 팔았다…수익률 9000% 추정 - 뉴스1",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성·SK하이닉스, R&D 비용 반기에만 33조…마이크론도 나섰다 - 아시아투데이",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성전자·SK하이닉스 담고 채권 섞었다…ETF 3종 25일 신규 상장 - 뉴스핌",
+   "title": "반도체 파고 속 자율 타결 이룬 SK하이닉스…‘함께 미래’ 노사 동행 새 이정표 - 동아일보",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -134,6 +86,51 @@
   {
    "title": "빛으로 데이터 병목 해결...SK하이닉스, 차세대 AI 인프라 'CPO' 로드맵 공개 - 지디넷코리아",
    "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 또 해냈다…HBM 넘어 '빛 반도체' 개념 제시 - 한국경제",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "국채금리 하락·40조 자사주 소각에 코스피 5%, SK하이닉스 11% 급등 - MBC 뉴스",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK",
+    "B-RATES"
+   ]
+  },
+  {
+   "title": "미 증시 국채금리 반등에 하락… SK하이닉스 ADR은 4.38%↑ - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "B-RATES",
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "삼성전자·SK하이닉스만 버틴 코스피…773종목 하락·코스닥 3%대 급락 - 디지털데일리",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -425,13 +422,6 @@
    "agents": []
   },
   {
-   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - 매일경제 마켓",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "[개장시황] 코스피, 외국인·기관 매도에 1.18% 하락 출발 - 뉴스핌",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -647,6 +637,15 @@
   },
   {
    "title": "Micron CEO Says Memory Is Undervalued. Why He’s Half Right.",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Cramer Asked Micron’s CEO the “December 9th” Question. Here’s Why It Could Be Micron’s Most Important Day of 2026",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
