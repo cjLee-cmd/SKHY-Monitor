@@ -1,66 +1,66 @@
 {
- "ts_kst": "08-22 06:22",
- "score": 10.0,
+ "ts_kst": "08-22 06:32",
+ "score": 17.1,
  "verdict": "정당한 재평가",
  "components": {
-  "A_통계극단성": 0,
+  "A_통계극단성": 6.0,
   "B_체인동조성": 0.0,
-  "C_펀더멘털배율": 0,
-  "D_역사되돌림": 10.0
+  "C_펀더멘털배율": 11.1,
+  "D_역사되돌림": 0.0
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": 0.93,
+   "cum": 13.74,
    "sd": 4.65,
-   "z": 0.14,
-   "n_episodes": 3,
+   "z": 2.09,
+   "n_episodes": 1,
    "forward": {
     "5": {
-     "mean": 1.75,
-     "median": -3.69,
-     "up_rate": 33
+     "mean": -4.38,
+     "median": -4.38,
+     "up_rate": 0
     },
     "20": {
-     "mean": -1.73,
-     "median": -14.3,
-     "up_rate": 33
+     "mean": -19.95,
+     "median": -19.95,
+     "up_rate": 0
     },
     "60": {
-     "mean": 26.82,
-     "median": 43.46,
-     "up_rate": 67
+     "mean": -25.48,
+     "median": -25.48,
+     "up_rate": 0
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": 1.74,
-   "sd": 5.7,
-   "z": 0.22,
-   "n_episodes": 3,
+   "cum": 15.33,
+   "sd": 5.69,
+   "z": 1.9,
+   "n_episodes": 1,
    "forward": {
     "5": {
-     "mean": 0.72,
-     "median": 1.61,
-     "up_rate": 67
+     "mean": -6.36,
+     "median": -6.36,
+     "up_rate": 0
     },
     "20": {
-     "mean": 15.12,
-     "median": 12.77,
-     "up_rate": 67
+     "mean": -10.89,
+     "median": -10.89,
+     "up_rate": 0
     },
     "60": {
-     "mean": 31.69,
-     "median": 34.14,
-     "up_rate": 67
+     "mean": -4.58,
+     "median": -4.58,
+     "up_rate": 0
     }
    }
   }
  },
  "chain": {
-  "삼성전자": 0.93,
-  "SK하이닉스": 1.74,
+  "삼성전자": 13.74,
+  "SK하이닉스": 15.33,
   "마이크론": 3.17,
   "TSMC": 1.66,
   "ASML": 0.69,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": 0.14,
-  "drop_avg": 1.33,
-  "fundamental_ratio": 0.17,
+  "z_min": 1.9,
+  "drop_avg": 14.54,
+  "fundamental_ratio": 1.89,
   "chain_negative": "0/5"
  },
- "caveat": "역사 표본 3개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 1개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }

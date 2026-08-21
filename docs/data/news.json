@@ -1,21 +1,39 @@
 {
- "ts_kst": "08-22 06:22",
- "n_items": 101,
+ "ts_kst": "08-22 06:32",
+ "n_items": 102,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 2,
-  "B-RATES": 4,
-  "P-ADR": 1,
+  "C-BUYBACK": 3,
   "M-CYCLE": 7,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
+  "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 65,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "\"SK하이닉스 자사주 매입 타이밍 적절\"…월가도 호평 - 머니투데이 - 머니투데이",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "하이닉스 자사주 매입 맡은 SK증권 상한가…수수료 최소 40억 추정 - 연합인포맥스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다…미국 압박 거세질 듯 - 한겨레",
@@ -55,31 +73,36 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
+   "title": "\"SK하이닉스 자사주 매입 타이밍 적절\"…월가도 호평 - 머니투데이 - 머니투데이",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "하이닉스 자사주 매입 맡은 SK증권 상한가…수수료 최소 40억 추정 - 연합인포맥스",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "외인 따라 출렁인 SK하닉…'40조 안전판' 반등 모멘텀[종목현미경] - 뉴스1",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "국채금리 하락·40조 자사주 소각에 코스피 5%, SK하이닉스 11% 급등 - MBC 뉴스",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK",
-    "B-RATES"
-   ]
-  },
-  {
-   "title": "미 증시 국채금리 반등에 하락… SK하이닉스 ADR은 4.38%↑ - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "B-RATES",
-    "P-ADR"
-   ]
+   "agents": []
   },
   {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
@@ -117,16 +140,7 @@
    "agents": []
   },
   {
-   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "반도체 파고 속 자율 타결 이룬 SK하이닉스…‘함께 미래’ 노사 동행 새 이정표 - 동아일보",
+   "title": "코스피, 장중 상승 전환…삼성전자 1%↑SK하이닉스 4%↑ - 뉴시스",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -196,18 +210,27 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 주주환원 '새 역사'…반도체 초호황 과실 국민과 나눈다 - v.daum.net",
+   "title": "삼성전자, ‘반도체 초호황’ 과실 나눈다… 올해 최대 110조 주주환원 - 천지일보",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, ‘반도체 초호황’ 과실 나눈다… 올해 최대 110조 주주환원 - 천지일보",
+   "title": "삼성전자, 주주환원 '새 역사'…반도체 초호황 과실 국민과 나눈다 - 파이낸셜뉴스",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성·SK, 반도체 생산거점 확보전 속도…韓美日 전방위 확대 - 서울경제",
@@ -421,8 +444,8 @@
    "agents": []
   },
   {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
-   "pub": "Tue, 18 Aug 2026",
+   "title": "[개장시황] 코스피, 외국인·기관 매도에 1.18% 하락 출발 - 뉴스핌",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -468,8 +491,8 @@
    "agents": []
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -477,8 +500,8 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -643,13 +666,6 @@
   },
   {
    "title": "This Stock Could Be a Major AI Winner Through 2027. What’s It Worth?",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "BMO starts chip stocks coverage: Here are its preferred picks",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
