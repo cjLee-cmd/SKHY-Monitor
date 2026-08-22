@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-22 13:50",
+ "ts_kst": "08-22 14:00",
  "n_items": 102,
  "by_source": {
   "kr": 74,
@@ -7,14 +7,33 @@
  },
  "routed": {
   "M-CYCLE": 13,
-  "C-BUYBACK": 1,
+  "C-BUYBACK": 3,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "B-RATES": 2,
   "R-LEVERAGE": 11
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 60,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "\"SK하이닉스 자사주 매입 타이밍 적절\"…월가도 호평 - 머니투데이 - 머니투데이",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스, 40조+10조 자사주 추가 매입…노사 합의로 ‘주주가치 선순환’ - 서울경제",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다…미국 압박 거세질 듯 - 한겨레",
@@ -105,21 +124,25 @@
    "agents": []
   },
   {
-   "title": "'성과급 60% 주식' 최종 확정되나…SK하이닉스 노조 찬반투표 결과 '촉각' - 뉴시스",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "임단협 잠정합의 이끈 SK하이닉스 구성원의 '위기극복 DNA' - 더팩트",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "\"SK하이닉스 자사주 매입 타이밍 적절\"…월가도 호평 - 머니투데이 - 머니투데이",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 40조+10조 자사주 추가 매입…노사 합의로 ‘주주가치 선순환’ - 서울경제",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
