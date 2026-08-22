@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-22 17:47",
+ "ts_kst": "08-22 17:56",
  "n_items": 102,
  "by_source": {
   "kr": 74,
@@ -7,33 +7,15 @@
  },
  "routed": {
   "C-BUYBACK": 3,
-  "M-CYCLE": 12,
+  "B-RATES": 3,
+  "P-ADR": 1,
+  "M-CYCLE": 11,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
-  "B-RATES": 2,
   "R-LEVERAGE": 11
  },
  "unassigned": 61,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "SK하이닉스, 40조+10조 자사주 추가 매입…노사 합의로 ‘주주가치 선순환’ - 서울경제",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "\"40조는 시작에 불과\"…SK하이닉스, 자사주 매입·소각 이어질 것 -한화證 - v.daum.net",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 40조+10조 자사주 추가 매입…노사 합의로 ‘주주가치 선순환’ - 서울경제",
@@ -91,6 +73,23 @@
    ]
   },
   {
+   "title": "코스피, 상승 출발…SK하이닉스도 7%대 급등 - 네이트",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "미 증시 국채금리 반등에 하락… SK하이닉스 ADR은 4.38%↑ - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "B-RATES",
+    "P-ADR"
+   ]
+  },
+  {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -128,22 +127,6 @@
   {
    "title": "\"AI 인재 찾아 종횡무진\"…삼성전자는 외국인 경력·SK하이닉스는 신입 채용 - 뉴시스",
    "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 또 해냈다…HBM 넘어 '빛 반도체' 개념 제시 - 한국경제",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스, 구리선 대신 ‘빛’으로 AI데이터 병목 뚫는다 - 조선일보",
-   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
