@@ -1,29 +1,26 @@
 {
- "ts_kst": "08-22 16:50",
- "n_items": 103,
+ "ts_kst": "08-22 17:00",
+ "n_items": 102,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 5,
-  "B-RATES": 3,
-  "P-ADR": 1,
-  "M-CYCLE": 11,
-  "C-CHINA": 7,
+  "C-BUYBACK": 4,
+  "M-CYCLE": 12,
+  "C-CHINA": 6,
   "F-ACTIVE": 8,
-  "R-LEVERAGE": 12
+  "B-RATES": 2,
+  "R-LEVERAGE": 11
  },
- "unassigned": 59,
+ "unassigned": 61,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "high",
+   "kw": "적자",
    "src": "kr",
-   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "\"적자 나면 월급 나중에 받겠다\"…하이닉스 노조 '이례적 결단' - 한국경제",
+   "agents": []
   }
  ],
  "items": [
@@ -90,13 +87,11 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사 임단협 잠정합의…성과급 60% 자사주로 지급 - 연합뉴스",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "\"적자 나면 월급 나중에 받겠다\"…하이닉스 노조 '이례적 결단' - 한국경제",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "SK하이닉스 1인당 약 현금 3억원·주식 4억원 받는다···노사 ‘성과급 60% 자사주 지급’ 잠정합의 - 경향신문",
@@ -108,7 +103,7 @@
    ]
   },
   {
-   "title": "\"삼전·하이닉스 모신다\"…전남광주, 895조 반도체 투자에 '명예도로명' 화답 - 네이트",
+   "title": "895조 썼는데 길 하나쯤이야…광주에 ‘삼성길·하이닉스길’ 생길까 - 매일경제",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -129,21 +124,18 @@
    "agents": []
   },
   {
-   "title": "[공매도 브리핑] SK하이닉스 3,973억…한전KPS 비중 39.78% - 톱스타뉴스",
+   "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "미 증시 국채금리 반등에 하락… SK하이닉스 ADR은 4.38%↑ - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "반도체 파고 속 자율 타결 이룬 SK하이닉스…‘함께 미래’ 노사 동행 새 이정표 - 동아일보",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "B-RATES",
-    "P-ADR"
-   ]
+   "agents": []
   },
   {
    "title": "메모리 이어 파운드리도 볕든다…삼성전자 실적 '쌍끌이' 기대감 - edaily.co.kr",
@@ -276,15 +268,6 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -303,8 +286,8 @@
    ]
   },
   {
-   "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - 경향신문",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -317,8 +300,8 @@
    "agents": []
   },
   {
-   "title": "중국 반도체 추격 변수로 부상…\"초격차 사수해야\" - 연합뉴스TV",
-   "pub": "Mon, 13 Jul 2026",
+   "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - 경향신문",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -358,6 +341,13 @@
    ]
   },
   {
+   "title": "\"한국 메모리 반도체 호황, 미국·중국 갈등 덕분\" [인터뷰] - 네이트",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "중국 메모리반도체 YMTC도 상장 절차 속도, CXMT '대성공' 사례 재현 전망 - 비즈니스포스트",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -367,11 +357,13 @@
    ]
   },
   {
-   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
-   "pub": "Thu, 30 Jul 2026",
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
@@ -617,15 +609,6 @@
    ]
   },
   {
-   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
-   "pub": "Wed, 01 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "Micron Committed $10 Billion Over 10 Years to a Research Lab That Breaks Ground in 2027",
    "pub": "Sat, 22 Aug 2026",
    "src": "en",
@@ -663,6 +646,15 @@
   },
   {
    "title": "MU Stock Alert: BMO Names Micron a Top AI Memory Play With $1,300 Price Target",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
