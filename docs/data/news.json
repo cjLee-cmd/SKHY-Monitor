@@ -1,20 +1,30 @@
 {
- "ts_kst": "08-23 00:29",
+ "ts_kst": "08-23 00:38",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 2,
+  "C-BUYBACK": 3,
   "M-CYCLE": 12,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "B-RATES": 2,
   "R-LEVERAGE": 11
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스 40조 자사주 매입…코스피 급등 [1분 브리프] - 아시아경제",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
@@ -24,6 +34,22 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "SK하이닉스 40조 자사주 매입…코스피 급등 [1분 브리프] - 아시아경제",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "[비즈토크] 역대급 주주환원…삼전닉스 임원 주식 추적 사이트 '주목' - v.daum.net",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "[그래픽] 삼성전자·SK하이닉스 주주환원 규모 현황 - 연합뉴스",
@@ -68,13 +94,6 @@
    "agents": []
   },
   {
-   "title": "“큰손들 AI 메모리株 떠난다”…‘150조 승부수’ 삼성·하이닉스 괜찮을까 [머니+] - 에너지경제신문",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"AI 인재 찾아 종횡무진\"…삼성전자는 외국인 경력·SK하이닉스는 신입 채용 - 뉴시스",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -110,15 +129,8 @@
    "agents": []
   },
   {
-   "title": "전원주, 2만원대에 산 SK하닉 1주도 안 팔았다…수익률 '9000%' - 한국경제",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"안 팔아, 더 기다린다\"…SK하이닉스 수익률 9000%에도 꿋꿋한 이유 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "삼전·하이닉스의 '역대급 주주환원'…'이것'까지 흔들린다는데[주末머니] - 아시아경제",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
