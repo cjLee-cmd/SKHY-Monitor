@@ -1,19 +1,19 @@
 {
- "ts_kst": "08-22 15:47",
+ "ts_kst": "08-22 15:56",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 3,
+  "C-BUYBACK": 4,
   "M-CYCLE": 11,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "B-RATES": 2,
   "R-LEVERAGE": 11
  },
- "unassigned": 62,
+ "unassigned": 61,
  "alerts": [],
  "items": [
   {
@@ -91,13 +91,6 @@
    "agents": []
   },
   {
-   "title": "“큰손들 AI 메모리株 떠난다”…‘150조 승부수’ 삼성·하이닉스 괜찮을까 [머니+] - 에너지경제신문",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -114,14 +107,23 @@
    ]
   },
   {
-   "title": "SK하이닉스 '성과급 60% 주식 지급' 24~25일 찬반투표, 결과는 - 뉴시스",
+   "title": "SK하이닉스 1인당 약 현금 3억원·주식 4억원 받는다···노사 ‘성과급 60% 자사주 지급’ 잠정합의 - 경향신문",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스(000660) - 매일경제 마켓",
+   "title": "반도체 파고 속 자율 타결 이룬 SK하이닉스…‘함께 미래’ 노사 동행 새 이정표 - 동아일보",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -156,7 +158,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 사상 최대 주주환원…AI 반도체 성장으로 실적·현금창출력 확대 - 인공지능신문",
+   "title": "[영상] 반도체 호황에 현금 쌓여…삼성전자, 내년 주주환원 재원 188조 - 서울경제",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -432,8 +434,8 @@
    "agents": []
   },
   {
-   "title": "개선되는 외국인 국장 복귀 여건, 핵심 변수는? - 데일리안",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "[개장시황] 코스피, 외국인 6000억원 매수에 7000선 회복 - 뉴스핌",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -497,6 +499,15 @@
    ]
   },
   {
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -531,15 +542,6 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
@@ -549,6 +551,15 @@
   {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "[영상] 개미들 ‘빚투’ 줄었다…신용융자 잔고 6개월 만에 30조 밑으로 - 서울경제",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -590,24 +601,6 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "Micron’s AI boom rolls on with $10 billion Iowa data center",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "Micron Committed $10 Billion Over 10 Years to a Research Lab That Breaks Ground in 2027",
    "pub": "Sat, 22 Aug 2026",
    "src": "en",
@@ -645,6 +638,15 @@
   },
   {
    "title": "MU Stock Alert: BMO Names Micron a Top AI Memory Play With $1,300 Price Target",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
