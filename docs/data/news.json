@@ -1,21 +1,31 @@
 {
- "ts_kst": "08-22 16:40",
- "n_items": 102,
+ "ts_kst": "08-22 16:50",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 4,
+  "C-BUYBACK": 5,
   "B-RATES": 3,
   "P-ADR": 1,
   "M-CYCLE": 11,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
-  "R-LEVERAGE": 11
+  "R-LEVERAGE": 12
  },
- "unassigned": 60,
- "alerts": [],
+ "unassigned": 59,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 40조+10조 자사주 추가 매입…노사 합의로 ‘주주가치 선순환’ - 서울경제",
@@ -64,11 +74,13 @@
    "agents": []
   },
   {
-   "title": "\"삼성전자·SK하이닉스 300조원 환원 시 달러-원 하단 1,325원\" - 연합인포맥스",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "삼성전자·SK하이닉스, 역대급 주주환원 경쟁…‘40조 소각’ vs ‘30조 배당’[종합] - v.daum.net",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
@@ -96,7 +108,14 @@
    ]
   },
   {
-   "title": "'전남광주통합특별시 SK하이닉스로 1번길'…삼전닉스 '명예도로명' 지정 검토 - 네이트",
+   "title": "\"삼전·하이닉스 모신다\"…전남광주, 895조 반도체 투자에 '명예도로명' 화답 - 네이트",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "‘전남광주통합특별시 SK하이닉스로 1번길’…삼전닉스 ‘명예도로명’ 지정 검토 - 서울경제",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -105,13 +124,6 @@
   {
    "title": "\"고마운 하닉·삼전\" 전남광주특별시 '명예도로명' 지정 검토 - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "895조 썼는데 길 하나쯤이야…광주에 ‘삼성길·하이닉스길’ 생길까 - 매일경제",
-   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -415,13 +427,6 @@
    "agents": []
   },
   {
-   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - 매일경제 마켓",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - 연합뉴스",
    "pub": "Sun, 16 Aug 2026",
    "src": "kr",
@@ -438,15 +443,15 @@
    "agents": []
   },
   {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
+   "title": "[개장시황] 코스피, 외국인 6000억원 매수에 7000선 회복 - 뉴스핌",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "개선되는 외국인 국장 복귀 여건, 핵심 변수는? - 데일리안",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
+   "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -483,6 +488,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - v.daum.net",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -605,6 +617,15 @@
    ]
   },
   {
+   "title": "빚투 역풍…6월 반대매매 하루 평균 535억 - 마켓인",
+   "pub": "Wed, 01 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "Micron Committed $10 Billion Over 10 Years to a Research Lab That Breaks Ground in 2027",
    "pub": "Sat, 22 Aug 2026",
    "src": "en",
@@ -642,15 +663,6 @@
   },
   {
    "title": "MU Stock Alert: BMO Names Micron a Top AI Memory Play With $1,300 Price Target",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
