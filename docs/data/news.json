@@ -1,12 +1,12 @@
 {
- "ts_kst": "08-23 02:19",
- "n_items": 101,
+ "ts_kst": "08-23 02:29",
+ "n_items": 102,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 1,
+  "C-BUYBACK": 2,
   "M-CYCLE": 12,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
@@ -14,16 +14,51 @@
   "R-LEVERAGE": 11
  },
  "unassigned": 62,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스 40조 자사주 매입…코스피 급등 [1분 브리프] - 아시아경제",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "\"40조는 시작에 불과\"…SK하이닉스, 자사주 매입·소각 이어질 것 -한화證 - v.daum.net",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
+   "title": "SK하이닉스 40조 자사주 매입…코스피 급등 [1분 브리프] - 아시아경제",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "\"40조는 시작에 불과\"…SK하이닉스, 자사주 매입·소각 이어질 것 -한화證 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "'170만원 하이닉스 주식' 비싸서 못 샀는데…개미들 설렌다 [투자톡] - 한국경제",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "[그래픽] 삼성전자·SK하이닉스 주주환원 규모 현황 - 연합뉴스",
@@ -47,7 +82,28 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 “일본 반도체 공장 건설 추진 ‘미확정’···다양한 방안 검토 중” - 경향신문",
+   "title": "급락한 LS·삼성전기 담고 SK하이닉스 팔았다[주식 초고수는 지금] - 매일경제",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[마켓 프리뷰] SK하이닉스 주주환원·美 바이백 확대에 코스피 급등 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피, 5.9% 급등 마감…SK하이닉스 12% 상승 - 네이트",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "이 대통령, 최태원과 비공개 회동…‘SK하이닉스 일본 반도체 공장’ 보도 속 논의 내용 관심 - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -61,28 +117,14 @@
    "agents": []
   },
   {
-   "title": "이 대통령, 최태원과 비공개 회동…‘SK하이닉스 일본 반도체 공장’ 보도 속 논의 내용 관심 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "광주 이어 일본?… 곳곳에서 한국 메모리 ‘팹’을 탐낸다 [반도체 투자 리포트] - 세계일보",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
    "title": "“큰손들 AI 메모리株 떠난다”…‘150조 승부수’ 삼성·하이닉스 괜찮을까 [머니+] - 에너지경제신문",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "다우 1% 올랐는데 美반도체 주간 5%↓…월요일 ‘173만원 하이닉스’ 버틸까 - 녹색경제신문",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "서학개미, ‘삼전·하이닉스’ ETF에 한주간 1000억 넘게 몰렸다 - 아시아투데이",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -96,22 +138,8 @@
    "agents": []
   },
   {
-   "title": "전원주, SK하이닉스 '9000% 수익'⋯비결은 '이것' - 이투데이",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"안 팔아, 더 기다린다\"…SK하이닉스 수익률 9000%에도 꿋꿋한 이유 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "전원주, 2만원대에 산 SK하닉 1주도 안 팔았다…수익률 '9000%' - 한국경제",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "서학개미, ‘삼전·하이닉스’ ETF에 한주간 1000억 넘게 몰렸다 - 아시아투데이",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -638,15 +666,6 @@
   },
   {
    "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Is Micron a Commodity or an AI Powerhouse? The Debate Driving Its Low Valuation.",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
