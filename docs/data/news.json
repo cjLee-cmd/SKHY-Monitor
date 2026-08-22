@@ -1,30 +1,20 @@
 {
- "ts_kst": "08-23 04:21",
- "n_items": 101,
+ "ts_kst": "08-23 04:31",
+ "n_items": 103,
  "by_source": {
-  "kr": 73,
+  "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 2,
+  "C-BUYBACK": 1,
   "M-CYCLE": 11,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "B-RATES": 2,
-  "R-LEVERAGE": 11
+  "R-LEVERAGE": 12
  },
- "unassigned": 62,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "SK하이닉스 40조 자사주 매입…코스피 급등 [1분 브리프] - 아시아경제",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
@@ -34,22 +24,6 @@
    "agents": [
     "C-BUYBACK"
    ]
-  },
-  {
-   "title": "SK하이닉스 40조 자사주 매입…코스피 급등 [1분 브리프] - 아시아경제",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "\"170만닉스, 한 주도 부담\"…40조 쐈는데 \"다음 카드 나올까\" 설레는 개미 - v.daum.net",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "[그래픽] 삼성전자·SK하이닉스 주주환원 규모 현황 - 연합뉴스",
@@ -68,6 +42,20 @@
   {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피, 5.9% 급등 마감…SK하이닉스 12% 상승 - 네이트",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[아주증시포커스] 땡큐 SK하이닉스…코스피, 381p 뛰어 6800선 단숨에 탈환 外 - 아주경제",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -101,15 +89,6 @@
    "agents": []
   },
   {
-   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "서학개미, ‘삼전·하이닉스’ ETF에 한주간 1000억 넘게 몰렸다 - 아시아투데이",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
@@ -132,6 +111,13 @@
   },
   {
    "title": "다우 1% 올랐는데 美반도체 주간 5%↓…월요일 ‘173만원 하이닉스’ 버틸까 - 녹색경제신문",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“큰손들 AI 메모리株 떠난다”…‘150조 승부수’ 삼성·하이닉스 괜찮을까 [머니+] - 에너지경제신문",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -215,6 +201,15 @@
    "agents": []
   },
   {
+   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "삼성·SK, HBM 기술戰…'핫칩스'서 맞붙는다 - 블로터",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
@@ -252,8 +247,8 @@
    "agents": []
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "YMTC, 상장 문턱 넘자 韓 메모리 경고등···중국 반도체 추격 더 빨라졌다 - 스마트비즈",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -261,8 +256,8 @@
    ]
   },
   {
-   "title": "YMTC, 상장 문턱 넘자 韓 메모리 경고등···중국 반도체 추격 더 빨라졌다 - 스마트비즈",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -311,15 +306,15 @@
    "agents": []
   },
   {
-   "title": "중국 반도체 추격 변수로 부상…\"초격차 사수해야\" - 연합뉴스TV",
-   "pub": "Mon, 13 Jul 2026",
+   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
+   "pub": "Mon, 20 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
-   "pub": "Mon, 20 Jul 2026",
+   "title": "'회색 코뿔소' 중국 메모리…반도체 슈퍼사이클 최대 변수로 부상 - ebn.co.kr",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -428,14 +423,14 @@
    "agents": []
   },
   {
-   "title": "[개장시황] 코스피, 외국인 6000억원 매수에 7000선 회복 - 뉴스핌",
+   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
+   "title": "[개장시황] 코스피, 외국인 6000억원 매수에 7000선 회복 - 뉴스핌",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -602,6 +597,15 @@
    ]
   },
   {
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "pub": "Wed, 08 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "Micron Committed $10 Billion Over 10 Years to a Research Lab That Breaks Ground in 2027",
    "pub": "Sat, 22 Aug 2026",
    "src": "en",
@@ -639,24 +643,6 @@
   },
   {
    "title": "MU Stock Alert: BMO Names Micron a Top AI Memory Play With $1,300 Price Target",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Is Micron a Commodity or an AI Powerhouse? The Debate Driving Its Low Valuation.",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
