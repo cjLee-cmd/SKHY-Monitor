@@ -1,8 +1,8 @@
 {
- "ts_kst": "08-23 05:00",
- "n_items": 102,
+ "ts_kst": "08-23 05:10",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
@@ -13,18 +13,8 @@
   "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "최고치에 가려진 빚투 청구서…반대매매 공포가 시장 흔든다 - v.daum.net",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
@@ -52,6 +42,20 @@
   {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피, 5.9% 급등 마감…SK하이닉스 12% 상승 - 네이트",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 40조 환원에 급등…코스피 4%대↑ - 연합뉴스TV",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -120,13 +124,6 @@
    "agents": []
   },
   {
-   "title": "\"월요일 국장 또 폭등?\"…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - v.daum.net",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -134,7 +131,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 평택 반도체 신설공장 ‘3층 팹’으로 확대 추진 - 동아일보",
+   "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상” - 전자신문",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -646,15 +643,6 @@
   },
   {
    "title": "MU Stock Alert: BMO Names Micron a Top AI Memory Play With $1,300 Price Target",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
