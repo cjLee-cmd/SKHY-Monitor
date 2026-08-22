@@ -1,20 +1,28 @@
 {
- "ts_kst": "08-22 14:45",
- "n_items": 102,
+ "ts_kst": "08-22 14:54",
+ "n_items": 101,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 28
  },
  "routed": {
   "C-BUYBACK": 3,
-  "M-CYCLE": 13,
+  "M-CYCLE": 11,
   "C-CHINA": 6,
   "F-ACTIVE": 8,
   "B-RATES": 2,
   "R-LEVERAGE": 11
  },
- "unassigned": 61,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "“SK하이닉스, 3년간 주주환원 245조 전망”…자사주 소각 100조 넘나 - v.daum.net",
@@ -84,6 +92,15 @@
    "agents": []
   },
   {
+   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "“큰손들 AI 메모리株 떠난다”…‘150조 승부수’ 삼성·하이닉스 괜찮을까 [머니+] - 에너지경제신문",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
@@ -91,39 +108,28 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 또 해냈다…HBM 넘어 '빛 반도체' 개념 제시 - 한국경제",
+   "title": "\"지금이 체질 개선 기회\"…삼성·SK하이닉스 '내부 정비' 속도 - v.daum.net",
    "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스, HBM 넘어 ‘빛으로 연결’…차세대 AI 인프라 CPO 청사진 제시 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"AI 설비투자 더 간다\"···삼전·하이닉스 담은 ETF에 뭉칫돈 - v.daum.net",
-   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[그래픽] 삼성전자·SK하이닉스 주주환원 규모 현황 - 연합뉴스",
+   "title": "\"삼성전자·SK하이닉스 300조원 환원 시 달러-원 하단 1,325원\" - 연합인포맥스",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 노사, 성과급 60% 주식으로...적자 시 임금 이연도 - YTN 사이언스",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "40조 자사주 태운 SK하이닉스…삼성전자 '다음 환원 카드' 촉각 - v.daum.net",
+   "title": "SK하이닉스 노사 임단협 잠정합의…성과급 60% 자사주로 지급 - 연합뉴스",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -200,15 +206,6 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
-  },
-  {
-   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "\"반도체 불황기엔 DX가 실적 방어\"…삼성 노조, 성과보상 개선 요구 - 뉴스핌",
@@ -558,15 +555,6 @@
    ]
   },
   {
-   "title": "[영상] 개미들 ‘빚투’ 줄었다…신용융자 잔고 6개월 만에 30조 밑으로 - 서울경제",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "7월에 반대매매 급증... 신용거래융자 잔고는 32조원 - 증권일보",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -594,6 +582,15 @@
   {
    "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
    "pub": "Mon, 13 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -647,6 +644,15 @@
   },
   {
    "title": "MU Stock Alert: BMO Names Micron a Top AI Memory Play With $1,300 Price Target",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
