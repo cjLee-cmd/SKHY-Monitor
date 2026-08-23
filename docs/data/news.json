@@ -1,19 +1,19 @@
 {
- "ts_kst": "08-24 04:50",
+ "ts_kst": "08-24 05:00",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 3,
+  "C-BUYBACK": 2,
   "M-CYCLE": 12,
   "C-CHINA": 5,
   "F-ACTIVE": 7,
   "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
+ "unassigned": 65,
  "alerts": [],
  "items": [
   {
@@ -45,11 +45,13 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 2만 원대에 매수…전원주, 현재 계좌 상태는? - v.daum.net",
+   "title": "삼성 110조의 '빈칸'…SK하이닉스 40조 소각이 던진 숙제 [fn마켓워치] - v.daum.net",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "SK하이닉스, 40조 자사주 소각 나선 까닭… 저평가 해소 승부수되나 - 글로벌이코노믹",
@@ -61,22 +63,18 @@
    ]
   },
   {
-   "title": "'성과급 60% 자사주' SK하이닉스 임단협…이번주 투표 분수령 - v.daum.net",
-   "pub": "Sat, 22 Aug 2026",
+   "title": "SK하이닉스 2만 원대에 매수…전원주, 현재 계좌 상태는? - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
-   "pub": "Sat, 22 Aug 2026",
+   "title": "SK하이닉스 성과급 60%가 주식으로…1만 조합원 선택은 - 뉴스1",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "외인·기관·개인 팔아도 기타법인이 지수 견인…‘제4 매수주체’된 SK하이닉스 - 서울경제",
@@ -128,13 +126,6 @@
    "agents": []
   },
   {
-   "title": "국내 반도체 장비업계 '방긋'...삼성·SK 증설에 수주잔고 2배 급증 - 지디넷코리아",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "브로드컴 AI 매출 1160억달러 전망…삼성전자 HBM·파운드리 '기회' - v.daum.net",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
@@ -158,6 +149,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "국내 반도체 장비업계 '방긋'...삼성·SK 증설에 수주잔고 2배 급증 - 지디넷코리아",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "[단독]삼성 메모리, 구글 웨이모 자율주행차에 들어간다…협력 확대 주목 - 파이낸셜뉴스",
