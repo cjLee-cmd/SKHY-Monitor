@@ -1,24 +1,57 @@
 {
- "ts_kst": "08-24 05:20",
+ "ts_kst": "08-24 05:30",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "M-CYCLE": 12,
+  "C-BUYBACK": 5,
+  "M-CYCLE": 11,
   "C-CHINA": 5,
   "F-ACTIVE": 7,
   "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스 자사주 매입 소각 위탁 대박난 SK증권…삼성증권도 기대감↑ - 이투데이",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "\"일회성에 그치지 않을 것\" SK하닉 자사주 매입, 40조원에서 더? - 머니투데이 - 머니투데이",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "“하이닉스 주식 너무 비싸” 삼성전자처럼 못 해?…250만→5만원 ‘액면분할’ 소환 [투자360] - 헤럴드경제",
+   "title": "홍콩 증시, SK하이닉스 2배 레버리지 ‘역풍’…고점 대비 77% 손실 - 글로벌이코노믹",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "쏟아지는 주가 ‘하향’ 보고서... 삼전닉스 목표주가도 3배 차이 - 조선일보",
    "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'170만원 하이닉스 주식' 비싸서 못 샀는데…개미들 설렌다 [투자톡] - 한국경제",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -40,8 +73,17 @@
    ]
   },
   {
-   "title": "'성과급 60% 자사주' SK하이닉스 임단협…이번주 투표 분수령 - v.daum.net",
-   "pub": "Sat, 22 Aug 2026",
+   "title": "‘7억 성과급에 자사주 60%’…SK하이닉스 노조 투표 통과할까 - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스 자사주 매입 소각 위탁 대박난 SK증권…삼성증권도 기대감↑ - 이투데이",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -58,25 +100,13 @@
    ]
   },
   {
-   "title": "쏟아지는 주가 ‘하향’ 보고서... 삼전닉스 목표주가도 3배 차이 - 조선일보",
+   "title": "\"일회성에 그치지 않을 것\" SK하닉 자사주 매입, 40조원에서 더? - 머니투데이 - 머니투데이",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스·TDF [이주의 상장ETF] - IT조선",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"금·하이닉스 담았더니 웃었다\"…나흘새 12% '껑충' [ETF 스퀘어] - v.daum.net",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "학습효과 없는 개미들 “삼전닉스 2배ETF 가즈아”…이틀만에 2조 - 매일경제 마켓",
@@ -121,15 +151,22 @@
    "agents": []
   },
   {
-   "title": "광주 이어 일본?… 곳곳에서 한국 메모리 ‘팹’을 탐낸다 [반도체 투자 리포트] - v.daum.net",
-   "pub": "Sat, 22 Aug 2026",
+   "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
-   "q": "SK하이닉스",
+   "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "삼성전자, AI 전환 가속…반도체·로봇 미래 경쟁력 강화 [혁신경영] - 이투데이",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "현대차 멈추고 삼성 반도체·포스코 철강도 흔들…산업계 ‘파업 비상’ - 에너지경제신문",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -183,13 +220,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, AI 반도체 초미세 배선 저항 45% 낮춰…세계 최초 구현 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자, AI 반도체 ‘배선 저항’ 45% 낮췄다…미세화 한계 돌파 기술 개발 - dt.co.kr",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -197,21 +227,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자 \"반도체 협력사에 789억 푼다…상생협력 차원\" - 아이뉴스24",
+   "title": "삼성전자-GIST, 반도체 초미세 공정 한계 넘을 기술 확보 - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "현대차 멈추고 삼성 반도체·포스코 철강도 흔들…산업계 ‘파업 비상’ - 에너지경제신문",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 최대 110조 푼다…사상 최대 주주환원 - 블로터",
+   "title": "삼성전자 \"반도체 협력사에 789억 푼다…상생협력 차원\" - 아이뉴스24",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -608,6 +631,13 @@
    ]
   },
   {
+   "title": "$22 Billion in Customer Deposits Did Not Stop This Chip CEO From Selling $37 Million",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Jim Cramer doubles down on his bold call on memory stocks",
    "pub": "Sun, 23 Aug 2026",
    "src": "en",
@@ -635,15 +665,6 @@
   {
    "title": "Micron Stock Is Up 30% From Its Recent Low. Here's How Much a $5,000 Investment Today Could Be Worth by Next Year, According to Wall Street Analysts.",
    "pub": "Sun, 23 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Committed $10 Billion Over 10 Years to a Research Lab That Breaks Ground in 2027",
-   "pub": "Sat, 22 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
