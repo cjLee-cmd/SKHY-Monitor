@@ -1,43 +1,45 @@
 {
- "ts_kst": "08-23 11:52",
- "n_items": 102,
+ "ts_kst": "08-23 12:00",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 3,
+  "C-BUYBACK": 1,
   "M-CYCLE": 12,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 61,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장에 터진 '빚투 반대매매' 하루 600억 넘어… 2·3차 연쇄 매도 경고 - 서울뉴스통신",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "[그래픽] 삼성전자·SK하이닉스 주주환원 규모 현황 - 연합뉴스",
    "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 1주가 무려 ‘250만원’? SK하이닉스인 줄…처음 있는 게 아니다 [투자360] - 헤럴드경제",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성·SK하이닉스 등 메모리 품귀…엔비디아 AI 서버값 15% 뛴다 - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“PER 4배면 빠질만큼 빠진거야”…삼전닉스 공부 다시 시작하는 반도체 개미들 - 매일경제",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -52,23 +54,14 @@
    ]
   },
   {
-   "title": "SK하닉, 24일 임단협 투표 시작…“절충안 의미 있다” 가결 기대감 - 서울경제",
+   "title": "SK하이닉스 성과급 60%가 주식으로…1만 조합원 선택은 - 뉴스1",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 성과급 60% 자사주로…노조 투표로 이번 주 결정 - 이투데이",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "삼성·SK하이닉스 등 메모리 품귀…엔비디아 AI 서버값 15% 뛴다 - v.daum.net",
+   "title": "SK하닉, 24일 임단협 투표 시작…“절충안 의미 있다” 가결 기대감 - 서울경제",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -103,15 +96,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스·TDF [이주의 상장ETF] - IT조선",
+   "title": "[사이드B] 진천까지 가서 '비밀협상'…SK하이닉스가 입단속한 까닭 - 아이뉴스24",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자 1주가 무려 ‘250만원’? SK하이닉스인 줄…처음 있는 게 아니다 [투자360] - 헤럴드경제",
-   "pub": "Sun, 23 Aug 2026",
+   "title": "삼성전자·SK하이닉스·TDF [이주의 상장ETF] - IT조선",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -124,27 +117,11 @@
    "agents": []
   },
   {
-   "title": "월요일 국장 또 폭등?…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - 아주경제",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "서학개미, ‘삼전·하이닉스’ ETF에 한주간 1000억 넘게 몰렸다 - 아시아투데이",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
   },
   {
    "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
@@ -179,6 +156,13 @@
   {
    "title": "삼성전자, 3분기에만 30조 현금배당… 반도체 투자심리 회복 주목 - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "월요일 국장 또 폭등?…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - 아주경제",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -661,15 +645,6 @@
   },
   {
    "title": "MU Stock Alert: BMO Names Micron a Top AI Memory Play With $1,300 Price Target",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
