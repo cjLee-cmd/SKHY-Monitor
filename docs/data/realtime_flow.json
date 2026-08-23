@@ -1,104 +1,9 @@
 {
- "ts_kst": "08-24 04:16",
- "stocks": {
-  "samsung": {
-   "name": "삼성전자",
-   "price": 281500.0,
-   "chg_pct": 3.87,
-   "slot": "5",
-   "foreign_qty": 1222000.0,
-   "foreign_eok": 3439.9,
-   "inst_qty": -11000.0,
-   "inst_eok": -31.0,
-   "retail_qty": -1211000.0,
-   "retail_eok": -3409.0,
-   "slots": [
-    {
-     "slot": "5",
-     "frgn": 1222000.0,
-     "orgn": -11000.0
-    },
-    {
-     "slot": "4",
-     "frgn": 1230000.0,
-     "orgn": -37000.0
-    },
-    {
-     "slot": "3",
-     "frgn": 1129000.0,
-     "orgn": 113000.0
-    },
-    {
-     "slot": "2",
-     "frgn": 514000.0,
-     "orgn": 131000.0
-    },
-    {
-     "slot": "1",
-     "frgn": -101000.0,
-     "orgn": 0.0
-    }
-   ]
-  },
-  "hynix": {
-   "name": "SK하이닉스",
-   "price": 1730000.0,
-   "chg_pct": 2.31,
-   "slot": "5",
-   "foreign_qty": 195000.0,
-   "foreign_eok": 3373.5,
-   "inst_qty": -33000.0,
-   "inst_eok": -570.9,
-   "retail_qty": -162000.0,
-   "retail_eok": -2802.6,
-   "slots": [
-    {
-     "slot": "5",
-     "frgn": 195000.0,
-     "orgn": -33000.0
-    },
-    {
-     "slot": "4",
-     "frgn": 297000.0,
-     "orgn": -29000.0
-    },
-    {
-     "slot": "3",
-     "frgn": 45000.0,
-     "orgn": -27000.0
-    },
-    {
-     "slot": "2",
-     "frgn": 27000.0,
-     "orgn": 54000.0
-    },
-    {
-     "slot": "1",
-     "frgn": -73000.0,
-     "orgn": 0.0
-    }
-   ]
-  }
- },
+ "ts_kst": "08-24 04:30",
+ "stocks": {},
  "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
- "triggers": [
-  {
-   "stock": "삼성전자",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +3,440억 / 개인 매도 -3,409억"
-  },
-  {
-   "stock": "SK하이닉스",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +3,374억 / 개인 매도 -2,803억"
-  }
- ],
+ "triggers": [],
  "log": [
-  {
-   "ts": "08-19 13:04",
-   "samsung": -1935.3,
-   "hynix": -8300.9
-  },
   {
    "ts": "08-19 13:14",
    "samsung": -2105.5,
@@ -2984,6 +2889,9 @@
    "ts": "08-24 04:16",
    "samsung": 3439.9,
    "hynix": 3373.5
+  },
+  {
+   "ts": "08-24 04:30"
   }
  ]
 }
