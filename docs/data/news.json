@@ -1,20 +1,28 @@
 {
- "ts_kst": "08-24 07:16",
+ "ts_kst": "08-24 07:19",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "M-CYCLE": 11,
+  "C-BUYBACK": 2,
+  "M-CYCLE": 12,
   "C-CHINA": 5,
   "F-ACTIVE": 7,
   "B-RATES": 2,
   "R-LEVERAGE": 12
  },
  "unassigned": 65,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "국내 반도체 장비업계 '방긋'...삼성·SK 증설에 수주잔고 2배 급증 - 지디넷코리아",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "“하이닉스 주식 너무 비싸” 삼성전자처럼 못 해?…250만→5만원 ‘액면분할’ 소환 [투자360] - 헤럴드경제",
@@ -47,20 +55,20 @@
    ]
   },
   {
-   "title": "‘7억 성과급에 자사주 60%’…SK하이닉스 노조 투표 통과할까 - dt.co.kr",
+   "title": "SK하이닉스 성과급 60%가 주식으로…1만 조합원 선택은 - 뉴스1",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성 110조의 '빈칸'…SK하이닉스 40조 소각이 던진 숙제 [fn마켓워치] - v.daum.net",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "C-BUYBACK"
    ]
-  },
-  {
-   "title": "“목표가 2~3배 극과 극”…엇갈리는 ‘삼전닉스’ 목표가, 개미들 갈팡질팡 - dt.co.kr",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "홍콩 증시, SK하이닉스 2배 레버리지 ‘역풍’…고점 대비 77% 손실 - 글로벌이코노믹",
@@ -70,23 +78,28 @@
    "agents": []
   },
   {
-   "title": "‘삼전닉스’ 주주환원 이어 AI반도체까지…금주 코스피 시험대 - 국제신문",
+   "title": "외인·기관·개인 팔아도 기타법인이 지수 견인…‘제4 매수주체’된 SK하이닉스 - 서울경제",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
-   "pub": "Sat, 22 Aug 2026",
+   "title": "엔비디아도 못 버틴 메모리값…삼성·SK하이닉스 ‘슈퍼 을’ 굳힌다 - dt.co.kr",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "외인·기관·개인 팔아도 기타법인이 지수 견인…‘제4 매수주체’된 SK하이닉스 - 서울경제",
+   "title": "삼성·SK하이닉스 등 메모리 품귀…엔비디아 AI 서버값 15% 뛴다 - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "엔비디아 실적 D-3에 날아든 15% 인상…삼성전자·SK하이닉스엔 호재? - 아주경제",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -100,15 +113,15 @@
    "agents": []
   },
   {
-   "title": "[단독] SK하이닉스, 일본에 반도체 공장 짓는다…미국 압박 거세질 듯 - 한겨레",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "광주 이어 일본?… 곳곳에서 한국 메모리 ‘팹’을 탐낸다 [반도체 투자 리포트] - v.daum.net",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "광주 이어 일본?… 곳곳에서 한국 메모리 ‘팹’을 탐낸다 [반도체 투자 리포트] - v.daum.net",
-   "pub": "Sat, 22 Aug 2026",
+   "title": "SK하이닉스, '日 반도체 공장' 추진 보도에 \"전혀 결정된 바 없어\" - 뉴시스",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -121,14 +134,14 @@
    "agents": []
   },
   {
-   "title": "“주가 변동도 보안” SK하이닉스 성과급 60% 주식으로 지급, 통과될까 - 문화일보",
+   "title": "\"삼성 뼈아픈 상황 될 수도\"…반도체 전문가 경고한 이유 [강경주의 테크X] - 한국경제",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
-   "q": "SK하이닉스",
+   "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
+   "title": "국내 반도체 장비업계 '방긋'...삼성·SK 증설에 수주잔고 2배 급증 - 지디넷코리아",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -158,8 +171,8 @@
    ]
   },
   {
-   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "‘HBM 묶어 파는’ 삼성 파운드리, TSMC 틈새 뚫고 흑자 시동 - IT조선",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": [
@@ -167,8 +180,8 @@
    ]
   },
   {
-   "title": "‘HBM 묶어 파는’ 삼성 파운드리, TSMC 틈새 뚫고 흑자 시동 - IT조선",
-   "pub": "Sat, 22 Aug 2026",
+   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": [
@@ -183,35 +196,14 @@
    "agents": []
   },
   {
+   "title": "성과급 격차 해소 요구 집회하는 삼성전자 비 반도체 노조 - 뉴시스",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 3분기에만 30조 현금배당… 반도체 투자심리 회복 주목 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 \"반도체 협력사에 789억 푼다…상생협력 차원\" - 아이뉴스24",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 미세공정 한계였던 저항 극복 신기술 세계 최초 구현 - 조선일보",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, AI 반도체 초미세 배선 저항 45% 낮춰…세계 최초 구현 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자-GIST, 반도체 초미세 공정 한계 넘을 기술 확보 - 매일경제",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -232,8 +224,22 @@
    "agents": []
   },
   {
+   "title": "삼성전자 \"반도체 협력사에 789억 푼다…상생협력 차원\" - 아이뉴스24",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, ‘반도체 초호황’ 과실 나눈다… 올해 최대 110조 주주환원 - 천지일보",
    "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "3대 메가프로젝트, 충남 아산 삼성전자 반도체 공장에서 첫삽 - 중앙일보",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -608,6 +614,15 @@
    ]
   },
   {
+   "title": "Micron CEO is doubling down on a cycle-free future",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Jim Cramer Says Stocks and the Economy Are Telling Two Very Different Stories: ‘Jarring Gulf’",
    "pub": "Sun, 23 Aug 2026",
    "src": "en",
@@ -630,15 +645,6 @@
   },
   {
    "title": "Micron Technology: Is MU Stock a No-Brainer Buy as AI Memory Demand Surges in 2026?",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron vs. Sandisk: Which AI Memory Stock Should You Own?",
    "pub": "Sun, 23 Aug 2026",
    "src": "en",
    "q": "MU",
