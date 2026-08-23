@@ -1,8 +1,8 @@
 {
- "ts_kst": "08-23 18:55",
- "n_items": 101,
+ "ts_kst": "08-23 19:05",
+ "n_items": 103,
  "by_source": {
-  "kr": 73,
+  "kr": 75,
   "en": 28
  },
  "routed": {
@@ -13,16 +13,14 @@
   "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 62,
+ "unassigned": 64,
  "alerts": [
   {
-   "level": "info",
-   "kw": "자사주+매입",
+   "level": "high",
+   "kw": "목표주가+하향",
    "src": "kr",
-   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "title": "쏟아지는 주가 ‘하향’ 보고서... 삼전닉스 목표주가도 3배 차이 - 조선일보",
+   "agents": []
   }
  ],
  "items": [
@@ -34,11 +32,27 @@
    "agents": []
   },
   {
-   "title": "월요일 국장 또 폭등?…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - 아주경제",
+   "title": "쏟아지는 주가 ‘하향’ 보고서... 삼전닉스 목표주가도 3배 차이 - 조선일보",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"170만닉스, 한 주도 부담\"…40조 쐈는데 \"다음 카드 나올까\" 설레는 개미 - v.daum.net",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "\"40조 자사주 약발 더 갈까\"…월요일 SK하이닉스에 쏠린 눈 - 한국경제",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "'성과급 60% 자사주' SK하이닉스 임단협…이번주 투표 분수령 - v.daum.net",
@@ -108,8 +122,8 @@
    "agents": []
   },
   {
-   "title": "이 대통령, 최태원과 비공개 회동…‘SK하이닉스 일본 반도체 공장’ 보도 속 논의 내용 관심 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "광주 이어 일본?… 곳곳에서 한국 메모리 ‘팹’을 탐낸다 [반도체 투자 리포트] - v.daum.net",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -120,24 +134,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"40조 자사주 약발 더 갈까\"…월요일 SK하이닉스에 쏠린 눈 - 한국경제",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
   },
   {
    "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
@@ -152,6 +148,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "브로드컴 AI 매출 1160억달러 전망…삼성전자 HBM·파운드리 '기회' - v.daum.net",
@@ -193,6 +198,13 @@
   {
    "title": "삼성전자 \"반도체 협력사에 789억 푼다…상생협력 차원\" - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "월요일 국장 또 폭등?…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - 아주경제",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -639,24 +651,6 @@
   },
   {
    "title": "Micron CEO gives investors $10 billion reason to listen",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Falls as Wall Street Questions Its $1 Trillion Valuation",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "MU Stock Alert: BMO Names Micron a Top AI Memory Play With $1,300 Price Target",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
