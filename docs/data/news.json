@@ -1,24 +1,62 @@
 {
- "ts_kst": "08-23 11:13",
- "n_items": 103,
+ "ts_kst": "08-23 11:23",
+ "n_items": 88,
  "by_source": {
-  "kr": 75,
+  "kr": 60,
   "en": 28
  },
  "routed": {
   "C-BUYBACK": 3,
-  "M-CYCLE": 12,
-  "C-CHINA": 7,
-  "F-ACTIVE": 7,
-  "B-RATES": 2,
+  "M-CYCLE": 11,
+  "C-CHINA": 10,
   "R-LEVERAGE": 12
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 52,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "\"적자 나면 월급 나중에 받겠다\"…하이닉스 노조 '이례적 결단' - 한국경제",
+   "agents": []
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[그래픽] 삼성전자·SK하이닉스 주주환원 규모 현황 - 연합뉴스",
    "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"적자 나면 월급 나중에 받겠다\"…하이닉스 노조 '이례적 결단' - 한국경제",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 성과급 60% 자사주로…노조 투표로 이번 주 결정 - 이투데이",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스 성과급 60%가 주식으로…1만 조합원 선택은 - 뉴스1",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -38,39 +76,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 성과급 60% 자사주로…노조 투표로 이번 주 결정 - 이투데이",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "SK하이닉스 ＇성과급 60% 주식＇…이번주 노조 투표 ＇촉각＇ - 한국경제TV",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'성과급 60% 자사주' SK하이닉스 임단협…이번주 투표 분수령 - 연합뉴스",
+   "title": "SK하이닉스 “일본 반도체 공장 건설 추진 ‘미확정’···다양한 방안 검토 중” - 경향신문",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "삼성전자·SK하이닉스·TDF [이주의 상장ETF] - IT조선",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 “일본 반도체 공장 건설 추진 ‘미확정’···다양한 방안 검토 중” - 경향신문",
+   "title": "SK하이닉스, 日에 반도체 공장 건설 검토 - 한국경제",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -84,29 +97,15 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 日에 반도체 공장 건설 검토 - 한국경제",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 1주가 무려 ‘250만원’? SK하이닉스인 줄…처음 있는 게 아니다 [투자360] - v.daum.net",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "월요일 국장 또 폭등?…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - 아주경제",
+   "title": "삼성전자·SK하이닉스·TDF [이주의 상장ETF] - IT조선",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 40조 풀고 181조원 더?…\"바닥 다진 주가, 다시 달린다\" - 머니투데이 - 머니투데이",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "삼성전자 1주가 무려 ‘250만원’? SK하이닉스인 줄…처음 있는 게 아니다 [투자360] - 헤럴드경제",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -124,6 +123,22 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "월요일 국장 또 폭등?…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - 아주경제",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
@@ -218,6 +233,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 반도체 초미세 배선 저항 45%↓…'세계 최초' 기술 구현 - 더퍼블릭",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성·SK '50% 환원'인데…미국 반도체사는 왜 100%? - v.daum.net",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
@@ -232,13 +254,6 @@
    "agents": [
     "C-BUYBACK"
    ]
-  },
-  {
-   "title": "삼성전자 \"반도체 협력사에 789억 푼다…상생협력 차원\" - 아이뉴스24",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
@@ -264,8 +279,8 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "CXMT, 애플에 “싸게 줄 이유 없다”…삼성·SK하이닉스보다 비싼 값 제시 - 테크월드",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -273,8 +288,8 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -291,22 +306,8 @@
    ]
   },
   {
-   "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - 경향신문",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업 - 머니투데이 - 머니투데이",
-   "pub": "Mon, 10 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -314,20 +315,54 @@
    ]
   },
   {
-   "title": "\"한국 메모리 반도체 호황, 미국·중국 갈등 덕분\" [인터뷰] - 네이트",
-   "pub": "Mon, 17 Aug 2026",
+   "title": "미 의회, 애플에 경고...\"중국산 메모리 칩 구매 중단하라\" - AI타임스",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "애플·마이크론 '중국산 메모리' 놓고 암투...트럼프의 선택은? - YTN",
+   "title": "\"막았더니 경쟁자로 돌아왔다\"…창신메모리가 보여준 '규제의 역설' - 파이낸셜뉴스",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "데뷔 첫날 중국 '시총 1위' 창신메모리...\"빅3 위협\" vs \"기술 격차\" - YTN",
+   "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "“CATL배터리처럼 CXMT 메모리가 한국 넘는다”… 넘치는 중국의 자신감 - v.daum.net",
    "pub": "Sun, 02 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "M-CYCLE"
+    "C-CHINA"
    ]
+  },
+  {
+   "title": "‘상장 첫날 시총 712조 1위’ 중국 CXMT, 한국 반도체 업계도 덩달아 ‘긴장’ - 경향신문",
+   "pub": "Mon, 27 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "\"추월, 한국 반도체\"… 중국의 이우위직 전략 [아침을 열며] - 한국일보",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "중국 메모리반도체 YMTC도 상장 절차 속도, CXMT '대성공' 사례 재현 전망 - 비즈니스포스트",
@@ -339,147 +374,10 @@
    ]
   },
   {
-   "title": "美 상무장관 \"애플에 中 메모리 반도체 구매 자제 요구\" - 뉴시스",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE",
-    "B-RATES"
-   ]
-  },
-  {
-   "title": "외국인, 7개월 연속 국내 주식 팔았다…지난달 31.7조 순매도 - 동아일보",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피 5.8% 급락해 6471 마감…외국인 3조원대 순매도 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "美 금리 충격·외국인 ’팔자’…코스피 5.8%↓ - 연합뉴스TV",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피, 외국인·기관 '쌍끌이 매도'에 5.8% 급락 … 6470선 후퇴 - 뉴데일리",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - 연합뉴스",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "外人ㆍ기관 순매수에 코스피 2%↑…7100선 탈환 - 대한경제",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "[개장시황] 코스피, 외국인 6000억원 매수에 7000선 회복 - 뉴스핌",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "[마켓뷰] 美 금리 쇼크에 흘러내린 코스피…6470선에 ‘털썩’ - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "美 금리 충격에 외국인 ’팔자’…코스피 5%대↓ - 연합뉴스TV",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE",
-    "B-RATES"
-   ]
-  },
-  {
-   "title": "외국인이 돌아왔다⋯1.7조 순매수에 코스피 '불기둥' - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - v.daum.net",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "\"고마워요 코스피, 잘 먹고 갑니다\"…외국인, 7개월 내리 팔더니 우르르 몰려갔다 - v.daum.net",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
@@ -655,6 +553,115 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Is Micron a Commodity or an AI Powerhouse? The Debate Driving Its Low Valuation.",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Palantir, Freeport Clear Buy Points, Lead Five Stocks To Watch",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "These 3 AI stocks are bought by both hedge funds and mutual funds",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Sandisk (SNDK) Was Hit By A Hedge Fund Liquidation After A $35 Billion Loss",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "TSMC vs. ASML: Which Semi Monopoly Has the Wider Moat?",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML Gains as TSMC's Spending Forecast Hits $85 Billion",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Taiwan Semiconductor vs. ASML: Which Semiconductor Titan Is the Better Buy Today?",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML Stock Takes A Break After Rebounding",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Why Is ASML Holding (ENXTAM:ASML) Becoming More Critical To Next Generation DRAM?",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
+   "pub": "Mon, 17 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Taiwan Semiconductor (TSM) Sales Just Jumped 45%. Why is the Chip Sector Still Selling Off?",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Paul Tudor Jones Just Liquidated His Entire Stake in Applied Materials Stock. I Don’t Think He’s 100% Bearish on AI Though… Yet",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Applied Materials Rockets 98% in 2026: How Does AMAT Compare to Lam Research and KLA as AI Capex Powers Chip Gear Stocks?",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Zacks Investment Ideas feature highlights: NVDA, GOOGL, AMZN, INTC and others",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
   }
  ],
  "guards": {
