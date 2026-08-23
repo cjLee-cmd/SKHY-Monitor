@@ -1,19 +1,19 @@
 {
- "ts_kst": "08-23 21:28",
+ "ts_kst": "08-23 21:36",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 1,
+  "C-BUYBACK": 2,
   "M-CYCLE": 12,
-  "C-CHINA": 5,
+  "C-CHINA": 6,
   "F-ACTIVE": 7,
   "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
+ "unassigned": 63,
  "alerts": [],
  "items": [
   {
@@ -26,20 +26,6 @@
   {
    "title": "“하이닉스 주식 너무 비싸” 삼성전자처럼 못 해?…250만→5만원 ‘액면분할’ 소환 [투자360] - 헤럴드경제",
    "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'170만원 하이닉스 주식' 비싸서 못 샀는데…개미들 설렌다 [투자톡] - 한국경제",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "급락한 LS·삼성전기 담고 SK하이닉스 팔았다[주식 초고수는 지금] - 매일경제",
-   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -124,6 +110,22 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "\"금·하이닉스 담았더니 웃었다\"…나흘새 12% '껑충' [ETF 스퀘어] - 파이낸셜뉴스",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"40조 자사주 약발 더 갈까\"…월요일 SK하이닉스에 쏠린 눈 - 한국경제",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "\"삼성 뼈아픈 상황 될 수도\"…반도체 전문가 경고한 이유 [강경주의 테크X] - 한국경제",
@@ -221,7 +223,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 \"반도체 협력사에 789억 푼다…상생협력 차원\" - 아이뉴스24",
+   "title": "삼성전자 \"반도체 협력사에 789억 푼다…상생협력 차원\" - inews24.com",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -331,20 +333,20 @@
    ]
   },
   {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 27 Jun 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
+  },
+  {
+   "title": "삼전닉스 '쇼크' 안겼던 중국 창신메모리...베이징에 추가 공장 짓나 - 머니투데이 - 머니투데이",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
@@ -597,6 +599,15 @@
    ]
   },
   {
+   "title": "Micron Technology: Is MU Stock a No-Brainer Buy as AI Memory Demand Surges in 2026?",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron vs. Sandisk: Which AI Memory Stock Should You Own?",
    "pub": "Sun, 23 Aug 2026",
    "src": "en",
@@ -634,15 +645,6 @@
   },
   {
    "title": "Micron CEO gives investors $10 billion reason to listen",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Falls as Wall Street Questions Its $1 Trillion Valuation",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
