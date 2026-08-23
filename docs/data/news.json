@@ -1,20 +1,30 @@
 {
- "ts_kst": "08-23 10:13",
- "n_items": 101,
+ "ts_kst": "08-23 10:23",
+ "n_items": 103,
  "by_source": {
-  "kr": 73,
+  "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 3,
+  "C-BUYBACK": 4,
   "M-CYCLE": 12,
   "C-CHINA": 7,
-  "F-ACTIVE": 8,
+  "F-ACTIVE": 7,
   "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 59,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스 40조 자사주 매입…코스피 급등 [1분 브리프] - 아시아경제",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
@@ -26,8 +36,8 @@
    ]
   },
   {
-   "title": "[사이드B] 진천까지 가서 '비밀협상'…SK하이닉스가 입단속한 까닭 - v.daum.net",
-   "pub": "Sat, 22 Aug 2026",
+   "title": "삼성전자 1주가 무려 ‘250만원’? SK하이닉스인 줄…처음 있는 게 아니다 [투자360] - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -65,13 +75,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스·TDF [이주의 상장ETF] - IT조선",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스 “일본 반도체 공장 건설 추진 ‘미확정’···다양한 방안 검토 중” - 경향신문",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -93,14 +96,37 @@
    "agents": []
   },
   {
-   "title": "“비트코인보다 SK하이닉스” 해외 거래소에서 1등…한국서 다 떠난다 [크립토360] - 헤럴드경제",
+   "title": "삼성전자·SK하이닉스·TDF [이주의 상장ETF] - IT조선",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "월요일 국장 또 폭등?…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - 아주경제",
+   "title": "\"비쌀 때 팔고 쌀 때 산다\"…SK 하이닉스 결단에 WSJ \"美기업과 달라\" - 뉴시스",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 40조 자사주 매입…코스피 급등 [1분 브리프] - 아시아경제",
+   "pub": "Thu, 20 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "[사이드B] 진천까지 가서 '비밀협상'…SK하이닉스가 입단속한 까닭 - 아이뉴스24",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“비트코인보다 SK하이닉스” 해외 거래소에서 1등…한국서 다 떠난다 [크립토360] - 헤럴드경제",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -114,24 +140,15 @@
    "agents": []
   },
   {
-   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
+   "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"월요일 국장 또 폭등?\"…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - v.daum.net",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
+   "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
-   "pub": "Fri, 21 Aug 2026",
+   "title": "현대차 멈추고 삼성 반도체·포스코 철강도 흔들…산업계 ‘파업 비상’ - 에너지경제신문",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -181,8 +198,24 @@
    "agents": []
   },
   {
+   "title": "월요일 국장 또 폭등?…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - 아주경제",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "‘HBM 묶어 파는’ 삼성 파운드리, TSMC 틈새 뚫고 흑자 시동 - IT조선",
    "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "\"메모리반도체 공급 부족 지속\" 마이크론 확신, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": [
@@ -218,13 +251,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "삼성전자 비 반도체 노조 '성과급 격차 해소 요구' - 네이트",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
@@ -357,15 +383,6 @@
    ]
   },
   {
-   "title": "외국인, 국내주식 7개월째 ‘팔자’…7월 32조 순매도 - 조선일보",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -431,14 +448,14 @@
    "agents": []
   },
   {
-   "title": "美 금리 충격에 외국인 ’팔자’…코스피 5%대↓ - 연합뉴스TV",
+   "title": "[마켓뷰] 美 금리 쇼크에 흘러내린 코스피…6470선에 ‘털썩’ - 조선비즈 - Chosunbiz",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[마켓뷰] 美 금리 쇼크에 흘러내린 코스피…6470선에 ‘털썩’ - 조선비즈 - Chosunbiz",
+   "title": "美 금리 충격에 외국인 ’팔자’…코스피 5%대↓ - 연합뉴스TV",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -466,6 +483,13 @@
   {
    "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - v.daum.net",
    "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "\"고마워요 코스피, 잘 먹고 갑니다\"…외국인, 7개월 내리 팔더니 우르르 몰려갔다 - v.daum.net",
+   "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -637,24 +661,6 @@
   },
   {
    "title": "MU Stock Alert: BMO Names Micron a Top AI Memory Play With $1,300 Price Target",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Is Micron a Commodity or an AI Powerhouse? The Debate Driving Its Low Valuation.",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
