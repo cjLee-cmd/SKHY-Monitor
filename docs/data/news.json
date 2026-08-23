@@ -1,28 +1,26 @@
 {
- "ts_kst": "08-23 10:23",
- "n_items": 103,
+ "ts_kst": "08-23 10:33",
+ "n_items": 102,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 28
  },
  "routed": {
   "C-BUYBACK": 4,
-  "M-CYCLE": 12,
+  "M-CYCLE": 13,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "B-RATES": 2,
   "R-LEVERAGE": 12
  },
- "unassigned": 61,
+ "unassigned": 59,
  "alerts": [
   {
-   "level": "info",
-   "kw": "자사주+매입",
+   "level": "high",
+   "kw": "목표주가+하향",
    "src": "kr",
-   "title": "SK하이닉스 40조 자사주 매입…코스피 급등 [1분 브리프] - 아시아경제",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "title": "증시 출렁이자 쏟아지는 주가 ‘하향’ 보고서...삼전·닉스 목표주가도 3배 차이 - 조선일보",
+   "agents": []
   }
  ],
  "items": [
@@ -34,6 +32,13 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "증시 출렁이자 쏟아지는 주가 ‘하향’ 보고서...삼전·닉스 목표주가도 3배 차이 - 조선일보",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "삼성전자 1주가 무려 ‘250만원’? SK하이닉스인 줄…처음 있는 게 아니다 [투자360] - v.daum.net",
@@ -59,22 +64,6 @@
    ]
   },
   {
-   "title": "SK하이닉스 성과급 60% 자사주로…노조 투표로 이번 주 결정 - 이투데이",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "\"적자 나면 월급 나중에 받겠다\"…하이닉스 노조 '이례적 결단' - 한국경제",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스 “일본 반도체 공장 건설 추진 ‘미확정’···다양한 방안 검토 중” - 경향신문",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -96,29 +85,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스·TDF [이주의 상장ETF] - IT조선",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"비쌀 때 팔고 쌀 때 산다\"…SK 하이닉스 결단에 WSJ \"美기업과 달라\" - 뉴시스",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 40조 자사주 매입…코스피 급등 [1분 브리프] - 아시아경제",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
    "title": "[사이드B] 진천까지 가서 '비밀협상'…SK하이닉스가 입단속한 까닭 - 아이뉴스24",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
@@ -138,6 +104,38 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "월요일 국장 또 폭등?…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - 아주경제",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"월요일 국장 또 폭등?\"…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - v.daum.net",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "현금 대신 자사주 60%…SK하이닉스 이번주 찬반투표 - 뉴스토마토",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스 소각하면 SK스퀘어 20.68%로…삼성전자는 10%룰 - 자본시장뉴스",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
@@ -184,22 +182,8 @@
    "agents": []
   },
   {
-   "title": "[영상] 반도체 호황에 현금 쌓여…삼성전자, 내년 주주환원 재원 188조 - 서울경제",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자, 주주환원 '새 역사'…반도체 초호황 과실 국민과 나눈다 - v.daum.net",
    "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "월요일 국장 또 폭등?…삼성전자·SK하이닉스, 美금리·엔비디아에 주가 향방은? - 아주경제",
-   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -223,13 +207,6 @@
    ]
   },
   {
-   "title": "삼성전자, AI 반도체 초미세 배선 저항 45% 낮춰…세계 최초 구현 - v.daum.net",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자, AI 반도체 ‘배선 저항’ 45% 낮췄다…미세화 한계 돌파 기술 개발 - dt.co.kr",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -237,14 +214,30 @@
    "agents": []
   },
   {
-   "title": "삼성, AI 반도체 ‘배선 저항’ 저감 기술 세계 최초 구현 - v.daum.net",
+   "title": "삼성·SK, HBM 기술戰…'핫칩스'서 맞붙는다 - 블로터",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성전자 비 반도체 노조 '성과급 격차 해소 요구' - 네이트",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성·SK, HBM 기술戰…'핫칩스'서 맞붙는다 - 블로터",
+   "title": "삼성전자, 사상 최대 주주환원…AI 반도체 성장으로 실적·현금창출력 확대 - 인공지능신문",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "브로드컴 AI 매출 1160억달러 전망…삼성전자 HBM·파운드리 '기회' - 아이뉴스24",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -661,6 +654,15 @@
   },
   {
    "title": "MU Stock Alert: BMO Names Micron a Top AI Memory Play With $1,300 Price Target",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why Is Micron Technology (MU) Spending $10 Billion On A New AI Research Hub?",
    "pub": "Fri, 21 Aug 2026",
    "src": "en",
    "q": "MU",
