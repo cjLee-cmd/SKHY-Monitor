@@ -1,11 +1,12 @@
 {
- "ts_kst": "08-24 20:26",
- "n_items": 102,
+ "ts_kst": "08-24 20:36",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
+  "C-BUYBACK": 1,
   "M-CYCLE": 15,
   "F-ACTIVE": 10,
   "C-CHINA": 6,
@@ -13,25 +14,44 @@
   "R-LEVERAGE": 11
  },
  "unassigned": 60,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "SK하이닉스, 오늘부터 이틀간 '성과급 60% 주식' 투표…\"주가변동 보완장치까지\" - 뉴시스",
-   "pub": "Sun, 23 Aug 2026",
+   "title": "SK하이닉스 ‘성과급 60% 주식’ 찬반 투표 돌입 - IT조선",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자ㆍSK하이닉스, 최대 150조 주주환원⋯‘주가 리레이팅’ 시험대[K반도체 150조의 승부] - v.daum.net",
-   "pub": "Sun, 23 Aug 2026",
+   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "엔비디아도 못 버틴 메모리값…삼성·SK하이닉스 가격 협상력 ’UP’ By EBN - Investing.com 한국어",
    "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "엔비디아도 못 버틴 메모리값…삼성·SK하이닉스 ‘슈퍼 을’ 굳힌다 - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -46,22 +66,8 @@
    ]
   },
   {
-   "title": "엔비디아도 못 버틴 메모리값…삼성·SK하이닉스 ‘슈퍼 을’ 굳힌다 - v.daum.net",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, 일본에 공장 지을까…\"인프라·소재·장비 갖춰\" - 연합인포맥스",
    "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "홍콩 증시, SK하이닉스 2배 레버리지 ‘역풍’…고점 대비 77% 손실 - 글로벌이코노믹",
-   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -85,7 +91,7 @@
    ]
   },
   {
-   "title": "삼성 '3D 적층'·SK하이닉스 '어드밴스드 패키징', 엇갈린 차세대 HBM 기술 승부수 - 비즈니스포스트",
+   "title": "HBM 중심축 ‘맞춤 설계’로…삼성전자·SK하이닉스, 커스텀 개발 가속 - 이투데이",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -123,6 +129,13 @@
   },
   {
    "title": "미래에셋, 'TIGER 삼성전자SK하이닉스미국채혼합50' ETF 상장 - 뉴시스",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“美 고금리 이어지면…삼성전자·SK하이닉스로 수급 몰릴 것\" - 조선비즈 - Chosunbiz",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -191,6 +204,13 @@
    ]
   },
   {
+   "title": "[증시키워드] 삼성전자 주주환원·카카오 인적분할…반도체 수급 안전판 시험대 - 네이트",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 미국서 특허· 해고 소송 잇따라…한인 전직 임원도 부당해고 주장 - 미주중앙일보",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -226,7 +246,7 @@
    "agents": []
   },
   {
-   "title": "[금융 한 입] ‘100조 주주환원’에도 삼성전자 폭락…반도체 투톱 향방은? - BBS불교방송",
+   "title": "[산업분석] 메모리 반도체 삼성전자·SK하이닉스, 수출 259%↑…LTA가 늘린 가시성 - 톱스타뉴스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -404,6 +424,15 @@
    "agents": []
   },
   {
+   "title": "외국인, 7개월 연속 국내 주식 팔았다…지난달 31.7조 순매도 - 동아일보",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "코스피, 외국인·기관 동반 매도에 3%대 급락…6,690선 후퇴 - 프리진뉴스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -416,15 +445,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "외국인, 7개월 연속 국내 주식 팔았다…지난달 31.7조 순매도 - 동아일보",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
@@ -642,15 +662,6 @@
   },
   {
    "title": "Micron, Sandisk, and SK Hynix: History Says This About the Memory Trio's Rally",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron CEO is doubling down on a cycle-free future",
    "pub": "Sun, 23 Aug 2026",
    "src": "en",
    "q": "MU",
