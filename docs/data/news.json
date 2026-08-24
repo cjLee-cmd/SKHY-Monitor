@@ -1,34 +1,29 @@
 {
- "ts_kst": "08-25 02:25",
+ "ts_kst": "08-25 02:30",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
+  "C-BUYBACK": 1,
   "M-CYCLE": 14,
   "C-CHINA": 5,
   "F-ACTIVE": 7,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "agents": []
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
-   "title": "“주가 변동도 보안” SK하이닉스 성과급 60% 주식으로 지급, 통과될까 - 문화일보",
-   "pub": "Sun, 23 Aug 2026",
+   "title": "SK하이닉스 성과급 60% 자사주로…조합원 찬반투표 '촉각' - 뉴스1",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "“하이닉스 주식 너무 비싸” 삼성전자처럼 못 해?…250만→5만원 ‘액면분할’ 소환 [투자360] - 헤럴드경제",
@@ -39,6 +34,13 @@
   },
   {
    "title": "“SK하이닉스는 올랐었는데”…‘역대급 주주환원’ 발표한 삼성전자 하락, 왜? - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 경영진, 광주 군공항 방문…반도체 부지 점검 - 연합뉴스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -60,13 +62,6 @@
   },
   {
    "title": "[마감] 코스피, 삼성전자·SK하이닉스 동반 급락에 6690선 후퇴 By 알파경제 alphabiz - Investing.com 한국어",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 경영진, 광주 군공항 방문…반도체 부지 점검 - 연합뉴스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
