@@ -1,30 +1,20 @@
 {
- "ts_kst": "08-25 00:00",
+ "ts_kst": "08-25 00:09",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 2,
-  "M-CYCLE": 16,
-  "C-CHINA": 7,
+  "C-BUYBACK": 1,
+  "M-CYCLE": 14,
+  "C-CHINA": 12,
   "F-ACTIVE": 8,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 59,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 57,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 ‘성과급 60% 주식’ 찬반 투표 돌입 - IT조선",
@@ -57,16 +47,14 @@
    "agents": []
   },
   {
-   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
-   "pub": "Sat, 22 Aug 2026",
+   "title": "삼성전자ㆍSK하이닉스, 최대 150조 주주환원⋯‘주가 리레이팅’ 시험대[K반도체 150조의 승부] - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "SK하이닉스 경영진, 광주 군공항 방문…반도체 부지 점검 - v.daum.net",
+   "title": "SK하이닉스 경영진, 광주 군공항 방문…반도체 부지 점검 - 연합뉴스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -85,33 +73,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "삼성, HBM에 GPU 기능 이식…하닉은 20층으로 쌓는다 - 서울경제",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스 “HBM 승부는 패키징”...AI 반도체 경쟁판 바뀐다[핫칩스 2026] - v.daum.net",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스 “HBM4 12단 양산·16단 인증 중”…하이브리드 본딩으로 20단 이상도 준비 [비즈360] - 헤럴드경제",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "“美 고금리 이어지면…삼성전자·SK하이닉스로 수급 몰릴 것\" - 조선비즈 - Chosunbiz",
@@ -142,6 +103,29 @@
    "agents": []
   },
   {
+   "title": "대만 매체 \"엔비디아 젠슨 황 TSMC와 비공개 회동\", 삼성전자 SK하이닉스 HBM 공급망도 주목 - 비즈니스포스트",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[포토뉴스]전남광주에서 열린 ‘SK하이닉스 채용설명회’ - 경향신문",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK하이닉스는 우리가 모셔\"…日기업이 7조원 베팅한 독일서 유치전[AIDC 시대의 공존법]⑪ - 아시아경제",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "브로드컴 AI 매출 1160억달러 전망…삼성전자 HBM·파운드리 '기회' - v.daum.net",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
@@ -149,13 +133,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "삼성전자, 미국서 특허· 해고 소송 잇따라…한인 전직 임원도 부당해고 주장 - 미주중앙일보",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "하나證 “삼성전자·SK하이닉스, 주주환원 기대 여전…반도체 비중확대 유효” - 이투데이",
@@ -172,6 +149,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "삼성전자, 미국서 특허· 해고 소송 잇따라…한인 전직 임원도 부당해고 주장 - 미주중앙일보",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "삼성 차량용 메모리, 구글 웨이모 차세대 자율주행차에 들어간다 - 파이낸셜뉴스",
@@ -260,27 +244,6 @@
    ]
   },
   {
-   "title": "트럼프 행정부, 애플 中 메모리 구매 허용할 듯 - 글로벌이코노믹",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
-   "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
-   "pub": "Tue, 18 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -288,6 +251,31 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "CXMT, 애플에 “싸게 줄 이유 없다”…삼성·SK하이닉스보다 비싼 값 제시 - 테크월드",
+   "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
+   "pub": "Wed, 12 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "미 의회, 애플에 경고...\"중국산 메모리 칩 구매 중단하라\" - AI타임스",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
@@ -308,6 +296,15 @@
    ]
   },
   {
+   "title": "\"막았더니 경쟁자로 돌아왔다\"…창신메모리가 보여준 '규제의 역설' - v.daum.net",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 27 Jun 2026",
    "src": "kr",
@@ -317,41 +314,13 @@
    ]
   },
   {
-   "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - 경향신문",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "pub": "Thu, 09 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
-   "pub": "Mon, 20 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "중국 메모리반도체 YMTC도 상장 절차 속도, CXMT '대성공' 사례 재현 전망 - 비즈니스포스트",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "\"창신메모리 가보고 깜짝 놀랐다\"...전문가가 분석한 '차이나 쇼크' [Y녹취록] - YTN",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "\"중국산 메모리 쓰지 말라\"…美여야 의원들, 애플에 경고 - 조선일보",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
@@ -365,6 +334,31 @@
   {
    "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
    "pub": "Tue, 17 Feb 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "[中반도체가 온다㊤] 턱밑까지 쫓아온 '메이드 인 차이나'…\"5년 내 D램 장악\" 경고 - 뉴스웍스",
+   "pub": "Thu, 14 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "애플 '중국 CXMT의 메모리반도체 구매' 가능성 인정, 팀 쿡 \"모든 선택지 고려하고 있다\" - 비즈니스포스트",
+   "pub": "Sat, 01 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "“싸게 팔 이유 없다”는 CXMT의 반전… AI 호황에 사라진 ‘중국발 저가 공세’ - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 06 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -424,13 +418,6 @@
    "agents": []
   },
   {
-   "title": "외국인·기관 '팔자'에 코스피 6800선 붕괴…코스닥은 상승 - 뉴스토마토",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인, 7개월 연속 국내 주식 팔았다…지난달 31.7조 순매도 - 동아일보",
    "pub": "Fri, 21 Aug 2026",
    "src": "kr",
@@ -438,6 +425,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "외국인·기관 '팔자'에 코스피 6800선 붕괴…코스닥은 상승 - 뉴스토마토",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
@@ -621,7 +615,25 @@
    ]
   },
   {
+   "title": "Micron Stock Slips as Samsung's 9% Plunge Rattles Memory Trade",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron's Big AI Test Is Coming This Week",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Stock Market Today: Dow Up As Trump Says This On Canada; Tech Hit With Micron, Nvidia Drops (Live Coverage)",
    "pub": "Mon, 24 Aug 2026",
    "src": "en",
    "q": "MU",
@@ -640,24 +652,6 @@
   },
   {
    "title": "Micron Stock Drops After Chinese Memory IPO Filing. Can It Fight Off the Competition?",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron’s CEO Says Memory Is No Longer a Commodity, and He Is Betting $10 Billion On It",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron CEO Sounds Alarm on AI Memory Crunch — Supply May Not Catch Up Until 2028 as Demand Keeps Growing: MU Stock Falls 4% (UPDATED)",
    "pub": "Mon, 24 Aug 2026",
    "src": "en",
    "q": "MU",
