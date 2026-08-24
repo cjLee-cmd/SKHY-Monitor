@@ -1,19 +1,30 @@
 {
- "ts_kst": "08-24 21:56",
+ "ts_kst": "08-24 22:05",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
+  "C-BUYBACK": 1,
   "M-CYCLE": 12,
   "C-CHINA": 6,
   "F-ACTIVE": 9,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 ‘성과급 60% 주식’ 찬반 투표 돌입 - IT조선",
@@ -37,11 +48,13 @@
    "agents": []
   },
   {
-   "title": "삼성전자ㆍSK하이닉스, 최대 150조 주주환원⋯‘주가 리레이팅’ 시험대[K반도체 150조의 승부] - v.daum.net",
-   "pub": "Sun, 23 Aug 2026",
+   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "엔비디아도 못 버틴 메모리값…삼성·SK하이닉스 가격 협상력 ’UP’ By EBN - Investing.com 한국어",
@@ -74,7 +87,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 경영진, 광주 군공항 방문…반도체 부지 점검 - 연합뉴스",
+   "title": "SK하이닉스 경영진, 광주 군공항 방문…반도체 부지 점검 - v.daum.net",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -95,13 +108,6 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스는 우리가 모셔\"…日기업이 7조원 베팅한 독일서 유치전[AIDC 시대의 공존법]⑪ - 아시아경제",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, 일본에 공장 지을까…\"인프라·소재·장비 갖춰\" - 연합인포맥스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -117,6 +123,13 @@
   },
   {
    "title": "한투운용, '삼성전자SK하이닉스플러스채권혼합50' ETF 신규 상장… AI 반도체 상위기업 포함 - MTN 머니투데이방송",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "미래에셋, 'TIGER 삼성전자SK하이닉스미국채혼합50' ETF 상장 - 뉴시스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -461,6 +474,13 @@
    ]
   },
   {
+   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - 매일경제 마켓",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "삼성전자·SK하이닉스 급락에 코스피 3.12% 하락-외국인 3.7조원 순매도 - 미디어파인",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -468,13 +488,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - 매일경제 마켓",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
@@ -604,6 +617,15 @@
    ]
   },
   {
+   "title": "Primemas Shatters AI Memory Wall at FMS 2026 with CXL Full-Stack Products and Micron Collaboration on the Abaco Project",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Prediction: If You Invest $10,000 in Micron Stock Today, It Will Be Worth This Much by 2030",
    "pub": "Mon, 24 Aug 2026",
    "src": "en",
@@ -633,15 +655,6 @@
   {
    "title": "Micron Sees 'No End' to AI Memory Supply Crunch: CEO Sanjay Mehrotra Says 'Nothing Ever Goes in a Straight Line'",
    "pub": "Mon, 24 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron, Sandisk, and SK Hynix: History Says This About the Memory Trio's Rally",
-   "pub": "Sun, 23 Aug 2026",
    "src": "en",
    "q": "MU",
    "agents": [
