@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-25 04:38",
+ "ts_kst": "08-25 04:48",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -7,14 +7,24 @@
  },
  "routed": {
   "C-BUYBACK": 3,
-  "M-CYCLE": 16,
+  "M-CYCLE": 15,
   "C-CHINA": 6,
   "F-ACTIVE": 8,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 59,
- "alerts": [],
+ "unassigned": 60,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "폭락장에 터진 '빚투 반대매매' 하루 600억 넘어… 2·3차 연쇄 매도 경고 - 서울뉴스통신",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 성과급 60% 자사주로…조합원 찬반투표 '촉각' - 뉴스1",
@@ -26,7 +36,7 @@
    ]
   },
   {
-   "title": "SK하이닉스 성과급 60% 자사주 지급안, 오늘부터 찬반투표 - 이투데이",
+   "title": "‘7억 성과급에 자사주 60%’…SK하이닉스 노조 투표 통과할까 - v.daum.net",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -43,6 +53,20 @@
   },
   {
    "title": "“하이닉스 주식 너무 비싸” 삼성전자처럼 못 해?…250만→5만원 ‘액면분할’ 소환 [투자360] - 헤럴드경제",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 2만 원대에 매수…전원주, 현재 계좌 상태는? - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 폭락시킨 악재, 다시 시작되나? - 네이버 프리미엄콘텐츠",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -120,25 +144,13 @@
    "agents": []
   },
   {
-   "title": "홍콩 증시, SK하이닉스 2배 레버리지 ‘역풍’…고점 대비 77% 손실 - 글로벌이코노믹",
+   "title": "브로드컴 AI 매출 1160억달러 전망…삼성전자 HBM·파운드리 '기회' - v.daum.net",
    "pub": "Sat, 22 Aug 2026",
    "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'ACE 삼성전자SK하이닉스플러스채권혼합50 ETF', 신규 상장 - 머니투데이 - 머니투데이",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자ㆍSK하이닉스, 최대 150조 주주환원⋯‘주가 리레이팅’ 시험대[K반도체 150조의 승부] - v.daum.net",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "조선에 가렸던 삼성重 토건…반도체 훈풍에 삼성전자 관련 매출 50%급증 - 스트레이트뉴스",
@@ -155,7 +167,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, AI 전환 가속…반도체·로봇 미래 경쟁력 강화 [혁신경영] - 이투데이",
+   "title": "하나證 “삼성전자·SK하이닉스, 주주환원 기대 여전…반도체 비중확대 유효” - 이투데이",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -178,8 +190,8 @@
    ]
   },
   {
-   "title": "\"번 돈 국민과 나누겠다\"던 삼성전자…'110조 잭팟' 터뜨린다 - 한국경제",
-   "pub": "Sat, 22 Aug 2026",
+   "title": "[증시키워드] 삼성전자 주주환원·카카오 인적분할…반도체 수급 안전판 시험대 - 네이트",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -192,31 +204,15 @@
    "agents": []
   },
   {
-   "title": "하나證 \"삼성전자·SK하이닉스, 주주환원 기대 여전…반도체 비중확대 유효\" - 네이트",
-   "pub": "Sun, 23 Aug 2026",
+   "title": "삼성전자 \"반도체 협력사 위해 789억 기금 출연\" - edaily.co.kr",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "브로드컴 AI 매출 1160억달러 전망…삼성전자 HBM·파운드리 '기회' - 아이뉴스24",
-   "pub": "Sat, 22 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "3대 메가프로젝트, 충남 아산 삼성전자 반도체 공장에서 첫삽 - 중앙일보",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[금융 한 입] ‘100조 주주환원’에도 삼성전자 폭락…반도체 투톱 향방은? - BBS불교방송",
-   "pub": "Mon, 24 Aug 2026",
+   "title": "삼성전자, 3분기에만 30조 현금배당… 반도체 투자심리 회복 주목 - 동아일보",
+   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -236,10 +232,31 @@
    "agents": []
   },
   {
-   "title": "“반갑다 삼성”…반도체·냉난방 공조 공장 이어 보일러 제조 공장까지 광주로 - v.daum.net",
+   "title": "3대 메가프로젝트, 충남 아산 삼성전자 반도체 공장에서 첫삽 - 중앙일보",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 협력사에 789억 푼다…안전·생산성 인센티브 지급 - 대한경제",
+   "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[금융 한 입] ‘100조 주주환원’에도 삼성전자 폭락…반도체 투톱 향방은? - BBS불교방송",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "트럼프 행정부, 애플 中 메모리 구매 허용할 듯 - 글로벌이코노믹",
+   "pub": "Sat, 22 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
    "agents": []
   },
   {
@@ -300,13 +317,11 @@
    ]
   },
   {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 27 Jun 2026",
+   "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - 경향신문",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
@@ -316,11 +331,13 @@
    "agents": []
   },
   {
-   "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - 경향신문",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": []
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
@@ -330,12 +347,12 @@
    "agents": []
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
-   "pub": "Tue, 17 Feb 2026",
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 27 Jun 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "C-CHINA"
+    "M-CYCLE"
    ]
   },
   {
@@ -353,15 +370,6 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
-   "pub": "Thu, 05 Feb 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "외국인 코스피 순매도 집중 속 삼성전자 주가 급락 배경은 - 2news.co.kr",
@@ -409,6 +417,16 @@
    ]
   },
   {
+   "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE",
+    "B-RATES"
+   ]
+  },
+  {
    "title": "코스피, 외국인 ‘팔자’에 1.7% 하락 - 스트레이트뉴스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -432,16 +450,6 @@
    ]
   },
   {
-   "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE",
-    "B-RATES"
-   ]
-  },
-  {
    "title": "외국인·기관 '팔자'에 코스피 6800선 붕괴…코스닥은 상승 - 뉴스토마토",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -449,14 +457,14 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인·기관 동반 매도에 3%대 급락…6,690선 후퇴 - 프리진뉴스",
+   "title": "삼성전자 주주환원 실망에 코스피 6700선 하회…코스닥은 810선 회복 [투자360] - 헤럴드경제",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "삼성전자 주주환원 실망에 코스피 6700선 하회…코스닥은 810선 회복 [투자360] - 헤럴드경제",
+   "title": "코스피, 외국인·기관 동반 매도에 3%대 급락…6,690선 후퇴 - 프리진뉴스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -570,6 +578,15 @@
    "agents": []
   },
   {
+   "title": "폭락장에 터진 '빚투 반대매매' 하루 600억 넘어… 2·3차 연쇄 매도 경고 - 서울뉴스통신",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -604,13 +621,11 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
-   "pub": "Wed, 08 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "Stock Market Today: Dow Up As Bessent Touts These Iran Measures; Copper Player Tests Entry (Live Coverage)",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Micron's Customers Are Putting Up $22 Billion, and Its CEO Says Data Centers Want 50% More Memory Than It Can Ship",
@@ -620,13 +635,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Stock Market Today: Dow Up As Bessent Touts These Iran Measures; Nvidia Dips, Steel Gains Melt (Live Coverage)",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Micron Opens State-of-the-Art Training Center in Boise to Strengthen America’s Semiconductor Workforce",
