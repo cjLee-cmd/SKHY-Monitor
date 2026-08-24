@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-24 22:15",
+ "ts_kst": "08-24 22:25",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -7,13 +7,13 @@
  },
  "routed": {
   "C-BUYBACK": 1,
-  "M-CYCLE": 12,
-  "C-CHINA": 6,
+  "M-CYCLE": 15,
+  "C-CHINA": 7,
   "F-ACTIVE": 9,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 64,
+ "unassigned": 60,
  "alerts": [],
  "items": [
   {
@@ -77,13 +77,6 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스는 우리가 모셔\"…日기업이 7조원 베팅한 독일서 유치전[AIDC 시대의 공존법]⑪ - 아시아경제",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, 일본에 공장 지을까…\"인프라·소재·장비 갖춰\" - 연합인포맥스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -119,11 +112,22 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 2026 신입 채용, 경험기술서 작성법은? - 잡플래닛",
+   "title": "삼성, HBM에 GPU 기능 이식…하닉은 20층으로 쌓는다 - 서울경제",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스 “HBM 승부는 패키징”...AI 반도체 경쟁판 바뀐다[핫칩스 2026] - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발 - 한국경제",
@@ -149,6 +153,13 @@
    ]
   },
   {
+   "title": "삼성전자, 미국서 특허· 해고 소송 잇따라…한인 전직 임원도 부당해고 주장 - 미주중앙일보",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, AI 전환 가속…반도체·로봇 미래 경쟁력 강화 [혁신경영] - 이투데이",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
@@ -165,13 +176,6 @@
   {
    "title": "국내 반도체 장비업계 '방긋'...삼성·SK 증설에 수주잔고 2배 급증 - 지디넷코리아",
    "pub": "Fri, 21 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 미국서 특허· 해고 소송 잇따라…한인 전직 임원도 부당해고 주장 - 미주중앙일보",
-   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -383,8 +387,17 @@
    ]
   },
   {
-   "title": "[마감시황]코스피, 3.12% 급락해 6696.96 마감…외국인·기관 동반 순매도 - 서울신문",
+   "title": "[마감시황]코스피, 3.12% 급락해 6696.96 마감…외국인·기관 동반 순매도 - twig24.com",
    "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -397,15 +410,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "외국인·기관 '팔자'에 코스피 6800선 붕괴…코스닥은 상승 - 뉴스토마토",
@@ -438,13 +442,6 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인·기관 동반 매도에 3%대 급락…6,690선 후퇴 - 프리진뉴스",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
@@ -455,6 +452,20 @@
    ]
   },
   {
+   "title": "코스피, 외국인·기관 동반 매도에 3%대 급락…6,690선 후퇴 - 프리진뉴스",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "외국인 매도세에 코스피 6700선 붕괴...코스닥은 1.4% 상승 - 디지털투데이",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "외국인 3.7조 순매도, 한 달 만에 '최대'…개미는 삼전닉스 '줍줍' - sportalkorea.com",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -462,13 +473,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - 매일경제 마켓",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "삼성전자·SK하이닉스 급락에 코스피 3.12% 하락-외국인 3.7조원 순매도 - 미디어파인",
@@ -607,6 +611,24 @@
    ]
   },
   {
+   "title": "Micron’s CEO Says Memory Is No Longer a Commodity, and He Is Betting $10 Billion On It",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Analyst calls MU, SNDK pre-market drop on CXMT Apple report an overreaction",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "Primemas Shatters AI Memory Wall at FMS 2026 with CXL Full-Stack Products and Micron Collaboration on the Abaco Project",
    "pub": "Mon, 24 Aug 2026",
    "src": "en",
@@ -626,24 +648,6 @@
   },
   {
    "title": "8 Billionaire Money Managers Dumped Micron in the Second Quarter, With Several Favoring This Foundational AI Stock Instead",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Sees 'No End' to AI Memory Supply Crunch: CEO Sanjay Mehrotra Says 'Nothing Ever Goes in a Straight Line'",
    "pub": "Mon, 24 Aug 2026",
    "src": "en",
    "q": "MU",
