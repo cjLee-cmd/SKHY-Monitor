@@ -1,20 +1,30 @@
 {
- "ts_kst": "08-25 00:47",
+ "ts_kst": "08-25 00:57",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 1,
-  "M-CYCLE": 13,
+  "C-BUYBACK": 2,
+  "M-CYCLE": 12,
   "C-CHINA": 6,
   "F-ACTIVE": 8,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
  "unassigned": 64,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 ‘성과급 60% 주식’ 찬반 투표 돌입 - IT조선",
@@ -47,11 +57,13 @@
    "agents": []
   },
   {
-   "title": "삼성전자ㆍSK하이닉스, 최대 150조 주주환원⋯‘주가 리레이팅’ 시험대[K반도체 150조의 승부] - v.daum.net",
-   "pub": "Sun, 23 Aug 2026",
+   "title": "'역대 최대' 주주환원, 삼성전자는 배당·SK하이닉스는 자사주 매입인 이유 - 연합인포맥스",
+   "pub": "Sat, 22 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "“美 고금리 이어지면…삼성전자·SK하이닉스로 수급 몰릴 것\" - 조선비즈 - Chosunbiz",
@@ -628,13 +640,11 @@
    ]
   },
   {
-   "title": "Stock Market Today: Dow Up As Trump Says This On Canada; Tech Hit With Micron, Nvidia Drops (Live Coverage)",
+   "title": "Stock Market Today: Dow Up As Trump Makes This Canada Warning; Nvidia Dips, Retailer Tests Entry (Live Coverage)",
    "pub": "Mon, 24 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "Why Micron Stock Dropped This Morning",
