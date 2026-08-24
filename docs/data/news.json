@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-25 05:18",
+ "ts_kst": "08-25 05:28",
  "n_items": 102,
  "by_source": {
   "kr": 75,
@@ -9,24 +9,38 @@
   "C-BUYBACK": 3,
   "M-CYCLE": 14,
   "C-CHINA": 6,
-  "F-ACTIVE": 7,
+  "F-ACTIVE": 8,
+  "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 61,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "SK하이닉스의 자사주 매입이 불안한 까닭, 인텔의 기억 [논설실 Pick] - 매일경제",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 60,
+ "alerts": [],
  "items": [
   {
    "title": "“주가 변동도 보안” SK하이닉스 성과급 60% 주식으로 지급, 통과될까 - 문화일보",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 성과급 60% 자사주로…조합원 찬반투표 '촉각' - 뉴스1",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스 '성과급 60% 주식' 오늘 판가름…노조 투표 문턱 넘나 - 뉴시스",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“하이닉스 주식 너무 비싸” 삼성전자처럼 못 해?…250만→5만원 ‘액면분할’ 소환 [투자360] - 헤럴드경제",
    "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -42,17 +56,8 @@
    ]
   },
   {
-   "title": "\"40조 자사주 약발 더 갈까\"…월요일 SK하이닉스에 쏠린 눈 - 한국경제",
+   "title": "SK하이닉스 2만 원대에 매수…전원주, 현재 계좌 상태는? - v.daum.net",
    "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "2만원대에 사서 한 주도 안 팔았다…전원주 ‘하이닉스 잭팟’ - 세계일보",
-   "pub": "Fri, 21 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -124,20 +129,6 @@
   {
    "title": "[포토뉴스]전남광주에서 열린 ‘SK하이닉스 채용설명회’ - 경향신문",
    "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'ACE 삼성전자SK하이닉스플러스채권혼합50 ETF', 신규 상장 - 머니투데이 - 머니투데이",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "한투운용 'ACE 삼성전자SK하이닉스플러스채권혼합50' ETF 신규 상장 - 뉴시스",
-   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -416,6 +407,16 @@
    ]
   },
   {
+   "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE",
+    "B-RATES"
+   ]
+  },
+  {
    "title": "코스피, 외국인 ‘팔자’에 1.7% 하락 - 스트레이트뉴스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -478,13 +479,6 @@
   {
    "title": "기관 이어 외국인마저 “팔자”…코스피, 5%대 급락 마감 - 매일경제 마켓",
    "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피 장중 외국인·기관 매도에 1%대 하락 6820선, 코스닥은 1%대 올라 - 비즈니스포스트",
-   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -617,6 +611,15 @@
    ]
   },
   {
+   "title": "Micron, Seagate, Western Digital, Semtech, and Penguin Solutions Shares Are Falling, What You Need To Know",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "TSMC Slides 2.3% as AI-Chip Confidence Suddenly Cracks",
    "pub": "Mon, 24 Aug 2026",
    "src": "en",
@@ -641,15 +644,6 @@
   },
   {
    "title": "Micron's Customers Are Putting Up $22 Billion, and Its CEO Says Data Centers Want 50% More Memory Than It Can Ship",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Opens State-of-the-Art Training Center in Boise to Strengthen America’s Semiconductor Workforce",
    "pub": "Mon, 24 Aug 2026",
    "src": "en",
    "q": "MU",
