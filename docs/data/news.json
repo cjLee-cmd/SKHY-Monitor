@@ -1,19 +1,19 @@
 {
- "ts_kst": "08-25 22:49",
+ "ts_kst": "08-25 22:59",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 1,
-  "M-CYCLE": 8,
+  "C-BUYBACK": 3,
+  "M-CYCLE": 10,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 70,
+ "unassigned": 66,
  "alerts": [],
  "items": [
   {
@@ -24,6 +24,13 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "하이닉스 '성과급 60% 주식 지급안' 부결...현대차 노사는 합의 - YTN",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "코스피, 미국 반도체주 급락에 약세...삼성전자 4%, SK하이닉스 6% 하락 - 조선일보",
@@ -48,20 +55,6 @@
   },
   {
    "title": "삼성전자·SK하이닉스, 주주환원 경쟁 불붙었다…\"연말까지 주가 버팀목\" - v.daum.net",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“SK하이닉스는 올랐었는데”…‘역대급 주주환원’ 발표한 삼성전자 하락, 왜? - 조선비즈 - Chosunbiz",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼전 주가 또 추락…SK하이닉스와 뭐가 달랐나 - KBS 뉴스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -112,15 +105,26 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 경영진, 광주 군공항 현장 점검… 반도체 클러스터 협의 구체화 - 뉴데일리",
-   "pub": "Mon, 24 Aug 2026",
+   "title": "SK하이닉스 ‘성과급 자사주 60%’ 합의안, 반대 50.1%로 부결 - 조선일보",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
-   "title": "SK하이닉스 경영진, 광주 군공항 방문…반도체 부지 점검 - 조선비즈 - Chosunbiz",
-   "pub": "Mon, 24 Aug 2026",
+   "title": "[속보] SK하이닉스 노조, '자사주 60% 성과급' 합의안 부결 - 지디넷코리아",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "\"제2의 하이닉스 될 수도\"…증권가가 콕 찍은 이 종목들 [분석+] - 한국경제",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -144,20 +148,6 @@
   {
    "title": "\"삼성 뼈아픈 상황 될 수도\"…반도체 전문가 경고한 이유 [강경주의 테크X] - 한국경제",
    "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "40조 하이닉스, 110조 삼성전자…반도체株 '다음 카드' 는? - v.daum.net",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "美 반도체 약세…삼성전자·SK하이닉스 프리마켓 2% 하락 - 뉴스1",
-   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -205,6 +195,20 @@
    "agents": []
   },
   {
+   "title": "40조 하이닉스, 110조 삼성전자…반도체株 '다음 카드' 는? - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "美 반도체 약세…삼성전자·SK하이닉스 프리마켓 2% 하락 - 뉴스1",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "[오늘의 투자전략] 삼성전자 셀온 진정될까…반도체 저가매수·순환매 주목 - 이투데이",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -212,21 +216,23 @@
    "agents": []
   },
   {
-   "title": "예스티, 삼성전자와 175억 규모 반도체 제조용 장비 계약 - 마켓인",
+   "title": "日 반도체 장비사 J.E.T, 전 삼성전자 부사장 영입…지배구조 쇄신 돌입 - 더구루",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자 미국서 잇단 소송…반도체 특허·한인 전직 임원 분쟁 - 미주중앙일보",
-   "pub": "Mon, 24 Aug 2026",
+   "title": "HBM도, 파운드리도 가격 오른다…삼성전자 반도체 '쌍끌이' - 네이트",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "日 반도체 장비사 J.E.T, 전 삼성전자 부사장 영입…지배구조 쇄신 돌입 - 더구루",
+   "title": "고액자산가 ‘반도체 투톱’에 베팅…삼성전자·SK하이닉스 집중 매수 - 산경투데이",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -603,6 +609,15 @@
    ]
   },
   {
+   "title": "Broadcom Vs. Micron: Why They’re So Strong as Capital Shifts to Inference and Agentic AI",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "These 2 Artificial Intelligence (AI) Stocks Could Soar by 66% and 46%, According to Wall Street",
    "pub": "Tue, 25 Aug 2026",
    "src": "en",
@@ -633,15 +648,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron CEO Sounds Alarm on AI Memory Crunch — Supply May Not Catch Up Until 2028 as Demand Keeps Growing: MU Stock Falls 4% (UPDATED)",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
