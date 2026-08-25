@@ -1,39 +1,20 @@
 {
- "ts_kst": "08-25 21:34",
+ "ts_kst": "08-25 21:43",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 2,
-  "M-CYCLE": 8,
+  "C-BUYBACK": 1,
+  "M-CYCLE": 9,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
  "unassigned": 70,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장에 터진 '빚투 반대매매' 하루 600억 넘어… 2·3차 연쇄 매도 경고 - 서울뉴스통신",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 노조, ‘성과급 60% 자사주’ 잠정합의안 부결…반대 50.08% - JTBC",
@@ -45,20 +26,6 @@
    ]
   },
   {
-   "title": "주영표 SK하이닉스 부사장 \"미래 메모리는 '쌓는것'\" - 머니투데이 - 머니투데이",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스, AI 호황 올라타나…메모리 매출 280% 급증 전망 - 헤럴드경제",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "대만 매체 \"엔비디아 젠슨 황 TSMC와 비공개 회동\", 삼성전자 SK하이닉스 HBM 공급망도 주목 - 비즈니스포스트",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -68,23 +35,23 @@
    ]
   },
   {
-   "title": "“SK하이닉스는 올랐었는데”…‘역대급 주주환원’ 발표한 삼성전자 하락, 왜? - 조선비즈 - Chosunbiz",
-   "pub": "Mon, 24 Aug 2026",
+   "title": "삼성전자·SK하이닉스, AI 호황 올라타나…메모리 매출 280% 급증 전망 - 헤럴드경제",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "40조 자사주 사들이는 SK하이닉스, 주식수 28% 줄어든다 - v.daum.net",
-   "pub": "Tue, 25 Aug 2026",
+   "title": "\"마이크론, 범용 D램 시장에서 SK하이닉스 추월할 가능성 배제할 수 없어\" - 조선일보",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "C-BUYBACK"
+    "M-CYCLE"
    ]
   },
   {
-   "title": "삼전 주가 또 추락…SK하이닉스와 뭐가 달랐나 - KBS 뉴스",
+   "title": "“SK하이닉스는 올랐었는데”…‘역대급 주주환원’ 발표한 삼성전자 하락, 왜? - 조선비즈 - Chosunbiz",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -147,6 +114,20 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 경영진, 광주 군공항 현장 점검… 반도체 클러스터 협의 구체화 - 뉴데일리",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 경영진, 광주 군공항 방문…반도체 부지 점검 - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "브로드컴, AI 반도체 매출 2배 성장 전망… 삼성 파운드리 수혜에 이목 - 조선비즈 - Chosunbiz",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
@@ -170,8 +151,8 @@
    "agents": []
   },
   {
-   "title": "美 \"메모리칩 현지 생산 해달라\" 압박 지속…난감한 K반도체 - 뉴시스",
-   "pub": "Tue, 25 Aug 2026",
+   "title": "40조 하이닉스, 110조 삼성전자…반도체株 '다음 카드' 는? - v.daum.net",
+   "pub": "Sun, 23 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -184,8 +165,8 @@
    "agents": []
   },
   {
-   "title": "40조 하이닉스, 110조 삼성전자…반도체株 '다음 카드' 는? - v.daum.net",
-   "pub": "Sun, 23 Aug 2026",
+   "title": "美 \"메모리칩 현지 생산 해달라\" 압박 지속…난감한 K반도체 - 뉴시스",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
