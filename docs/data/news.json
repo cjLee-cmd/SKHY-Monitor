@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-25 23:43",
+ "ts_kst": "08-25 23:53",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -7,13 +7,13 @@
  },
  "routed": {
   "C-BUYBACK": 2,
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "B-RATES": 1,
-  "R-LEVERAGE": 11
+  "R-LEVERAGE": 12
  },
- "unassigned": 68,
+ "unassigned": 66,
  "alerts": [],
  "items": [
   {
@@ -251,6 +251,13 @@
    "agents": []
   },
   {
+   "title": "“트럼프, 애플 중국산 메모리 허용” 보도…근거는 웨이보 루머 - 포쓰저널",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "창신 이어 양쯔메모리, 중국 반도체 또 상장한다…6조원대 조달 - edaily.co.kr",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -258,13 +265,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "“트럼프, 애플 중국산 메모리 허용” 보도…근거는 웨이보 루머 - 포쓰저널",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
@@ -507,8 +507,26 @@
    ]
   },
   {
+   "title": "“식지 않는 빚투 열기” 신용잔고, 다시 32조원대로...투자자예탁금은 감소 - 더퍼블릭",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 6900선 회복에 ‘빚투’ 다시 증가…신용잔고 32조원대 - 직썰",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -591,19 +609,12 @@
    "agents": []
   },
   {
-   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "Memory Shortage Deepens to Worst Levels Since 2017 — Here’s Why Micron Investors Will Cash In",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
   },
   {
@@ -637,15 +648,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Is It Too Late to Buy Micron Stock After Its 981% Surge?",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
