@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-26 02:30",
+ "ts_kst": "08-26 02:41",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,9 +7,9 @@
  },
  "routed": {
   "C-BUYBACK": 2,
+  "P-ADR": 1,
   "M-CYCLE": 9,
   "C-CHINA": 8,
-  "P-ADR": 1,
   "F-ACTIVE": 8,
   "B-RATES": 1,
   "R-LEVERAGE": 12
@@ -18,9 +18,9 @@
  "alerts": [
   {
    "level": "info",
-   "kw": "목표가+상향",
+   "kw": "자사주+매입",
    "src": "kr",
-   "title": "미국 투자기관 SK하이닉스 ADR 목표가 220달러로 상향, '40조 자사주 매입' 효과 반영 - 비즈니스포스트",
+   "title": "美 IB 니덤, SK하이닉스 ADR 목표 주가 상향 “자사주 매입 매력적” By The Guru - Investing.com 한국어",
    "agents": [
     "P-ADR",
     "C-BUYBACK"
@@ -45,7 +45,7 @@
    "agents": []
   },
   {
-   "title": "코스피 6500선 회귀…삼성전자·SK하이닉스 4%대 급락 - v.daum.net",
+   "title": "美 반도체주 급락에 파업 전운까지…SK하이닉스·스퀘어 6%대 하락[특징주] - v.daum.net",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -71,6 +71,30 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "기후부, 삼성·SK하이닉스·구글·ASML과 재생에너지 조달 논의 - v.daum.net",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "기후부, 삼성전자·SK하이닉스 등과 재생에너지 조달 해법 논의 - 네이트",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "美 IB 니덤, SK하이닉스 ADR 목표 주가 상향 “자사주 매입 매력적” By The Guru - Investing.com 한국어",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR",
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "이천×SK하이닉스 ‘2026 기업열전展’…전시·공연·체험 한자리에 - 경기일보",
@@ -113,32 +137,8 @@
    ]
   },
   {
-   "title": "미국 투자기관 SK하이닉스 ADR 목표가 220달러로 상향, '40조 자사주 매입' 효과 반영 - 비즈니스포스트",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR",
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "KB운용 ‘RISE 삼성전자SK하이닉스채권혼합50 ETF’, 순자산 4조 돌파 - 브릿지경제",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "미래에셋자산운용, 'TIGER 삼성전자SK하이닉스미국채혼합50' 상장 - 뉴스핌",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 ETF 경쟁 ‘후끈’…미래에셋·한투까지 가세 - 데일리한국",
-   "pub": "Tue, 25 Aug 2026",
+   "title": "“SK하이닉스 성과급 안 부러워”… ‘극단의 성과주의’에 MZ들 은행보다 증권 - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -478,6 +478,13 @@
    ]
   },
   {
+   "title": "외국인 3.8조 '팔자'에도…코스피 6740선 강보합 [시황] - 데일리안",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 외국인 순매도에 장중 3%대 약세 - 네이트",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
@@ -485,13 +492,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "외국인 3.8조 '팔자'에도…코스피 6740선 강보합 [시황] - 데일리안",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "증시 살아나자 빚내서 주식 산다…신용잔고 다시 32조원대로 - 금융경제신문",
