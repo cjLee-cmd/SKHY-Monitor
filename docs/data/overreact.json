@@ -1,66 +1,66 @@
 {
- "ts_kst": "08-25 11:57",
- "score": 30.9,
+ "ts_kst": "08-25 12:07",
+ "score": 31.7,
  "verdict": "판단 유보",
  "components": {
-  "A_통계극단성": 1.8,
+  "A_통계극단성": 3.1,
   "B_체인동조성": 15.0,
-  "C_펀더멘털배율": 2.6,
-  "D_역사되돌림": 11.5
+  "C_펀더멘털배율": 3.4,
+  "D_역사되돌림": 10.2
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -10.75,
+   "cum": -11.37,
    "sd": 4.69,
-   "z": -1.62,
-   "n_episodes": 6,
+   "z": -1.71,
+   "n_episodes": 5,
    "forward": {
     "5": {
-     "mean": 3.25,
-     "median": 4.06,
-     "up_rate": 67
+     "mean": 2.77,
+     "median": 2.49,
+     "up_rate": 60
     },
     "20": {
-     "mean": -3.83,
-     "median": -1.65,
-     "up_rate": 50
+     "mean": -5.12,
+     "median": -5.93,
+     "up_rate": 40
     },
     "60": {
-     "mean": 16.01,
-     "median": 13.32,
-     "up_rate": 67
+     "mean": 15.8,
+     "median": 10.67,
+     "up_rate": 60
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -7.8,
+   "cum": -8.21,
    "sd": 5.71,
-   "z": -0.97,
-   "n_episodes": 17,
+   "z": -1.02,
+   "n_episodes": 16,
    "forward": {
     "5": {
-     "mean": 4.92,
-     "median": 3.72,
-     "up_rate": 76
+     "mean": 5.01,
+     "median": 3.79,
+     "up_rate": 75
     },
     "20": {
-     "mean": 11.9,
-     "median": 2.6,
-     "up_rate": 65
+     "mean": 12.58,
+     "median": 8.01,
+     "up_rate": 62
     },
     "60": {
-     "mean": 47.16,
-     "median": 42.5,
-     "up_rate": 76
+     "mean": 42.29,
+     "median": 34.75,
+     "up_rate": 75
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -10.75,
-  "SK하이닉스": -7.75,
+  "삼성전자": -11.37,
+  "SK하이닉스": -8.27,
   "마이크론": -6.56,
   "TSMC": -1.41,
   "ASML": -0.58,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -1.62,
-  "drop_avg": 9.28,
-  "fundamental_ratio": 1.2,
+  "z_min": -1.71,
+  "drop_avg": 9.79,
+  "fundamental_ratio": 1.27,
   "chain_negative": "3/5"
  },
- "caveat": "역사 표본 17개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 16개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
