@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-25 23:29",
+ "ts_kst": "08-25 23:39",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -11,9 +11,9 @@
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "B-RATES": 1,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 11
  },
- "unassigned": 66,
+ "unassigned": 67,
  "alerts": [],
  "items": [
   {
@@ -47,15 +47,6 @@
    "agents": []
   },
   {
-   "title": "40조 자사주 사들이는 SK하이닉스, 주식수 28% 줄어든다 - v.daum.net",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
    "title": "기후부, 삼성전자·SK하이닉스 등과 재생에너지 조달 해법 논의 - 연합뉴스",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
@@ -76,6 +67,15 @@
    "q": "SK하이닉스",
    "agents": [
     "M-CYCLE"
+   ]
+  },
+  {
+   "title": "40조 자사주 사들이는 SK하이닉스, 주식수 28% 줄어든다 - v.daum.net",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
    ]
   },
   {
@@ -232,8 +232,8 @@
    ]
   },
   {
-   "title": "3대 메가프로젝트, 충남 아산 삼성전자 반도체 공장에서 첫삽 - 중앙일보",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "삼성전자, 엔비디아 추론 반도체에 ‘두 마리 토끼’ 잡는다 - 이코노미트리뷴",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -509,26 +509,8 @@
    ]
   },
   {
-   "title": "“식지 않는 빚투 열기” 신용잔고, 다시 32조원대로...투자자예탁금은 감소 - 더퍼블릭",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "코스피 6900선 회복에 ‘빚투’ 다시 증가…신용잔고 32조원대 - 직썰",
-   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -570,13 +552,6 @@
    ]
   },
   {
-   "title": "\"개미들 어쩌나\" 증시 변동성에 빚투 급감 잔고 30조원 붕괴 - 파이낸셜뉴스",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
@@ -584,6 +559,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "\"개미들 어쩌나\" 증시 변동성에 빚투 급감 잔고 30조원 붕괴 - 파이낸셜뉴스",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "폭락장에 터진 '빚투 반대매매' 하루 600억 넘어… 2·3차 연쇄 매도 경고 - 서울뉴스통신",
@@ -604,6 +586,13 @@
    ]
   },
   {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -611,13 +600,20 @@
    "agents": []
   },
   {
-   "title": "Stock Market Today: Nasdaq Charges Higher As Treasury Yields Fall; Nvidia, Micron, Sandisk Rally (Live Coverage)",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "One AI Stock I’d Watch Before Nvidia’s Earnings",
    "pub": "Tue, 25 Aug 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "Broadcom Vs. Micron: Why They’re So Strong as Capital Shifts to Inference and Agentic AI",
