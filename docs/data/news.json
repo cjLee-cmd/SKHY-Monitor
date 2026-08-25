@@ -1,75 +1,47 @@
 {
- "ts_kst": "08-26 05:36",
+ "ts_kst": "08-26 05:46",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 6,
-  "M-CYCLE": 9,
-  "P-ADR": 1,
-  "C-CHINA": 7,
+  "C-BUYBACK": 3,
+  "M-CYCLE": 10,
+  "C-CHINA": 8,
   "F-ACTIVE": 10,
   "B-RATES": 1,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 13
  },
- "unassigned": 60,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "美 IB 니덤, SK하이닉스 ADR 목표 주가 상향 “자사주 매입 매력적” By The Guru - Investing.com 한국어",
-   "agents": [
-    "P-ADR",
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 61,
+ "alerts": [],
  "items": [
   {
-   "title": "주가는 반토막, 성과급은 7억…SK하이닉스 노조에 주주들 '부글' - 머니투데이 - 머니투데이",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[속보] SK하이닉스 잠정합의안 노조 투표 부결…반대 50.1% - 중앙일보",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“7억 성과급 주식보다 현금” 하이닉스 노조, 자사주 합의안 부결 - v.daum.net",
+   "title": "“자사주보다 현금”…SK하이닉스 임단협 합의안 ‘부결’, 단 25표 차 - 주간조선",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "C-BUYBACK"
    ]
-  },
-  {
-   "title": "\"이정도로는…\" SK하이닉스 퇴짜 \"이정도에서…\" 현대차 잠정 합의 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "\"SK하이닉스 80조 현금 잡자\"…은행권, '금리 3.9%' 특판까지 제시 - 인베스트조선",
    "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "美 반도체주 급락에 삼성전자·SK하이닉스 3~4%↓…코스피 3%대 하락 [이런국장 저런주식] - 서울경제",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "美 반도체주 급락에 파업 전운까지…SK하이닉스·스퀘어 6%대 하락[특징주] - v.daum.net",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -105,16 +77,6 @@
    ]
   },
   {
-   "title": "美 IB 니덤, SK하이닉스 ADR 목표 주가 상향 “자사주 매입 매력적” By The Guru - Investing.com 한국어",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR",
-    "C-BUYBACK"
-   ]
-  },
-  {
    "title": "40조 자사주 사들이는 SK하이닉스, 주식수 28% 줄어든다 - v.daum.net",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
@@ -122,6 +84,13 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "“SK하이닉스는 올랐었는데”…‘역대급 주주환원’ 발표한 삼성전자 하락, 왜? - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "외인 매도 폭탄 받는 '뜻밖의' 큰손 떴다…'자사주 싹쓸이'로 증시 버팀목 - 머니투데이 - 머니투데이",
@@ -133,26 +102,32 @@
    ]
   },
   {
-   "title": "SK하이닉스 ‘성과급 자사주 60%’ 합의안, 반대 50.1%로 부결 - 조선일보",
+   "title": "CXMT HBM 점유율 2년 내 10% 전망, 삼성전자 SK하이닉스 범용D램 이어 HBM도 중국과 기술격차 좁혀진다 - 비즈니스포스트",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "C-BUYBACK"
+    "M-CYCLE",
+    "C-CHINA"
    ]
   },
   {
-   "title": "SK하이닉스 노조, ‘성과급 60% 자사주’ 잠정합의안 부결…반대 50.08% - JTBC",
+   "title": "KB운용 ‘RISE 삼성전자SK하이닉스채권혼합50 ETF’, 순자산 4조 돌파 - 브릿지경제",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "[속보] SK하이닉스 노사 임단협 잠정합의안 부결 - 머니투데이 - 머니투데이",
+   "title": "미래에셋, 'TIGER 삼성전자SK하이닉스미국채혼합50 ETF' 신규 상장 - 아시아경제",
    "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "커지는 삼전·하닉 주주환원 기대감…'RISE 삼성전자SK하이닉스채권혼합50 ETF' 주목 - 이투데이",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -539,8 +514,26 @@
    ]
   },
   {
+   "title": "“식지 않는 빚투 열기” 신용잔고, 다시 32조원대로...투자자예탁금은 감소 - 더퍼블릭",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 6900선 회복에 ‘빚투’ 다시 증가…신용잔고 32조원대 - 직썰",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -618,22 +611,6 @@
   {
    "title": "[영상] 개미들 ‘빚투’ 줄었다…신용융자 잔고 6개월 만에 30조 밑으로 - 서울경제",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
-   "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
