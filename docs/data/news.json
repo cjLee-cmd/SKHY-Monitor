@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-26 02:26",
+ "ts_kst": "08-26 02:30",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -9,12 +9,24 @@
   "C-BUYBACK": 2,
   "M-CYCLE": 9,
   "C-CHINA": 8,
+  "P-ADR": 1,
   "F-ACTIVE": 8,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
  "unassigned": 66,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "목표가+상향",
+   "src": "kr",
+   "title": "미국 투자기관 SK하이닉스 ADR 목표가 220달러로 상향, '40조 자사주 매입' 효과 반영 - 비즈니스포스트",
+   "agents": [
+    "P-ADR",
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 노조, ‘성과급 60% 자사주’ 잠정합의안 부결…반대 50.08% - JTBC",
@@ -33,7 +45,7 @@
    "agents": []
   },
   {
-   "title": "美 반도체주 급락에 삼성전자·SK하이닉스 3~4%↓…코스피 3%대 하락 [이런국장 저런주식] - 서울경제",
+   "title": "코스피 6500선 회귀…삼성전자·SK하이닉스 4%대 급락 - v.daum.net",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -47,7 +59,7 @@
    "agents": []
   },
   {
-   "title": "코스피 6500선 회귀…삼성전자·SK하이닉스 4%대 급락 - v.daum.net",
+   "title": "코스피 하락 출발…삼성전자·SK하이닉스 약세 - 전자신문",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -77,15 +89,6 @@
    ]
   },
   {
-   "title": "40조 자사주 사들이는 SK하이닉스, 주식수 28% 줄어든다 - v.daum.net",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
    "title": "주영표 SK하이닉스 부사장 \"미래 메모리는 '쌓는것'\" - 머니투데이 - 머니투데이",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
@@ -110,8 +113,18 @@
    ]
   },
   {
-   "title": "커지는 삼전·하닉 주주환원 기대감…'RISE 삼성전자SK하이닉스채권혼합50 ETF' 주목 - 이투데이",
-   "pub": "Mon, 24 Aug 2026",
+   "title": "미국 투자기관 SK하이닉스 ADR 목표가 220달러로 상향, '40조 자사주 매입' 효과 반영 - 비즈니스포스트",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR",
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "KB운용 ‘RISE 삼성전자SK하이닉스채권혼합50 ETF’, 순자산 4조 돌파 - 브릿지경제",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -124,7 +137,7 @@
    "agents": []
   },
   {
-   "title": "KB운용 ‘RISE 삼성전자SK하이닉스채권혼합50 ETF’, 순자산 4조 돌파 - 브릿지경제",
+   "title": "삼성전자·SK하이닉스 ETF 경쟁 ‘후끈’…미래에셋·한투까지 가세 - 데일리한국",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -508,26 +521,8 @@
    ]
   },
   {
-   "title": "“식지 않는 빚투 열기” 신용잔고, 다시 32조원대로...투자자예탁금은 감소 - 더퍼블릭",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "코스피 6900선 회복에 ‘빚투’ 다시 증가…신용잔고 32조원대 - 직썰",
-   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -608,6 +603,24 @@
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
+  },
+  {
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "Memory Shortage Deepens to Worst Levels Since 2017 — Here’s Why Micron Investors Will Cash In",
