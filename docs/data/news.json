@@ -1,29 +1,20 @@
 {
- "ts_kst": "08-27 03:59",
- "n_items": 102,
+ "ts_kst": "08-27 04:09",
+ "n_items": 103,
  "by_source": {
   "kr": 74,
-  "en": 28
+  "en": 29
  },
  "routed": {
-  "C-CHINA": 15,
+  "C-CHINA": 11,
+  "C-BUYBACK": 3,
   "M-CYCLE": 12,
-  "F-ACTIVE": 7,
-  "C-BUYBACK": 2,
+  "F-ACTIVE": 9,
+  "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 56,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 57,
+ "alerts": [],
  "items": [
   {
    "title": "학벌 안 보는 SK하이닉스… 대신 면접으로 ‘이것’ 확인 - 조선일보",
@@ -60,25 +51,29 @@
    ]
   },
   {
-   "title": "SK하이닉스 임단협, 기술사무직 '가결'…보상체계 전환 공감대 확인 - v.daum.net",
+   "title": "태우고 또 태운다…역대급 주주환원 SK하이닉스 다음 주자는 - 더팩트",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"이정도로는…\" SK하이닉스 퇴짜 \"이정도에서…\" 현대차 잠정 합의 - 머니투데이 - 머니투데이",
+   "title": "SK하이닉스, 40조 자사주 소각 후 '투자 다각화' 나선다 - 인베스트조선",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
-   "title": "SK하이닉스 임단협 잠정안, 전임직 25표차 부결…사무직은 가결(종합2보) - 매일경제 마켓",
+   "title": "\"자사주 소각 효과 증명\"…증권가 '제2의 SK하이닉스' 찾기 분주 - 뉴시스",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "\"SK하이닉스 80조 현금 잡자\"…은행권, '금리 3.9%' 특판까지 제시 - 인베스트조선",
@@ -113,6 +108,27 @@
    ]
   },
   {
+   "title": "SK하이닉스 임단협, 기술사무직 '가결'…보상체계 전환 공감대 확인 - v.daum.net",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"이정도로는…\" SK하이닉스 퇴짜 \"이정도에서…\" 현대차 잠정 합의 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 연구진, 성과급 주식으로 받는 보상안 수락…임단협 첫 문 열었다 - 동아일보",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "中 YMTC, 삼성전자·SK하이닉스 넘본다… “2027년 낸드 세계 1위 목표” - 조선비즈 - Chosunbiz",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
@@ -120,31 +136,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "YMTC “내년 말 삼성·SK하이닉스 제치고 낸드 생산능력 1위 목표” - 서울신문",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "중국 YMTC \"2027년까지 낸드 1위\"…삼성·SK하이닉스 정조준 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "SK하이닉스 공장 입지 거론 日미야기현 \"파악된 바 없어\" - 연합뉴스",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "브로드컴, AI 반도체 매출 2배 성장 전망… 삼성 파운드리 수혜에 이목 - 조선비즈 - Chosunbiz",
@@ -283,6 +274,15 @@
    "agents": []
   },
   {
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
@@ -292,15 +292,6 @@
   {
    "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
    "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -340,13 +331,6 @@
    "agents": []
   },
   {
-   "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - 경향신문",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 27 Jun 2026",
    "src": "kr",
@@ -354,6 +338,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "메모리 초호황에도 위기감 고조…미국 압박·중국 추격에 대비해야 - 경향신문",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
@@ -388,6 +379,15 @@
    "agents": []
   },
   {
+   "title": "코스피, 외국인 순매도에 장중 3%대 약세 - v.daum.net",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "코스닥, 외국인·기관 순매수에 상승 전환…코스피도 낙폭 줄여 - 머니투데이 - 머니투데이",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
@@ -418,22 +418,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "외국인 '팔자'에 코스피 2%대 하락 출발…'삼전닉스'도 3~5%↓ | - 연합인포맥스",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "[마감시황]코스피, 3.12% 급락해 6696.96 마감…외국인·기관 동반 순매도 - 서울신문",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "코스피 발목 잡는 외국인…일주일새 삼전닉스 '4조원' 순매도 - 네이트",
@@ -468,8 +452,8 @@
    ]
   },
   {
-   "title": "낙폭 줄인 코스피, 6550선 회복…외국인 2조원 순매도 - 조선비즈 - Chosunbiz",
-   "pub": "Tue, 25 Aug 2026",
+   "title": "외국인 코스피 순매도 집중 속 삼성전자 주가 급락 배경은 - 2news.co.kr",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -477,17 +461,27 @@
    ]
   },
   {
-   "title": "개미 2조 '팔자'에도 코스피 6800↑…반도체 자사주 매입 견인[시황종합] - 뉴스1",
-   "pub": "Wed, 26 Aug 2026",
+   "title": "삼성그룹주 급락에 코스피 6600선 후퇴…외국인 3.9조 순매도 - 서울뉴스통신",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
-    "C-BUYBACK"
+    "F-ACTIVE"
    ]
   },
   {
-   "title": "코스피, 외국인 순매도에 장중 3%대 약세 - v.daum.net",
-   "pub": "Tue, 25 Aug 2026",
+   "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE",
+    "B-RATES"
+   ]
+  },
+  {
+   "title": "코스피, 외국인·기관 순매도에 6690선 마감…코스닥은↑ - 소년한국일보",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -631,6 +625,15 @@
    ]
   },
   {
+   "title": "How China’s 2023 Micron Ban Became a Blessing in Disguise for the Stock",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Technology Has Fantastic News for Memory Stock Investors",
    "pub": "Wed, 26 Aug 2026",
    "src": "en",
@@ -645,16 +648,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron Stock Faces Big Threat From China’s YMTC. Why SK Hynix Could Be Hit Harder.",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "C-CHINA",
-    "M-CYCLE"
-   ]
   },
   {
    "title": "The Options Market Says Micron Stock Can Halve Or Double From Here",
