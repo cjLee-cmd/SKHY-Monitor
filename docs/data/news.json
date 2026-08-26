@@ -1,27 +1,19 @@
 {
- "ts_kst": "08-27 05:18",
+ "ts_kst": "08-27 05:28",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-CHINA": 10,
-  "C-BUYBACK": 5,
-  "M-CYCLE": 13,
+  "C-CHINA": 11,
+  "C-BUYBACK": 4,
+  "M-CYCLE": 14,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 11
  },
- "unassigned": 57,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "[특징주] 금화피에스시, 삼성전자 반도체 핵심 초순수 뚫었다…자회사 금화정수 전기 탈이온 장치 수주↑ - 프라임경제",
-   "agents": []
-  }
- ],
+ "unassigned": 56,
+ "alerts": [],
  "items": [
   {
    "title": "학벌 안 보는 SK하이닉스… 대신 면접으로 ‘이것’ 확인 - 조선일보",
@@ -136,17 +128,24 @@
    ]
   },
   {
-   "title": "“자사주보다 현금”…SK하이닉스 임단협 합의안 ‘부결’, 단 25표 차 - 주간조선",
-   "pub": "Tue, 25 Aug 2026",
+   "title": "중국 YMTC \"2027년까지 낸드 1위\"…삼성·SK하이닉스 정조준 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "C-BUYBACK"
+    "C-CHINA"
    ]
   },
   {
    "title": "브로드컴, AI 반도체 매출 2배 성장 전망… 삼성 파운드리 수혜에 이목 - 조선비즈 - Chosunbiz",
    "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성 뼈아픈 파운드리 실패 … 이번엔 부활할 수 있을까 - 매일경제",
+   "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -196,13 +195,6 @@
    "agents": []
   },
   {
-   "title": "삼성 뼈아픈 파운드리 실패 … 이번엔 부활할 수 있을까 - 매일경제",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "이재명·이재용 회동…국내 반도체 투자·美 투자 압박 대응 - 아시아투데이",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
@@ -228,13 +220,6 @@
    ]
   },
   {
-   "title": "[특징주] 금화피에스시, 삼성전자 반도체 핵심 초순수 뚫었다…자회사 금화정수 전기 탈이온 장치 수주↑ - 프라임경제",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "조선에 가렸던 삼성重 토건…반도체 훈풍에 삼성전자 관련 매출 50%급증 - 스트레이트뉴스",
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
@@ -244,6 +229,13 @@
   {
    "title": "삼성전자, 반도체 협력사에 789억 푼다…안전·생산성 인센티브 - 뉴스핌",
    "pub": "Fri, 21 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 등 180개사 수원시 집결… 반도체 산업전 개막 - 천지일보",
+   "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -488,8 +480,8 @@
    ]
   },
   {
-   "title": "코스피, 반도체주 반등에 장 초반 상승…외국인 매도에 오름폭 제한 - 산경투데이",
-   "pub": "Wed, 26 Aug 2026",
+   "title": "코스피, 0.68% 오른 6742 마감...기관 순매수에 양전 성공 - 오피니언뉴스",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -622,6 +614,15 @@
    "agents": []
   },
   {
+   "title": "Jim Cramer Is Bullish on Micron (MU) as AI Fuels Memory Demand",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Technology to Report Fiscal Fourth Quarter Results on September 30, 2026",
    "pub": "Wed, 26 Aug 2026",
    "src": "en",
@@ -663,15 +664,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "The Options Market Says Micron Stock Can Halve Or Double From Here",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
