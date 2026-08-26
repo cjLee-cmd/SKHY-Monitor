@@ -1,29 +1,19 @@
 {
- "ts_kst": "08-26 18:20",
+ "ts_kst": "08-26 18:30",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "C-CHINA": 11,
-  "M-CYCLE": 14,
+  "C-BUYBACK": 5,
+  "M-CYCLE": 13,
+  "C-CHINA": 8,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
- "unassigned": 54,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "코스피 6800선 회복…\"삼성전자·SK하이닉스 자사주 매입 추정\" - v.daum.net",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 56,
+ "alerts": [],
  "items": [
   {
    "title": "“자사주보다 현금”…SK하이닉스 임단협 합의안 ‘부결’, 단 25표 차 - 주간조선",
@@ -32,33 +22,6 @@
    "q": "SK하이닉스",
    "agents": [
     "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "\"YMTC, 내년말 삼성·하이닉스 제치고 세계 1위 목표\" - 매일경제 마켓",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "中 YMTC, 삼성전자·SK하이닉스 넘본다… “2027년 낸드 세계 1위 목표” - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "中 YMTC \"내년 말 낸드 1위\"…삼성·SK하이닉스 정조준 - 마켓인",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
    ]
   },
   {
@@ -83,13 +46,11 @@
    "agents": []
   },
   {
-   "title": "삼성·SK, HBM4 8단 출하 비중 늘린다…엔비디아 공급망 변화 예고 - 지디넷코리아",
-   "pub": "Wed, 26 Aug 2026",
+   "title": "하나증권 \"엔비디아 실적발표 기대감, SK하이닉스 삼성전자 투심 개선 전망\" - 비즈니스포스트",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "\"SK하이닉스 80조 현금 잡자\"…은행권, '금리 3.9%' 특판까지 제시 - 인베스트조선",
@@ -147,6 +108,31 @@
    "agents": []
   },
   {
+   "title": "태우고 또 태운다…역대급 주주환원 SK하이닉스 다음 주자는 - v.daum.net",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"자사주 소각 효과 증명\"…증권가 '제2의 SK하이닉스' 찾기 분주 - 뉴시스",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 40조 자사주 소각 후 '투자 다각화' 나선다 - 인베스트조선",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
    "title": "반도체 끝물이라더니 삼전닉스 '초대박'?…파격 전망 나왔다 - 한국경제",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
@@ -168,7 +154,7 @@
    "agents": []
   },
   {
-   "title": "삼성 ‘HBM 대신 PIM’ VS 하이닉스 ‘발열 관리 HBM’…반도체 맞수, ‘핫칩스’서 뜨거운 경쟁 - v.daum.net",
+   "title": "삼성 ‘HBM 대신 PIM’ VS 하이닉스 ‘발열 관리 HBM’…반도체 맞수, ‘핫칩스’서 뜨거운 경쟁 - 미주중앙일보",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
