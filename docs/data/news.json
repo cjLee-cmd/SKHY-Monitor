@@ -1,37 +1,52 @@
 {
- "ts_kst": "08-26 20:48",
+ "ts_kst": "08-26 20:57",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 5,
-  "C-CHINA": 10,
-  "M-CYCLE": 13,
+  "C-CHINA": 13,
+  "C-BUYBACK": 3,
+  "M-CYCLE": 12,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
  "unassigned": 55,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "개미 2조 '팔자'에도 코스피 6800↑…반도체 자사주 매입 견인[시황종합] - 뉴스1",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
-   "title": "“자사주보다 현금”…SK하이닉스 임단협 합의안 ‘부결’, 단 25표 차 - 주간조선",
+   "title": "\"제2의 하이닉스 될 수도\"…증권가가 콕 찍은 이 종목들 [분석+] - 한국경제",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "中 CXMT, 샤오미에 LPDDR6 공급…SK하이닉스와 어깨 나란히 [비즈360] - 헤럴드경제",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "샤오미 AP에 CXMT 메모리…삼성·SK하이닉스 '안방' 위협 - 뉴스핌",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "중국 CXMT, DDR5 SK하이닉스 턱밑까지⋯실제 성능테스트서 0.86% 격차 - 엠투데이",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "C-BUYBACK"
+    "C-CHINA"
    ]
   },
   {
@@ -60,27 +75,13 @@
    "agents": []
   },
   {
-   "title": "태우고 또 태운다…역대급 주주환원 SK하이닉스 다음 주자는 - v.daum.net",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"자사주 소각 효과 증명\"…증권가 '제2의 SK하이닉스' 찾기 분주 - 뉴시스",
+   "title": "“자사주보다 현금”…SK하이닉스 임단협 합의안 ‘부결’, 단 25표 차 - 주간조선",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "C-BUYBACK"
    ]
-  },
-  {
-   "title": "삼전 주가 또 추락…SK하이닉스와 뭐가 달랐나 - KBS 뉴스",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "SK하이닉스, 델 포럼서 AI 메모리 선보여…HBM4 등 공개 - 연합뉴스TV",
@@ -127,15 +128,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "코스피 6800선 회복…\"삼성전자·SK하이닉스 자사주 매입 추정\" - v.daum.net",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
   },
   {
    "title": "기관 순매수에 코스피 2%대 반등...삼성전자 2.72%, SK하이닉스 2.92% 상승 - 조선일보",
