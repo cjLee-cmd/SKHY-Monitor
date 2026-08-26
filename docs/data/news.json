@@ -1,63 +1,50 @@
 {
- "ts_kst": "08-26 14:00",
- "n_items": 103,
+ "ts_kst": "08-26 14:10",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "C-CHINA": 8,
-  "M-CYCLE": 10,
+  "C-BUYBACK": 4,
+  "M-CYCLE": 12,
+  "C-CHINA": 7,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
- "unassigned": 61,
- "alerts": [],
+ "unassigned": 60,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "나흘간 ‘5조’ 순매수, 증시 버팀목으로 떠오른 자사주 매입 - 마켓인",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "SK하이닉스 HBM4 웨이퍼 테스터, 韓 장비사 수주 확대 - 전자신문",
+   "agents": [
+    "M-CYCLE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "\"자사주 소각 효과 증명\"…증권가 '제2의 SK하이닉스' 찾기 분주 - 뉴시스",
+   "title": "“자사주보다 현금”…SK하이닉스 임단협 합의안 ‘부결’, 단 25표 차 - 주간조선",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "40조 자사주 사들이는 SK하이닉스, 주식수 28% 줄어든다 - v.daum.net",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "태우고 또 태운다…역대급 주주환원 SK하이닉스 다음 주자는 - 더팩트",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "中 CXMT, 샤오미에 LPDDR6 공급…SK하이닉스와 어깨 나란히 [비즈360] - 헤럴드경제",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
    ]
   },
   {
    "title": "SK하이닉스, 델과 AI 메모리 협력 확대…차세대 제품 총망라 - 녹색경제신문",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 델 포럼서 차세대 AI 메모리 솔루션 공개 - 브릿지경제",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -69,6 +56,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "SK하이닉스, 델 포럼서 HBM4E·eSSD 등 AI 메모리 풀라인업 공개 - v.daum.net",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "키움증권 \"고액자산가, 삼성전자·SK하이닉스·현대차 '톱픽'\" - 연합인포맥스",
@@ -92,14 +88,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스의 기술력은 - 뉴시스",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“자사주보다 현금”…SK하이닉스 임단협 합의안 ‘부결’, 단 25표 차 - 주간조선",
+   "title": "\"자사주 소각 효과 증명\"…증권가 '제2의 SK하이닉스' 찾기 분주 - 뉴시스",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -108,14 +97,25 @@
    ]
   },
   {
-   "title": "코스피 6500선 회귀…삼성전자·SK하이닉스 4%대 급락 - v.daum.net",
+   "title": "40조 자사주 사들이는 SK하이닉스, 주식수 28% 줄어든다 - v.daum.net",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
-   "title": "기관 순매수에 코스피 2%대 반등...삼성전자 2.72%, SK하이닉스 2.92% 상승 - 조선일보",
+   "title": "나흘간 ‘5조’ 순매수, 증시 버팀목으로 떠오른 자사주 매입 - 마켓인",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스의 기술력은 - 뉴시스",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -126,6 +126,36 @@
    "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“美 고금리 이어지면…삼성전자·SK하이닉스로 수급 몰릴 것\" - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스(000660) - 매일경제 마켓",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 HBM4 웨이퍼 테스터, 韓 장비사 수주 확대 - 전자신문",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "반도체 끝물이라더니 삼전닉스 '초대박'?…파격 전망 나왔다 - 한국경제",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
    "agents": []
   },
   {
@@ -167,13 +197,6 @@
   },
   {
    "title": "日 반도체 장비사 J.E.T, 전 삼성전자 부사장 영입…지배구조 쇄신 돌입 By The Guru - Investing.com 한국어",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "반도체 끝물이라더니 삼전닉스 '초대박'?…파격 전망 나왔다 - 한국경제",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -366,6 +389,13 @@
    ]
   },
   {
+   "title": "기관 순매수에 코스피 2%대 반등...삼성전자 2.72%, SK하이닉스 2.92% 상승 - 조선일보",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 외국인 순매도에 장중 3%대 약세 - v.daum.net",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
@@ -398,13 +428,11 @@
    ]
   },
   {
-   "title": "외국인 2조 ‘순매도’…반도체 동반 하락에 코스피 6500선 ‘뚝’ - 쿠키뉴스",
+   "title": "외국인 '팔자'에 코스피 2%대 하락 출발…'삼전닉스'도 3~5%↓ - 연합인포맥스",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "[마감시황]코스피, 3.12% 급락해 6696.96 마감…외국인·기관 동반 순매도 - 서울신문",
@@ -416,18 +444,13 @@
    ]
   },
   {
-   "title": "외국인 '팔자'에 코스피 2%대 하락 출발…'삼전닉스'도 3~5%↓ | - 연합인포맥스",
+   "title": "외국인 2조 ‘순매도’…반도체 동반 하락에 코스피 6500선 ‘뚝’ - 쿠키뉴스",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피, 0.68% 오른 6742 마감...기관 순매수에 양전 성공 - 오피니언뉴스",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
@@ -441,6 +464,13 @@
   {
    "title": "[외국인 놀이터 코스피②] 클릭 한 번에 수조원…프로그램 매매가 키운 '외국인 장세' - 네이트",
    "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피, 0.68% 오른 6742 마감...기관 순매수에 양전 성공 - 오피니언뉴스",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -637,15 +667,6 @@
   },
   {
    "title": "Micron Rebounds 1.4% as $25 Billion Cash Engine Defies Memory Panic",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology (MU) Showed A Rack Scale AI Memory Pooling Breakthrough",
    "pub": "Tue, 25 Aug 2026",
    "src": "en",
    "q": "MU",
