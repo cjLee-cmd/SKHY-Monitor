@@ -1,19 +1,29 @@
 {
- "ts_kst": "08-27 03:05",
+ "ts_kst": "08-27 03:59",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "C-CHINA": 13,
-  "C-BUYBACK": 3,
-  "M-CYCLE": 11,
+  "C-CHINA": 15,
+  "M-CYCLE": 12,
   "F-ACTIVE": 7,
-  "R-LEVERAGE": 12
+  "C-BUYBACK": 2,
+  "R-LEVERAGE": 11
  },
- "unassigned": 57,
- "alerts": [],
+ "unassigned": 56,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "학벌 안 보는 SK하이닉스… 대신 면접으로 ‘이것’ 확인 - 조선일보",
@@ -50,24 +60,22 @@
    ]
   },
   {
-   "title": "태우고 또 태운다…역대급 주주환원 SK하이닉스 다음 주자는 - v.daum.net",
+   "title": "SK하이닉스 임단협, 기술사무직 '가결'…보상체계 전환 공감대 확인 - v.daum.net",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"자사주 소각 효과 증명\"…증권가 '제2의 SK하이닉스' 찾기 분주 - 뉴시스",
+   "title": "\"이정도로는…\" SK하이닉스 퇴짜 \"이정도에서…\" 현대차 잠정 합의 - 머니투데이 - 머니투데이",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "삼전 주가 또 추락…SK하이닉스와 뭐가 달랐나 - KBS 뉴스",
-   "pub": "Mon, 24 Aug 2026",
+   "title": "SK하이닉스 임단협 잠정안, 전임직 25표차 부결…사무직은 가결(종합2보) - 매일경제 마켓",
+   "pub": "Tue, 25 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -80,20 +88,20 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 델 포럼서 차세대 AI 메모리 솔루션 공개 - 브릿지경제",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 델 포럼서 HBM4E·eSSD 등 AI 메모리 풀라인업 공개 - v.daum.net",
+   "title": "SK하이닉스, 델 포럼서 AI 메모리 선보여…HBM4 등 공개 - 연합뉴스TV",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "SK하이닉스, 델 포럼서 차세대 AI 메모리 솔루션 공개 - 브릿지경제",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "SK하이닉스, 델 포럼서 AI 메모리 총망라…HBM4·eSSD 등 공개 - 연합뉴스",
@@ -105,27 +113,6 @@
    ]
   },
   {
-   "title": "SK하이닉스 잠정합의안 노조서 부결…재협상 수순 - 연합뉴스TV",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 노조, '현금 성과급' 요구 확산...사측 \"후속 일정 협의\"(종합) - v.daum.net",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 연구진, 성과급 주식으로 받는 보상안 수락…임단협 첫 문 열었다 - 동아일보",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "中 YMTC, 삼성전자·SK하이닉스 넘본다… “2027년 낸드 세계 1위 목표” - 조선비즈 - Chosunbiz",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
@@ -133,6 +120,31 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "YMTC “내년 말 삼성·SK하이닉스 제치고 낸드 생산능력 1위 목표” - 서울신문",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "중국 YMTC \"2027년까지 낸드 1위\"…삼성·SK하이닉스 정조준 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "SK하이닉스 공장 입지 거론 日미야기현 \"파악된 바 없어\" - 연합뉴스",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "브로드컴, AI 반도체 매출 2배 성장 전망… 삼성 파운드리 수혜에 이목 - 조선비즈 - Chosunbiz",
@@ -186,6 +198,13 @@
    "agents": []
   },
   {
+   "title": "이재명·이재용 회동…국내 반도체 투자·美 투자 압박 대응 - 아시아투데이",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성 ‘HBM 대신 PIM’ VS 하이닉스 ‘발열 관리 HBM’…반도체 맞수, ‘핫칩스’서 뜨거운 경쟁 - 미주중앙일보",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
@@ -197,13 +216,6 @@
   {
    "title": "[특징주] '삼전닉스' 美 반도체 훈풍에 상승 출발 - 뉴스핌",
    "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "이재명·이재용 회동…국내 반도체 투자·美 투자 압박 대응 - 아시아투데이",
-   "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -278,8 +290,8 @@
    "agents": []
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
+   "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -287,8 +299,8 @@
    ]
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -415,8 +427,8 @@
    "agents": []
   },
   {
-   "title": "코스피 발목 잡는 외국인…일주일새 삼전닉스 '4조원' 순매도 - 네이트",
-   "pub": "Wed, 26 Aug 2026",
+   "title": "[마감시황]코스피, 3.12% 급락해 6696.96 마감…외국인·기관 동반 순매도 - 서울신문",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -424,8 +436,8 @@
    ]
   },
   {
-   "title": "[마감시황]코스피, 3.12% 급락해 6696.96 마감…외국인·기관 동반 순매도 - 서울신문",
-   "pub": "Mon, 24 Aug 2026",
+   "title": "코스피 발목 잡는 외국인…일주일새 삼전닉스 '4조원' 순매도 - 네이트",
+   "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -562,8 +574,8 @@
    "agents": []
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -571,8 +583,8 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -594,8 +606,8 @@
    "agents": []
   },
   {
-   "title": "폭락장에 터진 '빚투 반대매매' 하루 600억 넘어… 2·3차 연쇄 매도 경고 - 서울뉴스통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -603,12 +615,19 @@
    ]
   },
   {
-   "title": "[영상] 개미들 ‘빚투’ 줄었다…신용융자 잔고 6개월 만에 30조 밑으로 - 서울경제",
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "Micron Reshuffles Its Leadership for the Next Phase of the AI Boom",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
   },
   {
@@ -648,15 +667,6 @@
   },
   {
    "title": "Micron Announces Leadership Appointments to Accelerate Innovation and Growth",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Zacks Investment Ideas feature highlights: Bloom Energy, Micron, Nvidia, UBS and Moderna",
    "pub": "Wed, 26 Aug 2026",
    "src": "en",
    "q": "MU",
