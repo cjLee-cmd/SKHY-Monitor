@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-26 22:38",
+ "ts_kst": "08-26 22:48",
  "n_items": 104,
  "by_source": {
   "kr": 75,
@@ -7,12 +7,12 @@
  },
  "routed": {
   "C-BUYBACK": 3,
-  "C-CHINA": 13,
-  "M-CYCLE": 12,
-  "F-ACTIVE": 6,
+  "C-CHINA": 14,
+  "M-CYCLE": 13,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
- "unassigned": 58,
+ "unassigned": 56,
  "alerts": [],
  "items": [
   {
@@ -426,13 +426,6 @@
    "agents": []
   },
   {
-   "title": "코스피, 반도체주 반등에 장 초반 상승…외국인 매도에 오름폭 제한 - 산경투데이",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인 3.8조 순매도에도 코스피 반등...장중 4% 급락 뒤 6742 마감 - ppss.kr",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
@@ -463,6 +456,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "개미 2조 '팔자'에도 코스피 6800↑…반도체 자사주 매입 견인[시황종합] - 뉴스1",
@@ -628,6 +630,16 @@
    ]
   },
   {
+   "title": "Micron and SK Hynix Face Big Threat From China’s YMTC. One Is Better Placed.",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "C-CHINA",
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Announces Leadership Appointments to Accelerate Innovation and Growth",
    "pub": "Wed, 26 Aug 2026",
    "src": "en",
@@ -653,13 +665,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "Schwab Strategist Flags Wall Street's Growth Is Concentrated in Two Firms",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
