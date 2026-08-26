@@ -1,5 +1,5 @@
 {
- "ts_kst": "08-26 19:29",
+ "ts_kst": "08-26 19:33",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -7,32 +7,13 @@
  },
  "routed": {
   "C-BUYBACK": 4,
-  "C-CHINA": 11,
-  "M-CYCLE": 13,
+  "C-CHINA": 10,
+  "M-CYCLE": 14,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
  "unassigned": 54,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장에 터진 '빚투 반대매매' 하루 600억 넘어… 2·3차 연쇄 매도 경고 - 서울뉴스통신",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "무더기 반대매매에 '빚투개미' 백기…신용융자 10조 줄었다 - 뉴시스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "“자사주보다 현금”…SK하이닉스 임단협 합의안 ‘부결’, 단 25표 차 - 주간조선",
@@ -44,7 +25,7 @@
    ]
   },
   {
-   "title": "\"YMTC, 내년말 삼성·하이닉스 제치고 세계 1위 목표\" - 매일경제 마켓",
+   "title": "中 YMTC \"내년 세계 낸드 1위 목표\"…삼성전자·SK하이닉스 추격 - v.daum.net",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -62,13 +43,11 @@
    ]
   },
   {
-   "title": "中 YMTC \"내년 세계 낸드 1위 목표\"…삼성전자·SK하이닉스 추격 - v.daum.net",
+   "title": "“내년 삼성·하이닉스 제친다”…中 반도체의 섬뜩한 ‘세계 1위’ 로드맵 - v.daum.net",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
+   "agents": []
   },
   {
    "title": "\"제2의 하이닉스 될 수도\"…증권가가 콕 찍은 이 종목들 [분석+] - 한국경제",
@@ -78,7 +57,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 델 포럼서 HBM4E·소캠2 등 AI 메모리 선봬…\"핵심 파트너 협력 강화\" - 뉴시스",
+   "title": "SK하이닉스, 델 포럼서 AI 메모리 선보여…HBM4 등 공개 - 연합뉴스TV",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -87,11 +66,13 @@
    ]
   },
   {
-   "title": "SK하이닉스, 델 포럼서 차세대 AI 메모리 솔루션 공개 - 브릿지경제",
+   "title": "SK하이닉스, 델 포럼서 HBM4E·소캠2 등 AI 메모리 선봬…\"핵심 파트너 협력 강화\" - 뉴시스",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "SK하이닉스, 델 포럼서 AI 메모리 총망라…HBM4·eSSD 등 공개 - 연합뉴스",
@@ -133,13 +114,6 @@
    "agents": []
   },
   {
-   "title": "태우고 또 태운다…역대급 주주환원 SK하이닉스 다음 주자는 - v.daum.net",
-   "pub": "Wed, 26 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"자사주 소각 효과 증명\"…증권가 '제2의 SK하이닉스' 찾기 분주 - 뉴시스",
    "pub": "Tue, 25 Aug 2026",
    "src": "kr",
@@ -147,6 +121,13 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "태우고 또 태운다…역대급 주주환원 SK하이닉스 다음 주자는 - v.daum.net",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "삼전 주가 또 추락…SK하이닉스와 뭐가 달랐나 - KBS 뉴스",
