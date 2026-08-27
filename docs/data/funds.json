@@ -1,43 +1,47 @@
 {
- "ts_kst": "08-27 13:44",
+ "ts_kst": "08-27 22:48",
  "current": {
   "deposit": {
    "label": "투자자예탁금",
-   "date": "08/25",
-   "value_jo": 102.53,
-   "chg_jo": -0.48,
-   "chg_pct": -0.47
+   "date": "08/26",
+   "value_jo": 98.92,
+   "chg_jo": -3.616,
+   "chg_pct": -3.53
   },
   "credit": {
    "label": "신용융자",
-   "date": "08/25",
-   "value_jo": 32.85,
-   "chg_jo": 0.22,
-   "chg_pct": 0.67
+   "date": "08/26",
+   "value_jo": 33.1,
+   "chg_jo": 0.254,
+   "chg_pct": 0.77
   },
   "cma": {
    "label": "CMA잔고",
-   "date": "08/25",
-   "value_jo": 105.03,
-   "chg_jo": -0.023,
-   "chg_pct": -0.02
+   "date": "08/26",
+   "value_jo": 105.22,
+   "chg_jo": 0.189,
+   "chg_pct": 0.18
   },
   "equity_fund": {
    "label": "주식형펀드 순자산",
-   "date": "08/25",
-   "value_jo": 379.68,
-   "chg_jo": 1.415,
-   "chg_pct": 0.37
+   "date": "08/26",
+   "value_jo": 382.76,
+   "chg_jo": 3.076,
+   "chg_pct": 0.81
   }
  },
  "derived": {
-  "dry_powder_jo": 44.5,
-  "credit_ratio": 32.0
+  "dry_powder_jo": 40.9,
+  "credit_ratio": 33.5
  },
  "alerts": [
   {
    "level": "high",
-   "text": "신용융자 +0.22조 증가 — 하락장에 레버리지 확대. 반대매매 위험 축적."
+   "text": "신용융자 +0.25조 증가 — 하락장에 레버리지 확대. 반대매매 위험 축적."
+  },
+  {
+   "level": "mid",
+   "text": "예탁금 -3.5% — 자금 이탈 가속."
   }
  ],
  "log": [
@@ -160,6 +164,12 @@
    "deposit": 102.53,
    "credit": 32.85,
    "cma": 105.03
+  },
+  {
+   "date": "08/26",
+   "deposit": 98.92,
+   "credit": 33.1,
+   "cma": 105.22
   }
  ]
 }
