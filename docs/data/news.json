@@ -1,18 +1,28 @@
 {
- "ts_kst": "08-29 21:27",
- "n_items": 102,
+ "ts_kst": "08-29 21:37",
+ "n_items": 103,
  "by_source": {
-  "kr": 72,
+  "kr": 73,
   "en": 30
  },
  "routed": {
   "C-CHINA": 8,
-  "M-CYCLE": 15,
+  "M-CYCLE": 17,
   "F-ACTIVE": 9,
-  "R-LEVERAGE": 13
+  "R-LEVERAGE": 14
  },
- "unassigned": 57,
- "alerts": [],
+ "unassigned": 55,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "“CXMT DDR5, SK하이닉스와 성능 1% 차”…거세지는 ‘레드칩 어택’에 韓 메모리 누가 지켜주나 [칩칩팹팹] - v.daum.net",
@@ -65,27 +75,6 @@
    "agents": []
   },
   {
-   "title": "엔비디아 AI 투자 확대…삼성전자·SK하이닉스 수혜 이어질까[종목e슈] - edaily.co.kr",
-   "pub": "Sat, 29 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "엔비디아 ‘962억달러’도 금리에 밀렸다…월요일 삼전·하이닉스 3가지 신호 - 녹색경제신문",
-   "pub": "Sat, 29 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 프리마켓서 1% 안팎 약세 - 뉴시스",
-   "pub": "Thu, 27 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"미, 반도체 관세 확대 검토\"...SK 하이닉스 \"미국서 HBM 생산\" - YTN",
    "pub": "Thu, 27 Aug 2026",
    "src": "kr",
@@ -125,6 +114,29 @@
   {
    "title": "그래서 물린 SK하이닉스 오를까요...\"시대의 주식은 우상향\" [몇층이세요] - YTN",
    "pub": "Fri, 28 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 인디애나서 年수십만장 '메이드인 USA' HBM 만든다(종합) - 연합뉴스",
+   "pub": "Thu, 27 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "엔비디아 ‘962억달러’도 금리에 밀렸다…월요일 삼전·하이닉스 3가지 신호 - 녹색경제신문",
+   "pub": "Sat, 29 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 프리마켓서 1% 안팎 약세 - 뉴시스",
+   "pub": "Thu, 27 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -170,6 +182,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "[위클리 PICK 3] 삼성전자 주주환원 실망에 주가 급락부터 SK하이닉스 美 HBM 팹 기공식까지 - 오피니언뉴스",
+   "pub": "Sat, 29 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자, 국내외 대학과 반도체 미래기술 논의 …‘SPARK 2026’ 개최 - edaily.co.kr",
@@ -557,13 +578,6 @@
    ]
   },
   {
-   "title": "'한 달 전으로 시간 돌릴 수 있다면'…빚투 개미들 '피눈물' [분석+] - 한국경제",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
@@ -584,6 +598,15 @@
   {
    "title": "'빚투' 신용융자 잔고 27조원대로 하락…올 최저 수준 근접 - 연합뉴스",
    "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -646,15 +669,6 @@
   },
   {
    "title": "Why Micron Stock Didn’t Get a Leg Up From SK Hynix’s Memory Optimism",
-   "pub": "Fri, 28 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Trump Calls Micron One of the World’s “Hottest” Companies a Day After Nvidia Disclosed $279 Billion in Supplier Commitments",
    "pub": "Fri, 28 Aug 2026",
    "src": "en",
    "q": "MU",
