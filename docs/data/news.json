@@ -1,18 +1,28 @@
 {
- "ts_kst": "08-29 20:38",
- "n_items": 103,
+ "ts_kst": "08-29 20:48",
+ "n_items": 102,
  "by_source": {
-  "kr": 73,
+  "kr": 72,
   "en": 30
  },
  "routed": {
   "C-CHINA": 7,
   "M-CYCLE": 17,
-  "F-ACTIVE": 8,
-  "R-LEVERAGE": 13
+  "F-ACTIVE": 9,
+  "R-LEVERAGE": 14
  },
- "unassigned": 58,
- "alerts": [],
+ "unassigned": 55,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "“CXMT DDR5, SK하이닉스와 성능 1% 차”…거세지는 ‘레드칩 어택’에 韓 메모리 누가 지켜주나 [칩칩팹팹] - v.daum.net",
@@ -366,15 +376,6 @@
    ]
   },
   {
-   "title": "코스피, 외국인 순매도에 장중 3%대 약세 - v.daum.net",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "외국인 순매도 축소… 코스피 1% 상승 6800선 회복[장중시황] - 뉴스1",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
@@ -389,6 +390,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "코스피, 외국인 순매도에 장중 3%대 약세 - v.daum.net",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스닥, 외국인·기관 순매수에 상승 전환…코스피도 낙폭 줄여 - 머니투데이 - 머니투데이",
@@ -430,8 +440,8 @@
    "agents": []
   },
   {
-   "title": "[서울데이터랩]코스피, 장초반 약세 이어 6840선 하회…외국인·기관 동반 순매도 - 서울신문",
-   "pub": "Fri, 28 Aug 2026",
+   "title": "[마감시황]코스피, 3.12% 급락해 6696.96 마감…외국인·기관 동반 순매도 - 서울신문",
+   "pub": "Mon, 24 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -453,18 +463,13 @@
    "agents": []
   },
   {
-   "title": "[개장시황] 코스피, 외국인·기관 매도에 1%대 하락…삼성바이오 6%대 급락 - 아주경제",
+   "title": "[서울데이터랩]코스피, 장초반 약세 이어 6840선 하회…외국인·기관 동반 순매도 - 서울신문",
    "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피, 0.68% 오른 6742 마감...기관 순매수에 양전 성공 - 오피니언뉴스",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "삼성전자 신용잔고 사상 최대 … 7월 폭락장 '빚투' 뇌관 '데자뷔' - 뉴데일리",
@@ -564,13 +569,6 @@
    ]
   },
   {
-   "title": "'한 달 전으로 시간 돌릴 수 있다면'…빚투 개미들 '피눈물' [분석+] - 한국경제",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
@@ -591,6 +589,15 @@
   {
    "title": "'빚투' 신용융자 잔고 27조원대로 하락…올 최저 수준 근접 - 연합뉴스",
    "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -653,6 +660,15 @@
   },
   {
    "title": "Why Micron Stock Didn’t Get a Leg Up From SK Hynix’s Memory Optimism",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Trump Calls Micron One of the World’s “Hottest” Companies a Day After Nvidia Disclosed $279 Billion in Supplier Commitments",
    "pub": "Fri, 28 Aug 2026",
    "src": "en",
    "q": "MU",
