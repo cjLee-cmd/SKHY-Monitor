@@ -1,35 +1,18 @@
 {
- "ts_kst": "08-29 12:30",
+ "ts_kst": "08-29 12:40",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 13,
   "C-CHINA": 8,
-  "F-ACTIVE": 9,
+  "F-ACTIVE": 8,
   "R-LEVERAGE": 13
  },
  "unassigned": 62,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "agents": []
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 美인디애나팹 착공…年수십만장 7세대 HBM 생산(종합2보) - 연합뉴스",
@@ -441,13 +424,6 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인·기관 동반 매도에 1.8% 하락 마감 - 서울경제TV",
-   "pub": "Fri, 28 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 6780선으로 후퇴···외국인 1.7조원 순매도 - 스마트비즈",
    "pub": "Fri, 28 Aug 2026",
    "src": "kr",
@@ -455,6 +431,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "코스피, 외국인·기관 동반 매도에 1.8% 하락 마감 - 서울경제TV",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "[마감시황]코스피, 3.12% 급락해 6696.96 마감…외국인·기관 동반 순매도 - 서울신문",
@@ -480,13 +463,11 @@
    "agents": []
   },
   {
-   "title": "[서울데이터랩]코스피, 장초반 약세 이어 6840선 하회…외국인·기관 동반 순매도 - 서울신문",
+   "title": "코스피, 외국인·기관 매도에 1%대 하락…반도체주 동반 약세 - 산경투데이",
    "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "삼성전자 신용잔고 사상 최대 … 7월 폭락장 '빚투' 뇌관 '데자뷔' - 뉴데일리",
@@ -620,6 +601,15 @@
    ]
   },
   {
+   "title": "Jim Cramer Shared Why Micron Technology, Inc. (NASDAQ:MU)’s Shares Didn’t Rise On Shortage News",
+   "pub": "Sat, 29 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Prediction: This Is What a $1,000 Investment in Micron Stock Will Be Worth by 2030",
    "pub": "Fri, 28 Aug 2026",
    "src": "en",
@@ -657,15 +647,6 @@
   },
   {
    "title": "Why Micron Stock Didn’t Get a Leg Up From SK Hynix’s Memory Optimism",
-   "pub": "Fri, 28 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Trump Calls Micron One of the World’s “Hottest” Companies a Day After Nvidia Disclosed $279 Billion in Supplier Commitments",
    "pub": "Fri, 28 Aug 2026",
    "src": "en",
    "q": "MU",
