@@ -1,18 +1,26 @@
 {
- "ts_kst": "08-31 06:05",
- "n_items": 100,
+ "ts_kst": "08-31 06:15",
+ "n_items": 102,
  "by_source": {
-  "kr": 71,
+  "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 14,
-  "C-CHINA": 9,
+  "M-CYCLE": 13,
+  "C-CHINA": 10,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
- "unassigned": 56,
- "alerts": [],
+ "unassigned": 58,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "적자",
+   "src": "kr",
+   "title": "돈 잘버는 SK하이닉스보다 적자 스페이스X가 비싼 이유 [B급기자의 B급리포트] - v.daum.net",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "'40조' 통 큰 환원 이어…SK하이닉스, 추가 카드 꺼낸다[주주환원시대②] - 뉴시스",
@@ -31,30 +39,37 @@
    ]
   },
   {
-   "title": "SK하이닉스 미국 최초 HBM 생산 거점 착공 - 충청매일",
+   "title": "“중국 D램 무섭게 컸다”…CXMT, 삼성·SK하이닉스 턱밑 추격 - v.daum.net",
    "pub": "Sun, 30 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "M-CYCLE"
+    "C-CHINA"
    ]
   },
   {
+   "title": "그래서 물린 SK하이닉스 오를까요...\"시대의 주식은 우상향\" [몇층이세요] - YTN",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "돈 잘버는 SK하이닉스보다 적자 스페이스X가 비싼 이유 [B급기자의 B급리포트] - v.daum.net",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "4대 그룹 주식 10억 클럽 임원 중 91%가 '삼전닉스' - v.daum.net",
+   "pub": "Sun, 30 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "반도체 호황에…삼성전자·SK하이닉스 상반기 법인세 11조 돌파 - v.daum.net",
-   "pub": "Sun, 30 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·하이닉스, 법인세로만 연 100조 내나 - 서울경제",
-   "pub": "Sun, 30 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 법인세 상반기 11.2조…연간 역대 최고치 경신 가능성 - 인천일보",
    "pub": "Sun, 30 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -110,13 +125,6 @@
    "agents": []
   },
   {
-   "title": "4나노 가격 인상 단행한 삼성 파운드리… SK하이닉스는 美 인디애나 패키징 기지 착공 [위클리반도체] - 디지털데일리",
-   "pub": "Sun, 30 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "[증권가 이모저모] SK하이닉스 '나 혼자 산다' - 연합인포맥스",
    "pub": "Thu, 27 Aug 2026",
    "src": "kr",
@@ -125,6 +133,13 @@
   },
   {
    "title": "\"반도체 끝났다더니\"…큰손들 일주일새 490억 쓸어담았다 - 한국경제",
+   "pub": "Sun, 30 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "4나노 가격 인상 단행한 삼성 파운드리… SK하이닉스는 美 인디애나 패키징 기지 착공 [위클리반도체] - 디지털데일리",
    "pub": "Sun, 30 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -189,6 +204,13 @@
    "agents": []
   },
   {
+   "title": "AI 반도체 호황에…삼전닉스, 상반기 법인세 11조 넘어 - v.daum.net",
+   "pub": "Sun, 30 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "특징주, 삼성전자-반도체 생산 테마 상승세에 3.15% ↑ - 매일경제 마켓",
    "pub": "Thu, 27 Aug 2026",
    "src": "kr",
@@ -196,8 +218,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자 주택대출 시행 앞두고…동탄·기흥 ‘반도체 셔세권’ 다시 들썩 - 동아일보",
-   "pub": "Sun, 30 Aug 2026",
+   "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원 - 연합뉴스",
+   "pub": "Fri, 14 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -637,24 +659,6 @@
   },
   {
    "title": "Here's Why Micron Stock Can Double Next Year",
-   "pub": "Fri, 28 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron (MU) CEO: AI Shift Breaks Traditional Memory Market Cycles",
-   "pub": "Fri, 28 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Micron Stock Didn’t Get a Leg Up From SK Hynix’s Memory Optimism",
    "pub": "Fri, 28 Aug 2026",
    "src": "en",
    "q": "MU",
