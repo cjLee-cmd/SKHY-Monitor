@@ -1,18 +1,28 @@
 {
- "ts_kst": "08-30 23:03",
- "n_items": 102,
+ "ts_kst": "08-30 23:13",
+ "n_items": 103,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 29
  },
  "routed": {
   "M-CYCLE": 16,
   "C-CHINA": 8,
   "F-ACTIVE": 9,
-  "R-LEVERAGE": 11
+  "R-LEVERAGE": 12
  },
  "unassigned": 59,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "'40조' 통 큰 환원 이어…SK하이닉스, 추가 카드 꺼낸다[주주환원시대②] - 뉴시스",
@@ -538,8 +548,8 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -547,8 +557,8 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
-   "pub": "Wed, 08 Jul 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -586,8 +596,17 @@
    ]
   },
   {
-   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "pub": "Wed, 08 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 신용융자 잔고 27조원대로 하락…올 최저 수준 근접 - 연합뉴스",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -641,15 +660,6 @@
   },
   {
    "title": "Here's Why Micron Stock Can Double Next Year",
-   "pub": "Fri, 28 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron (MU) CEO: AI Shift Breaks Traditional Memory Market Cycles",
    "pub": "Fri, 28 Aug 2026",
    "src": "en",
    "q": "MU",
