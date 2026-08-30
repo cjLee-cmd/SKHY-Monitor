@@ -1,23 +1,23 @@
 {
- "ts_kst": "08-30 23:13",
- "n_items": 103,
+ "ts_kst": "08-30 23:23",
+ "n_items": 101,
  "by_source": {
-  "kr": 74,
+  "kr": 72,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 16,
+  "M-CYCLE": 14,
   "C-CHINA": 8,
   "F-ACTIVE": 9,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 11
  },
- "unassigned": 59,
+ "unassigned": 60,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -48,7 +48,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 상반기 법인세 11.2조 ‘역대급’⋯올 실적 적용시 100조 갈수도 - 브릿지경제",
+   "title": "삼성전자·SK하이닉스 상반기 법인세 '11조'…반기 기준 역대 2위 - v.daum.net",
    "pub": "Sun, 30 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -80,6 +80,13 @@
   },
   {
    "title": "ISC, SK하이닉스향 테스트소켓 매출 14배↑…SK 편입 후 거래 확대 - 전자신문",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "트럼프 반도체 들어간 완제품에도 관세 부과 압박, 삼성전자·SK하이닉스 메모리 호황 '불안불안' - 비즈니스포스트",
    "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -121,22 +128,11 @@
    "agents": []
   },
   {
-   "title": "\"미, 반도체 관세 확대 검토\"...SK 하이닉스 \"미국서 HBM 생산\" - YTN",
-   "pub": "Thu, 27 Aug 2026",
+   "title": "SK하이닉스 품은 청주시 … 내년 1조원대 `세수 잭팟?' - v.daum.net",
+   "pub": "Sun, 30 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스, 美인디애나팹 착공…年수십만장 7세대 HBM 생산(종합2보) - 연합뉴스",
-   "pub": "Thu, 27 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "'中 반도체 자립의 역설'…효율 낮아 삼성 메모리 더 찾는다 - 연합인포맥스",
@@ -155,13 +151,6 @@
   {
    "title": "\"반도체 끝났다더니\"…큰손들 일주일새 490억 쓸어담았다 - 한국경제",
    "pub": "Sun, 30 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "트럼프 반도체 들어간 완제품에도 관세 부과 압박, 삼성전자·SK하이닉스 메모리 호황 '불안불안' - 비즈니스포스트",
-   "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -548,8 +537,8 @@
    ]
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -557,8 +546,8 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -596,17 +585,8 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
-   "pub": "Wed, 08 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "'빚투' 신용융자 잔고 27조원대로 하락…올 최저 수준 근접 - 연합뉴스",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -660,6 +640,24 @@
   },
   {
    "title": "Here's Why Micron Stock Can Double Next Year",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron (MU) CEO: AI Shift Breaks Traditional Memory Market Cycles",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Why Micron Stock Didn’t Get a Leg Up From SK Hynix’s Memory Optimism",
    "pub": "Fri, 28 Aug 2026",
    "src": "en",
    "q": "MU",
