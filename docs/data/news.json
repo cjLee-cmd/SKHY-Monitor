@@ -1,18 +1,19 @@
 {
- "ts_kst": "08-30 17:03",
- "n_items": 101,
+ "ts_kst": "08-30 17:13",
+ "n_items": 100,
  "by_source": {
-  "kr": 72,
+  "kr": 71,
   "en": 29
  },
  "routed": {
   "C-CHINA": 9,
   "M-CYCLE": 15,
   "C-BUYBACK": 1,
-  "F-ACTIVE": 8,
+  "F-ACTIVE": 9,
+  "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 58,
+ "unassigned": 56,
  "alerts": [],
  "items": [
   {
@@ -39,7 +40,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 상반기 법인세 납부액 11조원 넘어…세금도 껑충 - 한겨레",
+   "title": "삼성전자·SK하이닉스, 상반기 법인세 11.2조원…역대 두번째 - 한겨레",
    "pub": "Sun, 30 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -48,6 +49,13 @@
   {
    "title": "삼전닉스, 상반기 법인세 11조원 돌파…연간 100조 가능성도 - 경향신문",
    "pub": "Sun, 30 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "ISC, SK하이닉스향 테스트소켓 매출 14배↑…SK 편입 후 거래 확대 - 전자신문",
+   "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -95,27 +103,6 @@
    "agents": []
   },
   {
-   "title": "삼전·하이닉스 레버리지 열기 식었다…개미 한 달 새 1.7조원 매도 - 이투데이",
-   "pub": "Sat, 29 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 ETF에 놀랐나…日, 개별주 레버리지 상품 판매 제동 - v.daum.net",
-   "pub": "Fri, 28 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "규제 한 달 만에…‘삼전·닉스’ 개미들 ‘이만큼’ 던졌다 - 서울경제",
-   "pub": "Sun, 30 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스가 사들인 인텔 낸드…AI 호황에 가치 재평가 - 글로벌이코노믹",
    "pub": "Sat, 29 Aug 2026",
    "src": "kr",
@@ -124,6 +111,20 @@
   },
   {
    "title": "삼성전자·SK하이닉스, 상반기 법인세 11.2조…반기 역대 2위 - intn.co.kr",
+   "pub": "Sun, 30 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[증권가 이모저모] SK하이닉스 '나 혼자 산다' - 연합인포맥스",
+   "pub": "Thu, 27 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "4나노 가격 인상 단행한 삼성 파운드리… SK하이닉스는 美 인디애나 패키징 기지 착공 [위클리반도체] - 디지털데일리",
    "pub": "Sun, 30 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -155,13 +156,6 @@
   {
    "title": "트럼프 반도체 들어간 완제품에도 관세 부과 압박, 삼성전자·SK하이닉스 메모리 호황 '불안불안' - 비즈니스포스트",
    "pub": "Fri, 28 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "4나노 가격 인상 단행한 삼성 파운드리… SK하이닉스는 美 인디애나 패키징 기지 착공 [위클리반도체] - 디지털데일리",
-   "pub": "Sun, 30 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -432,11 +426,14 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인·기관 매도에 1%대 하락…반도체주 동반 약세 - 산경투데이",
-   "pub": "Fri, 28 Aug 2026",
+   "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
+   "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE",
+    "B-RATES"
+   ]
   },
   {
    "title": "코스피 발목 잡는 외국인…일주일새 삼전닉스 '4조원' 순매도 - 한국경제",
@@ -659,6 +656,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Memory Now Accounts for 50% of Global Semiconductor Revenue — But There’s a Catch",
+   "pub": "Sat, 29 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
