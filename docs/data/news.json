@@ -1,18 +1,18 @@
 {
- "ts_kst": "09-01 04:46",
+ "ts_kst": "09-01 04:57",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
+  "C-CHINA": 10,
   "C-BUYBACK": 1,
-  "C-CHINA": 9,
   "F-ACTIVE": 10,
   "R-LEVERAGE": 12
  },
- "unassigned": 60,
+ "unassigned": 58,
  "alerts": [],
  "items": [
   {
@@ -54,13 +54,6 @@
   },
   {
    "title": "애플이 삼성전자와 다른 이유… 주주를 대하는 태도의 차이 - 조선일보",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] \"오늘 사서 오늘 판다\"…매일 10%씩 단타 쏟아지는 SK하이닉스 - v.daum.net",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -125,6 +118,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "'4년→수개월' 좁혀진 격차…CXMT, 삼성·SK하이닉스 D램 위협 - 뉴스핌",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "\"반도체 끝났다더니\"…큰손들 일주일새 490억 쓸어담았다 - hankyung.com",
@@ -429,7 +431,7 @@
    ]
   },
   {
-   "title": "[서울데이터랩]코스피, 장초반 약세 이어 6840선 하회…외국인·기관 동반 순매도 - 서울신문",
+   "title": "[서울데이터랩]코스피, 장초반 약세 이어 6840선 하회…외국인·기관 동반 순매도 - seoul.co.kr",
    "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -608,6 +610,15 @@
    ]
   },
   {
+   "title": "Not Nvidia, Not AMD. Micron Could Be September's Biggest AI Winner or Loser.",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Apple Just Raised Mac and iPad Prices 20%, So Who Is Getting Rich Off the Shortage?",
    "pub": "Mon, 31 Aug 2026",
    "src": "en",
@@ -650,13 +661,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "The Overlooked AI Bet That Could Outperform NVIDIA by 2027",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
