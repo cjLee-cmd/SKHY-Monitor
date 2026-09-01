@@ -1,37 +1,18 @@
 {
- "ts_kst": "09-02 08:41",
+ "ts_kst": "09-02 08:50",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 18,
+  "M-CYCLE": 19,
   "C-CHINA": 5,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 11
  },
- "unassigned": 59,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "목표가+하향",
-   "src": "kr",
-   "title": "\"SK하이닉스 330만→240만\" 삼성 HBM4 추격에 목표가 대폭 하향…삼성전자는 목표가↑ [株토피아] - v.daum.net",
-   "agents": [
-    "M-CYCLE"
-   ]
-  }
- ],
+ "unassigned": 58,
+ "alerts": [],
  "items": [
   {
    "title": "삼성전자·SK하이닉스, ‘150조’ 메가 주주환원 - 주간한국",
@@ -41,7 +22,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, HBM '품귀 프리미엄' 수혜…LTA 5배 된 현물가 - greened.kr",
+   "title": "삼성전자·SK하이닉스, HBM '품귀 프리미엄' 수혜…LTA 5배 된 현물가 - 녹색경제신문",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -57,8 +38,8 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 330만→240만\" 삼성 HBM4 추격에 목표가 대폭 하향…삼성전자는 목표가↑ [株토피아] - v.daum.net",
-   "pub": "Mon, 31 Aug 2026",
+   "title": "HBM 경쟁 판도 바뀌나…삼성전자 웃고 SK하이닉스 울었다? - sedaily.com",
+   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -66,11 +47,20 @@
    ]
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 1%대 약세 - 연합뉴스",
+   "title": "'유가·금리 급등' 프리마켓서 삼전닉스 3%대↓…AI 성장주 하방 압력 - 뉴스1",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "하이닉스 31억 vs 마이크론 144억 … 韓 감사 비용, 글로벌 위상 안맞아 - v.daum.net",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자 1%대 약세…SK하이닉스는 상승 전환[핫스탁] - 뉴시스",
@@ -80,14 +70,14 @@
    "agents": []
   },
   {
-   "title": "중동 전운 다시 고조…삼전·SK하닉 프리마켓서 3% 약세 - 뉴시스",
+   "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 1%대 약세 - v.daum.net",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[증시키워드] SK이노, 사업재편에 급등…LG전자는 차익 매물에 조정 - v.daum.net",
+   "title": "중동 전운 다시 고조…삼전·SK하닉 프리마켓서 3% 약세 - 뉴시스",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -133,13 +123,6 @@
   {
    "title": "SK하이닉스 中 eSSD '5년 족쇄' 풀리나…AI 낸드 호황 속 연말 분수령 - 연합인포맥스",
    "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "AI 훈풍에 2분기 글로벌 eSSD 매출 103%↑…삼성전자·SK하이닉스 점유율 56% - 뉴시스",
-   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -324,7 +307,7 @@
    ]
   },
   {
-   "title": "중국 메모리 CXMT도 AI 타고 날았다…삼전·하닉 추격전 - kita.net",
+   "title": "중국 메모리 CXMT도 AI 타고 날았다…삼전·하닉 추격전 - 한국무역협회-KITA.NET",
    "pub": "Mon, 18 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
