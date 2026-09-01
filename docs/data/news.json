@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-02 03:06",
+ "ts_kst": "09-02 03:16",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,12 +7,22 @@
  },
  "routed": {
   "C-CHINA": 7,
-  "M-CYCLE": 19,
+  "M-CYCLE": 17,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
- "unassigned": 57,
- "alerts": [],
+ "unassigned": 59,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[단독] 삼성·SK하이닉스 법인세 11조 냈는데…中 YMTC는 '10년 면세' 카드 받았다 - 뉴스핌",
@@ -21,24 +31,6 @@
    "q": "SK하이닉스",
    "agents": [
     "C-CHINA"
-   ]
-  },
-  {
-   "title": "HBM 경쟁 판도 바뀌나…삼성전자 웃고 SK하이닉스 울었다? - 서울경제",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "HBM4가 갈랐다…삼성전자 목표가↑·SK하이닉스↓ - v.daum.net",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
    ]
   },
   {
@@ -97,7 +89,7 @@
    ]
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 1%대 약세 - 연합뉴스",
+   "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 1%대 약세 - yna.co.kr",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -118,6 +110,13 @@
    "agents": []
   },
   {
+   "title": "넥사다이내믹스, AI 데이터센터·HPC 진출…SK하이닉스 출신 임원 영입 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성전자·SK하이닉스, ‘150조’ 메가 주주환원 - 주간한국",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
@@ -125,7 +124,14 @@
    "agents": []
   },
   {
-   "title": "넥사다이내믹스, AI 데이터센터·HPC 진출…SK하이닉스 출신 임원 영입 - 머니투데이 - 머니투데이",
+   "title": "전남광주특별시·SK하이닉스, 반도체 클러스터 '원팀' 체계 가동 - 뉴스1",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 광주 투자 속도…전남광주와 '반도체 원팀' - 노컷뉴스",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -146,7 +152,14 @@
    "agents": []
   },
   {
-   "title": "“삼성전자 다니는데요“…반도체 머니에 시장 ’들썩’ - 연합뉴스TV",
+   "title": "메모리 반도체 한계 넘는 '기술의 삼성'…'CUBE'로 용량·속도 높인다 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "“삼성전자 다니는데요“…반도체 머니에 시장 ’들썩’ - yonhapnewstv.co.kr",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -167,21 +180,7 @@
    "agents": []
   },
   {
-   "title": "메모리 반도체 한계 넘는 '기술의 삼성'…'CUBE'로 용량·속도 높인다 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "코스피 톱10, ‘조방원’ 밀려나고 반도체 싹쓸이 - 조선일보",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "\"삼성 반도체 설계도 클로드로 자동화 지원\" - 매일경제",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -190,6 +189,13 @@
   {
    "title": "SFA반도체, 삼성전자 DDR5 외주화 수혜…턴어라운드 기대-SK - 마켓인",
    "pub": "Mon, 31 Aug 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "\"삼성 반도체 설계도 클로드로 자동화 지원\" - 매일경제",
+   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -282,7 +288,7 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -355,7 +361,7 @@
    "agents": []
   },
   {
-   "title": "올들어 외국인 코스피 순매수 단 두달…9월에도 '팔자' 이어가나 - 연합뉴스",
+   "title": "올들어 외국인 코스피 순매수 단 두달…9월에도 '팔자' 이어가나 - yna.co.kr",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -373,13 +379,6 @@
    ]
   },
   {
-   "title": "'170조' 판 외국인…\"삼전닉스, 정치가 놔둬야 주가 오른다\" [분석+] - 한국경제",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "올해 외국인 코스피 순매수 단 두 달…9월도 '팔자' 이어가나(종합) - 매일경제 마켓",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
@@ -387,6 +386,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "'170조' 판 외국인…\"삼전닉스, 정치가 놔둬야 주가 오른다\" [분석+] - 한국경제",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "돌아오지 않는 외국인…코스피 상승 동력 꺼지나 - v.daum.net",
@@ -505,7 +511,7 @@
    ]
   },
   {
-   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - yna.co.kr",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -514,7 +520,7 @@
    ]
   },
   {
-   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - ynenews.kr",
    "pub": "Sun, 26 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -580,17 +586,8 @@
    ]
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
-   "pub": "Mon, 13 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - JTBC 뉴스 - JTBC",
-   "pub": "Tue, 07 Jul 2026",
+   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - yna.co.kr",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -600,6 +597,15 @@
   {
    "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -632,6 +638,15 @@
    ]
   },
   {
+   "title": "Micron’s Workers Are Threatening to Strike. What It Means for the Stock.",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Technology (MU) Faces Taiwan Strike Threat As 80% Back Worker Action",
    "pub": "Tue, 01 Sep 2026",
    "src": "en",
@@ -642,15 +657,6 @@
   },
   {
    "title": "Micron’s Insane Productivity Explosion: Revenue Per Employee Doubled to $1.7 Million in Just 9 Months",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Nvidia Just Gave a $267 Billion Warning That Micron Stock Could Crash Before 2029 Is Over",
    "pub": "Tue, 01 Sep 2026",
    "src": "en",
    "q": "MU",
