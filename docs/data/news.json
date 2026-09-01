@@ -1,142 +1,38 @@
 {
- "ts_kst": "09-02 03:16",
- "n_items": 104,
+ "ts_kst": "09-02 03:26",
+ "n_items": 90,
  "by_source": {
-  "kr": 74,
+  "kr": 60,
   "en": 30
  },
  "routed": {
-  "C-CHINA": 7,
-  "M-CYCLE": 17,
+  "M-CYCLE": 14,
+  "C-CHINA": 6,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
- "unassigned": 59,
+ "unassigned": 49,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - JTBC 뉴스 - JTBC",
    "agents": [
     "R-LEVERAGE"
    ]
   }
  ],
  "items": [
-  {
-   "title": "[단독] 삼성·SK하이닉스 법인세 11조 냈는데…中 YMTC는 '10년 면세' 카드 받았다 - 뉴스핌",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "\"330만원→240만원\" 충격 리포트…SK하이닉스 주주 '패닉' [종목+] - 한국경제",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "최태원 \"일본 투자 검토\"…SK하이닉스 합작공장설은 \"사실과 달라\" By EBN - kr.investing.com",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"전력·용수 좋다면 어디든\" SK하이닉스, 일본 반도체 공장 검토 - 머니투데이 - 머니투데이",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "최태원 회장 \"日 전역 살펴보고 있다\" 반도체 공장 발언이 아쉬운 까닭은 - 조선일보",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "하이닉스 31억 vs 마이크론 144억 … 韓 감사 비용, 글로벌 위상 안맞아 - 매일경제 마켓",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "“삼성전자·SK하이닉스만큼 성과급 달라”…마이크론 대만 노조 파업 예고 - 조선비즈 - Chosunbiz",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "“우리도 삼성전자·하이닉스만큼 달라” 대만 마이크론으로 번진 성과급 갈등 - v.daum.net",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 1%대 약세 - yna.co.kr",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 1%대 약세…SK하이닉스는 상승 전환[핫스탁] - 뉴시스",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 장초반 약세 딛고 소폭 상승 마감…하닉도 1.1%↑(종합) - v.daum.net",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "넥사다이내믹스, AI 데이터센터·HPC 진출…SK하이닉스 출신 임원 영입 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스, ‘150조’ 메가 주주환원 - 주간한국",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "전남광주특별시·SK하이닉스, 반도체 클러스터 '원팀' 체계 가동 - 뉴스1",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 광주 투자 속도…전남광주와 '반도체 원팀' - 노컷뉴스",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
   {
    "title": "\"반도체 끝났다더니\"…큰손들 일주일새 490억 쓸어담았다 - 한국경제",
    "pub": "Sun, 30 Aug 2026",
@@ -187,7 +83,7 @@
    "agents": []
   },
   {
-   "title": "SFA반도체, 삼성전자 DDR5 외주화 수혜…턴어라운드 기대-SK - 마켓인",
+   "title": "삼성전자·SK하이닉스, ‘150조’ 메가 주주환원 - 주간한국",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -196,6 +92,13 @@
   {
    "title": "\"삼성 반도체 설계도 클로드로 자동화 지원\" - 매일경제",
    "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "SFA반도체, 삼성전자 DDR5 외주화 수혜…턴어라운드 기대-SK - 마켓인",
+   "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -347,7 +250,7 @@
    "agents": []
   },
   {
-   "title": "美의회 “中메모리 반도체 의존은 안보에 용납할 수 없는 위험” - munhwa.com",
+   "title": "美의회 “中메모리 반도체 의존은 안보에 용납할 수 없는 위험” - 문화일보",
    "pub": "Sun, 19 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -586,8 +489,17 @@
    ]
   },
   {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - yna.co.kr",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
+   "pub": "Mon, 13 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - JTBC 뉴스 - JTBC",
+   "pub": "Tue, 07 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -597,15 +509,6 @@
   {
    "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
-   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -663,6 +566,112 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Nvidia Just Gave a $267 Billion Warning That Micron Stock Could Crash Before 2029 Is Over",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron shares fall 1.8% following Taiwan incentive pay report",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Down 23%, Is Micron Still a Millionaire-Maker Stock?",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Is No Longer What It Was So I Keep Loading Up",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "How ASML Can Hit $1 Trillion Value and Why the China Threat Is Overblown",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Does ASML's Dominant Position in EUV Signal Further Upside?",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML Holding (ASML) Rally Keeps Valuation Questions In Focus",
+   "pub": "Sat, 29 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Here's Why ASML (ASML) Fell More Than Broader Market",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML Holding (ENXTAM:ASML) Is The Sole Supplier For High Bandwidth Memory Lithography",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "What Makes ASML (ASML) The Best-Positioned Business Within The AI Cohort?",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML Reverses as 38.62% Valuation Premium Tests AI Optimism",
+   "pub": "Thu, 27 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML Slips Before Nvidia Tests a 23% Sales Ramp",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Applied Materials’ China Problem Is Getting Worse",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "AI Can't Thrive Without This Stock. Hint: It's Not Nvidia.",
+   "pub": "Wed, 26 Aug 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
   }
  ],
  "guards": {
