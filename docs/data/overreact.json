@@ -1,70 +1,70 @@
 {
- "ts_kst": "09-01 12:28",
- "score": 28.3,
- "verdict": "정당한 재평가",
+ "ts_kst": "09-01 16:17",
+ "score": 35.0,
+ "verdict": "판단 유보",
  "components": {
   "A_통계극단성": 0,
-  "B_체인동조성": 15.0,
+  "B_체인동조성": 20.0,
   "C_펀더멘털배율": 0,
-  "D_역사되돌림": 13.3
+  "D_역사되돌림": 15.0
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": 0.97,
+   "cum": 1.56,
    "sd": 4.69,
-   "z": 0.15,
-   "n_episodes": 3,
+   "z": 0.23,
+   "n_episodes": 2,
    "forward": {
     "5": {
-     "mean": 0.78,
-     "median": -3.69,
-     "up_rate": 33
+     "mean": 3.02,
+     "median": 3.02,
+     "up_rate": 50
     },
     "20": {
-     "mean": -0.37,
-     "median": -14.3,
-     "up_rate": 33
+     "mean": 6.6,
+     "median": 6.6,
+     "up_rate": 50
     },
     "60": {
-     "mean": 27.55,
-     "median": 43.46,
-     "up_rate": 67
+     "mean": 10.09,
+     "median": 10.09,
+     "up_rate": 50
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": 1.94,
+   "cum": 2.42,
    "sd": 5.69,
-   "z": 0.24,
-   "n_episodes": 3,
+   "z": 0.3,
+   "n_episodes": 2,
    "forward": {
     "5": {
-     "mean": 3.35,
-     "median": 1.61,
+     "mean": 4.22,
+     "median": 4.22,
      "up_rate": 100
     },
     "20": {
-     "mean": 25.62,
-     "median": 20.61,
+     "mean": 32.04,
+     "median": 32.04,
      "up_rate": 100
     },
     "60": {
-     "mean": 37.14,
-     "median": 34.14,
+     "mean": 38.64,
+     "median": 38.64,
      "up_rate": 100
     }
    }
   }
  },
  "chain": {
-  "삼성전자": 0.88,
-  "SK하이닉스": 1.94,
+  "삼성전자": 1.56,
+  "SK하이닉스": 2.42,
   "마이크론": 2.5,
   "TSMC": -2.8,
-  "ASML": -2.84,
-  "필라델피아반도체": -0.66,
+  "ASML": -2.25,
+  "필라델피아반도체": -2.92,
   "엔비디아": -3.16
  },
  "threat": {
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": 0.15,
-  "drop_avg": 1.46,
-  "fundamental_ratio": 0.19,
-  "chain_negative": "3/5"
+  "z_min": 0.23,
+  "drop_avg": 1.99,
+  "fundamental_ratio": 0.26,
+  "chain_negative": "4/5"
  },
- "caveat": "역사 표본 3개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 2개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
