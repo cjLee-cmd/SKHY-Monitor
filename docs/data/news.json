@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-02 03:55",
+ "ts_kst": "09-02 04:05",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,31 +7,12 @@
  },
  "routed": {
   "C-CHINA": 7,
-  "M-CYCLE": 20,
+  "M-CYCLE": 19,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 12
  },
- "unassigned": 57,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "목표주가+하향",
-   "src": "kr",
-   "title": "LS증권 \"삼성전자 목표주가 상향·SK하이닉스 하향, HBM 경쟁구도 정상화\" - 비즈니스포스트",
-   "agents": [
-    "M-CYCLE"
-   ]
-  }
- ],
+ "unassigned": 58,
+ "alerts": [],
  "items": [
   {
    "title": "[단독] 삼성·SK하이닉스 법인세 11조 냈는데…中 YMTC는 '10년 면세' 카드 받았다 - 뉴스핌",
@@ -43,54 +24,8 @@
    ]
   },
   {
-   "title": "LS증권 \"삼성전자 목표주가 상향·SK하이닉스 하향, HBM 경쟁구도 정상화\" - 비즈니스포스트",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "\"330만원→240만원\" 충격 리포트…SK하이닉스 주주 '패닉' [종목+] - 한국경제",
    "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM 경쟁 판도 바뀌나…삼성전자 웃고 SK하이닉스 울었다? - 서울경제",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "전남광주특별시·SK하이닉스, 반도체 클러스터 '원팀' 체계 가동 - 뉴스1",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "민형배 시장, SK하이닉스 이천캠퍼스 방문…반도체 협력 논의 - v.daum.net",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 광주 투자 속도…전남광주와 '반도체 원팀' - 노컷뉴스",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 1%대 약세 - yna.co.kr",
-   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -123,6 +58,48 @@
    ]
   },
   {
+   "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 1%대 약세 - yna.co.kr",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 1%대 약세…SK하이닉스는 상승 전환[핫스탁] - 뉴시스",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 장초반 약세 딛고 소폭 상승 마감…하닉도 1.1%↑(종합) - v.daum.net",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "전남광주특별시·SK하이닉스, 반도체 클러스터 '원팀' 체계 가동 - 뉴스1",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 광주 투자 속도…전남광주와 '반도체 원팀' - 노컷뉴스",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"반도체 원팀\" 민형배 시장, SK하이닉스 이천캠퍼스 방문 - sportalkorea.com",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "넥사다이내믹스, AI 데이터센터·HPC 진출…SK하이닉스 출신 임원 영입 - 머니투데이 - 머니투데이",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
@@ -137,15 +114,17 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스(000660) - 매일경제 마켓",
+   "title": "[단독] SK하이닉스, 차세대 HBM ‘베이스 다이’ 인텔에도 맡긴다 - 헤럴드경제",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "[단독] SK하이닉스, 차세대 HBM ‘베이스 다이’ 인텔에도 맡긴다 - 헤럴드경제",
-   "pub": "Mon, 31 Aug 2026",
+   "title": "삼성·SK하이닉스, 2분기 eSSD 시장 1·2위…마이크론 매출 126% 폭증 - 한국경제",
+   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -181,14 +160,14 @@
    "agents": []
   },
   {
-   "title": "삼성맨 '연 1.5%'에 5억 빌린다…반도체 돈잔치에 집값 들썩 - 한국경제",
+   "title": "삼성전자, 1.5% 주택대출 꺼냈다···동탄 집값 흔드는 '반도체 머니' - 네이트",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 1.5% 주택대출 꺼냈다···동탄 집값 흔드는 '반도체 머니' - 네이트",
+   "title": "삼성맨 '연 1.5%'에 5억 빌린다…반도체 돈잔치에 집값 들썩 - 한국경제",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -626,6 +605,15 @@
    ]
   },
   {
+   "title": "Micron Faces New Taiwan Risk as AI Demand Soars",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Michael Burry's Biggest AI Bets Take Surprising Turn",
    "pub": "Tue, 01 Sep 2026",
    "src": "en",
@@ -661,15 +649,6 @@
   },
   {
    "title": "Micron Technology (MU) Faces Taiwan Strike Threat As 80% Back Worker Action",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron’s Insane Productivity Explosion: Revenue Per Employee Doubled to $1.7 Million in Just 9 Months",
    "pub": "Tue, 01 Sep 2026",
    "src": "en",
    "q": "MU",
