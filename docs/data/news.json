@@ -1,37 +1,31 @@
 {
- "ts_kst": "09-03 00:28",
- "n_items": 104,
+ "ts_kst": "09-03 00:37",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 30
  },
  "routed": {
-  "C-CHINA": 6,
+  "C-CHINA": 7,
   "M-CYCLE": 13,
   "C-BUYBACK": 1,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "high",
+   "kw": "목표가+하향",
+   "src": "kr",
+   "title": "엇갈린 반도체 투톱 목표가…삼성전자 ’상향’ SK하이닉스 ’하향’ By EBN - Investing.com 한국어",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스도 제쳤다…상반기 급여 '1.8억' 1위 회사 어디 - 한국경제",
    "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 日생산거점 구축 타진…최태원 \"키옥시아와 공동생산 등 협력 가능\" - 한국경제",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "최태원이 띄운 일본 메모리 공장…SK하이닉스, 생산거점 다변화 '촉각' - v.daum.net",
-   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -44,8 +38,29 @@
    "agents": []
   },
   {
+   "title": "최태원 \"일본은 SK하이닉스 공장의 매력적 후보지\", 키옥시아와 협력 가능성도 거론 - 비즈니스포스트",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스ㆍ키옥시아 협력 가능성⋯최태원 \"언제든 파트너 될 생각\" - v.daum.net",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[사이드B] 삼성·SK하이닉스 美 투자 늘리는데…정작 '지을 사람'이 없다 - v.daum.net",
+   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -96,21 +111,7 @@
    "agents": []
   },
   {
-   "title": "[단독] \"오늘 사서 오늘 판다\"…매일 10%씩 단타 쏟아지는 SK하이닉스 - news.nate.com",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "삼성전자·SK하이닉스, 중동발 악재에 4%대 동반 폭락 - 더나은미래",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스ㆍ키옥시아 협력 가능성⋯최태원 \"언제든 파트너 될 생각\" - v.daum.net",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -122,6 +123,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "[단독] 삼성·SK하이닉스 법인세 11조 냈는데…中 YMTC는 '10년 면세' 카드 받았다 - 뉴스핌",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "[단독] 삼성전자, 베트남 반도체 후공정에 韓 신품 장비 1612대 투입 - 데일리안",
@@ -138,29 +148,8 @@
    "agents": []
   },
   {
-   "title": "“6억 성과급 메모리로 보내줘”…삼성 CSS 개발인력, 파운드리·LSI 이동 ‘거부’ - IT조선",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "“수직 확장으로 메모리 벽 넘는다”… 삼성전자, ‘CUBE’ 전략 공개 - v.daum.net",
    "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "\"삼성 반도체 설계도 클로드로 자동화 지원\" - mk.co.kr",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "\"반도체는 전력만 있으면 끝?\"…삼성·SK, 이번엔 '물 215만톤'이 과제 - v.daum.net",
-   "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -173,8 +162,8 @@
    "agents": []
   },
   {
-   "title": "美 밀러 \"中 반도체 장비 25년 뒤처져\"… 삼성 파운드리 반사 수혜 관측 - 글로벌이코노믹",
-   "pub": "Wed, 02 Sep 2026",
+   "title": "수출물량 줄어도 단가 37%↑…현물가격, LTA의 5배 - 서울경제",
+   "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -194,8 +183,15 @@
    "agents": []
   },
   {
-   "title": "반도체 업계 ‘글로벌 인재 쟁탈전’ 심화···삼전, 성과급 등 다양한 미끼 - 이뉴스투데이",
+   "title": "삼성전자·SK하이닉스 'AI 메모리 질주'…반도체 수출 466억弗 신기록 - news.nate.com",
    "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "엇갈린 반도체 투톱 목표가…삼성전자 ’상향’ SK하이닉스 ’하향’ By EBN - Investing.com 한국어",
+   "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -215,6 +211,13 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "삼성전자 밀어낸 아람코…삼성E&A 매출 지형도 변화 - 서울경제TV",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원 - 연합뉴스",
@@ -277,7 +280,7 @@
    ]
   },
   {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - contents.premium.naver.com",
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 27 Jun 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -352,7 +355,7 @@
    "agents": []
   },
   {
-   "title": "중동발 충격에 코스피 3%대 급락…외국인·기관 2조원 순매도 - 산경투데이",
+   "title": "중동발 충격에 코스피 3%대 급락…외국인·기관 2조원 순매도 - sankyungtoday.com",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -641,6 +644,15 @@
   },
   {
    "title": "Michael Burry AI Short Bets Get Crushed as Palantir, Nvidia, Micron Soar",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Billionaire Philippe Laffont Increased Micron 19-Fold and Added 49% to Amazon. Is This One Giant AI Demand Bet?",
    "pub": "Wed, 02 Sep 2026",
    "src": "en",
    "q": "MU",
