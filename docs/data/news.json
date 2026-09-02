@@ -1,118 +1,41 @@
 {
- "ts_kst": "09-02 11:36",
- "n_items": 102,
+ "ts_kst": "09-02 11:46",
+ "n_items": 101,
  "by_source": {
-  "kr": 73,
+  "kr": 72,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 15,
+  "C-CHINA": 7,
+  "M-CYCLE": 17,
   "C-BUYBACK": 1,
-  "C-CHINA": 5,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 11
  },
- "unassigned": 61,
+ "unassigned": 56,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "high",
+   "kw": "목표가+하향",
+   "src": "kr",
+   "title": "\"SK하이닉스 330만→240만\" 삼성 HBM4 추격에 목표가 대폭 하향…삼성전자는 목표가↑ [株토피아] - news.nate.com",
+   "agents": [
+    "M-CYCLE"
    ]
   }
  ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스, ‘150조’ 메가 주주환원 - 주간한국",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] SK하이닉스, 차세대 HBM ‘베이스 다이’ 인텔에도 맡긴다 - 헤럴드경제",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스, 다롄 낸드 증설 국면…中 ‘인텔 인수 족쇄’ 해제 눈앞 : 네이버 블로그 - Naver Blog",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 인텔 파운드리 활용…멀티 벤더 체제로 가격 경쟁력 제고[비즈360] - v.daum.net",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "최태원 \"투자 검토 중\"…SK하이닉스, 美·日 추가 생산거점 어디에 - 뉴시스",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "日도 “SK하이닉스 오라” 유치 총력… 최태원 “공장 설립 검토” - v.daum.net",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "경제 통합 이어 SK하이닉스 공장까지… 日에 공들이는 최태원, 주목받는 ‘박상규 역할론’ - 조선비즈 - Chosunbiz",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 - 매일경제 마켓",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "민형배 시장, SK하이닉스 이천캠퍼스 방문…반도체 협력 논의 - 매일경제 마켓",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "전남광주특별시·SK하이닉스, 반도체 클러스터 '원팀' 체계 가동 - 뉴스1",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "민형배, SK하이닉스 이천캠퍼스 방문…“호남 반도체 원팀” - MTN 머니투데이방송",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[사이드B] 삼성·SK하이닉스 美 투자 늘리는데…정작 '지을 사람'이 없다 - v.daum.net",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] \"오늘 사서 오늘 판다\"…매일 10%씩 단타 쏟아지는 SK하이닉스 - news.nate.com",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -133,6 +56,98 @@
    "agents": []
   },
   {
+   "title": "中회사 취업하려고…'기술유출' SK하이닉스 前직원 징역 1년6개월 확정 - 뉴스1",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성·SK하이닉스, 대만서 AI 메모리 승부...소부장도 총출동 - v.daum.net",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 ‘AI 메모리 질주’…반도체 수출 466억弗 신기록 - 서울경제",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'4년→수개월' 좁혀진 격차…CXMT, 삼성·SK하이닉스 D램 위협 - newspim.com",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 다롄 낸드 증설 국면…中 ‘인텔 인수 족쇄’ 해제 눈앞 : 네이버 블로그 - Naver Blog",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] SK하이닉스, 차세대 HBM ‘베이스 다이’ 인텔에도 맡긴다 - 헤럴드경제",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "엔비디아가 바꾼 HBM 룰…삼성 '수직통합'·SK '개방연합' 격돌 - newspim.com",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "최태원 \"투자 검토 중\"…SK하이닉스, 美·日 추가 생산거점 어디에 - 뉴시스",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] \"오늘 사서 오늘 판다\"…매일 10%씩 단타 쏟아지는 SK하이닉스 - news.nate.com",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 - 매일경제 마켓",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "넥사다이내믹스, AI 데이터센터·HPC 진출…SK하이닉스 출신 임원 영입 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK하이닉스 330만→240만\" 삼성 HBM4 추격에 목표가 대폭 하향…삼성전자는 목표가↑ [株토피아] - news.nate.com",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "삼성맨 '연 1.5%'에 5억 빌린다…반도체 돈잔치에 집값 들썩 - 한국경제",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
@@ -140,14 +155,21 @@
    "agents": []
   },
   {
-   "title": "아주대, 삼성전자와 차세대 반도체 공정 신소재 개발…“생산성 향상 기대” - 경기일보",
+   "title": "“6억 성과급 메모리로 보내줘”…삼성 CSS 개발인력, 파운드리·LSI 이동 ‘거부’ - IT조선",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "메모리 반도체 한계 넘는 '기술의 삼성'…'CUBE'로 용량·속도 높인다 - 머니투데이 - mt.co.kr",
+   "title": "아주대, 삼성전자와 차세대 반도체 공정 신소재 개발…“생산성 향상 기대” - kyeonggi.com",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "메모리 반도체 한계 넘는 '기술의 삼성'…'CUBE'로 용량·속도 높인다 - 머니투데이 - 머니투데이",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -184,13 +206,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 ‘AI 메모리 질주’…반도체 수출 466억弗 신기록 - 서울경제",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "美 밀러 \"中 반도체 장비 25년 뒤처져\"… 삼성 파운드리 반사 수혜 관측 - g-enews.com",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
@@ -207,25 +222,20 @@
    ]
   },
   {
-   "title": "내년 ‘삼전닉스’ 성과급 22조 풀린다…한은 “성장률 올라갈 것” - 국민일보",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[오늘의 삼전닉스] 'AI·반도체 결합 특허' 삼성전자 돋보이네 - 이코노미스트",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자, CUBE 전략으로 ‘메모리 장벽’ 넘는다 - 경향신문",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "아주대/삼성전자 공동연구팀 차세대 반도체 소재 개발.. 'EUV 노광량 23% 절감' - 베리타스알파",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - v.daum.net",
@@ -526,7 +536,7 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -660,6 +670,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Michael Burry's Biggest AI Bets Take Surprising Turn",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   }
  ],
  "guards": {
