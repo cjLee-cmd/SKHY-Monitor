@@ -1,48 +1,32 @@
 {
- "ts_kst": "09-02 11:26",
- "n_items": 101,
+ "ts_kst": "09-02 11:36",
+ "n_items": 102,
  "by_source": {
-  "kr": 72,
+  "kr": 73,
   "en": 29
  },
  "routed": {
   "M-CYCLE": 15,
-  "C-CHINA": 7,
   "C-BUYBACK": 1,
+  "C-CHINA": 5,
   "F-ACTIVE": 9,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 11
  },
- "unassigned": 57,
+ "unassigned": 61,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - g-enews.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "SK하이닉스, 다롄 낸드 증설 국면…中 ‘인텔 인수 족쇄’ 해제 눈앞 : 네이버 블로그 - Naver Blog",
-   "agents": []
   }
  ],
  "items": [
   {
-   "title": "삼성전자·SK하이닉스, ‘150조’ 메가 주주환원 - weekly.hankooki.com",
+   "title": "삼성전자·SK하이닉스, ‘150조’ 메가 주주환원 - 주간한국",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -70,29 +54,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "SK하이닉스 “AI 성능, 이제 메모리가 좌우”…저장에서 연산까지 메모리 역할 커진다 [비즈360] - v.daum.net",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 ‘AI 메모리 질주’…반도체 수출 466억弗 신기록 - 서울경제",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'4년→수개월' 좁혀진 격차…CXMT, 삼성·SK하이닉스 D램 위협 - newspim.com",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
   },
   {
    "title": "최태원 \"투자 검토 중\"…SK하이닉스, 美·日 추가 생산거점 어디에 - 뉴시스",
@@ -123,6 +84,34 @@
    "agents": []
   },
   {
+   "title": "민형배 시장, SK하이닉스 이천캠퍼스 방문…반도체 협력 논의 - 매일경제 마켓",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "전남광주특별시·SK하이닉스, 반도체 클러스터 '원팀' 체계 가동 - 뉴스1",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "민형배, SK하이닉스 이천캠퍼스 방문…“호남 반도체 원팀” - MTN 머니투데이방송",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[사이드B] 삼성·SK하이닉스 美 투자 늘리는데…정작 '지을 사람'이 없다 - v.daum.net",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "[단독] \"오늘 사서 오늘 판다\"…매일 10%씩 단타 쏟아지는 SK하이닉스 - news.nate.com",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
@@ -139,13 +128,6 @@
   {
    "title": "“중국 회사로 옮겨야지”…SK하이닉스 영업비밀 빼돌린 전 직원의 최후 - 서울경제",
    "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "中회사 취업하려고…'기술유출' SK하이닉스 前직원 징역 1년6개월 확정 - 뉴스1",
-   "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -202,6 +184,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자·SK하이닉스 ‘AI 메모리 질주’…반도체 수출 466억弗 신기록 - 서울경제",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "美 밀러 \"中 반도체 장비 25년 뒤처져\"… 삼성 파운드리 반사 수혜 관측 - g-enews.com",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
@@ -225,20 +214,18 @@
    "agents": []
   },
   {
-   "title": "삼성전자, CUBE 전략으로 ‘메모리 장벽’ 넘는다 - 경향신문",
-   "pub": "Tue, 01 Sep 2026",
+   "title": "[오늘의 삼전닉스] 'AI·반도체 결합 특허' 삼성전자 돋보이네 - 이코노미스트",
+   "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "아주대/삼성전자 공동연구팀 차세대 반도체 소재 개발.. 'EUV 노광량 23% 절감' - 베리타스알파",
-   "pub": "Wed, 02 Sep 2026",
+   "title": "삼성전자, CUBE 전략으로 ‘메모리 장벽’ 넘는다 - 경향신문",
+   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "C-CHINA"
-   ]
+   "agents": []
   },
   {
    "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - v.daum.net",
@@ -428,7 +415,7 @@
    "agents": []
   },
   {
-   "title": "코스피 상승 전환해 6,800 회복‥외국인·개인 모두 순매도 - imnews.imbc.com",
+   "title": "코스피 상승 전환해 6,800 회복‥외국인·개인 모두 순매도 - MBC 뉴스",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -530,8 +517,8 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - g-enews.com",
-   "pub": "Wed, 08 Jul 2026",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -548,15 +535,8 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - nongmin.com",
    "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
@@ -564,6 +544,13 @@
   {
    "title": "'한 달 전으로 시간 돌릴 수 있다면'…빚투 개미들 '피눈물' [분석+] - 한국경제",
    "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
@@ -578,17 +565,8 @@
    ]
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
-   "pub": "Mon, 13 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "'빚투' 신용융자 잔고 3개월래 최저…미수거래 1조원 하회 - 연합뉴스",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -605,13 +583,20 @@
    ]
   },
   {
-   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - g-enews.com",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - g-enews.com",
+   "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "\"계좌 보기 무섭다\" \"하루만에 -30%, 지옥\"…증시급락에 공포(종합) - 연합뉴스",
+   "pub": "Mon, 08 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "Stock Market Today: Nasdaq Ends Lower As Oil Prices Top $90; Micron, Nvidia Shares Wrapped in Red",
@@ -675,13 +660,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Michael Burry's Biggest AI Bets Take Surprising Turn",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
