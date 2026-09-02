@@ -1,59 +1,30 @@
 {
- "ts_kst": "09-03 06:55",
+ "ts_kst": "09-03 07:05",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 11,
-  "P-ADR": 2,
-  "C-BUYBACK": 2,
+  "P-ADR": 1,
   "C-CHINA": 5,
+  "M-CYCLE": 11,
+  "C-BUYBACK": 1,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "[특징주] '자사주 매입'에도 중동 긴장 재고조 속 삼전·닉스 4%대↓(종합) - 연합뉴스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
   {
-   "title": "경제 통합 이어 SK하이닉스 공장까지… 日에 공들이는 최태원, 주목받는 ‘박상규 역할론’ - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스도 제쳤다…상반기 급여 '1.8억' 1위 회사 어디 - 한국경제",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "美 반도체주 일제히 하락…SK하이닉스 ADR 2.3%·마이크론 2.6%↓ - 뉴스1",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE",
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "SK하이닉스 \"구성원 성과와 보상 당당히 인정받도록 할 것\" - 연합뉴스",
+   "title": "경제 통합 이어 SK하이닉스 공장까지… 日에 공들이는 최태원, 주목받는 ‘박상규 역할론’ - 조선비즈 - Chosunbiz",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -74,7 +45,14 @@
    "agents": []
   },
   {
-   "title": "‘하이닉스 효과’에 청주 집값 들썩…2년9개월 만 최대 상승 - 마켓인",
+   "title": "SK하이닉스 \"구성원 성과와 보상 당당히 인정받도록 할 것\" - 연합뉴스",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "‘하이닉스 효과’에 청주 집값 들썩…2년9개월 만 최대 상승 - marketin.edaily.co.kr",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -95,22 +73,6 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 1%대 약세 - v.daum.net",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[특징주] '자사주 매입'에도 중동 긴장 재고조 속 삼전·닉스 4%대↓(종합) - 연합뉴스",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
    "title": "동의과학대, 기아차·SK하이닉스 합격생 배출 비결 '산학 밀착 교육' - 머니투데이 - 머니투데이",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
@@ -118,14 +80,30 @@
    "agents": []
   },
   {
-   "title": "로이터 \"한국 외환당국, SK하이닉스가 미국 상장으로 조달한 외화 200억 달러 매입\" - businesspost.co.kr",
+   "title": "美반도체주 반등…엔비디아 3.2%·SK하이닉스 ADR 2.6%↑ - 뉴스1",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "청주시, SK하이닉스와 장년층 1인 가구 고독사 예방 협약 - 노컷뉴스",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[2026 GGGF] AI 병목은 이제 메모리…SK하이닉스, 에이전트 시대 메모리 중심 승부 - 아주경제",
+   "title": "SK하이닉스 “AI 시대 메모리, 저장에서 연산으로 역할 확대” - biz.heraldcorp.com",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 용인-광주 병행 투자로 가닥…장비 발주 배분 '고민' - dealsite.co.kr",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -141,13 +119,18 @@
    ]
   },
   {
-   "title": "美반도체주 반등…엔비디아 3.2%·SK하이닉스 ADR 2.6%↑ - 뉴스1",
+   "title": "청주시-SK하이닉스 '장년 1인가구 고독사 예방' 맞손 - 굿모닝충청",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
+   "agents": []
+  },
+  {
+   "title": "[Who Is ?] 전영현 삼성전자 DS부문장 대표이사 부회장 - 비즈니스포스트",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "아주대·삼성전자, 반도체 EUV 공정 한계 넘을 '하이브리드 신소재' 개발 - 머니투데이 - 머니투데이",
@@ -215,13 +198,6 @@
    "agents": []
   },
   {
-   "title": "엇갈린 반도체 투톱 목표가…삼성전자 ’상향’ SK하이닉스 ’하향’ By EBN - Investing.com 한국어",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "“삼성전자 다니는데요“…반도체 머니에 시장 ’들썩’ - 연합뉴스TV",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
@@ -275,7 +251,7 @@
    "agents": []
   },
   {
-   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - businesspost.co.kr",
+   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -300,7 +276,7 @@
    ]
   },
   {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - contents.premium.naver.com",
    "pub": "Sat, 27 Jun 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -327,7 +303,7 @@
    ]
   },
   {
-   "title": "[숏폼] 중국은 메모리 반도체에서 왜 존재감이 낮을까? - it.donga.com",
+   "title": "[숏폼] 중국은 메모리 반도체에서 왜 존재감이 낮을까? - IT동아",
    "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -343,13 +319,6 @@
    ]
   },
   {
-   "title": "“트럼프, 애플 중국산 메모리 허용” 보도…근거는 웨이보 루머 - 포쓰저널",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "美의회 “中메모리 반도체 의존은 안보에 용납할 수 없는 위험” - 문화일보",
    "pub": "Sun, 19 Jul 2026",
    "src": "kr",
@@ -357,7 +326,14 @@
    "agents": []
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - businesspost.co.kr",
+   "title": "“트럼프, 애플 중국산 메모리 허용” 보도…근거는 웨이보 루머 - 포쓰저널",
+   "pub": "Sun, 23 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -373,7 +349,7 @@
    "agents": []
   },
   {
-   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - businesspost.co.kr",
+   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
    "pub": "Wed, 20 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -464,7 +440,7 @@
    "agents": []
   },
   {
-   "title": "코스피 장중 기관 외국인 순매도에 1%대 하락 6840선, 코스닥도 약세 - businesspost.co.kr",
+   "title": "코스피 장중 기관 외국인 순매도에 1%대 하락 6840선, 코스닥도 약세 - 비즈니스포스트",
    "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -630,6 +606,15 @@
    ]
   },
   {
+   "title": "Micron (MU) Exceeds Market Returns: Some Facts to Consider",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Billionaire Philippe Laffont Just Bought Micron Stock in Q2: Is the Artificial Intelligence (AI) Memory Winner a Buy for 2026?",
    "pub": "Wed, 02 Sep 2026",
    "src": "en",
@@ -664,13 +649,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Taiwanese firms pledge additional $20bn US investment in chip industry",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
