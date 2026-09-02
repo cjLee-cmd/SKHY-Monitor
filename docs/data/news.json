@@ -1,26 +1,26 @@
 {
- "ts_kst": "09-02 21:19",
+ "ts_kst": "09-02 21:29",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 2,
+  "C-BUYBACK": 3,
   "C-CHINA": 6,
   "M-CYCLE": 17,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 12
  },
- "unassigned": 59,
+ "unassigned": 58,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "자사주+매입",
    "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "[특징주] '자사주 매입'에도 중동 긴장 재고조 속 삼전·닉스 4%대↓(종합) - 연합뉴스",
    "agents": [
-    "R-LEVERAGE"
+    "C-BUYBACK"
    ]
   }
  ],
@@ -40,7 +40,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스가 굳이 '일본 땅'을 점찍은 진짜 이유 - 서울경제",
+   "title": "최태원 “일본에 반도체 공장 건설 검토”…하이닉스-키오시아 협력 확대도 언급 - 한겨레",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -61,14 +61,16 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 중동발 악재에 4%대 동반 폭락 - 더나은미래",
+   "title": "[특징주] '자사주 매입'에도 중동 긴장 재고조 속 삼전·닉스 4%대↓(종합) - 연합뉴스",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
-   "title": "삼전·닉스, 자사주 13조어치 샀다···‘증시 버팀목’ 효과 지속될까 - 경향신문",
+   "title": "삼전·닉스, 자사주 13조어치 샀다···‘증시 버팀목’ 효과 지속될까 - khan.co.kr",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -77,8 +79,8 @@
    ]
   },
   {
-   "title": "SK하이닉스도 제쳤다…상반기 급여 '1.8억' 1위 회사 어디 - 한국경제",
-   "pub": "Wed, 02 Sep 2026",
+   "title": "\"중국 회사 가려고\"…SK하이닉스 영업비밀 빼돌린 직원 결국 - 한국경제",
+   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -261,7 +263,7 @@
    "agents": []
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - khan.co.kr",
    "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -352,7 +354,7 @@
    ]
   },
   {
-   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - khan.co.kr",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -368,7 +370,7 @@
    "agents": []
   },
   {
-   "title": "중동발 충격에 코스피 3%대 급락…외국인·기관 2조원 순매도 - 산경투데이",
+   "title": "중동발 충격에 코스피 3%대 급락…외국인·기관 2조원 순매도 - sankyungtoday.com",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -611,6 +613,15 @@
    ]
   },
   {
+   "title": "Billionaire David Tepper Sold Micron and Sandisk, and Is Hedging Against 1 of Their Largest Customers",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Michael Burry AI Short Bets Get Crushed as Palantir, Nvidia, Micron Soar",
    "pub": "Wed, 02 Sep 2026",
    "src": "en",
@@ -648,15 +659,6 @@
   },
   {
    "title": "Micron Taiwan Unit Reportedly Plans Record Bonuses To Avert Strike: MU Stock Dips For Second Day",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Guided a Single Quarter to $50 Billion. The Stock Sits 24% Below Its High.",
    "pub": "Wed, 02 Sep 2026",
    "src": "en",
    "q": "MU",
