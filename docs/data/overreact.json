@@ -1,12 +1,12 @@
 {
- "ts_kst": "09-02 15:36",
- "score": 21.7,
+ "ts_kst": "09-02 15:46",
+ "score": 22.1,
  "verdict": "정당한 재평가",
  "components": {
   "A_통계극단성": 0,
   "B_체인동조성": 10.0,
   "C_펀더멘털배율": 0,
-  "D_역사되돌림": 11.7
+  "D_역사되돌림": 12.1
  },
  "targets": {
   "삼성전자": {
@@ -35,32 +35,32 @@
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -3.64,
+   "cum": -3.58,
    "sd": 5.69,
    "z": -0.45,
-   "n_episodes": 9,
+   "n_episodes": 10,
    "forward": {
     "5": {
-     "mean": 5.94,
-     "median": 2.67,
-     "up_rate": 78
+     "mean": 6.11,
+     "median": 4.62,
+     "up_rate": 80
     },
     "20": {
-     "mean": 14.89,
-     "median": 20.61,
-     "up_rate": 56
+     "mean": 16.58,
+     "median": 22.59,
+     "up_rate": 60
     },
     "60": {
-     "mean": 30.75,
-     "median": 20.61,
-     "up_rate": 89
+     "mean": 31.03,
+     "median": 27.09,
+     "up_rate": 90
     }
    }
   }
  },
  "chain": {
   "삼성전자": -3.65,
-  "SK하이닉스": -3.64,
+  "SK하이닉스": -3.58,
   "마이크론": 0.06,
   "TSMC": -0.84,
   "ASML": -4.03,
@@ -77,7 +77,7 @@
  },
  "detail": {
   "z_min": -0.55,
-  "drop_avg": 3.65,
+  "drop_avg": 3.62,
   "fundamental_ratio": 0.47,
   "chain_negative": "2/5"
  },
