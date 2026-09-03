@@ -1,82 +1,29 @@
 {
- "ts_kst": "09-03 16:58",
- "n_items": 105,
+ "ts_kst": "09-03 17:08",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 14,
-  "P-ADR": 1,
+  "M-CYCLE": 16,
   "C-CHINA": 3,
   "F-ACTIVE": 7,
-  "B-RATES": 1,
   "R-LEVERAGE": 10
  },
- "unassigned": 70,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 68,
+ "alerts": [],
  "items": [
   {
-   "title": "\"330만원→240만원\" 충격 리포트…SK하이닉스 주주 '패닉' [종목+] - 한국경제",
-   "pub": "Mon, 31 Aug 2026",
+   "title": "[단독] 삼성전자 20조·하이닉스 5조… 정부, 5년치 전기료 선납 제안 - 조선일보",
+   "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'한국형 브로드컴' 노리는 LG전자, SK하이닉스와 협력 무산 - 지디넷코리아",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성 2분기 HBM 점유율 21→33%…SK하이닉스 50%로 1위 - KBS 뉴스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼전·SK하닉, 1%대 상승 출발에도 하락 마감…중동 불안에 '발목'[핫스탁](종합) - newsis.com",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 20조·하이닉스 5조…한전, 5년치 전기료 선납 제안 - 한겨레",
-   "pub": "Thu, 03 Sep 2026",
+   "title": "한국전력, 삼전닉스에 25조 전기료 선납 제안 - 한국경제",
+   "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -89,21 +36,48 @@
    "agents": []
   },
   {
-   "title": "“전기요금 5년치 미리 내주세요”…한전, 삼성·SK에 25조원 선납 제안 - 주간조선",
+   "title": "\"330만원→240만원\" 충격 리포트…SK하이닉스 주주 '패닉' [종목+] - 한국경제",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK하이닉스 독주 흔들린다\"…삼성전자, HBM 점유율 33%로 상승 - v.daum.net",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성전자, HBM 점유율 33%로 '껑충'…SK하이닉스와 격차 좁혔다 - newspim.com",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성 2분기 HBM 점유율 21→33%…SK하이닉스 50%로 1위 - KBS 뉴스",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼전·SK하닉, 1%대 상승 출발에도 하락 마감…중동 불안에 '발목'[핫스탁](종합) - 뉴시스",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "임단협 부결 뒤 직접 소통 나선 SK하이닉스… “성과·보상 정당하게 지킬 것” - newscj.com",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 성과급 재교섭 앞두고 \"사회 질문에 답해야 지속가능\" - v.daum.net",
+   "title": "SK하이닉스 임단협 잠정합의 노조 부결 뒤 구성원과 첫 소통, \"성과·보상 불이익 없도록 할 것\" - 비즈니스포스트",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -117,23 +91,7 @@
    "agents": []
   },
   {
-   "title": "美반도체주 반등…엔비디아 3.2%·SK하이닉스 ADR 2.6%↑ - v.daum.net",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "SK하이닉스(000660) - 매일경제 마켓",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[특징주] 삼성전자, 장 초반 0.8% 상승 중…SK하이닉스도 0.7%↑ - 연합뉴스",
+   "title": "SK하이닉스 “성과급 불이익 없도록 하겠다” - IT조선",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -154,7 +112,42 @@
    "agents": []
   },
   {
-   "title": "“6억 성과급 메모리로 보내줘”…삼성 CSS 개발인력, 파운드리·LSI 이동 ‘거부’ - IT조선",
+   "title": "러트닉 “美서 안 만들면…” 반도체 표적관세 경고 - 동아일보",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "美 '반도체 표적 관세' 예고...삼성·SK, 현지 생산이 관세 방패 되나 - v.daum.net",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 나란히 1%대 강세…반도체株 반등[핫스탁] - 뉴시스",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 용수 재이용 증가세 둔화…SK하이닉스는 두 자릿수 - 스트레이트뉴스",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 1위·SK하이닉스 2위…한미반도체 3위 - v.daum.net",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "美 반도체 관세 '현지생산 연계'…삼성전자·SK하이닉스 영향권 - 톱스타뉴스",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -182,27 +175,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 나란히 1%대 강세…반도체株 반등[핫스탁] - newsis.com",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체 용수 재이용 증가세 둔화…SK하이닉스는 두 자릿수 - 스트레이트뉴스",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 1위·SK하이닉스 2위…한미반도체 3위 - v.daum.net",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "\"AI 매출 221% 폭증\"…브로드컴, 삼성전자 ’2000억弗 동맹’ 청신호 By EBN - Investing.com 한국어",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
@@ -224,22 +196,15 @@
    "agents": []
   },
   {
-   "title": "美 반도체 반등하자 ‘삼성전자’ 집중매수 [주식 초고수는 지금] - 서울경제",
+   "title": "“삼성전자 다니는데요“…반도체 머니에 시장 ’들썩’ - yonhapnewstv.co.kr",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[단독]삼성전자 '강제 전배' 논란 법정행…직원 300명 소송한다 - v.daum.net",
    "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "“수직 확장으로 메모리 벽 넘는다”… 삼성전자, ‘CUBE’ 전략 공개 - v.daum.net",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "“삼성전자 다니는데요“…반도체 머니에 시장 ’들썩’ - 연합뉴스TV",
-   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -401,20 +366,20 @@
    "agents": []
   },
   {
-   "title": "코스피서 9조 판 외국인…반대로 담은 종목은 - newspim.com",
-   "pub": "Mon, 31 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "올들어 외국인 코스피 순매수 단 두 달…9월에도 '팔자' 이어질까 - v.daum.net",
+   "title": "올해 외국인 코스피 순매수 단 두 달…9월도 '팔자' 이어가나(종합) - v.daum.net",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "코스피서 9조 판 외국인…반대로 담은 종목은 - newspim.com",
+   "pub": "Mon, 31 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "중동발 충격에 코스피 3%대 급락…외국인·기관 2조원 순매도 - 산경투데이",
@@ -431,6 +396,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "기관, 해외주식 753조원 투자 '역대 최대'⋯외국인은 코스피 170조원 순매도 - 포커스온경제",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "8월 코스피 10조 던진 외국인 … 반도체 팔고 방산·바이오 샀다 - 뉴데일리",
@@ -470,30 +444,20 @@
    ]
   },
   {
-   "title": "'이유 없이 뚝' 코스피…개인·외국인·기관 모두 던져 - 네이트",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "주요국 국채 금리 급등 여파에 코스피 급락…외국인 순매도 - KBS 뉴스",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE",
-    "B-RATES"
-   ]
-  },
-  {
-   "title": "올해 외국인 코스피 순매수 단 '두달' - 매일경제 마켓",
+   "title": "올해 외국인 코스피 순매수 단 두 달…9월도 '팔자' 이어가나(종합) - 매일경제 마켓",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "[코스피 시황] 삼성전자·SK하이닉스 강세에도 상승폭 축소…외국인 매도 확대 - 톱스타뉴스",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -658,6 +622,15 @@
   },
   {
    "title": "Billionaire Philippe Laffont Just Bought Micron Stock in Q2: Is the Artificial Intelligence (AI) Memory Winner a Buy for 2026?",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Rises as Taiwan Workers Demand 15% Profit Pool",
    "pub": "Wed, 02 Sep 2026",
    "src": "en",
    "q": "MU",
