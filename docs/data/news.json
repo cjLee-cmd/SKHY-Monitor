@@ -1,19 +1,30 @@
 {
- "ts_kst": "09-04 07:17",
- "n_items": 104,
+ "ts_kst": "09-04 07:27",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 30
  },
  "routed": {
   "P-ADR": 1,
+  "C-BUYBACK": 1,
   "M-CYCLE": 12,
-  "C-CHINA": 4,
+  "C-CHINA": 3,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 9
  },
- "unassigned": 72,
- "alerts": [],
+ "unassigned": 71,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "삼전닉스 자사주 매입 ‘속도전’⋯조기 종료시 수급 절벽 우려↑[코스피 버팀목 된 반도체 투톱] - v.daum.net",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - v.daum.net",
@@ -67,11 +78,13 @@
    "agents": []
   },
   {
-   "title": "삼전ㆍ하닉, 상승장선 9천피 엔진⋯하락장선 방패[코스피 버팀목 된 반도체 투톱] - v.daum.net",
+   "title": "삼전닉스 자사주 매입 ‘속도전’⋯조기 종료시 수급 절벽 우려↑[코스피 버팀목 된 반도체 투톱] - v.daum.net",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "[단독] 최태원이 던진 '일본 팹'… SK하이닉스, 임직원과 해외 전략 공유 - 한국경제",
@@ -95,7 +108,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 2분기 HBM 점유율 33%로 상승… SK하이닉스 50% 1위 - 조선비즈 - Chosunbiz",
+   "title": "삼성전자 2분기 HBM 점유율 21→33%…SK하이닉스 1위 - 연합뉴스TV",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -104,7 +117,7 @@
    ]
   },
   {
-   "title": "삼성전자, 2분기 HBM 점유율 33%로 급등…SK하이닉스와 격차 축소 - 지디넷코리아",
+   "title": "삼성전자, 2분기 HBM 점유율 33%로 상승… SK하이닉스 50% 1위 - 조선비즈 - Chosunbiz",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -136,13 +149,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "러트닉, 반도체 표적 관세 예고... \"美서 만들지 않으면 각오하라\" - chosun.com",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "[Who Is ?] 전영현 삼성전자 DS부문장 대표이사 부회장 - 비즈니스포스트",
@@ -182,13 +188,11 @@
    "agents": []
   },
   {
-   "title": "中 YMTC 핵심에 삼성·SK 출신…반도체 '인재 전쟁'에 성과급 파동[NW리포트] - v.daum.net",
-   "pub": "Wed, 02 Sep 2026",
+   "title": "美 '반도체 표적 관세' 예고...삼성·SK, 현지 생산이 관세 방패 되나 - v.daum.net",
+   "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "C-CHINA"
-   ]
+   "agents": []
   },
   {
    "title": "美 반도체 반등하자 ‘삼성전자’ 집중매수 [주식 초고수는 지금] - 서울경제",
@@ -200,6 +204,13 @@
   {
    "title": "“삼성전자 다니는데요“…반도체 머니에 시장 ’들썩’ - 연합뉴스TV",
    "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "러트닉, 반도체 표적 관세 예고... \"美서 만들지 않으면 각오하라\" - chosun.com",
+   "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -220,13 +231,6 @@
   },
   {
    "title": "한전, 삼성전자·SK하이닉스에 전기료 25조 선납 제안…반도체 전력망에 투입 - press9.kr",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "아주대 연구팀, 차세대 반도체 공정을 위한 하이브리드 新소재 개발 - 한국대학신문",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -309,7 +313,7 @@
    "agents": []
   },
   {
-   "title": "미 의회 \"중국 메모리 구매금지해야\"…한국·일본·EU 협력 촉구 - JTBC뉴스",
+   "title": "미 의회 \"중국 메모리 구매금지해야\"…한국·일본·EU 협력 촉구 - JTBC",
    "pub": "Fri, 17 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -626,6 +630,15 @@
   },
   {
    "title": "How Micron Technology (MU) is Shaping the AI Landscape",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Zacks Earnings Trends Highlights: Alphabet, Micron and Nvidia",
    "pub": "Thu, 03 Sep 2026",
    "src": "en",
    "q": "MU",
