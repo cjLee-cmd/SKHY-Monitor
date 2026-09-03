@@ -1,129 +1,55 @@
 {
- "ts_kst": "09-03 23:05",
+ "ts_kst": "09-03 23:15",
  "n_items": 60,
  "by_source": {
   "kr": 30,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 1,
-  "M-CYCLE": 14,
-  "C-CHINA": 6
+  "C-CHINA": 6,
+  "M-CYCLE": 12,
+  "R-LEVERAGE": 9
  },
- "unassigned": 39,
- "alerts": [],
+ "unassigned": 33,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘블랙먼데이’ 공포 속 빚투 최고치…반대매매 뇌관 커진다 - 조선비즈 - Chosunbiz",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
-  {
-   "title": "'SK하이닉스 특허 양수' 미미르IP, 미디어텍 상대 미국 특허소송 제기 - 지디넷코리아",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "임단협 부결 후 전사 소통 나선 SK하이닉스…\"성과 보상 정당하게 지킬 것\" - 아시아경제",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스가 성과급 60%를 자사주로 주려는 이유는 - 조선일보",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "곽노정 SK하이닉스 사장, 임단협 부결 후 소통…\"세부안 함께 고민\" By 알파경제 alphabiz - Investing.com 한국어",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"SK하이닉스 독주 흔들린다\"…삼성전자, HBM 점유율 33%로 상승 - v.daum.net",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "[단독] 최태원이 던진 '일본 팹'… SK하이닉스, 임직원과 해외 전략 공유 - 한국경제",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 일본 생산거점 검토…키옥시아와 협력 가능성 부상 - v.daum.net",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "4조 넣은 키옥시아, 이젠 생산동맹?…SK하이닉스 日투자 셈법은 - 연합인포맥스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[특징주] 삼성전자, 장 초반 0.8% 상승 중…SK하이닉스도 0.7%↑ - 연합뉴스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - KBS 뉴스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] 삼성전자 20조·하이닉스 5조… 정부, 5년치 전기료 선납 제안 - v.daum.net",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "한전, 삼성·SK하이닉스에 전기료 25조 선납 제안…“첨단산업 전력망 투자 대응” - 에너지경제신문",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 2분기 글로벌 HBM 시장 점유율 1위…삼성전자 33%로 추격 - 아시아경제",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "[청주소식]도·SK하이닉스, 알츠하이머 조기검진 실시 등 - 뉴시스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스(000660) - 매일경제 마켓",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
   {
    "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
    "pub": "Wed, 12 Aug 2026",
@@ -246,6 +172,129 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "pub": "Sun, 26 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "pub": "Tue, 23 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "증시 살아나자 빚내서 주식 산다…신용잔고 다시 32조원대로 - 금융경제신문",
+   "pub": "Tue, 25 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘블랙먼데이’ 공포 속 빚투 최고치…반대매매 뇌관 커진다 - 조선비즈 - Chosunbiz",
+   "pub": "Sun, 07 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "\"코스피 9000 바라보는데\"…신용잔고 38조·대차거래 190조 돌파 '경고음' - v.daum.net",
+   "pub": "Thu, 04 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'한 달 전으로 시간 돌릴 수 있다면'…빚투 개미들 '피눈물' [분석+] - 한국경제",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
+   "pub": "Mon, 08 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "'빚투' 신용융자 35조원 돌파…금감원 \"필요시 선제 조치\" - newsprime.co.kr",
+   "pub": "Mon, 11 May 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
+   "pub": "Wed, 22 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘빚투’ 잔고 사상 첫 38조원 돌파…레버리지 증가에 증권사 이자수익도 급증 - 대한경제",
+   "pub": "Mon, 08 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "지수 뛰어도 빚은 빠졌다… 신용 잔고 한 달여 만에 9.7조 증발 - 필드뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "How Micron Technology (MU) is Shaping the AI Landscape",
