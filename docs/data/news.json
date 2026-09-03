@@ -1,29 +1,19 @@
 {
- "ts_kst": "09-04 06:07",
- "n_items": 103,
+ "ts_kst": "09-04 06:17",
+ "n_items": 104,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 30
  },
  "routed": {
   "C-BUYBACK": 2,
   "M-CYCLE": 13,
-  "C-CHINA": 5,
+  "C-CHINA": 4,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 9
  },
- "unassigned": 68,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "삼전닉스 자사주 매입 ‘속도전’⋯조기 종료시 수급 절벽 우려↑[코스피 버팀목 된 반도체 투톱] - v.daum.net",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 70,
+ "alerts": [],
  "items": [
   {
    "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - v.daum.net",
@@ -61,13 +51,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 나란히 1%대 강세…반도체株 반등[핫스탁] - 뉴시스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "삼전닉스 자사주 매입 ‘속도전’⋯조기 종료시 수급 절벽 우려↑[코스피 버팀목 된 반도체 투톱] - v.daum.net",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
@@ -75,6 +58,13 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "삼전·하이닉스 55% 담은 액티브펀드…더 담고 싶어도 못 담는다 - 아시아투데이",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "[단독] 최태원이 던진 '일본 팹'… SK하이닉스, 임직원과 해외 전략 공유 - 한국경제",
@@ -185,13 +175,18 @@
    "agents": []
   },
   {
-   "title": "中 YMTC 핵심에 삼성·SK 출신…반도체 '인재 전쟁'에 성과급 파동[NW리포트] - v.daum.net",
-   "pub": "Wed, 02 Sep 2026",
+   "title": "삼성전자·SK하이닉스 나란히 1%대 강세…반도체株 반등[핫스탁] - 뉴시스",
+   "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "C-CHINA"
-   ]
+   "agents": []
+  },
+  {
+   "title": "美 '반도체 표적 관세' 예고...삼성·SK, 현지 생산이 관세 방패 되나 - v.daum.net",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "美 반도체 반등하자 ‘삼성전자’ 집중매수 [주식 초고수는 지금] - 서울경제",
@@ -636,15 +631,6 @@
   },
   {
    "title": "How Micron Technology (MU) is Shaping the AI Landscape",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Zacks Earnings Trends Highlights: Alphabet, Micron and Nvidia",
    "pub": "Thu, 03 Sep 2026",
    "src": "en",
    "q": "MU",
