@@ -1,72 +1,48 @@
 {
- "ts_kst": "09-04 02:54",
- "n_items": 105,
+ "ts_kst": "09-04 03:04",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
   "M-CYCLE": 13,
+  "C-BUYBACK": 1,
   "C-CHINA": 4,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 9
  },
- "unassigned": 71,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "“지금이 적기, 한 방 노린다”…빚투에 ‘풀매수’ 개미들 반대매매 공포 어쩌나 - 매일경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "목표주가+하향",
-   "src": "kr",
-   "title": "씨티, 환율 부담 반영해 SK하이닉스·삼성전자 목표주가 하향 - v.daum.net",
-   "agents": []
-  }
- ],
+ "unassigned": 69,
+ "alerts": [],
  "items": [
+  {
+   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - KBS 뉴스",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] 삼성전자 20조·하이닉스 5조… 정부, 5년치 전기료 선납 제안 - 조선일보",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한전, 삼성·SK하이닉스에 전기료 25조 선납 제안…“첨단산업 전력망 투자 대응” - 에너지경제신문",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'SK하이닉스 특허 양수' 미미르IP, 미디어텍 상대 미국 특허소송 제기 - 지디넷코리아",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "삼성전자, 2분기 HBM 점유율 33%로 상승… SK하이닉스 50% 1위 - 조선비즈 - Chosunbiz",
    "pub": "Thu, 03 Sep 2026",
@@ -93,20 +69,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "'SK하이닉스 특허 양수' 미미르IP, 미디어텍 상대 미국 특허소송 제기 - 지디넷코리아",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "씨티, 환율 부담 반영해 SK하이닉스·삼성전자 목표주가 하향 - v.daum.net",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "[단독] 최태원이 던진 '일본 팹'… SK하이닉스, 임직원과 해외 전략 공유 - 한국경제",
@@ -137,27 +99,6 @@
    "agents": []
   },
   {
-   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - KBS 뉴스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "한전, 삼성·SK하이닉스에 전기료 25조 선납 제안…“첨단산업 전력망 투자 대응” - 에너지경제신문",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 20조·하이닉스 5조…한전, 5년치 전기료 선납 제안 - 한겨레",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "로이터 \"한국 외환당국, SK하이닉스가 미국 상장으로 조달한 외화 200억 달러 매입\" - 비즈니스포스트",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
@@ -165,24 +106,26 @@
    "agents": []
   },
   {
-   "title": "임단협 부결 후 전사 소통 나선 SK하이닉스…\"성과 보상 정당하게 지킬 것\" - asiae.co.kr",
+   "title": "임단협 부결 후 전사 소통 나선 SK하이닉스…\"성과 보상 정당하게 지킬 것\" - 아시아경제",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "SK하이닉스가 성과급 60%를 자사주로 주려는 이유는 - 조선일보",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "SK하이닉스 \"구성원 성과 당당히 인정받도록\"…공동 해법 강조(종합) - 매일경제 마켓",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“6억 성과급 메모리로 보내줘”…삼성 CSS 개발인력, 파운드리·LSI 이동 ‘거부’ - it.chosun.com",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
    "agents": []
   },
   {
@@ -680,6 +623,15 @@
   },
   {
    "title": "How Micron Technology (MU) is Shaping the AI Landscape",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Zacks Earnings Trends Highlights: Alphabet, Micron and Nvidia",
    "pub": "Thu, 03 Sep 2026",
    "src": "en",
    "q": "MU",
