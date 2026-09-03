@@ -1,91 +1,126 @@
 {
- "ts_kst": "09-03 21:46",
+ "ts_kst": "09-03 21:56",
  "n_items": 60,
  "by_source": {
   "kr": 30,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
-  "C-CHINA": 5,
-  "R-LEVERAGE": 11
+  "C-CHINA": 6,
+  "M-CYCLE": 14
  },
- "unassigned": 32,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘블랙먼데이’ 공포 속 빚투 최고치…반대매매 뇌관 커진다 - 조선비즈 - Chosunbiz",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 41,
+ "alerts": [],
  "items": [
+  {
+   "title": "[단독] 삼성전자 20조·하이닉스 5조… 정부, 5년치 전기료 선납 제안 - 조선일보",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "아주대·삼성전자, 반도체 EUV 공정 한계 넘을 '하이브리드 신소재' 개발 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 용수 재이용 증가세 둔화…SK하이닉스는 두 자릿수 - 스트레이트뉴스",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "\"AI 매출 221% 폭증\"…브로드컴, 삼성전자 ’2000억弗 동맹’ 청신호 By EBN - Investing.com 한국어",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "美 반도체 반등하자 ‘삼성전자’ 집중매수 [주식 초고수는 지금] - 서울경제",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "中 YMTC 핵심에 삼성·SK 출신…반도체 '인재 전쟁'에 성과급 파동[NW리포트] - v.daum.net",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "삼성전자, 반도체 상장기업 브랜드평판 2026년 9월 빅데이터 1위... SK하이닉스 2위 - 빅데이터뉴스",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "美 반도체 관세 '현지생산 연계'…삼성전자·SK하이닉스 영향권 - 톱스타뉴스",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 브로드컴과 292조원 AI 반도체 동맹…HBM부터 2나노까지 - 테크월드",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "“6억 성과급 메모리로 보내줘”…삼성 CSS 개발인력, 파운드리·LSI 이동 ‘거부’ - IT조선",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "KAIST·삼성전자, 반도체 온실가스 CF₄ 고효율·장수명 분해 촉매 개발 - mtnews.net",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "“삼성전자 다니는데요“…반도체 머니에 시장 ’들썩’ - 연합뉴스TV",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "러트닉 “삼전·하닉에 경고…美서 반도체 안만들면 대가 각오” - 중앙일보",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "KAIST-삼성전자, '엔트로피 안정화' 촉매로 반도체 온실가스 CF₄ 분해 성능 2.3배 ↑ - 헬로티",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "공장 짓거나 관세 물어라…미, 삼성·SK 겨냥 반도체 투자 압박 - 경향신문",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
   {
    "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
    "pub": "Tue, 18 Aug 2026",
@@ -137,7 +172,7 @@
    ]
   },
   {
-   "title": "중국 반도체 추격 변수로 부상…\"초격차 사수해야\" - 연합뉴스",
+   "title": "중국 반도체 추격 변수로 부상…\"초격차 사수해야\" - yna.co.kr",
    "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -206,133 +241,6 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - ynenews.kr",
-   "pub": "Sun, 26 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "증시 살아나자 빚내서 주식 산다…신용잔고 다시 32조원대로 - fetimes.co.kr",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
-   "pub": "Mon, 09 Mar 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - etoday.co.kr",
-   "pub": "Mon, 13 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "외국인 매도 폭탄에 신용공여·반대매매 ‘비상’ - 글로벌이코노믹",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "‘블랙먼데이’ 공포 속 빚투 최고치…반대매매 뇌관 커진다 - 조선비즈 - Chosunbiz",
-   "pub": "Sun, 07 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "'한 달 전으로 시간 돌릴 수 있다면'…빚투 개미들 '피눈물' [분석+] - 한국경제",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "폭락장에 강제 청산될라…‘빚투’ 개미들 덜덜 - 경향신문",
-   "pub": "Mon, 08 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "반대매매 비중 석 달째 최고…‘빚투‘ 버티기 한계 다달았나 - viva100.com",
-   "pub": "Wed, 22 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
   },
   {
    "title": "If You Invested $1000 in Micron 10 Years Ago, This Is How Much You'd Have Now",
