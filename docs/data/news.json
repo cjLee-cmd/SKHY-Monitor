@@ -1,49 +1,44 @@
 {
- "ts_kst": "09-04 19:38",
+ "ts_kst": "09-04 19:48",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 14,
+  "M-CYCLE": 15,
   "C-BUYBACK": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 12
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "삼전닉스 자사주 매입 ‘속도전’⋯조기 종료시 수급 절벽 우려↑[코스피 버팀목 된 반도체 투톱] - v.daum.net",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
-   "title": "SK하이닉스 '솔리다임 중복상장' D-Day … 주가 향방에 '촉각' - 뉴데일리",
-   "pub": "Fri, 04 Sep 2026",
+   "title": "'한국형 브로드컴' 노리는 LG전자, SK하이닉스와 협력 무산 - 지디넷코리아",
+   "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'한국형 브로드컴' 노리는 LG전자, SK하이닉스와 협력 무산 - 지디넷코리아",
+   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - KBS 뉴스",
    "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전닉스 전기료 3년 선납에 촉각…SK하이닉스 연내 국고채 투자 유효할까 - 연합인포맥스",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] 삼성전자 20조·하이닉스 5조… 정부, 5년치 전기료 선납 제안 - 조선일보",
+   "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -56,14 +51,14 @@
    "agents": []
   },
   {
-   "title": "노무라 “삼성전자·SK하이닉스 심각한 저평가…67만원·470만원 간다” - kyeonggi.com",
+   "title": "노무라 “삼성전자·SK하이닉스 심각한 저평가…67만원·470만원 간다” - 경기일보",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "노무라 \"67만전자·470만닉스 간다\"…메모리 슈퍼사이클에 베팅 - v.daum.net",
+   "title": "‘삼전 67만-닉스 470만’ 노무라, 목표주가 유지…“공급 턱없이 부족” - v.daum.net",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -97,28 +92,21 @@
    ]
   },
   {
-   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - KBS 뉴스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼전닉스 전기료 3년 선납에 촉각…SK하이닉스 연내 국고채 투자 유효할까 - 연합인포맥스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] 삼성전자 20조·하이닉스 5조… 정부, 5년치 전기료 선납 제안 - 조선일보",
-   "pub": "Wed, 02 Sep 2026",
+   "title": "SK하이닉스 '솔리다임 중복상장' D-Day … 주가 향방에 '촉각' - 뉴데일리",
+   "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
    "title": "채권시장 확산한 'SK하이닉스의 MMF 환매설'…하이닉스 \"사실무근\" - 연합인포맥스",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"똑같은 반도체 아니야?\"...초고수, 삼전 사고 하이닉스는 팔았다 - 한국경제",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -139,13 +127,6 @@
    "agents": [
     "C-BUYBACK"
    ]
-  },
-  {
-   "title": "삼성전자·SK하이닉스가 이끈 올해 코스피…코스닥은 소외 심화 [1분 브리프] - 아시아경제",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "한화투자證 “반도체 테스트 장비 발주 급증⋯삼성전자 HBM4 약진 연쇄효과” - 이투데이",
@@ -224,7 +205,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 폐기물을 갤럭시 소재로…‘버리는 공정’ 줄인다 - MIT 테크놀로지 리뷰",
+   "title": "삼성전자, 반도체 폐기물을 갤럭시 소재로…‘버리는 공정’ 줄인다 - technologyreview.kr",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -453,15 +434,15 @@
    "agents": []
   },
   {
-   "title": "한 달째 6500선 갇힌 코스피...외국인 팔 때 '기타법인'만 15조 매수 - 월요신문",
-   "pub": "Fri, 04 Sep 2026",
+   "title": "외국인 올해 코스피서 169조 던졌다…‘사자’는 단 두 달 - 경북매일",
+   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "외국인 올해 코스피서 169조 던졌다…‘사자’는 단 두 달 - 경북매일",
-   "pub": "Tue, 01 Sep 2026",
+   "title": "한 달째 6500선 갇힌 코스피...외국인 팔 때 '기타법인'만 15조 매수 - 월요신문",
+   "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -573,7 +554,7 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - nongmin.com",
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -630,6 +611,15 @@
    ]
   },
   {
+   "title": "Social Buzz: Wallstreetbets Stocks Mixed Premarket Friday; Micron to Rise, Lululemon to Fall",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years?",
    "pub": "Fri, 04 Sep 2026",
    "src": "en",
@@ -656,15 +646,6 @@
   },
   {
    "title": "Micron's 11% Drop Hasn't Shaken Wall Street's Bull Case",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "The Fed's September Decision Could Hit Micron Harder Than Its Own Earnings",
    "pub": "Thu, 03 Sep 2026",
    "src": "en",
    "q": "MU",
