@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-04 23:47",
+ "ts_kst": "09-04 23:57",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -8,30 +8,11 @@
  "routed": {
   "M-CYCLE": 13,
   "C-CHINA": 6,
-  "F-ACTIVE": 8,
+  "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "삼성·SK하이닉스 찍어 \"반도체 관세\" 협박‥파병이 협상카드? - MBC 뉴스",
@@ -69,7 +50,7 @@
    "agents": []
   },
   {
-   "title": "노무라 “삼성전자·SK하이닉스 심각한 저평가…67만원·470만원 간다” - kyeonggi.com",
+   "title": "노무라 “삼성전자·SK하이닉스 심각한 저평가…67만원·470만원 간다” - 경기일보",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -81,33 +62,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "삼성전자, 2분기 HBM 점유율 33%로 급등…SK하이닉스와 격차 축소 - 지디넷코리아",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성전자 2분기 HBM 점유율 21→33%…SK하이닉스 1위 - 연합뉴스TV",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스, HBM 점유율 50%…삼성, 33%로 맹추격 - IT조선",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "SK하이닉스 '솔리다임 중복상장' D-Day … 주가 향방에 '촉각' - 뉴데일리",
@@ -136,6 +90,33 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "삼성전자, 2분기 HBM 점유율 33%로 급등…SK하이닉스와 격차 축소 - 지디넷코리아",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "\"SK하이닉스 독주 흔들린다\"…삼성전자, HBM 점유율 33%로 상승 - v.daum.net",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성전자 2분기 HBM 점유율 21→33%…SK하이닉스 1위 - 연합뉴스TV",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "미국발 훈풍에 살아난 매수세…삼전·닉스, 2∼3%대 상승 마감(종합) - v.daum.net",
@@ -182,6 +163,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 스마트폰 주 기판 'HDI' 조달 골머리 - 지디넷코리아",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "정부는 미적, 기업은 진땀…삼성·SK 덮친 美 ‘반도체 표적 관세’ - 에너지경제신문",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
@@ -207,13 +195,6 @@
   {
    "title": "[주식시황]삼성전자·SK하이닉스 반등…반도체 투톱 ‘상승 출발’ - 남도일보",
    "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "美 밀러 \"中 반도체 장비 25년 뒤처져\"… 삼성 파운드리 반사 수혜 관측 - 글로벌이코노믹",
-   "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -434,6 +415,15 @@
    ]
   },
   {
+   "title": "올해 외국인 코스피 순매수 단 두 달…9월도 '팔자' 이어가나(종합) - v.daum.net",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "외국인 올해 코스피서 169조 던졌다…‘사자’는 단 두 달 - 경북매일",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
@@ -446,15 +436,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "올들어 외국인 코스피 순매수 단 두 달…9월에도 '팔자' 이어질까 - v.daum.net",
-   "pub": "Tue, 01 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "중동발 충격에 코스피 3%대 급락…외국인·기관 2조원 순매도 - 산경투데이",
@@ -482,11 +463,13 @@
    ]
   },
   {
-   "title": "8월 코스피 10조 던진 외국인 … 반도체 팔고 방산·바이오 샀다 - 뉴데일리",
+   "title": "올해 외국인 코스피 순매수 단 두 달…9월도 '팔자' 이어가나(종합) - 매일경제 마켓",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "외국인·기관 4조원 ‘매도 공세’…코스피 4% 급락해 6500대로 - 경북매일",
@@ -625,7 +608,7 @@
    "agents": []
   },
   {
-   "title": "Social Buzz: Wallstreetbets Stocks Mixed Premarket Friday; Micron to Rise, Lululemon to Fall",
+   "title": "Lynx Equity sees Micron and SanDisk breakout as volatility normalizes",
    "pub": "Fri, 04 Sep 2026",
    "src": "en",
    "q": "MU",
@@ -634,7 +617,16 @@
    ]
   },
   {
-   "title": "How Micron Stock Is Trading Today",
+   "title": "Micron Stock Is Rising. Why It’s Not What It Seems.",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Social Buzz: Wallstreetbets Stocks Mixed Premarket Friday; Micron to Rise, Lululemon to Fall",
    "pub": "Fri, 04 Sep 2026",
    "src": "en",
    "q": "MU",
@@ -657,15 +649,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron, SanDisk Lag Tech Rally as China Grabs Memory Market Share",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
