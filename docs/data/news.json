@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-05 03:06",
+ "ts_kst": "09-05 03:16",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -8,40 +8,12 @@
  "routed": {
   "P-ADR": 2,
   "C-CHINA": 8,
-  "M-CYCLE": 12,
+  "M-CYCLE": 11,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 11
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "'한국형 브로드컴' 노리는 LG전자, SK하이닉스와 협력 무산 - 지디넷코리아",
@@ -72,7 +44,28 @@
    "agents": []
   },
   {
-   "title": "\"삼전닉스 조정 끝\" \"67만전자·470만닉스 간다\"…해외IB 낙관 이유 - v.daum.net",
+   "title": "‘삼전 67만-닉스 470만’ 노무라, 목표주가 유지…“공급 턱없이 부족” - v.daum.net",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하닉 \"솔리다임 IPO 추진 미확정\" - 마켓인",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 '솔리다임 중복상장' D-Day … 주가 향방에 '촉각' - 뉴데일리",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 美 자회사 솔리다임 5~10조 프리IPO說에 \"확정된 바 없어\" 해명공시 - 아시아경제",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -104,29 +97,22 @@
    "agents": []
   },
   {
-   "title": "SK하닉 \"솔리다임 IPO 추진 미확정\" - 마켓인",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 '솔리다임 중복상장' D-Day … 주가 향방에 '촉각' - 뉴데일리",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 美 자회사 솔리다임 5~10조 프리IPO說에 \"확정된 바 없어\" 해명공시 - 아시아경제",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - KBS 뉴스",
+   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - news.kbs.co.kr",
    "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전닉스 전기료 3년 선납에 촉각…SK하이닉스 연내 국고채 투자 유효할까 - 연합인포맥스",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] 삼성전자 20조·하이닉스 5조… 정부, 5년치 전기료 선납 제안 - v.daum.net",
+   "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -139,20 +125,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "2분기 낸드 시장 70% 성장… 삼성·SK하이닉스 1·2위 수성 - 조선비즈 - Chosunbiz",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[낸드 리부트]④ 321단·HBF 앞세운 SK하이닉스…1위 추격 속도 - 블로터",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "한화투자證 “반도체 테스트 장비 발주 급증⋯삼성전자 HBM4 약진 연쇄효과” - 이투데이",
@@ -460,13 +432,6 @@
    ]
   },
   {
-   "title": "코스피, 장 초반 1%대 상승…외국인·기관 동반 매수 - 블루밍비트",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "기관, 해외주식 753조원 투자 '역대 최대'⋯외국인은 코스피 170조원 순매도 - 포커스온경제",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
@@ -474,6 +439,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "코스피, 장 초반 1%대 상승…외국인·기관 동반 매수 - 블루밍비트",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "8월 코스피 10조 던진 외국인 … 반도체 팔고 방산·바이오 샀다 - 뉴데일리",
@@ -653,6 +625,13 @@
    ]
   },
   {
+   "title": "Memory, Other AI-Related Stocks Lead the Market’s Top Performers Friday",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Why Micron Stock Just Popped",
    "pub": "Fri, 04 Sep 2026",
    "src": "en",
@@ -663,15 +642,6 @@
   },
   {
    "title": "Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock On The Rise This Week:  Why It’s Not What It Seems.",
    "pub": "Fri, 04 Sep 2026",
    "src": "en",
    "q": "MU",
