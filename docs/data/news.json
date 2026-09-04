@@ -1,40 +1,35 @@
 {
- "ts_kst": "09-04 21:07",
- "n_items": 105,
+ "ts_kst": "09-04 21:17",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 11,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
    "title": "'한국형 브로드컴' 노리는 LG전자, SK하이닉스와 협력 무산 - 지디넷코리아",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - KBS 뉴스",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전닉스 전기료 3년 선납에 촉각…SK하이닉스 연내 국고채 투자 유효할까 - 연합인포맥스",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -48,7 +43,7 @@
    "agents": []
   },
   {
-   "title": "노무라 “삼성전자·SK하이닉스 심각한 저평가…67만원·470만원 간다” - kyeonggi.com",
+   "title": "노무라 “삼성전자·SK하이닉스 심각한 저평가…67만원·470만원 간다” - 경기일보",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -125,24 +120,6 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 독주 흔들린다\"…삼성전자, HBM 점유율 33%로 상승 - v.daum.net",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성전자, 2분기 HBM 점유율 33%로 급등…SK하이닉스와 격차 축소 - 지디넷코리아",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "한화투자證 “반도체 테스트 장비 발주 급증⋯삼성전자 HBM4 약진 연쇄효과” - 이투데이",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
@@ -161,13 +138,6 @@
   {
    "title": "[단독] 송재혁 삼성전자 CTO, 성과급 격차에 직접 소통...일부 원팀엔 보상안 - MTN 머니투데이방송",
    "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성 평택 파운드리 ‘S5’ 메모리 전환설…현실성 낮은 이유 - IT조선",
-   "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -226,7 +196,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 폐기물로 갤럭시 부품 만든다...순환자원 확대 - inews24.com",
+   "title": "삼성전자, 반도체 폐기물로 갤럭시 부품 만든다...순환자원 확대 - 아이뉴스24",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -240,14 +210,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 폐기물도 자원으로 - 스페셜경제",
+   "title": "삼성전자, 반도체 폐기물에서 실리콘·팔라듐 회수…\"폐기물을 고부가 자원으로\" - 나눔경제뉴스",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 폐기물로 갤럭시 부품 만든다 - 비즈니스플러스",
+   "title": "삼성전자, 반도체 폐기물도 자원으로 - 스페셜경제",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -660,6 +630,15 @@
   },
   {
    "title": "Micron, SanDisk Lag Tech Rally as China Grabs Memory Market Share",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron's 11% Drop Hasn't Shaken Wall Street's Bull Case",
    "pub": "Thu, 03 Sep 2026",
    "src": "en",
    "q": "MU",
