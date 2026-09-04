@@ -1,48 +1,21 @@
 {
- "ts_kst": "09-05 04:55",
- "n_items": 104,
+ "ts_kst": "09-05 06:14",
+ "n_items": 89,
  "by_source": {
-  "kr": 75,
+  "kr": 60,
   "en": 29
  },
  "routed": {
-  "P-ADR": 2,
-  "M-CYCLE": 11,
-  "C-CHINA": 9,
-  "F-ACTIVE": 10,
-  "R-LEVERAGE": 11
+  "P-ADR": 1,
+  "M-CYCLE": 12,
+  "C-CHINA": 7,
+  "F-ACTIVE": 10
  },
- "unassigned": 61,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 59,
+ "alerts": [],
  "items": [
   {
    "title": "삼성·SK하이닉스 찍어 \"반도체 관세\" 협박‥파병이 협상카드? - MBC 뉴스",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "800조 투자 약속했는데 '뒤통수' 친 정부 … 호남 반도체 '회의론' 더 키웠다 - 뉴데일리",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -56,8 +29,22 @@
    "agents": []
   },
   {
+   "title": "800조 투자 약속했는데 '뒤통수' 친 정부 … 호남 반도체 '회의론' 더 키웠다 - 뉴데일리",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "'한국형 브로드컴' 노리는 LG전자, SK하이닉스와 협력 무산 - 지디넷코리아",
    "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "외인·기관 '삼전·하닉' 팔고 삼성전기·SK이노베이션 샀다…개인은 현대차·SK스퀘어 ‘줍줍’ - 뉴스투데이",
+   "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -70,14 +57,14 @@
    "agents": []
   },
   {
-   "title": "노무라 “삼성전자·SK하이닉스 심각한 저평가…67만원·470만원 간다” - 경기일보",
+   "title": "노무라 “삼성전자·SK하이닉스 심각한 저평가…67만원·470만원 간다” - kyeonggi.com",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "노무라 \"67만전자·470만닉스 간다\"…메모리 슈퍼사이클에 베팅 - v.daum.net",
+   "title": "\"삼전닉스 조정 끝\" \"67만전자·470만닉스 간다\"…해외IB 낙관 이유 - v.daum.net",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -127,15 +114,6 @@
   },
   {
    "title": "SK하이닉스 ADR 상장 시초가 '170달러' 회복…메모리 반도체 기업 강세 - 연합인포맥스",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "본주 보다 40% 비싸다...SK하이닉스 ADR의 비밀 [마켓딥다이브] - v.daum.net",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -197,7 +175,7 @@
    "agents": []
   },
   {
-   "title": "삼성 평택 파운드리 ‘S5’ 메모리 전환설…현실성 낮은 이유 - it.chosun.com",
+   "title": "삼성 평택 파운드리 ‘S5’ 메모리 전환설…현실성 낮은 이유 - IT조선",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -227,7 +205,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 폐기물로 갤럭시 부품 만든다...순환자원 확대 - inews24.com",
+   "title": "삼성전자, 반도체 폐기물로 갤럭시 부품 만든다...순환자원 확대 - 아이뉴스24",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -301,15 +279,6 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -319,7 +288,16 @@
    ]
   },
   {
-   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - khan.co.kr",
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - contents.premium.naver.com",
+   "pub": "Sat, 27 Jun 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -353,15 +331,6 @@
    ]
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
-   "pub": "Wed, 12 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
    "pub": "Thu, 09 Jul 2026",
    "src": "kr",
@@ -376,6 +345,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
+   "pub": "Wed, 20 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "[머니톡스] 외국인 소문의 진실…다음 파티가 열리기 전 해야 할 일 - 연합뉴스",
@@ -410,15 +386,6 @@
    "agents": []
   },
   {
-   "title": "외국인과 기관 순매수 속 코스피 6700선 회복 [장중시황] - 2news.co.kr",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "초유의 개인·기관·외국인 동반 순매도…그런데 코스피는 올랐다 - 한국경제",
    "pub": "Mon, 31 Aug 2026",
    "src": "kr",
@@ -428,7 +395,7 @@
    ]
   },
   {
-   "title": "코스피 6687.21 마감…외국인·기관 순매수 - 비건뉴스",
+   "title": "외국인과 기관 순매수 속 코스피 6700선 회복 [장중시황] - 2news.co.kr",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -446,6 +413,15 @@
    ]
   },
   {
+   "title": "코스피 6687.21 마감…외국인·기관 순매수 - 비건뉴스",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "외국인 올해 코스피서 169조 던졌다…‘사자’는 단 두 달 - 경북매일",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
@@ -453,7 +429,7 @@
    "agents": []
   },
   {
-   "title": "중동발 충격에 코스피 3%대 급락…외국인·기관 2조원 순매도 - sankyungtoday.com",
+   "title": "중동발 충격에 코스피 3%대 급락…외국인·기관 2조원 순매도 - 산경투데이",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -462,7 +438,7 @@
    ]
   },
   {
-   "title": "기관, 해외주식 753조원 투자 '역대 최대'⋯외국인은 코스피 170조원 순매도 - foeconomy.co.kr",
+   "title": "기관, 해외주식 753조원 투자 '역대 최대'⋯외국인은 코스피 170조원 순매도 - 포커스온경제",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -503,131 +479,13 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
-  },
-  {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "pub": "Tue, 14 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
-   "pub": "Sun, 26 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "\"계좌 보기 무섭다\" \"하루만에 -30%, 지옥\"…증시급락에 공포(종합) - 연합뉴스",
-   "pub": "Mon, 08 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
-   "pub": "Wed, 08 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "증시 살아나자 빚내서 주식 산다…신용잔고 다시 32조원대로 - 금융경제신문",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
-   "pub": "Tue, 23 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "[궁지 몰린 빚투] 이란사태 전 오히려 늘었던 미수·신용융자 폭탄 째깍째깍 - 연합인포맥스",
-   "pub": "Mon, 09 Mar 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
-   "pub": "Mon, 13 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "'한 달 전으로 시간 돌릴 수 있다면'…빚투 개미들 '피눈물' [분석+] - 한국경제",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "Analyst Has Strong Take on Micron, SanDisk Stocks",
@@ -671,6 +529,110 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Memory, Other AI-Related Stocks Lead the Market’s Top Performers Friday",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Why Micron Stock Just Popped",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "ASML Plans 40% Japan Workforce Expansion to Support Chip Boom",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML (ASML) Stock Sinks As Market Gains: What You Should Know",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Protolabs CEO sees big impact from US reshoring despite potential tariffs",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ZEISS SMT CEO: China 15 Years Behind in Top Chip Tools",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Why Is Ichor Holdings (ICHR) Down 27.4% Since Last Earnings Report?",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Should You Buy, Sell or Hold AMAT Stock After a 72.5% YTD Rise?",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Onto Innovation (ONTO) Unveiled Dragonfly G5 At SEMICON Taiwan 2026",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "PANW Q4 Earnings Beat Estimates on Platformization Strength",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Kulicke and Soffa (KLIC) Forms 'Hammer Chart Pattern': Time for Bottom Fishing?",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Teradyne to Present at the 2026 Goldman Sachs Communacopia + Technology Conference",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
   }
  ],
  "guards": {
