@@ -1,71 +1,71 @@
 {
- "ts_kst": "09-05 04:15",
- "score": 12.8,
+ "ts_kst": "09-05 04:25",
+ "score": 10.0,
  "verdict": "정당한 재평가",
  "components": {
   "A_통계극단성": 0,
   "B_체인동조성": 0.0,
   "C_펀더멘털배율": 0,
-  "D_역사되돌림": 12.8
+  "D_역사되돌림": 10.0
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -4.21,
+   "cum": 2.0,
    "sd": 4.7,
-   "z": -0.63,
-   "n_episodes": 18,
+   "z": 0.3,
+   "n_episodes": 1,
    "forward": {
     "5": {
-     "mean": 2.41,
-     "median": 1.94,
-     "up_rate": 67
+     "mean": -6.53,
+     "median": -6.53,
+     "up_rate": 0
     },
     "20": {
-     "mean": 5.88,
-     "median": 2.39,
-     "up_rate": 61
+     "mean": -13.93,
+     "median": -13.93,
+     "up_rate": 0
     },
     "60": {
-     "mean": 22.84,
-     "median": 11.62,
-     "up_rate": 72
+     "mean": -22.5,
+     "median": -22.5,
+     "up_rate": 0
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -5.73,
+   "cum": 2.11,
    "sd": 5.69,
-   "z": -0.71,
-   "n_episodes": 15,
+   "z": 0.26,
+   "n_episodes": 2,
    "forward": {
     "5": {
-     "mean": 4.74,
-     "median": 3.49,
-     "up_rate": 67
+     "mean": 5.49,
+     "median": 5.49,
+     "up_rate": 100
     },
     "20": {
-     "mean": 11.63,
-     "median": 2.6,
-     "up_rate": 67
+     "mean": 31.2,
+     "median": 31.2,
+     "up_rate": 100
     },
     "60": {
-     "mean": 51.06,
-     "median": 42.5,
-     "up_rate": 80
+     "mean": 36.75,
+     "median": 36.75,
+     "up_rate": 100
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -4.21,
-  "SK하이닉스": -5.73,
-  "마이크론": 4.97,
-  "TSMC": 2.77,
-  "ASML": 1.03,
-  "필라델피아반도체": 2.73,
-  "엔비디아": 2.52
+  "삼성전자": 2.0,
+  "SK하이닉스": 2.11,
+  "마이크론": 4.93,
+  "TSMC": 2.85,
+  "ASML": 1.23,
+  "필라델피아반도체": 2.84,
+  "엔비디아": 2.45
  },
  "threat": {
   "source": "CXMT (중국 창신메모리)",
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -0.71,
-  "drop_avg": 4.97,
-  "fundamental_ratio": 0.65,
+  "z_min": 0.26,
+  "drop_avg": 2.05,
+  "fundamental_ratio": 0.27,
   "chain_negative": "0/5"
  },
- "caveat": "역사 표본 18개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 2개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
