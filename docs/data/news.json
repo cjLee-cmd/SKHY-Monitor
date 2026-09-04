@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-05 03:16",
+ "ts_kst": "09-05 03:26",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -7,13 +7,23 @@
  },
  "routed": {
   "P-ADR": 2,
-  "C-CHINA": 8,
+  "C-CHINA": 9,
   "M-CYCLE": 11,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 11
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "'한국형 브로드컴' 노리는 LG전자, SK하이닉스와 협력 무산 - 지디넷코리아",
@@ -44,7 +54,7 @@
    "agents": []
   },
   {
-   "title": "‘삼전 67만-닉스 470만’ 노무라, 목표주가 유지…“공급 턱없이 부족” - v.daum.net",
+   "title": "노무라 \"67만전자·470만닉스 간다\"…메모리 슈퍼사이클에 베팅 - v.daum.net",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -72,6 +82,27 @@
    "agents": []
   },
   {
+   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - news.kbs.co.kr",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전닉스 전기료 3년 선납에 촉각…SK하이닉스 연내 국고채 투자 유효할까 - 연합인포맥스",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] 삼성전자 20조·하이닉스 5조… 정부, 5년치 전기료 선납 제안 - v.daum.net",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 ADR 상장 시초가 '170달러' 회복…메모리 반도체 기업 강세 - 연합인포맥스",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
@@ -92,27 +123,6 @@
   {
    "title": "삼성전자 사고 SK하이닉스 팔았다…초고수, 급등한 장비주는 차익실현[주식 초고수는 지금] - 매일경제",
    "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - news.kbs.co.kr",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼전닉스 전기료 3년 선납에 촉각…SK하이닉스 연내 국고채 투자 유효할까 - 연합인포맥스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[단독] 삼성전자 20조·하이닉스 5조… 정부, 5년치 전기료 선납 제안 - v.daum.net",
-   "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -252,13 +262,6 @@
    ]
   },
   {
-   "title": "[경제 이슈] 중국 반도체 수출 대폭발? 알고보니…\"한국산 메모리 훈풍 타고 날았다\" - 프리진경제",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
@@ -357,6 +360,15 @@
    "agents": []
   },
   {
+   "title": "\"중국 창신메모리 제품, HP 등 글로벌 PC 업체에 채택돼\" - yna.co.kr",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "[머니톡스] 외국인 소문의 진실…다음 파티가 열리기 전 해야 할 일 - yna.co.kr",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
@@ -432,7 +444,7 @@
    ]
   },
   {
-   "title": "기관, 해외주식 753조원 투자 '역대 최대'⋯외국인은 코스피 170조원 순매도 - 포커스온경제",
+   "title": "기관, 해외주식 753조원 투자 '역대 최대'⋯외국인은 코스피 170조원 순매도 - foeconomy.co.kr",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -498,8 +510,8 @@
    ]
   },
   {
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "pub": "Tue, 14 Jul 2026",
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - yna.co.kr",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -525,15 +537,8 @@
    ]
   },
   {
-   "title": "\"계좌 보기 무섭다\" \"하루만에 -30%, 지옥\"…증시급락에 공포(종합) - yna.co.kr",
-   "pub": "Mon, 08 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
-   "pub": "Wed, 08 Jul 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -550,8 +555,8 @@
    ]
   },
   {
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -607,6 +612,20 @@
    "agents": []
   },
   {
+   "title": "\"계좌 보기 무섭다\" \"하루만에 -30%, 지옥\"…증시급락에 공포(종합) - yna.co.kr",
+   "pub": "Mon, 08 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "Ken Griffin's Citadel significantly lowers stake in surging chip stock",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron, SanDisk Lead Memory Chip Stocks Rally on Strong AI Demand",
    "pub": "Fri, 04 Sep 2026",
    "src": "en",
@@ -633,15 +652,6 @@
   },
   {
    "title": "Why Micron Stock Just Popped",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%",
    "pub": "Fri, 04 Sep 2026",
    "src": "en",
    "q": "MU",
