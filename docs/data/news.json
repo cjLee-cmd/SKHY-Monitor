@@ -1,19 +1,243 @@
 {
- "ts_kst": "09-05 04:35",
- "n_items": 74,
+ "ts_kst": "09-05 04:45",
+ "n_items": 103,
  "by_source": {
-  "kr": 45,
+  "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-CHINA": 8,
-  "M-CYCLE": 9,
+  "P-ADR": 2,
+  "M-CYCLE": 11,
+  "C-CHINA": 9,
   "F-ACTIVE": 10,
   "R-LEVERAGE": 11
  },
- "unassigned": 36,
- "alerts": [],
+ "unassigned": 60,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
+  {
+   "title": "삼성·SK하이닉스 찍어 \"반도체 관세\" 협박‥파병이 협상카드? - MBC 뉴스",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "800조 투자 약속했는데 '뒤통수' 친 정부 … 호남 반도체 '회의론' 더 키웠다 - 뉴데일리",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "정부는 미적, 기업은 진땀…삼성·SK 덮친 美 ‘반도체 표적 관세’ - 에너지경제신문",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'한국형 브로드컴' 노리는 LG전자, SK하이닉스와 협력 무산 - 지디넷코리아",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“67만전자·470만닉스 간다”…삼전닉스 ‘심각하게 싸다’는 노무라 - 매일경제",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "노무라 “삼성전자·SK하이닉스 심각한 저평가…67만원·470만원 간다” - 경기일보",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"삼전닉스 조정 끝\" \"67만전자·470만닉스 간다\"…해외IB 낙관 이유 - v.daum.net",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 '솔리다임 중복상장' D-Day … 주가 향방에 '촉각' - 뉴데일리",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 美 자회사 솔리다임 5~10조 프리IPO說에 \"확정된 바 없어\" 해명공시 - 아시아경제",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 솔리다임 나스닥 상장으로 ‘IPO 대박’ 또 터트리나 - 인사이트코리아",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한전, 삼성전자·SK하이닉스에 5년치 전기료 25조 선납 제안 - news.kbs.co.kr",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전닉스 전기료 3년 선납에 촉각…SK하이닉스 연내 국고채 투자 유효할까 - 연합인포맥스",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] 삼성전자 20조·하이닉스 5조… 정부, 5년치 전기료 선납 제안 - v.daum.net",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 ADR 상장 시초가 '170달러' 회복…메모리 반도체 기업 강세 - 연합인포맥스",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "美 반도체주 혼조…엔비디아 1.8%↑·SK하이닉스 ADR 0.8%↓ - v.daum.net",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "한화투자證 “반도체 테스트 장비 발주 급증⋯삼성전자 HBM4 약진 연쇄효과” - 이투데이",
+   "pub": "Tue, 01 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성전자, 반도체 폐기물로 갤럭시 부품 만든다...순환자원 확대 - v.daum.net",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[단독] 송재혁 삼성전자 CTO, 성과급 격차에 직접 소통...일부 원팀엔 보상안 - MTN 머니투데이방송",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 스마트폰 주 기판 'HDI' 조달 골머리 - 지디넷코리아",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성 반도체 기술 훔친 中 CXMT…처벌까지 10년, 그새 '세계 4위' - edaily.co.kr",
+   "pub": "Wed, 02 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "메모리 호황에 미국 반도체 지원정책 바뀔 조짐, 삼성전자와 SK하이닉스 투자 유도에 힘 싣나 - 비즈니스포스트",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성 평택 파운드리 ‘S5’ 메모리 전환설…현실성 낮은 이유 - it.chosun.com",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, zHBM·PIM 앞세워 3D 메모리 혁신 선도 - 네이트",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[단독]삼성전자 '강제 전배' 논란 법정행···직원 300명 소송한다 - 뉴스웨이",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 폐기물을 갤럭시 소재로…‘버리는 공정’ 줄인다 - MIT 테크놀로지 리뷰",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 폐기물로 갤럭시 부품 만든다...순환자원 확대 - 아이뉴스24",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 폐기물까지 자원화…순환자원 인정 38건 확보 - 테크월드",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 폐기물에서 실리콘·팔라듐 회수…\"폐기물을 고부가 자원으로\" - 나눔경제뉴스",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 폐기물도 자원으로 - 스페셜경제",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
   {
    "title": "중국 메모리 반도체 기업, 상반기 실적 ‘사상 최대’ - 비즈월드",
    "pub": "Wed, 02 Sep 2026",
@@ -281,8 +505,8 @@
    ]
   },
   {
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "pub": "Tue, 14 Jul 2026",
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -308,15 +532,8 @@
    ]
   },
   {
-   "title": "\"계좌 보기 무섭다\" \"하루만에 -30%, 지옥\"…증시급락에 공포(종합) - 연합뉴스",
-   "pub": "Mon, 08 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
-   "pub": "Wed, 08 Jul 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -333,8 +550,8 @@
    ]
   },
   {
-   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -390,6 +607,13 @@
    "agents": []
   },
   {
+   "title": "\"계좌 보기 무섭다\" \"하루만에 -30%, 지옥\"…증시급락에 공포(종합) - 연합뉴스",
+   "pub": "Mon, 08 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "Micron Rockets 4.2% as GPT-6 Reignites the Memory Trade",
    "pub": "Fri, 04 Sep 2026",
    "src": "en",
@@ -437,175 +661,6 @@
    "pub": "Fri, 04 Sep 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Why Micron Stock Just Popped",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SanDisk Rises 8%, Micron Gains 5%: Is the NAND Pricing Cycle Still Accelerating?",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Lynx Equity sees Micron and SanDisk breakout as volatility normalizes",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "ASML Plans 40% Japan Workforce Expansion to Support Chip Boom",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML (ASML) Stock Sinks As Market Gains: What You Should Know",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Protolabs CEO sees big impact from US reshoring despite potential tariffs",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ZEISS SMT CEO: China 15 Years Behind in Top Chip Tools",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Why Is Ichor Holdings (ICHR) Down 27.4% Since Last Earnings Report?",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Should You Buy, Sell or Hold AMAT Stock After a 72.5% YTD Rise?",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Onto Innovation (ONTO) Unveiled Dragonfly G5 At SEMICON Taiwan 2026",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "PANW Q4 Earnings Beat Estimates on Platformization Strength",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Kulicke and Soffa (KLIC) Forms 'Hammer Chart Pattern': Time for Bottom Fishing?",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Teradyne to Present at the 2026 Goldman Sachs Communacopia + Technology Conference",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "TSMC Jumps as a Three-Hectare Lab Attacks Its Packaging Bottleneck",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "TSM",
-   "agents": []
-  },
-  {
-   "title": "TSMC's 67.7% Margin Now Needs Twice the Cleaning Chemistry",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "TSM",
-   "agents": []
-  },
-  {
-   "title": "Apple’s New Foldable iPhone Could Cost $2,000, Citi Says: TSMC, Amphenol Among Stocks To Watch",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "TSM",
-   "agents": []
-  },
-  {
-   "title": "Marvell Technology and Taiwan Semiconductor are No-Brainer Picks: They Have What Wins in a Gold Rush",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "TSM",
-   "agents": []
-  },
-  {
-   "title": "Opinion: TSMC Is a Better Buy Than Any of the \"Magnificent Seven\" Stocks Right Now",
-   "pub": "Fri, 04 Sep 2026",
-   "src": "en",
-   "q": "TSM",
-   "agents": []
-  },
-  {
-   "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 9% Above Fair Value As Capex Plans Grow",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "en",
-   "q": "TSM",
-   "agents": []
-  },
-  {
-   "title": "Why is Taiwan hiding the backers of its $20B US pledge?",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "en",
-   "q": "TSM",
-   "agents": []
-  },
-  {
-   "title": "How to Invest in China's AI Revolution",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "TSM",
-   "agents": []
-  },
-  {
-   "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM): The Powerhouse of Advanced Semiconductor Manufacturing",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "en",
-   "q": "TSM",
    "agents": []
   }
  ],
