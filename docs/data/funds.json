@@ -1,26 +1,26 @@
 {
- "ts_kst": "09-04 14:51",
+ "ts_kst": "09-04 15:01",
  "current": {
   "deposit": {
    "label": "투자자예탁금",
-   "date": "09/02",
-   "value_jo": 102.27,
-   "chg_jo": 4.098,
-   "chg_pct": 4.17
+   "date": "09/03",
+   "value_jo": 97.76,
+   "chg_jo": -4.506,
+   "chg_pct": -4.41
   },
   "credit": {
    "label": "신용융자",
-   "date": "09/02",
-   "value_jo": 33.44,
-   "chg_jo": 0.01,
-   "chg_pct": 0.03
+   "date": "09/03",
+   "value_jo": 33.54,
+   "chg_jo": 0.102,
+   "chg_pct": 0.3
   },
   "cma": {
    "label": "CMA잔고",
-   "date": "09/02",
-   "value_jo": 103.53,
-   "chg_jo": -1.363,
-   "chg_pct": -1.3
+   "date": "09/03",
+   "value_jo": 103.52,
+   "chg_jo": -0.004,
+   "chg_pct": 0.0
   },
   "equity_fund": {
    "label": "주식형펀드 순자산",
@@ -31,10 +31,15 @@
   }
  },
  "derived": {
-  "dry_powder_jo": 44.3,
-  "credit_ratio": 32.7
+  "dry_powder_jo": 39.8,
+  "credit_ratio": 34.3
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "mid",
+   "text": "예탁금 -4.4% — 자금 이탈 가속."
+  }
+ ],
  "log": [
   {
    "date": "07/28",
@@ -191,6 +196,12 @@
    "deposit": 102.27,
    "credit": 33.44,
    "cma": 103.53
+  },
+  {
+   "date": "09/03",
+   "deposit": 97.76,
+   "credit": 33.54,
+   "cma": 103.52
   }
  ]
 }
