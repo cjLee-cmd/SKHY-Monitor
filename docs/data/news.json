@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-06 05:07",
+ "ts_kst": "09-06 05:16",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -8,12 +8,12 @@
  "routed": {
   "C-BUYBACK": 1,
   "P-ADR": 1,
-  "M-CYCLE": 11,
+  "M-CYCLE": 12,
   "C-CHINA": 8,
   "F-ACTIVE": 10,
   "R-LEVERAGE": 11
  },
- "unassigned": 61,
+ "unassigned": 60,
  "alerts": [],
  "items": [
   {
@@ -422,7 +422,7 @@
    "agents": []
   },
   {
-   "title": "중동 악재에 외국인 현·선물 2조 순매도…\"위험 노출 축소\" - news1.kr",
+   "title": "중동 악재에 외국인 현·선물 2조 순매도…\"위험 노출 축소\" - 뉴스1",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -490,15 +490,6 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -519,6 +510,15 @@
   {
    "title": "삼성전자 신용잔고 사상 최대 … 7월 폭락장 '빚투' 뇌관 '데자뷔' - 뉴데일리",
    "pub": "Fri, 28 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -626,6 +626,15 @@
    ]
   },
   {
+   "title": "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM",
+   "pub": "Sat, 05 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Recent News From Nvidia and SK Hynix Reveals Exactly What the Market Expects for Micron Technology's Future",
    "pub": "Sat, 05 Sep 2026",
    "src": "en",
@@ -636,15 +645,6 @@
   },
   {
    "title": "China's Biggest Memory Chip Stock Is Almost as Good as Micron",
-   "pub": "Sat, 05 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron and Western Digital Shares Skyrocket, What You Need To Know",
    "pub": "Sat, 05 Sep 2026",
    "src": "en",
    "q": "MU",
