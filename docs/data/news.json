@@ -1,29 +1,19 @@
 {
- "ts_kst": "09-06 00:37",
- "n_items": 105,
+ "ts_kst": "09-06 00:47",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
-  "C-CHINA": 10,
+  "C-CHINA": 9,
   "P-ADR": 1,
   "M-CYCLE": 10,
   "F-ACTIVE": 11,
   "R-LEVERAGE": 11
  },
  "unassigned": 62,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "노무라 “삼성전자·SK하이닉스 심각한 저평가…67만원·470만원 간다” - 경기일보",
@@ -93,8 +83,8 @@
    "agents": []
   },
   {
-   "title": "美, '투자 연계' 반도체 관세 검토…삼전닉스 '고심' - 네이트",
-   "pub": "Sat, 05 Sep 2026",
+   "title": "메모리 호황에 미국 반도체 지원정책 바뀔 조짐, 삼성전자와 SK하이닉스 투자 유도에 힘 싣나 - 비즈니스포스트",
+   "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -177,24 +167,8 @@
    "agents": []
   },
   {
-   "title": "삼성 반도체 기술 훔친 中 CXMT…처벌까지 10년, 그새 '세계 4위' - edaily.co.kr",
-   "pub": "Wed, 02 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "“반도체만 성과급 잔치?”…삼성 DX노조, 이재용 집 앞까지 간 이유 - 세계일보",
    "pub": "Sat, 05 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "메모리 호황에 미국 반도체 지원정책 바뀔 조짐, 삼성전자와 SK하이닉스 투자 유도에 힘 싣나 - 비즈니스포스트",
-   "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -207,14 +181,21 @@
    "agents": []
   },
   {
-   "title": "[단독]삼성전자 '강제 전배' 논란 법정행···직원 300명 소송한다 - 뉴스웨이",
+   "title": "삼성전자, D램 수요 폭증에 팹 전략 재편 가속…평택공장 총동원 - 블로터",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, D램 수요 폭증에 팹 전략 재편 가속…평택공장 총동원 - 블로터",
+   "title": "[주식시황]삼성전자·SK하이닉스 반등…반도체 투톱 ‘상승 출발’ - 남도일보",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "\"AI 매출 221% 폭증\"…브로드컴, 삼성전자 '2000억弗 동맹' 청신호 - ebn.co.kr",
    "pub": "Thu, 03 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -656,6 +637,15 @@
   },
   {
    "title": "Micron Stock Closes Above $1,000. Why It’s Not What It Seems.",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "David Tepper Sold 41% of His Micron Shares and It Is Still His Second-Biggest Holding",
    "pub": "Fri, 04 Sep 2026",
    "src": "en",
    "q": "MU",
