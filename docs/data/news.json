@@ -1,28 +1,18 @@
 {
- "ts_kst": "09-07 07:12",
+ "ts_kst": "09-07 07:22",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 20,
-  "C-CHINA": 8,
+  "M-CYCLE": 19,
+  "C-CHINA": 6,
   "F-ACTIVE": 10,
   "R-LEVERAGE": 12
  },
- "unassigned": 54,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 55,
+ "alerts": [],
  "items": [
   {
    "title": "미국이 SK하이닉스를 잡았다…5조 5000억 HBM 공장 가보니 [특파원 토크, 특톡] - 채널A",
@@ -52,33 +42,6 @@
   {
    "title": "2분기 낸드 시장 70% 성장… 삼성·SK하이닉스 1·2위 수성 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 04 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성 약진에 中 CXMT 진출… HBM시장 요동 - v.daum.net",
-   "pub": "Sun, 06 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA",
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성 약진에 HBM시장 요동... 중국 CXMT 진출 - 네이버 프리미엄콘텐츠",
-   "pub": "Sun, 06 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA",
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "美증시 내려도 반도체 3.4% 급등…SK하이닉스·삼성전자, 월요일 외국인 수급 주목 - 녹색경제신문",
-   "pub": "Sat, 05 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -114,7 +77,7 @@
    "agents": []
   },
   {
-   "title": "“개별주 못 믿겠다”…서학개미, 마이크론·SK하이닉스 팔고 ‘속슬’에 베팅 - ekn.kr",
+   "title": "“개별주 못 믿겠다”…서학개미, 마이크론·SK하이닉스 팔고 ‘속슬’에 베팅 - 에너지경제신문",
    "pub": "Sun, 06 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -142,6 +105,29 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "美증시 내려도 반도체 3.4% 급등…SK하이닉스·삼성전자, 월요일 외국인 수급 주목 - 녹색경제신문",
+   "pub": "Sat, 05 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 급락에 손절?…11월 21일 전에 팔면 지옥문 열린다 (윤석천 경제평론가) - 서울경제",
+   "pub": "Thu, 03 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스-키옥시아 맞손 언급 최태원, 'D램 or 낸드' 선택은 - 딜사이트",
+   "pub": "Sun, 06 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "‘반도체 관세 표적’ 삼성·SK 보란 듯 마이크론 CEO “우리의 美 투자 자랑스럽다” - v.daum.net",
@@ -197,14 +183,21 @@
    "agents": []
   },
   {
-   "title": "삼성, 순환자원 인정 38건…반도체·가전 폐기물 자원화 - 머니투데이 - 머니투데이",
+   "title": "삼성전자, 폐기물을 자원으로…반도체부터 가전까지 순환경제 확대 - 데일리안",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 폐기물을 자원으로…반도체부터 가전까지 순환경제 확대 - 데일리안",
+   "title": "삼성전자, 반도체·가전 폐기물 재활용 확대…순환자원 인정 38건 - 네이트",
+   "pub": "Fri, 04 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 스마트폰 주 기판 'HDI' 조달 골머리 - 지디넷코리아",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -213,13 +206,6 @@
   {
    "title": "삼성전자 非반도체 동행노조, 뉴욕 타임스스퀘어 광고…\"우리도 여기 있다\" - 뉴시스",
    "pub": "Sun, 06 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 스마트폰 주 기판 'HDI' 조달 골머리 - 지디넷코리아",
-   "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -621,7 +607,7 @@
    ]
   },
   {
-   "title": "Dow Jones Futures Eye Iran With Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
+   "title": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
    "pub": "Sun, 06 Sep 2026",
    "src": "en",
    "q": "MU",
