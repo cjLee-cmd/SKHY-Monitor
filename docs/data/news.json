@@ -1,27 +1,34 @@
 {
- "ts_kst": "09-07 10:14",
- "n_items": 103,
+ "ts_kst": "09-07 10:24",
+ "n_items": 101,
  "by_source": {
-  "kr": 75,
+  "kr": 73,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 15,
-  "F-ACTIVE": 11,
+  "M-CYCLE": 18,
+  "P-ADR": 1,
   "C-CHINA": 6,
+  "F-ACTIVE": 10,
   "R-LEVERAGE": 14
  },
- "unassigned": 57,
- "alerts": [],
+ "unassigned": 52,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "목표가+상향",
+   "src": "kr",
+   "title": "SK하이닉스 목표가는 230만원 '상향'...삼성전자는 '유지' 왜? - 마켓인",
+   "agents": []
+  }
+ ],
  "items": [
   {
-   "title": "HBM 이어 낸드도 AI 특수…삼성·SK하이닉스, 시장 절반 차지 - 머니투데이 - 머니투데이",
-   "pub": "Mon, 07 Sep 2026",
+   "title": "SK하이닉스, 최첨단 D램 비중 확 늘린다… 내년 초 1c가 주력 공정 - 조선비즈 - Chosunbiz",
+   "pub": "Sun, 06 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "'불기둥' 삼성전자·SK하이닉스⋯코스피 6900선 복귀 - v.daum.net",
@@ -31,6 +38,40 @@
    "agents": []
   },
   {
+   "title": "\"HBM 가격 상승, 내년 실적도 견조\" SK하이닉스 목표가 230만↑-DB - 머니투데이 - 머니투데이",
+   "pub": "Sun, 06 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스 목표가는 230만원 '상향'...삼성전자는 '유지' 왜? - 마켓인",
+   "pub": "Mon, 07 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "핵심은 'HBM 1층'...누가 설계할 것인가 [AI칩 인사이드] - MTN 머니투데이방송",
+   "pub": "Mon, 07 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "미국이 SK하이닉스를 잡았다…5조 5000억 HBM 공장 가보니 [특파원 토크, 특톡] - 채널A",
+   "pub": "Sun, 06 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "다시 꿈틀대는 SK하이닉스 주가…향후 핵심 이벤트 6가지 - 한국경제",
    "pub": "Fri, 04 Sep 2026",
    "src": "kr",
@@ -38,18 +79,13 @@
    "agents": []
   },
   {
-   "title": "KB증권 \"내년 메모리 사상 초유의 공급 부족 온다…삼성전자·SK하이닉스 극단적 저평가\" - 이투데이",
-   "pub": "Sun, 06 Sep 2026",
+   "title": "HBM 이어 낸드도 AI 특수…삼성·SK하이닉스, 시장 절반 차지 - 머니투데이 - 머니투데이",
+   "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼전닉스, 바닥 다졌나…노무라 '초저평가'에 美 반도체 랠리까지 - 연합인포맥스",
-   "pub": "Sun, 06 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성·SK하이닉스가 끌었다…한국 브랜드 가치 480조 - 스트레이트뉴스",
@@ -87,38 +123,17 @@
    "agents": []
   },
   {
-   "title": "[M-커버스토리] '제2의 SK하이닉스' 싹 자를라…양날의 검 된 '코스닥 상폐' 칼바람 - 메트로신문",
-   "pub": "Sun, 06 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[투자자 순매수 TOP5] 3대 수급 주체 동반 매도…SK하이닉스 순매도 1위 - SBS Biz",
-   "pub": "Sun, 06 Sep 2026",
+   "title": "SK하이닉스 ADR 상장 시초가 '170달러' 회복…메모리 반도체 기업 강세 - 연합인포맥스",
+   "pub": "Fri, 04 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "F-ACTIVE"
+    "P-ADR"
    ]
   },
   {
-   "title": "SK하이닉스, 최첨단 D램 비중 확 늘린다… 내년 초 1c가 주력 공정 - 조선비즈 - Chosunbiz",
+   "title": "KB증권 \"내년 메모리 사상 초유의 공급 부족 온다…삼성전자·SK하이닉스 극단적 저평가\" - 이투데이",
    "pub": "Sun, 06 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[특징주] 삼성전자·SK하이닉스 동반 강세…美 반도체주 훈풍 - 에너지경제신문",
-   "pub": "Mon, 07 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "특징주, SK하이닉스-반도체 생산 테마 상승세에 5.18% ↑ - 매일경제 마켓",
-   "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -205,13 +220,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자 非반도체 동행노조, 뉴욕 타임스스퀘어 광고…\"우리도 여기 있다\" - 뉴시스",
-   "pub": "Sun, 06 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성바이오로직스, 3조 유증…'반도체 호황' 삼성전자 지원 촉각 - numbers.co.kr",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
@@ -226,13 +234,6 @@
    "agents": []
   },
   {
-   "title": "금리 경계감 뚫은 반도체···삼성전자·SK하이닉스 동반 상승 - 뉴스웨이",
-   "pub": "Sun, 06 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "중국 메모리 반도체 기업, 상반기 실적 ‘사상 최대’ - 비즈월드",
    "pub": "Wed, 02 Sep 2026",
    "src": "kr",
@@ -240,8 +241,15 @@
    "agents": []
   },
   {
-   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
+   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - businesspost.co.kr",
    "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "美 정부, 애플에 중국산 메모리 반도체 구매 자제 촉구 - 연합인포맥스",
+   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -258,13 +266,6 @@
   {
    "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
    "pub": "Fri, 28 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "美 정부, 애플에 중국산 메모리 반도체 구매 자제 촉구 - 연합인포맥스",
-   "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -297,21 +298,21 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
    "pub": "Thu, 05 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
     "M-CYCLE"
+   ]
+  },
+  {
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
    ]
   },
   {
@@ -331,7 +332,7 @@
    ]
   },
   {
-   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - 비즈니스포스트",
+   "title": "메모리반도체 주가 반등 놓고 전망 엇갈려, 중국 CXMT 입지 확대할지가 변수 - businesspost.co.kr",
    "pub": "Wed, 12 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -347,8 +348,8 @@
    "agents": []
   },
   {
-   "title": "“중국 반도체 ‘접는 기술’로 맹추격…메모리 격차 크지 않아” - hani.co.kr",
-   "pub": "Wed, 10 Jun 2026",
+   "title": "기술도 시장 점유율도 숨 가쁘게 추격…중국의 진짜 두려운 무기는 ‘인재’ - 경향신문",
+   "pub": "Mon, 04 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -404,7 +405,7 @@
    ]
   },
   {
-   "title": "올해 외국인 코스피 순매수 단 두 달…9월도 '팔자' 이어가나(종합) - v.daum.net",
+   "title": "올해 외국인 코스피 순매수 단 두 달…9월도 '팔자' 이어가나(종합) - 매일경제 마켓",
    "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -649,6 +650,24 @@
   },
   {
    "title": "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM",
+   "pub": "Sat, 05 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Recent News From Nvidia and SK Hynix Reveals Exactly What the Market Expects for Micron Technology's Future",
+   "pub": "Sat, 05 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "China's Biggest Memory Chip Stock Is Almost as Good as Micron",
    "pub": "Sat, 05 Sep 2026",
    "src": "en",
    "q": "MU",
