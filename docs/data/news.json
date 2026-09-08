@@ -1,19 +1,28 @@
 {
- "ts_kst": "09-08 23:58",
- "n_items": 98,
+ "ts_kst": "09-09 00:08",
+ "n_items": 99,
  "by_source": {
-  "kr": 73,
-  "en": 24,
-  "dart": 1
+  "kr": 75,
+  "en": 24
  },
  "routed": {
   "C-CHINA": 8,
   "M-CYCLE": 12,
   "F-ACTIVE": 10,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 14
  },
- "unassigned": 56,
- "alerts": [],
+ "unassigned": 55,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 목표가는 230만원 '상향'...삼성전자는 '유지' 왜? - edaily.co.kr",
@@ -41,7 +50,7 @@
    ]
   },
   {
-   "title": "\"스마트폰 원가 절반이 메모리반도체\" 전망 나와, 삼성전자 SK하이닉스 증설도 '역부족' - 비즈니스포스트",
+   "title": "\"스마트폰 원가 절반이 메모리반도체\" 전망 나와, 삼성전자 SK하이닉스 증설도 '역부족' - businesspost.co.kr",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -76,14 +85,28 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주가 장중 5%대 올라, 미국 반도체주 훈풍에 삼성전자도 강세 - 비즈니스포스트",
+   "title": "SK하이닉스 주가 장중 5%대 올라, 미국 반도체주 훈풍에 삼성전자도 강세 - businesspost.co.kr",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "최태원 “SK하이닉스 일본 투자, 조만간 결론…한일 경제공동체 필요” - 부산일보",
+   "title": "삼성전자·SK하이닉스 3분기 실적 전망 상향…주가도 동반 반등 - v.daum.net",
+   "pub": "Mon, 07 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "메모리 초호황인데…\"삼전 주가 상승 막는 MX·노조 리스크\" [분석+] - hankyung.com",
+   "pub": "Mon, 07 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "최태원 \"SK하이닉스 일본 투자, 조만간 결론…지역·방식 검토 중\" - 한경매거진&북",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -97,7 +120,7 @@
    "agents": []
   },
   {
-   "title": "최태원 \"SK하이닉스 일본 투자, 조만간 결론…지역·방식 검토 중\" - 한경매거진&북",
+   "title": "최태원 “SK하이닉스 일본 투자, 조만간 결론…한일 경제공동체 필요” - 부산일보",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -111,28 +134,7 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 일하기 좋다\"…리뷰 뜯었더니 '종합 1위' - hankyung.com",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"여기서 일하고 싶다\"...직장인들이 뽑은 기업 1위는 SK하이닉스 - 파이낸셜뉴스",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "올 2분기 세계 D램 1위 삼성전자...3분기엔 상승폭 둔화 예상 - 조선일보",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼전닉스 팔고 '이 종목' 쓸어 담는다…1.3조 뭉칫돈 '대이동' - hankyung.com",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -160,7 +162,7 @@
    "agents": []
   },
   {
-   "title": "“삼성 반도체 곧 000명 잘린다”…월세 70만원 지원금 꼼수 발칵 - joongang.co.kr",
+   "title": "“삼성 반도체 곧 000명 잘린다”…월세 70만원 지원금 꼼수 발칵 - 중앙일보",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -202,8 +204,15 @@
    "agents": []
   },
   {
-   "title": "[821조 슈퍼예산①] 정부 '3대 메가프로젝트+AI'에 21.3조, 이재용 삼성전자 '반도체·로봇' 성장엔진 가속 - 비즈니스포스트",
+   "title": "[821조 슈퍼예산①] 정부 '3대 메가프로젝트+AI'에 21.3조, 이재용 삼성전자 '반도체·로봇' 성장엔진 가속 - businesspost.co.kr",
    "pub": "Mon, 07 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼전닉스 팔고 '이 종목' 쓸어 담는다…1.3조 뭉칫돈 '대이동' - hankyung.com",
+   "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -223,7 +232,14 @@
    "agents": []
   },
   {
-   "title": "중국 관영매체 한국은행의 메모리반도체 주도권 보고서 반박, \"삼성전자 SK하이닉스와 CXMT 공존 가능\" - 비즈니스포스트",
+   "title": "삼성전자 반도체 일부 직원 '월세 70만 원' 부당 수령 의혹, 회사 사실조사 착수 - businesspost.co.kr",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "중국 관영매체 한국은행의 메모리반도체 주도권 보고서 반박, \"삼성전자 SK하이닉스와 CXMT 공존 가능\" - businesspost.co.kr",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -321,7 +337,7 @@
    ]
   },
   {
-   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
+   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - businesspost.co.kr",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -387,7 +403,7 @@
    "agents": []
   },
   {
-   "title": "[코스피 시황] 기관 매수·SK하이닉스 강세…외국인 매도에도 7000선 위 - 톱스타뉴스",
+   "title": "[코스피 시황] 기관 매수·SK하이닉스 강세…외국인 매도에도 7000선 위 - topstarnews.net",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -559,8 +575,8 @@
    ]
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - v.daum.net",
-   "pub": "Sun, 12 Jul 2026",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+   "pub": "Mon, 13 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -568,11 +584,13 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
+   "title": "증시 변동성에 증거금률 줄상향…신용융자·미수거래 빗장 - 대한경제",
+   "pub": "Thu, 09 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": []
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
@@ -586,6 +604,15 @@
   {
    "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -630,24 +657,6 @@
   },
   {
    "title": "Micron's $50 Billion Guide Gets an 8.3% Signal From Seoul",
-   "pub": "Mon, 07 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron, SanDisk get new aggressive price targets from top analyst",
-   "pub": "Mon, 07 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Is Micron Technology Stock Running Out of Steam?",
    "pub": "Mon, 07 Sep 2026",
    "src": "en",
    "q": "MU",
