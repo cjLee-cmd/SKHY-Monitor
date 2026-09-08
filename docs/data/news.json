@@ -1,35 +1,32 @@
 {
- "ts_kst": "09-09 06:44",
- "n_items": 96,
+ "ts_kst": "09-09 06:54",
+ "n_items": 97,
  "by_source": {
   "kr": 73,
-  "en": 23
+  "en": 24
  },
  "routed": {
+  "C-BUYBACK": 1,
   "C-CHINA": 8,
-  "M-CYCLE": 12,
+  "M-CYCLE": 13,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 13
  },
- "unassigned": 54,
- "alerts": [],
+ "unassigned": 53,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "코스피 오픈AI의 '아스트라' 훈풍 타고 들썩, 삼성전자 SK하이닉스 자사주 매입과 외국인 수급에 기대 커져 - 비즈니스포스트",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "코스피, 3주 만에 7000선 회복...SK하이닉스 180만원 '눈앞' - 녹색경제신문",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'불기둥' 삼성전자·SK하이닉스⋯코스피 6900선 복귀 - v.daum.net",
-   "pub": "Mon, 07 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"롤러코스피 무서워\"…반도체 반등에도 개인은 안정형 ETF로 - 매일경제 마켓",
+   "title": "SK하이닉스 목표가는 230만원 '상향'...삼성전자는 '유지' 왜? - edaily.co.kr",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -43,14 +40,30 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 목표가는 230만원 '상향'...삼성전자는 '유지' 왜? - edaily.co.kr",
+   "title": "삼성전자·SK하이닉스 3분기 실적 전망 상향…주가도 동반 반등 - v.daum.net",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 3분기 실적 전망 상향…주가도 동반 반등 - v.daum.net",
+   "title": "코스피, 3주 만에 7000선 회복...SK하이닉스 180만원 '눈앞' - 녹색경제신문",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피 오픈AI의 '아스트라' 훈풍 타고 들썩, 삼성전자 SK하이닉스 자사주 매입과 외국인 수급에 기대 커져 - 비즈니스포스트",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "'불기둥' 삼성전자·SK하이닉스⋯코스피 6900선 복귀 - v.daum.net",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -166,7 +179,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 프랑스 미스트랄 AI와 '반도체 특화 AI' 공동개발 - 매일경제 마켓",
+   "title": "삼성전자 '미스트랄 AI'에 대규모 지분 투자, 반도체 설계·제조 AI 전환 가속 - 비즈니스포스트",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -592,6 +605,15 @@
    ]
   },
   {
+   "title": "Micron (MU) Falls More Steeply Than Broader Market: What Investors Need to Know",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron and Sandisk Soar as Goldman Sees New Memory Stock Rally",
    "pub": "Tue, 08 Sep 2026",
    "src": "en",
@@ -638,15 +660,6 @@
   },
   {
    "title": "Micron Price Targets Are Rising - Bull Put Credit Spreads in MU Are Attractive for Investors with Limited Funds",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Micron Technology Stock Surged 16.5% Last Month",
    "pub": "Tue, 08 Sep 2026",
    "src": "en",
    "q": "MU",
