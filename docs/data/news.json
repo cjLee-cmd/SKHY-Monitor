@@ -1,29 +1,19 @@
 {
- "ts_kst": "09-09 04:15",
- "n_items": 98,
+ "ts_kst": "09-09 04:24",
+ "n_items": 97,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 23
  },
  "routed": {
   "C-CHINA": 9,
-  "M-CYCLE": 11,
   "C-BUYBACK": 1,
+  "M-CYCLE": 9,
   "F-ACTIVE": 10,
-  "R-LEVERAGE": 13
+  "R-LEVERAGE": 12
  },
- "unassigned": 54,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 56,
+ "alerts": [],
  "items": [
   {
    "title": "삼성 D램 점유율 40% 육박…SK하이닉스 주춤한 사이 CXMT 10% 눈앞 [비즈360] - v.daum.net",
@@ -33,22 +23,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "美 마이크론, 2위 SK하이닉스 D램 점유율 1%대로 좁혔다 - dt.co.kr",
-   "pub": "Mon, 07 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스, 최첨단 D램 비중 확 늘린다… 내년 초 1c가 주력 공정 - 조선비즈 - biz.chosun.com",
-   "pub": "Sun, 06 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "SK하이닉스 목표가는 230만원 '상향'...삼성전자는 '유지' 왜? - edaily.co.kr",
@@ -102,14 +76,14 @@
    ]
   },
   {
-   "title": "\"롤러코스피 무서워\"…반도체 반등에도 개인은 안정형 ETF로 - 매일경제 마켓",
+   "title": "'불기둥' 삼성전자·SK하이닉스⋯코스피 6900선 복귀 - v.daum.net",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "최태원 “SK하이닉스 일본 투자, 조만간 결론…한일 경제공동체 필요” - 부산일보",
+   "title": "최태원 \"SK하이닉스 일본 투자, 조만간 결론…지역·방식 검토 중\" - 한경매거진&북",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -123,7 +97,7 @@
    "agents": []
   },
   {
-   "title": "최태원 \"SK하이닉스 일본 투자, 조만간 결론…지역·방식 검토 중\" - v.daum.net",
+   "title": "최태원 “SK하이닉스 일본 투자, 조만간 결론…한일 경제공동체 필요” - 부산일보",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -137,7 +111,21 @@
    "agents": []
   },
   {
-   "title": "“삼성 반도체 곧 000명 잘린다”…월세 70만원 지원금 꼼수 발칵 - 중앙일보",
+   "title": "\"SK하이닉스 일하기 좋다\"…리뷰 뜯었더니 '종합 1위' - 한국경제",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"여기서 일하고 싶다\"...직장인들이 뽑은 기업 1위는 SK하이닉스 - 파이낸셜뉴스",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성 반도체 부문, ‘월 70만 원’ 주거지원금 부정수급 의혹에 시끌 - KBS 뉴스",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -151,7 +139,7 @@
    "agents": []
   },
   {
-   "title": "억대 성과급 삼성 반도체 ‘월세 지원 70만원’ 부정 수급 의혹에 시끌 - 조선일보",
+   "title": "“삼성 반도체 곧 000명 잘린다”…월세 70만원 지원금 꼼수 발칵 - 중앙일보",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -179,7 +167,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 프랑스 미스트랄 AI와 '반도체 특화 AI' 공동개발 - 매일경제 마켓",
+   "title": "삼성전자, 미스트랄 AI와 전략적 파트너십…'반도체 특화 AI' 구축 - v.daum.net",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -235,7 +223,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 일부 직원 '월세 70만 원' 부당 수령 의혹, 회사 사실조사 착수 - 비즈니스포스트",
+   "title": "억대 성과급 삼성 반도체 ‘월세 지원 70만원’ 부정 수급 의혹에 시끌 - 조선일보",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -394,7 +382,7 @@
    ]
   },
   {
-   "title": "외국인·기관 사자에 코스피 3%대 상승세…6900 탈환 고지전 - 조선비즈 - biz.chosun.com",
+   "title": "외국인·기관 사자에 코스피 3%대 상승세…6900 탈환 고지전 - 조선비즈 - Chosunbiz",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -580,13 +568,6 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - v.daum.net",
    "pub": "Sun, 12 Jul 2026",
    "src": "kr",
@@ -594,6 +575,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
@@ -614,15 +602,6 @@
    ]
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones; Micron Holds Steady, Apple Slips",
    "pub": "Tue, 08 Sep 2026",
    "src": "en",
@@ -633,6 +612,15 @@
   },
   {
    "title": "Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Price Targets Are Rising - Bull Put Credit Spreads in MU Are Attractive for Investors with Limited Funds",
    "pub": "Tue, 08 Sep 2026",
    "src": "en",
    "q": "MU",
