@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-08 09:09",
+ "ts_kst": "09-08 09:19",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -17,28 +17,29 @@
    },
    "brokers": {
     "sell": {
-     "total": 440458.0,
-     "foreign": 182256.0,
-     "foreign_pct": 41.4,
+     "total": 780933.0,
+     "foreign": 111136.0,
+     "foreign_pct": 14.2,
      "houses": [
       {
        "name": "JP모간",
-       "qty": 104462.0
-      },
-      {
-       "name": "UBS",
-       "qty": 77794.0
+       "qty": 111136.0
       }
      ]
     },
     "buy": {
-     "total": 449363.0,
-     "foreign": 0.0,
-     "foreign_pct": 0.0,
-     "houses": []
+     "total": 777800.0,
+     "foreign": 126419.0,
+     "foreign_pct": 16.3,
+     "houses": [
+      {
+       "name": "JP모간",
+       "qty": 126419.0
+      }
+     ]
     },
-    "net_foreign_qty": -182256.0,
-    "foreign_share_pct": 20.5
+    "net_foreign_qty": 15283.0,
+    "foreign_share_pct": 15.2
    }
   },
   "hynix": {
@@ -57,13 +58,13 @@
    },
    "brokers": {
     "sell": {
-     "total": 134813.0,
+     "total": 243660.0,
      "foreign": 0.0,
      "foreign_pct": 0.0,
      "houses": []
     },
     "buy": {
-     "total": 103601.0,
+     "total": 205537.0,
      "foreign": 0.0,
      "foreign_pct": 0.0,
      "houses": []
