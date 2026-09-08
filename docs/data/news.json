@@ -1,8 +1,8 @@
 {
- "ts_kst": "09-09 06:54",
- "n_items": 97,
+ "ts_kst": "09-09 07:04",
+ "n_items": 99,
  "by_source": {
-  "kr": 73,
+  "kr": 75,
   "en": 24
  },
  "routed": {
@@ -12,15 +12,15 @@
   "F-ACTIVE": 9,
   "R-LEVERAGE": 13
  },
- "unassigned": 53,
+ "unassigned": 55,
  "alerts": [
   {
-   "level": "info",
-   "kw": "자사주+매입",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "코스피 오픈AI의 '아스트라' 훈풍 타고 들썩, 삼성전자 SK하이닉스 자사주 매입과 외국인 수급에 기대 커져 - 비즈니스포스트",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "agents": [
-    "C-BUYBACK"
+    "R-LEVERAGE"
    ]
   }
  ],
@@ -63,7 +63,7 @@
    ]
   },
   {
-   "title": "'불기둥' 삼성전자·SK하이닉스⋯코스피 6900선 복귀 - v.daum.net",
+   "title": "\"롤러코스피 무서워\"…반도체 반등에도 개인은 안정형 ETF로 - 매일경제 마켓",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -137,21 +137,21 @@
    "agents": []
   },
   {
+   "title": "삼성 반도체 부문, ‘월 70만 원’ 주거지원금 부정수급 의혹에 시끌 - KBS 뉴스",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성 반도체 일부 직원, 주거지원금 부정수급 의혹…조사 착수 - 연합뉴스",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "“삼성 반도체 곧 000명 잘린다”…월세 70만원 지원금 꼼수 발칵 - 중앙일보",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 반도체 일부 직원 '월세 70만 원' 부당 수령 의혹, 회사 사실조사 착수 - 비즈니스포스트",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "억대 성과급 삼성 반도체 ‘월세 지원 70만원’ 부정 수급 의혹에 시끌 - 조선일보",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -172,15 +172,15 @@
    "agents": []
   },
   {
-   "title": "삼성, 파운드리 DSP '옥석 가리기'…13곳→11곳 재편 - 전자신문",
-   "pub": "Mon, 07 Sep 2026",
+   "title": "삼성전자 '미스트랄 AI'에 대규모 지분 투자, 반도체 설계·제조 AI 전환 가속 - 비즈니스포스트",
+   "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자 '미스트랄 AI'에 대규모 지분 투자, 반도체 설계·제조 AI 전환 가속 - 비즈니스포스트",
-   "pub": "Tue, 08 Sep 2026",
+   "title": "삼성, 파운드리 DSP '옥석 가리기'…13곳→11곳 재편 - 전자신문",
+   "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -221,8 +221,22 @@
    "agents": []
   },
   {
-   "title": "[단독]삼성, 美정부 주도 '파운드리스쿨' 등판…AI 제조 생태계 합류 - edaily.co.kr",
-   "pub": "Mon, 07 Sep 2026",
+   "title": "[마감시황]삼성전자·SK하이닉스 ‘롤러코스터’…반도체 웃다 유가에 발목 - 남도일보",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "KB증권 \"내년 메모리 사상 초유의 공급 부족 온다…삼성전자·SK하이닉스 극단적 저평가\" - 이투데이",
+   "pub": "Sun, 06 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "억대 성과급 삼성 반도체 ‘월세 지원 70만원’ 부정 수급 의혹에 시끌 - 조선일보",
+   "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -424,13 +438,6 @@
    ]
   },
   {
-   "title": "[코스피 시황] 기관 매수·SK하이닉스 강세…외국인 매도에도 7000선 위 - 톱스타뉴스",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 외국인·기관 순매수에 4.61% 급등···6995선 마감 - 스마트비즈",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
@@ -438,6 +445,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "[코스피 시황] 기관 매수·SK하이닉스 강세…외국인 매도에도 7000선 위 - 톱스타뉴스",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "개인·외국인·기관 순매도…기타법인 매수에 코스피 6835선 마감 - futurechosun.com",
@@ -519,7 +533,7 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -641,25 +655,7 @@
    ]
   },
   {
-   "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones; Micron Holds Steady, Apple Slips",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Price Targets Are Rising - Bull Put Credit Spreads in MU Are Attractive for Investors with Limited Funds",
+   "title": "Micron and Sandisk Face a New China Threat -- 1 Has a Much Bigger Problem",
    "pub": "Tue, 08 Sep 2026",
    "src": "en",
    "q": "MU",
