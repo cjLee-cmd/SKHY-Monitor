@@ -1,8 +1,8 @@
 {
- "ts_kst": "09-09 03:25",
- "n_items": 98,
+ "ts_kst": "09-09 03:35",
+ "n_items": 99,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 24
  },
  "routed": {
@@ -10,10 +10,20 @@
   "M-CYCLE": 11,
   "C-BUYBACK": 1,
   "F-ACTIVE": 9,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 13
  },
  "unassigned": 56,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - JTBC 뉴스 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성 D램 점유율 40% 육박…SK하이닉스 주춤한 사이 CXMT 10% 눈앞 [비즈360] - v.daum.net",
@@ -430,7 +440,7 @@
    ]
   },
   {
-   "title": "코스피, 외국인·기관 순매수에 4.61% 급등···6995선 마감 - 스마트비즈",
+   "title": "코스피, 외국인·기관 순매수에 4.61% 급등···6995선 마감 - smartbizn.com",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -584,6 +594,15 @@
    "agents": []
   },
   {
+   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - JTBC 뉴스 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
@@ -639,15 +658,6 @@
   },
   {
    "title": "Micron's $50 Billion Guide Gets an 8.3% Signal From Seoul",
-   "pub": "Mon, 07 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron, SanDisk get new aggressive price targets from top analyst",
    "pub": "Mon, 07 Sep 2026",
    "src": "en",
    "q": "MU",
