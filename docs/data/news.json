@@ -1,30 +1,72 @@
 {
- "ts_kst": "09-09 03:35",
- "n_items": 99,
+ "ts_kst": "09-09 03:45",
+ "n_items": 98,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 24
  },
  "routed": {
+  "C-BUYBACK": 1,
   "C-CHINA": 9,
   "M-CYCLE": 11,
-  "C-BUYBACK": 1,
-  "F-ACTIVE": 9,
-  "R-LEVERAGE": 13
+  "F-ACTIVE": 10,
+  "R-LEVERAGE": 12
  },
- "unassigned": 56,
+ "unassigned": 55,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "증설",
    "src": "kr",
-   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - JTBC 뉴스 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "\"스마트폰 원가 절반이 메모리반도체\" 전망 나와, 삼성전자 SK하이닉스 증설도 '역부족' - businesspost.co.kr",
+   "agents": []
   }
  ],
  "items": [
+  {
+   "title": "SK하이닉스 목표가는 230만원 '상향'...삼성전자는 '유지' 왜? - edaily.co.kr",
+   "pub": "Mon, 07 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피 오픈AI의 '아스트라' 훈풍 타고 들썩, 삼성전자 SK하이닉스 자사주 매입과 외국인 수급에 기대 커져 - businesspost.co.kr",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "“반도체 전공 아니어도 됩니다”…SK하이닉스 ‘팹의 지휘자’가 찾는 인재는? - v.daum.net",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“코인도 물렸는데”…곽튜브, 이번엔 SK하이닉스에 ‘거의 몰빵’ -14% - 스타투데이 - 매일경제",
+   "pub": "Mon, 07 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "곽튜브 \"하이닉스 수익률 -14%\"…1500만원 좌석서 털어놓은 투자 손실 - v.daum.net",
+   "pub": "Mon, 07 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "곽튜브, 1500만원 퍼스트클래스 타면서 주식 걱정…\"하이닉스 -14%\" - 세계일보",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "삼성 D램 점유율 40% 육박…SK하이닉스 주춤한 사이 CXMT 10% 눈앞 [비즈360] - v.daum.net",
    "pub": "Tue, 08 Sep 2026",
@@ -44,100 +86,56 @@
    ]
   },
   {
-   "title": "SK하이닉스, 최첨단 D램 비중 확 늘린다… 내년 초 1c가 주력 공정 - 조선비즈 - Chosunbiz",
-   "pub": "Sun, 06 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 목표가는 230만원 '상향'...삼성전자는 '유지' 왜? - edaily.co.kr",
+   "title": "\"스마트폰 원가 절반이 메모리반도체\" 전망 나와, 삼성전자 SK하이닉스 증설도 '역부족' - businesspost.co.kr",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "“반도체 전공 아니어도 됩니다”…SK하이닉스 ‘팹의 지휘자’가 찾는 인재는? - v.daum.net",
+   "title": "SK하이닉스 \"2028년까지 D램 양산 High-NA EUV 적용 목표\" - 마켓인",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "“코인도 물렸는데”…곽튜브, 이번엔 SK하이닉스에 ‘거의 몰빵’ -14% - 스타투데이 - 매일경제",
+   "title": "SK하이닉스, 차세대 D램 미세공정 승부수…High-NA EUV 도입 - 뉴스핌",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 2028년 D램 공정에 High NA EUV 적용 - v.daum.net",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "KB證 “美·중 AI 경쟁 격화…삼성전자·SK하이닉스 최대 수혜” - etoday.co.kr",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "곽튜브, 1500만원 퍼스트클래스 타면서 주식 걱정…\"하이닉스 -14%\" - 세계일보",
+   "title": "마켓워치 \"삼성전자 SK하이닉스 주가에 오픈AI의 아스트라 효과 지속\", 내년 AI 메모리 지출 7천억 달러 전망 - businesspost.co.kr",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "곽튜브, SK하이닉스 '-14%' 인증…\"있는 돈 거의 다 때려 박아, 물 탄다\" - 뉴스1",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "코스피, 3주 만에 7000선 회복...SK하이닉스 180만원 '눈앞' - 녹색경제신문",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "코스피 오픈AI의 '아스트라' 훈풍 타고 들썩, 삼성전자 SK하이닉스 자사주 매입과 외국인 수급에 기대 커져 - businesspost.co.kr",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "\"롤러코스피 무서워\"…반도체 반등에도 개인은 안정형 ETF로 - 매일경제 마켓",
+   "title": "\"AI 싸움에 결국 돈 버는 건 삼전닉스\"…깜짝 전망 나왔다 - 한국경제",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "최태원 \"SK하이닉스 일본 투자, 조만간 결론…지역·방식 검토 중\" - 한경매거진&북",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "최태원 회장 \"SK하이닉스 일본 투자 곧 결론\" - 녹색경제신문",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "최태원 “SK하이닉스 일본 투자, 조만간 결론…한일 경제공동체 필요” - 부산일보",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "잡플래닛, 하반기 '일하기 좋은 기업' 59곳 선정…SK하이닉스 '대상' - 뉴스1",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성 반도체 부문, ‘월 70만 원’ 주거지원금 부정수급 의혹에 시끌 - news.kbs.co.kr",
+   "title": "“삼성 반도체 곧 000명 잘린다”…월세 70만원 지원금 꼼수 발칵 - 중앙일보",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -151,7 +149,7 @@
    "agents": []
   },
   {
-   "title": "“삼성 반도체 곧 000명 잘린다”…월세 70만원 지원금 꼼수 발칵 - 중앙일보",
+   "title": "삼성 반도체 부문, ‘월 70만 원’ 주거지원금 부정수급 의혹에 시끌 - news.kbs.co.kr",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -483,11 +481,13 @@
    "agents": []
   },
   {
-   "title": "외국인, 5~8월 100조원 넘게 팔더니…9월 현·선물 동반 매수 - 뉴스핌",
-   "pub": "Tue, 08 Sep 2026",
+   "title": "올해 외국인 코스피 순매수 단 두 달…9월도 '팔자' 이어가나(종합) - 연합뉴스",
+   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - nspna.com",
@@ -594,15 +594,6 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - JTBC 뉴스 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
@@ -658,6 +649,15 @@
   },
   {
    "title": "Micron's $50 Billion Guide Gets an 8.3% Signal From Seoul",
+   "pub": "Mon, 07 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron, SanDisk get new aggressive price targets from top analyst",
    "pub": "Mon, 07 Sep 2026",
    "src": "en",
    "q": "MU",
