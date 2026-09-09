@@ -1,18 +1,29 @@
 {
- "ts_kst": "09-09 13:12",
+ "ts_kst": "09-09 13:22",
  "n_items": 99,
  "by_source": {
   "kr": 74,
   "en": 25
  },
  "routed": {
+  "C-BUYBACK": 1,
   "C-CHINA": 7,
   "M-CYCLE": 11,
   "F-ACTIVE": 11,
   "R-LEVERAGE": 12
  },
- "unassigned": 58,
- "alerts": [],
+ "unassigned": 57,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "코스피 오픈AI의 '아스트라' 훈풍 타고 들썩, 삼성전자 SK하이닉스 자사주 매입과 외국인 수급에 기대 커져 - businesspost.",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, TSMC-ASML 주도 '대형 마스크 컨소시엄' 참여 검토 - 뉴시스",
@@ -43,7 +54,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 노조, 다음 주 임단협 재투표…추석 전 타결 주목 - 매일경제 마켓",
+   "title": "SK하이닉스 노조, 다음 주 임단협 재투표…추석 전 타결 주목 - 연합뉴스",
    "pub": "Wed, 09 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -71,15 +82,15 @@
    "agents": []
   },
   {
-   "title": "AI 데이터센터 투자 늘수록 메모리반도체가 '대세', 삼성전자 SK하이닉스 수혜 장기화 예고 - businesspost.co.kr",
-   "pub": "Wed, 09 Sep 2026",
+   "title": "삼성전자·SK하이닉스 3분기 실적 전망 상향…주가도 동반 반등 - v.daum.net",
+   "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "KB증권 \"AI 모델 경쟁 최대 수혜는 삼성전자·SK하이닉스\" - 연합뉴스",
-   "pub": "Tue, 08 Sep 2026",
+   "title": "AI 데이터센터 투자 늘수록 메모리반도체가 '대세', 삼성전자 SK하이닉스 수혜 장기화 예고 - businesspost.co.kr",
+   "pub": "Wed, 09 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -99,24 +110,33 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자, 장 초반 0.6% 상승…SK하이닉스는 1.5%↑ - 연합뉴스",
+   "title": "곽노정 SK하이닉스 사장 \"AI 메모리 시장은 곡선도로…외부 변화에 유연하게 대응해야\" - v.daum.net",
    "pub": "Wed, 09 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 미래포럼…AI 시대 ‘맞춤형·3D 메모리’ 해법 찾는다 - v.daum.net",
+   "title": "코스피, 중동 불안에도 7000선 회복...SK하이닉스 180만원선 '안착' - 녹색경제신문",
    "pub": "Wed, 09 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "“코인도 물렸는데”…곽튜브, 이번엔 SK하이닉스에 ‘거의 몰빵’ -14% - 스타투데이 - 매일경제",
-   "pub": "Mon, 07 Sep 2026",
+   "title": "코스피 오픈AI의 '아스트라' 훈풍 타고 들썩, 삼성전자 SK하이닉스 자사주 매입과 외국인 수급에 기대 커져 - businesspost.co.kr",
+   "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "삼성전자, 미스트랄 AI와 맞손...‘반도체 특화 AI’ 개발 나선다 - AI타임스",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
    "agents": []
   },
   {
@@ -134,28 +154,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, ASML과 차세대 반도체 제조 협력 확대 - Samsung Global Newsroom",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자 초기업노조, 반도체 노조로 전환 추진‥다음 달 총회 - MBC 뉴스",
-   "pub": "Wed, 09 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 초기업노조, 반도체 중심 노조로 전환 추진…다음달 총회 - news.kbs.co.kr",
-   "pub": "Wed, 09 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[속보]“같이 못 간다” 삼성전자 노조 결국 반도체 중심으로 - magazine.hankyung.com",
    "pub": "Wed, 09 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -164,6 +163,13 @@
   {
    "title": "\"가만히 앉아서 11조 날릴 판\" 경고…삼성전자 '초비상' [분석+] - hankyung.com",
    "pub": "Wed, 09 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, ASML과 차세대 반도체 제조 협력 확대 - Samsung Global Newsroom",
+   "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -190,13 +196,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 미스트랄 AI와 맞손...‘반도체 특화 AI’ 개발 나선다 - AI타임스",
-   "pub": "Tue, 08 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성, 파운드리 DSP '옥석 가리기'…13곳→11곳 재편 - 전자신문",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
@@ -213,6 +212,20 @@
   {
    "title": "삼성전자, 요코하마에 첨단패키징 연구소…AI반도체 경쟁력 강화 - 연합뉴스",
    "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 요코하마에 AI 반도체 연구소…日정부 지원도 받는다 - 서울경제",
+   "pub": "Tue, 08 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, TSMC '光 반도체 테스트 플랫폼' 그대로 쓴다 - 디일렉",
+   "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
