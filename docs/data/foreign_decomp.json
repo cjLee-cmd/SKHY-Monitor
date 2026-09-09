@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-09 09:01",
+ "ts_kst": "09-09 09:11",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -17,49 +17,41 @@
    },
    "brokers": {
     "sell": {
-     "total": 457287.0,
-     "foreign": 334859.0,
-     "foreign_pct": 73.2,
+     "total": 953545.0,
+     "foreign": 543327.0,
+     "foreign_pct": 57.0,
      "houses": [
       {
        "name": "골드만",
-       "qty": 188608.0
-      },
-      {
-       "name": "씨티그룹",
-       "qty": 91587.0
+       "qty": 278287.0
       },
       {
        "name": "JP모간",
-       "qty": 54664.0
+       "qty": 157369.0
+      },
+      {
+       "name": "UBS",
+       "qty": 107671.0
       }
      ]
     },
     "buy": {
-     "total": 335137.0,
-     "foreign": 267803.0,
-     "foreign_pct": 79.9,
+     "total": 728498.0,
+     "foreign": 212167.0,
+     "foreign_pct": 29.1,
      "houses": [
       {
-       "name": "모간서울",
-       "qty": 96486.0
-      },
-      {
-       "name": "맥쿼리",
-       "qty": 79424.0
-      },
-      {
        "name": "메릴린치",
-       "qty": 51309.0
+       "qty": 111582.0
       },
       {
-       "name": "씨티그룹",
-       "qty": 40584.0
+       "name": "모간서울",
+       "qty": 100585.0
       }
      ]
     },
-    "net_foreign_qty": -67056.0,
-    "foreign_share_pct": 76.1
+    "net_foreign_qty": -331160.0,
+    "foreign_share_pct": 44.9
    }
   },
   "hynix": {
@@ -78,45 +70,41 @@
    },
    "brokers": {
     "sell": {
-     "total": 67466.0,
-     "foreign": 29574.0,
-     "foreign_pct": 43.8,
+     "total": 169716.0,
+     "foreign": 65448.0,
+     "foreign_pct": 38.6,
      "houses": [
       {
        "name": "모간서울",
-       "qty": 16323.0
+       "qty": 48739.0
       },
       {
-       "name": "씨티그룹",
-       "qty": 13251.0
+       "name": "JP모간",
+       "qty": 16709.0
       }
      ]
     },
     "buy": {
-     "total": 62142.0,
-     "foreign": 54612.0,
-     "foreign_pct": 87.9,
+     "total": 135467.0,
+     "foreign": 86623.0,
+     "foreign_pct": 63.9,
      "houses": [
       {
        "name": "UBS",
-       "qty": 18759.0
+       "qty": 44628.0
       },
       {
        "name": "JP모간",
-       "qty": 16974.0
+       "qty": 22427.0
       },
       {
-       "name": "맥쿼리",
-       "qty": 10913.0
-      },
-      {
-       "name": "메릴린치",
-       "qty": 7966.0
+       "name": "모간서울",
+       "qty": 19568.0
       }
      ]
     },
-    "net_foreign_qty": 25038.0,
-    "foreign_share_pct": 65.0
+    "net_foreign_qty": 21175.0,
+    "foreign_share_pct": 49.8
    }
   }
  },
