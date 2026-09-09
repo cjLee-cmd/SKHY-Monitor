@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-09 12:42",
+ "ts_kst": "09-09 12:52",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -17,28 +17,28 @@
    },
    "brokers": {
     "sell": {
-     "total": 4832877.0,
-     "foreign": 1532447.0,
-     "foreign_pct": 31.7,
+     "total": 5039208.0,
+     "foreign": 1631479.0,
+     "foreign_pct": 32.4,
      "houses": [
       {
        "name": "골드만",
-       "qty": 799105.0
+       "qty": 869102.0
       },
       {
        "name": "JP모간",
-       "qty": 733342.0
+       "qty": 762377.0
       }
      ]
     },
     "buy": {
-     "total": 5301762.0,
+     "total": 5563615.0,
      "foreign": 0.0,
      "foreign_pct": 0.0,
      "houses": []
     },
-    "net_foreign_qty": -1532447.0,
-    "foreign_share_pct": 15.1
+    "net_foreign_qty": -1631479.0,
+    "foreign_share_pct": 15.4
    }
   },
   "hynix": {
@@ -57,29 +57,33 @@
    },
    "brokers": {
     "sell": {
-     "total": 1061268.0,
-     "foreign": 158763.0,
-     "foreign_pct": 15.0,
+     "total": 1098836.0,
+     "foreign": 159651.0,
+     "foreign_pct": 14.5,
      "houses": [
       {
        "name": "모간서울",
-       "qty": 158763.0
+       "qty": 159651.0
       }
      ]
     },
     "buy": {
-     "total": 1037496.0,
-     "foreign": 148690.0,
-     "foreign_pct": 14.3,
+     "total": 1077340.0,
+     "foreign": 255719.0,
+     "foreign_pct": 23.7,
      "houses": [
       {
        "name": "UBS",
-       "qty": 148690.0
+       "qty": 149140.0
+      },
+      {
+       "name": "골드만",
+       "qty": 106579.0
       }
      ]
     },
-    "net_foreign_qty": -10073.0,
-    "foreign_share_pct": 14.6
+    "net_foreign_qty": 96068.0,
+    "foreign_share_pct": 19.1
    }
   }
  },
