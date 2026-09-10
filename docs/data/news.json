@@ -1,19 +1,29 @@
 {
- "ts_kst": "09-11 03:36",
+ "ts_kst": "09-11 03:46",
  "n_items": 102,
  "by_source": {
   "kr": 74,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 12,
   "P-ADR": 3,
   "C-CHINA": 5,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 65,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "월가 \"마이크론 좋지만 SK하이닉스는 더 강력… AI 메모리 승자 하이닉스\" - 글로벌이코노믹",
@@ -504,7 +514,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -588,6 +598,15 @@
    ]
   },
   {
+   "title": "Micron Drops 4.2% While China's AI Chips Reveal Its Pricing Power",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron's 662% Rally Has Created a Very Different Problem",
    "pub": "Thu, 10 Sep 2026",
    "src": "en",
@@ -625,15 +644,6 @@
   },
   {
    "title": "Micron Could Be the Next Nvidia For Patient Investors",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Forget the AI Headlines. AHBM Holders Should Be Watching Memory Chip Prices",
    "pub": "Thu, 10 Sep 2026",
    "src": "en",
    "q": "MU",
