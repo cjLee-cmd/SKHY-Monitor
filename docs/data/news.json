@@ -1,29 +1,19 @@
 {
- "ts_kst": "09-11 00:39",
- "n_items": 103,
+ "ts_kst": "09-11 00:49",
+ "n_items": 101,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 26
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 11,
   "P-ADR": 3,
   "C-CHINA": 5,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 10
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
    "title": "월가 \"마이크론 좋지만 SK하이닉스는 더 강력… AI 메모리 승자 하이닉스\" - 글로벌이코노믹",
@@ -90,7 +80,7 @@
    "agents": []
   },
   {
-   "title": "SK스퀘어에 가로막힌 하이닉스 낙숫물…우회로 된 솔리다임 - 인베스트조선",
+   "title": "SK스퀘어에 가로막힌 하이닉스 낙숫물…우회로 된 솔리다임 - investchosun.com",
    "pub": "Wed, 09 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -141,7 +131,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 초기업노조, 반도체 노조로 전환 추진‥다음 달 총회 - MBC 뉴스",
+   "title": "삼성전자 초기업노조, 반도체 노조화 추진…DX간부 불신임도(종합) - v.daum.net",
    "pub": "Wed, 09 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -183,14 +173,7 @@
    "agents": []
   },
   {
-   "title": "메모리반도체 호황 2030년까지 지속 전망, 삼성전자 SK하이닉스 가격 인상 '절제'가 관건 - businesspost.co.kr",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "대구대-삼성전자, 'AI·반도체 인재 취업 활성화' 맞손 - 뉴스1",
+   "title": "메모리반도체 호황 2030년까지 지속 전망, 삼성전자 SK하이닉스 가격 인상 '절제'가 관건 - 비즈니스포스트",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -204,7 +187,14 @@
    "agents": []
   },
   {
-   "title": "이재용-홍라희 삼성전자 지분 2兆 현금 거래…오너家도 누리는 반도체 특수 - 인베스트조선",
+   "title": "대구대-삼성전자, 'AI·반도체 인재 취업 활성화' 맞손 - 뉴스1",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "이재용-홍라희 삼성전자 지분 2兆 현금 거래…오너家도 누리는 반도체 특수 - investchosun.com",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -253,7 +243,7 @@
    "agents": []
   },
   {
-   "title": "중국 관영매체 한국은행의 메모리반도체 주도권 보고서 반박, \"삼성전자 SK하이닉스와 CXMT 공존 가능\" - businesspost.co.kr",
+   "title": "중국 관영매체 한국은행의 메모리반도체 주도권 보고서 반박, \"삼성전자 SK하이닉스와 CXMT 공존 가능\" - 비즈니스포스트",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -356,7 +346,7 @@
    "agents": []
   },
   {
-   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - businesspost.co.kr",
+   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - 비즈니스포스트",
    "pub": "Tue, 18 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -605,6 +595,13 @@
    "agents": []
   },
   {
+   "title": "3 Chip Equipment Stocks Set to Win the Memory Boom",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market",
    "pub": "Thu, 10 Sep 2026",
    "src": "en",
@@ -633,15 +630,6 @@
   },
   {
    "title": "Forget the AI Headlines. AHBM Holders Should Be Watching Memory Chip Prices",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "From $8.7B Profit to $5.8B Loss: Why Micron’s Boom-and-Bust Risk Is Far From Over",
    "pub": "Thu, 10 Sep 2026",
    "src": "en",
    "q": "MU",
