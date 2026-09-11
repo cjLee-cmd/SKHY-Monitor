@@ -1,21 +1,29 @@
 {
- "ts_kst": "09-11 17:55",
- "n_items": 101,
+ "ts_kst": "09-11 18:05",
+ "n_items": 102,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 28
  },
  "routed": {
   "P-ADR": 3,
-  "C-BUYBACK": 1,
   "F-ACTIVE": 9,
-  "C-CHINA": 9,
+  "C-CHINA": 10,
   "M-CYCLE": 13,
-  "B-RATES": 1,
   "R-LEVERAGE": 10
  },
- "unassigned": 57,
- "alerts": [],
+ "unassigned": 59,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 미국 ADR 7% 폭등하며 최고가 경신 - YTN 사이언스",
@@ -36,7 +44,7 @@
    ]
   },
   {
-   "title": "본주보다 44% 비싸진 SK하이닉스 ADR…“250弗 간다” - 서울경제",
+   "title": "슬금슬금 다시 커진 SK하이닉스 본주·ADR 괴리율…19%에서 43%까지 벌어졌다 - 조선비즈 - Chosunbiz",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -45,23 +53,21 @@
    ]
   },
   {
-   "title": "'현금 50%·자사주 50%' SK하이닉스, 성과급 수정안 마련 - 머니투데이 - 머니투데이",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "SK하이닉스 성과급 현금 비중 40 → 50%로… 15, 16일 재투표 - 동아일보",
+   "title": "'7억 성과급' 현금↑·주식 비중 선택…SK하이닉스 노사 수정 합의 - 머니투데이 - 머니투데이",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[단독] SK하이닉스 노사, PS '현금 50%·주식 30%·이연 20%' 재합의 마련 - v.daum.net",
+   "title": "SK하이닉스 노사, '현금 50%·주식50%' 수정 잠정합의안 - v.daum.net",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 노사, 성과급 현금 50%로 상향 - 매일경제 마켓",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -104,8 +110,8 @@
    ]
   },
   {
-   "title": "\"삼전닉스 제쳤다\" 中 CXMT, 2분기 이익률 82%…1위 '우뚝' - edaily.co.kr",
-   "pub": "Thu, 10 Sep 2026",
+   "title": "\"中 CXMT, 메모리 판도 흔드나…영업이익률 82%로 삼성·SK하이닉스 추월\" - v.daum.net",
+   "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -113,17 +119,15 @@
    ]
   },
   {
-   "title": "유가·국채금리 급등 여파…삼성전자·SK하이닉스 3%대 하락[핫종목] - news1.kr",
-   "pub": "Fri, 11 Sep 2026",
+   "title": "SK하이닉스, 3.5% 급등 마감…삼성전자는 상승분 반납(종합) - v.daum.net",
+   "pub": "Wed, 09 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "B-RATES"
-   ]
+   "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체주 급락에 동반 약세 - etoday.co.kr",
-   "pub": "Fri, 11 Sep 2026",
+   "title": "美 증시 악재에 삼성전자·SK하이닉스 3% 하락 [마켓시그널] - 서울경제",
+   "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -150,20 +154,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, TSMC와 격차 더 벌어졌다… 中과 단 0.5%p차 - v.daum.net",
-   "pub": "Wed, 09 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 테일러팹 9월 가동 어렵다…파운드리 반등도 늦춰지나 - 뉴스핌",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자, 미스트랄 AI와 전략적 파트너십 체결 - Samsung Semiconductor",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
@@ -171,7 +161,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 미스트랄 AI와 맞손...‘반도체 특화 AI’ 개발 나선다 - AI타임스",
+   "title": "삼성전자, 프랑스 미스트랄 AI와 '반도체 특화 AI' 공동개발 - 연합뉴스",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -213,6 +203,15 @@
    "agents": []
   },
   {
+   "title": "\"삼전닉스 제쳤다\" 中 CXMT, 2분기 이익률 82%…1위 '우뚝' - edaily.co.kr",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "美 반도체 부진에 삼성전자 3%↓SK하이닉스 2%↓[핫스탁](종합) - 뉴시스",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
@@ -229,6 +228,20 @@
   {
    "title": "이재용-홍라희 삼성전자 지분 2兆 현금 거래…오너家도 누리는 반도체 특수 - 인베스트조선",
    "pub": "Thu, 10 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 테일러팹 9월 가동 어렵다…파운드리 반등도 늦춰지나 - 뉴스핌",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성이 반도체 만들 때도 ‘아끼고 다시 쓰는’ 의외의 이것 - 에너지경제신문",
+   "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -526,7 +539,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -647,15 +660,6 @@
   },
   {
    "title": "A $1 Trillion Micron Sounds Absurd. Then You See the 10-Fold Earnings Forecast.",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market",
    "pub": "Thu, 10 Sep 2026",
    "src": "en",
    "q": "MU",
