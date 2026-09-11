@@ -1,38 +1,38 @@
 {
- "ts_kst": "09-11 13:57",
+ "ts_kst": "09-11 17:35",
  "current": {
   "deposit": {
    "label": "투자자예탁금",
-   "date": "09/09",
-   "value_jo": 102.85,
-   "chg_jo": 5.86,
-   "chg_pct": 6.04
+   "date": "09/10",
+   "value_jo": 107.66,
+   "chg_jo": 4.811,
+   "chg_pct": 4.68
   },
   "credit": {
    "label": "신용융자",
-   "date": "09/09",
-   "value_jo": 32.41,
-   "chg_jo": -0.329,
-   "chg_pct": -1.01
+   "date": "09/10",
+   "value_jo": 32.36,
+   "chg_jo": -0.049,
+   "chg_pct": -0.15
   },
   "cma": {
    "label": "CMA잔고",
-   "date": "09/09",
-   "value_jo": 105.48,
-   "chg_jo": 0.551,
-   "chg_pct": 0.53
+   "date": "09/10",
+   "value_jo": 106.26,
+   "chg_jo": 0.782,
+   "chg_pct": 0.74
   },
   "equity_fund": {
    "label": "주식형펀드 순자산",
-   "date": "09/09",
-   "value_jo": 388.25,
-   "chg_jo": 3.115,
-   "chg_pct": 0.81
+   "date": "09/10",
+   "value_jo": 386.81,
+   "chg_jo": -1.445,
+   "chg_pct": -0.37
   }
  },
  "derived": {
-  "dry_powder_jo": 44.8,
-  "credit_ratio": 31.5
+  "dry_powder_jo": 49.7,
+  "credit_ratio": 30.1
  },
  "alerts": [],
  "log": [
@@ -221,6 +221,12 @@
    "deposit": 102.85,
    "credit": 32.41,
    "cma": 105.48
+  },
+  {
+   "date": "09/10",
+   "deposit": 107.66,
+   "credit": 32.36,
+   "cma": 106.26
   }
  ]
 }
