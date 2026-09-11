@@ -1,29 +1,20 @@
 {
- "ts_kst": "09-11 18:05",
- "n_items": 102,
+ "ts_kst": "09-11 18:15",
+ "n_items": 101,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 28
  },
  "routed": {
   "P-ADR": 3,
+  "C-BUYBACK": 1,
   "F-ACTIVE": 9,
-  "C-CHINA": 10,
-  "M-CYCLE": 13,
+  "C-CHINA": 9,
+  "M-CYCLE": 14,
   "R-LEVERAGE": 10
  },
- "unassigned": 59,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 57,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 미국 ADR 7% 폭등하며 최고가 경신 - YTN 사이언스",
@@ -44,7 +35,7 @@
    ]
   },
   {
-   "title": "슬금슬금 다시 커진 SK하이닉스 본주·ADR 괴리율…19%에서 43%까지 벌어졌다 - 조선비즈 - Chosunbiz",
+   "title": "본주보다 44% 비싸진 SK하이닉스 ADR…“250弗 간다” - 서울경제",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -53,21 +44,23 @@
    ]
   },
   {
-   "title": "'7억 성과급' 현금↑·주식 비중 선택…SK하이닉스 노사 수정 합의 - 머니투데이 - 머니투데이",
+   "title": "'현금 50%·자사주 50%' SK하이닉스, 성과급 수정안 마련 - 머니투데이 - 머니투데이",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스 성과급 현금 비중 40 → 50%로… 15, 16일 재투표 - 동아일보",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 노사, '현금 50%·주식50%' 수정 잠정합의안 - v.daum.net",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 노사, 성과급 현금 50%로 상향 - 매일경제 마켓",
+   "title": "[단독] SK하이닉스 노사, PS '현금 50%·주식 30%·이연 20%' 재합의 마련 - v.daum.net",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -110,20 +103,13 @@
    ]
   },
   {
-   "title": "\"中 CXMT, 메모리 판도 흔드나…영업이익률 82%로 삼성·SK하이닉스 추월\" - v.daum.net",
-   "pub": "Fri, 11 Sep 2026",
+   "title": "\"삼전닉스 제쳤다\" 中 CXMT, 2분기 이익률 82%…1위 '우뚝' - edaily.co.kr",
+   "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "SK하이닉스, 3.5% 급등 마감…삼성전자는 상승분 반납(종합) - v.daum.net",
-   "pub": "Wed, 09 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "美 증시 악재에 삼성전자·SK하이닉스 3% 하락 [마켓시그널] - 서울경제",
@@ -133,6 +119,15 @@
    "agents": []
   },
   {
+   "title": "삼성전자·SK하이닉스 1.4조 매물 예고…마이크론 3%↑에도 유가 100달러 - 녹색경제신문",
+   "pub": "Wed, 09 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "[그래픽] 삼성전자·SK하이닉스 코스피 등락 기여율 - 연합뉴스",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
@@ -140,8 +135,8 @@
    "agents": []
   },
   {
-   "title": "美기술주 삭풍에 삼전닉스 2~3%↓…외인·기관 순매도 1~2위(종합) - 매일경제 마켓",
-   "pub": "Fri, 11 Sep 2026",
+   "title": "이천시·청주시·SK하이닉스, 고향사랑기부 상생 협약 - news.kbs.co.kr",
+   "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -201,15 +196,6 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
-  },
-  {
-   "title": "\"삼전닉스 제쳤다\" 中 CXMT, 2분기 이익률 82%…1위 '우뚝' - edaily.co.kr",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "C-CHINA"
-   ]
   },
   {
    "title": "美 반도체 부진에 삼성전자 3%↓SK하이닉스 2%↓[핫스탁](종합) - 뉴시스",
@@ -377,13 +363,6 @@
    ]
   },
   {
-   "title": "美 CPI 앞두고 외국인 현·선물 동반 '팔자'…코스피서 2.3조 매도 - news1.kr",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피 7000선 무너져 1.76%↓…기관·외국인 3.5조 순매도 - 메트로신문",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
@@ -391,6 +370,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "美 CPI 앞두고 외국인 현·선물 동반 '팔자'…코스피서 2.3조 매도 - news1.kr",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피, 고유가·고금리에 7000선 내줘…외국인·기관 3.5조원 순매도 - 증권일보",
@@ -660,6 +646,15 @@
   },
   {
    "title": "A $1 Trillion Micron Sounds Absurd. Then You See the 10-Fold Earnings Forecast.",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market",
    "pub": "Thu, 10 Sep 2026",
    "src": "en",
    "q": "MU",
