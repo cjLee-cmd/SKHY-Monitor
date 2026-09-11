@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-11 23:04",
+ "ts_kst": "09-11 23:14",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -8,12 +8,23 @@
  "routed": {
   "P-ADR": 3,
   "M-CYCLE": 15,
-  "C-CHINA": 8,
+  "C-BUYBACK": 2,
+  "C-CHINA": 9,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 61,
- "alerts": [],
+ "unassigned": 59,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "‘10월이면 돈줄 마른다’ 자사주 매입에 버티는 코스피…벌써 ‘25조’나 썼다 [투자360] - v.daum.net",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 미국 ADR 7% 폭등하며 최고가 경신 - YTN 사이언스",
@@ -52,15 +63,31 @@
    ]
   },
   {
-   "title": "SK스퀘어에 가로막힌 하이닉스 낙숫물…우회로 된 솔리다임 - investchosun.com",
-   "pub": "Wed, 09 Sep 2026",
+   "title": "美 증시 악재에 삼성전자·SK하이닉스 3% 하락 [마켓시그널] - 서울경제",
+   "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[단독] SK하이닉스 노사, PS '현금 50%·주식 30%·이연 20%' 재합의 마련 - v.daum.net",
-   "pub": "Thu, 10 Sep 2026",
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체주 급락에 동반 약세 - 이투데이",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "‘10월이면 돈줄 마른다’ 자사주 매입에 버티는 코스피…벌써 ‘25조’나 썼다 [투자360] - v.daum.net",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK스퀘어에 가로막힌 하이닉스 낙숫물…우회로 된 솔리다임 - investchosun.com",
+   "pub": "Wed, 09 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -92,12 +119,13 @@
    ]
   },
   {
-   "title": "HBM 수급난 빠진 中, AI칩 가격 '줄인상'…삼전·하이닉스 협상력 커진다 - 뉴시스",
+   "title": "D램 가격 상승은 삼성전자와 SK하이닉스에 딜레마, HBM 생산 늘리면 중국 CXMT에 '기회' - 비즈니스포스트",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "M-CYCLE"
+    "M-CYCLE",
+    "C-CHINA"
    ]
   },
   {
@@ -108,25 +136,13 @@
    "agents": []
   },
   {
-   "title": "美 증시 악재에 삼성전자·SK하이닉스 3% 하락 [마켓시그널] - 서울경제",
+   "title": "'현금 50%·자사주 50%' SK하이닉스, 성과급 수정안 마련 - 머니투데이 - 머니투데이",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체주 급락에 동반 약세 - 이투데이",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[그래픽] 삼성전자·SK하이닉스 코스피 등락 기여율 - 연합뉴스",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "이천시·청주시·SK하이닉스, 고향사랑기부 상생 협약 - KBS 뉴스",
@@ -173,7 +189,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 손 잡은 오픈AI, TSMC 의존도 낮출 대안 될까 - 녹색경제신문",
+   "title": "삼성전자 손 잡은 오픈AI, TSMC 의존도 낮출 대안 될까 - greened.kr",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -215,6 +231,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자 테일러팹 9월 가동 어렵다…파운드리 반등도 늦춰지나 - 뉴스핌",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 미스트랄 AI와 전략적 파트너십 체결 - Samsung Semiconductor",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
@@ -229,14 +252,7 @@
    "agents": []
   },
   {
-   "title": "삼성, 'AI 신흥강자' 미스트랄에 꽂힌 이유…'DS 혁신·유럽 판로' - v.daum.net",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "HSBC, AI 투자처로 韓 메모리·대만 반도체·中 인프라 주목 - 헬로티",
+   "title": "HSBC, AI 투자처로 韓 메모리·대만 반도체·中 인프라 주목 - hellot.net",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -273,7 +289,7 @@
    "agents": []
   },
   {
-   "title": "중국 CXMT, 상반기 매출 10배 급증…AI 반도체 훈풍에 흑자 전환 - hani.co.kr",
+   "title": "중국 CXMT, 상반기 매출 10배 급증…AI 반도체 훈풍에 흑자 전환 - 한겨레",
    "pub": "Sat, 29 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -444,7 +460,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 오후 2시 20분 7040선 약보합…외국인·기관 동반 매도, 개인 순매수[마감시황] - ekn.kr",
+   "title": "코스피, 오후 2시 20분 7040선 약보합…외국인·기관 동반 매도, 개인 순매수[마감시황] - 에너지경제신문",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
