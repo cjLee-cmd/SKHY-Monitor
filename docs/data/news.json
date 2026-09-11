@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-12 06:08",
+ "ts_kst": "09-12 06:18",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -7,12 +7,12 @@
  },
  "routed": {
   "M-CYCLE": 14,
-  "P-ADR": 2,
+  "P-ADR": 3,
   "C-CHINA": 8,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 10
  },
- "unassigned": 64,
+ "unassigned": 63,
  "alerts": [],
  "items": [
   {
@@ -43,11 +43,13 @@
    ]
   },
   {
-   "title": "SK하이닉스 주식, 오늘 급락하는 이유는? - Investing.com 한국어",
+   "title": "\"골드러시의 곡괭이\"…SK하이닉스 ADR, 사상 최고가에도 \"25% 더 오른다\" - 한국경제",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "외국인·기관, 삼성전자·하이닉스 집중 매수…개인은 14조 '매물 폭탄' - 뉴스투데이",
@@ -127,6 +129,15 @@
    "agents": []
   },
   {
+   "title": "삼성전자 반도체 반격 시작되나…4분기 HBM 점유율 40% 넘본다 - v.daum.net",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "'삼성전자, 드디어 터지나' 들썩…증권가서 '파격 전망' 나왔다 [분석+] - 한국경제",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
@@ -142,13 +153,6 @@
     "M-CYCLE",
     "C-CHINA"
    ]
-  },
-  {
-   "title": "삼성전자 테일러팹 9월 가동 어렵다…파운드리 반등도 늦춰지나 - 뉴스핌",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "삼성전자, 미스트랄과 ‘반도체 특화 AI’ 공동 개발하기로 - 조선일보",
@@ -223,13 +227,11 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 반격 시작되나…4분기 HBM 점유율 40% 넘본다 - 헤럴드경제",
+   "title": "'韓 반도체 생태계 키운다'…삼성전자, 포스텍에 반도체 팹 노하우 전수 - 아시아경제",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "삼성전자, TSMC '光 반도체 테스트 플랫폼' 그대로 쓴다 - 디일렉",
@@ -426,6 +428,13 @@
    ]
   },
   {
+   "title": "[오늘의증시] 코스피 7000선 지켰다…외국인 2.5조 매도에도 장중 낙폭 만회 - 경인방송 뉴스",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 유가·금리 부담에 6800 털썩… 외국인·기관 순매도 - 프레스뉴스",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
@@ -433,13 +442,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "[오늘의증시] 코스피 7000선 지켰다…외국인 2.5조 매도에도 장중 낙폭 만회 - 경인방송 뉴스",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "반도체주 약세에 깨진 7000…코스피, 외국인·기관 매도에 6909.91 마감 - 파이낸셜포스트",
@@ -520,7 +522,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 신용잔고 사상 최대 … 7월 폭락장 '빚투' 뇌관 '데자뷔' - biz.newdaily.co.kr",
+   "title": "삼성전자 신용잔고 사상 최대 … 7월 폭락장 '빚투' 뇌관 '데자뷔' - 뉴데일리",
    "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -604,6 +606,15 @@
    ]
   },
   {
+   "title": "Micron Takes Unexpected Step as Tensions Rise",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Stays Flat as 68-Month Bonuses Fail to End Strike Risk",
    "pub": "Fri, 11 Sep 2026",
    "src": "en",
@@ -632,15 +643,6 @@
   },
   {
    "title": "Wall Street Just Erased $57 Billion From Micron. The Shortage Behind Its Boom Is Getting Worse.",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron’s Powerful Economics 101 Lesson Keeps Me Buying",
    "pub": "Fri, 11 Sep 2026",
    "src": "en",
    "q": "MU",
