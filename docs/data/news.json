@@ -1,19 +1,29 @@
 {
- "ts_kst": "09-12 08:28",
+ "ts_kst": "09-12 08:37",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "P-ADR": 2,
   "C-CHINA": 7,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 10
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "월가 \"마이크론 좋지만 SK하이닉스는 더 강력… AI 메모리 승자 하이닉스\" - g-enews.com",
@@ -50,7 +60,7 @@
    "agents": []
   },
   {
-   "title": "반도체 생산 확대에 전력·용수 부담↑…삼성·SK, 재생에너지·물 재이용 늘린다 - it.chosun.com",
+   "title": "반도체 생산 확대에 전력·용수 부담↑…삼성·SK, 재생에너지·물 재이용 늘린다 - IT조선",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -64,28 +74,28 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스(000660) - 매일경제 마켓",
+   "title": "SK하이닉스, 채권 투자체계 고도화…증권사와 API 구축 - 연합인포맥스",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "美 증시 악재에 삼성전자·SK하이닉스 3% 하락 [마켓시그널] - 서울경제",
+   "title": "SK하이닉스, 3.5% 급등 마감…삼성전자는 상승분 반납(종합) - v.daum.net",
+   "pub": "Wed, 09 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "美 증시 악재에 삼성전자·SK하이닉스 3% 하락 [마켓시그널] - sedaily.com",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "코스피·코스닥 2%대 하락...삼성전자 4%·SK하이닉스 3%대 '뚝' - v.daum.net",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 채권 투자체계 고도화…증권사와 API 구축 - 연합인포맥스",
+   "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -113,8 +123,8 @@
    "agents": []
   },
   {
-   "title": "이천시·SK하이닉스·청주시, 고향사랑기부제로 맞손 - v.daum.net",
-   "pub": "Thu, 10 Sep 2026",
+   "title": "청주시·이천시·SK하이닉스, 상호 고향사랑기부 협약 체결 - 노컷뉴스",
+   "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -355,7 +365,7 @@
    "agents": []
   },
   {
-   "title": "[마켓뷰] 외국인·기관 4조 순매도… 코스피 1.7% 내린 6900선 턱걸이 - 조선비즈 - biz.chosun.com",
+   "title": "[마켓뷰] 외국인·기관 4조 순매도… 코스피 1.7% 내린 6900선 턱걸이 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -414,7 +424,7 @@
    "agents": []
   },
   {
-   "title": "[오늘의증시] 코스피 7000선 지켰다…외국인 2.5조 매도에도 장중 낙폭 만회 - news.ifm.kr",
+   "title": "[오늘의증시] 코스피 7000선 지켰다…외국인 2.5조 매도에도 장중 낙폭 만회 - 경인방송 뉴스",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -526,7 +536,7 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -601,6 +611,15 @@
    ]
   },
   {
+   "title": "An Intel-Backed Startup Says It Can Beat HBM. Is Micron’s AI Memory Boom Vulnerable?",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "AI’s HBM Shortage Strengthens Micron’s Hand—and Pressures Nvidia’s GPU Economics",
    "pub": "Fri, 11 Sep 2026",
    "src": "en",
@@ -629,15 +648,6 @@
   },
   {
    "title": "Micron Stays Flat as 68-Month Bonuses Fail to End Strike Risk",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Storage Stocks Slide as Profit Taking Follows Big Run: Seagate Falls 4%, SanDisk Drops 3%, Micron Holds Flat",
    "pub": "Fri, 11 Sep 2026",
    "src": "en",
    "q": "MU",
