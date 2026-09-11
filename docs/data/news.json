@@ -1,8 +1,8 @@
 {
- "ts_kst": "09-11 12:08",
- "n_items": 101,
+ "ts_kst": "09-11 12:17",
+ "n_items": 102,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 28
  },
  "routed": {
@@ -12,18 +12,8 @@
   "F-ACTIVE": 6,
   "R-LEVERAGE": 10
  },
- "unassigned": 61,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 미국 ADR 7% 폭등하며 최고가 경신 - YTN 사이언스",
@@ -104,13 +94,6 @@
    "agents": []
   },
   {
-   "title": "'KIWOOM 삼성전자&SK하이닉스채권혼합50' ETF, 9월 분배금 주당 151원 - 아시아경제",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK스퀘어에 가로막힌 하이닉스 낙숫물…우회로 된 솔리다임 - 인베스트조선",
    "pub": "Wed, 09 Sep 2026",
    "src": "kr",
@@ -127,18 +110,22 @@
    ]
   },
   {
-   "title": "D램 가격 상승은 삼성전자와 SK하이닉스에 딜레마, HBM 생산 늘리면 중국 CXMT에 '기회' - 비즈니스포스트",
-   "pub": "Fri, 11 Sep 2026",
+   "title": "이천시·청주시·SK하이닉스, 고향사랑기부 상생 협약 - KBS 뉴스",
+   "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE",
-    "C-CHINA"
-   ]
+   "agents": []
   },
   {
-   "title": "SK하이닉스 \"3D 스택드 D램에 파운드리 공정 활용\" - zdnet.co.kr",
-   "pub": "Wed, 09 Sep 2026",
+   "title": "이천시, SK하이닉스·청주시 고향사랑기부 협약…‘전국 최초’ 상호 기부 체결 - 인천일보",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "이천·청주시, SK하이닉스 매개로 고향사랑기부금 '교차 기부' - v.daum.net",
+   "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -179,7 +166,7 @@
    "agents": []
   },
   {
-   "title": "'삼성전자, 드디어 터지나' 들썩…증권가서 '파격 전망' 나왔다 [분석+] - hankyung.com",
+   "title": "'삼성전자, 드디어 터지나' 들썩…증권가서 '파격 전망' 나왔다 [분석+] - 한국경제",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -191,6 +178,16 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "D램 가격 상승은 삼성전자와 SK하이닉스에 딜레마, HBM 생산 늘리면 중국 CXMT에 '기회' - 비즈니스포스트",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE",
+    "C-CHINA"
+   ]
   },
   {
    "title": "[산업분석] 메모리 반도체 삼성전자·SK하이닉스, AI에 2027 공급부족 - 톱스타뉴스",
@@ -228,7 +225,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 테일러팹 9월 가동 어렵다…파운드리 반등도 늦춰지나 - 뉴스핌",
+   "title": "삼성전자 테일러팹 9월 가동 어렵다…파운드리 반등도 늦춰지나 - newspim.com",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -399,7 +396,7 @@
    "agents": []
   },
   {
-   "title": "[마감시황] 코스피, 외인 2.7조 순매도에도 7000선 방어 - 뉴스핌",
+   "title": "[마감시황] 코스피, 외인 2.7조 순매도에도 7000선 방어 - newspim.com",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -452,6 +449,13 @@
    "agents": []
   },
   {
+   "title": "코스피, 외국인·기관 ‘동반 매도’에 2.49% 급락…6,850선 후퇴 - 프리진뉴스",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "중동 악재 버틴 코스피…외국인 매도에도 7034 마감 - 코리아리포트",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
@@ -460,13 +464,6 @@
   },
   {
    "title": "외국인이 2조 5천억을 던졌는데, 오늘 코스피를 받아낸 건 따로 있었습니다 - 네이버 프리미엄콘텐츠",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외국인 대규모 매도 속 코스피 7000선 사수 [시황종합] - 2news.co.kr",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -505,7 +502,7 @@
    "agents": []
   },
   {
-   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - ynenews.kr",
    "pub": "Sun, 26 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -532,7 +529,7 @@
    ]
   },
   {
-   "title": "[단독] \"부모님께 손 벌려 겨우 막았다\"…2030 '4조 빚투' 대란 - hankyung.com",
+   "title": "[단독] \"부모님께 손 벌려 겨우 막았다\"…2030 '4조 빚투' 대란 - 한국경제",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -644,15 +641,6 @@
   },
   {
    "title": "Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Is 1.6 Points From Taking the No. 2 Spot in DRAM",
    "pub": "Thu, 10 Sep 2026",
    "src": "en",
    "q": "MU",
