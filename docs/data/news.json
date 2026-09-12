@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-13 03:15",
+ "ts_kst": "09-13 03:25",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -9,21 +9,11 @@
   "C-CHINA": 11,
   "M-CYCLE": 14,
   "P-ADR": 2,
-  "F-ACTIVE": 9,
+  "F-ACTIVE": 11,
   "R-LEVERAGE": 11
  },
- "unassigned": 59,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 57,
+ "alerts": [],
  "items": [
   {
    "title": "서동주, SK하이닉스 물타기 중…\"-50%서 살아 돌아와\" - 뉴시스",
@@ -181,15 +171,15 @@
    "agents": []
   },
   {
-   "title": "삼전 직원의 소탐대실…월세 20만원 아끼려다 억대 성과급 날렸다 [반도체 투자 리포트] - 네이트",
-   "pub": "Sat, 12 Sep 2026",
+   "title": "美 반도체 부진에 삼성전자 3%↓SK하이닉스 2%↓[핫스탁](종합) - 뉴시스",
+   "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "美 반도체 부진에 삼성전자 3%↓SK하이닉스 2%↓[핫스탁](종합) - 뉴시스",
-   "pub": "Fri, 11 Sep 2026",
+   "title": "삼전 직원의 소탐대실…월세 20만원 아끼려다 억대 성과급 날렸다 [반도체 투자 리포트] - 네이트",
+   "pub": "Sat, 12 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -399,14 +389,14 @@
    ]
   },
   {
-   "title": "[마감시황] 코스피, 외인 2.7조 순매도에도 7000선 방어 - 뉴스핌",
+   "title": "[오늘의증시] 코스피 7000선 지켰다…외국인 2.5조 매도에도 장중 낙폭 만회 - news.ifm.kr",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[오늘의증시] 코스피 7000선 지켰다…외국인 2.5조 매도에도 장중 낙폭 만회 - news.ifm.kr",
+   "title": "[마감시황] 코스피, 외인 2.7조 순매도에도 7000선 방어 - 뉴스핌",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -422,8 +412,8 @@
    ]
   },
   {
-   "title": "[EBN 데이터센터] 코스피 7000선 방어 성공…외국인 2.5조원대 순매도 - ebn.co.kr",
-   "pub": "Thu, 10 Sep 2026",
+   "title": "코스피, 고유가·고금리에 7000선 내줘…외국인·기관 3.5조원 순매도 - 증권일보",
+   "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -438,8 +428,8 @@
    "agents": []
   },
   {
-   "title": "코스피, 고유가·고금리에 7000선 내줘…외국인·기관 3.5조원 순매도 - 증권일보",
-   "pub": "Fri, 11 Sep 2026",
+   "title": "[EBN 데이터센터] 코스피 7000선 방어 성공…외국인 2.5조원대 순매도 - ebn.co.kr",
+   "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -463,13 +453,6 @@
    "agents": []
   },
   {
-   "title": "외국인 2.5조 던져도 버틴 코스피…‘7000선’ 지킨 힘은 - 지이코노미",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인 역대 두번째 순매도…코스피 8,630선 후퇴 - 연합뉴스TV",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
@@ -479,15 +462,26 @@
    ]
   },
   {
-   "title": "코스피, 외국인 2조4907억원 던졌으나 7000선 방어 마감 - 파이낸셜포스트",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 반도체주 약세에 6800선 내줘…외국인 1.7조 순매도 - 한국경제",
    "pub": "Fri, 28 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "코스피, 지난주 5일 연속 상승…외국인 순매수로 지수 견인 - 연합뉴스",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "개인·외국인·기관 순매도…기타법인 매수에 코스피 6835선 마감 - futurechosun.com",
+   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -511,13 +505,6 @@
    "agents": []
   },
   {
-   "title": "빚은 늘고 통장은 비고…아시아 증시 덮친 '빚투 폭탄' 경고등 - 미디어펜",
-   "pub": "Wed, 09 Sep 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -525,6 +512,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "빚은 늘고 통장은 비고…아시아 증시 덮친 '빚투 폭탄' 경고등 - 미디어펜",
+   "pub": "Wed, 09 Sep 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
@@ -622,6 +616,15 @@
    ]
   },
   {
+   "title": "Broadcom vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?",
+   "pub": "Sat, 12 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Where Will Micron Be in 10 Years?",
    "pub": "Sat, 12 Sep 2026",
    "src": "en",
@@ -650,15 +653,6 @@
   },
   {
    "title": "An Intel-Backed Startup Says It Can Beat HBM. Is Micron’s AI Memory Boom Vulnerable?",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "AI’s HBM Shortage Strengthens Micron’s Hand—and Pressures Nvidia’s GPU Economics",
    "pub": "Fri, 11 Sep 2026",
    "src": "en",
    "q": "MU",
