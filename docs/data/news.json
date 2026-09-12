@@ -1,8 +1,8 @@
 {
- "ts_kst": "09-13 08:45",
- "n_items": 104,
+ "ts_kst": "09-13 08:55",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 30
  },
  "routed": {
@@ -12,43 +12,14 @@
   "F-ACTIVE": 9,
   "R-LEVERAGE": 10
  },
- "unassigned": 60,
+ "unassigned": 59,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "증설",
    "src": "kr",
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - nspna.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "agents": []
   }
  ],
  "items": [
@@ -63,7 +34,7 @@
    ]
   },
   {
-   "title": "중국 CXMT, 영업이익률 82%…SK하이닉스·삼성전자 제쳤다 - sedaily.com",
+   "title": "중국 CXMT, 영업이익률 82%…SK하이닉스·삼성전자 제쳤다 - 서울경제",
    "pub": "Sat, 12 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -122,7 +93,28 @@
    ]
   },
   {
+   "title": "환율 급락에 반도체 이익 전망도 하락…두달 새 21조 증발 - 연합뉴스",
+   "pub": "Sat, 12 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "설계·공정부터 팹까지…삼성·SK, 반도체 생태계 ‘AI 대전환’ - IT조선",
+   "pub": "Sat, 12 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "\"자소서 대신 AI 활용 경험\"…SK하이닉스, 채용 방식 뒤집었다[AI로 달라진 채용③] - 뉴시스",
+   "pub": "Sat, 12 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "메모리에 더 목매는 차세대 AI...삼전닉스 수혜 쏟아진다 - 머니투데이 - 머니투데이",
    "pub": "Sat, 12 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -143,31 +135,17 @@
    "agents": []
   },
   {
-   "title": "환율 급락에 반도체 이익 전망도 하락…두달 새 21조 증발 - 연합뉴스",
-   "pub": "Sat, 12 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 채권 투자체계 고도화…증권사와 API 구축 - 연합인포맥스",
+   "title": "SK하이닉스, 채권 투자체계 고도화…증권사와 API 구축 - news.einfomax.co.kr",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK스퀘어에 가로막힌 하이닉스 낙숫물…우회로 된 솔리다임 - 인베스트조선",
-   "pub": "Wed, 09 Sep 2026",
+   "title": "윤재웅 대구대 총장, 삼성전자 협력사 찾아 ‘인공지능·반도체 인재 취업 활성화’ 맞손 - v.daum.net",
+   "pub": "Fri, 11 Sep 2026",
    "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "코스피 반등 이끈 삼전·SK하닉…이번주 금리 ‘쌍고비’ [증시전망대] - v.daum.net",
-   "pub": "Sat, 12 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
+   "q": "삼성전자 반도체",
    "agents": []
   },
   {
@@ -194,20 +172,6 @@
    "agents": []
   },
   {
-   "title": "설계·공정부터 팹까지…삼성·SK, 반도체 생태계 ‘AI 대전환’ - IT조선",
-   "pub": "Sat, 12 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "윤재웅 대구대 총장, 삼성전자 협력사 찾아 ‘인공지능·반도체 인재 취업 활성화’ 맞손 - v.daum.net",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "'韓 반도체 생태계 키운다'…삼성전자, 포스텍에 반도체 팹 노하우 전수 - v.daum.net",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
@@ -222,7 +186,7 @@
    "agents": []
   },
   {
-   "title": "삼성 반도체 1등 노하우, 공공 팹에 심었다 - sedaily.com",
+   "title": "삼성 반도체 1등 노하우, 공공 팹에 심었다 - 서울경제",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -243,7 +207,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 日 100만 명 이용할 물 재활용…글로벌 반도체 최대 규모 - sedaily.com",
+   "title": "삼성전자, 日 100만 명 이용할 물 재활용…글로벌 반도체 최대 규모 - 서울경제",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -285,7 +249,7 @@
    "agents": []
   },
   {
-   "title": "중국 관영매체 한국은행의 메모리반도체 주도권 보고서 반박, \"삼성전자 SK하이닉스와 CXMT 공존 가능\" - 비즈니스포스트",
+   "title": "중국 관영매체 한국은행의 메모리반도체 주도권 보고서 반박, \"삼성전자 SK하이닉스와 CXMT 공존 가능\" - businesspost.co.kr",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -317,43 +281,6 @@
    "agents": []
   },
   {
-   "title": "美 정부, 애플에 중국산 메모리 반도체 구매 자제 촉구 - 연합인포맥스",
-   "pub": "Sat, 15 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "상반기 매출 30조 폭발한 중국 창신메모리…내일 한국 반도체 증시 흔들까 - wikitree.co.kr",
-   "pub": "Sun, 30 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "미 상무장관, 애플에 직격탄...\"중국산 메모리 칩 사지 마라\" - AI타임스",
-   "pub": "Sun, 16 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "트럼프 행정부, 애플 中 메모리 구매 허용할 듯 - 글로벌이코노믹",
-   "pub": "Sun, 23 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "[美증시] 트럼프 애플 중국산칩 수입 허용 루머에 메모리주 '휘청' - 미디어펜",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "CXMT, 애플에 “싸게 줄 이유 없다”…삼성·SK하이닉스보다 비싼 값 제시 - 테크월드",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
@@ -361,6 +288,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "美 정부, 애플에 중국산 메모리 반도체 구매 자제 촉구 - news.einfomax.co.kr",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "‘상장 첫날 시총 712조 1위’ 중국 CXMT, 한국 반도체 업계도 덩달아 ‘긴장’ - 경향신문",
@@ -381,8 +315,38 @@
    ]
   },
   {
-   "title": "애플의 배신...중국 창신반도체 쓰려는 이유 - contents.premium.naver.com",
-   "pub": "Sat, 15 Aug 2026",
+   "title": "미 상무장관, 애플에 직격탄...\"중국산 메모리 칩 사지 마라\" - AI타임스",
+   "pub": "Sun, 16 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "미국의 '중국 메모리반도체 견제' 의지 재확인, 삼성전자 SK하이닉스 안심하긴 일러 - businesspost.co.kr",
+   "pub": "Tue, 18 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - 한겨레",
+   "pub": "Thu, 13 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -684,6 +648,15 @@
   },
   {
    "title": "An Intel-Backed Startup Says It Can Beat HBM. Is Micron’s AI Memory Boom Vulnerable?",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "AI’s HBM Shortage Strengthens Micron’s Hand—and Pressures Nvidia’s GPU Economics",
    "pub": "Fri, 11 Sep 2026",
    "src": "en",
    "q": "MU",
