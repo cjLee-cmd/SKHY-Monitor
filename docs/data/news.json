@@ -1,53 +1,39 @@
 {
- "ts_kst": "09-12 23:32",
+ "ts_kst": "09-12 23:42",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 15,
+  "C-CHINA": 8,
+  "M-CYCLE": 14,
+  "C-BUYBACK": 2,
   "P-ADR": 2,
-  "C-CHINA": 7,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 11
  },
- "unassigned": 61,
+ "unassigned": 60,
  "alerts": [],
  "items": [
   {
-   "title": "삼성·SK하이닉스 양강 구도 균열 가나… 'HBM 10만 장' 폭탄, 마이크론의 승부수[칩톡] - v.daum.net",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "월가 \"마이크론 좋지만 SK하이닉스는 더 강력… AI 메모리 승자 하이닉스\" - 글로벌이코노믹",
-   "pub": "Wed, 09 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스의 HBM 점유율 하락으로 주가 하락할까? 향후 전망 분석과 핵심 포인트 - 네이버 프리미엄콘텐츠",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스 성과급 현금 비율 40%→50%로 - 조선일보",
+   "title": "\"SK하이닉스·마이크론 제쳤다\"… 中 CXMT, 2분기 영업이익률 82%로 '수익성 1위' 등극 - 글로벌이코노믹",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-CHINA",
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "'현금 50%·자사주 50%' SK하이닉스, 성과급 수정안 마련 - 머니투데이 - 머니투데이",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "SK하이닉스 노사, 성과급 현금 비중 50%로 상향…수정 합의안 마련 - 동아일보",
@@ -57,11 +43,22 @@
    "agents": []
   },
   {
-   "title": "[단독] SK하이닉스 노사, PS '현금 50%·주식 30%·이연 20%' 재합의 마련 - v.daum.net",
-   "pub": "Thu, 10 Sep 2026",
+   "title": "SK하이닉스, 기존 '현금 중심 PS' 완전 정리…자사주 포함 새 체계로 - v.daum.net",
+   "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "삼성·SK하이닉스 양강 구도 균열 가나… 'HBM 10만 장' 폭탄, 마이크론의 승부수[칩톡] - v.daum.net",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "서동주, SK하이닉스 물타기 중…\"-50%서 살아 돌아와\" - 뉴시스",
@@ -92,29 +89,11 @@
    "agents": []
   },
   {
-   "title": "“HBM 공장, 잠수함까지 블록으로”… 삼성·SK도 꽂힌 ‘옥스포드 굿즈’ - 조선비즈 - biz.chosun.com",
-   "pub": "Sat, 12 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "SK하이닉스(000660) - 매일경제 마켓",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "SK하이닉스 미국 ADR 7% 폭등하며 최고가 경신 - YTN 사이언스",
-   "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
   },
   {
    "title": "SK하이닉스 ADR, 7%대 급등 최고가 마감…코스피는 하락 출발 - v.daum.net",
@@ -133,6 +112,36 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 미국 ADR 7% 폭등하며 최고가 경신 - YTN",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 채권 투자체계 고도화…증권사와 API 구축 - 연합인포맥스",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"자소서 대신 AI 활용 경험\"…SK하이닉스, 채용 방식 뒤집었다[AI로 달라진 채용③] - 파이낸셜뉴스",
+   "pub": "Sat, 12 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전 직원의 소탐대실…월세 20만원 아끼려다 억대 성과급 날렸다 [반도체 투자 리포트] - 네이트",
+   "pub": "Sat, 12 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "'삼성전자, 드디어 터지나' 들썩…증권가서 '파격 전망' 나왔다 [분석+] - 한국경제",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
@@ -140,15 +149,17 @@
    "agents": []
   },
   {
-   "title": "삼성전자 손 잡은 오픈AI, TSMC 의존도 낮출 대안 될까 - 녹색경제신문",
+   "title": "삼성전자 반도체 반격 시작되나…4분기 HBM 점유율 40% 넘본다 - v.daum.net",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "AI 메모리 '투톱 시대' 열리나…삼성전자·SK하이닉스 재평가 확산 - 네이트",
-   "pub": "Sat, 12 Sep 2026",
+   "title": "삼성전자 손 잡은 오픈AI, TSMC 의존도 낮출 대안 될까 - 녹색경제신문",
+   "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -219,13 +230,6 @@
   {
    "title": "삼성전자 파운드리 중국 SMIC에 역전당할 판, 한진만 테일러 공장으로 두자릿수 점유율 회복 나선다 - 비즈니스포스트",
    "pub": "Thu, 10 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "잘 나가는 반도체, 9월 노사 분수령…삼성은 노조 재편·하이닉스는 재투표 - 아이뉴스24",
-   "pub": "Wed, 09 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
