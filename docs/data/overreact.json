@@ -1,66 +1,66 @@
 {
- "ts_kst": "09-14 11:32",
- "score": 22.5,
+ "ts_kst": "09-14 14:48",
+ "score": 21.9,
  "verdict": "정당한 재평가",
  "components": {
   "A_통계극단성": 0,
   "B_체인동조성": 10.0,
-  "C_펀더멘털배율": 0,
-  "D_역사되돌림": 12.5
+  "C_펀더멘털배율": 0.1,
+  "D_역사되돌림": 11.8
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -5.86,
-   "sd": 4.71,
-   "z": -0.88,
-   "n_episodes": 12,
+   "cum": -7.25,
+   "sd": 4.72,
+   "z": -1.09,
+   "n_episodes": 9,
    "forward": {
     "5": {
-     "mean": 2.97,
-     "median": 4.25,
+     "mean": 2.52,
+     "median": 4.21,
      "up_rate": 67
     },
     "20": {
-     "mean": 6.69,
-     "median": 1.03,
-     "up_rate": 58
+     "mean": 5.59,
+     "median": 0.18,
+     "up_rate": 56
     },
     "60": {
-     "mean": 24.19,
-     "median": 7.35,
-     "up_rate": 67
+     "mean": 33.23,
+     "median": 49.5,
+     "up_rate": 78
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -6.21,
-   "sd": 5.71,
-   "z": -0.77,
-   "n_episodes": 15,
+   "cum": -8.31,
+   "sd": 5.72,
+   "z": -1.03,
+   "n_episodes": 16,
    "forward": {
     "5": {
-     "mean": 4.72,
-     "median": 3.49,
-     "up_rate": 67
+     "mean": 5.53,
+     "median": 4.66,
+     "up_rate": 75
     },
     "20": {
-     "mean": 10.58,
-     "median": 2.6,
-     "up_rate": 67
+     "mean": 11.78,
+     "median": 5.17,
+     "up_rate": 62
     },
     "60": {
-     "mean": 51.05,
-     "median": 42.5,
-     "up_rate": 87
+     "mean": 42.32,
+     "median": 34.75,
+     "up_rate": 75
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -5.95,
-  "SK하이닉스": -6.21,
+  "삼성전자": -7.25,
+  "SK하이닉스": -8.31,
   "마이크론": -5.11,
   "TSMC": -0.49,
   "ASML": -1.81,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -0.88,
-  "drop_avg": 6.04,
-  "fundamental_ratio": 0.78,
+  "z_min": -1.09,
+  "drop_avg": 7.78,
+  "fundamental_ratio": 1.01,
   "chain_negative": "2/5"
  },
- "caveat": "역사 표본 15개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 16개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
