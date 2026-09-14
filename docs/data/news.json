@@ -1,9 +1,9 @@
 {
- "ts_kst": "09-14 22:21",
- "n_items": 102,
+ "ts_kst": "09-14 22:31",
+ "n_items": 103,
  "by_source": {
   "kr": 73,
-  "en": 29
+  "en": 30
  },
  "routed": {
   "M-CYCLE": 8,
@@ -11,21 +11,11 @@
   "F-ACTIVE": 5,
   "R-LEVERAGE": 11
  },
- "unassigned": 71,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 72,
+ "alerts": [],
  "items": [
   {
-   "title": "삼성전자·SK하이닉스, '25조 전기료 선납' 한전 제안 거절 - yna.co.kr",
+   "title": "삼성전자·SK하이닉스, '25조 전기료 선납' 한전 제안 거절 - 연합뉴스",
    "pub": "Sun, 13 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -146,7 +136,7 @@
    "agents": []
   },
   {
-   "title": "삼성·SK가 점찍은 클린룸 강자들…반도체 투자에 실적 훈풍 - 디일렉",
+   "title": "삼성·SK가 점찍은 클린룸 강자들…반도체 투자에 실적 훈풍 - thelec.kr",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -209,21 +199,21 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 공장 운영 비법 '공공나노팹'에 전수 - 디일렉",
+   "title": "삼성전자, 반도체 공장 운영 비법 '공공나노팹'에 전수 - thelec.kr",
    "pub": "Sat, 12 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성 반도체 일부 직원, 주거지원금 부정수급 의혹…조사 착수 - yna.co.kr",
+   "title": "삼성 반도체 일부 직원, 주거지원금 부정수급 의혹…조사 착수 - 연합뉴스",
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 물 사용 줄인다…하루 33만톤 재이용 추진 - viva100.com",
+   "title": "삼성이 반도체 만들 때도 ‘아끼고 다시 쓰는’ 의외의 이것 - ekn.kr",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -319,7 +309,7 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -344,7 +334,7 @@
    "agents": []
   },
   {
-   "title": "코스피 3.26% 급락, 6,600대로 마감…외국인·기관 4.5조원 순매도 - 산경투데이",
+   "title": "코스피 3.26% 급락, 6,600대로 마감…외국인·기관 4.5조원 순매도 - sankyungtoday.com",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -475,7 +465,7 @@
    ]
   },
   {
-   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - yna.co.kr",
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -568,7 +558,7 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - yna.co.kr",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -586,7 +576,25 @@
    ]
   },
   {
+   "title": "Memory Stocks Lead AI Selloff as Anthropic and OpenAI Chiefs Urge Slower Development: Micron and SanDisk Sink 6%, SK Hynix Drops 7%",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Technology Shares Fall 5.2% as Semiconductor Stocks Decline",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Sinks Again. What AI Safety Fears Mean for Memory Chips.",
    "pub": "Mon, 14 Sep 2026",
    "src": "en",
    "q": "MU",
@@ -611,25 +619,7 @@
    "agents": []
   },
   {
-   "title": "Will Micron Technology Stock Soar to $1,500 After Sept. 30?",
-   "pub": "Sun, 13 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Prediction: This Memory Stock Could Surge 233% Over the Next 3 Years (Hint: It's not Micron or Sandisk)",
-   "pub": "Sun, 13 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "AI Stocks Are Tumbling. 3 Reasons Not to Panic.",
+   "title": "3 Reasons to Ride Out the Latest AI Stock Panic",
    "pub": "Mon, 14 Sep 2026",
    "src": "en",
    "q": "MU",
