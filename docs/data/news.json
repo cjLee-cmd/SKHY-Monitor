@@ -1,18 +1,29 @@
 {
- "ts_kst": "09-15 03:05",
- "n_items": 101,
+ "ts_kst": "09-15 03:14",
+ "n_items": 102,
  "by_source": {
-  "kr": 71,
+  "kr": 72,
   "en": 30
  },
  "routed": {
   "M-CYCLE": 7,
+  "F-ACTIVE": 5,
+  "C-BUYBACK": 1,
   "C-CHINA": 7,
-  "F-ACTIVE": 4,
   "R-LEVERAGE": 11
  },
- "unassigned": 72,
- "alerts": [],
+ "unassigned": 71,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "개인투자자 9월 들어 '삼성잔자 SK하이닉스' 주식 매도 전환, 대규모 자사주 매입이 수급 뒷받침 - 비즈니스포스트",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스, '25조 전기료 선납' 한전 제안 거절 - 연합뉴스",
@@ -29,7 +40,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 모두 '거절'...속 타는 한전 [자막뉴스] - ytn.co.kr",
+   "title": "삼성전자·SK하이닉스 모두 '거절'...속 타는 한전 [자막뉴스] - YTN",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -45,14 +56,39 @@
    ]
   },
   {
-   "title": "삼성전자 ‘27만원’·SK하이닉스 ‘148만원’...BNK “주가 상단 제한적” - v.daum.net",
+   "title": "‘하닉 하락 적중했던 그 보고서’…이번엔 삼성전자 목표가 낮췄다 - 문화일보",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "코스피, 3%대 하락 마감...SK하이닉스 6%대 급락 - ytn.co.kr",
+   "title": "“이건 정말 드문 일” SK하이닉스 주식, 왜 이래?…개인도 외국인도 기관도 모두 ‘순매도’ [투자360] - v.daum.net",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "[1% 초고수의 개장 선택] ’SK하이닉스’ 늘리고, ’삼성전기’ 줄인다 By EBN - Investing.com 한국어",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "개인투자자 9월 들어 '삼성잔자 SK하이닉스' 주식 매도 전환, 대규모 자사주 매입이 수급 뒷받침 - 비즈니스포스트",
+   "pub": "Sun, 13 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "코스피, 3%대 하락 마감...SK하이닉스 6%대 급락 - YTN",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -80,13 +116,6 @@
    "agents": []
   },
   {
-   "title": "[이슈콘서트] 삼성전자·SK하이닉스 주가 다시 불붙나…반도체 수요 새 국면? - KBS 뉴스",
-   "pub": "Mon, 14 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "[단독-메가특구법 노동특례?] 삼성전자·SK하이닉스, 기간제·파견 확대 ‘관심 없다’ - 매일노동뉴스",
    "pub": "Sun, 13 Sep 2026",
    "src": "kr",
@@ -108,22 +137,22 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 중동·금리 부담에 동반 약세…4%대↓ - 이투데이",
+   "title": "[이슈콘서트] 삼성전자·SK하이닉스 주가 다시 불붙나…반도체 수요 새 국면? - v.daum.net",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주가, 오늘 급락 이유는? - Investing.com 한국어",
-   "pub": "Mon, 14 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
+   "q": "삼성전자 반도체",
    "agents": []
   },
   {
    "title": "설계·공정부터 팹까지…삼성·SK, 반도체 생태계 ‘AI 대전환’ - it.chosun.com",
    "pub": "Sat, 12 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "'AI 속도 조절론'에다 메모리 대폭 줄인 AI모델도, 삼성전자 SK하이닉스 반도체 수요 역풍 맞나 - 비즈니스포스트",
+   "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -164,27 +193,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 日 패키징 R&D 거점 문 열어…TSMC도 택한 '소부장 강국' - 아이뉴스24",
-   "pub": "Sun, 13 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[기업家] 삼성전자 ?ㅣ 차세대 반도체 승부수…첨단 패키징·하이 NA EUV·AI 메모리 경쟁력 강화 - 네이트",
-   "pub": "Sun, 13 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 증설 본격화…반도체 팹 인프라 수주 확대 전망 - ebn.co.kr",
-   "pub": "Sun, 13 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자, 반도체 공장 운영 비법 '공공나노팹'에 전수 - 디일렉",
    "pub": "Sat, 12 Sep 2026",
    "src": "kr",
@@ -201,6 +209,20 @@
   {
    "title": "삼성전자, 반도체 물 사용 줄인다…하루 33만톤 재이용 추진 - viva100.com",
    "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 4%·하이닉스 6% 급락 … 아시아 반도체 관련주에 '직격탄' - 매일경제 마켓",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, ASML과 차세대 반도체 제조 협력 확대 - Samsung Global Newsroom",
+   "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -286,7 +308,7 @@
    "agents": []
   },
   {
-   "title": "데뷔 첫날 중국 '시총 1위' 창신메모리...\"빅3 위협\" vs \"기술 격차\" - ytn.co.kr",
+   "title": "데뷔 첫날 중국 '시총 1위' 창신메모리...\"빅3 위협\" vs \"기술 격차\" - YTN",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -616,15 +638,6 @@
   },
   {
    "title": "Micron Technology Is Ramping Up Production of High-Bandwidth Memory. Here's Why That Could Send the Stock to New Heights This Year",
-   "pub": "Mon, 14 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron's Manufacturing Push: Can MU Gain More From AI Memory Demand?",
    "pub": "Mon, 14 Sep 2026",
    "src": "en",
    "q": "MU",
