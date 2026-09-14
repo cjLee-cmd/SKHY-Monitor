@@ -1,8 +1,8 @@
 {
- "ts_kst": "09-14 21:42",
- "n_items": 102,
+ "ts_kst": "09-14 21:51",
+ "n_items": 103,
  "by_source": {
-  "kr": 72,
+  "kr": 73,
   "en": 30
  },
  "routed": {
@@ -11,8 +11,18 @@
   "F-ACTIVE": 5,
   "R-LEVERAGE": 11
  },
- "unassigned": 70,
- "alerts": [],
+ "unassigned": 71,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스, '25조 전기료 선납' 한전 제안 거절 - 연합뉴스",
@@ -87,13 +97,6 @@
    "agents": []
   },
   {
-   "title": "[이슈콘서트] 삼성전자·SK하이닉스 주가 다시 불붙나…반도체 수요 새 국면? - KBS 뉴스",
-   "pub": "Mon, 14 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "‘돈’ 앞에 갈린 노조…삼성은 쪼개지고 하이닉스는 손잡고 - ekn.kr",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
@@ -115,8 +118,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 한전 ’25조 전기료 선납’ 제안 거절 - 연합뉴스TV",
-   "pub": "Sun, 13 Sep 2026",
+   "title": "[특징주] 삼성전자·SK하이닉스, 중동·금리 부담에 동반 약세…4%대↓ - 이투데이",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 주가, 오늘 급락 이유는? - Investing.com 한국어",
+   "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -199,6 +209,13 @@
    "agents": []
   },
   {
+   "title": "[이슈콘서트] 삼성전자·SK하이닉스 주가 다시 불붙나…반도체 수요 새 국면? - v.daum.net",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성이 반도체 만들 때도 ‘아끼고 다시 쓰는’ 의외의 이것 - ekn.kr",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
@@ -206,7 +223,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 물 사용 줄인다…하루 33만톤 재이용 추진 - 브릿지경제",
+   "title": "삼성전자, 반도체 물 사용 줄인다…하루 33만톤 재이용 추진 - viva100.com",
    "pub": "Fri, 11 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -311,7 +328,7 @@
    ]
   },
   {
-   "title": "CXMT 상장 약발 끝났나…중국 반도체 ETF 줄줄이 하락 - chosun.com",
+   "title": "CXMT 상장 약발 끝났나…중국 반도체 ETF 줄줄이 하락 - 조선일보",
    "pub": "Wed, 26 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -508,7 +525,7 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -626,15 +643,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Nvidia's Latest Signal Points to Serious Downside Risk for Micron Before 2029 Is Over",
-   "pub": "Mon, 14 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
