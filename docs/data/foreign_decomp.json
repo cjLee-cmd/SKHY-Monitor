@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-14 09:02",
+ "ts_kst": "09-14 09:12",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -17,41 +17,33 @@
    },
    "brokers": {
     "sell": {
-     "total": 523352.0,
-     "foreign": 411126.0,
-     "foreign_pct": 78.6,
+     "total": 1029602.0,
+     "foreign": 589336.0,
+     "foreign_pct": 57.2,
      "houses": [
       {
        "name": "메릴린치",
-       "qty": 211436.0
+       "qty": 326155.0
       },
       {
        "name": "골드만",
-       "qty": 141260.0
-      },
-      {
-       "name": "모간서울",
-       "qty": 58430.0
+       "qty": 263181.0
       }
      ]
     },
     "buy": {
-     "total": 440656.0,
-     "foreign": 200540.0,
-     "foreign_pct": 45.5,
+     "total": 905763.0,
+     "foreign": 213397.0,
+     "foreign_pct": 23.6,
      "houses": [
       {
        "name": "골드만",
-       "qty": 140830.0
-      },
-      {
-       "name": "메릴린치",
-       "qty": 59710.0
+       "qty": 213397.0
       }
      ]
     },
-    "net_foreign_qty": -210586.0,
-    "foreign_share_pct": 63.5
+    "net_foreign_qty": -375939.0,
+    "foreign_share_pct": 41.5
    }
   },
   "hynix": {
@@ -70,40 +62,36 @@
    },
    "brokers": {
     "sell": {
-     "total": 143292.0,
-     "foreign": 143292.0,
-     "foreign_pct": 100.0,
+     "total": 242914.0,
+     "foreign": 213588.0,
+     "foreign_pct": 87.9,
      "houses": [
       {
        "name": "골드만",
-       "qty": 47610.0
-      },
-      {
-       "name": "UBS",
-       "qty": 39598.0
-      },
-      {
-       "name": "메릴린치",
-       "qty": 21703.0
+       "qty": 75560.0
       },
       {
        "name": "JP모간",
-       "qty": 18321.0
+       "qty": 62925.0
+      },
+      {
+       "name": "UBS",
+       "qty": 44205.0
       },
       {
        "name": "모간서울",
-       "qty": 16060.0
+       "qty": 30898.0
       }
      ]
     },
     "buy": {
-     "total": 131317.0,
+     "total": 275978.0,
      "foreign": 0.0,
      "foreign_pct": 0.0,
      "houses": []
     },
-    "net_foreign_qty": -143292.0,
-    "foreign_share_pct": 52.2
+    "net_foreign_qty": -213588.0,
+    "foreign_share_pct": 41.2
    }
   }
  },
