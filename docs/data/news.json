@@ -1,19 +1,29 @@
 {
- "ts_kst": "09-14 21:12",
- "n_items": 104,
+ "ts_kst": "09-14 21:22",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 10,
+  "M-CYCLE": 9,
   "P-ADR": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 11
  },
  "unassigned": 69,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스, '25조 전기료 선납' 한전 제안 거절 - 연합뉴스",
@@ -53,15 +63,15 @@
    "agents": []
   },
   {
-   "title": "“그래도 반도체 아니면 뭘 사겠냐”…50% 비싸도 서학개미가 9600억 쓸어담은 ‘이 주식’ - 서울경제",
-   "pub": "Mon, 14 Sep 2026",
+   "title": "\"SK하이닉스 주가, 여전히 싸다고?\"...'파격' 전망 나왔다 - v.daum.net",
+   "pub": "Sat, 12 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 주가, 여전히 싸다고?\"...'파격' 전망 나왔다 - v.daum.net",
-   "pub": "Sat, 12 Sep 2026",
+   "title": "“그래도 반도체 아니면 뭘 사겠냐”…50% 비싸도 서학개미가 9600억 쓸어담은 ‘이 주식’ - 서울경제",
+   "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -125,7 +135,7 @@
    "agents": []
   },
   {
-   "title": "\"그만두라\"던 이병철의 반도체 투자 결심...인텔 손잡고 일본 넘었다 - 한국일보",
+   "title": "[단독]반도체 성과급 재원만 40조, 내년엔 더 커져...삼성, 보상 체계 재점검 나섰다 - v.daum.net",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -139,7 +149,7 @@
    "agents": []
   },
   {
-   "title": "'AI 속도 조절론'에다 메모리 대폭 줄인 AI모델도, 삼성전자 SK하이닉스 반도체 수요 역풍 맞나 - 비즈니스포스트",
+   "title": "삼성전자 4%·하이닉스 6% 급락 … 아시아 반도체 관련주에 '직격탄' - 매일경제 마켓",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -153,20 +163,11 @@
    "agents": []
   },
   {
-   "title": "삼성전자 4%·하이닉스 6% 급락 … 아시아 반도체 관련주에 '직격탄' - 매일경제 마켓",
+   "title": "\"그만두라\"던 이병철의 반도체 투자 결심...인텔 손잡고 일본 넘었다 - 한국일보",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
-  },
-  {
-   "title": "삼성전자 반도체 반격 시작되나…4분기 HBM 점유율 40% 넘본다 - v.daum.net",
-   "pub": "Fri, 11 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "삼성 노조, 인력배치 제동?…호남 반도체 투자 변수되나 - MTN 머니투데이방송",
@@ -190,22 +191,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 증설 본격화…반도체 팹 인프라 수주 확대 전망 - ebn.co.kr",
-   "pub": "Sun, 13 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "이상일 시장, “삼성전자와 SK하이닉스의 용인 반도체 산단 조성에 약 1600조원 투자 전망” - 대한경제",
+   "title": "삼성전자·SK하이닉스 나란히 약세···반도체 투심 주춤 - 뉴스웨이",
    "pub": "Mon, 14 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "반도체 수출, 역대 최고치 기록, 삼성전자/SK하이닉스 이익은 얼마나 증가할까요? - contents.premium.naver.com",
-   "pub": "Sat, 12 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -227,6 +214,20 @@
   {
    "title": "[이슈콘서트] 삼성전자·SK하이닉스 주가 다시 불붙나…반도체 수요 새 국면? - v.daum.net",
    "pub": "Mon, 14 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 물 사용 줄인다…하루 33만톤 재이용 추진 - 브릿지경제",
+   "pub": "Fri, 11 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스 증설 본격화…반도체 팹 인프라 수주 확대 전망 - ebn.co.kr",
+   "pub": "Sun, 13 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -312,8 +313,8 @@
    "agents": []
   },
   {
-   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
-   "pub": "Mon, 10 Aug 2026",
+   "title": "데뷔 첫날 중국 '시총 1위' 창신메모리...\"빅3 위협\" vs \"기술 격차\" - YTN",
+   "pub": "Tue, 28 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -529,7 +530,7 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -590,6 +591,15 @@
    ]
   },
   {
+   "title": "Micron Technology Shares Fall 5.2% as Semiconductor Stocks Decline",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Prediction: Micron's Sept. 30 Earnings Will Confirm the Memory Shortage Isn't Over",
    "pub": "Mon, 14 Sep 2026",
    "src": "en",
@@ -633,13 +643,11 @@
    ]
   },
   {
-   "title": "DeepSeek Cut Its KV-Cache HBM Need 75% and SSD Need 87.5%. Micron and Sandisk Investors Should Pay Attention",
-   "pub": "Sun, 13 Sep 2026",
+   "title": "AI Stocks Are Tumbling. 3 Reasons Not to Panic.",
+   "pub": "Mon, 14 Sep 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
