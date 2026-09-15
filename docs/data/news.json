@@ -1,19 +1,29 @@
 {
- "ts_kst": "09-15 15:29",
- "n_items": 103,
+ "ts_kst": "09-15 15:39",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 12,
-  "P-ADR": 3,
+  "M-CYCLE": 11,
+  "P-ADR": 2,
   "C-CHINA": 7,
   "F-ACTIVE": 4,
   "R-LEVERAGE": 11
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 69,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스, 3분기 영업익 전망치 급상향… “HBM4 성적은 삼성 우세” - 조선비즈 - Chosunbiz",
@@ -25,22 +35,11 @@
    ]
   },
   {
-   "title": "HBM 이어 3D 적층 D램도… SK하이닉스, TSMC와 ‘로직 결합’ 확대하나 - 조선비즈 - Chosunbiz",
-   "pub": "Mon, 14 Sep 2026",
+   "title": "삼성전자·SK하이닉스, 한전 `25조 전기료 선납` 제안 거절 - 국제신문",
+   "pub": "Sun, 13 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "AI 반도체 시장에 '저용량 HBM' 확산 조짐, 삼성전자 SK하이닉스에 중장기 변수 - 비즈니스포스트",
-   "pub": "Tue, 15 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "삼성전자·SK하이닉스, 한전 '25조 전기료 선납' 제안 거절 - 전자신문",
@@ -50,15 +49,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, '25조 전기료 선납' 한전 제안 거절 - 연합뉴스",
-   "pub": "Sun, 13 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 모두 '거절'...속 타는 한전 [자막뉴스] - YTN",
-   "pub": "Mon, 14 Sep 2026",
+   "title": "기후장관 \"삼전·하이닉스 전기료 선납, 절박한 요청 아니었다\" - 연합뉴스",
+   "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -85,8 +77,22 @@
    "agents": []
   },
   {
+   "title": "사이렌 울리자 2천500명 우르르…SK하이닉스 방재훈련 첫 공개 - 연합뉴스",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "안성 농민들 “SK하이닉스 오폐수 고삼저수지 직방류 철회하라” - 경인일보",
    "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 주가, 오늘 급락 이유는? - Investing.com 한국어",
+   "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -110,15 +116,6 @@
    ]
   },
   {
-   "title": "“그래도 반도체 아니면 뭘 사겠냐” 하이닉스 ADR ‘줍줍’…50% 비싸도 쓸어담았다 - 서울경제",
-   "pub": "Mon, 14 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
    "title": "대기업 계약학과 지원자 역대 최다…3명 중 2명 '반도체' - v.daum.net",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
@@ -133,6 +130,13 @@
    "agents": []
   },
   {
+   "title": "\"졸업하면 하이닉스\"…취업 보장 대기업 계약학과에 9천명 몰렸다 - 경기일보",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성·SK가 점찍은 클린룸 강자들…반도체 투자에 실적 훈풍 - 디일렉",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
@@ -140,14 +144,16 @@
    "agents": []
   },
   {
-   "title": "[이슈콘서트] 삼성전자·SK하이닉스 주가 다시 불붙나…반도체 수요 새 국면? - v.daum.net",
-   "pub": "Mon, 14 Sep 2026",
+   "title": "AI 반도체 시장에 '저용량 HBM' 확산 조짐, 삼성전자 SK하이닉스에 중장기 변수 - 비즈니스포스트",
+   "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "삼성전자 노-노 갈등 심화…‘반도체만의 노조’ 분리 가시화 - 한겨레",
+   "title": "[이슈콘서트] 삼성전자·SK하이닉스 주가 다시 불붙나…반도체 수요 새 국면? - v.daum.net",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -193,6 +199,13 @@
   {
    "title": "반도체 수출, 역대 최고치 기록, 삼성전자/SK하이닉스 이익은 얼마나 증가할까요? - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 12 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[단독]반도체 성과급 재원만 40조, 내년엔 더 커져...삼성, 보상 체계 재점검 나섰다 - v.daum.net",
+   "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -551,7 +564,7 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - nongmin.com",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -574,8 +587,8 @@
    "agents": []
   },
   {
-   "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "pub": "Tue, 14 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -629,15 +642,6 @@
   },
   {
    "title": "Micron Technology (MU) Stock Faces New AI Demand Questions After Industry Slowdown Call",
-   "pub": "Mon, 14 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "AI Warning Sends Nvidia, AMD, Micron and Intel Shares Tumbling",
    "pub": "Mon, 14 Sep 2026",
    "src": "en",
    "q": "MU",
