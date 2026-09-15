@@ -1,19 +1,29 @@
 {
- "ts_kst": "09-16 05:00",
- "n_items": 103,
+ "ts_kst": "09-16 05:10",
+ "n_items": 102,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 27
  },
  "routed": {
   "M-CYCLE": 13,
-  "C-CHINA": 8,
+  "C-CHINA": 9,
   "F-ACTIVE": 7,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스, 한전 '25조 전기료 선납' 제안 거절 - 전자신문",
@@ -60,6 +70,27 @@
    "agents": []
   },
   {
+   "title": "하이닉스 하락 적중했던 그 증권사…삼성전자 목표가 '싸늘' [지금이뉴스] - YTN",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"삼전닉스, 과거 주가 회복 쉽지 않다\" 고점론 띄웠던 증권사, 또다시 경고 - v.daum.net",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“더 오르기 힘들다”…삼전닉스 목표가 ‘반토막 전망’ 나온 이유 - 주간조선",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "졸업만 하면 하이닉스…역대 최다 8994명 몰린 ‘취업 보장’ 학과 - 중앙일보",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
@@ -97,27 +128,6 @@
   {
    "title": "\"삼전닉스 믿었는데\" 개미들 허탈…석 달 만에 무슨 일이? [분석+] - 한국경제",
    "pub": "Mon, 14 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 'ICT 해피에이징 서포터즈 3기' 출범 - 뉴시스",
-   "pub": "Tue, 15 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 'ICT 해피에이징 서포터즈' 3기 출범…\"노노케어 확산\" - v.daum.net",
-   "pub": "Tue, 15 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 노인 정보격차 해소 'ICT 해피에이징' 3기 배출 - 뉴스1",
-   "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -197,15 +207,15 @@
    "agents": []
   },
   {
-   "title": "반도체 호황에 찬물…삼성 DS, 월세 꼼수·노노 갈등 ‘겹악재’ - 투데이신문",
-   "pub": "Tue, 15 Sep 2026",
+   "title": "삼성전자, 반도체 공장 운영 비법 '공공나노팹'에 전수 - 디일렉",
+   "pub": "Sat, 12 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 공장 운영 비법 '공공나노팹'에 전수 - 디일렉",
-   "pub": "Sat, 12 Sep 2026",
+   "title": "반도체 호황에 찬물…삼성 DS, 월세 꼼수·노노 갈등 ‘겹악재’ - 투데이신문",
+   "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -264,13 +274,6 @@
    "agents": []
   },
   {
-   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
-   "pub": "Fri, 28 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "HSBC, AI 투자처로 韓 메모리·대만 반도체·中 인프라 주목 - 헬로티",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
@@ -312,6 +315,13 @@
    "agents": []
   },
   {
+   "title": "HSBC \"AI 투자자, 韓 메모리·대만 반도체·中 인프라 주목\" - KB Think",
+   "pub": "Wed, 09 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "데뷔 첫날 중국 '시총 1위' 창신메모리...\"빅3 위협\" vs \"기술 격차\" - YTN",
    "pub": "Tue, 28 Jul 2026",
    "src": "kr",
@@ -319,13 +329,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "HSBC \"AI 투자자, 韓 메모리·대만 반도체·中 인프라 주목\" - kbthink.com",
-   "pub": "Wed, 09 Sep 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
@@ -355,7 +358,25 @@
    ]
   },
   {
+   "title": "중국 관영매체 한국은행의 메모리반도체 주도권 보고서 반박, \"삼성전자 SK하이닉스와 CXMT 공존 가능\" - 비즈니스포스트",
+   "pub": "Mon, 07 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "(마감시황) 코스피, 외국인·기관 2조 순매도 속 6,620선 하락 - 뉴스투데이",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "금리·유가에 눌린 코스피, 나흘째 하락…외국인 1.6조 순매도 - 경북매일",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -378,15 +399,6 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
-  },
-  {
-   "title": "금리·유가에 눌린 코스피, 나흘째 하락…외국인 1.6조 순매도 - 경북매일",
-   "pub": "Tue, 15 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "[마감시황] 코스피 나흘째 하락 6627 마감…외국인 1.7조 매도 - 자본시장뉴스",
@@ -544,6 +556,15 @@
    ]
   },
   {
+   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
    "pub": "Wed, 08 Jul 2026",
    "src": "kr",
@@ -594,12 +615,12 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "Micron Appoints Deirdre Hanford to Lead Micron Research Labs",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
   },
   {
@@ -631,15 +652,6 @@
   },
   {
    "title": "Micron Gains 1.4% as 512GB Module Raises the AI Memory Ceiling",
-   "pub": "Tue, 15 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "MU Stock Rises After Micron Debuts 512GB DDR5 Server Memory – AMD, Intel To Validate New Server Technology",
    "pub": "Tue, 15 Sep 2026",
    "src": "en",
    "q": "MU",
