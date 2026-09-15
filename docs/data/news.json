@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-16 05:49",
+ "ts_kst": "09-16 05:59",
  "n_items": 102,
  "by_source": {
   "kr": 75,
@@ -13,7 +13,17 @@
   "R-LEVERAGE": 11
  },
  "unassigned": 61,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스, 한전 ‘25조 전기료 선납’ 거절 - 서울경제",
@@ -60,6 +70,13 @@
    "agents": []
   },
   {
+   "title": "\"우리도 삼전·하이닉스 훈풍\"…중견 건설사 '일감 확대' 수혜 - 뉴스1",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "졸업만 하면 하이닉스…역대 최다 8994명 몰린 ‘취업 보장’ 학과 - 중앙일보",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
@@ -88,14 +105,14 @@
    "agents": []
   },
   {
-   "title": "\"삼전닉스 믿었는데\" 개미들 허탈…석 달 만에 무슨 일이? [분석+] - 한국경제",
-   "pub": "Mon, 14 Sep 2026",
+   "title": "삼성전자·SK하이닉스 'AI 속도조절론' 비껴가나⋯코스피 약보합 - v.daum.net",
+   "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "코스피, 3%대 하락 마감...SK하이닉스 6%대 급락 - YTN",
+   "title": "\"삼전닉스 믿었는데\" 개미들 허탈…석 달 만에 무슨 일이? [분석+] - hankyung.com",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -110,13 +127,6 @@
   },
   {
    "title": "SK하이닉스 'ICT 해피에이징 서포터즈' 3기 출범…\"노노케어 확산\" - v.daum.net",
-   "pub": "Tue, 15 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 노인 정보격차 해소 'ICT 해피에이징' 3기 배출 - 뉴스1",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -204,7 +214,7 @@
    "agents": []
   },
   {
-   "title": "반도체 호황에 찬물…삼성 DS, 월세 꼼수·노노 갈등 ‘겹악재’ - ntoday.co.kr",
+   "title": "반도체 호황에 찬물…삼성 DS, 월세 꼼수·노노 갈등 ‘겹악재’ - 투데이신문",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -314,13 +324,6 @@
    ]
   },
   {
-   "title": "HSBC \"AI 투자자, 韓 메모리·대만 반도체·中 인프라 주목\" - KB Think",
-   "pub": "Wed, 09 Sep 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -328,6 +331,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "HSBC \"AI 투자자, 韓 메모리·대만 반도체·中 인프라 주목\" - KB Think",
+   "pub": "Wed, 09 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
   },
   {
    "title": "CXMT 상장 약발 끝났나…중국 반도체 ETF 줄줄이 하락 - 조선일보",
@@ -428,7 +438,7 @@
    "agents": []
   },
   {
-   "title": "美 국채금리 상승에 3조 던진 외국인…코스피 하락 마감 - 한국경제",
+   "title": "美 국채금리 상승에 3조 던진 외국인…코스피 하락 마감 - hankyung.com",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -546,6 +556,15 @@
    ]
   },
   {
+   "title": "62조 '빚투' 후폭풍…반대매매·연체·미수채권 '3중 압박' [fn마켓워치] - v.daum.net",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
    "pub": "Wed, 08 Jul 2026",
    "src": "kr",
@@ -580,7 +599,7 @@
    ]
   },
   {
-   "title": "'한 달 전으로 시간 돌릴 수 있다면'…빚투 개미들 '피눈물' [분석+] - 한국경제",
+   "title": "'한 달 전으로 시간 돌릴 수 있다면'…빚투 개미들 '피눈물' [분석+] - hankyung.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -596,12 +615,12 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
-   "pub": "Mon, 22 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "Micron Investors Get New Reason to Watch Closely",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
   },
   {
@@ -633,15 +652,6 @@
   },
   {
    "title": "Jim Cramer Validates Caller’s $1,400 Micron (MU) Thesis, Doubles Down on Charitable Trust Position",
-   "pub": "Tue, 15 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Worrying News For Micron Stock Fans",
    "pub": "Tue, 15 Sep 2026",
    "src": "en",
    "q": "MU",
