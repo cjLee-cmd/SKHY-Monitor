@@ -1,39 +1,22 @@
 {
- "ts_kst": "09-15 20:07",
- "n_items": 102,
+ "ts_kst": "09-15 20:17",
+ "n_items": 104,
  "by_source": {
-  "kr": 73,
+  "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 11,
   "C-CHINA": 6,
   "F-ACTIVE": 6,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "agents": []
-  }
- ],
+ "unassigned": 69,
+ "alerts": [],
  "items": [
   {
-   "title": "삼성전자·SK하이닉스, '25조 전기료 선납' 한전 제안 거절 - yna.co.kr",
+   "title": "삼성전자·SK하이닉스, '25조 전기료 선납' 한전 제안 거절 - 연합뉴스",
    "pub": "Sun, 13 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -63,30 +46,14 @@
    ]
   },
   {
-   "title": "AI 반도체 시장에 '저용량 HBM' 확산 조짐, 삼성전자 SK하이닉스에 중장기 변수 - 비즈니스포스트",
-   "pub": "Tue, 15 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "[이슈콘서트] 삼성전자·SK하이닉스 주가 다시 불붙나…반도체 수요 새 국면? - v.daum.net",
-   "pub": "Mon, 14 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 'ICT 해피에이징 서포터즈 3기' 출범 - 뉴시스",
+   "title": "SK하이닉스 'ICT 해피에이징 서포터즈' 3기 출범…\"노노케어 확산\" - 노컷뉴스",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 'ICT 해피에이징 서포터즈' 3기 출범…\"노노케어 확산\" - v.daum.net",
+   "title": "SK하이닉스, 노인 정보격차 해소 'ICT 해피에이징' 3기 배출 - 뉴스1",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -94,6 +61,27 @@
   },
   {
    "title": "SK하이닉스 시니어 서포터즈 새출발 - 충청매일",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "졸업만 하면 하이닉스…역대 최다 8994명 몰린 ‘취업 보장’ 학과 - joongang.co.kr",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "대기업 계약학과 수시 지원자 역대 최다…SK하이닉스 27.3%↑ - 연합뉴스",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "수시에서도 SK하이닉스 상한가…27.3%↑ - v.daum.net",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -137,13 +125,6 @@
    "agents": []
   },
   {
-   "title": "하이닉스 하락 적중했던 그 증권사…삼성전자 목표가 '싸늘' [지금이뉴스] - YTN",
-   "pub": "Tue, 15 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "삼성·SK가 점찍은 클린룸 강자들…반도체 투자에 실적 훈풍 - 디일렉",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
@@ -158,11 +139,27 @@
    "agents": []
   },
   {
-   "title": "삼성·암바렐라 2나노 동맹, 피지컬AI 칩 만든다 - marketin.edaily.co.kr",
+   "title": "[이슈콘서트] 삼성전자·SK하이닉스 주가 다시 불붙나…반도체 수요 새 국면? - v.daum.net",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성·암바렐라 2나노 동맹, 피지컬AI 칩 만든다 - 마켓인",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "AI 반도체 시장에 '저용량 HBM' 확산 조짐, 삼성전자 SK하이닉스에 중장기 변수 - 비즈니스포스트",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "“재도약 만들겠다”던 전영현…2년 뒤 삼성 반도체의 현주소 - 아시아투데이",
@@ -242,7 +239,7 @@
    "agents": []
   },
   {
-   "title": "믿었던 HBM 마저…중국이 다 쫓아왔다 [中반도체 공습] - 중앙일보",
+   "title": "믿었던 HBM 마저…중국이 다 쫓아왔다 [中반도체 공습] - joongang.co.kr",
    "pub": "Sun, 13 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -386,7 +383,7 @@
    "agents": []
   },
   {
-   "title": "[개장시황] 외국인·기관 6000억 매도…코스피 6659선 하락 개장 - newspim.com",
+   "title": "[개장시황] 외국인·기관 6000억 매도…코스피 6659선 하락 개장 - 뉴스핌",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -489,7 +486,7 @@
    "agents": []
   },
   {
-   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - yna.co.kr",
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -541,7 +538,7 @@
    ]
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - g-enews.com",
    "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -637,24 +634,6 @@
   },
   {
    "title": "Micron (MU) Falls More Steeply Than Broader Market: What Investors Need to Know",
-   "pub": "Mon, 14 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology (MU) Stock Faces New AI Demand Questions After Industry Slowdown Call",
-   "pub": "Mon, 14 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "AI Warning Sends Nvidia, AMD, Micron and Intel Shares Tumbling",
    "pub": "Mon, 14 Sep 2026",
    "src": "en",
    "q": "MU",
