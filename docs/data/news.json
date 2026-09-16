@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-16 22:39",
+ "ts_kst": "09-16 22:48",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -13,17 +13,7 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 70,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "로이터 \"SK하이닉스, 인텔과 미국서 메모리칩 생산 방안 협의 중\" - 연합뉴스TV",
@@ -54,21 +44,7 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, AI 투자 우려 완화에 동반 강세 - 이투데이",
-   "pub": "Wed, 16 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "外人 9000억 넘게 팔았지만…삼성전자·SK하이닉스 동반 강세 마감[핫스탁](종합) - 뉴시스",
-   "pub": "Wed, 16 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 산학연구 우수발명 시상…최우수상에 최우석 교수 - yna.co.kr",
+   "title": "SK하이닉스, 산학연구 우수발명 시상…최우수상에 최우석 교수 - 연합뉴스",
    "pub": "Wed, 16 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -124,7 +100,21 @@
    "agents": []
   },
   {
+   "title": "\"미국 생산만 관세면제\" 트럼프 압박에 … 하이닉스 '현지팹' 속도 - 매일경제",
+   "pub": "Wed, 16 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "인텔 상승폭 축소, SK하이닉스 \"美 반도체 논의 확정 無\" - Investing.com 한국어",
+   "pub": "Wed, 16 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK하이닉스, 인텔 美 오하이오 공장 임차해 메모리 칩 생산\" - 조선일보",
    "pub": "Wed, 16 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -291,7 +281,7 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -360,6 +350,15 @@
    "agents": []
   },
   {
+   "title": "코스피, 반도체 강세에 6700선 회복…외국인 6거래일째 순매도 - 뉴스인",
+   "pub": "Wed, 16 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "코스피, FOMC 앞두고 6,630선 관망…외국인 6거래일째 ‘순매도’ - 산경투데이",
    "pub": "Wed, 16 Sep 2026",
    "src": "kr",
@@ -367,15 +366,6 @@
    "agents": [
     "F-ACTIVE",
     "B-RATES"
-   ]
-  },
-  {
-   "title": "코스피, 반도체 강세에 6700선 회복…외국인 6거래일째 순매도 - 뉴스인",
-   "pub": "Wed, 16 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
    ]
   },
   {
@@ -409,13 +399,6 @@
    "agents": []
   },
   {
-   "title": "[클로징 벨] 반도체가 코스피 4일 만에 끌어올렸다…외국인은 1.7조 ‘팔자’ - standingout.kr",
-   "pub": "Wed, 16 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "(마감시황) 코스피, 외국인·기관 2조 순매도 속 6,620선 하락 - 뉴스투데이",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
@@ -423,6 +406,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "[클로징 벨] 반도체가 코스피 4일 만에 끌어올렸다…외국인은 1.7조 ‘팔자’ - standingout.kr",
+   "pub": "Wed, 16 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "[오늘의증시] 美 10년물 5% 돌파에 코스피 '출렁'…외국인 1.5조 매도 - 경인방송 뉴스",
@@ -482,7 +472,7 @@
    ]
   },
   {
-   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - yna.co.kr",
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -593,7 +583,7 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - yna.co.kr",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -607,6 +597,15 @@
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "Is Micron Technology (MU) Stock Outpacing Its Computer and Technology Peers This Year?",
+   "pub": "Wed, 16 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "What Nvidia and SK Hynix Are Signaling About Micron's Outlook",
@@ -628,15 +627,6 @@
   },
   {
    "title": "Micron Faces Competition to Be the American Memory-Chip Champion",
-   "pub": "Wed, 16 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Trades Hands at $927: Here’s What You Should Do",
    "pub": "Wed, 16 Sep 2026",
    "src": "en",
    "q": "MU",
