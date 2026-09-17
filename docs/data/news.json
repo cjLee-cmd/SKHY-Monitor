@@ -1,29 +1,19 @@
 {
- "ts_kst": "09-17 19:02",
+ "ts_kst": "09-17 19:12",
  "n_items": 101,
  "by_source": {
   "kr": 75,
   "en": 26
  },
  "routed": {
-  "M-CYCLE": 11,
+  "M-CYCLE": 12,
   "C-CHINA": 4,
   "F-ACTIVE": 7,
   "B-RATES": 3,
   "R-LEVERAGE": 12
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
    "title": "\"SK하이닉스, 인텔과 미국서 메모리 생산 협상중\"(종합) - 연합뉴스",
@@ -40,18 +30,20 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 \"연산하는 메모리로 AI 데이터 병목 해결\" - YTN",
+   "title": "SK하이닉스, 美 AI 서밋서 HBF·PIM 등 차세대 AI 메모리 설루션 공개 - v.daum.net",
    "pub": "Thu, 17 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 美 AI 서밋서 HBF·PIM 등 차세대 AI 메모리 설루션 공개 - v.daum.net",
-   "pub": "Thu, 17 Sep 2026",
+   "title": "삼성·SK하이닉스 독주 계속된다...빅테크 \"HBM 대체기술은 보완재일 뿐\" - YTN",
+   "pub": "Wed, 16 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자·SK하이닉스, AI 추론 메모리 확장 경쟁 '치열' - 뉴시스",
@@ -219,6 +211,13 @@
    "agents": []
   },
   {
+   "title": "[이슈] 삼성전자 반도체 하청노동자 \"단기 도급계약에 고용불안\"…산재 처리도 ‘눈치’ - 팍스경제TV",
+   "pub": "Thu, 17 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자 반도체 초호황 속 '노조 리스크' 해법은? - 파이낸셜포스트",
    "pub": "Thu, 17 Sep 2026",
    "src": "kr",
@@ -228,13 +227,6 @@
   {
    "title": "줬던 현금 줄인 SK하이닉스 vs 기존 룰 놔두고 주식 쏜 삼성전자…반도체 투톱 성과급 ‘동상이몽’ - 뉴스퀘스트",
    "pub": "Thu, 17 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "'대박'이라던 삼성 파운드리의 민낯과 정부의 오판 - OhmyNews",
-   "pub": "Wed, 16 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
