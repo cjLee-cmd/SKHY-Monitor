@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-18 00:21",
+ "ts_kst": "09-18 00:31",
  "n_items": 101,
  "by_source": {
   "kr": 75,
@@ -13,26 +13,7 @@
   "R-LEVERAGE": 11
  },
  "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "\"SK하이닉스, 인텔과 미국서 메모리 생산 협상중\"(종합) - 연합뉴스",
@@ -248,8 +229,8 @@
    "agents": []
   },
   {
-   "title": "SG, 삼성전자 온양캠퍼스에 ‘에코스틸아스콘’ 납품 확정…반도체 인프라 적용 확대 - 매일경제 마켓",
-   "pub": "Thu, 17 Sep 2026",
+   "title": "삼성전자, 반도체 공장 운영 비법 '공공나노팹'에 전수 - 디일렉",
+   "pub": "Sat, 12 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -619,6 +600,15 @@
    ]
   },
   {
+   "title": "Micron Sends Fresh Signal to AI Chip Investors",
+   "pub": "Thu, 17 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Prediction: This AI Infrastructure Stock Will Go Parabolic After Sept. 30 (Hint: It’s Not Micron)",
    "pub": "Thu, 17 Sep 2026",
    "src": "en",
@@ -647,15 +637,6 @@
   },
   {
    "title": "Micron bets $2.75 billion on India as AI memory demand surges",
-   "pub": "Thu, 17 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "A $2.75 Billion Reason Why Micron Stock In Focus",
    "pub": "Thu, 17 Sep 2026",
    "src": "en",
    "q": "MU",
