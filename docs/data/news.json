@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-18 08:04",
+ "ts_kst": "09-18 08:14",
  "n_items": 100,
  "by_source": {
   "kr": 73,
@@ -14,7 +14,17 @@
   "R-LEVERAGE": 11
  },
  "unassigned": 64,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "\"SK하이닉스, 인텔과 미국서 메모리 생산 협상중\"(종합) - 연합뉴스",
@@ -24,15 +34,29 @@
    "agents": []
   },
   {
-   "title": "[단독] SK그룹 핵심 부회장 3人, 하이닉스에 일제히 합류 - chosun.com",
+   "title": "메모리반도체 공급 부족 미국에서 '안보 문제'로 부각, SK하이닉스 삼성전자에 정책 변수 커져 - 비즈니스포스트",
    "pub": "Thu, 17 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 성과급 현금 비중 50%로 높인 임단협 수정안 가결 - weekly.donga.com",
+   "title": "인텔과 美 반도체 동맹 기대…초고수 SK하이닉스 담고 삼성전자 팔았다[주식초고수는 지금] - 서울경제",
    "pub": "Thu, 17 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "반도체 독주 끝나나 했더니… 코스피와 삼전·하닉 동조화 ‘역대급’ - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 17 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 임단협 수정안 가결…PS 현금 지급 40%→50% - 주간조선",
+   "pub": "Wed, 16 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -45,8 +69,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 임단협 수정안 가결...현금 50% 확정 - YTN",
-   "pub": "Wed, 16 Sep 2026",
+   "title": "SK하이닉스, 성과급 현금 비중 50%로 높인 임단협 수정안 가결 - weekly.donga.com",
+   "pub": "Thu, 17 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -103,22 +127,8 @@
    "agents": []
   },
   {
-   "title": "메모리반도체 공급 부족 미국에서 '안보 문제'로 부각, SK하이닉스 삼성전자에 정책 변수 커져 - 비즈니스포스트",
-   "pub": "Thu, 17 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "인텔과 美 반도체 동맹 기대…초고수 SK하이닉스 담고 삼성전자 팔았다[주식초고수는 지금] - 서울경제",
-   "pub": "Thu, 17 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "반도체 독주 끝나나 했더니… 코스피와 삼전·하닉 동조화 ‘역대급’ - 조선비즈 - Chosunbiz",
-   "pub": "Thu, 17 Sep 2026",
+   "title": "SK하이닉스 美·日 저울질 속…호남 470조 투자 유인책은 - 연합인포맥스",
+   "pub": "Wed, 16 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -219,7 +229,7 @@
    "agents": []
   },
   {
-   "title": "믿었던 HBM 마저…중국이 다 쫓아왔다 [中반도체 공습] - 중앙일보",
+   "title": "믿었던 HBM 마저…중국이 다 쫓아왔다 [中반도체 공습] - joongang.co.kr",
    "pub": "Sun, 13 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -228,14 +238,14 @@
    ]
   },
   {
-   "title": "삼성전자 SK하이닉스 메모리반도체 중국에 중장기적 우위 장담 어렵다, 중국 '공급망 장악' 위협적 - 비즈니스포스트",
+   "title": "턱밑까지 쫓아온 중국 메모리반도체…한국, 특단의 대응 필요 - kidd.co.kr",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "턱밑까지 쫓아온 중국 메모리반도체…한국, 특단의 대응 필요 - kidd.co.kr",
+   "title": "삼성전자 SK하이닉스 메모리반도체 중국에 중장기적 우위 장담 어렵다, 중국 '공급망 장악' 위협적 - 비즈니스포스트",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -332,7 +342,7 @@
    ]
   },
   {
-   "title": "외국인, 지난달 코스피 1조9000억원 순매수...올해 처음 국내 주식 ‘사자’ - chosun.com",
+   "title": "외국인, 지난달 코스피 1조9000억원 순매수...올해 처음 국내 주식 ‘사자’ - 조선일보",
    "pub": "Thu, 17 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -523,7 +533,7 @@
    "agents": []
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -582,6 +592,15 @@
    ]
   },
   {
+   "title": "Why Was Micron Technology Stock Up Today?",
+   "pub": "Thu, 17 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Prediction: A $5,000 Investment Split Between Micron and Sandisk Will Triple Before 2028",
    "pub": "Thu, 17 Sep 2026",
    "src": "en",
@@ -628,15 +647,6 @@
   },
   {
    "title": "Micron Jumps 5% as Intel CEO Says Memory Prices Have Surged Over 500%",
-   "pub": "Thu, 17 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Sends Fresh Signal to AI Chip Investors",
    "pub": "Thu, 17 Sep 2026",
    "src": "en",
    "q": "MU",
