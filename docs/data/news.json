@@ -1,23 +1,42 @@
 {
- "ts_kst": "09-19 03:19",
+ "ts_kst": "09-19 03:29",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
+  "P-ADR": 1,
+  "M-CYCLE": 15,
   "C-CHINA": 7,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
+ "unassigned": 62,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - 한국일보",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -40,6 +59,29 @@
   },
   {
    "title": "삼성전자, 3.4% 급등 마감…SK하이닉스는 6.4% 뛰어(종합) - v.daum.net",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "오늘 SK하이닉스 주가 급등하는 이유는? - Investing.com 한국어",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK하이닉스 美 ADR과 괴리율 40%…국장 신뢰 부족, 결국 메꿔질 것\" - 뉴시스",
+   "pub": "Thu, 17 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "미장 하이닉스 VS 국장 하이닉스…승자는 누구 - 마켓인",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -109,27 +151,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 서울랜드 통째로 대관…협력사 가족 3만명 초대한다 - 서울경제",
-   "pub": "Thu, 17 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBF 역할 선명해졌다…SK하이닉스 \"장문·대규모 AI 추론 겨냥\" - newspim.com",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "오늘 SK하이닉스 주가 급등하는 이유는? - Investing.com 한국어",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "반도체 독주 끝나나 했더니… 코스피와 삼전·하닉 동조화 ‘역대급’ - 조선비즈 - Chosunbiz",
    "pub": "Thu, 17 Sep 2026",
    "src": "kr",
@@ -186,13 +207,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, DDR5 모듈 외주만 늘린다...베트남·인도 등 해외생산 확대 - 디일렉",
-   "pub": "Tue, 15 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "\"초당 1000토큰 시대 연다\"…삼성전자, zHBM으로 AI 반도체 혁신 - v.daum.net",
    "pub": "Wed, 16 Sep 2026",
    "src": "kr",
@@ -214,6 +228,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "삼성도 TSMC와 손잡나…‘맞춤형 HBM’이 허문 반도체 경계 - 아이뉴스24",
+   "pub": "Wed, 16 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자, TSMC '光 반도체 테스트 플랫폼' 그대로 쓴다 - 디일렉",
@@ -279,7 +302,7 @@
    "agents": []
   },
   {
-   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
+   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - mk.co.kr",
    "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -293,7 +316,7 @@
    "agents": []
   },
   {
-   "title": "HSBC, AI 투자처로 韓 메모리·대만 반도체·中 인프라 주목 - hellot.net",
+   "title": "HSBC, AI 투자처로 韓 메모리·대만 반도체·中 인프라 주목 - 헬로티",
    "pub": "Thu, 10 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -527,22 +550,6 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "증시서 돈 빠지는데 ‘빚투’는 급증…신용잔고 다시 33조 - 이코노미스트",
-   "pub": "Thu, 27 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
@@ -552,8 +559,24 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
    "pub": "Thu, 04 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - g-enews.com",
+   "pub": "Wed, 08 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -568,8 +591,8 @@
    "agents": []
   },
   {
-   "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - g-enews.com",
-   "pub": "Wed, 08 Jul 2026",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - 한국일보",
+   "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -586,17 +609,8 @@
    ]
   },
   {
-   "title": "증시 살아나자 빚내서 주식 산다…신용잔고 다시 32조원대로 - 금융경제신문",
-   "pub": "Tue, 25 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -611,6 +625,42 @@
    "agents": []
   },
   {
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
+   "pub": "Mon, 22 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Micron Adds 1.3% as Intel Extends Memory Scarcity Into 2027",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Jim Cramer Calls Intel (INTC) the Best Stock in Show and Micron (MU) No. 2",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Faces Growing China Threat. It’s a Bigger Problem for Memory-Chip Rivals.",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Accenture vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?",
    "pub": "Fri, 18 Sep 2026",
    "src": "en",
@@ -621,33 +671,6 @@
   },
   {
    "title": "Up 500% In 12 Months, This is Where Micron Is Headed",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Just Built One Memory Stick That Replaces Four. Is MU Stock a Buy?",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Prediction: $950 Invested in Micron Today Will Be Worth This Much by 2030",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Can Micron (MU) Keep the Earnings Surprise Streak Alive?",
    "pub": "Fri, 18 Sep 2026",
    "src": "en",
    "q": "MU",
