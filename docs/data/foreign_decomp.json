@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-18 14:07",
+ "ts_kst": "09-18 17:56",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -17,28 +17,37 @@
    },
    "brokers": {
     "sell": {
-     "total": 3624737.0,
-     "foreign": 1427080.0,
-     "foreign_pct": 39.4,
+     "total": 6804317.0,
+     "foreign": 4658080.0,
+     "foreign_pct": 68.5,
      "houses": [
       {
-       "name": "골드만",
-       "qty": 791856.0
+       "name": "메릴린치",
+       "qty": 1906625.0
       },
       {
-       "name": "메릴린치",
-       "qty": 635224.0
+       "name": "골드만",
+       "qty": 1506826.0
+      },
+      {
+       "name": "모간서울",
+       "qty": 1244629.0
       }
      ]
     },
     "buy": {
-     "total": 5087617.0,
-     "foreign": 0.0,
-     "foreign_pct": 0.0,
-     "houses": []
+     "total": 7400936.0,
+     "foreign": 1270943.0,
+     "foreign_pct": 17.2,
+     "houses": [
+      {
+       "name": "JP모간",
+       "qty": 1270943.0
+      }
+     ]
     },
-    "net_foreign_qty": -1427080.0,
-    "foreign_share_pct": 16.4
+    "net_foreign_qty": -3387137.0,
+    "foreign_share_pct": 41.7
    }
   },
   "hynix": {
@@ -57,28 +66,45 @@
    },
    "brokers": {
     "sell": {
-     "total": 1075493.0,
-     "foreign": 0.0,
-     "foreign_pct": 0.0,
-     "houses": []
-    },
-    "buy": {
-     "total": 1207931.0,
-     "foreign": 316953.0,
-     "foreign_pct": 26.2,
+     "total": 1761113.0,
+     "foreign": 697557.0,
+     "foreign_pct": 39.6,
      "houses": [
       {
        "name": "JP모간",
-       "qty": 170805.0
+       "qty": 363318.0
       },
       {
        "name": "모간서울",
-       "qty": 146148.0
+       "qty": 334239.0
       }
      ]
     },
-    "net_foreign_qty": 316953.0,
-    "foreign_share_pct": 13.9
+    "buy": {
+     "total": 2539862.0,
+     "foreign": 1867865.0,
+     "foreign_pct": 73.5,
+     "houses": [
+      {
+       "name": "JP모간",
+       "qty": 766199.0
+      },
+      {
+       "name": "골드만",
+       "qty": 474902.0
+      },
+      {
+       "name": "씨티그룹",
+       "qty": 348580.0
+      },
+      {
+       "name": "모간서울",
+       "qty": 278184.0
+      }
+     ]
+    },
+    "net_foreign_qty": 1170308.0,
+    "foreign_share_pct": 59.6
    }
   }
  },
