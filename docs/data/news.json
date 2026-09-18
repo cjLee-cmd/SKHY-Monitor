@@ -1,27 +1,29 @@
 {
- "ts_kst": "09-19 06:24",
- "n_items": 90,
+ "ts_kst": "09-19 06:34",
+ "n_items": 105,
  "by_source": {
-  "kr": 60,
+  "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 14,
+  "M-CYCLE": 17,
+  "C-CHINA": 5,
   "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
- "unassigned": 55,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 손자회사 솔리다임, 美 첫 낸드 공장 구축 추진 - 지디넷코리아",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 손자회사 솔리다임, 美 동부에 첫 낸드 공장 검토 - chosun.com",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -35,15 +37,15 @@
    "agents": []
   },
   {
-   "title": "SK그룹 전문경영인 부회장 3명 SK하이닉스로 보임 - 연합뉴스",
+   "title": "\"인텔과 손잡는 순간 터집니다\"…SK하이닉스 호재에 반도체 장비업체 주목 - 뉴시스",
    "pub": "Thu, 17 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "HBF 역할 선명해졌다…SK하이닉스 \"장문·대규모 AI 추론 겨냥\" - 뉴스핌",
-   "pub": "Fri, 18 Sep 2026",
+   "title": "SK그룹 전문경영인 부회장 3명 SK하이닉스로 보임 - 연합뉴스",
+   "pub": "Thu, 17 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -65,7 +67,21 @@
    ]
   },
   {
-   "title": "삼성전자, 3.4% 급등 마감…SK하이닉스는 6.4% 뛰어(종합) - v.daum.net",
+   "title": "HBF 역할 선명해졌다…SK하이닉스 \"장문·대규모 AI 추론 겨냥\" - 뉴스핌",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "美서 40조 끌어온 SK하이닉스…한국 외환시장까지 움직였다 - 데일리안",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"10월 코스피 7000선 돌파 가능\"…삼성전자·SK하이닉스 '주목' - 뉴시스",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -108,13 +124,6 @@
   },
   {
    "title": "‘SK하이닉스 벤처스’ 출범…글로벌 혁신기업들과 AI 생태계 만든다 - v.daum.net",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "충북학사, SK하이닉스 기업탐방 프로그램 진행 - 뉴스1",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -227,6 +236,126 @@
    "pub": "Tue, 08 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "중국 CXMT, D램 넘어 낸드 진출 계획... 한국 반도체 위협하나 - chosun.com",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA",
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "믿었던 HBM 마저…중국이 다 쫓아왔다 [中반도체 공습] - 중앙일보",
+   "pub": "Tue, 15 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성전자 SK하이닉스 메모리반도체 중국에 중장기적 우위 장담 어렵다, 중국 '공급망 장악' 위협적 - 비즈니스포스트",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "턱밑까지 쫓아온 중국 메모리반도체…한국, 특단의 대응 필요 - 산업일보",
+   "pub": "Mon, 14 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "[반도체포커스] 중국 메모리 양강 CXMT·YMTC 경쟁 불붙나…CXMT, 낸드 진출 추진 - 이코노미트리뷴",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
+   "pub": "Fri, 28 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "[중국증시 마감] 반도체 훈풍에 기술주 강세…'창업판∙커촹50' 2%대 상승 - 뉴스핌",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - 한겨레",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "HSBC, AI 투자처로 韓 메모리·대만 반도체·中 인프라 주목 - 헬로티",
+   "pub": "Thu, 10 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "美 정부, 애플에 중국산 메모리 반도체 구매 자제 촉구 - 연합인포맥스",
+   "pub": "Sat, 15 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "중국 메모리 반도체 전방위 공세…한국 ‘아성’ HBM도 넘보나 - 경향신문",
+   "pub": "Thu, 05 Feb 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
+   "pub": "Wed, 20 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
    "agents": []
   },
   {
@@ -525,123 +654,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Micron Just Built One Memory Stick That Replaces Four. Is MU Stock a Buy?",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Prediction: $950 Invested in Micron Today Will Be Worth This Much by 2030",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Can Micron (MU) Keep the Earnings Surprise Streak Alive?",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SanDisk Jumps 6% as Storage Bid Concentrates in One Name; Western Digital Rises 3%, Micron Ticks Up",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology Sees Extended DRAM Upcycle on AI Demand, RBC Says",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "KLAC Gains From AI Infrastructure: Can It Outpace AMAT & ASML?",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Eisman Says Buy Micron And SK Hynix. “In This Knife Fight You Want To Be The One Selling The Knives”",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "ASML Gains 1.5% as 110 EUV Machines Test Assembly Speed",
-   "pub": "Thu, 17 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Chasing ASML’s Dominance: Canon and Nikon Are Doing Something The Market Misses",
-   "pub": "Thu, 17 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML Holding N.V. (ASML) is Attracting Investor Attention: Here is What You Should Know",
-   "pub": "Thu, 17 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Modi pitches India as global chipmaking hub",
-   "pub": "Thu, 17 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML Gains 1.4% as EUV Capacity Chases a 110-Tool Threshold",
-   "pub": "Wed, 16 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Weakness Is an Opportunity for Long-Term ASML Stock Investors",
-   "pub": "Wed, 16 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML Holding (ASML) Faces Fresh Questions Over Future AI Demand",
-   "pub": "Wed, 16 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML Vs. Taiwan Semiconductor Manufacturing: One Is More Misunderstood",
-   "pub": "Wed, 16 Sep 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
   }
  ],
  "guards": {
