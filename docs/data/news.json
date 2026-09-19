@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-20 06:47",
+ "ts_kst": "09-20 06:57",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -8,29 +8,20 @@
  "routed": {
   "C-BUYBACK": 1,
   "M-CYCLE": 15,
-  "C-CHINA": 5,
+  "C-CHINA": 6,
   "F-ACTIVE": 10,
   "B-RATES": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 61,
+ "unassigned": 60,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "agents": [
     "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "증시 떠받친 삼전닉스 자사주 매입…이르면 내달 중순 종료할듯 - v.daum.net",
-   "agents": [
-    "C-BUYBACK"
    ]
   }
  ],
@@ -241,7 +232,7 @@
    "agents": []
   },
   {
-   "title": "믿었던 HBM 마저…중국이 다 쫓아왔다 [中반도체 공습] - joongang.co.kr",
+   "title": "믿었던 HBM 마저…중국이 다 쫓아왔다 [中반도체 공습] - 중앙일보",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -349,18 +340,20 @@
    ]
   },
   {
-   "title": "[중국증시 마감] 반도체 훈풍에 기술주 강세…'창업판∙커촹50' 2%대 상승 - 뉴스핌",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
    "pub": "Wed, 20 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
+  },
+  {
+   "title": "'메모리 수급 난' 애플, 트럼프 반대에도 중국 창신 메모리에 '러브콜' - YTN",
+   "pub": "Mon, 10 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "외인·기관 순매수에 코스피 2.7% 상승 마감 - YTN",
@@ -489,7 +482,7 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
