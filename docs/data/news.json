@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-21 02:37",
+ "ts_kst": "09-21 02:47",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -14,28 +14,11 @@
   "R-LEVERAGE": 13
  },
  "unassigned": 59,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "삼전닉스 자사주 매입, 이르면 내달 종료…증시 '수급공백' 우려 - 한국경제",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
-   "title": "인텔 오하이오서 메모리 생산?…하이닉스 앞에 놓인 '3대 관문' : 네이버 블로그 - Naver Blog",
-   "pub": "Sat, 19 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 손자회사 솔리다임, 미국에 첫 낸드공장 검토 - 연합뉴스",
-   "pub": "Fri, 18 Sep 2026",
+   "title": "[마켓인사이드] SK하이닉스는 왜 인텔을 선택했나 - news2day.co.kr",
+   "pub": "Sun, 20 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -43,6 +26,13 @@
   {
    "title": "SK하이닉스 솔리다임, 美에 첫 낸드 공장 검토…현지 생산 확대 시동 거나 - v.daum.net",
    "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "인텔 오하이오서 메모리 생산?…하이닉스 앞에 놓인 '3대 관문' : 네이버 블로그 - Naver Blog",
+   "pub": "Sat, 19 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -620,6 +610,15 @@
    ]
   },
   {
+   "title": "Prediction: Micron Will Earn More Profit Than Microsoft in Fiscal 2027",
+   "pub": "Sun, 20 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Should You Buy Micron Stock Before Its Next Earnings Report?",
    "pub": "Sun, 20 Sep 2026",
    "src": "en",
@@ -661,15 +660,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Nvidia, SK Hynix send strong signal to Micron investors",
-   "pub": "Sat, 19 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
