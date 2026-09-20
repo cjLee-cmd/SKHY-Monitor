@@ -1,30 +1,20 @@
 {
- "ts_kst": "09-20 10:02",
- "n_items": 105,
+ "ts_kst": "09-20 10:12",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 3,
-  "M-CYCLE": 17,
+  "C-BUYBACK": 1,
+  "M-CYCLE": 18,
   "C-CHINA": 5,
   "F-ACTIVE": 10,
   "B-RATES": 2,
   "R-LEVERAGE": 13
  },
  "unassigned": 57,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 손자회사 솔리다임, 미국에 첫 낸드공장 검토 - 연합뉴스",
@@ -41,8 +31,8 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스의 솔리다임, 美 낸드 공장 검토…뉴욕주 유력\" - 뉴스1",
-   "pub": "Fri, 18 Sep 2026",
+   "title": "인텔 오하이오서 메모리 생산?…하이닉스 앞에 놓인 '3대 관문' : 네이버 블로그 - Naver Blog",
+   "pub": "Sat, 19 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -61,33 +51,6 @@
    "q": "SK하이닉스",
    "agents": [
     "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "’삼전닉스’ 자사주 34.7조원 매입…이르면 내달 중순 종료 - 연합뉴스TV",
-   "pub": "Sun, 20 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "“코스피 상승세 꺾이나”…삼전닉스 자사주 매입 막바지 - 에너지경제신문",
-   "pub": "Sun, 20 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "‘HBM 더 높이’ 속도전에도…SK하이닉스 “하이브리드 본딩 수율 90% 포기 못해” [칩칩팹팹] - biz.heraldcorp.com",
-   "pub": "Sat, 19 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
    ]
   },
   {
@@ -112,11 +75,27 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 3.4% 급등 마감…SK하이닉스는 6.4% 뛰어(종합) - v.daum.net",
+   "title": "앤트로픽 내년부터 메모리 직접 구매 확대, 삼성전자·SK하이닉스 가격 협상력 더 높아진다 - 비즈니스포스트",
+   "pub": "Sat, 19 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, '연산하는 메모리'로 AI 병목 푼다…\"S램보다 용량 300배\" - v.daum.net",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "삼성·SK하이닉스 독주 계속된다...빅테크 \"HBM 대체기술은 보완재일 뿐\" - ytn.co.kr",
+   "pub": "Wed, 16 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "꿈의 직장 SK하이닉스 입사직후…신입 4명 '음주 해고' 발칵 - v.daum.net",
@@ -124,6 +103,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "‘HBM 더 높이’ 속도전에도…SK하이닉스 “하이브리드 본딩 수율 90% 포기 못해” [칩칩팹팹] - biz.heraldcorp.com",
+   "pub": "Sat, 19 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "[단독] 'SK하닉 470만원 간다' 외쳤던 애널…美 반도체리서치 업체 '법인장'으로 - 뉴스1",
@@ -182,13 +170,6 @@
    "agents": []
   },
   {
-   "title": "앤트로픽 내년부터 메모리 직접 구매 확대, 삼성전자·SK하이닉스 가격 협상력 더 높아진다 - 비즈니스포스트",
-   "pub": "Sat, 19 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "다시 오르는 반도체…특별배당 받으려면 삼성전자 28일까지 매수해야 - 세계일보",
    "pub": "Sat, 19 Sep 2026",
    "src": "kr",
@@ -233,7 +214,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, TSMC '光 반도체 테스트 플랫폼' 그대로 쓴다 - thelec.kr",
+   "title": "삼성전자, TSMC '光 반도체 테스트 플랫폼' 그대로 쓴다 - 디일렉",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -298,7 +279,7 @@
    ]
   },
   {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - ytn.co.kr",
    "pub": "Thu, 09 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -369,7 +350,7 @@
    "agents": []
   },
   {
-   "title": "외인·기관 순매수에 코스피 2.7% 상승 마감 - YTN",
+   "title": "외인·기관 순매수에 코스피 2.7% 상승 마감 - ytn.co.kr",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -666,6 +647,15 @@
   {
    "title": "What Does Micron Technology (MU) Warning Of Shortages Through 2027 Mean?",
    "pub": "Sat, 19 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Turned $10,000 Into About $130,000 in 5 Years. Most of It Came in the Past 12 Months.",
+   "pub": "Fri, 18 Sep 2026",
    "src": "en",
    "q": "MU",
    "agents": [
