@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-21 00:26",
+ "ts_kst": "09-21 00:36",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -7,15 +7,41 @@
  },
  "routed": {
   "M-CYCLE": 15,
-  "C-BUYBACK": 1,
+  "C-BUYBACK": 3,
   "C-CHINA": 8,
   "F-ACTIVE": 8,
   "B-RATES": 2,
   "R-LEVERAGE": 13
  },
- "unassigned": 60,
- "alerts": [],
+ "unassigned": 58,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "‘삼전닉스’ 자사주 매입 조기 종료…증시 ‘수급 공백’ 비상 - v.daum.net",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "증시 떠받친 삼전닉스 자사주 매입…이르면 내달 중순 종료할듯 - 연합뉴스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
+  {
+   "title": "꿈의 직장 SK하이닉스 입사직후…신입 4명 '음주 해고' 발칵 - biz.sbs.co.kr",
+   "pub": "Sat, 19 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "SK하이닉스 손자회사 솔리다임, 미국에 첫 낸드공장 검토 - 연합뉴스",
    "pub": "Fri, 18 Sep 2026",
@@ -31,15 +57,8 @@
    "agents": []
   },
   {
-   "title": "인텔 오하이오서 메모리 생산?…하이닉스 앞에 놓인 '3대 관문' : 네이버 블로그 - Naver Blog",
-   "pub": "Sat, 19 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "꿈의 직장 SK하이닉스 입사직후…신입 4명 '음주 해고' 발칵 - biz.sbs.co.kr",
-   "pub": "Sat, 19 Sep 2026",
+   "title": "SK 자회사 솔리다임, 美 동부에 첫 낸드 공장 검토 - v.daum.net",
+   "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -105,21 +124,25 @@
    ]
   },
   {
+   "title": "‘삼전닉스’ 자사주 매입 조기 종료…증시 ‘수급 공백’ 비상 - v.daum.net",
+   "pub": "Sun, 20 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "증시 떠받친 삼전닉스 자사주 매입…이르면 내달 중순 종료할듯 - 연합뉴스",
+   "pub": "Sat, 19 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
    "title": "대만 기업 \"中서 메모리 공급난 해소\"..삼성전자·SK하이닉스 대응은? - 초이스경제",
-   "pub": "Sun, 20 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "美 성과비중 절대적 SK하이닉스…인재영입 ‘기술통’ 넘어 '국제경영통' 무게 - 메트로신문",
-   "pub": "Sun, 20 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "반도체 제조업서 법 위반 338건 적발…SK하이닉스가 3분의 1 차지 - 연합뉴스TV",
    "pub": "Sun, 20 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -154,6 +177,13 @@
    "agents": []
   },
   {
+   "title": "삼성 뛰어든 '3100억 투자' 정체는…AI 뒤흔들 '파격 계획' [강경주의 테크X] - 한국경제",
+   "pub": "Sat, 19 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "오픈AI 반도체 개발 수장, 삼성서 강연…HBM 넘어 파운드리 협력 주목 [비즈360] - 헤럴드경제",
    "pub": "Sat, 19 Sep 2026",
    "src": "kr",
@@ -177,13 +207,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "[이사람] 삼성이 찍은 ‘철학자 반도체맨’⋯제품 아직 없는데 3천억 몰렸다 - 엠투데이",
-   "pub": "Sat, 19 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "[속보] 삼성전자 3%·SK하이닉스 6% 급등…AI 반도체 투자심리 ‘활짝’ - dt.co.kr",
