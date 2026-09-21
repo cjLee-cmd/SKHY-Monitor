@@ -1,18 +1,28 @@
 {
- "ts_kst": "09-21 11:43",
+ "ts_kst": "09-21 15:04",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
-   "price": 272000.0,
-   "chg_pct": 4.21,
-   "slot": "3",
-   "foreign_qty": 3622000.0,
-   "foreign_eok": 9851.8,
-   "inst_qty": 391000.0,
-   "inst_eok": 1063.5,
-   "retail_qty": -4013000.0,
-   "retail_eok": -10915.4,
+   "price": 272500.0,
+   "chg_pct": 4.41,
+   "slot": "5",
+   "foreign_qty": 5703000.0,
+   "foreign_eok": 15540.7,
+   "inst_qty": 1431000.0,
+   "inst_eok": 3899.5,
+   "retail_qty": -7134000.0,
+   "retail_eok": -19440.2,
    "slots": [
+    {
+     "slot": "5",
+     "frgn": 5703000.0,
+     "orgn": 1431000.0
+    },
+    {
+     "slot": "4",
+     "frgn": 5146000.0,
+     "orgn": 1095000.0
+    },
     {
      "slot": "3",
      "frgn": 3622000.0,
@@ -32,16 +42,26 @@
   },
   "hynix": {
    "name": "SK하이닉스",
-   "price": 1868000.0,
-   "chg_pct": 0.59,
-   "slot": "3",
-   "foreign_qty": -64000.0,
-   "foreign_eok": -1195.5,
-   "inst_qty": 91000.0,
-   "inst_eok": 1699.9,
-   "retail_qty": -27000.0,
-   "retail_eok": -504.4,
+   "price": 1864000.0,
+   "chg_pct": 0.38,
+   "slot": "5",
+   "foreign_qty": -87000.0,
+   "foreign_eok": -1621.7,
+   "inst_qty": 153000.0,
+   "inst_eok": 2851.9,
+   "retail_qty": -66000.0,
+   "retail_eok": -1230.2,
    "slots": [
+    {
+     "slot": "5",
+     "frgn": -87000.0,
+     "orgn": 153000.0
+    },
+    {
+     "slot": "4",
+     "frgn": -62000.0,
+     "orgn": 139000.0
+    },
     {
      "slot": "3",
      "frgn": -64000.0,
@@ -65,15 +85,10 @@
   {
    "stock": "삼성전자",
    "level": "high",
-   "text": "역할 전환 — 외국인 매수 +9,852억 / 개인 매도 -10,915억"
+   "text": "역할 전환 — 외국인 매수 +15,541억 / 개인 매도 -19,440억"
   }
  ],
  "log": [
-  {
-   "ts": "09-12 15:13",
-   "samsung": -7740.9,
-   "hynix": -7121.2
-  },
   {
    "ts": "09-12 15:23",
    "samsung": -7740.9,
@@ -2848,6 +2863,11 @@
    "ts": "09-21 11:43",
    "samsung": 9851.8,
    "hynix": -1195.5
+  },
+  {
+   "ts": "09-21 15:04",
+   "samsung": 15540.7,
+   "hynix": -1621.7
   }
  ]
 }
