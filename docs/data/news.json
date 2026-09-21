@@ -1,20 +1,30 @@
 {
- "ts_kst": "09-21 21:13",
+ "ts_kst": "09-21 21:23",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 15,
+  "M-CYCLE": 16,
   "C-CHINA": 7,
   "F-ACTIVE": 4,
   "C-BUYBACK": 1,
   "B-RATES": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 65,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - v.daum.net",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "“도대체 얼마짜리 술을 마신 거니?”…SK하이닉스 신입 4명, 연수 중 음주로 해고 - 매일경제",
@@ -31,8 +41,8 @@
    "agents": []
   },
   {
-   "title": "\"대체 얼마짜리 술이야\"…SK하이닉스 신입 4명 연수 중 음주규정 위반 해고 - 네이트",
-   "pub": "Sun, 20 Sep 2026",
+   "title": "\"수십억짜리 술 마셨네\"…SK하이닉스 신입 4명, 연수 중 음주로 해고 - v.daum.net",
+   "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -114,18 +124,20 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 美서 ‘글로벌 포럼’ 개최… 곽노정 사장 “메모리 없이는 AI 산업도 성립 못해” - 조선비즈 - Chosunbiz",
+   "title": "곽노정 SK하이닉스 대표이사 \"차세대 메모리 통해 AI 새로운 가능성 열겠다\" - MBC 뉴스",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "곽노정 SK하이닉스 CEO “신규 생산거점 확대해 시장 지위 굳건히 할 것” - 브릿지경제",
+   "title": "HBM 시장 1위 굳히기?...끊이지 않는 SK하이닉스 미·일 투자설 - 글로벌이코노믹",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "다시 오르는 반도체…특별배당 받으려면 삼성전자 28일까지 매수해야 - 세계일보",
@@ -135,7 +147,21 @@
    "agents": []
   },
   {
-   "title": "‘삼성 반도체 신화’ 권오현, KAIST 이사장 됐다 - chosun.com",
+   "title": "“삼성전자 DDR5 외주물량 싹쓸이?”…나흘새 23% 뛴 SFA반도체 [이주의 Bull기둥] - 매일경제",
+   "pub": "Sat, 19 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "‘삼성 반도체 신화’ 권오현, KAIST 이사장 됐다 - 조선일보",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "카이스트, 신임 이사장에 '반도체 신화' 권오현 전 삼성전자 대표이사 회장 선임 - 비즈니스포스트",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -143,13 +169,6 @@
   },
   {
    "title": "KAIST 신임 이사장에 ‘반도체 초격차 신화’ 권오현 전 삼성전자 회장 - v.daum.net",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "‘반도체 초격차 신화’ 권오현 前 삼성전자 대표…KAIST 새 이사장 선임 - 헤럴드경제",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -172,13 +191,6 @@
   {
    "title": "삼성전자가 판 크게 벌였다…반도체 소부장 물렸다고 손절하면 지옥행 (차영주 와이즈경제연구소 소장) - 서울경제",
    "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "“삼성전자 DDR5 외주물량 싹쓸이?”…나흘새 23% 뛴 SFA반도체 [이주의 Bull기둥] - 매일경제",
-   "pub": "Sat, 19 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -226,7 +238,7 @@
    "agents": []
   },
   {
-   "title": "중국 CXMT, D램 넘어 낸드 진출 계획... 한국 반도체 위협하나 - chosun.com",
+   "title": "중국 CXMT, D램 넘어 낸드 진출 계획... 한국 반도체 위협하나 - 조선일보",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -245,7 +257,7 @@
    ]
   },
   {
-   "title": "아시아뉴스 중국 CXMT, 5세대 메모리 반도체 플랫폼 양산 돌입… 글로벌 시장 경쟁 가속화 - 뉴스케이",
+   "title": "아시아뉴스 중국 CXMT, 5세대 메모리 반도체 플랫폼 양산 돌입… 글로벌 시장 경쟁 가속화 - newsk.net",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -543,15 +555,6 @@
    ]
   },
   {
-   "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
@@ -577,6 +580,15 @@
    ]
   },
   {
+   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - v.daum.net",
+   "pub": "Sun, 12 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -592,6 +604,15 @@
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "China's Memory Push Raises a New Question for Micron and SK Hynix",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -633,15 +654,6 @@
   },
   {
    "title": "Better Artificial Intelligence (AI) Stock Pick for 2027: Nvidia versus Micron",
-   "pub": "Sat, 19 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Is Micron's 9% Dip a Warning Sign or Buying Opportunity?",
    "pub": "Sat, 19 Sep 2026",
    "src": "en",
    "q": "MU",
