@@ -1,20 +1,30 @@
 {
- "ts_kst": "09-21 22:03",
- "n_items": 104,
+ "ts_kst": "09-21 22:13",
+ "n_items": 105,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 17,
+  "C-BUYBACK": 2,
+  "M-CYCLE": 18,
   "C-CHINA": 8,
   "F-ACTIVE": 4,
   "B-RATES": 1,
-  "C-BUYBACK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "삼성전자·SK하이닉스 35조 자사주 매입 ‘속도’…10월 중순 끝나면 코스피 버팀목 사라지나 - v.daum.net",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "“도대체 얼마짜리 술을 마신 거니?”…SK하이닉스 신입 4명, 연수 중 음주로 해고 - 매일경제",
@@ -59,21 +69,23 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 5% 급등 '27만전자' 회복…SK하이닉스 0.6%↑(종합) - v.daum.net",
-   "pub": "Mon, 21 Sep 2026",
+   "title": "삼성전자·SK하이닉스 35조 자사주 매입 ‘속도’…10월 중순 끝나면 코스피 버팀목 사라지나 - v.daum.net",
+   "pub": "Sun, 20 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"반도체, 다시 훈풍\"…삼성전자 5%·SK하이닉스 0.6% 상승[핫스탁](종합) - 뉴시스",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "특징주, 삼성전자우-S7(삼성전자/SK하이닉스 등) 테마 상승세에 5.3% ↑ - 매일경제 마켓",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"美반도체 훈풍\" 삼성전자 3%·SK하이닉스 1% 상승[핫스탁] - 뉴시스",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -137,7 +149,7 @@
    "agents": []
   },
   {
-   "title": "금리 올라도 반도체 끄떡없다…삼성전자 장 초반 3.45% 급등 - 한국경제",
+   "title": "\"반도체, 다시 훈풍\"…삼성전자 5%·SK하이닉스 0.6% 상승[핫스탁](종합) - 뉴시스",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -151,7 +163,7 @@
    "agents": []
   },
   {
-   "title": "카이스트, 신임 이사장에 '반도체 신화' 권오현 전 삼성전자 대표이사 회장 선임 - 비즈니스포스트",
+   "title": "카이스트, 신임 이사장에 '반도체 신화' 권오현 전 삼성전자 대표이사 회장 선임 - businesspost.co.kr",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -159,13 +171,6 @@
   },
   {
    "title": "KAIST 신임 이사장에 ‘반도체 초격차 신화’ 권오현 전 삼성전자 회장 - v.daum.net",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "반도체 타고 ’7천피’ 탈환…삼성전자 5% 급등 - 연합뉴스TV",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -186,13 +191,6 @@
    "agents": []
   },
   {
-   "title": "[핫타임] 삼성전자 4% 가까이 급등…美 반도체 훈풍 속 실적 기대도 재부각 - v.daum.net",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "티이엠씨, 삼성전자·SK하이닉스에 '반도체 양산 필수' 재활용 네온가스 동시 수주 '잭팟' - 프라임경제",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
@@ -207,13 +205,6 @@
    "agents": []
   },
   {
-   "title": "코스피 7000선 되찾았다…삼성전자·반도체에 쏠린 투심 - 이코노미스트",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "[특징주] 삼성전자, 반도체 수출 호조 및 특별배당 기대에 4%대 강세 - 오피니언뉴스",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
@@ -221,7 +212,35 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 반도체 공장용 '팹 로봇' 전담 조직 신설 - 메디컬투데이",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "코스피 7000선 되찾았다…삼성전자·반도체에 쏠린 투심 - 이코노미스트",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "수술실 거즈처럼 공구 하나도 철저히…삼성 반도체 지키는 솔직함 - 파이낸셜포스트",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "'삼성 반도체' 이끈 권오현 전 회장, KAIST 이사장 선임 - 헬로디디",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "‘반도체 신화’ 권오현 전 삼성전자 회장, KAIST 이사장 맡는다 - 포쓰저널",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -272,7 +291,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스 메모리반도체 중국에 중장기적 우위 장담 어렵다, 중국 '공급망 장악' 위협적 - 비즈니스포스트",
+   "title": "삼성전자 SK하이닉스 메모리반도체 중국에 중장기적 우위 장담 어렵다, 중국 '공급망 장악' 위협적 - businesspost.co.kr",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -382,7 +401,7 @@
    "agents": []
   },
   {
-   "title": "코스피 장중 '외국인·기관' 동반 매수에 6950선 상승, 코스닥도 소폭 올라 - 비즈니스포스트",
+   "title": "코스피 장중 '외국인·기관' 동반 매수에 6950선 상승, 코스닥도 소폭 올라 - businesspost.co.kr",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -422,6 +441,13 @@
    ]
   },
   {
+   "title": "7000 바라보는 코스피…금리·유가 '진정' 외인·기관 순매수[장중시황] - 뉴스1",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "[이슈&트렌드] ‘코스피 방파제’ 삼전닉스 자사주 매입 끝물… 외국인 돌아올까 - dt.co.kr",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
@@ -429,13 +455,6 @@
    "agents": [
     "C-BUYBACK"
    ]
-  },
-  {
-   "title": "7000 바라보는 코스피…금리·유가 '진정' 외인·기관 순매수[장중시황] - 뉴스1",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "“외국인 코스피 사고, 코스닥 팔았다”…국내주식 올해 첫 ‘사자’ - v.daum.net",
@@ -599,6 +618,15 @@
    ]
   },
   {
+   "title": "Nvidia and Micron are part of Zacks Earnings Preview",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Should You Buy Micron Before Sept. 30?",
    "pub": "Mon, 21 Sep 2026",
    "src": "en",
@@ -633,24 +661,6 @@
    "agents": [
     "M-CYCLE",
     "C-CHINA"
-   ]
-  },
-  {
-   "title": "Prediction: Micron Will Earn More Profit Than Microsoft in Fiscal 2027",
-   "pub": "Sun, 20 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Should You Buy Micron Stock Before Its Next Earnings Report?",
-   "pub": "Sun, 20 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
    ]
   }
  ],
