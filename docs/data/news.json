@@ -1,19 +1,19 @@
 {
- "ts_kst": "09-21 21:33",
+ "ts_kst": "09-21 21:43",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 15,
+  "M-CYCLE": 17,
   "C-CHINA": 8,
   "F-ACTIVE": 4,
-  "C-BUYBACK": 1,
   "B-RATES": 1,
+  "C-BUYBACK": 1,
   "R-LEVERAGE": 13
  },
- "unassigned": 65,
+ "unassigned": 63,
  "alerts": [],
  "items": [
   {
@@ -24,7 +24,7 @@
    "agents": []
   },
   {
-   "title": "\"수십억짜리 술 마셨네\"…SK하이닉스 신입 4명, 연수 중 음주로 해고 - news1.kr",
+   "title": "\"수십억짜리 술 마셨네\"…SK하이닉스 신입 4명, 연수 중 음주로 해고 - 뉴스1",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -114,11 +114,13 @@
    "agents": []
   },
   {
-   "title": "곽노정 SK하이닉스 대표이사 \"차세대 메모리 통해 AI 새로운 가능성 열겠다\" - MBC 뉴스",
+   "title": "HBM 시장 1위 굳히기?...끊이지 않는 SK하이닉스 미·일 투자설 - 글로벌이코노믹",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "곽노정 SK하이닉스 CEO “신규 생산거점 확대해 시장 지위 굳건히 할 것” - 브릿지경제",
@@ -129,6 +131,13 @@
   },
   {
    "title": "다시 오르는 반도체…특별배당 받으려면 삼성전자 28일까지 매수해야 - 세계일보",
+   "pub": "Sat, 19 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "“삼성전자 DDR5 외주물량 싹쓸이?”…나흘새 23% 뛴 SFA반도체 [이주의 Bull기둥] - 매일경제",
    "pub": "Sat, 19 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -163,13 +172,6 @@
    "agents": []
   },
   {
-   "title": "티이엠씨, 삼성전자·SK하이닉스에 '반도체 양산 필수' 재활용 네온가스 동시 수주 '잭팟' - 프라임경제",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자가 판 크게 벌였다…반도체 소부장 물렸다고 손절하면 지옥행 (차영주 와이즈경제연구소 소장) - 서울경제",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
@@ -177,8 +179,8 @@
    "agents": []
   },
   {
-   "title": "“삼성전자 DDR5 외주물량 싹쓸이?”…나흘새 23% 뛴 SFA반도체 [이주의 Bull기둥] - 매일경제",
-   "pub": "Sat, 19 Sep 2026",
+   "title": "티이엠씨, 삼성전자·SK하이닉스에 '반도체 양산 필수' 재활용 네온가스 동시 수주 '잭팟' - 프라임경제",
+   "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -219,7 +221,7 @@
    "agents": []
   },
   {
-   "title": "KAIST 신임 이사장에 '반도체 주역' 권오현 前 삼성전자 대표이사 회장 - 머니투데이 - 머니투데이",
+   "title": "‘반도체 신화’ 권오현 전 삼성전자 회장, KAIST 이사장 맡는다 - 포쓰저널",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -410,15 +412,6 @@
    "agents": []
   },
   {
-   "title": "[이슈&트렌드] ‘코스피 방파제’ 삼전닉스 자사주 매입 끝물… 외국인 돌아올까 - dt.co.kr",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
    "title": "코스피, FOMC 앞두고 6,630선 관망…외국인 6거래일째 ‘순매도’ - 산경투데이",
    "pub": "Wed, 16 Sep 2026",
    "src": "kr",
@@ -429,7 +422,16 @@
    ]
   },
   {
-   "title": "7000 바라보는 코스피…금리·유가 '진정' 외인·기관 순매수[장중시황] - news1.kr",
+   "title": "[이슈&트렌드] ‘코스피 방파제’ 삼전닉스 자사주 매입 끝물… 외국인 돌아올까 - dt.co.kr",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "7000 바라보는 코스피…금리·유가 '진정' 외인·기관 순매수[장중시황] - 뉴스1",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -509,7 +511,7 @@
    "agents": []
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -554,7 +556,7 @@
    ]
   },
   {
-   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
+   "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - nongmin.com",
    "pub": "Tue, 23 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -597,6 +599,24 @@
    ]
   },
   {
+   "title": "Should You Buy Micron Before Sept. 30?",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Here's How Much You'd Have If You Invested $1000 in Micron a Decade Ago",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "China's Memory Push Raises a New Question for Micron and SK Hynix",
    "pub": "Mon, 21 Sep 2026",
    "src": "en",
@@ -627,24 +647,6 @@
   {
    "title": "Should You Buy Micron Stock Before Its Next Earnings Report?",
    "pub": "Sun, 20 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market",
-   "pub": "Sat, 19 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Better Artificial Intelligence (AI) Stock Pick for 2027: Nvidia versus Micron",
-   "pub": "Sat, 19 Sep 2026",
    "src": "en",
    "q": "MU",
    "agents": [
