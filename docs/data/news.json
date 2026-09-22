@@ -1,29 +1,19 @@
 {
- "ts_kst": "09-23 04:36",
+ "ts_kst": "09-23 04:46",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "P-ADR": 2,
   "C-CHINA": 6,
-  "F-ACTIVE": 8,
+  "F-ACTIVE": 9,
   "R-LEVERAGE": 13
  },
- "unassigned": 62,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 60,
+ "alerts": [],
  "items": [
   {
    "title": "삼성전자·SK하이닉스, 고성능 GDDR7로 소니 차세대 콘솔 'PS6' D램 공급 정조준 - 더구루",
@@ -42,8 +32,8 @@
    ]
   },
   {
-   "title": "‘HBM 더 높이’ 속도전에도…SK하이닉스 “하이브리드 본딩 수율 90% 포기 못해” [칩칩팹팹] - v.daum.net",
-   "pub": "Sat, 19 Sep 2026",
+   "title": "삼성 8월 HBM 성장세, SK하이닉스 추월... 번스타인 분석 - Investing.com 한국어",
+   "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -51,8 +41,8 @@
    ]
   },
   {
-   "title": "삼성 8월 HBM 성장세, SK하이닉스 추월... 번스타인 분석 - Investing.com 한국어",
-   "pub": "Tue, 22 Sep 2026",
+   "title": "‘HBM 더 높이’ 속도전에도…SK하이닉스 “하이브리드 본딩 수율 90% 포기 못해” [칩칩팹팹] - v.daum.net",
+   "pub": "Sat, 19 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -79,6 +69,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "[단독] SK하이닉스, 美 인디애나 HBM 공장 ‘인허가 리스크’ 비상 [AI 투자 골든타임의 덫] - v.daum.net",
+   "pub": "Tue, 22 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "미국서도 한국서도…SK하이닉스 ADR, ETF 편입 연이어 - v.daum.net",
@@ -120,22 +119,15 @@
    "agents": []
   },
   {
-   "title": "[단독]반도체 화학사고 5년간 12건…SK하이닉스·삼성전자가 11건 - 머니투데이 - 머니투데이",
+   "title": "[단독]반도체 화학사고 5년간 12건…SK하이닉스·삼성전자가 11건 - 머니투데이 - mt.co.kr",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 “차세대 메모리로 새 AI시대 개척” - donga.com",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 곽노정 \"차세대 메모리로 AI 새로운 가능성 열 것\" - v.daum.net",
-   "pub": "Mon, 21 Sep 2026",
+   "title": "[속보]엇갈린 반도체 '투톱'…삼성전자 0.91%↑, SK하이닉스 1.50%↓마감 - 뉴시스",
+   "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -290,7 +282,7 @@
    "agents": []
   },
   {
-   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
+   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - mk.co.kr",
    "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -477,11 +469,13 @@
    ]
   },
   {
-   "title": "美 금리인상에 코스피 상승폭 제한…외국인 7거래일째 '팔자' - ebn.co.kr",
-   "pub": "Thu, 17 Sep 2026",
+   "title": "개인·외국인·기관 순매도…기타법인 매수에 코스피 6835선 마감 - 더나은미래",
+   "pub": "Tue, 01 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
