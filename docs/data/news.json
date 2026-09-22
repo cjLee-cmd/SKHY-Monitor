@@ -1,8 +1,8 @@
 {
- "ts_kst": "09-23 06:33",
- "n_items": 103,
+ "ts_kst": "09-23 06:43",
+ "n_items": 102,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 29
  },
  "routed": {
@@ -13,18 +13,8 @@
   "F-ACTIVE": 8,
   "R-LEVERAGE": 13
  },
- "unassigned": 61,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 60,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\" - 연합뉴스TV",
@@ -55,8 +45,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스(000660) - 매일경제 마켓",
-   "pub": "Tue, 22 Sep 2026",
+   "title": "삼성전자, 5% 급등 '27만전자' 회복…SK하이닉스 0.6%↑(종합) - 연합뉴스",
+   "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -168,8 +158,8 @@
    "agents": []
   },
   {
-   "title": "삼성 초기업노조 “반도체만 받겠다”…DX소속 부위원장도 제명 - v.daum.net",
-   "pub": "Sun, 20 Sep 2026",
+   "title": "[기자수첩] 동료 버리고 밥그릇 챙긴 삼성 초기업…‘반도체 겨울’ 두렵지 않나 - 뉴시안",
+   "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -211,13 +201,6 @@
   },
   {
    "title": "[특징주] 삼성전자, 반도체 수출 호조 및 특별배당 기대에 4%대 강세 - 오피니언뉴스",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체 업사이클 추가 확장…목표가 56만원 - 파이낸셜뉴스",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -326,7 +309,7 @@
    ]
   },
   {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - contents.premium.naver.com",
    "pub": "Sat, 27 Jun 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -660,6 +643,15 @@
   },
   {
    "title": "Micron Is Facing a Potential Strike at Major Taiwan Chip Factory. The Stock Is Rising Anyway.",
+   "pub": "Tue, 22 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SanDisk Jumps 6% as Rosenblatt Starts Coverage at Buy With $2,400 Target; Micron Rises 3%, Seagate Ticks Up",
    "pub": "Tue, 22 Sep 2026",
    "src": "en",
    "q": "MU",
