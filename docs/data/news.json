@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-23 18:35",
+ "ts_kst": "09-23 18:45",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -14,33 +14,7 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 62,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "[오늘 이 종목] 반도체 훈풍에 삼전닉스 주목…LFP 수주 · AI 웹툰도 눈길 - 머니투데이 - 머니투데이",
-   "agents": []
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "술 때문에 억대 성과급 놓쳤다…SK하이닉스 신입 4명 해고된 이유 - 서울경제",
@@ -57,7 +31,7 @@
    "agents": []
   },
   {
-   "title": "[증시키워드] '음주 해고' SK하이닉스·신약 허가 눈앞 HLB...현대차, 美 로봇센터 가동 - v.daum.net",
+   "title": "[이 시각 핫뉴스] 연수기간 술 마신 SK하이닉스 신입 4명 해고 外 - v.daum.net",
    "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -170,15 +144,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, D램 생산량 HBM에 묶인 사이 中 범용 D램 시장 침투 가속 - 조선비즈 - Chosunbiz",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "메모리·스토리지 ’가치 폭등’…삼성반도체·솔리다임, 중국 선전서 차세대 기술 과시 By The Guru - Investing.com 한국어",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
@@ -191,6 +156,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, D램 생산량 HBM에 묶인 사이 中 범용 D램 시장 침투 가속 - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "티이엠씨, 삼성전자·SK하이닉스에 '반도체 양산 필수' 재활용 네온가스 동시 수주 '잭팟' - 프라임경제",
