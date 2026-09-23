@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-24 04:31",
+ "ts_kst": "09-24 04:41",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -14,17 +14,7 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "삼성전자, 연휴 앞두고 3%대 급등마감…SK하이닉스도 1.2%↑(종합) - v.daum.net",
@@ -135,13 +125,11 @@
    "agents": []
   },
   {
-   "title": "AI가 HBM 이어 낸드 생산라인도 바꾼다…삼성·SK, eSSD 우선 배정 - 뉴스핌",
-   "pub": "Wed, 23 Sep 2026",
+   "title": "SK하이닉스, GDDR7 기판 공급망 넓힌다…코리아써키트 합류 - 딜사이트",
+   "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "[반도체 팹사이씬] 美 팹 늘리는데…삼성·SK, '인재 확보' 비상 - 블로터",
@@ -618,6 +606,15 @@
    ]
   },
   {
+   "title": "Citi Resets Micron Target After Surprise",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Martin Shkreli Shorts Micron 2 Months After Saying ‘I Like Micron’: ‘If Memory Prices Drop, It’s All Over’",
    "pub": "Wed, 23 Sep 2026",
    "src": "en",
@@ -646,15 +643,6 @@
   },
   {
    "title": "Micron keeps analysts bullish as memory demand strengthens",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Price Target Raised to $1,300 by Citi on Stronger DRAM Pricing, Undersupply",
    "pub": "Wed, 23 Sep 2026",
    "src": "en",
    "q": "MU",
