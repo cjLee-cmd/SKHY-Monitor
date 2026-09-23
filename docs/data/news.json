@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-23 18:25",
+ "ts_kst": "09-23 18:35",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -8,13 +8,39 @@
  "routed": {
   "P-ADR": 2,
   "C-CHINA": 6,
-  "M-CYCLE": 14,
+  "M-CYCLE": 15,
   "F-ACTIVE": 5,
   "C-BUYBACK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "[오늘 이 종목] 반도체 훈풍에 삼전닉스 주목…LFP 수주 · AI 웹툰도 눈길 - 머니투데이 - 머니투데이",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "술 때문에 억대 성과급 놓쳤다…SK하이닉스 신입 4명 해고된 이유 - 서울경제",
@@ -24,7 +50,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\" - 연합뉴스TV",
+   "title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\" - yonhapnewstv.co.kr",
    "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -47,7 +73,7 @@
    ]
   },
   {
-   "title": "서학개미 몰리는 반도체 3배 ETF 'SOXL'…SK하이닉스 담았다 - 한국경제",
+   "title": "서학개미 몰리는 반도체 3배 ETF 'SOXL'…SK하이닉스 담았다 - hankyung.com",
    "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -70,7 +96,7 @@
    "agents": []
   },
   {
-   "title": "\"메타가 불 지폈다\"…삼성전자·SK하이닉스 다시 '들썩' - 한국경제",
+   "title": "\"메타가 불 지폈다\"…삼성전자·SK하이닉스 다시 '들썩' - hankyung.com",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -91,7 +117,7 @@
    "agents": []
   },
   {
-   "title": "추석 연휴 앞 코스피 ’전강후약’…7,000선 사수 - 연합뉴스TV",
+   "title": "추석 연휴 앞 코스피 ’전강후약’…7,000선 사수 - yonhapnewstv.co.kr",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -116,8 +142,8 @@
    ]
   },
   {
-   "title": "AI 투자 늘자 eSSD도 '불티'…삼성·SK하이닉스 주도권 경쟁 가속 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 22 Sep 2026",
+   "title": "[오늘 이 종목] 반도체 훈풍에 삼전닉스 주목…LFP 수주 · AI 웹툰도 눈길 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -144,11 +170,13 @@
    "agents": []
   },
   {
-   "title": "[단독] 삼성전자 반도체 노조는 금리 우대… SC제일銀, 상품 준비 - Chosunbiz",
-   "pub": "Wed, 23 Sep 2026",
+   "title": "삼성전자·SK하이닉스, D램 생산량 HBM에 묶인 사이 中 범용 D램 시장 침투 가속 - 조선비즈 - Chosunbiz",
+   "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "메모리·스토리지 ’가치 폭등’…삼성반도체·솔리다임, 중국 선전서 차세대 기술 과시 By The Guru - Investing.com 한국어",
@@ -200,7 +228,7 @@
    "agents": []
   },
   {
-   "title": "메모리·스토리지 '가치 폭등'…삼성반도체·솔리다임, 중국 선전서 차세대 기술 과시 - 더구루",
+   "title": "메모리·스토리지 '가치 폭등'…삼성반도체·솔리다임, 중국 선전서 차세대 기술 과시 - theguru.co.kr",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -260,7 +288,7 @@
    "agents": []
   },
   {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - ytn.co.kr",
    "pub": "Thu, 09 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -290,6 +318,15 @@
    ]
   },
   {
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -299,17 +336,8 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
-   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -370,7 +398,7 @@
    "agents": []
   },
   {
-   "title": "외인·기관 순매수에 코스피 2.7% 상승 마감 - YTN",
+   "title": "외인·기관 순매수에 코스피 2.7% 상승 마감 - ytn.co.kr",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -411,7 +439,7 @@
    ]
   },
   {
-   "title": "외국인, 코스피 팔고 선물 샀다…추석 연휴 앞두고 ‘엇갈린 베팅’ - goodkyung.com",
+   "title": "외국인, 코스피 팔고 선물 샀다…추석 연휴 앞두고 ‘엇갈린 베팅’ - 굿모닝경제",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -466,7 +494,7 @@
    "agents": []
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -475,7 +503,7 @@
    ]
   },
   {
-   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - yna.co.kr",
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -552,7 +580,7 @@
    "agents": []
   },
   {
-   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - 한국일보",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -579,14 +607,14 @@
    ]
   },
   {
-   "title": "[단독] \"부모님께 손 벌려 겨우 막았다\"…2030 '4조 빚투' 대란 - 한국경제",
+   "title": "[단독] \"부모님께 손 벌려 겨우 막았다\"…2030 '4조 빚투' 대란 - hankyung.com",
    "pub": "Wed, 19 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - yna.co.kr",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -595,7 +623,25 @@
    ]
   },
   {
+   "title": "Micron (MU) Stock Looks Reasonable Despite Its Very Large Run",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Should You Buy Micron Before Sept. 30?",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Faces Potential Strike at Major Chip Factory. The Stock Rises Anyway.",
    "pub": "Wed, 23 Sep 2026",
    "src": "en",
    "q": "MU",
@@ -624,24 +670,6 @@
   {
    "title": "Should You Buy Micron Before Sept. 30? 1 Number Could Send the Stock Soaring",
    "pub": "Wed, 23 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Dow Jones Futures: Nasdaq Hits New High; Sandisk, Micron Trigger Buy Signals",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron's Memory Boom Is Facing a New Test",
-   "pub": "Tue, 22 Sep 2026",
    "src": "en",
    "q": "MU",
    "agents": [
