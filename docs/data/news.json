@@ -1,23 +1,47 @@
 {
- "ts_kst": "09-24 00:31",
- "n_items": 105,
+ "ts_kst": "09-24 00:41",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
-  "C-CHINA": 6,
   "P-ADR": 2,
-  "M-CYCLE": 14,
+  "C-CHINA": 6,
+  "M-CYCLE": 15,
   "F-ACTIVE": 6,
   "C-BUYBACK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자, 연휴 앞두고 3%대 급등마감…SK하이닉스도 1.2%↑(종합) - v.daum.net",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 반도체 수요 증가 기대감에 동반 상승 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "특징주, SK스퀘어-S7(삼성전자/SK하이닉스 등) 테마 상승세에 5.03% ↑ - 매일경제 마켓",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -59,29 +83,6 @@
    "agents": []
   },
   {
-   "title": "\"삼전닉스 지금 사도 될까\"…바닥 확인, '분할매수' 유리 - 이데일리TV",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[공매도 브리핑] SK하이닉스 거래대금 1위…금화피에스시 비중 52.24% - 톱스타뉴스",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "중국 CXMT 5세대 D램 \"삼성전자나 SK하이닉스와 비교 어렵다\" 평가, 기술력과 수율 불투명 - 비즈니스포스트",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "SK하이닉스 ADR, 美 반도체지수 조기편입…개미 '최애' SOXL에도 담겼다 - 연합인포맥스",
    "pub": "Tue, 22 Sep 2026",
    "src": "kr",
@@ -98,12 +99,21 @@
    "agents": []
   },
   {
-   "title": "삼성운용 KODEX 미국반도체, SK하이닉스 ADR 편입…“최신 트렌드 신속 반영” - 헤럴드경제",
+   "title": "삼성운용 KODEX 미국반도체, SK하이닉스 ADR 편입…“최신 트렌드 신속 반영” - biz.heraldcorp.com",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "P-ADR"
+   ]
+  },
+  {
+   "title": "중국 CXMT 5세대 D램 \"삼성전자나 SK하이닉스와 비교 어렵다\" 평가, 기술력과 수율 불투명 - 비즈니스포스트",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
    ]
   },
   {
@@ -139,13 +149,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 반도체 수요 증가 기대감에 동반 상승 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "[단독] 삼성전자 반도체 노조는 금리 우대… SC제일銀, 상품 준비 - 조선비즈 - Chosunbiz",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
@@ -153,7 +156,7 @@
    "agents": []
   },
   {
-   "title": "메모리·스토리지 ’가치 폭등’…삼성반도체·솔리다임, 중국 선전서 차세대 기술 과시 By The Guru - Investing.com 한국어",
+   "title": "메모리·스토리지 ’가치 폭등’…삼성반도체·솔리다임, 중국 선전서 차세대 기술 과시 By The Guru - kr.investing.com",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -216,7 +219,7 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·SK하이닉스, 메모리 반도체 수요 증가.. '강세\" - g-enews.com",
+   "title": "[특징주] 삼성전자·SK하이닉스, 메모리 반도체 수요 증가.. '강세\" - 글로벌이코노믹",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -239,15 +242,6 @@
    "agents": []
   },
   {
-   "title": "아시아뉴스 중국 CXMT, 5세대 메모리 반도체 플랫폼 양산 돌입… 글로벌 시장 경쟁 가속화 - 뉴스케이",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "'K-메모리,' 美ㆍ中 포위망에 협공... D램은 中에, HBM은 美에 추적 - 글로벌경제신문",
    "pub": "Sat, 19 Sep 2026",
    "src": "kr",
@@ -257,7 +251,16 @@
    ]
   },
   {
-   "title": "턱밑까지 쫓아온 중국 메모리반도체…한국, 특단의 대응 필요 - kidd.co.kr",
+   "title": "아시아뉴스 중국 CXMT, 5세대 메모리 반도체 플랫폼 양산 돌입… 글로벌 시장 경쟁 가속화 - 뉴스케이",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "턱밑까지 쫓아온 중국 메모리반도체…한국, 특단의 대응 필요 - 산업일보",
    "pub": "Mon, 14 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -266,6 +269,27 @@
   {
    "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
    "pub": "Fri, 28 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - v.daum.net",
+   "pub": "Sat, 29 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
+   "pub": "Wed, 20 May 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -280,20 +304,6 @@
    ]
   },
   {
-   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - v.daum.net",
-   "pub": "Sat, 29 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "pub": "Thu, 09 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -301,13 +311,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "중국 메모리반도체 '톱2' 잇따라 상장 추진, 역대급 호황 힘입어 삼성전자 SK하이닉스 추격 속도 - 비즈니스포스트",
-   "pub": "Wed, 20 May 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
@@ -319,8 +322,8 @@
    ]
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
-   "pub": "Tue, 17 Feb 2026",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -333,6 +336,15 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
+  },
+  {
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "pub": "Tue, 17 Feb 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "美 정부, 애플에 중국산 메모리 반도체 구매 자제 촉구 - 연합인포맥스",
@@ -351,15 +363,6 @@
    ]
   },
   {
-   "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - 한겨레",
-   "pub": "Thu, 13 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "추석 앞둔 코스피, 4일째 올라 7080선…외국인은 순매도 전환 - 경북매일",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
@@ -369,14 +372,14 @@
    ]
   },
   {
-   "title": "[장중] 7153.99로 출발한 코스피, 7030선 아래로…외국인 매도 전환 - standingout.kr",
+   "title": "[食전食후] 코스피, 개인·외국인 매도에 상승폭 축소…하락 전환도 가능성 - 아주경제",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[食전食후] 코스피, 개인·외국인 매도에 상승폭 축소…하락 전환도 가능성 - 아주경제",
+   "title": "[장중] 7153.99로 출발한 코스피, 7030선 아래로…외국인 매도 전환 - standingout.kr",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -454,7 +457,7 @@
    ]
   },
   {
-   "title": "코스피, 2% 올라 6890선 회복…외국인 8거래일만 순매수 전환 - 전자신문",
+   "title": "코스피, 2% 올라 6890선 회복…외국인 8거래일만 순매수 전환 - etnews.com",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -554,7 +557,7 @@
    ]
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -606,6 +609,24 @@
    ]
   },
   {
+   "title": "Michael Burry Doubles Down Against Micron Stock",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Stock Market Today: Small Caps Lead Dip Amid Hot Economic Data; Micron Keeps Drop In Control (Live Coverage)",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Michael Burry Shorts Micron, Palantir; Famed Investor Expects Chip 'Down Cycle'",
    "pub": "Wed, 23 Sep 2026",
    "src": "en",
@@ -622,13 +643,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Stock Market Today: Small Caps Lead Downturn Amid Hot Economic Data; Sandisk, Chips Tumble (Live Coverage)",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   },
   {
    "title": "Michael Burry expands short bets on Micron, Palantir and semiconductor stocks",
