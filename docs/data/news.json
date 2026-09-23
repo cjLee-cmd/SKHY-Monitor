@@ -1,45 +1,37 @@
 {
- "ts_kst": "09-24 04:21",
+ "ts_kst": "09-24 04:31",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "P-ADR": 2,
   "C-BUYBACK": 1,
   "C-CHINA": 6,
-  "M-CYCLE": 13,
+  "P-ADR": 2,
+  "M-CYCLE": 14,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "SK하이닉스 ADR, 美 반도체지수 조기편입…개미 '최애' SOXL에도 담겼다 - 연합인포맥스",
-   "pub": "Tue, 22 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "서학개미 몰리는 반도체 3배 ETF 'SOXL'…SK하이닉스 담았다 - hankyung.com",
-   "pub": "Tue, 22 Sep 2026",
+   "title": "삼성전자, 연휴 앞두고 3%대 급등마감…SK하이닉스도 1.2%↑(종합) - v.daum.net",
+   "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "삼성운용 KODEX 미국반도체, SK하이닉스 ADR 편입…“최신 트렌드 신속 반영” - 헤럴드경제",
-   "pub": "Mon, 21 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
   },
   {
    "title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\" - 연합뉴스TV",
@@ -58,13 +50,6 @@
   {
    "title": "[이 시각 핫뉴스] 연수기간 술 마신 SK하이닉스 신입 4명 해고 外 - v.daum.net",
    "pub": "Tue, 22 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 연휴 앞두고 3%대 급등마감…SK하이닉스도 1.2%↑(종합) - v.daum.net",
-   "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -109,7 +94,32 @@
    ]
   },
   {
-   "title": "美 반도체주 일제히 상승…마이크론 5%·SK하이닉스 3.45% 급등 - news1.kr",
+   "title": "SK하이닉스 ADR, 美 반도체지수 조기편입…개미 '최애' SOXL에도 담겼다 - 연합인포맥스",
+   "pub": "Tue, 22 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "서학개미 몰리는 반도체 3배 ETF 'SOXL'…SK하이닉스 담았다 - 한국경제",
+   "pub": "Tue, 22 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성운용 KODEX 미국반도체, SK하이닉스 ADR 편입…“최신 트렌드 신속 반영” - 헤럴드경제",
+   "pub": "Mon, 21 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "美 반도체주 일제히 상승…마이크론 5%·SK하이닉스 3.45% 급등 - 뉴스1",
    "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -162,7 +172,7 @@
    "agents": []
   },
   {
-   "title": "“삼성전자 목표주가 63만원”…30만선 회복 앞두고 증권가 전망 보니 - mk.co.kr",
+   "title": "“삼성전자 목표주가 63만원”…30만선 회복 앞두고 증권가 전망 보니 - 매일경제",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -183,7 +193,7 @@
    "agents": []
   },
   {
-   "title": "티이엠씨, 삼성전자·SK하이닉스에 '반도체 양산 필수' 재활용 네온가스 동시 수주 '잭팟' - newsprime.co.kr",
+   "title": "티이엠씨, 삼성전자·SK하이닉스에 '반도체 양산 필수' 재활용 네온가스 동시 수주 '잭팟' - 프라임경제",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -211,7 +221,7 @@
    "agents": []
   },
   {
-   "title": "메모리·스토리지 '가치 폭등'…삼성반도체·솔리다임, 중국 선전서 차세대 기술 과시 - theguru.co.kr",
+   "title": "메모리·스토리지 '가치 폭등'…삼성반도체·솔리다임, 중국 선전서 차세대 기술 과시 - 더구루",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -241,7 +251,7 @@
    ]
   },
   {
-   "title": "'K-메모리,' 美ㆍ中 포위망에 협공... D램은 中에, HBM은 美에 추적 - getnews.co.kr",
+   "title": "'K-메모리,' 美ㆍ中 포위망에 협공... D램은 中에, HBM은 美에 추적 - 글로벌경제신문",
    "pub": "Sat, 19 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -250,7 +260,7 @@
    ]
   },
   {
-   "title": "아시아뉴스 중국 CXMT, 5세대 메모리 반도체 플랫폼 양산 돌입… 글로벌 시장 경쟁 가속화 - 뉴스케이",
+   "title": "아시아뉴스 중국 CXMT, 5세대 메모리 반도체 플랫폼 양산 돌입… 글로벌 시장 경쟁 가속화 - newsk.net",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -266,7 +276,7 @@
    "agents": []
   },
   {
-   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - mk.co.kr",
+   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
    "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -303,7 +313,7 @@
    ]
   },
   {
-   "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
+   "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - foeconomy.co.kr",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -408,6 +418,13 @@
    "agents": []
   },
   {
+   "title": "코스피, 7,150선 출발 후 7,040선으로…외국인 매도에 상승폭 반납 - ppss.kr",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피, 외국인·기관 순매수에 7120선 상승 출발···반도체주 강세 - smartbizn.com",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
@@ -415,13 +432,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "코스피, 7,150선 출발 후 7,040선으로…외국인 매도에 상승폭 반납 - ppss.kr",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "개미 던지고 외국인·기관 받고 '코스피 7100'…대형 변수 줄줄이 - 머니투데이 - 머니투데이",
@@ -454,7 +464,7 @@
    ]
   },
   {
-   "title": "코스피, 2% 올라 6890선 회복…외국인 8거래일만 순매수 전환 - etnews.com",
+   "title": "코스피, 2% 올라 6890선 회복…외국인 8거래일만 순매수 전환 - 전자신문",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -463,7 +473,7 @@
    ]
   },
   {
-   "title": "코스피, 기관·외국인 순매수에 장중 강세 - core.asiae.co.kr",
+   "title": "코스피, 기관·외국인 순매수에 장중 강세 - 아시아경제",
    "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -522,7 +532,7 @@
    "agents": []
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -583,13 +593,6 @@
    ]
   },
   {
-   "title": "[단독] \"부모님께 손 벌려 겨우 막았다\"…2030 '4조 빚투' 대란 - hankyung.com",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
@@ -599,12 +602,28 @@
    ]
   },
   {
+   "title": "[단독] \"부모님께 손 벌려 겨우 막았다\"…2030 '4조 빚투' 대란 - 한국경제",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Martin Shkreli Shorts Micron 2 Months After Saying ‘I Like Micron’: ‘If Memory Prices Drop, It’s All Over’",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
@@ -636,15 +655,6 @@
   },
   {
    "title": "Micron Price Target Raised to $1,300 by Citi on Stronger DRAM Pricing, Undersupply",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "3 Warning Signs That Micron Investors Shouldn't Ignore",
    "pub": "Wed, 23 Sep 2026",
    "src": "en",
    "q": "MU",
