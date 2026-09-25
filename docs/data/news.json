@@ -1,30 +1,20 @@
 {
- "ts_kst": "09-25 10:26",
- "n_items": 103,
+ "ts_kst": "09-25 10:36",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
   "M-CYCLE": 12,
-  "C-BUYBACK": 2,
-  "P-ADR": 2,
+  "C-BUYBACK": 1,
   "C-CHINA": 7,
+  "P-ADR": 2,
   "F-ACTIVE": 8,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 11
  },
- "unassigned": 60,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\" - 연합뉴스TV",
@@ -87,6 +77,15 @@
    "agents": []
   },
   {
+   "title": "중국 CXMT 5세대 D램 \"삼성전자나 SK하이닉스와 비교 어렵다\" 평가, 기술력과 수율 불투명 - 비즈니스포스트",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "SK하이닉스 ADR 프리미엄 과열…'알짜 본주' 줍줍하라? - edaily.co.kr",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
@@ -112,16 +111,7 @@
    "agents": []
   },
   {
-   "title": "중국 CXMT 5세대 D램 \"삼성전자나 SK하이닉스와 비교 어렵다\" 평가, 기술력과 수율 불투명 - 비즈니스포스트",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "출시 넉 달 삼전닉스 2배 ETF…결국 반토막 '씁쓸한 추석' - news1.kr",
+   "title": "출시 넉 달 삼전닉스 2배 ETF…결국 반토막 '씁쓸한 추석' - 뉴스1",
    "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -156,7 +146,7 @@
    "agents": []
   },
   {
-   "title": "반도체 품귀에…삼성전자, 추석 연휴에도 3교대 ‘풀 가동’ - v.daum.net",
+   "title": "SK는 '넓은 부지'·삼성은 '속도전'…호남 반도체 투자의지 - v.daum.net",
    "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -184,6 +174,13 @@
    "agents": []
   },
   {
+   "title": "코스피, 반도체 훈풍에 7000포인트 안착…삼성전자 3%대 강세 - 매일경제",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "[특징주] 美 반도체 훈풍에 프리마켓서 삼성전자 2%·SK하이닉스 3%↑ - 뉴스핌",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
@@ -198,13 +195,11 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 추석 후 '특별성과급' 베일 벗는다…자사주 기준 공개 - ebn.co.kr",
-   "pub": "Thu, 24 Sep 2026",
+   "title": "[기자수첩] 동료 버리고 밥그릇 챙긴 삼성 초기업…‘반도체 겨울’ 두렵지 않나 - 뉴시안",
+   "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "[속보] 삼성전자 반도체 직원 ‘성과급 6억’ 받나…이달 말 기준 공개 - KBC광주방송",
@@ -381,7 +376,7 @@
    ]
   },
   {
-   "title": "코스피 7150선 출발했지만…외국인 ‘팔자’에 7040선 후퇴 - jnilbo.com",
+   "title": "코스피 7150선 출발했지만…외국인 ‘팔자’에 7040선 후퇴 - 진일보",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -475,7 +470,7 @@
    "agents": []
   },
   {
-   "title": "코스피, 2% 올라 6890선 회복…외국인 8거래일만 순매수 전환 - etnews.com",
+   "title": "코스피, 2% 올라 6890선 회복…외국인 8거래일만 순매수 전환 - 전자신문",
    "pub": "Fri, 18 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -520,15 +515,6 @@
    ]
   },
   {
-   "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
-   "pub": "Thu, 06 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
@@ -536,6 +522,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "“레버리지때문에 한국 증시 바닥쳤다”…한달만에 39% 급락, 亞 곳곳서 문제 - 매일경제 마켓",
+   "pub": "Wed, 09 Sep 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
@@ -597,6 +590,13 @@
    ]
   },
   {
+   "title": "[단독] \"부모님께 손 벌려 겨우 막았다\"…2030 '4조 빚투' 대란 - 한국경제",
+   "pub": "Wed, 19 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - yna.co.kr",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
@@ -604,13 +604,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "“레버리지때문에 한국 증시 바닥쳤다”…한달만에 39% 급락, 亞 곳곳서 문제 - 매일경제 마켓",
-   "pub": "Wed, 09 Sep 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "Prediction: $5,000 Invested in Micron Today Will Be Worth This Much by 2030",
@@ -650,15 +643,6 @@
   },
   {
    "title": "Micron (MU) Stock Looks Cheap. But Is AI Growth Already Priced In?",
-   "pub": "Thu, 24 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Stock Market Today: Dow Slides As Treasury Yields Surge; Nvidia Slips While Micron Rises",
    "pub": "Thu, 24 Sep 2026",
    "src": "en",
    "q": "MU",
