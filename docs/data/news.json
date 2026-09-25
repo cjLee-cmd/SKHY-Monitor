@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-25 21:31",
+ "ts_kst": "09-25 21:41",
  "n_items": 102,
  "by_source": {
   "kr": 73,
@@ -11,13 +11,23 @@
   "P-ADR": 1,
   "C-CHINA": 4,
   "F-ACTIVE": 8,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 13
  },
- "unassigned": 61,
- "alerts": [],
+ "unassigned": 60,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "술 때문에 억대 성과급 놓쳤다…SK하이닉스 신입 4명 해고된 이유 - 서울경제",
+   "title": "술 때문에 억대 성과급 놓쳤다…SK하이닉스 신입 4명 해고된 이유 - sedaily.com",
    "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -181,7 +191,7 @@
    "agents": []
   },
   {
-   "title": "프리마켓서 삼성전자 28만선 탈환…간밤 美반도체 강세 훈풍 [마켓시그널] - 서울경제",
+   "title": "프리마켓서 삼성전자 28만선 탈환…간밤 美반도체 강세 훈풍 [마켓시그널] - sedaily.com",
    "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -497,8 +507,8 @@
    ]
   },
   {
-   "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "pub": "Sun, 26 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -506,8 +516,8 @@
    ]
   },
   {
-   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
-   "pub": "Sun, 26 Jul 2026",
+   "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -574,6 +584,15 @@
    ]
   },
   {
+   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
@@ -583,11 +602,13 @@
    ]
   },
   {
-   "title": "“레버리지때문에 한국 증시 바닥쳤다”…한달만에 39% 급락, 亞 곳곳서 문제 - 매일경제 마켓",
-   "pub": "Wed, 09 Sep 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
+   "title": "Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock?",
+   "pub": "Fri, 25 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "Meet the Super Semiconductor ETF With 34.7% of Its Assets Parked in Intel, AMD, Micron, and Nvidia",
@@ -637,15 +658,6 @@
   {
    "title": "Prediction: $5,000 Invested in Micron Today Will Be Worth This Much by 2030",
    "pub": "Fri, 25 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Forget Betting on Micron Alone: The $26B Memory ETF Owns MU, SK Hynix, and Samsung at a September Discount",
-   "pub": "Thu, 24 Sep 2026",
    "src": "en",
    "q": "MU",
    "agents": [
