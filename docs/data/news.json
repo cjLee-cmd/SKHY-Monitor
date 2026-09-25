@@ -1,12 +1,12 @@
 {
- "ts_kst": "09-26 01:37",
- "n_items": 101,
+ "ts_kst": "09-26 01:48",
+ "n_items": 102,
  "by_source": {
-  "kr": 72,
+  "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 15,
+  "M-CYCLE": 16,
   "C-BUYBACK": 1,
   "P-ADR": 2,
   "C-CHINA": 4,
@@ -14,7 +14,17 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 60,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - 한국일보",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "술 때문에 억대 성과급 놓쳤다…SK하이닉스 신입 4명 해고된 이유 - 서울경제",
@@ -29,6 +39,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "HBM 호황에 달라진 위상…그룹 '베테랑' 품은 SK하이닉스 - v.daum.net",
+   "pub": "Thu, 24 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "HBM 다음은 '추론'…삼성전자·SK하이닉스, 차세대 메모리 승부 - newsis.com",
@@ -86,13 +105,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "출시 넉 달 삼전닉스 2배 ETF…결국 반토막 '씁쓸한 추석' - 뉴스1",
-   "pub": "Thu, 24 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\" - 연합뉴스TV",
@@ -386,6 +398,13 @@
    "agents": []
   },
   {
+   "title": "외인·기관 순매수에 코스피 2.7% 상승 마감 - YTN",
+   "pub": "Fri, 18 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "[서울데이터랩]코스피, 장 초반 7007.10까지 오르며 강세…외국인·기관 순매수 - 서울신문",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
@@ -393,13 +412,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "외인·기관 순매수에 코스피 2.7% 상승 마감 - YTN",
-   "pub": "Fri, 18 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "[食전食후] 코스피, 개인·외국인 매도에 상승폭 축소…하락 전환도 가능성 - 아주경제",
@@ -452,6 +464,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "개미 던지고 외국인·기관 받고 '코스피 7100'…대형 변수 줄줄이 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -531,7 +550,7 @@
    ]
   },
   {
-   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - 한국일보",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -639,15 +658,6 @@
   },
   {
    "title": "What Could Go Wrong At Micron From Here?",
-   "pub": "Fri, 25 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Two Numbers to Watch in Micron’s Earnings Report Next Week",
    "pub": "Fri, 25 Sep 2026",
    "src": "en",
    "q": "MU",
