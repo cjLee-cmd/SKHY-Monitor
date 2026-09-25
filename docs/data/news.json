@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-25 21:11",
+ "ts_kst": "09-25 21:21",
  "n_items": 102,
  "by_source": {
   "kr": 73,
@@ -8,23 +8,13 @@
  "routed": {
   "M-CYCLE": 15,
   "C-BUYBACK": 1,
-  "P-ADR": 1,
+  "P-ADR": 2,
   "C-CHINA": 4,
   "F-ACTIVE": 8,
-  "R-LEVERAGE": 13
+  "R-LEVERAGE": 12
  },
  "unassigned": 60,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "술 때문에 억대 성과급 놓쳤다…SK하이닉스 신입 4명 해고된 이유 - 서울경제",
@@ -89,14 +79,16 @@
    "agents": []
   },
   {
-   "title": "'AI 속도조절론' 밀어낸 반도체…4분기 '삼전닉스' 다시 달릴까 - 연합인포맥스",
-   "pub": "Thu, 24 Sep 2026",
+   "title": "SK하이닉스 ADR 프리미엄 과열…'알짜 본주' 줍줍하라? - edaily.co.kr",
+   "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
-   "title": "출시 넉 달 삼전닉스 2배 ETF…결국 반토막 '씁쓸한 추석' - 뉴스1",
+   "title": "'AI 속도조절론' 밀어낸 반도체…4분기 '삼전닉스' 다시 달릴까 - 연합인포맥스",
    "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -396,6 +388,13 @@
    "agents": []
   },
   {
+   "title": "[장중] 7153.99로 출발한 코스피, 7030선 아래로…외국인 매도 전환 - standingout.kr",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "[서울데이터랩]코스피, 장 초반 7007.10까지 오르며 강세…외국인·기관 순매수 - 서울신문",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
@@ -403,13 +402,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "[장중] 7153.99로 출발한 코스피, 7030선 아래로…외국인 매도 전환 - standingout.kr",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "외인·기관 순매수에 코스피 2.7% 상승 마감 - YTN",
@@ -507,8 +499,8 @@
    ]
   },
   {
-   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
-   "pub": "Sun, 26 Jul 2026",
+   "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -516,8 +508,8 @@
    ]
   },
   {
-   "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
-   "pub": "Thu, 06 Aug 2026",
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "pub": "Sun, 26 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -584,15 +576,6 @@
    ]
   },
   {
-   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
-   "pub": "Wed, 29 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
@@ -600,6 +583,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "“레버리지때문에 한국 증시 바닥쳤다”…한달만에 39% 급락, 亞 곳곳서 문제 - 매일경제 마켓",
+   "pub": "Wed, 09 Sep 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "Meet the Super Semiconductor ETF With 34.7% of Its Assets Parked in Intel, AMD, Micron, and Nvidia",
