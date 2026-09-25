@@ -1,14 +1,38 @@
 {
- "ts_kst": "09-25 20:12",
- "score": 20.0,
+ "ts_kst": "09-25 20:22",
+ "score": 10.0,
  "verdict": "정당한 재평가",
  "components": {
   "A_통계극단성": 0,
   "B_체인동조성": 0.0,
   "C_펀더멘털배율": 0,
-  "D_역사되돌림": 20
+  "D_역사되돌림": 10.0
  },
  "targets": {
+  "삼성전자": {
+   "name": "삼성전자",
+   "cum": 4.2,
+   "sd": 4.73,
+   "z": 0.63,
+   "n_episodes": 1,
+   "forward": {
+    "5": {
+     "mean": -2.57,
+     "median": -2.57,
+     "up_rate": 0
+    },
+    "20": {
+     "mean": -6.59,
+     "median": -6.59,
+     "up_rate": 0
+    },
+    "60": {
+     "mean": -13.99,
+     "median": -13.99,
+     "up_rate": 0
+    }
+   }
+  },
   "SK하이닉스": {
    "name": "SK하이닉스",
    "cum": -0.32,
@@ -53,8 +77,8 @@
  },
  "detail": {
   "z_min": -0.04,
-  "drop_avg": 0.32,
-  "fundamental_ratio": 0.04,
+  "drop_avg": 1.94,
+  "fundamental_ratio": 0.25,
   "chain_negative": "0/5"
  },
  "caveat": "역사 표본 3개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
