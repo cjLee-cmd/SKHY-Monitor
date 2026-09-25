@@ -1,30 +1,20 @@
 {
- "ts_kst": "09-26 02:43",
- "n_items": 103,
+ "ts_kst": "09-26 02:54",
+ "n_items": 102,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 29
  },
  "routed": {
   "M-CYCLE": 15,
   "C-BUYBACK": 1,
-  "P-ADR": 2,
+  "P-ADR": 1,
   "C-CHINA": 4,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 12
  },
  "unassigned": 62,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - Hankookilbo",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "술 때문에 억대 성과급 놓쳤다…SK하이닉스 신입 4명 해고된 이유 - 서울경제",
@@ -34,8 +24,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 추석 연휴 앞두고 3.25% 급등…SK하이닉스도 1.2%↑ - dt.co.kr",
+   "title": "\"메타가 불 지폈다\"…삼성전자·SK하이닉스 다시 '들썩' - 한국경제",
    "pub": "Wed, 23 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "로이터 \"SK하이닉스 솔리다임, 이르면 내년 美 상장 추진\" - 뉴스핌",
+   "pub": "Fri, 25 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -48,11 +45,13 @@
    "agents": []
   },
   {
-   "title": "[똑소리톡] 삼성전자·SK하이닉스 현직자들이 원하는 신입의 '진짜 스펙'…'퇴사 트리거'까지 데이터로 해부 | 블라인드 AI - v.daum.net",
-   "pub": "Fri, 25 Sep 2026",
+   "title": "HBM 호황에 달라진 위상…그룹 '베테랑' 품은 SK하이닉스 - v.daum.net",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "HBM 다음은 '추론'…삼성전자·SK하이닉스, 차세대 메모리 승부 - 뉴시스",
@@ -71,17 +70,8 @@
    "agents": []
   },
   {
-   "title": "HBM 호황에 달라진 위상…그룹 '베테랑' 품은 SK하이닉스 - 아시아경제",
-   "pub": "Thu, 24 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "[CEO풍향계] ’반도체 역량 강화’ 최태원…’AI속도전’ 구자은 - 연합뉴스TV",
-   "pub": "Wed, 23 Sep 2026",
+   "title": "[똑소리톡] 삼성전자·SK하이닉스 현직자들이 원하는 신입의 '진짜 스펙'…'퇴사 트리거'까지 데이터로 해부 | 블라인드 AI - news.sbs.co.kr",
+   "pub": "Fri, 25 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -96,17 +86,8 @@
    ]
   },
   {
-   "title": "SK하이닉스 ADR 프리미엄 과열…'알짜 본주' 줍줍하라? - edaily.co.kr",
+   "title": "[CEO풍향계] ’반도체 역량 강화’ 최태원…’AI속도전’ 구자은 - 연합뉴스TV",
    "pub": "Wed, 23 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "로이터 \"SK하이닉스 솔리다임, 이르면 내년 美 상장 추진\" - 뉴스핌",
-   "pub": "Fri, 25 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -200,8 +181,8 @@
    "agents": []
   },
   {
-   "title": "“1인당 6억+α”…삼성 반도체, 초대형 성과급 세부안 나온다 - dt.co.kr",
-   "pub": "Wed, 23 Sep 2026",
+   "title": "“기억도 하고 연산도 한다”…삼성·SK, 다음달 글로벌 반도체 학회서 차세대 메모리 기술 소개 - 헤럴드경제",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -214,7 +195,7 @@
    "agents": []
   },
   {
-   "title": "추석 뒤 삼성 반도체 ‘6억원 성과급’ 윤곽… 200만원대 의자도 순차 도입 - 천지일보",
+   "title": "추석 뒤 삼성 반도체 ‘6억원 성과급’ 윤곽… 200만원대 의자도 순차 도입 - newscj.com",
    "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -228,7 +209,7 @@
    "agents": []
   },
   {
-   "title": "‘6억 성과급’ 삼성 반도체, ‘200만원 의자’에 앉아서 일한다…복지 어떻길래 - 서울신문",
+   "title": "‘6억 성과급’ 삼성 반도체, ‘200만원 의자’에 앉아서 일한다…복지 어떻길래 - seoul.co.kr",
    "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -263,15 +244,15 @@
    "agents": []
   },
   {
-   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
-   "pub": "Fri, 28 Aug 2026",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "pub": "Thu, 09 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
   },
   {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "pub": "Thu, 09 Jul 2026",
+   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
+   "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -403,7 +384,7 @@
    "agents": []
   },
   {
-   "title": "[서울데이터랩]코스피, 장 초반 7007.10까지 오르며 강세…외국인·기관 순매수 - 서울신문",
+   "title": "[서울데이터랩]코스피, 장 초반 7007.10까지 오르며 강세…외국인·기관 순매수 - seoul.co.kr",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -605,6 +586,15 @@
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
+  },
+  {
+   "title": "Micron Stock Gets Another Vote of Confidence From Top Analyst",
+   "pub": "Fri, 25 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "Micron Q1 2026 earnings: Nvidia chip launch benefit may be delayed",
