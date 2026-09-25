@@ -1,30 +1,19 @@
 {
- "ts_kst": "09-25 15:00",
- "n_items": 103,
+ "ts_kst": "09-25 15:10",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 15,
-  "C-BUYBACK": 1,
-  "P-ADR": 2,
+  "M-CYCLE": 14,
+  "P-ADR": 1,
   "C-CHINA": 6,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 11
  },
- "unassigned": 60,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "술 때문에 억대 성과급 놓쳤다…SK하이닉스 신입 4명 해고된 이유 - 서울경제",
@@ -48,20 +37,18 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 추석 연휴 앞두고 3.25% 급등…SK하이닉스도 1.2%↑ - dt.co.kr",
+   "title": "삼성전자, 연휴 앞두고 3%대 급등마감…SK하이닉스도 1.2%↑(종합) - v.daum.net",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "HBM 호황에 달라진 위상…그룹 '베테랑' 품은 SK하이닉스 - v.daum.net",
-   "pub": "Thu, 24 Sep 2026",
+   "title": "40만 전자·300만 닉스 ‘희망고문’…삼전닉스, 3분기 실적이 슈퍼사이클 진짜 시험대[biz-플러스] - 서울경제",
+   "pub": "Fri, 25 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "HBM 다음은 '추론'…삼성전자·SK하이닉스, 차세대 메모리 승부 - 뉴시스",
@@ -73,20 +60,11 @@
    ]
   },
   {
-   "title": "SK는 '넓은 부지'·삼성은 '속도전'…호남 반도체 투자의지 - 매일경제 마켓",
-   "pub": "Thu, 24 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "10월 중순 조기 종료되는 삼전닉스 자사주 매입… 외국인 복귀가 증시 최대 변수 - 동아일보",
+   "title": "[CEO풍향계] '반도체 역량 강화' 최태원…'AI속도전' 구자은 - v.daum.net",
    "pub": "Fri, 25 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "HBM 호황에 달라진 위상…그룹 '베테랑' 품은 SK하이닉스 - 아시아경제",
@@ -123,24 +101,29 @@
    ]
   },
   {
-   "title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\" - 연합뉴스TV",
-   "pub": "Tue, 22 Sep 2026",
+   "title": "출시 넉 달 삼전닉스 2배 ETF…결국 반토막 '씁쓸한 추석' - 뉴스1",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 ADR, 美 반도체지수 조기편입…개미 '최애' SOXL에도 담겼다 - 연합인포맥스",
-   "pub": "Tue, 22 Sep 2026",
+   "title": "SK하이닉스, GDDR7 기판 공급망 넓힌다…코리아써키트 합류 : 네이버 블로그 - Naver Blog",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
+   "agents": []
   },
   {
-   "title": "추석에도 불 꺼지지 않는 반도체 라인…삼성·SK하이닉스 24시간 가동 - 피플투데이",
-   "pub": "Fri, 25 Sep 2026",
+   "title": "작년 추석 용돈 '금 vs 삼전닉스' 투자했다면…1년 뒤 가장 많이 웃은 곳은 - 더팩트",
+   "pub": "Thu, 24 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\" - 연합뉴스TV",
+   "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -155,6 +138,13 @@
   {
    "title": "[반도체 팹사이씬] 美 팹 늘리는데…삼성·SK, '인재 확보' 비상 - bloter.net",
    "pub": "Tue, 22 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "SK는 '넓은 부지'·삼성은 '속도전'…호남 반도체 투자의지 - 매일경제 마켓",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -338,7 +328,7 @@
    ]
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -459,7 +449,7 @@
    ]
   },
   {
-   "title": "코스피, 외국인·기관 순매수에 7120선 상승 출발···반도체주 강세 - 스마트비즈",
+   "title": "코스피, 외국인·기관 순매수에 7120선 상승 출발···반도체주 강세 - smartbizn.com",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -493,7 +483,7 @@
    ]
   },
   {
-   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - yna.co.kr",
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -602,7 +592,7 @@
    "agents": []
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - yna.co.kr",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -648,15 +638,6 @@
   },
   {
    "title": "Forget Betting on Micron Alone: The $26B Memory ETF Owns MU, SK Hynix, and Samsung at a September Discount",
-   "pub": "Thu, 24 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "3 Reasons Why Micron and Sandisk Investors Can Ignore What History Says Will Happen",
    "pub": "Thu, 24 Sep 2026",
    "src": "en",
    "q": "MU",
