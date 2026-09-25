@@ -1,38 +1,19 @@
 {
- "ts_kst": "09-25 15:30",
+ "ts_kst": "09-25 15:40",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 14,
+  "M-CYCLE": 15,
   "P-ADR": 1,
   "C-CHINA": 5,
   "F-ACTIVE": 8,
-  "R-LEVERAGE": 11
+  "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
    "title": "술 때문에 억대 성과급 놓쳤다…SK하이닉스 신입 4명 해고된 이유 - 서울경제",
@@ -42,14 +23,14 @@
    "agents": []
   },
   {
-   "title": "\"수억대 연봉 날아갔다\"…SK하이닉스 신입 4명 결국 짐 쌌다 - hankyung.com",
+   "title": "SK하이닉스, 신입사원 4명 연수 중 해고…무슨 일? - 조세일보",
    "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 신입사원 4명 연수 중 해고…무슨 일? - 조세일보",
+   "title": "\"수억대 연봉 날아갔다\"…SK하이닉스 신입 4명 결국 짐 쌌다 - hankyung.com",
    "pub": "Tue, 22 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -79,8 +60,17 @@
    ]
   },
   {
-   "title": "[CEO풍향계] '반도체 역량 강화' 최태원…'AI속도전' 구자은 - v.daum.net",
-   "pub": "Fri, 25 Sep 2026",
+   "title": "HBM 호황에 달라진 위상…그룹 '베테랑' 품은 SK하이닉스 - v.daum.net",
+   "pub": "Thu, 24 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[CEO풍향계] ’반도체 역량 강화’ 최태원…’AI속도전’ 구자은 - 연합뉴스TV",
+   "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -92,15 +82,6 @@
    "q": "SK하이닉스",
    "agents": [
     "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스 ADR 프리미엄 과열…'알짜 본주' 줍줍하라? - edaily.co.kr",
-   "pub": "Wed, 23 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
    ]
   },
   {
@@ -118,6 +99,15 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 ADR 프리미엄 과열…'알짜 본주' 줍줍하라? - edaily.co.kr",
+   "pub": "Wed, 23 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
    "title": "SK하이닉스, GDDR7 기판 공급망 넓힌다…코리아써키트 합류 : 네이버 블로그 - Naver Blog",
    "pub": "Thu, 24 Sep 2026",
    "src": "kr",
@@ -125,15 +115,8 @@
    "agents": []
   },
   {
-   "title": "[증시키워드] '음주 해고' SK하이닉스·신약 허가 눈앞 HLB...현대차, 美 로봇센터 가동 - 이투데이",
-   "pub": "Tue, 22 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 200달러 넘어 250달러 갈까…월가가 목표가 높였다 - 코인리더스",
-   "pub": "Fri, 25 Sep 2026",
+   "title": "작년 추석 용돈 '금 vs 삼전닉스' 투자했다면…1년 뒤 가장 많이 웃은 곳은 - 더팩트",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -146,7 +129,7 @@
    "agents": []
   },
   {
-   "title": "\"연휴 끝나면 '6억 잭팟' 터지나\"…삼성 반도체 직원들 '들썩' - 네이트",
+   "title": "삼성전자 반도체 성과급 세부안에 쏠리는 눈…추석 연휴 후 공개 - 데일리안",
    "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -527,8 +510,8 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
+   "pub": "Thu, 06 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -536,11 +519,13 @@
    ]
   },
   {
-   "title": "“레버리지때문에 한국 증시 바닥쳤다”…한달만에 39% 급락, 亞 곳곳서 문제 - 매일경제 마켓",
-   "pub": "Wed, 09 Sep 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": []
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
@@ -602,13 +587,6 @@
    ]
   },
   {
-   "title": "[단독] \"부모님께 손 벌려 겨우 막았다\"…2030 '4조 빚투' 대란 - hankyung.com",
-   "pub": "Wed, 19 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
@@ -616,6 +594,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "“레버리지때문에 한국 증시 바닥쳤다”…한달만에 39% 급락, 亞 곳곳서 문제 - 매일경제 마켓",
+   "pub": "Wed, 09 Sep 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "Is Micron Stock Going to $1,625? 1 Wall Street Analyst Think So.",
