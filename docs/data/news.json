@@ -1,8 +1,8 @@
 {
- "ts_kst": "09-26 09:00",
- "n_items": 102,
+ "ts_kst": "09-26 09:10",
+ "n_items": 104,
  "by_source": {
-  "kr": 73,
+  "kr": 75,
   "en": 29
  },
  "routed": {
@@ -12,8 +12,18 @@
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 64,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "술 때문에 억대 성과급 놓쳤다…SK하이닉스 신입 4명 해고된 이유 - 서울경제",
@@ -39,8 +49,8 @@
    "agents": []
   },
   {
-   "title": "SK는 '넓은 부지'·삼성은 '속도전'…호남 반도체 투자의지 - 매일경제 마켓",
-   "pub": "Thu, 24 Sep 2026",
+   "title": "\"메타가 불 지폈다\"…삼성전자·SK하이닉스 다시 '들썩' - 한국경제",
+   "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -53,14 +63,14 @@
    "agents": []
   },
   {
-   "title": "학벌 벽 허문 SK하이닉스…현직들의 출신 학교·스펙은 어느 정도? - news.nate.com",
+   "title": "학벌 벽 허문 SK하이닉스…현직들의 출신 학교·스펙은 어느 정도? - 네이트",
    "pub": "Fri, 25 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "엔비디아 올라탄 SK하이닉스 HBM 점유율 50%…삼성 추격 속 74조 시장 수성 - 글로벌이코노믹",
+   "title": "엔비디아 올라탄 SK하이닉스 HBM 점유율 50%…삼성 추격 속 74조 시장 수성 - g-enews.com",
    "pub": "Fri, 25 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -124,8 +134,22 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 자회사 솔리다임, 2027년 최대 1,500억 달러 규모 IPO 추진 - Investing.com 한국어",
+   "pub": "Fri, 25 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "\"63만원 간다\" VS \"27만원 하락\"…삼성전자 목표주가 온도차 - edaily.co.kr",
    "pub": "Fri, 25 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "SK는 '넓은 부지'·삼성은 '속도전'…호남 반도체 투자의지 - 매일경제 마켓",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -138,7 +162,7 @@
    "agents": []
   },
   {
-   "title": "\"연휴 끝나면 '6억 잭팟' 터지나\"…삼성 반도체 직원들 '들썩' - news.nate.com",
+   "title": "\"연휴 끝나면 '6억 잭팟' 터지나\"…삼성 반도체 직원들 '들썩' - 네이트",
    "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -159,13 +183,6 @@
    "agents": []
   },
   {
-   "title": "\"삼성전자, 10년 보면\"…파운드리 점유율 30% 전망 나온 이유 - 뉴시스",
-   "pub": "Thu, 24 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자·SK하이닉스, 인사 패러다임 전환…'정기·상시' 투트랙 가동 - 블로터",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
@@ -180,7 +197,14 @@
    "agents": []
   },
   {
-   "title": "[특징주] 美 반도체 훈풍에 프리마켓서 삼성전자 2%·SK하이닉스 3%↑ - 뉴스핌",
+   "title": "프리마켓서 삼성전자 28만선 탈환…간밤 美반도체 강세 훈풍 [마켓시그널] - 서울경제",
+   "pub": "Tue, 22 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[특징주] 美 반도체 훈풍에 프리마켓서 삼성전자 2%·SK하이닉스 3%↑ - newspim.com",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -215,8 +239,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 협력사에 하반기 인센티브 지급 - Samsung Global Newsroom",
-   "pub": "Fri, 25 Sep 2026",
+   "title": "‘6억 성과급’ 삼성 반도체, ‘200만원 의자’에 앉아서 일한다…복지 어떻길래 - 서울신문",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -307,7 +331,7 @@
    ]
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -376,7 +400,7 @@
    "agents": []
   },
   {
-   "title": "[개장시황] 코스피, 외인·기관 순매수에 1% 상승…장중 7000선 회복 - 뉴스핌",
+   "title": "[개장시황] 코스피, 외인·기관 순매수에 1% 상승…장중 7000선 회복 - newspim.com",
    "pub": "Mon, 21 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -542,7 +566,7 @@
    ]
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -624,24 +648,6 @@
   },
   {
    "title": "Micron Headlines Earnings Calendar; Jabil, Nike Also On Deck",
-   "pub": "Fri, 25 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron vs. NVIDIA: 1 AI Stock to Buy Now and 1 to Watch",
-   "pub": "Fri, 25 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Gets Another Vote of Confidence From Top Analyst",
    "pub": "Fri, 25 Sep 2026",
    "src": "en",
    "q": "MU",
