@@ -1,27 +1,26 @@
 {
- "ts_kst": "09-26 10:07",
- "n_items": 104,
+ "ts_kst": "09-26 10:20",
+ "n_items": 103,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-BUYBACK": 1,
   "M-CYCLE": 14,
-  "P-ADR": 1,
+  "P-ADR": 3,
   "C-CHINA": 3,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 65,
+ "unassigned": 63,
  "alerts": [
   {
-   "level": "info",
-   "kw": "자사주+매입",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "10월 중순 조기 종료되는 삼전닉스 자사주 매입… 외국인 복귀가 증시 최대 변수 - donga.com",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "agents": [
-    "C-BUYBACK"
+    "R-LEVERAGE"
    ]
   }
  ],
@@ -41,17 +40,17 @@
    "agents": []
   },
   {
-   "title": "10월 중순 조기 종료되는 삼전닉스 자사주 매입… 외국인 복귀가 증시 최대 변수 - donga.com",
-   "pub": "Fri, 25 Sep 2026",
+   "title": "마이크론 발 뺀 RTX 50 공급망… 삼성·SK하이닉스 독점판 굳힌다 - g-enews.com",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "C-BUYBACK"
+    "M-CYCLE"
    ]
   },
   {
-   "title": "[똑소리톡] 삼성전자·SK하이닉스 현직자들이 원하는 신입의 '진짜 스펙'…'퇴사 트리거'까지 데이터로 해부 | 블라인드 AI - news.sbs.co.kr",
-   "pub": "Fri, 25 Sep 2026",
+   "title": "SK는 '넓은 부지'·삼성은 '속도전'…호남 반도체 투자의지 - 매일경제 마켓",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -69,15 +68,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "마이크론 발 뺀 RTX 50 공급망… 삼성·SK하이닉스 독점판 굳힌다 - 글로벌이코노믹",
-   "pub": "Thu, 24 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "HBM 호황에 달라진 위상…그룹 '베테랑' 품은 SK하이닉스 - 아시아경제",
@@ -112,8 +102,33 @@
    ]
   },
   {
-   "title": "\"메타가 불 지폈다\"…삼성전자·SK하이닉스 다시 '들썩' - 한국경제",
-   "pub": "Wed, 23 Sep 2026",
+   "title": "미국증시 장초반 반등…메모리 강세, SK하이닉스 ADR 2%대 상승 - topstarnews.net",
+   "pub": "Fri, 25 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "SK하이닉스 ADR 주가, 191.56달러 2.78% 상승 마감 - topstarnews.net",
+   "pub": "Sat, 26 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "SK하이닉스 100조 투자에 청주 흥덕구 땅값 ‘들썩’ - 서울경제TV",
+   "pub": "Sat, 26 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "10년 전 1억 투자했다면… 은마아파트 2.9억, 비트코인 135억, SK하이닉스는? - 위키트리",
+   "pub": "Fri, 25 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -126,29 +141,8 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 손자회사 솔리다임, 이르면 내년 美상장 검토\" - v.daum.net",
-   "pub": "Fri, 25 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 자회사 솔리다임, 2027년 최대 1,500억 달러 규모 IPO 추진 - Investing.com 한국어",
-   "pub": "Fri, 25 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"63만원 간다\" VS \"27만원 하락\"…삼성전자 목표주가 온도차 - edaily.co.kr",
    "pub": "Fri, 25 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "SK는 '넓은 부지'·삼성은 '속도전'…호남 반도체 투자의지 - 매일경제 마켓",
-   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -168,7 +162,7 @@
    "agents": []
   },
   {
-   "title": "반도체 품귀에…삼성전자, 추석 연휴에도 3교대 ‘풀 가동’ - donga.com",
+   "title": "반도체 품귀에…삼성전자, 추석 연휴에도 3교대 ‘풀 가동’ - 동아일보",
    "pub": "Wed, 23 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -330,7 +324,7 @@
    ]
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -565,7 +559,7 @@
    ]
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -647,6 +641,15 @@
   },
   {
    "title": "Micron Headlines Earnings Calendar; Jabil, Nike Also On Deck",
+   "pub": "Fri, 25 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron vs. NVIDIA: 1 AI Stock to Buy Now and 1 to Watch",
    "pub": "Fri, 25 Sep 2026",
    "src": "en",
    "q": "MU",
