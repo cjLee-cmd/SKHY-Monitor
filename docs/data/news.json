@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-28 06:54",
+ "ts_kst": "09-28 07:04",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -7,13 +7,32 @@
  },
  "routed": {
   "C-BUYBACK": 1,
+  "M-CYCLE": 12,
   "C-CHINA": 4,
-  "M-CYCLE": 10,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 12
  },
- "unassigned": 68,
- "alerts": [],
+ "unassigned": 66,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "삼성·SK HBM 증설 본격화…후공정 생태계 수혜 주목 - daily.hankooki.com",
+   "agents": [
+    "M-CYCLE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "\"한 달간 90% 폭등했다\"…하이닉스 8% 오를 때 대박 난 곳 [대기업 협력사 전수분석] - 한국경제",
@@ -74,6 +93,24 @@
    "agents": []
   },
   {
+   "title": "삼성·SK HBM 증설 본격화…후공정 생태계 수혜 주목 - daily.hankooki.com",
+   "pub": "Sat, 26 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "엔비디아 올라탄 SK하이닉스 HBM 점유율 50%…삼성 추격 속 74조 시장 수성 - 글로벌이코노믹",
+   "pub": "Fri, 25 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "최태원 SK하이닉스 일본 반도체 공장 밀어붙이나, 잦은 재해 더해 일본 정부 인허가 '산 넘어 산' - 비즈니스포스트",
    "pub": "Sat, 26 Sep 2026",
    "src": "kr",
@@ -103,20 +140,6 @@
   },
   {
    "title": "SK하이닉스 투자 여파 … 청주시 흥덕구 4개 洞 땅값 `들썩' - 충청타임즈",
-   "pub": "Sun, 27 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\" - 연합뉴스TV",
-   "pub": "Tue, 22 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "계속되는 SK하이닉스 손자회사 美상장설...중복상장 논란 이유는 - 한국일보",
    "pub": "Sun, 27 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -193,7 +216,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 부문 성과급 세부안 이달 말 공개 - 연합뉴스TV",
+   "title": "삼성전자, 반도체 부문 성과급 세부안 이달 말 공개 - yonhapnewstv.co.kr",
    "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -400,7 +423,7 @@
    "agents": []
   },
   {
-   "title": "외국인 역대 두번째 순매도…코스피 8,630선 후퇴 - 연합뉴스TV",
+   "title": "외국인 역대 두번째 순매도…코스피 8,630선 후퇴 - yonhapnewstv.co.kr",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -534,7 +557,7 @@
    ]
   },
   {
-   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - 한국일보",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
