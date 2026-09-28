@@ -1,18 +1,28 @@
 {
- "ts_kst": "09-29 03:27",
+ "ts_kst": "09-29 03:37",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "C-CHINA": 6,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 69,
- "alerts": [],
+ "unassigned": 68,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 日공장 구체화하나 - 중소기업신문",
@@ -36,7 +46,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, TSMC와 HBM5 검증…'올해의 파트너상' 2년 연속 수상 - 연합인포맥스",
+   "title": "SK하이닉스, TSMC와 HBM5 검증…'올해의 파트너상' 2년 연속 수상 - news.einfomax.co.kr",
    "pub": "Mon, 28 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -52,7 +62,7 @@
    "agents": []
   },
   {
-   "title": "9월 말 배당 나서는 SK하이닉스·현대차…역송금 환율 영향은 - 연합인포맥스",
+   "title": "9월 말 배당 나서는 SK하이닉스·현대차…역송금 환율 영향은 - news.einfomax.co.kr",
    "pub": "Sun, 27 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -320,7 +330,7 @@
    ]
   },
   {
-   "title": "美 정부, 애플에 중국산 메모리 반도체 구매 자제 촉구 - 연합인포맥스",
+   "title": "美 정부, 애플에 중국산 메모리 반도체 구매 자제 촉구 - news.einfomax.co.kr",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -397,14 +407,14 @@
    ]
   },
   {
-   "title": "美 증시 상승에도 코스피 7000 붕괴…반도체 5% 급락 - mstoday.co.kr",
+   "title": "[장중시황] 코스피, 2%대 하락…외국인·기관 동반 ‘팔자’ - 브릿지경제",
    "pub": "Mon, 28 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "[장중시황] 코스피, 2%대 하락…외국인·기관 동반 ‘팔자’ - 브릿지경제",
+   "title": "美 증시 상승에도 코스피 7000 붕괴…반도체 5% 급락 - mstoday.co.kr",
    "pub": "Mon, 28 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -474,6 +484,15 @@
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": []
+  },
+  {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
+   "pub": "Wed, 03 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
@@ -580,15 +599,6 @@
    ]
   },
   {
-   "title": "증시서 돈 빠지는데 ‘빚투’는 급증…신용잔고 다시 33조 - 이코노미스트",
-   "pub": "Thu, 27 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
@@ -621,7 +631,7 @@
    "agents": []
   },
   {
-   "title": "Nvidia, Micron, Meta, Kodiak Sciences, MongoDB, SpaceX, and More Stocks That Explain Today’s Market",
+   "title": "Micron poised for upside as memory prices climb, according to Wedbush",
    "pub": "Mon, 28 Sep 2026",
    "src": "en",
    "q": "MU",
@@ -630,7 +640,7 @@
    ]
   },
   {
-   "title": "Micron’s Post-Earnings Estimate Hikes May Lag Previous Quarters, Flags Morgan Stanley",
+   "title": "Nvidia, Micron, Meta, Kodiak Sciences, MongoDB, SpaceX, and More Stocks That Explain Today’s Market",
    "pub": "Mon, 28 Sep 2026",
    "src": "en",
    "q": "MU",
