@@ -1,8 +1,8 @@
 {
- "ts_kst": "09-28 09:19",
- "n_items": 103,
+ "ts_kst": "09-28 09:29",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
@@ -11,30 +11,11 @@
   "F-ACTIVE": 9,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
   {
-   "title": "성과급 ‘최대 6억’이라는데 누가 쉬겠나…삼성·하이닉스 육아휴직률 ‘뚝’ - 경기일보",
+   "title": "삼성·SK하이닉스 육아휴직률 동시에 꺾였다… ‘억대 성과급’ 겹친 반도체 호황 - v.daum.net",
    "pub": "Sun, 27 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -57,14 +38,14 @@
    ]
   },
   {
-   "title": "하나증권 \"엔비디아 AI칩 중국 판매 가능성, 관련주 SK하이닉스 삼성전자\" - 비즈니스포스트",
+   "title": "[특징주] 연휴서 돌아온 삼전·닉스, 장초반 1∼2%대 하락 - 매일경제 마켓",
    "pub": "Mon, 28 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "美기술주 강세에도 삼전·닉스 약세 - 뉴시스",
+   "title": "하나증권 \"엔비디아 AI칩 중국 판매 가능성, 관련주 SK하이닉스 삼성전자\" - 비즈니스포스트",
    "pub": "Mon, 28 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -85,8 +66,8 @@
    "agents": []
   },
   {
-   "title": "“연휴 끝이 기대돼요”…‘63만전자·430만닉스’ 가능할까 - 매일경제",
-   "pub": "Sat, 26 Sep 2026",
+   "title": "中엔비디아 구매 허용 보도·솔리다임 200조 상장설... 삼전·하이닉스에 새 변수 떴다 - YTN",
+   "pub": "Sun, 27 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -235,6 +216,13 @@
   },
   {
    "title": "\"연휴 끝나면 '6억 잭팟' 터지나\"…삼성 반도체 직원들 '들썩' - 한국경제",
+   "pub": "Thu, 24 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 반도체 직원 ‘성과급 6억’ 받나…이달 말 기준 공개 - KBC광주방송",
    "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -429,7 +417,7 @@
    ]
   },
   {
-   "title": "[마감시황] 외국인 7거래일째 '팔자'…코스피, 6715선 하락 마감 - newspim.com",
+   "title": "[마감시황] 외국인 7거래일째 '팔자'…코스피, 6715선 하락 마감 - 뉴스핌",
    "pub": "Thu, 17 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -592,7 +580,7 @@
    ]
   },
   {
-   "title": "증시서 돈 빠지는데 ‘빚투’는 급증…신용잔고 다시 33조 - 이코노미스트",
+   "title": "증시서 돈 빠지는데 ‘빚투’는 급증…신용잔고 다시 33조 - economist.co.kr",
    "pub": "Thu, 27 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -647,15 +635,6 @@
   },
   {
    "title": "How Big Is Micron Technology (MU) $100 Billion Syracuse Factory Bet?",
-   "pub": "Sat, 26 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron (MU) Trades at Just 6.5x Forward Earnings. RBC Says SCAs Could Change That",
    "pub": "Sat, 26 Sep 2026",
    "src": "en",
    "q": "MU",
