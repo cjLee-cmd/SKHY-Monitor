@@ -1,66 +1,66 @@
 {
- "ts_kst": "09-28 09:49",
- "score": 6.7,
+ "ts_kst": "09-28 09:59",
+ "score": 10.0,
  "verdict": "정당한 재평가",
  "components": {
   "A_통계극단성": 0,
   "B_체인동조성": 0.0,
   "C_펀더멘털배율": 0,
-  "D_역사되돌림": 6.7
+  "D_역사되돌림": 10.0
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": 1.81,
-   "sd": 4.73,
-   "z": 0.27,
-   "n_episodes": 1,
+   "cum": 0.9,
+   "sd": 4.74,
+   "z": 0.14,
+   "n_episodes": 3,
    "forward": {
     "5": {
-     "mean": -2.15,
+     "mean": 2.5,
      "median": -2.15,
-     "up_rate": 0
+     "up_rate": 33
     },
     "20": {
-     "mean": -3.14,
+     "mean": 3.87,
      "median": -3.14,
-     "up_rate": 0
+     "up_rate": 33
     },
     "60": {
-     "mean": -11.88,
-     "median": -11.88,
-     "up_rate": 0
+     "mean": 31.35,
+     "median": 43.46,
+     "up_rate": 67
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -0.98,
+   "cum": -1.47,
    "sd": 5.72,
-   "z": -0.12,
-   "n_episodes": 3,
+   "z": -0.18,
+   "n_episodes": 6,
    "forward": {
     "5": {
-     "mean": 6.75,
-     "median": 7.31,
+     "mean": 12.38,
+     "median": 7.12,
      "up_rate": 100
     },
     "20": {
-     "mean": 24.3,
-     "median": 18.42,
+     "mean": 29.6,
+     "median": 24.75,
      "up_rate": 67
     },
     "60": {
-     "mean": 36.99,
-     "median": 37.12,
+     "mean": 36.33,
+     "median": 40.12,
      "up_rate": 100
     }
    }
   }
  },
  "chain": {
-  "삼성전자": 1.81,
-  "SK하이닉스": -0.98,
+  "삼성전자": 0.9,
+  "SK하이닉스": -1.47,
   "마이크론": 0.97,
   "TSMC": 0.9,
   "ASML": -0.04,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -0.12,
-  "drop_avg": 0.42,
-  "fundamental_ratio": 0.05,
+  "z_min": -0.18,
+  "drop_avg": 0.28,
+  "fundamental_ratio": 0.04,
   "chain_negative": "0/5"
  },
- "caveat": "역사 표본 3개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 6개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
