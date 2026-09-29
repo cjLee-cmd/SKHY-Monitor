@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-30 08:32",
+ "ts_kst": "09-30 08:42",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -7,21 +7,21 @@
  },
  "routed": {
   "C-CHINA": 9,
-  "M-CYCLE": 13,
-  "P-ADR": 1,
+  "M-CYCLE": 12,
+  "C-BUYBACK": 1,
   "F-ACTIVE": 10,
   "B-RATES": 3,
   "R-LEVERAGE": 12
  },
- "unassigned": 59,
+ "unassigned": 60,
  "alerts": [
   {
-   "level": "high",
-   "kw": "목표주가+하향",
+   "level": "info",
+   "kw": "자사주+매입",
    "src": "kr",
-   "title": "번스타인, 삼성 HBM 점유율 확대 전망…SK하이닉스 목표주가 하향 - Investing.com 한국어",
+   "title": "\"SK스퀘어, 하이닉스 자사주 매입 이후 추가 주주환원 기대\"-SK - 한국경제",
    "agents": [
-    "M-CYCLE"
+    "C-BUYBACK"
    ]
   }
  ],
@@ -41,36 +41,15 @@
    "agents": []
   },
   {
-   "title": "확산되는 솔리다임 美 상장 추진설 … SK하이닉스, 중복상장 논란 해소 고심 - 뉴데일리",
-   "pub": "Tue, 29 Sep 2026",
+   "title": "하이닉스 돌연 5% 급락…주주들 놀란 '204조 상장설' 정체 [분석+] - 한국경제",
+   "pub": "Mon, 28 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"SK하이닉스 310만원→264만원\" 환율 하락에 목표가↓…삼성전기, IT 부품 중 가장 심한 공급 부족 [株토피아] - v.daum.net",
-   "pub": "Tue, 29 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 'R&D 도전 보상' 신설…협력사 성장 주기별 지원 - 지디넷코리아",
-   "pub": "Tue, 29 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "누리호, 내달 7일 SK하이닉스 반도체 싣고 5차 발사 - 에너지경제신문",
-   "pub": "Tue, 29 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 투자 여파 … 청주시 흥덕구 4개 洞 땅값 `들썩' - 충청타임즈",
-   "pub": "Sun, 27 Sep 2026",
+   "title": "SK하이닉스 주가, 오늘 하락하는 이유는? - Investing.com 한국어",
+   "pub": "Mon, 28 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -92,52 +71,71 @@
    ]
   },
   {
-   "title": "[핫타임] 삼성전자, 배당락에도 반등…SK하이닉스도 낙폭 회복 - v.daum.net",
+   "title": "美반도체 훈풍에 삼성전자·SK하이닉스, 프리마켓서 1%대 상승 - 뉴시스",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[단독]단일종목 레버리지 ETF 민원 82건…레버리지 ETF 도입 후 삼성전자·SK하이닉스 변동성 지표도 일제히 확대 - 조선일보",
+   "title": "\"SK하이닉스 310만원→264만원\" 환율 하락에 목표가↓…삼성전기, IT 부품 중 가장 심한 공급 부족 [株토피아] - v.daum.net",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "번스타인, 삼성 HBM 점유율 확대 전망…SK하이닉스 목표주가 하향 - Investing.com 한국어",
-   "pub": "Tue, 29 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "심텍 SK하이닉스의 '우수협력사'상 수상, AI 반도체용 소캠2 대응력 입증 - businesspost.co.kr",
-   "pub": "Tue, 29 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "美금리 5.29%에도 반도체 1.5% 반등…마이크론 실적 앞둔 삼성·하이닉스 - 녹색경제신문",
-   "pub": "Tue, 29 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "‘국장’만 고금리 타격…SK하이닉스 원주-ADR 괴리율 40% 육박 - v.daum.net",
+   "title": "SK하이닉스, TSMC와 HBM5 검증…'올해의 파트너상' 2년 연속 수상 - 연합인포맥스",
    "pub": "Mon, 28 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "P-ADR"
+    "M-CYCLE"
    ]
+  },
+  {
+   "title": "SK하이닉스, TSMC 기술 행사서 차세대 AI 메모리 공개 - 전자신문",
+   "pub": "Mon, 28 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, ‘피크아웃’ 걱정 이르다…“AI 메모리 수요 더 늘어나” - 마켓인",
+   "pub": "Tue, 29 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 'R&D 도전 보상' 신설…협력사 성장 주기별 지원 - 지디넷코리아",
+   "pub": "Tue, 29 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "누리호, 내달 7일 SK하이닉스 반도체 싣고 5차 발사 - 에너지경제신문",
+   "pub": "Tue, 29 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK스퀘어, 하이닉스 자사주 매입 이후 추가 주주환원 기대\"-SK - 한국경제",
+   "pub": "Tue, 29 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "“삼전닉스 매일 사주던 큰 손 사라진다”...주가 버팀목 다음달엔 없다는데 - 매일경제",
+   "pub": "Tue, 29 Sep 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "삼성은 반도체만?..계열사 총동원 AI 시대 '인프라' 잡는다 - 머니투데이 - 머니투데이",
@@ -163,7 +161,7 @@
    ]
   },
   {
-   "title": "삼성전자 “파운드리 고객사 2029년까지 4배로…고성능 반도체 집중” - donga.com",
+   "title": "삼성전자 “파운드리 고객사 2029년까지 4배로…고성능 반도체 집중” - 동아일보",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -233,14 +231,14 @@
    "agents": []
   },
   {
-   "title": "대우건설, 삼성전자 반도체 팹 들어설 용인 국가산단 1공구 수주 - 알파경제",
+   "title": "“삼성 파운드리, 3년 후 고객사 네 배 늘어난다” - 주간한국",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "“삼성 파운드리, 3년 후 고객사 네 배 늘어난다” - 주간한국",
+   "title": "대우건설, 삼성전자 반도체 팹 들어설 용인 국가산단 1공구 수주 - 알파경제",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -499,6 +497,13 @@
    "agents": []
   },
   {
+   "title": "진행 속도를 바꿀 수 있나요? 토토 탑플러스 코드 기능 확인 - Calgary Roughnecks",
+   "pub": "Sun, 27 Sep 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "pub": "Wed, 03 Jun 2026",
    "src": "kr",
@@ -506,13 +511,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "진행 속도를 바꿀 수 있나요? 토토 탑플러스 코드 기능 확인 - Calgary Roughnecks",
-   "pub": "Sun, 27 Sep 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
@@ -592,8 +590,8 @@
    "agents": []
   },
   {
-   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
-   "pub": "Wed, 29 Jul 2026",
+   "title": "증시서 돈 빠지는데 ‘빚투’는 급증…신용잔고 다시 33조 - 이코노미스트",
+   "pub": "Thu, 27 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -601,8 +599,8 @@
    ]
   },
   {
-   "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - v.daum.net",
-   "pub": "Sun, 12 Jul 2026",
+   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
+   "pub": "Wed, 29 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -646,14 +644,7 @@
    ]
   },
   {
-   "title": "S&P 500, Dow Extend Losses From Elevated Yield Pressure — SPCX, TGT, AAPL, MU, NTAP In Focus",
-   "pub": "Tue, 29 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Bullish on Micron? When a 2X ETF makes sense — and when it doesn’t",
+   "title": "Micron Technology (MU) Could Be 47% Undervalued On Its Enterprise Memory Narrative",
    "pub": "Tue, 29 Sep 2026",
    "src": "en",
    "q": "MU",
@@ -662,7 +653,14 @@
    ]
   },
   {
-   "title": "Prediction: Micron Will Do a Stock-Split Before the End of the Year. And It Could Come on Wednesday",
+   "title": "S&P 500, Dow Extend Losses From Elevated Yield Pressure — SPCX, TGT, AAPL, MU, NTAP In Focus",
+   "pub": "Tue, 29 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Bullish on Micron? When a 2X ETF makes sense — and when it doesn’t",
    "pub": "Tue, 29 Sep 2026",
    "src": "en",
    "q": "MU",
