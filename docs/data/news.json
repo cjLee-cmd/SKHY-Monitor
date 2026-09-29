@@ -1,5 +1,5 @@
 {
- "ts_kst": "09-30 07:33",
+ "ts_kst": "09-30 07:43",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -15,12 +15,12 @@
  "unassigned": 61,
  "alerts": [
   {
-   "level": "high",
-   "kw": "목표주가+하향",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "번스타인, 삼성 HBM 점유율 확대 전망…SK하이닉스 목표주가 하향 - Investing.com 한국어",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - 한국일보",
    "agents": [
-    "M-CYCLE"
+    "R-LEVERAGE"
    ]
   }
  ],
@@ -47,7 +47,7 @@
    "agents": []
   },
   {
-   "title": "확산되는 솔리다임 美 상장 추진설 … SK하이닉스, 중복상장 논란 해소 고심 - biz.newdaily.co.kr",
+   "title": "확산되는 솔리다임 美 상장 추진설 … SK하이닉스, 중복상장 논란 해소 고심 - 뉴데일리",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -61,7 +61,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 'R&D 도전 보상' 신설…협력사 성장 주기별 지원 - zdnet.co.kr",
+   "title": "SK하이닉스, 'R&D 도전 보상' 신설…협력사 성장 주기별 지원 - 지디넷코리아",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -228,14 +228,14 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 2026 밴 플리트상 수상 '젠슨 황' 축하 영상…“한미 AI·반도체 협력 상징” - 인공지능신문",
+   "title": "“삼성 파운드리, 3년 후 고객사 네 배 늘어난다” - 주간한국",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "“삼성 파운드리, 3년 후 고객사 네 배 늘어난다” - 주간한국",
+   "title": "삼성전자, 2026 밴 플리트상 수상 '젠슨 황' 축하 영상…“한미 AI·반도체 협력 상징” - 인공지능신문",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -281,7 +281,7 @@
    ]
   },
   {
-   "title": "중국 관영매체 한국은행의 메모리반도체 주도권 보고서 반박, \"삼성전자 SK하이닉스와 CXMT 공존 가능\" - businesspost.co.kr",
+   "title": "중국 관영매체 한국은행의 메모리반도체 주도권 보고서 반박, \"삼성전자 SK하이닉스와 CXMT 공존 가능\" - 비즈니스포스트",
    "pub": "Mon, 07 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -443,7 +443,7 @@
    ]
   },
   {
-   "title": "[증시-마감] 코스피, 호르무즈 난항에 0.27% 하락…외국인 또 3조 매도 - KB Think",
+   "title": "[증시-마감] 코스피, 호르무즈 난항에 0.27% 하락…외국인 또 3조 매도 - kbthink.com",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -528,7 +528,7 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - biz.newdaily.co.kr",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -571,15 +571,6 @@
    ]
   },
   {
-   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
-   "pub": "Thu, 30 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
@@ -614,6 +605,15 @@
    ]
   },
   {
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - 한국일보",
+   "pub": "Thu, 30 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
@@ -632,13 +632,6 @@
    ]
   },
   {
-   "title": "S&P 500, Dow Extend Losses From Elevated Yield Pressure — SPCX, TGT, AAPL, MU, NTAP In Focus",
-   "pub": "Tue, 29 Sep 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Dow Jones Futures Rise With Micron, Inflation Data Due; Yields Pressure Stocks But Bloom Energy Soars",
    "pub": "Tue, 29 Sep 2026",
    "src": "en",
@@ -646,6 +639,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "S&P 500, Dow Extend Losses From Elevated Yield Pressure — SPCX, TGT, AAPL, MU, NTAP In Focus",
+   "pub": "Tue, 29 Sep 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Bullish on Micron? When a 2X ETF makes sense — and when it doesn’t",
