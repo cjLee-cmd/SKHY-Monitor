@@ -1,14 +1,64 @@
 {
- "ts_kst": "09-30 08:42",
- "stocks": {},
- "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
- "triggers": [],
- "log": [
-  {
-   "ts": "09-20 01:13",
-   "samsung": -3985.8,
-   "hynix": 8930.7
+ "ts_kst": "09-30 10:15",
+ "stocks": {
+  "samsung": {
+   "name": "삼성전자",
+   "price": 274000.0,
+   "chg_pct": 0.55,
+   "slot": "2",
+   "foreign_qty": -525000.0,
+   "foreign_eok": -1438.5,
+   "inst_qty": -102000.0,
+   "inst_eok": -279.5,
+   "retail_qty": 627000.0,
+   "retail_eok": 1718.0,
+   "slots": [
+    {
+     "slot": "2",
+     "frgn": -525000.0,
+     "orgn": -102000.0
+    },
+    {
+     "slot": "1",
+     "frgn": -587000.0,
+     "orgn": 0.0
+    }
+   ]
   },
+  "hynix": {
+   "name": "SK하이닉스",
+   "price": 1817000.0,
+   "chg_pct": 2.95,
+   "slot": "2",
+   "foreign_qty": 164000.0,
+   "foreign_eok": 2979.9,
+   "inst_qty": -7000.0,
+   "inst_eok": -127.2,
+   "retail_qty": -157000.0,
+   "retail_eok": -2852.7,
+   "slots": [
+    {
+     "slot": "2",
+     "frgn": 164000.0,
+     "orgn": -7000.0
+    },
+    {
+     "slot": "1",
+     "frgn": 112000.0,
+     "orgn": 0.0
+    }
+   ]
+  }
+ },
+ "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
+ "triggers": [
+  {
+   "stock": "SK하이닉스",
+   "level": "high",
+   "text": "역할 전환 — 외국인 매수 +2,980억 / 개인 매도 -2,853억"
+  }
+ ],
+ "log": [
   {
    "ts": "09-20 01:23",
    "samsung": -3985.8,
@@ -2821,6 +2871,11 @@
   },
   {
    "ts": "09-30 08:42"
+  },
+  {
+   "ts": "09-30 10:15",
+   "samsung": -1438.5,
+   "hynix": 2979.9
   }
  ]
 }
