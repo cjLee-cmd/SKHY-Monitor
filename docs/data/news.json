@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-01 20:23",
+ "ts_kst": "10-01 20:33",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -13,24 +13,7 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 62,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "거래정지",
-   "src": "kr",
-   "title": "\"하이닉스 거래정지 사태 등 시장경보 정량적 발동 개선 필요\" - 노컷뉴스",
-   "agents": []
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 'NPE' 모노리식3D 특허 8건 재심사 청구...모노리식3D 공격 대응 - 지디넷코리아",
@@ -54,6 +37,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "SK하이닉스 내년에도 ‘장밋빛’ - v.daum.net",
+   "pub": "Thu, 01 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "SK주주들 ‘중복 상장’ 우려에...하이닉스 “솔리다임 상장 결정 안돼, 주주가치 우선” - 조선일보",
@@ -84,15 +74,15 @@
    "agents": []
   },
   {
-   "title": "\"하이닉스 거래정지 사태 등 시장경보 정량적 발동 개선 필요\" - 노컷뉴스",
-   "pub": "Thu, 01 Oct 2026",
+   "title": "SK 하이닉스, 협력사 R&D 비용 최대 50% 선제 지원 - YTN 사이언스",
+   "pub": "Wed, 30 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK 하이닉스, 협력사 R&D 비용 최대 50% 선제 지원 - YTN 사이언스",
-   "pub": "Wed, 30 Sep 2026",
+   "title": "\"하이닉스 거래정지 사태 등 시장경보 정량적 발동 개선 필요\" - 노컷뉴스",
+   "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -107,13 +97,6 @@
   {
    "title": "민형배 \"SK, 호남으로 오도록 우리가 같이 만들어야\" - 뉴스핌",
    "pub": "Wed, 30 Sep 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 하반기 영업이익률 사상 첫 80% 전망, 곽노정 생산확대·LTA로 장기 고수익 시대 연다 - 비즈니스포스트",
-   "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -168,7 +151,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 장비 기술 빼간 前 삼성 직원 구속 - sedaily.com",
+   "title": "삼성전자 반도체 장비 기술 빼간 前 삼성 직원 구속 - 서울경제",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -267,7 +250,7 @@
    "agents": []
   },
   {
-   "title": "‘중국판 삼성전자’ 목표였는데 더 비싼 반도체 파는 창신메모리 - seoul.co.kr",
+   "title": "‘중국판 삼성전자’ 목표였는데 더 비싼 반도체 파는 창신메모리 - 서울신문",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -559,7 +542,7 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -627,7 +610,7 @@
    ]
   },
   {
-   "title": "Stock market today: Dow, S&P 500, Nasdaq mixed as Micron earnings boost tech",
+   "title": "Micron just blew Wall Street away again—here's what's next",
    "pub": "Thu, 01 Oct 2026",
    "src": "en",
    "q": "MU",
@@ -636,7 +619,16 @@
    ]
   },
   {
-   "title": "Micron just blew Wall Street away again—here's what's next",
+   "title": "Micron Blew Past Estimates and Says It Can’t See When the Memory Shortage Ends",
+   "pub": "Thu, 01 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Technology Results Lift Wall Street Pre-Bell, Asia Up, Europe Off",
    "pub": "Thu, 01 Oct 2026",
    "src": "en",
    "q": "MU",
@@ -655,15 +647,6 @@
   },
   {
    "title": "Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise",
-   "pub": "Thu, 01 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Micron’s 87% Gross Margin Is a Problem",
    "pub": "Thu, 01 Oct 2026",
    "src": "en",
    "q": "MU",
