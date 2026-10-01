@@ -1,28 +1,26 @@
 {
- "ts_kst": "10-02 04:22",
- "n_items": 103,
+ "ts_kst": "10-02 04:32",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
   "C-BUYBACK": 2,
-  "M-CYCLE": 12,
-  "C-CHINA": 6,
+  "M-CYCLE": 13,
+  "C-CHINA": 7,
   "F-ACTIVE": 10,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 61,
+ "unassigned": 60,
  "alerts": [
   {
    "level": "info",
-   "kw": "자사주+매입",
+   "kw": "공급계약",
    "src": "kr",
-   "title": "삼성전자·하이닉스, 곧 자사주 매입 종료...10월 증시 ‘수급 시험대’ - 조세일보",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "title": "SK하이닉스 하반기 영업이익률 80% 전망, 곽노정 생산 확대와 장기공급계약으로 고수익 시대 연다 - businesspost.co.kr",
+   "agents": []
   }
  ],
  "items": [
@@ -68,11 +66,13 @@
    ]
   },
   {
-   "title": "\"반도체 업황 긍정적이지만\"…삼성전자·SK하이닉스 대신 '소부장' 쏠리나 - newsis.com",
+   "title": "美 마이크론, 또 최대 실적… 삼전닉스 영업익 200조 육박 - chosun.com",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "솔리다임 상장 논란에…SK하이닉스 “주주가치 제고가 우선” - 서울경제",
@@ -110,14 +110,14 @@
    "agents": []
   },
   {
-   "title": "\"하이닉스 거래정지 사태 등 시장경보 정량적 발동 개선 필요\" - 노컷뉴스",
+   "title": "SK하이닉스 하반기 영업이익률 80% 전망, 곽노정 생산 확대와 장기공급계약으로 고수익 시대 연다 - businesspost.co.kr",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 하반기 영업이익률 사상 첫 80% 전망, 곽노정 생산확대·LTA로 장기 고수익 시대 연다 - businesspost.co.kr",
+   "title": "\"하이닉스 거래정지 사태 등 시장경보 정량적 발동 개선 필요\" - 노컷뉴스",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -159,13 +159,11 @@
    "agents": []
   },
   {
-   "title": "[김대호 진단] 반도체열전 (59) HBM... SK하닉 vs 삼성전자 - 글로벌이코노믹",
-   "pub": "Wed, 30 Sep 2026",
+   "title": "\"반도체 업황 긍정적이지만\"…삼성전자·SK하이닉스 대신 '소부장' 쏠리나 - newsis.com",
+   "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "삼성, AX 로드맵 공개…반도체 불량 잡고 갤럭시 효율 높인다(종합) - v.daum.net",
@@ -184,14 +182,16 @@
    ]
   },
   {
-   "title": "’자회사 반도체 기술 유출’ 전 삼성 직원 2명 구속 - 연합뉴스TV",
-   "pub": "Thu, 01 Oct 2026",
+   "title": "[김대호 진단] 반도체열전 (59) HBM... SK하닉 vs 삼성전자 - 글로벌이코노믹",
+   "pub": "Wed, 30 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "삼성·SK 직원 주거비도 세금으로?…반도체클러스터 '정주지원' 2000억 편성 - 뉴스핌",
+   "title": "’자회사 반도체 기술 유출’ 전 삼성 직원 2명 구속 - 연합뉴스TV",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -203,6 +203,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "“창신메모리 공정, 100% 삼성 것…기술 넘기자 쫓겨나” 유출범 후회 - 중앙일보",
+   "pub": "Mon, 28 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "[단독] 회삿돈으로 에어비앤비 투기한 삼성맨들…들통나자 \"로펌 부모 앞세워 역고소 으름장\" - 알파경제",
@@ -247,7 +256,7 @@
    "agents": []
   },
   {
-   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
+   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - sisain.co.kr",
    "pub": "Thu, 20 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -286,6 +295,13 @@
    "agents": []
   },
   {
+   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - v.daum.net",
+   "pub": "Sat, 29 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
    "pub": "Mon, 04 May 2026",
    "src": "kr",
@@ -311,7 +327,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -345,20 +361,11 @@
    ]
   },
   {
-   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - epnc.co.kr",
+   "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
    "pub": "Mon, 20 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "'K-메모리,' 美ㆍ中 포위망에 협공... D램은 中에, HBM은 美에 추적 - getnews.co.kr",
-   "pub": "Sat, 19 Sep 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "코스피, 외국인 나흘째 순매도 속 약보합 - 뉴스핌",
@@ -625,14 +632,16 @@
    ]
   },
   {
-   "title": "Stocks Fall as Treasury Selloff Flips",
+   "title": "Stock Market Today: Nasdaq Gains As Micron Reverses Higher; This Retail Name Breaks Out (Live Coverage)",
    "pub": "Thu, 01 Oct 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
-   "title": "Stock Market Today: Nasdaq Charges Higher As Yields Ease; Apple Slides, Intel Gains (Live Coverage)",
+   "title": "Stocks Fall as Treasury Selloff Flips",
    "pub": "Thu, 01 Oct 2026",
    "src": "en",
    "q": "MU",
@@ -649,15 +658,6 @@
   },
   {
    "title": "Micron, Accenture, Google, IBM, Fair Isaac, Synopsys, and More Stocks That Explain Today’s Market",
-   "pub": "Thu, 01 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron's Next Big AI Opportunity Could Have 2 Legs",
    "pub": "Thu, 01 Oct 2026",
    "src": "en",
    "q": "MU",
