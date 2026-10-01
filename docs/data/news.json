@@ -1,27 +1,19 @@
 {
- "ts_kst": "10-01 21:42",
+ "ts_kst": "10-01 21:52",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "C-CHINA": 6,
   "F-ACTIVE": 10,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "거래정지",
-   "src": "kr",
-   "title": "\"하이닉스 거래정지 사태 등 시장경보 정량적 발동 개선 필요\" - nocutnews.co.kr",
-   "agents": []
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 'NPE' 모노리식3D 특허 8건 재심사 청구...모노리식3D 공격 대응 - 지디넷코리아",
@@ -235,7 +227,7 @@
    "agents": []
   },
   {
-   "title": "檢, 자회사 반도체 기술 빼돌린 전 삼성전자 직원 2명 구속 - 조선비즈 - biz.chosun.com",
+   "title": "’자회사 반도체 기술 유출’ 전 삼성 직원 2명 구속 - 연합뉴스TV",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -462,7 +454,7 @@
    ]
   },
   {
-   "title": "코스피 이틀째 하락…외국인 2.9조 순매도 - 애드뉴스인천",
+   "title": "코스피 이틀째 하락…외국인 2.9조 순매도 - addnewsin.com",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -625,13 +617,6 @@
    ]
   },
   {
-   "title": "Here Are Thursday’s Top Wall Street Analyst Research Calls: BP, Dollar Tree, Exxon Mobil, Lennar, Occidental Petroleum, Rocket Lab, Teva Pharmaceuticals, United Therapeutics, and More",
-   "pub": "Thu, 01 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Dow Jones Futures Rise, S&P 500 Finds Key Support As Micron Earnings Crush Views; Oil Prices, Treasury Yields In Focus",
    "pub": "Thu, 01 Oct 2026",
    "src": "en",
@@ -651,6 +636,15 @@
   },
   {
    "title": "Micron (MU) Q4 2026 Earnings Call Transcript",
+   "pub": "Thu, 01 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Blew Past Estimates and Says It Can’t See When the Memory Shortage Ends",
    "pub": "Thu, 01 Oct 2026",
    "src": "en",
    "q": "MU",
