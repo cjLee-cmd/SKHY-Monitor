@@ -1,42 +1,31 @@
 {
- "ts_kst": "10-03 07:28",
- "n_items": 104,
+ "ts_kst": "10-03 07:38",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 30
  },
  "routed": {
   "C-BUYBACK": 1,
-  "M-CYCLE": 14,
+  "M-CYCLE": 15,
   "C-CHINA": 6,
-  "F-ACTIVE": 10,
+  "F-ACTIVE": 9,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 61,
+ "unassigned": 60,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "수주",
    "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - viva100.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "SK하이닉스 뚫은 씨케이솔루션, 올해 수주 5000억 '청신호' - thelec.kr",
+   "agents": []
   }
  ],
  "items": [
   {
-   "title": "SK하이닉스 \"솔리다임 상장 미확정\" - 디일렉",
+   "title": "SK하이닉스 \"솔리다임 상장 미확정\" - thelec.kr",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -117,7 +106,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 뚫은 씨케이솔루션, 올해 수주 5000억 '청신호' - 디일렉",
+   "title": "SK하이닉스 뚫은 씨케이솔루션, 올해 수주 5000억 '청신호' - thelec.kr",
    "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -125,13 +114,6 @@
   },
   {
    "title": "이상일 용인시장, SK하이닉스 반도체클러스터 시찰…함평군 대표단과 산업협력 논의 - 팔당유역신문",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'삼성맨'의 눈물겨운 SK하이닉스 '물타기'⋯\"석 달 월급 몽땅 넣어\" [개미열전①] - v.daum.net",
    "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -159,7 +141,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 엑시노스 2700 물량 10% 늘려 양산 돌입 - 디일렉",
+   "title": "삼성전자, 엑시노스 2700 물량 10% 늘려 양산 돌입 - thelec.kr",
    "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -173,6 +155,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자 반도체 장비 기술 빼간 前 삼성 직원 구속 - 서울경제",
+   "pub": "Thu, 01 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "“DS 웃고 DX 울고”… 마이크론이 예고한 메모리 공급난에 삼전 희비 - IT조선",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
@@ -180,13 +169,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "[단독] 삼성전자 자회사 반도체기술 유출한 前직원들 구속 - 매일경제",
-   "pub": "Thu, 01 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "[김대호 진단] 반도체열전 (59) HBM... SK하닉 vs 삼성전자 - 글로벌이코노믹",
@@ -207,6 +189,13 @@
    ]
   },
   {
+   "title": "[단독] 삼성전자 자회사 반도체기술 유출한 前직원들 구속 - 매일경제",
+   "pub": "Thu, 01 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "[증시키워드] 삼성전자 헬릭스 투자에 반도체 반등…HLB·삼성전기·한미반도체 관심 지속 - 이투데이",
    "pub": "Tue, 29 Sep 2026",
    "src": "kr",
@@ -214,22 +203,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 등 반도체株 희비...9월 고용앞두고 경계 - gukjenews.com",
-   "pub": "Wed, 30 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "\"내 통장엔 특별성과급 몇억?\"…삼성전자 다음주 세부기준안 공개 - 머니투데이 - 머니투데이",
    "pub": "Fri, 02 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 반도체 장비 기술 빼간 前 삼성 직원 구속 - 서울경제",
-   "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -247,6 +222,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "[심층분석] HBM 타고 날아간다…삼성전자의 '반도체 질주' - goodkyung.com",
+   "pub": "Tue, 29 Sep 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
@@ -338,6 +322,13 @@
    ]
   },
   {
+   "title": "[World IP STARs 2026] “중국과 반도체 기술 격차 길어야 1년”… 이종호 서울대 교수 - IPDaily",
+   "pub": "Thu, 24 Sep 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - hani.co.kr",
    "pub": "Thu, 13 Aug 2026",
    "src": "kr",
@@ -356,13 +347,6 @@
   {
    "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
    "pub": "Mon, 20 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "[숏폼] 중국은 메모리 반도체에서 왜 존재감이 낮을까? - IT동아",
-   "pub": "Mon, 27 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -454,7 +438,7 @@
    "agents": []
   },
   {
-   "title": "반도체주 반등에 코스피 상승 출발...외국인 수급은 변수 - news.bizwatch.co.kr",
+   "title": "반도체주 반등에 코스피 상승 출발...외국인 수급은 변수 - 비즈워치",
    "pub": "Wed, 30 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -471,15 +455,6 @@
    ]
   },
   {
-   "title": "코스피, 美 고용 경계감에 하락 출발…외국인 1600억 순매도 - ebn.co.kr",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "\"7천피서 꼼짝 못하네\"…증시 발목 잡힌 이유 있었다 - 한국경제",
    "pub": "Fri, 02 Oct 2026",
    "src": "kr",
@@ -489,6 +464,13 @@
   {
    "title": "[마감시황] 코스피, 외인 3조 순매도에 6870선 후퇴 - 뉴스핌",
    "pub": "Tue, 29 Sep 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "“9월에 20조 팔아치운 외국인”…10월엔 돌아올까 - v.daum.net",
+   "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -667,6 +649,15 @@
   },
   {
    "title": "Jim Cramer: Micron’s Boom and Bust Cycle Is Gone “At Last”",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Two More Reasons for Caution on Micron Stock",
    "pub": "Fri, 02 Oct 2026",
    "src": "en",
    "q": "MU",
