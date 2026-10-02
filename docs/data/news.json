@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-03 01:56",
+ "ts_kst": "10-03 02:06",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -14,7 +14,17 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 59,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스 하반기 영업이익률 80% 전망, 곽노정 생산 확대와 장기공급계약으로 고수익 시대 연다 - 비즈니스포스트",
@@ -170,7 +180,7 @@
    "agents": []
   },
   {
-   "title": "“DS 웃고 DX 울고”… 마이크론이 예고한 메모리 공급난에 삼전 희비 - it.chosun.com",
+   "title": "“DS 웃고 DX 울고”… 마이크론이 예고한 메모리 공급난에 삼전 희비 - IT조선",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -186,7 +196,7 @@
    "agents": []
   },
   {
-   "title": "[김대호 진단] 반도체열전 (59) HBM... SK하닉 vs 삼성전자 - 글로벌이코노믹",
+   "title": "[김대호 진단] 반도체열전 (59) HBM... SK하닉 vs 삼성전자 - g-enews.com",
    "pub": "Wed, 30 Sep 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -239,7 +249,7 @@
    "agents": []
   },
   {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 프리미엄콘텐츠",
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
    "pub": "Sat, 27 Jun 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -310,7 +320,7 @@
    ]
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - g-enews.com",
    "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -326,7 +336,7 @@
    "agents": []
   },
   {
-   "title": "美 정부, 애플에 중국산 메모리 반도체 구매 자제 촉구 - news.einfomax.co.kr",
+   "title": "美 정부, 애플에 중국산 메모리 반도체 구매 자제 촉구 - 연합인포맥스",
    "pub": "Sat, 15 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -415,7 +425,7 @@
    ]
   },
   {
-   "title": "[마감] 코스피, 외국인 2조 순매도에 6800선 하락… 3거래일 연속 약세 - it.chosun.com",
+   "title": "[마감] 코스피, 외국인 2조 순매도에 6800선 하락… 3거래일 연속 약세 - IT조선",
    "pub": "Wed, 30 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -554,7 +564,7 @@
    ]
   },
   {
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
+   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - g-enews.com",
    "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -608,6 +618,15 @@
    ]
   },
   {
+   "title": "Two More Reasons for Caution on Micron Stock",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Cramer Says If You Are Shorting Micron You Are “Digging Your Own Grave” After Michael Burry Announces New Bet Against Company",
    "pub": "Fri, 02 Oct 2026",
    "src": "en",
@@ -645,15 +664,6 @@
   },
   {
    "title": "Zacks Investment Ideas feature highlights: Micron and NVIDIA",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Institutional Investors Just Did What They Always Do So I Keep Buying Micron",
    "pub": "Fri, 02 Oct 2026",
    "src": "en",
    "q": "MU",
