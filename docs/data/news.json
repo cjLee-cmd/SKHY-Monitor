@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-03 06:39",
+ "ts_kst": "10-03 06:49",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -17,25 +17,25 @@
  "unassigned": 59,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "자사주+매입",
    "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "title": "자사주 매입 종료 우려탓?…삼성전자, 등락끝 보합 마감(종합) - 연합뉴스",
    "agents": [
-    "R-LEVERAGE"
+    "C-BUYBACK"
    ]
   }
  ],
  "items": [
   {
-   "title": "SK하이닉스 하반기 영업이익률 80% 전망, 곽노정 생산 확대와 장기공급계약으로 고수익 시대 연다 - 비즈니스포스트",
+   "title": "SK하이닉스 \"솔리다임 상장 미확정\" - 디일렉",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 \"솔리다임 상장 미확정\" - 디일렉",
+   "title": "SK하이닉스 하반기 영업이익률 80% 전망, 곽노정 생산 확대와 장기공급계약으로 고수익 시대 연다 - 비즈니스포스트",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -105,7 +105,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 ‘자사주 방어막’ 걷히나…증시 수급 공백 우려 - v.daum.net",
+   "title": "자사주 매입 종료 우려탓?…삼성전자, 등락끝 보합 마감(종합) - 연합뉴스",
    "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -374,8 +374,8 @@
    "agents": []
   },
   {
-   "title": "코스피, 숨 고르기 하락… 외국인 1500억 순매도 - 서울신문",
-   "pub": "Fri, 02 Oct 2026",
+   "title": "코스피, 외국인 나흘째 순매도 속 약보합 - 뉴스핌",
+   "pub": "Wed, 30 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -383,8 +383,8 @@
    ]
   },
   {
-   "title": "코스피, 외국인 나흘째 순매도 속 약보합 - 뉴스핌",
-   "pub": "Wed, 30 Sep 2026",
+   "title": "코스피, 숨 고르기 하락… 외국인 1500억 순매도 - 서울신문",
+   "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -629,6 +629,15 @@
    ]
   },
   {
+   "title": "Micron's Last 5 Post-Earnings Dips Turned Into Gains. This Time, the Stock Rose Instead.",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "US Equity Indexes Closed Mixed This Week as Treasury Yields Traded Close to Two-Decade High While October Rate-Hike Bets Slump",
    "pub": "Fri, 02 Oct 2026",
    "src": "en",
@@ -655,15 +664,6 @@
   },
   {
    "title": "Jim Cramer: Micron’s Boom and Bust Cycle Is Gone “At Last”",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Two More Reasons for Caution on Micron Stock",
    "pub": "Fri, 02 Oct 2026",
    "src": "en",
    "q": "MU",
