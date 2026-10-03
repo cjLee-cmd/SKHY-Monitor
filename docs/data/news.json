@@ -1,8 +1,8 @@
 {
- "ts_kst": "10-03 10:46",
- "n_items": 105,
+ "ts_kst": "10-03 10:56",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
@@ -11,18 +11,34 @@
   "C-CHINA": 6,
   "F-ACTIVE": 11,
   "B-RATES": 1,
-  "R-LEVERAGE": 10
+  "R-LEVERAGE": 12
  },
- "unassigned": 61,
+ "unassigned": 58,
  "alerts": [
   {
-   "level": "info",
-   "kw": "자사주+매입",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "46조 사들인 '삼전닉스', 자사주 매입 막바지…증시 버팀목 약해지나 - 연합인포맥스",
+   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
    "agents": [
-    "C-BUYBACK"
+    "R-LEVERAGE"
    ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - newsquest.co.kr",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "SK하이닉스 뚫은 씨케이솔루션, 올해 수주 5000억 '청신호' - 디일렉",
+   "agents": []
   }
  ],
  "items": [
@@ -34,22 +50,8 @@
    "agents": []
   },
   {
-   "title": "솔리다임 상장설에 하이닉스 \"주주가치 최우선 고려\" - 조선일보",
+   "title": "SK하이닉스 \"솔리다임 상장 미확정\" - 디일렉",
    "pub": "Thu, 01 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 솔리다임 상장 우려에 \"주주가치 최우선\" - v.daum.net",
-   "pub": "Thu, 01 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "블룸버그 \"SK하이닉스 대규모 상장으로 3분기 미국 IPO 시장 활력 유지\" By The Guru - Investing.com 한국어",
-   "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -78,7 +80,7 @@
    ]
   },
   {
-   "title": "\"삼전·하이닉스 수요만 458조\"..원화 강세 지속되는 이유 - edaily.co.kr",
+   "title": "블룸버그 \"SK하이닉스 대규모 상장으로 3분기 미국 IPO 시장 활력 유지\" By The Guru - Investing.com 한국어",
    "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -119,6 +121,13 @@
    ]
   },
   {
+   "title": "\"삼전·하이닉스 수요만 458조\"..원화 강세 지속되는 이유 - edaily.co.kr",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "[속보]삼성전자 보합·SK하이닉스 마감 0.44%↑ 마감 - 뉴시스",
    "pub": "Fri, 02 Oct 2026",
    "src": "kr",
@@ -126,14 +135,21 @@
    "agents": []
   },
   {
-   "title": "연기금이 선택한 반도체 대형주는…SK하이닉스 1.6조 매수 vs 삼성전자 8400억 매도 - 뉴스핌",
+   "title": "SK하이닉스, 솔리다임 美 상장설…'주주반발'·'자금조달' 딜레마 - 서울경제TV",
    "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 솔리다임 美 상장설…'주주반발'·'자금조달' 딜레마 - sentv.co.kr",
+   "title": "\"어찌 된 일이냐\"...SK하이닉스 개미들 '당혹' - 한경매거진&북",
+   "pub": "Thu, 01 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 뚫은 씨케이솔루션, 올해 수주 5000억 '청신호' - 디일렉",
    "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -168,7 +184,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 장비 기술 빼간 前 삼성 직원 구속 - sedaily.com",
+   "title": "삼성전자 반도체 장비 기술 빼간 前 삼성 직원 구속 - 서울경제",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -216,7 +232,7 @@
    "agents": []
   },
   {
-   "title": "\"내 통장엔 특별성과급 몇억?\"…삼성전자 다음주 세부기준안 공개 - 머니투데이 - mt.co.kr",
+   "title": "\"내 통장엔 특별성과급 몇억?\"…삼성전자 다음주 세부기준안 공개 - 머니투데이 - 머니투데이",
    "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -241,13 +257,6 @@
   {
    "title": "추석 뒤 삼성 반도체 ‘6억원 성과급’ 윤곽… 200만원대 의자도 순차 도입 - 천지일보",
    "pub": "Thu, 24 Sep 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "檢, 자회사 반도체 기술 빼돌린 전 삼성전자 직원 2명 구속 - 조선비즈 - biz.chosun.com",
-   "pub": "Thu, 01 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -315,8 +324,8 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
+   "pub": "Tue, 17 Feb 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -324,8 +333,8 @@
    ]
   },
   {
-   "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
-   "pub": "Tue, 17 Feb 2026",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -509,15 +518,6 @@
    ]
   },
   {
-   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
-   "pub": "Sun, 26 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
@@ -529,6 +529,15 @@
   {
    "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "pub": "Sun, 26 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -552,7 +561,7 @@
    "agents": []
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - m-i.kr",
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
    "pub": "Wed, 05 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -593,6 +602,15 @@
    ]
   },
   {
+   "title": "폭락장 후폭풍…반대매매 3배·6.8조 레버리지 '2차 충격' 비상 - ebn.co.kr",
+   "pub": "Wed, 29 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - v.daum.net",
    "pub": "Sun, 12 Jul 2026",
    "src": "kr",
@@ -602,11 +620,13 @@
    ]
   },
   {
-   "title": "[단독] \"부모님께 손 벌려 겨우 막았다\"…2030 '4조 빚투' 대란 - 한국경제",
-   "pub": "Wed, 19 Aug 2026",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - newsquest.co.kr",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": []
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
@@ -616,13 +636,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "\"계좌 보기 무섭다\" \"하루만에 -30%, 지옥\"…증시급락에 공포(종합) - 연합뉴스",
-   "pub": "Mon, 08 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "Micron sees future opportunities in humanoid robots, self-driving cars",
@@ -660,6 +673,15 @@
   },
   {
    "title": "Prediction: This Artificial Intelligence (AI) Chip Stock Will Make a Big Move in October (Hint: It’s Not Micron)",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Jim Cramer: Micron’s Boom and Bust Cycle Is Gone “At Last”",
    "pub": "Fri, 02 Oct 2026",
    "src": "en",
    "q": "MU",
