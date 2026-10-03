@@ -1,46 +1,20 @@
 {
- "ts_kst": "10-03 21:02",
+ "ts_kst": "10-03 21:11",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 16,
-  "C-BUYBACK": 3,
+  "M-CYCLE": 17,
+  "C-BUYBACK": 1,
   "C-CHINA": 6,
   "F-ACTIVE": 9,
   "B-RATES": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 58,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "SK하이닉스 뚫은 씨케이솔루션, 올해 수주 5000억 '청신호' - 디일렉",
-   "agents": []
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "삼성전자, 자사주 100% 넘게 샀는데 더 매입⋯‘수급 버팀목’ 언제까지? - 이투데이",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "\"하루 1조 사들이던 '큰손' 빠진다\"…삼전닉스 자사주 매입 종료에 코스피 '살얼음판' - 파이낸셜뉴스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 59,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 뚫은 씨케이솔루션, 올해 수주 5000억 '청신호' - 디일렉",
@@ -108,26 +82,8 @@
    "agents": []
   },
   {
-   "title": "엔비디아 320조·SK하닉 40조·삼성전자 15조, '자사주 매입 이후 성적표' - 이코노미스트",
+   "title": "삼성전자·SK하이닉스 ‘자사주 방어막’ 걷히나…증시 수급 공백 우려 - dt.co.kr",
    "pub": "Fri, 02 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "삼성전자, 자사주 100% 넘게 샀는데 더 매입⋯‘수급 버팀목’ 언제까지? - 이투데이",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "\"하루 1조 사들이던 '큰손' 빠진다\"…삼전닉스 자사주 매입 종료에 코스피 '살얼음판' - 파이낸셜뉴스",
-   "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -158,6 +114,20 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "SK주주들 ‘중복 상장’ 우려에...하이닉스 “솔리다임 상장 결정 안돼, 주주가치 우선” - 조선일보",
+   "pub": "Thu, 01 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "용인·함평 반도체 자매도시 결속…이남오 함평군수 SK하이닉스 팹(fab) 찾아 - 수원일보",
+   "pub": "Sat, 03 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "삼성전자, 엑시노스 2700 물량 10% 늘려 양산 돌입 - 디일렉",
@@ -278,7 +248,7 @@
    "agents": []
   },
   {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 프리미엄콘텐츠",
    "pub": "Sat, 27 Jun 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -636,6 +606,15 @@
    ]
   },
   {
+   "title": "Micron, Snowflake Lead Techs Near Buy Points. Two Consumer Plays Also Are Stocks To Watch.",
+   "pub": "Sat, 03 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "The Memory Boom Helped Micron Deliver a Record Year. Here’s Where the Stock Will Be in 3 Years",
    "pub": "Sat, 03 Oct 2026",
    "src": "en",
@@ -671,15 +650,6 @@
   },
   {
    "title": "Prediction: This Artificial Intelligence (AI) Chip Stock Will Make a Big Move in October (Hint: It’s Not Micron)",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron sees future opportunities in humanoid robots, self-driving cars",
    "pub": "Fri, 02 Oct 2026",
    "src": "en",
    "q": "MU",
