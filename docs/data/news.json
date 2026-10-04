@@ -1,36 +1,18 @@
 {
- "ts_kst": "10-04 11:54",
- "n_items": 102,
+ "ts_kst": "10-04 12:04",
+ "n_items": 103,
  "by_source": {
-  "kr": 72,
+  "kr": 73,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "F-ACTIVE": 7,
-  "C-BUYBACK": 1,
   "C-CHINA": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - news.jtbc.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "SK하이닉스 뚫은 씨케이솔루션, 올해 수주 5000억 '청신호' - thelec.kr",
-   "agents": []
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "마이크론, D램 2위 SK하이닉스 턱밑 추격…점유율 격차 1%포인트 - 지디넷코리아",
@@ -109,6 +91,15 @@
    "agents": []
   },
   {
+   "title": "HBM에 호남까지 갈길 바쁜 SK하이닉스…솔리다임 자금조달 고심 - v.daum.net",
+   "pub": "Sat, 03 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "\"어찌 된 일이냐\"...SK하이닉스 개미들 '당혹' - magazine.hankyung.com",
    "pub": "Thu, 01 Oct 2026",
    "src": "kr",
@@ -130,13 +121,11 @@
    "agents": []
   },
   {
-   "title": "삼전닉스 자사주 매입 완료 수순…삼성 100% ·SK하이닉스 이달 중순경 마무리 - KBC광주방송",
-   "pub": "Fri, 02 Oct 2026",
+   "title": "3개월 만에 40% 넘게 빠졌다…SK하이닉스 주가, 맥 못추는 이유 - 매일경제",
+   "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "삼성전자 용인 사어버과학축제 참가, '360조 투자' 반도체 산단 청사진 공개 - 비즈니스포스트",
@@ -167,13 +156,6 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 엑시노스 2700 물량 10% 늘려 양산 돌입 - thelec.kr",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "\"160만명 고용 창출\"…삼성전자, 용인 과학축제서 반도체 클러스터 청사진 공개 - 뉴시스",
    "pub": "Sat, 03 Oct 2026",
    "src": "kr",
@@ -190,6 +172,13 @@
   {
    "title": "삼성전자, 용인 과학축제서 반도체 미래상 공개…“지역과 함께 성장” - dt.co.kr",
    "pub": "Sat, 03 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 엑시노스 2700 물량 10% 늘려 양산 돌입 - thelec.kr",
+   "pub": "Fri, 02 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -308,20 +297,13 @@
    ]
   },
   {
-   "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
-   "pub": "Tue, 04 Aug 2026",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "[World IP STARs 2026] “중국과 반도체 기술 격차 길어야 1년”… 이종호 서울대 교수 - IPDaily",
-   "pub": "Thu, 24 Sep 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
   },
   {
    "title": "삼성·SK 텃밭 흔들리는 반도체… 중국 CXMT·YMTC ‘점유율 10%’ 돌파 - 글로벌이코노믹",
@@ -333,8 +315,8 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -349,13 +331,11 @@
    "agents": []
   },
   {
-   "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - 한겨레",
-   "pub": "Thu, 13 Aug 2026",
+   "title": "[World IP STARs 2026] “중국과 반도체 기술 격차 길어야 1년”… 이종호 서울대 교수 - IPDaily",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
+   "agents": []
   },
   {
    "title": "美, 애플 중국 메모리 사용 제동…삼성·SK하이닉스 반사이익 기대 - 테크월드",
@@ -363,6 +343,15 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
+  },
+  {
+   "title": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결 - 한겨레",
+   "pub": "Thu, 13 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "외국인, 한 달 새 코스피 20조 팔아…매도 1위 종목은 - 에너지경제신문",
@@ -654,15 +643,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron just sent a stark memory chip warning to tech stock investors",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
