@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-05 01:38",
+ "ts_kst": "10-05 01:48",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -13,7 +13,24 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 62,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "[베스트&워스트] 씨싸이트 75% 급등…‘SK하이닉스 수주 확대 기대’ 윈팩도 ↑ - etoday.co.kr",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "마이크론 ‘깜짝 실적’ 다음은 삼전·하닉…반도체 랠리 이어질까[코주부] - 서울경제",
@@ -32,7 +49,7 @@
    "agents": []
   },
   {
-   "title": "\"성과급 1.4억 꽂혀도…\" SK하이닉스 직원들 속 타는 이유 [시선'칩'중(下)] - 한국경제",
+   "title": "\"성과급 1.4억 꽂혀도…\" SK하이닉스 직원들 속 타는 이유 [시선'칩'중(下)] - hankyung.com",
    "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -67,27 +84,6 @@
    "agents": []
   },
   {
-   "title": "“삼전닉스 잘먹고 갑니다” 한달새 17조 던진 외국인…보유율 최저 - 매일경제 마켓",
-   "pub": "Sun, 04 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"삼전닉스 팔고 빠진 줄 알았는데\"…부자들 '뜻밖의 선택' - 한국경제",
-   "pub": "Sun, 04 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'목표가 보면 더 사고 싶은데'…삼전·닉스 투자자에 뜻밖의 조언 - v.daum.net",
-   "pub": "Sat, 03 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "외국인, 한달 사이 코스피 20조 ‘팔자’… 삼성전자·SK하이닉스 순매도 1위 - 조선비즈 - Chosunbiz",
    "pub": "Sat, 03 Oct 2026",
    "src": "kr",
@@ -95,6 +91,20 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "\"삼전닉스 팔고 빠진 줄 알았는데\"…부자들 '뜻밖의 선택' - hankyung.com",
+   "pub": "Sun, 04 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전·하이닉스 18조 판 개미...증권사 훈수는 달랐다 - 파이낸셜뉴스",
+   "pub": "Sat, 03 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "美는 260만원인데 왜 한국에선 180만원?…속타는 SK하이닉스 투자자들의 의문 [증시레이더] - 디지털데일리",
@@ -129,6 +139,13 @@
    "agents": [
     "C-BUYBACK"
    ]
+  },
+  {
+   "title": "[베스트&워스트] 씨싸이트 75% 급등…‘SK하이닉스 수주 확대 기대’ 윈팩도 ↑ - etoday.co.kr",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "삼성 반도체 성과급 ‘판도라 상자’ 열린다…사업부별 희비 촉각 - 매일경제",
@@ -201,7 +218,7 @@
    "agents": []
   },
   {
-   "title": "[포토] 삼성전자, 지역민에 ‘용인 반도체산단’ 미래 모습 소개 - 한국경제",
+   "title": "[포토] 삼성전자, 지역민에 ‘용인 반도체산단’ 미래 모습 소개 - hankyung.com",
    "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -380,7 +397,7 @@
    "agents": []
   },
   {
-   "title": "외국인 한달새 코스피 20조 팔아…삼전닉스에 매도 집중 - 한국경제",
+   "title": "외국인 한달새 코스피 20조 팔아…삼전닉스에 매도 집중 - hankyung.com",
    "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -433,8 +450,8 @@
    ]
   },
   {
-   "title": "외국인 순매도 20조...반도체 투톱 집중 - 한스경제",
-   "pub": "Sun, 04 Oct 2026",
+   "title": "[마감시황] 코스피, 외국인 2조원 순매도에 0.48% 내린 6830선 마감 - 브릿지경제",
+   "pub": "Wed, 30 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -442,8 +459,8 @@
    ]
   },
   {
-   "title": "[마감시황] 코스피, 외국인 2조원 순매도에 0.48% 내린 6830선 마감 - 브릿지경제",
-   "pub": "Wed, 30 Sep 2026",
+   "title": "외국인 순매도 20조...반도체 투톱 집중 - 한스경제",
+   "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -555,7 +572,7 @@
    ]
   },
   {
-   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - 한국일보",
+   "title": "폭락 후폭풍 시작되나…반대매매 340% 급증, 33조 빚투 '청산 공포' - hankookilbo.com",
    "pub": "Thu, 30 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -607,6 +624,15 @@
    ]
   },
   {
+   "title": "Investors Had a Tepid Reaction to Micron's Latest Earnings Report. An Overlooked Headwind May Explain Why.",
+   "pub": "Sun, 04 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Jordi Visser Says Crypto Is At Its 'Micron Moment,' Sees Token Volumes Going 'Through The Roof'",
    "pub": "Sun, 04 Oct 2026",
    "src": "en",
@@ -641,13 +667,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "A chipmaker's boom is quietly raising the price of your electronics",
-   "pub": "Sat, 03 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
