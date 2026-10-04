@@ -1,29 +1,20 @@
 {
- "ts_kst": "10-04 19:21",
+ "ts_kst": "10-04 19:30",
  "n_items": 102,
  "by_source": {
   "kr": 72,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 14,
   "P-ADR": 1,
   "F-ACTIVE": 7,
+  "C-BUYBACK": 1,
   "C-CHINA": 6,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - newsquest.co.kr",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
    "title": "마이크론, D램 2위 SK하이닉스 턱밑 추격…점유율 격차 1%포인트 - 지디넷코리아",
@@ -91,15 +82,8 @@
    "agents": []
   },
   {
-   "title": "[기획] 800조의 약속, 이제 ‘첫 삽’이 답할 차례…서남권 반도체 현실화 시험대⑤ - 에너지경제신문",
+   "title": "\"삼전닉스 없으면 미칠 것 같았는데\"…고점 대비 최대 38%↓ 불안한 버티기 [개미의 세계] - v.daum.net",
    "pub": "Sat, 03 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"삼전닉스, 年 1000조 번다\" 전망에… 추가 주주환원 기대 - 파이낸셜뉴스",
-   "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -112,15 +96,33 @@
    "agents": []
   },
   {
-   "title": "\"삼전닉스 없으면 미칠 것 같았는데\"…고점 대비 최대 38%↓ 불안한 버티기 [개미의 세계] - v.daum.net",
+   "title": "HBM에 호남까지 갈길 바쁜 SK하이닉스…솔리다임 자금조달 고심 - 연합뉴스",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[기획] 800조의 약속, 이제 ‘첫 삽’이 답할 차례…서남권 반도체 현실화 시험대⑤ - 에너지경제신문",
    "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "솔리다임 자금조달 해법 고심하는 SK하이닉스 - 부산일보",
-   "pub": "Sun, 04 Oct 2026",
+   "title": "삼성전자·SK하이닉스 ‘자사주 방어막’ 걷히나…증시 수급 공백 우려 - dt.co.kr",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "美는 260만원인데 왜 한국에선 180만원?…속타는 SK하이닉스 투자자들의 의문 [증시레이더] - 디지털데일리",
+   "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -128,13 +130,6 @@
   {
    "title": "블룸버그 \"SK하이닉스 대규모 상장으로 3분기 미국 IPO 시장 활력 유지\" By The Guru - Investing.com 한국어",
    "pub": "Fri, 02 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[김대호 진단] 반도체 열전 (60) 솔리다임... 최태원의 승부수 - 글로벌이코노믹",
-   "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -182,7 +177,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 용인 과학축제서 '반도체가 만드는 지역 미래' 소개 - yna.co.kr",
+   "title": "삼성전자, 용인 과학축제서 '반도체가 만드는 지역 미래' 소개 - 연합뉴스",
    "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -217,7 +212,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 용인 반도체 산단 ‘속도전’…2029년 10월 가동 목표 - 뉴스토마토",
+   "title": "삼성전자, 용인 반도체 산단 ‘속도전’…2029년 10월 가동 목표 - newstomato.com",
    "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -291,7 +286,7 @@
    "agents": []
   },
   {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - yna.co.kr",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -364,7 +359,7 @@
    "agents": []
   },
   {
-   "title": "외국인, 한 달간 코스피서 20조 매도…비중 삼전 46%·닉스 49%대 - 연합뉴스TV",
+   "title": "외국인, 한 달간 코스피서 20조 매도…비중 삼전 46%·닉스 49%대 - yonhapnewstv.co.kr",
    "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -469,7 +464,7 @@
    ]
   },
   {
-   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - yna.co.kr",
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -573,7 +568,7 @@
    ]
   },
   {
-   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - yna.co.kr",
+   "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 연합뉴스",
    "pub": "Mon, 22 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -603,6 +598,15 @@
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "Micron Technology’s Buyback Is Tiny Next to Its Cash Pile. Is a Bigger One Coming?",
+   "pub": "Sat, 03 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "Micron Just Extended Its Forecast for the AI Build-Out to 2031. Its Stock Is Bound to Defy History.",
@@ -648,13 +652,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "US Equity Indexes Closed Mixed This Week as Treasury Yields Traded Close to Two-Decade High While October Rate-Hike Bets Slump",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
