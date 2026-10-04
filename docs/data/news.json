@@ -1,13 +1,13 @@
 {
- "ts_kst": "10-04 18:22",
- "n_items": 103,
+ "ts_kst": "10-04 18:31",
+ "n_items": 101,
  "by_source": {
-  "kr": 73,
+  "kr": 71,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 12,
-  "F-ACTIVE": 8,
+  "M-CYCLE": 11,
+  "F-ACTIVE": 7,
   "C-BUYBACK": 1,
   "C-CHINA": 6,
   "R-LEVERAGE": 12
@@ -15,22 +15,11 @@
  "unassigned": 64,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "수주",
    "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "[베스트&워스트] 씨싸이트 75% 급등…‘SK하이닉스 수주 확대 기대’ 윈팩도 ↑ - etoday.co.kr",
+   "agents": []
   }
  ],
  "items": [
@@ -58,15 +47,24 @@
    "agents": []
   },
   {
-   "title": "솔리다임 자금조달 해법 고심하는 SK하이닉스 - 부산일보",
+   "title": "외국인, 한달 사이 코스피 20조 ‘팔자’… 삼성전자·SK하이닉스 순매도 1위 - 조선비즈 - Chosunbiz",
+   "pub": "Sat, 03 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "잘 나가더니 “국장 재미 다 봤나”…외국인, 한 달 새 20조 ‘매도 폭탄’ - 서울경제",
    "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "블룸버그 \"SK하이닉스 대규모 상장으로 3분기 미국 IPO 시장 활력 유지\" By The Guru - Investing.com 한국어",
-   "pub": "Fri, 02 Oct 2026",
+   "title": "“삼전닉스 잘먹고 갑니다” 한달새 17조 던진 외국인…보유율 최저 - 매일경제 마켓",
+   "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -86,43 +84,11 @@
    "agents": []
   },
   {
-   "title": "외국인, 한달 사이 코스피 20조 ‘팔자’… 삼성전자·SK하이닉스 순매도 1위 - 조선비즈 - Chosunbiz",
-   "pub": "Sat, 03 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "“삼전닉스 잘먹고 갑니다” 한달새 17조 던진 외국인…보유율 최저 - 매일경제 마켓",
-   "pub": "Sun, 04 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼전·하이닉스 18조 판 개미...증권사 훈수는 달랐다 - v.daum.net",
-   "pub": "Sat, 03 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "[기획] 800조의 약속, 이제 ‘첫 삽’이 답할 차례…서남권 반도체 현실화 시험대⑤ - 에너지경제신문",
    "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "HBM에 호남까지 갈길 바쁜 SK하이닉스…솔리다임 자금조달 고심 - 연합뉴스",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "삼성전자·SK하이닉스 ‘자사주 방어막’ 걷히나…증시 수급 공백 우려 - dt.co.kr",
@@ -141,7 +107,28 @@
    "agents": []
   },
   {
+   "title": "[베스트&워스트] 씨싸이트 75% 급등…‘SK하이닉스 수주 확대 기대’ 윈팩도 ↑ - etoday.co.kr",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "\"성과급 1.4억 꽂혀도…\" SK하이닉스 직원들 속 타는 이유 [시선'칩'중(下)] - 한국경제",
+   "pub": "Sun, 04 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "외국인 한 달 새 20조 팔았다…삼성전자·SK하이닉스에 매도 집중 - kbmaeil.com",
+   "pub": "Sat, 03 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "솔리다임 자금조달 해법 고심하는 SK하이닉스 - 부산일보",
    "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -183,7 +170,7 @@
    "agents": []
   },
   {
-   "title": "\"160만명 고용 창출\"…삼성전자, 용인 과학축제서 반도체 클러스터 청사진 공개 - 뉴시스",
+   "title": "\"160만명 고용 창출\"…삼성전자, 용인 과학축제서 반도체 클러스터 청사진 공개 - newsis.com",
    "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -379,6 +366,22 @@
    "agents": []
   },
   {
+   "title": "외국인 지난달 코스피서 20조 매도에…삼전닉스 외인 비중 연중 최저로 - 매일경제 마켓",
+   "pub": "Sun, 04 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "외국인, 9월 이후 코스피 20조원 순매도…삼성전자·SK하이닉스에 17조 집중 - 베타뉴스",
+   "pub": "Sun, 04 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "외국인 한달새 코스피 20조 팔아…삼전닉스에 매도 집중 - 한국경제",
    "pub": "Sun, 04 Oct 2026",
    "src": "kr",
@@ -388,13 +391,6 @@
   {
    "title": "‘9월 코스피 맥못춘 이유 있었네…’ 한달 간 외국인 20조 팔아치워, 10월엔 돌아올까 - 문화일보",
    "pub": "Sun, 04 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외국인 한 달 새 20조 팔았다…삼성전자·SK하이닉스에 매도 집중 - kbmaeil.com",
-   "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -414,13 +410,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "잘 나가더니 “국장 재미 다 봤나”…외국인, 한 달 새 20조 ‘매도 폭탄’ - 서울경제",
-   "pub": "Sun, 04 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "코스피, 외국인 나흘째 순매도 속 약보합 - 뉴스핌",
@@ -450,26 +439,8 @@
    ]
   },
   {
-   "title": "코스피, 외국인 나흘째 순매도 속 약보합…\"업종별 차별화 장세\" - 이투데이",
+   "title": "코스피, 외국인 나흘째 순매도 속 약보합…\"업종별 차별화 장세\" - etoday.co.kr",
    "pub": "Wed, 30 Sep 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "외국인 순매도 20조...반도체 투톱 집중 - 한스경제",
-   "pub": "Sun, 04 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피, 0.27% 하락해 6,870선 마감…외국인 3조 순매도 - KBS 뉴스",
-   "pub": "Tue, 29 Sep 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -659,6 +630,22 @@
   },
   {
    "title": "Micron's Last 5 Post-Earnings Dips Turned Into Gains. This Time, the Stock Rose Instead.",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "US Equity Indexes Closed Mixed This Week as Treasury Yields Traded Close to Two-Decade High While October Rate-Hike Bets Slump",
+   "pub": "Fri, 02 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron just sent a stark memory chip warning to tech stock investors",
    "pub": "Fri, 02 Oct 2026",
    "src": "en",
    "q": "MU",
