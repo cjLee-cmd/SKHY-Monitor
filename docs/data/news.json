@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-05 10:56",
+ "ts_kst": "10-05 11:06",
  "n_items": 104,
  "by_source": {
   "kr": 74,
@@ -8,22 +8,12 @@
  "routed": {
   "M-CYCLE": 13,
   "F-ACTIVE": 6,
-  "C-BUYBACK": 3,
+  "C-BUYBACK": 2,
   "C-CHINA": 5,
   "R-LEVERAGE": 12
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "삼전·하이닉스 자사주 매입 10월 종료… 코스피 앞날은? - 세계일보",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
    "title": "\"성과급 1.4억 꽂혀도…\" SK하이닉스 직원들 속 타는 이유 [시선'칩'중(下)] - 한국경제",
@@ -33,11 +23,13 @@
    "agents": []
   },
   {
-   "title": "반도체 호황에 성과급↑…메모리 3사 실적에 '보상비용' 변수 - 연합뉴스",
-   "pub": "Sat, 03 Oct 2026",
+   "title": "마이크론 ‘깜짝 실적’ 다음은 삼전·하닉…반도체 랠리 이어질까[코주부] - 서울경제",
+   "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "HBM5 시대 열릴까? 삼성·SK, SEDEX서 기술 맞대결 - v.daum.net",
@@ -109,6 +101,13 @@
    "agents": []
   },
   {
+   "title": "\"삼전닉스 없으면 미칠 것 같았는데\"…고점 대비 최대 38%↓ 불안한 버티기 [개미의 세계] - fnnews.com",
+   "pub": "Sat, 03 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼전·하이닉스 자사주 매입 10월 종료… 코스피 앞날은? - 세계일보",
    "pub": "Sat, 03 Oct 2026",
    "src": "kr",
@@ -118,16 +117,7 @@
    ]
   },
   {
-   "title": "삼성전자·SK하이닉스 ‘자사주 방어막’ 걷히나…증시 수급 공백 우려 - dt.co.kr",
-   "pub": "Fri, 02 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "美는 260만원인데 왜 한국에선 180만원?…속타는 SK하이닉스 투자자들의 의문 [증시레이더] - 디지털데일리",
+   "title": "美는 260만원인데 왜 한국에선 180만원?…속타는 SK하이닉스 투자자들의 의문 [증시레이더] - ddaily.co.kr",
    "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -246,7 +236,7 @@
    "agents": []
   },
   {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
+   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - ytn.co.kr",
    "pub": "Thu, 09 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -611,6 +601,13 @@
    ]
   },
   {
+   "title": "MU, HPE, AMZN, META, SPCX: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week",
+   "pub": "Mon, 05 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Micron Growth Is Surging and the Stock Looks Dirt Cheap. But Is the Stock a Buy?",
    "pub": "Mon, 05 Oct 2026",
    "src": "en",
@@ -639,15 +636,6 @@
   },
   {
    "title": "Is It Too Late to Buy Micron Technology Stock After Its 12-Month Gain of 500%?",
-   "pub": "Sun, 04 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron or Sandisk: If I Could Only Own One for the Next 5 Years, It Would Be This One",
    "pub": "Sun, 04 Oct 2026",
    "src": "en",
    "q": "MU",
