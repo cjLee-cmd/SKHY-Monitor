@@ -1,35 +1,35 @@
 {
- "ts_kst": "10-06 14:59",
- "score": 16.9,
+ "ts_kst": "10-06 15:09",
+ "score": 17.4,
  "verdict": "정당한 재평가",
  "components": {
   "A_통계극단성": 0,
   "B_체인동조성": 5.0,
   "C_펀더멘털배율": 0,
-  "D_역사되돌림": 11.9
+  "D_역사되돌림": 12.4
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -1.45,
+   "cum": -1.54,
    "sd": 4.74,
-   "z": -0.22,
-   "n_episodes": 8,
+   "z": -0.23,
+   "n_episodes": 9,
    "forward": {
     "5": {
-     "mean": 2.72,
-     "median": 1.71,
-     "up_rate": 62
+     "mean": 2.43,
+     "median": 1.36,
+     "up_rate": 67
     },
     "20": {
-     "mean": 7.08,
-     "median": 5.87,
-     "up_rate": 62
+     "mean": 6.55,
+     "median": 4.36,
+     "up_rate": 67
     },
     "60": {
-     "mean": 19.65,
-     "median": 10.71,
-     "up_rate": 62
+     "mean": 23.17,
+     "median": 20.24,
+     "up_rate": 67
     }
    }
   },
@@ -77,9 +77,9 @@
  },
  "detail": {
   "z_min": -0.37,
-  "drop_avg": 2.2,
+  "drop_avg": 2.25,
   "fundamental_ratio": 0.29,
   "chain_negative": "1/5"
  },
- "caveat": "역사 표본 8개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 9개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
