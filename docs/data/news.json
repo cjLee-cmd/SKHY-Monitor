@@ -1,19 +1,27 @@
 {
- "ts_kst": "10-06 22:10",
+ "ts_kst": "10-06 22:19",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 12,
+  "M-CYCLE": 13,
   "C-BUYBACK": 1,
   "C-CHINA": 6,
   "F-ACTIVE": 3,
   "R-LEVERAGE": 12
  },
- "unassigned": 71,
- "alerts": [],
+ "unassigned": 70,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "수주",
+   "src": "kr",
+   "title": "한미반도체, 삼성전기서 245억 장비 수주...\"삼성그룹 환영\" - 조선일보",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "\"잘나가던 하이닉스 웬 날벼락\"…'이 소문'에 개미들 뿔났다 [강경주의 테크X] - 한국경제",
@@ -44,21 +52,7 @@
    "agents": []
   },
   {
-   "title": "주가는 빠지는데 목표가 310만원…SK하이닉스, 무엇을 믿었나 - 파이낸셜뉴스",
-   "pub": "Tue, 06 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[리포트 브리핑]SK하이닉스, '작은 의심들까지 모두 소화했다' 목표가 3,100,000원 - 미래에셋증권 - 뉴스핌",
-   "pub": "Tue, 06 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "메모리 호황 지속될까…삼성·SK하이닉스·마이크론, 장기계약으로 판매 기반 넓힌다 - 글로벌이코노믹",
+   "title": "D램 최고가에 마이크론 호조에도 삼성전자·SK하이닉스 전망치 조정…원인은? - 글로벌이코노믹",
    "pub": "Mon, 05 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -67,15 +61,8 @@
    ]
   },
   {
-   "title": "\"삼성전자·SK하이닉스 수혜주 선별해야\"…막연한 낙수효과 기대는 금물 '항아리 이론' - 뉴시스",
+   "title": "\"삼성전자·SK하이닉스 다음은?\"…테마주가 아닌 진짜 차기 주도주를 잡아라 - 뉴시스",
    "pub": "Mon, 05 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'SK하이닉스 짝꿍'의 반전…삼성과 손 잡더니 245억 '잭팟' - 한국경제",
-   "pub": "Tue, 06 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -118,6 +105,29 @@
    "agents": []
   },
   {
+   "title": "주가는 빠지는데 목표가 310만원…SK하이닉스, 무엇을 믿었나 - 파이낸셜뉴스",
+   "pub": "Tue, 06 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[리포트 브리핑]SK하이닉스, '작은 의심들까지 모두 소화했다' 목표가 3,100,000원 - 미래에셋증권 - 뉴스핌",
+   "pub": "Tue, 06 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "메모리 호황 지속될까…삼성·SK하이닉스·마이크론, 장기계약으로 판매 기반 넓힌다 - 글로벌이코노믹",
+   "pub": "Mon, 05 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "최수진 의원실 ‘삼성·SK하이닉스 출신 27명 CXMT 이직’ 주장 [국감2026] - IT조선",
    "pub": "Tue, 06 Oct 2026",
    "src": "kr",
@@ -141,7 +151,7 @@
    "agents": []
   },
   {
-   "title": "한미반도체, 삼성전기서 245억 장비 수주...\"삼성그룹 환영\" - chosun.com",
+   "title": "한미반도체, 삼성전기서 245억 장비 수주...\"삼성그룹 환영\" - 조선일보",
    "pub": "Tue, 06 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -282,7 +292,7 @@
    ]
   },
   {
-   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - chosun.com",
+   "title": "중국 반도체 굴기… 창신메모리에 대해 알아야할 것들 - 조선일보",
    "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
@@ -429,14 +439,7 @@
    "agents": []
   },
   {
-   "title": "외국인 1.7조 매도에 코스피 7000선 내줘…코스닥은 3% 가까이 상승 - etoday.co.kr",
-   "pub": "Tue, 06 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피, 美 AI 강세에도 6,990선 하락 전환…외국인 매도 속 기관 매수 - 뉴스투데이",
+   "title": "외국인 1.7조 매도에 코스피 7000선 내줘…코스닥은 3% 가까이 상승 - 이투데이",
    "pub": "Tue, 06 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -458,6 +461,13 @@
   },
   {
    "title": "코스피, 연휴 후 7,000선 공방…외국인 매도에 상승분 반납 - 산경투데이",
+   "pub": "Tue, 06 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피, 美 AI 강세에도 6,990선 하락 전환…외국인 매도 속 기관 매수 - 뉴스투데이",
    "pub": "Tue, 06 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -593,6 +603,15 @@
    ]
   },
   {
+   "title": "Netlist and Micron Agree $600 Million Patent Licence and Settlement",
+   "pub": "Tue, 06 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Stock Is Waiting On One Answer",
    "pub": "Tue, 06 Oct 2026",
    "src": "en",
@@ -621,15 +640,6 @@
   },
   {
    "title": "Prediction: Micron Stock Will Double Before 2028. Here Are 1.7 Trillion Reasons Why.",
-   "pub": "Tue, 06 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock’s Make-or-Break Year—Mark Your Calendars",
    "pub": "Tue, 06 Oct 2026",
    "src": "en",
    "q": "MU",
