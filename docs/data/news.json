@@ -1,28 +1,19 @@
 {
- "ts_kst": "10-07 08:50",
- "n_items": 103,
+ "ts_kst": "10-07 09:00",
+ "n_items": 104,
  "by_source": {
   "kr": 75,
-  "en": 28
+  "en": 29
  },
  "routed": {
+  "P-ADR": 1,
   "C-CHINA": 8,
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "F-ACTIVE": 3,
   "R-LEVERAGE": 12
  },
- "unassigned": 71,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 70,
+ "alerts": [],
  "items": [
   {
    "title": "IBK증권, SK하이닉스 목표가 400만원 유지…\"지나치게 저평가\" - 연합뉴스",
@@ -39,7 +30,7 @@
    "agents": []
   },
   {
-   "title": "\"SK하이닉스, 여전히 저평가…흔들리지 말아야\" - 마켓인",
+   "title": "주가는 빠지는데 목표가 310만원…SK하이닉스, 무엇을 믿었나 - Daum",
    "pub": "Tue, 06 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -60,11 +51,13 @@
    "agents": []
   },
   {
-   "title": "3% 내린 하이닉스 사고, 18% 뛴 주성 팔았다…초고수의 ‘역발상’ - 한국경제",
+   "title": "뉴욕증시 최고치…하이닉스ADR은 급락 [오늘 아침, 당신이 알아야 할 7가지] - 한국경제",
    "pub": "Tue, 06 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "\"中 반도체 추격, 생각보다 빠르다\"…삼성전자·SK하이닉스가 긴장해야 하는 이유 - 뉴시스",
@@ -176,7 +169,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 호황에 분기 '매출 200조·영업익 100조' 눈앞 - 데일리한국",
+   "title": "삼성전자, 3분기 반도체 성과급만 '11조' 전망…역대급 이익에 비용 부담도↑ - 녹색경제신문",
    "pub": "Tue, 06 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -190,7 +183,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 3분기 반도체 성과급만 '11조' 전망…역대급 이익에 비용 부담도↑ - 녹색경제신문",
+   "title": "삼성전자, 반도체 호황에 분기 '매출 200조·영업익 100조' 눈앞 - 데일리한국",
    "pub": "Tue, 06 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -634,7 +627,7 @@
    ]
   },
   {
-   "title": "SK Hynix Falls 4% on Earnings Caution Before a Rebalancing Goldman Says Favors It; SanDisk Slips 2%, Micron Holds Firm",
+   "title": "MU Stock Alert: What to Know as Micron, Netlist Reach $600 Million Patent Settlement",
    "pub": "Tue, 06 Oct 2026",
    "src": "en",
    "q": "MU",
