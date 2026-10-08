@@ -1,20 +1,20 @@
 {
- "ts_kst": "10-08 20:10",
+ "ts_kst": "10-08 20:20",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 11,
   "P-ADR": 1,
-  "C-BUYBACK": 2,
+  "M-CYCLE": 11,
+  "C-BUYBACK": 1,
   "C-CHINA": 5,
-  "F-ACTIVE": 7,
+  "F-ACTIVE": 6,
   "B-RATES": 1,
   "R-LEVERAGE": 11
  },
- "unassigned": 65,
+ "unassigned": 67,
  "alerts": [],
  "items": [
   {
@@ -27,6 +27,27 @@
   {
    "title": "SK하이닉스·청주시, 1만 명 수용 ‘임대형 기숙사’ 논의…3500세대 규모 - 아시아투데이",
    "pub": "Wed, 07 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "최태원 SK그룹 회장, 9일 광주 군공항 방문 예정 - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 08 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'반도체 부지 점검'…최태원 SK 회장, 9일 광주 군공항 방문 - 한국경제",
+   "pub": "Thu, 08 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "최태원 회장의 9440억원 SK 지분 매각 및 SK하이닉스 솔리다임 IPO는 \"주주가치 최우선 판단 기준\" - 녹색경제신문",
+   "pub": "Mon, 05 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -53,32 +74,29 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 역대 최대 실적에도 2%대 급락…SK하이닉스도 내려 - SBS 뉴스",
-   "pub": "Thu, 08 Oct 2026",
+   "title": "오늘 SK하이닉스 ADR 주식 하락하는 이유는? - Investing.com 한국어",
+   "pub": "Wed, 07 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
-   "title": "삼성전자·SK하이닉스 호실적에도 왜 못 가나…\"수급이 얕은 것 말고는 설명할 게 없다\" - 뉴시스",
-   "pub": "Thu, 08 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "‘영업익 100조 시대’ 연 삼전... 주가는 하락, 대체 무슨 일? - 조선일보",
-   "pub": "Thu, 08 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"최태원 회장님 믿습니다\"…SK하닉 '400만원 간다'는 이유 [종목+] - 한국경제",
+   "title": "\"SK하이닉스, 목표주가 400만원 유지…메모리 수요 지속\"[클릭e종목] - 아시아경제",
    "pub": "Wed, 07 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "마이크론 현 주가보다 3배 높은 목표주가 나와, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
+   "pub": "Thu, 08 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "누리호 탄 SK하이닉스 반도체, 우주서 성능 검증 나선다 - 연합뉴스",
@@ -104,29 +122,11 @@
    ]
   },
   {
-   "title": "오늘 SK하이닉스 ADR 주식 하락하는 이유는? - Investing.com 한국어",
-   "pub": "Wed, 07 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "\"SK하이닉스, 목표주가 400만원 유지…메모리 수요 지속\"[클릭e종목] - 아시아경제",
+   "title": "SK하이닉스, 충북교육청에 '몸활동마라톤' 지원비 5천만원 전달 - 매일경제 마켓",
    "pub": "Wed, 07 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "마이크론 현 주가보다 3배 높은 목표주가 나와, 삼성전자와 SK하이닉스에도 청신호 - 비즈니스포스트",
-   "pub": "Thu, 08 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "삼성전자 역대급 영업이익에도…반도체·제품 수익성 희비 - 동아일보",
@@ -231,13 +231,11 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 특별성과급 내년 3월 지급…전액 자사주 지급 - 서울경제TV",
-   "pub": "Wed, 07 Oct 2026",
+   "title": "삼성전자, 내년 3월 반도체 특별성과급 ···인당 최대 7.5억 - 서울파이낸스",
+   "pub": "Thu, 08 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
@@ -382,26 +380,8 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인·기관 순매도에 6760선 약세 - 한국금융경제신문",
-   "pub": "Thu, 08 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "외국인·기관 순매도 속 장초반 변동성 - 아시아경제",
    "pub": "Thu, 08 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "삼전 실적 '경계' 외국인 2조 순매도…코스피 1.5%↓ 6830선[장중시황] - 뉴스1",
-   "pub": "Wed, 07 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -414,6 +394,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "삼전 실적 '경계' 외국인 2조 순매도…코스피 1.5%↓ 6830선[장중시황] - 뉴스1",
+   "pub": "Wed, 07 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "“외국인·기관 3.6조 던졌다”…코스피, 이틀 만에 300포인트 넘게 빠졌다 - https://www.theconnectmoney.com/",
@@ -439,15 +428,15 @@
    ]
   },
   {
-   "title": "외국인, 한 달간 코스피서 20조 매도…비중 삼전 46%·닉스 49%대 - 연합뉴스TV",
-   "pub": "Sat, 03 Oct 2026",
+   "title": "코스피, 외국인 '팔자'에 약세...6910선 사수 - 녹색경제신문",
+   "pub": "Wed, 07 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "코스피, 외국인 '팔자'에 약세...6910선 사수 - 녹색경제신문",
-   "pub": "Wed, 07 Oct 2026",
+   "title": "외국인, 한 달간 코스피서 20조 매도…비중 삼전 46%·닉스 49%대 - 연합뉴스TV",
+   "pub": "Sat, 03 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -476,6 +465,13 @@
    "agents": [
     "B-RATES"
    ]
+  },
+  {
+   "title": "코스피, 고점 대비 25%↓…외국인 이탈에 7000선 고전 - 블루밍비트",
+   "pub": "Wed, 07 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
@@ -605,6 +601,15 @@
    "agents": []
   },
   {
+   "title": "Dow Jones Futures Fall As Oil Prices, Treasury Yields Jump; Samsung, Micron, Taiwan Semi, Sandisk In Focus",
+   "pub": "Thu, 08 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "3 Market-Beating Stocks to Target This Week",
    "pub": "Thu, 08 Oct 2026",
    "src": "en",
@@ -629,15 +634,6 @@
   },
   {
    "title": "Zacks Earnings Trends Highlights: Micron, Nvidia, Alphabet, JPMorgan, Citigroup and Wells Fargo",
-   "pub": "Thu, 08 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Veteran analyst aggressively resets Micron stock target on 3-5 year run",
    "pub": "Thu, 08 Oct 2026",
    "src": "en",
    "q": "MU",
