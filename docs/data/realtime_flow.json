@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-08 19:31",
+ "ts_kst": "10-08 19:41",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -42,15 +42,15 @@
   },
   "hynix": {
    "name": "SK하이닉스",
-   "price": 1681000.0,
-   "chg_pct": -2.44,
+   "price": 1683000.0,
+   "chg_pct": -2.32,
    "slot": "5",
    "foreign_qty": 17000.0,
-   "foreign_eok": 285.8,
+   "foreign_eok": 286.1,
    "inst_qty": -84000.0,
-   "inst_eok": -1412.0,
+   "inst_eok": -1413.7,
    "retail_qty": 67000.0,
-   "retail_eok": 1126.3,
+   "retail_eok": 1127.6,
    "slots": [
     {
      "slot": "5",
@@ -83,11 +83,6 @@
  "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
  "triggers": [],
  "log": [
-  {
-   "ts": "09-26 19:36",
-   "samsung": 5518.0,
-   "hynix": -9985.7
-  },
   {
    "ts": "09-26 19:46",
    "samsung": 5518.0,
@@ -2894,6 +2889,11 @@
    "ts": "10-08 19:31",
    "samsung": 147.0,
    "hynix": 285.8
+  },
+  {
+   "ts": "10-08 19:41",
+   "samsung": 147.0,
+   "hynix": 286.1
   }
  ]
 }
