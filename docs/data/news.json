@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-12 07:10",
+ "ts_kst": "10-12 07:19",
  "n_items": 101,
  "by_source": {
   "kr": 74,
@@ -9,22 +9,12 @@
   "M-CYCLE": 14,
   "P-ADR": 1,
   "C-BUYBACK": 2,
-  "C-CHINA": 5,
+  "C-CHINA": 6,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 11
  },
- "unassigned": 62,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "“역시 주주환원은 뒷전입니까”…코스피 자사주 매입, 삼전닉스 뺐더니 줄었다 - 매일경제",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 61,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스 이르면 28일 실적 공개…영업이익률 80% 돌파하나 - 뉴스1",
@@ -124,11 +114,13 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 하락에도 KRX 반도체 11.4% 올라…소부장이 끌었다 - 매일신문",
-   "pub": "Sat, 10 Oct 2026",
+   "title": "ASML, 노광 장비 판 흔든다… 2020년대 후반 노린 삼성·SK하이닉스 수율 셈법 복잡 - 글로벌이코노믹",
+   "pub": "Sun, 11 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "\"팔면 80% 남는다\"…HBM 날개 단 SK하이닉스, 역대급 수익성 예고 By EBN - Investing.com 한국어",
