@@ -1,18 +1,18 @@
 {
- "ts_kst": "10-13 02:53",
+ "ts_kst": "10-13 03:03",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-CHINA": 11,
-  "M-CYCLE": 11,
+  "C-CHINA": 12,
+  "M-CYCLE": 13,
   "C-BUYBACK": 2,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 66,
+ "unassigned": 64,
  "alerts": [],
  "items": [
   {
@@ -44,11 +44,33 @@
    "agents": []
   },
   {
-   "title": "[속보]삼성전자·SK하이닉스 나란히 4%대 하락 마감 - 뉴시스",
+   "title": "삼성·SK하이닉스 주가 3% 이상 하락…中 CXMT 차세대 D램 개발 진전 발표 - Investing.com 한국어",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "中 CXMT, 차세대 D램 기술 공개에 SK하이닉스·마이크론 동반 급락 - 뉴스핌",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE",
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "中 CXMT 차세대 메모리 기술 진전에 마이크론·SK하이닉스 동반 하락 - 글로벌이코노믹",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA",
+    "M-CYCLE"
+   ]
   },
   {
    "title": "메리츠證 “SK하이닉스, 3분기 영업이익 80조원 서프라이즈 전망…목표가 320만원↑” - 조선비즈 - Chosunbiz",
@@ -72,7 +94,14 @@
    "agents": []
   },
   {
-   "title": "코스피 6580선 약세 출발…삼전·SK하이닉스 동반 하락 By EBN - Investing.com 한국어",
+   "title": "[속보]삼성전자·SK하이닉스 나란히 4%대 하락 마감 - 뉴시스",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[특징주] SK하이닉스, 장 초반 2.6% 급락…삼전도 0.9%↓ - 매일경제 마켓",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -93,37 +122,11 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 4%대 급락…수출 호조에도 외국인 매도(종합) - 뉴스1",
+   "title": "SK하이닉스 1000조 투자…주주환원 여력은 - MTN 머니투데이방송",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "美 반도체보다 더 빠진 코스피…\"환율·하이닉스 부진 영향\" - KB Think",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성·SK하이닉스 주가 3% 이상 하락…中 CXMT 차세대 D램 개발 진전 발표 - Investing.com 한국어",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "中 CXMT, 차세대 D램 기술 공개에 SK하이닉스·마이크론 동반 급락 - 뉴스핌",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE",
-    "C-CHINA"
-   ]
   },
   {
    "title": "삼성전자 반도체 성과급 충당금만 30조 육박…커지는 '호황의 비용' - 머니투데이 - 머니투데이",
@@ -484,6 +487,13 @@
    ]
   },
   {
+   "title": "시각 효과를 중심으로 모아보는 주식 토토 디시 테마 콘텐츠 - Calgary Roughnecks",
+   "pub": "Sat, 10 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -491,13 +501,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "시각 효과를 중심으로 모아보는 주식 토토 디시 테마 콘텐츠 - Calgary Roughnecks",
-   "pub": "Sat, 10 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
   },
   {
    "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
@@ -593,11 +596,13 @@
    "agents": []
   },
   {
-   "title": "Tech slumps as oil prices rise, focus turns to earnings season kickoff: AlphaCheck",
+   "title": "Micron Just Said Something That Could Change How Investors See the Stock",
    "pub": "Mon, 12 Oct 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "Micron stock drops on China CXMT denser memory chip news",
