@@ -1,18 +1,18 @@
 {
- "ts_kst": "10-13 02:33",
+ "ts_kst": "10-13 02:43",
  "n_items": 103,
  "by_source": {
   "kr": 74,
   "en": 29
  },
  "routed": {
-  "C-CHINA": 10,
+  "C-CHINA": 11,
   "C-BUYBACK": 2,
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 10
  },
- "unassigned": 67,
+ "unassigned": 66,
  "alerts": [],
  "items": [
   {
@@ -599,6 +599,16 @@
    "agents": []
   },
   {
+   "title": "Micron stock drops on China CXMT denser memory chip news",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "C-CHINA",
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron, Fannie Mae, eBay, IonQ, Salesforce, and More Stocks That Explain Today’s Market",
    "pub": "Mon, 12 Oct 2026",
    "src": "en",
@@ -631,16 +641,6 @@
    "src": "en",
    "q": "MU",
    "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Falls On Competition From China Rival CXMT",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "C-CHINA",
     "M-CYCLE"
    ]
   }
