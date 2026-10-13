@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-13 18:02",
+ "ts_kst": "10-13 18:12",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -7,25 +7,15 @@
   "dart": 1
  },
  "routed": {
-  "C-CHINA": 8,
+  "M-CYCLE": 14,
+  "C-CHINA": 9,
   "C-BUYBACK": 1,
-  "M-CYCLE": 13,
   "M-RISK": 3,
   "F-ACTIVE": 10,
   "R-LEVERAGE": 12
  },
- "unassigned": 61,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "삼전닉스 외국인 이탈에 자사주 매입 종료, '추가 주주환원'으로 수급공백 떨쳐낼까 - 비즈니스포스트",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 60,
+ "alerts": [],
  "items": [
   {
    "title": "삼성·SK하이닉스, 6.6조원 규모 美 반도체 R&D 거점 참여…TSMC·인텔도 합류 - 조선비즈 - Chosunbiz",
@@ -35,11 +25,12 @@
    "agents": []
   },
   {
-   "title": "中 CXMT, 차세대 메모리 기술 약진…삼성·SK하이닉스 긴장 - 지디넷코리아",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "中 CXMT, 차세대 D램 기술 공개에 SK하이닉스·마이크론 동반 급락 - 뉴스핌",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
+    "M-CYCLE",
     "C-CHINA"
    ]
   },
@@ -53,7 +44,16 @@
    ]
   },
   {
-   "title": "하이닉스 10%·삼성전자 7% 급락…실적 호황에도 반도체 PER 4배 붕괴 By EBN - Investing.com 한국어",
+   "title": "중국 CXMT 'D램 신기술 확보' 주장에 삼성전자 SK하이닉스 주가 하락, 해외 증권사는 회의적 - 비즈니스포스트",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "삼전닉스 단일레버리지 14∼20% 급락…'하닉' 상장 후 최저가 - 연합뉴스",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -71,13 +71,6 @@
   {
    "title": "환율 부담에도 버틴 D램…“SK하이닉스, 3분기 실적 기대치 부합할 것” - 매일경제 마켓",
    "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "코스피, 장중 6000선 붕괴...삼성전자 7%, SK하이닉스 9% 폭락 - 조선일보",
-   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -104,6 +97,13 @@
    "agents": []
   },
   {
+   "title": "코스피, 장중 6000선 붕괴...삼성전자 7%, SK하이닉스 9% 폭락 - 조선일보",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성전자·SK하이닉스, 중국 경쟁 우려로 급락 - Investing.com 한국어",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
@@ -113,13 +113,6 @@
   {
    "title": "SK하이닉스, 범용 CPU 한계 넘는 초경량 'H-TPU' 솔루션 공개 - 지디넷코리아",
    "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "하이닉스, 10% 폭락해 '140만 닉스' 마감…삼전도 7.4%↓(종합2보) - 연합뉴스",
-   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
