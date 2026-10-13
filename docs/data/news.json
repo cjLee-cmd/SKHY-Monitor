@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-14 01:54",
+ "ts_kst": "10-14 02:04",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -13,17 +13,7 @@
   "R-LEVERAGE": 12
  },
  "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "‘중국발 반도체 쇼크’로 SK하이닉스 8%대, 삼성전자 6%대 급락… 매도 사이드카 발동 - 주간동아",
-   "agents": [
-    "M-RISK"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "中 CXMT ‘차세대 D램’ 쇼크…삼성전자·SK하이닉스 급락 - 매일경제",
@@ -93,15 +83,15 @@
    "agents": []
   },
   {
-   "title": "환율 부담에도 버틴 D램…“SK하이닉스, 3분기 실적 기대치 부합할 것” - 매일경제 마켓",
+   "title": "SK하이닉스, 목표주가 400만원 유지하는 이유…“환율 이기는 실적”[클릭e종목] - 아시아경제",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 주가, 오늘 왜 급락했나? - Investing.com 한국어",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "SK하이닉스 목표가 360만원 유지, 왜?…\"실적도 주주환원도 기대\" - 뉴시스",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -123,14 +113,14 @@
    ]
   },
   {
-   "title": "SK그룹 사장단 인사 올해도 조기단행 가닥, 하이닉스 곽노정·이노베이션 장용호 부회장 승진 후보 떠올라 - 비즈니스포스트",
-   "pub": "Mon, 12 Oct 2026",
+   "title": "SK하이닉스 주가, 오늘 왜 급락했나? - Investing.com 한국어",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 범용 CPU 한계 넘는 초경량 'H-TPU' 솔루션 공개 - 지디넷코리아",
+   "title": "SK그룹 사장단 인사 올해도 조기단행 가닥, 하이닉스 곽노정·이노베이션 장용호 부회장 승진 후보 떠올라 - 비즈니스포스트",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -634,13 +624,6 @@
    "agents": []
   },
   {
-   "title": "Chip stocks falling after sell-off in Korea's KOSPI",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
    "title": "Micron to Hit $3,000? That's How High One Analyst Thinks the Stock Could Go",
    "pub": "Tue, 13 Oct 2026",
    "src": "en",
@@ -651,6 +634,15 @@
   },
   {
    "title": "Why Micron Stock Dropped Again on Tuesday",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Falls Again as Musk Issues Chinese Memory Warning",
    "pub": "Tue, 13 Oct 2026",
    "src": "en",
    "q": "MU",
