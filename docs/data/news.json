@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-14 07:09",
+ "ts_kst": "10-14 07:19",
  "n_items": 102,
  "by_source": {
   "kr": 74,
@@ -7,14 +7,25 @@
  },
  "routed": {
   "C-CHINA": 11,
-  "M-CYCLE": 15,
-  "C-BUYBACK": 1,
+  "M-CYCLE": 16,
+  "C-BUYBACK": 2,
   "F-ACTIVE": 8,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 56,
- "alerts": [],
+ "unassigned": 55,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "\"SK하닉보다 8조 더 푼다\"…마이크론 '47조' 통 큰 자사주 매입 - 마켓인",
+   "agents": [
+    "M-CYCLE",
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "中 CXMT ‘차세대 D램’ 쇼크…삼성전자·SK하이닉스 급락 - 매일경제",
@@ -51,6 +62,15 @@
    "agents": []
   },
   {
+   "title": "마이크론보다 2배 더 빠진 하이닉스…\"반도체 아니라 한국 문제\" - 파이낸셜뉴스",
+   "pub": "Sun, 11 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "필라델피아 반도체지수 5일째 하락…마이크론 3.6%↓·SK하이닉스 3.2%↓ - 뉴스1",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
@@ -60,14 +80,17 @@
    ]
   },
   {
-   "title": "메모리 팔고 소부장 담은 외국인… K반도체 투자지형 바뀌나 [삼전 주가 굴욕 ③] - IT조선",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "\"SK하닉보다 8조 더 푼다\"…마이크론 '47조' 통 큰 자사주 매입 - 마켓인",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE",
+    "C-BUYBACK"
+   ]
   },
   {
-   "title": "코스피, 장중 6000선 붕괴...삼성전자 7%, SK하이닉스 9% 폭락 - 조선일보",
+   "title": "SK하이닉스 주가, 오늘 왜 급락했나? By Investing.com - Investing.com 한국어",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -83,21 +106,14 @@
    ]
   },
   {
-   "title": "\"SK하이닉스 올해 실적 전망치 상향조정…영업이익 405조\"-하나 - 머니투데이 - 머니투데이",
-   "pub": "Mon, 12 Oct 2026",
+   "title": "메모리 팔고 소부장 담은 외국인… K반도체 투자지형 바뀌나 [삼전 주가 굴욕 ③] - IT조선",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "주가는 연일 떨어지는데…SK하이닉스 목표가 400만원 유지하는 이유 - 매일경제 마켓",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주가, 오늘 왜 급락했나? By Investing.com - Investing.com 한국어",
+   "title": "코스피, 장중 6000선 붕괴...삼성전자 7%, SK하이닉스 9% 폭락 - 조선일보",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -125,8 +141,8 @@
    "agents": []
   },
   {
-   "title": "하이닉스, 10% 폭락해 '140만 닉스' 마감…삼전도 7.4%↓(종합2보) - 연합뉴스",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "\"SK하이닉스 올해 실적 전망치 상향조정…영업이익 405조\"-하나 - 머니투데이 - 머니투데이",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -635,6 +651,13 @@
    ]
   },
   {
+   "title": "Stocks Struggle Ahead of September CPI Report: Stock Market Today",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "China's CXMT Sparked a Global Chip Stock Rout. Why Samsung, Micron and SK Hynix Are Tumbling.",
    "pub": "Tue, 13 Oct 2026",
    "src": "en",
@@ -646,15 +669,6 @@
   },
   {
    "title": "Investment Advisor Ross Gerber Calls Micron Decline Overdone — Cites Multi-Year Supply Agreements",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology Has Lost 29% From Its June High: Rosenblatt Sees 103% Upside",
    "pub": "Tue, 13 Oct 2026",
    "src": "en",
    "q": "MU",
