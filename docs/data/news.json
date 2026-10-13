@@ -1,40 +1,20 @@
 {
- "ts_kst": "10-14 05:59",
- "n_items": 102,
+ "ts_kst": "10-14 06:09",
+ "n_items": 101,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 27
  },
  "routed": {
   "C-CHINA": 9,
-  "M-CYCLE": 18,
+  "M-CYCLE": 15,
   "C-BUYBACK": 1,
-  "M-RISK": 2,
-  "F-ACTIVE": 8,
+  "F-ACTIVE": 7,
+  "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 56,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "꺼지지 않는 빚투…지난주 반대매매, 4배 넘게 터졌다 - Daum",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "\"SK하닉보다 8조 더 푼다\"…마이크론 '47조' 통 큰 자사주 매입 - 마켓인",
-   "agents": [
-    "M-CYCLE",
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 60,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, 범용 CPU 한계 넘는 초경량 'H-TPU' 솔루션 공개 - 지디넷코리아",
@@ -62,7 +42,7 @@
    ]
   },
   {
-   "title": "하이닉스, 10% 폭락해 '140만 닉스' 마감…삼전도 7.4%↓(종합2보) - 연합뉴스",
+   "title": "코스피, 장중 6000선 붕괴...삼성전자 7%, SK하이닉스 9% 폭락 - 조선일보",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -146,7 +126,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스 하락 마감 - 뉴스핌",
+   "title": "SK하이닉스 -10%…파랗게 질린 코스피 5.46% 급락 마감 - 서울신문",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -160,26 +140,8 @@
    "agents": []
   },
   {
-   "title": "‘중국발 반도체 쇼크’로 SK하이닉스 8%대, 삼성전자 6%대 급락… 매도 사이드카 발동 - 주간동아",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "MS 신형 AI 반도체에 'HBM4' 성능 핵심으로 앞세워, 삼성전자 SK하이닉스에 수혜 예고 - 비즈니스포스트",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성전자, 반도체 협력사 직원에 감사 이벤트…커피차-영화관람 지원 - 동아일보",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "삼성전자, 반도체 협력사 5만8000명에 '감사'…연말까지 상생 행사 - 전자신문",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -192,36 +154,13 @@
    "agents": []
   },
   {
-   "title": "“AI 메모리 병목 돌파”…삼성·AMD, 용량 확장 기술 공개 - 서울경제",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "HBM 다음은?...삼성전자, 차세대 AI 메모리 제품군 확장 - 지디넷코리아",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "“삼성보다 2년 빨리” 중국의 D램 도발…CXMT, 차세대메모리 연내출시 - 매일경제",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": [
-    "M-CYCLE"
+    "C-CHINA"
    ]
-  },
-  {
-   "title": "삼성 ‘반도체 트리플 초격차’ 띄웠다…HBM5등 신기술 대거공개 - 매일경제",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성전자·삼성전기가 베트남을 새 반도체 기지로 낙점한 진짜 배경 - 글로벌이코노믹",
-   "pub": "Sat, 10 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "100조원 영업이익에도 삼성전자 주가 왜 안올라? “감동이 없어서” [반도체 투자 리포트] - 세계일보",
@@ -231,8 +170,8 @@
    "agents": []
   },
   {
-   "title": "삼성·SK하이닉스, 어플라이드 50억 달러 에픽서 AI 반도체 혁신 가속 - 테크월드",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "삼성전자·삼성전기가 베트남을 새 반도체 기지로 낙점한 진짜 배경 - 글로벌이코노믹",
+   "pub": "Sat, 10 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -245,8 +184,22 @@
    "agents": []
   },
   {
-   "title": "삼성전자 '100조 잭팟' 뒤 서늘한 경고…\"한국이 흔들린다\" [테크로그] - 한국경제",
+   "title": "삼성전자, 반도체 협력사 5만8000명에 커피차·영화관람 지원 - 아시아투데이",
    "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 제조 모든 과정 'AX 생태계' 추진 - 한국경제",
+   "pub": "Sun, 11 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 100조 벌고도 주가는 4.7% ↓…증권가 \"최고 63만원\" - 세계일보",
+   "pub": "Sat, 10 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -260,6 +213,27 @@
   },
   {
    "title": "삼성전자, 반도체 협력사 5만8000명에 커피차·영화관람 제공 - 국민일보",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성 반도체, 협력사 직원 5만8천명에 감사행사…커피차 등 지원 - 연합뉴스",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 협력사 임직원 5만8000명과 상생 행사 - 르몽드디플로마티크",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 협력사 직원에 '커피·영화' 쏜다 - 머니투데이 - 머니투데이",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -290,15 +264,6 @@
    "q": "메모리 반도체 중국",
    "agents": [
     "M-CYCLE"
-   ]
-  },
-  {
-   "title": "“삼성보다 2년 빨리” 중국의 D램 도발…CXMT, 차세대메모리 연내출시 - 매일경제",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
    ]
   },
   {
@@ -500,13 +465,11 @@
    "agents": []
   },
   {
-   "title": "올 코스피 외국인 순매도 200조 돌파…지수는 6000선 ‘붕괴’ - 세계일보",
+   "title": "코스피 5% 급락…중국발 반도체 공급 우려·외인 순매도에 휘청 - 머니투데이 - 머니투데이",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "[개미 손실 경보] 반대매매·신용청산: 삼성전자·SK하이닉스 중심 강제청산 현실화 - 주달",
@@ -638,7 +601,7 @@
    ]
   },
   {
-   "title": "Micron (MU) Trades at 7x Forward Earnings: Is it a Bargain or a Peak-Cycle Warning?",
+   "title": "Micron Just Raised Its Buyback Authorization to $35 Billion. Prediction: It Spends More Buying Back Stock in the Next Year Than in the Past 8 Combined.",
    "pub": "Tue, 13 Oct 2026",
    "src": "en",
    "q": "MU",
@@ -652,6 +615,15 @@
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "Micron (MU) Trades at 7x Forward Earnings: Is it a Bargain or a Peak-Cycle Warning?",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "China's CXMT Sparked a Global Chip Stock Rout. Why Samsung, Micron and SK Hynix Are Tumbling.",
