@@ -1,19 +1,29 @@
 {
- "ts_kst": "10-13 10:40",
- "n_items": 100,
+ "ts_kst": "10-13 10:50",
+ "n_items": 102,
  "by_source": {
-  "kr": 71,
+  "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 15,
-  "C-CHINA": 11,
-  "F-ACTIVE": 5,
-  "M-RISK": 1,
+  "M-RISK": 2,
+  "C-CHINA": 9,
+  "M-CYCLE": 13,
+  "F-ACTIVE": 6,
   "R-LEVERAGE": 11
  },
- "unassigned": 60,
- "alerts": [],
+ "unassigned": 63,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "‘중국발 반도체 쇼크’로 SK하이닉스 8%대, 삼성전자 6%대 급락… 매도 사이드카 발동 - 주간동아",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 범용 CPU 한계 넘는 초경량 'H-TPU' 솔루션 공개 - 지디넷코리아",
@@ -23,7 +33,30 @@
    "agents": []
   },
   {
-   "title": "[특징주] SK하이닉스, 장 초반 2.6% 급락…삼전도 0.9%↓ - 매일경제 마켓",
+   "title": "‘중국발 반도체 쇼크’로 SK하이닉스 8%대, 삼성전자 6%대 급락… 매도 사이드카 발동 - 주간동아",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "title": "키움운용, '삼성전자&SK하이닉스채권혼합50' 이달 분배금 146원 - 연합뉴스",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'KIWOOM 삼성전자&SK하이닉스채권혼합50' ETF, 10월 분배금 146원 - 아시아경제",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "주가는 연일 떨어지는데…SK하이닉스 목표가 400만원 유지하는 이유 - 매일경제 마켓",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -51,34 +84,13 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 목표주가 400만원 유지하는 이유…“환율 이기는 실적”[클릭e종목] - 아시아경제",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "반도체대전 14일 개막…삼성·SK하이닉스 등 300개사 참가 - 연합뉴스",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM 그 다음은?…삼성·SK하이닉스, 차세대 AI 메모리 기술 경쟁 - 뉴시스",
-   "pub": "Mon, 12 Oct 2026",
+   "title": "최태원 'CXMT의 SK하이닉스 추격' 우려에 관영매체 의기양양, \"중국과 협력이 해법\" - 비즈니스포스트",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "M-CYCLE"
+    "C-CHINA"
    ]
-  },
-  {
-   "title": "삼성·SK하이닉스 총출동…역대 최대 반도체대전 14일 개막 - 뉴스핌",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "中 CXMT, 차세대 D램 기술 공개에 SK하이닉스·마이크론 동반 급락 - 뉴스핌",
@@ -91,22 +103,11 @@
    ]
   },
   {
-   "title": "삼성·SK하이닉스 주가 3% 이상 하락…中 CXMT 차세대 D램 개발 진전 발표 - Investing.com 한국어",
+   "title": "美 메모리주 급락, 무슨 일?…삼성·SK하이닉스도 '중국발 변수' - 마켓인",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "최태원 'CXMT의 SK하이닉스 추격' 우려에 관영매체 의기양양, \"중국과 협력이 해법\" - 비즈니스포스트",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
+   "agents": []
   },
   {
    "title": "삼성·SK하이닉스, 美 50억달러 연구동맹…차세대 반도체 공동 개발 - 뉴스핌",
@@ -130,15 +131,22 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 협력사 임직원에 커피차…\"고맙습니다\" - 마켓인",
+   "title": "\"SK하이닉스, 내년 영업익 전망치 405조원으로 상향 조정\"-하나 - 한국경제",
    "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성 반도체, 협력사에 감사 행사…커피차·영화 관람 등 지원 - 연합뉴스TV",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 협력사 직원에 '커피·영화' 쏜다 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "삼성전자, 반도체 협력사 임직원에 커피차…\"고맙습니다\" - 마켓인",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -160,6 +168,13 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "삼성·SK하이닉스 총출동…역대 최대 반도체대전 14일 개막 - 뉴스핌",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "삼성전자, 100조 벌고도 주가는 4.7% ↓…증권가 \"최고 63만원\" - 세계일보",
@@ -212,6 +227,13 @@
   },
   {
    "title": "삼성전자, 반도체 협력사 임직원에 커피차 쏜다…영화관람 행사도 - 뉴스1",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 반도체 협력사 직원에 '커피·영화' 쏜다 - 머니투데이 - 머니투데이",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -401,6 +423,15 @@
    ]
   },
   {
+   "title": "코스피 부진 배경에…IM證 \"원화 강세로 외국인 순매도 확대\" - 뉴시스",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "외국인 매도에 6400 무너진 코스피…“AI 투자심리 위축” - 중앙일보",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
@@ -424,6 +455,13 @@
    "agents": []
   },
   {
+   "title": "'원화 강세=외국인 귀환' 공식 깨지나…외국인, 나흘새 8조 '팔자' - 메트로신문",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피 5% 급락에 두 달 만 매도 사이드카…외국인 1조 넘게 팔아 - 자본시장뉴스",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
@@ -435,20 +473,6 @@
   {
    "title": "iM증권 “원화 강세가 외국인 매도 부추겨…코스피 부진 영향” - 에너지경제신문",
    "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "[T나는 경제] 역대급 실적에도 올해 외국인 200조 이탈…언제 돌아오나 - 티제이비",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "올해 코스피서 200조 판 외국인…삼전닉스만 173조 던졌다 [투자360] - 헤럴드경제",
-   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -574,6 +598,13 @@
    ]
   },
   {
+   "title": "SNDK, MU, INTC, AMD, SKHY: Chip Stocks Extend Slide As AI Funding Concerns, China Competition Weigh On Sector",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Dow Jones Futures: Micron, Nvidia Lead AI Trade Lower; Apple, Meta Rally Near Buy Points",
    "pub": "Tue, 13 Oct 2026",
    "src": "en",
@@ -621,33 +652,6 @@
   },
   {
    "title": "Micron, Fannie Mae, eBay, IonQ, Salesforce, and More Stocks That Explain Today’s Market",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Drops. A Chinese Rival Is Muscling In on Its Turf.",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "3 Reasons We’re Fans of Micron (MU)",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Just Said Something That Could Change How Investors See the Stock",
    "pub": "Mon, 12 Oct 2026",
    "src": "en",
    "q": "MU",
