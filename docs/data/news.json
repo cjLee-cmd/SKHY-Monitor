@@ -1,19 +1,29 @@
 {
- "ts_kst": "10-14 02:14",
- "n_items": 102,
+ "ts_kst": "10-14 02:24",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
   "M-CYCLE": 12,
   "C-CHINA": 7,
+  "M-RISK": 2,
   "F-ACTIVE": 8,
-  "M-RISK": 1,
   "R-LEVERAGE": 12
  },
  "unassigned": 64,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "‘중국발 반도체 쇼크’로 SK하이닉스 8%대, 삼성전자 6%대 급락… 매도 사이드카 발동 - 주간동아",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "中 CXMT, 차세대 D램 기술 공개에 SK하이닉스·마이크론 동반 급락 - 뉴스핌",
@@ -142,6 +152,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "‘중국발 반도체 쇼크’로 SK하이닉스 8%대, 삼성전자 6%대 급락… 매도 사이드카 발동 - 주간동아",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
    "title": "MS 신형 AI 반도체에 'HBM4' 성능 핵심으로 앞세워, 삼성전자 SK하이닉스에 수혜 예고 - 비즈니스포스트",
@@ -635,15 +654,6 @@
   },
   {
    "title": "Micron to Hit $3,000? That's How High One Analyst Thinks the Stock Could Go",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Micron Stock Dropped Again on Tuesday",
    "pub": "Tue, 13 Oct 2026",
    "src": "en",
    "q": "MU",
