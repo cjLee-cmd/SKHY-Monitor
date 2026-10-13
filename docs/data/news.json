@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-14 00:45",
+ "ts_kst": "10-14 00:55",
  "n_items": 102,
  "by_source": {
   "kr": 74,
@@ -8,11 +8,11 @@
  "routed": {
   "C-CHINA": 9,
   "M-RISK": 2,
-  "M-CYCLE": 9,
-  "F-ACTIVE": 6,
+  "M-CYCLE": 10,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
- "unassigned": 67,
+ "unassigned": 65,
  "alerts": [],
  "items": [
   {
@@ -104,15 +104,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자·SK하이닉스, 중국 경쟁 우려로 급락 - Investing.com 한국어",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "SK하이닉스, 범용 CPU 한계 넘는 초경량 'H-TPU' 솔루션 공개 - 지디넷코리아",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 범용 CPU 한계 넘는 초경량 'H-TPU' 솔루션 공개 - 지디넷코리아",
-   "pub": "Mon, 12 Oct 2026",
+   "title": "삼성전자·SK하이닉스, 중국 경쟁 우려로 급락 - Investing.com 한국어",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -206,6 +206,13 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 반도체 협력사 5만8000명에 감사 행사 - 동아일보",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 반도체 협력사 5만8000명에 커피차·영화관람 제공 - 국민일보",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
@@ -214,13 +221,6 @@
   },
   {
    "title": "삼성전자, 반도체 협력사 직원에 고마움 전하고 안전 지킨다 - 중부일보",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체 협력사 5만8000명에 감사… 커피차·영화관 초청 - 중앙일보",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -412,11 +412,13 @@
    "agents": []
   },
   {
-   "title": "[뉴스줌인]기약 없는 코스피 外人이탈…한 해 200조 팔아치웠다 - 전자신문",
+   "title": "외국인, 올해 코스피에서 순매도한 주식의 87%가 ‘삼전닉스’ - 조선비즈 - Chosunbiz",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "외국인, 올해 코스피서 199조 순매도…\"시장 고민은 외인 수급\"(종합) - 연합뉴스",
@@ -426,6 +428,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "[뉴스줌인]기약 없는 코스피 外人이탈…한 해 200조 팔아치웠다 - 전자신문",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "[속보]코스피, 5.5% 급락한 6,035 마감…외국인 2조원대 순매도에 한때 매도 사이드카 발동 - 강원일보",
@@ -453,13 +462,6 @@
   },
   {
    "title": "외국인 4.5조원 투매에 코스피 5.46%↓... 장중 6000선도 붕괴 [마감시황] - 매일일보",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외국인 5조 ‘팔자’에 코스피 급락한 ‘검은 화요일’ - 주간동아",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -616,6 +618,15 @@
    "agents": []
   },
   {
+   "title": "Micron to Hit $3,000? That's How High One Analyst Thinks the Stock Could Go",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Why Micron Stock Dropped Again on Tuesday",
    "pub": "Tue, 13 Oct 2026",
    "src": "en",
@@ -630,16 +641,6 @@
    "src": "en",
    "q": "MU",
    "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Analyst lists 7 reasons why China CXMT’s claims don’t threaten Micron and Sandisk",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "C-CHINA",
     "M-CYCLE"
    ]
   }
