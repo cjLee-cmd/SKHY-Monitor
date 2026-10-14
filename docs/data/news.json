@@ -1,19 +1,32 @@
 {
- "ts_kst": "10-15 06:47",
- "n_items": 100,
+ "ts_kst": "10-15 06:57",
+ "n_items": 101,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 27
  },
  "routed": {
-  "M-CYCLE": 15,
+  "M-CYCLE": 16,
+  "C-BUYBACK": 1,
+  "P-ADR": 1,
   "C-CHINA": 9,
   "M-RISK": 1,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
- "unassigned": 57,
- "alerts": [],
+ "unassigned": 56,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "마이크론, 자사주 매입 47조원 확대…\"SK하이닉스보다 후하다\" - 이데일리",
+   "agents": [
+    "M-CYCLE",
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, HBM4 후공정 장비 일부 물량 내년으로 '연기' - 딜사이트",
@@ -32,6 +45,41 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "마이크론, 자사주 매입 47조원 확대…\"SK하이닉스보다 후하다\" - 이데일리",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE",
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "마이크론보다 2배 더 빠진 하이닉스…\"반도체 아니라 한국 문제\" - 파이낸셜뉴스",
+   "pub": "Sun, 11 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[속보] SK하이닉스 ADR 6.06%↓… 뉴욕증시 일제히 하락 마감 - 국민일보",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "최태원 SK그룹 회장, 미국 앤디 김 상원의원 만나 반도체 등 한미 경제협력 논의...유정준 SK하이닉스 부회장 배석 - 녹색경제신문",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "中 메모리, 물량 넘어 기술 추격…삼성전자·SK하이닉스 흔든 CXMT - IT조선",
@@ -96,20 +144,6 @@
    "agents": []
   },
   {
-   "title": "[속보]삼성전자 보합…SK하이닉스 1.7% 하락 마감 - 뉴시스",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[포토] 엔비디아 슈퍼칩 전시된 SK하이닉스 부스 - 전자신문",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "中 YMTC, 낸드 출하량 세계 3위로…삼성·SK하이닉스 추격 - 뉴스1",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
@@ -117,20 +151,6 @@
    "agents": [
     "C-CHINA"
    ]
-  },
-  {
-   "title": "“SK하이닉스 팔 때인가 살 때인가”...월가 고수는 ‘찜’했다 [머니+] - 에너지경제신문",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "안현 SK하이닉스 사장 \"HBF 최종 규격 내년 1월 확정\" - 디일렉",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "삼성전자, 반도체 협력사 5만8000명에 '감사'…연말까지 상생 행사 - 전자신문",
@@ -147,7 +167,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 협력사 임직원에 커피차 - 한국경제",
+   "title": "삼성 반도체, 협력사 직원 5만8000명에 커피차·영화표 감사행사 - 조선일보",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -170,6 +190,13 @@
    ]
   },
   {
+   "title": "AI가 반도체 설계·제조 어떻게 바꿀까…삼성전자가 답한다 - 머니투데이 - 머니투데이",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "\"AI 반도체 패러다임 바뀐다\"…삼성전자·SK하이닉스 흔드는 '진부화 공포' - 뉴시스",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
@@ -184,6 +211,13 @@
    "agents": [
     "C-CHINA"
    ]
+  },
+  {
+   "title": "삼성전자 \"셀 면적 줄인 D램 개발 중\"…中 추격에 대응 - 더팩트",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "\"삼성전자 7만원, 하이닉스 20만원\"…반도체주 전망에 무슨 일이 - 파이낸셜뉴스",
@@ -216,20 +250,11 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 360조 투입 '용인 반도체 클러스터' 청사진 공개 - 마켓인",
-   "pub": "Wed, 14 Oct 2026",
+   "title": "삼성전자, 반도체 협력사 5.8만명에 감사 전한다…커피차·영화관람 지원 - 더구루",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체대전서 HBM4E·'용인 산단' 비전 공개 - 아시아경제",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "’돈나무 언니’ 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 By The Guru - Investing.com 한국어",
@@ -314,6 +339,13 @@
    "agents": []
   },
   {
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
+   "pub": "Mon, 04 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
    "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
    "pub": "Thu, 09 Jul 2026",
    "src": "kr",
@@ -337,13 +369,6 @@
   {
    "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
    "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "[World IP STARs 2026] “중국과 반도체 기술 격차 길어야 1년”… 이종호 서울대 교수 - IPDaily",
-   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -639,15 +664,6 @@
   },
   {
    "title": "Is Micron Still The Business You Bought?",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Elon Musk Says Micron Is Making a ‘Smart Move’ on Memory. Micron Stock Falls Anyway.",
    "pub": "Wed, 14 Oct 2026",
    "src": "en",
    "q": "MU",
