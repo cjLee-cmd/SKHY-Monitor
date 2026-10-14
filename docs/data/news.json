@@ -1,20 +1,31 @@
 {
- "ts_kst": "10-14 21:14",
+ "ts_kst": "10-14 21:23",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 17,
-  "C-BUYBACK": 1,
+  "M-CYCLE": 19,
+  "C-BUYBACK": 2,
   "C-CHINA": 7,
   "M-RISK": 1,
-  "F-ACTIVE": 6,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
- "unassigned": 60,
- "alerts": [],
+ "unassigned": 57,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "마이크론, 자사주 매입 47조원 확대…\"SK하이닉스보다 후하다\" - 이데일리",
+   "agents": [
+    "M-CYCLE",
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스 저격한 머스크…\"마이크론 메모리 가격만 적당\" - 연합인포맥스",
@@ -26,8 +37,8 @@
    ]
   },
   {
-   "title": "SK하이닉스, HBM4 후공정 장비 일부 물량 내년으로 '연기' - 딜사이트",
-   "pub": "Wed, 14 Oct 2026",
+   "title": "마이크론보다 2배 더 빠진 하이닉스…\"반도체 아니라 한국 문제\" - 파이낸셜뉴스",
+   "pub": "Sun, 11 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
@@ -35,18 +46,23 @@
    ]
   },
   {
-   "title": "하나증권 \"삼성전자 SK하이닉스 주가 단기 낙폭 과대, 실적·주주환원 따른 투심 회복 기대\" - 비즈니스포스트",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주가, 오늘 왜 하락했나? - Investing.com 한국어",
+   "title": "마이크론, 자사주 매입 47조원 확대…\"SK하이닉스보다 후하다\" - 이데일리",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE",
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "SK하이닉스, HBM4 후공정 장비 일부 물량 내년으로 '연기' - 딜사이트",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자·SK하이닉스, 자사주 안전판 사라지자 두 달치 반등세 모두 반납 - 인베스트조선",
@@ -462,14 +478,16 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인 매도에 6거래일 연속 하락…6000선 턱걸이 - 서울경제TV",
-   "pub": "Wed, 14 Oct 2026",
+   "title": "외국인, 올해 코스피서 199조 순매도…\"시장 고민은 외인 수급\"(종합) - 연합뉴스",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
-   "title": "코스피, 외국인 7거래일 연속 ‘팔자’…6000선 턱걸이 - 팍스경제TV",
+   "title": "코스피, 외국인 매도에 6거래일 연속 하락…6000선 턱걸이 - 서울경제TV",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -632,6 +650,15 @@
    ]
   },
   {
+   "title": "Micron Technology and Krispy Kreme have been highlighted as Zacks Bull and Bear of the Day",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Stock Keeps Sliding but Musk Says It’s Making a ‘Smart Move’",
    "pub": "Wed, 14 Oct 2026",
    "src": "en",
@@ -642,15 +669,6 @@
   },
   {
    "title": "Micron's Customer Contracts Just Took the Memory Cycle Off the Table",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "No Single Customer Accounts for 10% of Micron's Sales Anymore, and That Lowers One Risk in the Stock",
    "pub": "Wed, 14 Oct 2026",
    "src": "en",
    "q": "MU",
