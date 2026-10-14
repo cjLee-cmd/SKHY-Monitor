@@ -1,48 +1,36 @@
 {
- "ts_kst": "10-15 05:37",
- "n_items": 104,
+ "ts_kst": "10-15 05:47",
+ "n_items": 103,
  "by_source": {
   "kr": 75,
-  "en": 29
+  "en": 28
  },
  "routed": {
-  "M-CYCLE": 17,
-  "C-CHINA": 10,
+  "M-CYCLE": 16,
   "C-BUYBACK": 1,
-  "M-RISK": 1,
+  "C-CHINA": 8,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
- "unassigned": 59,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "‘중국발 반도체 쇼크’로 SK하이닉스 8%대, 삼성전자 6%대 급락… 매도 사이드카 발동 - 주간동아",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "마이크론, 자사주 매입 47조원 확대…\"SK하이닉스보다 후하다\" - 이데일리",
-   "agents": [
-    "M-CYCLE",
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 60,
+ "alerts": [],
  "items": [
   {
-   "title": "안현 SK하이닉스 사장 \"HBM 넘어 새로운 메모리 시대 열겠다\" - 머니투데이 - 머니투데이",
+   "title": "SK하이닉스, HBM4 후공정 장비 일부 물량 내년으로 '연기' - 딜사이트",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
     "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 자사주 안전판 사라지자 두 달치 반등세 모두 반납 - 인베스트조선",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
    ]
   },
   {
@@ -55,45 +43,14 @@
    ]
   },
   {
-   "title": "마이크론·키옥시아 제친 中 YMTC…삼성·SK하이닉스 맹추격 - 뉴시스",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA",
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "마이크론, 자사주 매입 47조원 확대…\"SK하이닉스보다 후하다\" - 이데일리",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE",
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "中 메모리, 물량 넘어 기술 추격…삼성전자·SK하이닉스 흔든 CXMT - IT조선",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "中 CXMT ‘차세대 D램’ 쇼크…삼성전자·SK하이닉스 급락 - 매일경제",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "삼성전자 SK하이닉스 반등 가능 할까? - 네이버 프리미엄콘텐츠",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[단독] 위약금 20억이면 ‘솔리다임’ 상장?… “중복상장 제재 실효성 없다” - 세계일보",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -107,18 +64,20 @@
    "agents": []
   },
   {
-   "title": "\"SK하닉 너마저\" 주가 이런데 쪼개기 상장?…솔리다임 IPO 진짜 셈법 - 머니투데이 - 머니투데이",
-   "pub": "Mon, 12 Oct 2026",
+   "title": "솔리다임, GAAP 전문가 급구…SK하이닉스 손자회사 미 나스닥 상장 수순 By 알파경제 alphabiz - Investing.com 한국어",
+   "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[단독] 위약금 20억이면 ‘솔리다임’ 상장?… “중복상장 제재 실효성 없다” - 세계일보",
+   "title": "안현 SK하이닉스 사장 \"HBM 넘어 새로운 메모리 시대 열겠다\" - 머니투데이 - 머니투데이",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "[속보]삼성전자 보합…SK하이닉스 1.7% 하락 마감 - 뉴시스",
@@ -152,6 +111,20 @@
   },
   {
    "title": "“SK하이닉스 팔 때인가 살 때인가”...월가 고수는 ‘찜’했다 [머니+] - 에너지경제신문",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 반등 실패 후 1.7% 하락 마감…6거래일 연속 내려(종합) - 매일경제 마켓",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피, 6000선 회복하며 상승 출발…삼성전자·SK하이닉스 동반 강세 By EBN - Investing.com 한국어",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -200,7 +173,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 차세대 '4F² VCT D램' 개발 재확인…CXMT 메모리 추격 대응 - 지디넷코리아",
+   "title": "中 메모리, 물량 넘어 기술 추격…삼성전자·SK하이닉스 흔든 CXMT - IT조선",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -234,20 +207,20 @@
    ]
   },
   {
+   "title": "삼성전자, 차세대 '4F² VCT D램' 개발 재확인…CXMT 메모리 추격 대응 - 지디넷코리아",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
    "title": "삼성전자 SK하이닉스 주가 하락이 미국 증시 반도체주 위축하고 다시 코스피에 부담 주는 '악순환' - 비즈니스포스트",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
-  },
-  {
-   "title": "‘중국발 반도체 쇼크’로 SK하이닉스 8%대, 삼성전자 6%대 급락… 매도 사이드카 발동 - 주간동아",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-RISK"
-   ]
   },
   {
    "title": "삼성전자 '반도체대전' 참가‥HBM4E 등 AI 반도체 기술 선보인다 - MBC 뉴스",
@@ -640,6 +613,15 @@
    ]
   },
   {
+   "title": "CoreWeave, Intel, Micron, & other tech stocks are plummeting. Here's why.",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Nvidia stock sinks as chip sell-off deepens on hot inflation data",
    "pub": "Wed, 14 Oct 2026",
    "src": "en",
@@ -663,22 +645,11 @@
    "agents": []
   },
   {
-   "title": "Is Micron Still The Business You Bought?",
+   "title": "3 Trillion-Dollar Giants That Could Be the Next Big Stock-Split Plays",
    "pub": "Wed, 14 Oct 2026",
    "src": "en",
    "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Elon Musk Says Micron Is Making a ‘Smart Move’ on Memory. Micron Stock Falls Anyway.",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   }
  ],
  "guards": {
