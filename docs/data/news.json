@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-14 10:20",
+ "ts_kst": "10-14 10:30",
  "n_items": 101,
  "by_source": {
   "kr": 73,
@@ -8,12 +8,12 @@
  "routed": {
   "C-CHINA": 8,
   "C-BUYBACK": 3,
-  "M-CYCLE": 14,
+  "M-CYCLE": 13,
   "F-ACTIVE": 9,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 56,
+ "unassigned": 57,
  "alerts": [],
  "items": [
   {
@@ -49,14 +49,14 @@
    "agents": []
   },
   {
-   "title": "[특징주] 삼전·닉스, 전날 급락 딛고 장초반 2∼3%대 상승 - 연합뉴스",
+   "title": "[단독] 최태원, 앤디 김 만났다…대미 대관 전면 등판 - 한국경제",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[단독] 최태원, 앤디 김 만났다…대미 대관 전면 등판 - 한국경제",
+   "title": "[특징주] 삼전·닉스, 전날 급락 딛고 장초반 2∼3%대 상승 - 연합뉴스",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -97,7 +97,21 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 -10%…파랗게 질린 코스피 5.46% 급락 마감 - 서울신문",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "'장중 7% 급락' 코스피, 6천 회복하며 마감‥삼성전자 7%↓·SK하이닉스 10%↓ - MBC 뉴스",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하락 마감한 코스피·SK하이닉스·삼성전자 - 뉴스핌",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -118,20 +132,6 @@
    "agents": []
   },
   {
-   "title": "'200조 기업가치' 기대감…SK하이닉스, 솔리다임 상장으로 얻을 실익은? - 뉴시스",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "실적은 역대급일 텐데…SK하이닉스, 높아진 기대 속 '솔리다임 상장' 셈법 관심 - 아시아경제",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"삼성전자 당분간은…\" 충격 전망에 '반도체 돈잔치' 딜레마 - 한국경제",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
@@ -139,8 +139,15 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 협력사 직원에 감사 이벤트…커피차-영화관람 지원 - 동아일보",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "삼성전자, 반도체 협력사 5만8000명에 '감사'…연말까지 상생 행사 - 전자신문",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, AI 반도체 '풀 라인업' 공개…360조 용인 산단 청사진도 제시 - 지디넷코리아",
+   "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -155,11 +162,13 @@
    ]
   },
   {
-   "title": "삼성전자, AI 반도체 '풀 라인업' 공개…360조 용인 산단 청사진도 제시 - 지디넷코리아",
+   "title": "삼성전자, SEDEX서 HBM4E·첨단 패키징 공개 … 용인 360조 투자 청사진 - 뉴데일리",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "4시간 걸리던 반도체 불량 분석 30분 만에…삼성전자, 신기술 개발 - 뉴스1",
@@ -176,6 +185,20 @@
    "agents": []
   },
   {
+   "title": "삼성전자, 반도체 협력사 직원에 '커피·영화' 쏜다 - 머니투데이 - 머니투데이",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성 반도체, 협력사에 감사 행사…커피차·영화 관람 등 지원 - 연합뉴스TV",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "HBM4E부터 2나노 GAA까지…삼성전자, AI 반도체 총출동[SEDEX 2026] - 데일리안",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
@@ -185,44 +208,21 @@
    ]
   },
   {
-   "title": "[SEDEX·KES 2026] “이것이 바로 삼성의 기술력”…AI 반도체 통합 역량에 ‘시선집중’ - ER 이코노믹리뷰",
-   "pub": "Wed, 14 Oct 2026",
+   "title": "삼성전자, 반도체 협력사 5만8000명에 커피차·영화관람 제공 - 국민일보",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자, SEDEX서 HBM4E·첨단 패키징 공개 … 용인 360조 투자 청사진 - 뉴데일리",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "100조원 영업이익에도 삼성전자 주가 왜 안올라? “감동이 없어서” [반도체 투자 리포트] - 세계일보",
-   "pub": "Mon, 12 Oct 2026",
+   "title": "삼성전자, 반도체 협력사에 커피차 쐈다 - 파이낸셜뉴스",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
    "title": "삼성전자, 반도체 협력사 5.8만명에 감사 전한다…커피차·영화관람 지원 - 더구루",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 반도체 협력사 5만8000명에 감사 행사 - 동아일보",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 \"차세대 메모리 핵심은 속도·확장·영속\" - 디일렉",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -348,7 +348,7 @@
    "agents": []
   },
   {
-   "title": "10월 외국인 12조원 순매도…\"코스피 W자 반등, 두 번째 바닥 탐색\" By EBN - Investing.com 한국어",
+   "title": "외국인, 올해 코스피에서 순매도한 주식의 87%가 ‘삼전닉스’ - 조선일보",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -357,7 +357,7 @@
    ]
   },
   {
-   "title": "외국인, 올해 코스피에서 순매도한 주식의 87%가 ‘삼전닉스’ - 조선일보",
+   "title": "10월 외국인 12조원 순매도…\"코스피 W자 반등, 두 번째 바닥 탐색\" By EBN - Investing.com 한국어",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -601,6 +601,22 @@
    ]
   },
   {
+   "title": "U.S. stock futures muted after chip losses drag Wall Street; CPI data awaited",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Micron Technology (MU) Dropped, What Is Driving Attention Now?",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Just Raised Its Buyback Authorization to $35 Billion. Prediction: It Spends More Buying Back Stock in the Next Year Than in the Past 8 Combined.",
    "pub": "Tue, 13 Oct 2026",
    "src": "en",
@@ -637,24 +653,6 @@
   },
   {
    "title": "Investment Advisor Ross Gerber Calls Micron Decline Overdone — Cites Multi-Year Supply Agreements",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology Has Lost 29% From Its June High: Rosenblatt Sees 103% Upside",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "What Is Next For Micron Stock?",
    "pub": "Tue, 13 Oct 2026",
    "src": "en",
    "q": "MU",
