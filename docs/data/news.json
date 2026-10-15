@@ -1,31 +1,46 @@
 {
- "ts_kst": "10-15 13:08",
+ "ts_kst": "10-15 13:18",
  "n_items": 102,
  "by_source": {
   "kr": 75,
   "en": 27
  },
  "routed": {
-  "M-RISK": 2,
   "M-CYCLE": 11,
+  "M-RISK": 2,
   "C-BUYBACK": 1,
   "C-CHINA": 7,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 12
  },
  "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스피·코스닥 동반 매도 사이드카…미국 인플레·AI 수익 우려로 - 한겨레",
-   "agents": [
-    "M-RISK"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
+  {
+   "title": "삼성전자·SK하이닉스 저격한 머스크…\"마이크론 메모리 가격만 적당\" - 연합인포맥스",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "안현 SK하이닉스 사장 \"HBM 넘어 새로운 메모리 시대 열겠다\" - 머니투데이 - 머니투데이",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 중국 공장 연계해 미국 반도체 장비 수출 승인 요청 By Investing.com - Investing.com 한국어",
+   "pub": "Thu, 15 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
   {
    "title": "[속보]SK하이닉스 8%↓ 미국발 충격에 급락…코스피 매도사이드카 발동 - 문화일보",
    "pub": "Thu, 15 Oct 2026",
@@ -52,30 +67,7 @@
    ]
   },
   {
-   "title": "삼성전자·SK하이닉스 저격한 머스크…\"마이크론 메모리 가격만 적당\" - 연합인포맥스",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스, 중국 공장 연계해 미국 반도체 장비 수출 승인 요청 By Investing.com - Investing.com 한국어",
-   "pub": "Thu, 15 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "메모리 확장 사활 건 SK하이닉스, 美 대관 역량 강화로 영토 확장 정조준 - 뉴시스",
-   "pub": "Thu, 15 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "하이닉스 130만원 붕괴…얼어붙은 반도체주, 반등 가능할까 - 주간조선",
    "pub": "Thu, 15 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -103,15 +95,6 @@
    "agents": []
   },
   {
-   "title": "안현 SK하이닉스 사장 \"HBM 넘어 새로운 메모리 시대 열겠다\" - 머니투데이 - 머니투데이",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "삼성전자·SK하이닉스, 자사주 안전판 사라지자 두 달치 반등세 모두 반납 - 인베스트조선",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
@@ -136,6 +119,13 @@
   },
   {
    "title": "청주시, SK하이닉스와 894억원 규모 공업용수 공급 협약 - 매일경제 마켓",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[포토] 엔비디아 슈퍼칩 전시된 SK하이닉스 부스 - 전자신문",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -267,21 +257,21 @@
    "agents": []
   },
   {
-   "title": "머스크 \"중국 범용 메모리 반도체는 추격해도 HBM 진입 여전히 난제\" - 글로벌이코노믹",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "창신메모리는 양치기? ‘중국 반도체 굴기’ 두렵지 않은 이유 [뉴스톡 웰스톡] - 뉴스웰",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
     "C-CHINA"
+   ]
+  },
+  {
+   "title": "머스크 \"중국 범용 메모리 반도체는 추격해도 HBM 진입 여전히 난제\" - 글로벌이코노믹",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
