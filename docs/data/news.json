@@ -1,36 +1,28 @@
 {
- "ts_kst": "10-15 22:57",
+ "ts_kst": "10-15 23:07",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
+  "M-CYCLE": 13,
   "M-RISK": 1,
-  "M-CYCLE": 12,
   "C-CHINA": 6,
   "F-ACTIVE": 5,
   "R-LEVERAGE": 13
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "[속보]SK하이닉스 8%↓ 미국발 충격에 급락…코스피 매도사이드카 발동 - 문화일보",
-   "agents": [
-    "M-RISK"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
-   "title": "\"삼성전자 7만원, 하이닉스 20만원\"…반도체주 전망에 무슨 일이 - 파이낸셜뉴스",
+   "title": "삼성전자·SK하이닉스 저격한 머스크…\"마이크론 메모리 가격만 적당\" - 연합인포맥스",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "\"SK하이닉스 '美 투자할테니 中 공장에 반도체장비 허용' 요구\" - 머니투데이 - 머니투데이",
@@ -61,6 +53,20 @@
    "agents": [
     "M-RISK"
    ]
+  },
+  {
+   "title": "SK하이닉스 주가, 오늘 왜 급락했나? - Investing.com 한국어",
+   "pub": "Thu, 15 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"하루 만에 13억 수익 났는데\"…하이닉스 49억 투자한 회장의 반전 - 마켓인",
+   "pub": "Thu, 15 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "SK하이닉스는 잡음 끊이지 않는 '솔리다임 상장' 왜 밀어붙일까 - 인베스트조선",
@@ -116,22 +122,8 @@
    ]
   },
   {
-   "title": "SK하이닉스, 창립 43주년 맞아 기업PR 캠페인…오프라인 전시회 개최 - 뉴시스",
+   "title": "SK하이닉스, 43년 역사 담은 ‘초심 프로젝트’ 전시 개최 - 마켓인",
    "pub": "Thu, 15 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "청주시, SK하이닉스와 894억 원 공업용수 부담금 협약 체결 - 노컷뉴스",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“SK하이닉스 팔 때인가 살 때인가”...월가 고수는 ‘찜’했다 [머니+] - 에너지경제신문",
-   "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -183,13 +175,6 @@
    "agents": []
   },
   {
-   "title": "\"삼성전자 7만원, 하이닉스 20만원\"…'역대급 실적'에도 어두운 전망, 왜 - 아시아경제",
-   "pub": "Thu, 15 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "현장서 본 삼성·SK의 반도체 전략…종합 반도체 vs 메모리 특화 - MTN 머니투데이방송",
    "pub": "Thu, 15 Oct 2026",
    "src": "kr",
@@ -199,6 +184,13 @@
   {
    "title": "AI가 반도체 설계·제조 어떻게 바꿀까…삼성전자가 답한다 - 머니투데이 - 머니투데이",
    "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "\"삼성전자 7만원, 하이닉스 20만원\"…'역대급 실적'에도 어두운 전망, 왜 - 아시아경제",
+   "pub": "Thu, 15 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -615,6 +607,13 @@
    ]
   },
   {
+   "title": "Tech slumps as AI financing worries grow, investors flock to bonds: AlphaCheck",
+   "pub": "Thu, 15 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Nvidia stock sinks amid concerns over AI financing",
    "pub": "Thu, 15 Oct 2026",
    "src": "en",
@@ -639,15 +638,6 @@
   },
   {
    "title": "Micron Stock Falls Again as Memory-Chip Slump Persists. What Can Turn It Around.",
-   "pub": "Thu, 15 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Elon Musk Just Gave Investors Another Reason to Buy Micron Stock",
    "pub": "Thu, 15 Oct 2026",
    "src": "en",
    "q": "MU",
