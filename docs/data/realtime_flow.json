@@ -1,17 +1,17 @@
 {
- "ts_kst": "10-15 18:02",
+ "ts_kst": "10-15 18:12",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
-   "price": 210000.0,
-   "chg_pct": -9.48,
+   "price": 211000.0,
+   "chg_pct": -9.05,
    "slot": "5",
    "foreign_qty": -8531000.0,
-   "foreign_eok": -17915.1,
+   "foreign_eok": -18000.4,
    "inst_qty": 486000.0,
-   "inst_eok": 1020.6,
+   "inst_eok": 1025.5,
    "retail_qty": 8045000.0,
-   "retail_eok": 16894.5,
+   "retail_eok": 16975.0,
    "slots": [
     {
      "slot": "5",
@@ -42,15 +42,15 @@
   },
   "hynix": {
    "name": "SK하이닉스",
-   "price": 1256000.0,
-   "chg_pct": -11.49,
+   "price": 1262000.0,
+   "chg_pct": -11.06,
    "slot": "5",
    "foreign_qty": -1093000.0,
-   "foreign_eok": -13728.1,
+   "foreign_eok": -13793.7,
    "inst_qty": 175000.0,
-   "inst_eok": 2198.0,
+   "inst_eok": 2208.5,
    "retail_qty": 918000.0,
-   "retail_eok": 11530.1,
+   "retail_eok": 11585.2,
    "slots": [
     {
      "slot": "5",
@@ -83,11 +83,6 @@
  "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
  "triggers": [],
  "log": [
-  {
-   "ts": "10-03 07:18",
-   "samsung": -1418.6,
-   "hynix": -902.6
-  },
   {
    "ts": "10-03 07:28",
    "samsung": -1418.6,
@@ -2950,6 +2945,11 @@
    "ts": "10-15 18:02",
    "samsung": -17915.1,
    "hynix": -13728.1
+  },
+  {
+   "ts": "10-15 18:12",
+   "samsung": -18000.4,
+   "hynix": -13793.7
   }
  ]
 }
