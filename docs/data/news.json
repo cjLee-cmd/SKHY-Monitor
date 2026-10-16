@@ -1,17 +1,17 @@
 {
- "ts_kst": "10-16 20:44",
+ "ts_kst": "10-16 20:54",
  "n_items": 105,
  "by_source": {
   "kr": 75,
   "en": 30
  },
  "routed": {
+  "F-ACTIVE": 10,
   "M-CYCLE": 12,
   "C-CHINA": 7,
-  "F-ACTIVE": 8,
   "R-LEVERAGE": 12
  },
- "unassigned": 66,
+ "unassigned": 64,
  "alerts": [],
  "items": [
   {
@@ -57,14 +57,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 협력사 구성원·가족 초청…곽노정 \"깊은 감사\" - 지디넷코리아",
+   "title": "SK하이닉스, ‘ThanksFULL Day’ 개최…협력사 구성원·가족 3만 명 초청 - 동아일보",
    "pub": "Fri, 16 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"숨은 주역에 감사\"…SK하이닉스, 협력사·사내 구성원 초청 행사 - 아시아경제",
+   "title": "SK하이닉스, 협력사 구성원·가족 초청…곽노정 \"깊은 감사\" - 지디넷코리아",
    "pub": "Fri, 16 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -76,6 +76,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "끝 모를 외국인 매도에 ‘그로기 상태’ 빠진 코스피… 이번 주 삼전닉스 8조9000억 순매도 - 주간동아",
+   "pub": "Fri, 16 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "SK하이닉스, 협력사 직원·가족 3만명 서울랜드 초청 - 매일일보",
@@ -92,8 +101,8 @@
    "agents": []
   },
   {
-   "title": "솔리다임 프리IPO 50억달러 모집 마무리…해외 중심으로 연말까지 밸류 협상 - 인베스트조선",
-   "pub": "Fri, 16 Oct 2026",
+   "title": "SK하이닉스는 잡음 끊이지 않는 '솔리다임 상장' 왜 밀어붙일까 - 인베스트조선",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -108,13 +117,6 @@
   {
    "title": "“삼성 7만원·하이닉스 20만원”…이주완의 반도체 거품론, 과거 전망은 맞았나 - 주간경향",
    "pub": "Thu, 15 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "반도체부트캠프사업단, SK하이닉스 전문가 초청 세미나 개최 - 경남대학교 대표",
-   "pub": "Fri, 16 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -343,13 +345,11 @@
    "agents": []
   },
   {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 27 Jun 2026",
+   "title": "[World IP STARs 2026] “중국과 반도체 기술 격차 길어야 1년”… 이종호 서울대 교수 - IPDaily",
+   "pub": "Thu, 24 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "\"외국인 순매도 사상최대 전망\"…코스피 수급 불확실성 커진다 - 연합인포맥스",
@@ -400,13 +400,6 @@
    ]
   },
   {
-   "title": "코스피, 7일 연속 폭락 끝에 반등…장중 5700선 회복 외국인은 '팔자' - 산경투데이",
-   "pub": "Fri, 16 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인, 올해 코스피서 199조 순매도…\"시장 고민은 외인 수급\"(종합) - 연합뉴스",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
@@ -423,15 +416,6 @@
    "agents": []
   },
   {
-   "title": "끝 모를 외국인 매도에 ‘그로기 상태’ 빠진 코스피… 이번 주 삼전닉스 8조9000억 순매도 - 주간동아",
-   "pub": "Fri, 16 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "코스피·코스닥, 전날 급락 딛고 반등…코스피, 개인·기관·외국인 순매도 - 프리진경제",
    "pub": "Fri, 16 Oct 2026",
    "src": "kr",
@@ -443,6 +427,15 @@
   {
    "title": "코스피 3.65% 급락해 두 달 만에 6380대 '털썩'…외국인 순매도 행렬 지속 - 전자신문",
    "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "외국인 이달에만 18조원 순매도…8거래일 연속 '팔자' - 글로벌경제신문",
+   "pub": "Thu, 15 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -471,6 +464,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "외국인, 올해 코스피에서 순매도한 주식의 87%가 ‘삼전닉스’ - 조선비즈 - Chosunbiz",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "“내년까지 주식계좌 안볼랍니다”…8일만에 추락 겨우 멈췄지만 - 매일경제 마켓",
@@ -611,6 +613,15 @@
    ]
   },
   {
+   "title": "Why Micron Stock’s Drop Is Triggering ‘Buy the Dip’ Calls",
+   "pub": "Fri, 16 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Prediction: A $10,000 Investment in This Artificial Intelligence (AI) Hardware Stock Will At Least Double by 2030 (Hint: It’s Not Nvidia or Micron)",
    "pub": "Fri, 16 Oct 2026",
    "src": "en",
@@ -628,15 +639,6 @@
   },
   {
    "title": "Micron Stock Is 25% Below Its June Record. Is It a Buy Now?",
-   "pub": "Fri, 16 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Is Chinese Memory Competition Altering The Investment Case For Micron Stock (MU)?",
    "pub": "Fri, 16 Oct 2026",
    "src": "en",
    "q": "MU",
