@@ -1,17 +1,18 @@
 {
- "ts_kst": "10-18 10:59",
+ "ts_kst": "10-18 11:09",
  "n_items": 102,
  "by_source": {
   "kr": 73,
   "en": 29
  },
  "routed": {
+  "C-BUYBACK": 1,
   "M-CYCLE": 16,
   "C-CHINA": 3,
   "F-ACTIVE": 8,
   "R-LEVERAGE": 13
  },
- "unassigned": 62,
+ "unassigned": 61,
  "alerts": [],
  "items": [
   {
@@ -22,7 +23,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 美 솔리다임 상장 추진에 ‘중복상장’ 논란 - 조선일보",
+   "title": "[해외 자회사 IPO①] 솔리다임 美 상장…SK하이닉스 이사회 책임은 - 연합인포맥스",
    "pub": "Sat, 17 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -31,6 +32,20 @@
   {
    "title": "“하이닉스 바겐세일 왜 안사요?”라는 증권가…2028년까지 끄떡없다는데 [여의도란도란] - 매일경제 마켓",
    "pub": "Sun, 18 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "외인 투매에 '삼전닉스' 기록적 주간 낙폭…증권가는 \"역사적 저평가\" - 뉴시스",
+   "pub": "Sun, 18 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"삼전닉스 공포가 폭락시켰다?\"...오히려 매수 적기라는 증권사 - 파이낸셜뉴스",
+   "pub": "Fri, 16 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -72,7 +87,7 @@
   },
   {
    "title": "SK하이닉스, 올 3Q 영업익 80조 돌파할까…\"추가 주주환원도 주목\" - 뉴시스",
-   "pub": "Fri, 16 Oct 2026",
+   "pub": "Sat, 17 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -101,20 +116,6 @@
   {
    "title": "하이닉스 주가 급락, 49억원치 사들였다 손실…누구? - 경기일보",
    "pub": "Thu, 15 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"반도체는 워싱턴서 결정\"…직접 美 달려간 최태원의 승부수 [강경주의 테크X] - 한국경제",
-   "pub": "Sat, 17 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "국민연금, 증시 급락에 182조 손실…삼성전자·SK하이닉스 직격탄 - 서울경제TV",
-   "pub": "Sun, 18 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -169,15 +170,24 @@
    "agents": []
   },
   {
-   "title": "삼성·SK하이닉스 급락에 반도체 ETF도 ‘비명’ - 매일경제",
-   "pub": "Thu, 15 Oct 2026",
+   "title": "주가 떨어지는데 웃는 직원들?…반도체 자사주 성과급의 역설 - 파이낸셜뉴스",
+   "pub": "Sat, 17 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "“삼성전자·SK하이닉스 지금이 저점 잡을 때… 용기 내볼 시점” - 주간동아",
+   "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "“삼성전자·SK하이닉스 지금이 저점 잡을 때… 용기 내볼 시점” - 주간동아",
-   "pub": "Wed, 14 Oct 2026",
+   "title": "삼성·SK하이닉스 급락에 반도체 ETF도 ‘비명’ - 매일경제",
+   "pub": "Thu, 15 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -190,13 +200,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "\"삼성전자 7만원, 하이닉스 20만원\"…'역대급 실적'에도 어두운 전망, 왜 - 아시아경제",
-   "pub": "Thu, 15 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
   },
   {
    "title": "삼성전자, 반도체 대전서 HBM4E 등 AI 반도체 기술 총망라 - 연합뉴스",
@@ -640,11 +643,13 @@
    ]
   },
   {
-   "title": "If I Had to Pick 1 Tech Stock to Hold Through the Next Recession, It Would Be This One",
+   "title": "Cathie Wood Is Avoiding Micron. Micron Bulls Might Want to Celebrate",
    "pub": "Sat, 17 Oct 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   }
  ],
  "guards": {
