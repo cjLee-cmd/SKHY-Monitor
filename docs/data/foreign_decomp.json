@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-19 09:05",
+ "ts_kst": "10-19 09:15",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -17,33 +17,19 @@
    },
    "brokers": {
     "sell": {
-     "total": 984584.0,
-     "foreign": 298787.0,
-     "foreign_pct": 30.3,
-     "houses": [
-      {
-       "name": "메릴린치",
-       "qty": 158465.0
-      },
-      {
-       "name": "JP모간",
-       "qty": 140322.0
-      }
-     ]
+     "total": 1541140.0,
+     "foreign": 0.0,
+     "foreign_pct": 0.0,
+     "houses": []
     },
     "buy": {
-     "total": 891375.0,
-     "foreign": 224881.0,
-     "foreign_pct": 25.2,
-     "houses": [
-      {
-       "name": "모간서울",
-       "qty": 224881.0
-      }
-     ]
+     "total": 1377397.0,
+     "foreign": 0.0,
+     "foreign_pct": 0.0,
+     "houses": []
     },
-    "net_foreign_qty": -73906.0,
-    "foreign_share_pct": 27.9
+    "net_foreign_qty": 0.0,
+    "foreign_share_pct": 0.0
    }
   },
   "hynix": {
@@ -62,45 +48,37 @@
    },
    "brokers": {
     "sell": {
-     "total": 198149.0,
-     "foreign": 115149.0,
-     "foreign_pct": 58.1,
+     "total": 260569.0,
+     "foreign": 132289.0,
+     "foreign_pct": 50.8,
      "houses": [
       {
        "name": "맥쿼리",
-       "qty": 42739.0
-      },
-      {
-       "name": "메릴린치",
-       "qty": 36729.0
+       "qty": 49717.0
       },
       {
        "name": "모간서울",
-       "qty": 35681.0
+       "qty": 45790.0
+      },
+      {
+       "name": "메릴린치",
+       "qty": 36782.0
       }
      ]
     },
     "buy": {
-     "total": 184114.0,
-     "foreign": 113768.0,
-     "foreign_pct": 61.8,
+     "total": 280770.0,
+     "foreign": 102238.0,
+     "foreign_pct": 36.4,
      "houses": [
       {
        "name": "모간서울",
-       "qty": 62279.0
-      },
-      {
-       "name": "메릴린치",
-       "qty": 29118.0
-      },
-      {
-       "name": "JP모간",
-       "qty": 22371.0
+       "qty": 102238.0
       }
      ]
     },
-    "net_foreign_qty": -1381.0,
-    "foreign_share_pct": 59.9
+    "net_foreign_qty": -30051.0,
+    "foreign_share_pct": 43.3
    }
   }
  },
