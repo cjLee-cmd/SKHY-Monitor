@@ -1,66 +1,66 @@
 {
- "ts_kst": "10-19 09:15",
- "score": 32.5,
- "verdict": "판단 유보",
+ "ts_kst": "10-19 09:25",
+ "score": 29.0,
+ "verdict": "정당한 재평가",
  "components": {
   "A_통계극단성": 0,
   "B_체인동조성": 20.0,
-  "C_펀더멘털배율": 1.7,
-  "D_역사되돌림": 10.8
+  "C_펀더멘털배율": 0,
+  "D_역사되돌림": 9.0
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -7.11,
-   "sd": 4.82,
-   "z": -1.04,
-   "n_episodes": 12,
+   "cum": 0.95,
+   "sd": 4.81,
+   "z": 0.14,
+   "n_episodes": 3,
    "forward": {
     "5": {
-     "mean": 4.01,
-     "median": 5.26,
-     "up_rate": 75
+     "mean": 3.21,
+     "median": 0.0,
+     "up_rate": 33
     },
     "20": {
-     "mean": 5.59,
-     "median": 1.03,
-     "up_rate": 58
+     "mean": 2.77,
+     "median": -6.43,
+     "up_rate": 33
     },
     "60": {
-     "mean": 24.2,
-     "median": 7.35,
+     "mean": 32.1,
+     "median": 43.46,
      "up_rate": 67
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -10.36,
-   "sd": 5.79,
-   "z": -1.26,
-   "n_episodes": 12,
+   "cum": -2.06,
+   "sd": 5.77,
+   "z": -0.25,
+   "n_episodes": 7,
    "forward": {
     "5": {
-     "mean": 0.67,
-     "median": 2.56,
-     "up_rate": 58
+     "mean": 8.29,
+     "median": 6.71,
+     "up_rate": 100
     },
     "20": {
-     "mean": 0.83,
-     "median": -1.28,
-     "up_rate": 50
+     "mean": 19.92,
+     "median": 27.73,
+     "up_rate": 57
     },
     "60": {
-     "mean": 24.09,
-     "median": 13.87,
-     "up_rate": 58
+     "mean": 34.78,
+     "median": 33.57,
+     "up_rate": 86
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -7.11,
-  "SK하이닉스": -10.36,
+  "삼성전자": 0.95,
+  "SK하이닉스": -2.06,
   "마이크론": -3.86,
   "TSMC": -4.04,
   "ASML": -0.51,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -1.26,
-  "drop_avg": 8.73,
-  "fundamental_ratio": 1.13,
+  "z_min": -0.25,
+  "drop_avg": 0.56,
+  "fundamental_ratio": 0.07,
   "chain_negative": "4/5"
  },
- "caveat": "역사 표본 12개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 7개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
