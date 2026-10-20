@@ -1,39 +1,28 @@
 {
- "ts_kst": "10-21 04:30",
- "n_items": 103,
+ "ts_kst": "10-21 04:40",
+ "n_items": 104,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 30
  },
  "routed": {
-  "C-CHINA": 4,
   "F-ACTIVE": 7,
-  "C-BUYBACK": 1,
+  "C-CHINA": 4,
   "M-CYCLE": 12,
   "R-LEVERAGE": 12
  },
- "unassigned": 68,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "SK하이닉스 자사주 매입 종료 D-1···삼성전자 이어 ‘수급공백’ 우려 확산 - 시사저널e",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "’돈나무 언니’ 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 By The Guru - Investing.com 한국",
-   "agents": []
-  }
- ],
+ "unassigned": 70,
+ "alerts": [],
  "items": [
   {
    "title": "“하이닉스 470만·삼성전자 67만 간다”…노무라 파격 전망, 왜 - 중앙일보",
+   "pub": "Tue, 20 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"그래도 더 담아라\"…'60만전자·470만닉스' 간다는 증권가 - 한국경제",
    "pub": "Tue, 20 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -45,15 +34,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "중국 CXMT 가파른 성장은 메모리반도체 업황에 긍정 신호, 삼성전자 SK하이닉스에 영향 주목 - 비즈니스포스트",
-   "pub": "Tue, 20 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
   },
   {
    "title": "안철수 “이 대통령, SK하이닉스 손자회사 ‘솔리다임’ 미국 증시 상장 반드시 막아야” - 경향신문",
@@ -128,17 +108,15 @@
    ]
   },
   {
-   "title": "SK하이닉스 자사주 매입 종료 D-1···삼성전자 이어 ‘수급공백’ 우려 확산 - 시사저널e",
-   "pub": "Tue, 20 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
    "title": "KB국민은행, SK하이닉스·무보와 2500억원 규모 반도체 협력사 금융지원 - 전자신문",
    "pub": "Mon, 19 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "4대 은행, SK하이닉스와 반도체 협력사 지원…총 2조 규모 - 아시아경제",
+   "pub": "Tue, 20 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -191,6 +169,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "중국 CXMT 가파른 성장은 메모리반도체 업황에 긍정 신호, 삼성전자 SK하이닉스에 영향 주목 - 비즈니스포스트",
+   "pub": "Tue, 20 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "소비자가 기억하는 삼성은 ‘반도체’가 아닌 ‘전자’다 [줌인IT] - IT조선",
@@ -566,13 +553,6 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
    "pub": "Sun, 26 Jul 2026",
    "src": "kr",
@@ -580,6 +560,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
@@ -612,6 +599,15 @@
    "agents": []
   },
   {
+   "title": "Prediction: Micron Could Turn a $5,000 Investment Into This by 2030",
+   "pub": "Tue, 20 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Trump Dumped Micron, Up 338% in a Year. The Memory Cycle Decides Who’s Right",
    "pub": "Tue, 20 Oct 2026",
    "src": "en",
@@ -635,25 +631,6 @@
    "src": "en",
    "q": "MU",
    "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Not Micron. Not Sandisk. This Storage Stock Is Riding the Same AI Infrastructure Wave.",
-   "pub": "Tue, 20 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress?",
-   "pub": "Tue, 20 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "C-CHINA",
     "M-CYCLE"
    ]
   }
