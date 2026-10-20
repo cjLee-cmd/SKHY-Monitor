@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-21 03:21",
+ "ts_kst": "10-21 03:30",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -7,12 +7,23 @@
  },
  "routed": {
   "F-ACTIVE": 6,
+  "C-BUYBACK": 1,
   "C-CHINA": 4,
   "M-CYCLE": 11,
   "R-LEVERAGE": 12
  },
- "unassigned": 71,
- "alerts": [],
+ "unassigned": 70,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스 자사주 매입 종료 D-1···삼성전자 이어 ‘수급공백’ 우려 확산 - 시사저널e",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "“하이닉스 470만·삼성전자 67만 간다”…노무라 파격 전망, 왜 - 중앙일보",
@@ -36,8 +47,8 @@
    "agents": []
   },
   {
-   "title": "솔리다임 100억불 美 상장 추진…SK하이닉스 ‘제2 LG엔솔’ 되나 - 브릿지경제",
-   "pub": "Tue, 20 Oct 2026",
+   "title": "안철수 “이 대통령, SK하이닉스 손자회사 ‘솔리다임’ 미국 증시 상장 반드시 막아야” - 경향신문",
+   "pub": "Mon, 19 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -64,13 +75,11 @@
    "agents": []
   },
   {
-   "title": "외국인, SK하이닉스 한 달째 순매도...중복상장 논란까지 - YTN",
+   "title": "SK하닉 단일종목 레버리지, 5000원 아래로…이러다 ‘동전주’ 될라 - 경향신문",
    "pub": "Tue, 20 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "안성시의회, SK하이닉스 반도체 처리수 방류 전면 철회·상생협약 무효화 요구 - 인천일보",
@@ -101,21 +110,25 @@
    "agents": []
   },
   {
-   "title": "KB국민은행, SK하이닉스·무보와 2500억원 규모 반도체 협력사 금융지원 - 전자신문",
-   "pub": "Mon, 19 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "4대 은행, SK하이닉스와 반도체 협력사 지원…총 2조 규모 - 아시아경제",
+   "title": "외국인, SK하이닉스 한 달째 순매도...중복상장 논란까지 - YTN",
    "pub": "Tue, 20 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
-   "title": "정부·SK하이닉스, 반도체 협력사에 2조원 보증 지원　 - 연합뉴스",
+   "title": "SK하이닉스 자사주 매입 종료 D-1···삼성전자 이어 ‘수급공백’ 우려 확산 - 시사저널e",
+   "pub": "Tue, 20 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "KB국민은행, SK하이닉스·무보와 2500억원 규모 반도체 협력사 금융지원 - 전자신문",
    "pub": "Mon, 19 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -124,20 +137,6 @@
   {
    "title": "\"갈취 수준\" 삼전닉스 겨냥한 머스크…전문가는 정면반박 - 한국경제",
    "pub": "Mon, 19 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[박종면칼럼] 삼성전자·하이닉스 반도체 초호황이 끝나면 - 블로터",
-   "pub": "Sun, 18 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "7만전자 외친 전문가의 1년 전 ‘삼성 파운드리 철수 권유’... 결과는 글쎄? [반도체 투자 리포트] - 세계일보",
-   "pub": "Sun, 18 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -152,6 +151,13 @@
   {
    "title": "삼성전자 반도체 전문가에게 듣는 취업 꿀팁… 한국폴리텍대 대구캠퍼스 특강 개최 - 매일신문",
    "pub": "Mon, 19 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "민형배 시장, 삼성전자 평택캠퍼스 방문…반도체 인프라 점검 - 아시아경제",
+   "pub": "Tue, 20 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -180,24 +186,22 @@
    "agents": []
   },
   {
-   "title": "[단독] 삼성전자, ‘차세대 HBM’ TSMC와 함께 만든다 - 서울경제",
-   "pub": "Sun, 18 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "반도체 팹 들어서니···ASML에 소부장 기업들까지 우르르 - 무등일보",
+   "title": "삼성·LG전자, 클라우드 4조 비용 부담에 'AI 반도체·OS' 독립 선언 - 소비자가 만드는 신문",
    "pub": "Mon, 19 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "민형배 시장, 삼성전자 평택캠퍼스 방문…반도체 인프라 점검 - 아시아경제",
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 기술주 훈풍에도 약세 - 뉴스핌",
    "pub": "Tue, 20 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자와 '23조 동맹' 균열?...韓 반도체 '저격수' 된 머스크 - 한경매거진",
+   "pub": "Mon, 19 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -231,6 +235,13 @@
    "agents": []
   },
   {
+   "title": "“삼성전자, 실적 성장성 확보… 내년 영업익 555조원” - 조선비즈 - Chosunbiz",
+   "pub": "Tue, 20 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼전닉스 걱정 필요 없다...WSJ \"中 CXMT, 기술력 대단치 않아...패닉 필요 없어\" - 더구루",
    "pub": "Sun, 18 Oct 2026",
    "src": "kr",
@@ -247,8 +258,8 @@
    "agents": []
   },
   {
-   "title": "머스크, 중국 메모리 반도체 증산 강조-삼성·SK하이닉스 견제 의도 주목 - 미디어파인",
-   "pub": "Sat, 17 Oct 2026",
+   "title": "’돈나무 언니’ 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 By The Guru - Investing.com 한국어",
+   "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -261,8 +272,8 @@
    "agents": []
   },
   {
-   "title": "’돈나무 언니’ 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 By The Guru - Investing.com 한국어",
-   "pub": "Wed, 14 Oct 2026",
+   "title": "머스크, 중국 메모리 반도체 증산 강조-삼성·SK하이닉스 견제 의도 주목 - 미디어파인",
+   "pub": "Sat, 17 Oct 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -293,15 +304,8 @@
    ]
   },
   {
-   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
-   "pub": "Fri, 28 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 27 Jun 2026",
+   "title": "중국 메모리 반도체 추격에 마이크론 흔들…차세대 기술 경쟁 본격화 - 제민일보",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
@@ -309,8 +313,22 @@
    ]
   },
   {
-   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
-   "pub": "Thu, 20 Aug 2026",
+   "title": "댄 아이브스 \"중국발 메모리 반도체 위협은 허구…韓 최소 3년 앞서\" - www.ebn.co.kr",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
+   "pub": "Mon, 04 May 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": []
+  },
+  {
+   "title": "[차이나 브리프] 메모리 반도체 호황, 누가 돈을 벌고 있나 - 디일렉",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
@@ -323,18 +341,13 @@
    "agents": []
   },
   {
-   "title": "댄 아이브스 \"중국발 메모리 반도체 위협은 허구…韓 최소 3년 앞서\" - www.ebn.co.kr",
-   "pub": "Wed, 14 Oct 2026",
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 27 Jun 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "[차이나 브리프] 메모리 반도체 호황, 누가 돈을 벌고 있나 - 디일렉",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "이달 18조 판 외국인 … 헤지펀드 청산했나 - 매일경제 마켓",
@@ -549,13 +562,6 @@
    ]
   },
   {
-   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
-   "pub": "Wed, 05 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
    "pub": "Sun, 26 Jul 2026",
    "src": "kr",
@@ -563,6 +569,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+   "pub": "Wed, 05 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "커지는 ‘빚투’에 경고음…“변동성 확대땐 투자자 피해 우려” - 농민신문",
@@ -595,6 +608,15 @@
    "agents": []
   },
   {
+   "title": "Micron Stock Rises to Defy 3 Warning Signals",
+   "pub": "Tue, 20 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Not Micron. Not Sandisk. This Storage Stock Is Riding the Same AI Infrastructure Wave.",
    "pub": "Tue, 20 Oct 2026",
    "src": "en",
@@ -615,15 +637,6 @@
   },
   {
    "title": "Micron Is Quietly Building a Financial Fortress. Here's Why Investors Should Care.",
-   "pub": "Tue, 20 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "History Says Micron Stock Gains 28% During the Fourth Quarter. Here's Why I Think Shares Will Surge Even More Before 2026 Is Over.",
    "pub": "Tue, 20 Oct 2026",
    "src": "en",
    "q": "MU",
