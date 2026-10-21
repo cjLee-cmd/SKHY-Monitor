@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-22 07:56",
+ "ts_kst": "10-22 08:06",
  "n_items": 103,
  "by_source": {
   "kr": 75,
@@ -7,15 +7,34 @@
  },
  "routed": {
   "M-CYCLE": 14,
-  "C-BUYBACK": 3,
+  "C-BUYBACK": 4,
   "P-ADR": 1,
   "C-CHINA": 3,
-  "F-ACTIVE": 6,
+  "F-ACTIVE": 8,
   "M-RISK": 1,
-  "R-LEVERAGE": 12
+  "R-LEVERAGE": 11
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스, 40조 자사주 매입 한 달 앞당겨 끝냈다 - 한국경제",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "[증시키워드] 삼성전자 ‘코어팀’ 신설⋯SK하이닉스 40조 자사주 매입 완료 - 이투데이",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "\"정말 피가 마릅니다\"…SK하이닉스 폭등에도 개미들은 '한숨' [분석+] - 한국경제",
@@ -34,7 +53,7 @@
    ]
   },
   {
-   "title": "SK하이닉스, 40조원 규모 자사주 매입 완료 - 연합뉴스",
+   "title": "SK하이닉스, 40조 자사주 매입 한 달 앞당겨 끝냈다 - 한국경제",
    "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -43,7 +62,7 @@
    ]
   },
   {
-   "title": "SK하이닉스, 40조 자사주 매입 종료…증시 ‘수급 공백’ 우려 - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스, 40조원 규모 자사주 매입 완료 - 연합뉴스",
    "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -175,6 +194,15 @@
    "agents": []
   },
   {
+   "title": "[증시키워드] 삼성전자 ‘코어팀’ 신설⋯SK하이닉스 40조 자사주 매입 완료 - 이투데이",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
    "title": "삼성 파운드리 4나노 ‘풀가동’… 2나노 빅테크 수주 지연 속 5나노 영업 확대 - 조선비즈 - Chosunbiz",
    "pub": "Tue, 20 Oct 2026",
    "src": "kr",
@@ -190,13 +218,6 @@
   },
   {
    "title": "메모리 장기계약 2035년까지 연장 가능성, 삼성전자와 SK하이닉스 호황 지속 청신호 - 비즈니스포스트",
-   "pub": "Mon, 19 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "\"갈취 수준\" 삼전닉스 겨냥한 머스크…전문가는 정면반박 - 한국경제",
    "pub": "Mon, 19 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -453,22 +474,26 @@
    ]
   },
   {
-   "title": "코스피, 반도체주 강세에 3%대 급등…외국인 매수세에 5700선 회복 - 굿모닝경제",
+   "title": "코스피 3.65% 급락해 두 달 만에 6380대 '털썩'…외국인 순매도 행렬 지속 - 전자신문",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "iM證 “원화 강세에도 코스피 급락…외국인 200조 순매도 부담” - 조선비즈 - Chosunbiz",
    "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
-   "title": "코스피, 장 초반 급락 딛고 상승 마감…외국인·기관 동반 매수 - 서울경제TV",
-   "pub": "Mon, 19 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "또 외국인 양털깎기 당했나…코스피만 출렁인 까닭 [박상현의 경제수다] - 한겨레",
-   "pub": "Mon, 19 Oct 2026",
+   "title": "코스피, 외국인·기관 1.5조 ’팔자’에 와르르…5550대로 후퇴 By EBN - Investing.com 한국어",
+   "pub": "Tue, 20 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -510,15 +535,6 @@
   {
    "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
    "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "코스피 급락에 반대매매 급증…4거래일 연속 500억원대 : 금융 - 재경일보",
-   "pub": "Mon, 19 Oct 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -601,6 +617,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "블랙잭 어플 결과를 강조하는 시각 효과 - Calgary Roughnecks",
+   "pub": "Sun, 18 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "Tech stocks lead market higher as SpaceX shares surge: AlphaCheck",
