@@ -1,41 +1,33 @@
 {
- "ts_kst": "10-22 04:03",
+ "ts_kst": "10-22 04:13",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 16,
+  "M-CYCLE": 15,
   "C-BUYBACK": 3,
   "C-CHINA": 3,
-  "F-ACTIVE": 8,
+  "F-ACTIVE": 7,
   "M-RISK": 1,
   "R-LEVERAGE": 12
  },
- "unassigned": 60,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스, 40조 원 규모 자사주 매입 완료 - news.sbs.co.kr",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "SK하이닉스, 발열 잡는 'iHBM' 공급망 협의 착수…HBM 선두 수성 승부수 - 전자신문",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스 \"에이전트 AI 시대 HBM만으론 한계\"…HBF·CXL 해법 제시 By The Guru - Investing.com 한국어",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스 3분기 실적 분기점… 공급 병목에 HBM4 가격 주도권 쥐는 이유 - 글로벌이코노믹",
    "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -65,6 +57,15 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스, 40조 자사주 매입 종료…증시 ‘수급 공백’ 우려 - 조선비즈 - Chosunbiz",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
    "title": "SK하이닉스, 40조원 규모 자사주 매입 완료 - 연합뉴스",
    "pub": "Wed, 21 Oct 2026",
    "src": "kr",
@@ -74,16 +75,7 @@
    ]
   },
   {
-   "title": "SK하이닉스, 40조원 자사주 매입 완료…한 달 앞당겨 종료 - 뉴시스",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "SK하이닉스, 40조 자사주 매입 종료…증시 ‘수급 공백’ 우려 - 조선비즈 - Chosunbiz",
+   "title": "SK하이닉스, 40조 원 규모 자사주 매입 완료 - news.sbs.co.kr",
    "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -132,6 +124,22 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "“SK하이닉스 상생협약 파기하라”…안성 농민·정치권 반발 확산 - 경기일보",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "KB증권 \"마이크론 대만 공장 파업 예고, 삼성전자·SK하이닉스 반사이익 기대\" - 비즈니스포스트",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "[단독] 삼성전자, 차세대메모리 핵심 개발인력 ‘성과급 차별’ 없앤다 - 매일경제",
@@ -447,36 +455,34 @@
    ]
   },
   {
-   "title": "코스피 3.65% 급락해 두 달 만에 6380대 '털썩'…외국인 순매도 행렬 지속 - 전자신문",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "외국인, 최근 13거래일 동안 26조원 순매도 - 조선일보",
+   "title": "코스피, 장 초반 급락 딛고 상승 마감…외국인·기관 동반 매수 - 서울경제TV",
    "pub": "Mon, 19 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
-   "title": "코스피, 외국인·기관 1.5조 ’팔자’에 와르르…5550대로 후퇴 By EBN - Investing.com 한국어",
+   "title": "또 외국인 양털깎기 당했나…코스피만 출렁인 까닭 [박상현의 경제수다] - 한겨레",
+   "pub": "Mon, 19 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "개미는 오를 때 팔고, 외국인은 내릴 때 팔았다 [길 잃은 증시] - 쿠키뉴스",
    "pub": "Tue, 20 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "코스피, 외국인 매도에도 3%대 반등…5700선 회복 - 뉴스핌",
-   "pub": "Fri, 16 Oct 2026",
+   "title": "코스피, 한때 상승 전환 후 소폭 내려…외국인 다시 순매도세 - SBS 뉴스",
+   "pub": "Mon, 19 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
