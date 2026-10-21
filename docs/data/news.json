@@ -1,65 +1,20 @@
 {
- "ts_kst": "10-21 22:27",
- "n_items": 103,
+ "ts_kst": "10-21 22:36",
+ "n_items": 102,
  "by_source": {
   "kr": 74,
-  "en": 29
+  "en": 28
  },
  "routed": {
   "C-BUYBACK": 3,
-  "P-ADR": 1,
-  "M-CYCLE": 9,
+  "M-CYCLE": 10,
   "C-CHINA": 3,
-  "F-ACTIVE": 8,
-  "M-RISK": 2,
+  "F-ACTIVE": 7,
+  "M-RISK": 1,
   "R-LEVERAGE": 12
  },
  "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "“빚투 27조 육박했는데 삼전닉스 폭락”...반대매매 ‘공포’ 덮친 증시 - 투데이신문",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "SK하이닉스, 40조 자사주 매입 한 달 앞당겨 끝냈다 - 한국경제",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "SK하이닉스, 40조원 규모 자사주 매입 완료 - 연합뉴스TV",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "삼성 파운드리 4나노 ‘풀가동’… 2나노 빅테크 수주 지연 속 5나노 영업 확대 - 조선비즈 - Chosunbiz",
-   "agents": []
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "\"삼성·SK하이닉스 대형 팹 투자에 대응 준비 마쳤다\" - 지디넷코리아",
@@ -96,13 +51,25 @@
    ]
   },
   {
-   "title": "SK하이닉스 ADR, 오늘 장전 거래에서 왜 오르나? - Investing.com 한국어",
+   "title": "[속보]삼성전자 5.7% SK하이닉스 5.8% 상승 마감 - 뉴시스",
    "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
+   "agents": []
+  },
+  {
+   "title": "美 AI 서버 실적 호조에 삼성전자 4%·SK하이닉스 5%대 반등 [이런국장 저런주식] - 서울경제",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"온종일 주가만 확인합니다\"…SK하이닉스 폭등에도 '한숨' [분석+] - 한국경제",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "로이터 \"삼성·SK하이닉스, 중국 공장서 첨단 낸드 생산 추진‥美 허가 불확실\" - MBC 뉴스",
@@ -163,22 +130,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "SK하이닉스 \"에이전트 AI 시대 HBM만으론 한계\"…HBF·CXL 해법 제시 By The Guru - Investing.com 한국어",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "“SK하이닉스 상생협약 파기하라”…안성 농민·정치권 반발 확산 - 경기일보",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "삼성전자 반도체, 신제품 개발 '코어팀' 가동해 보상 강화 - 연합뉴스",
@@ -405,6 +356,15 @@
    ]
   },
   {
+   "title": "코스피, 외국인 ’사자’에 3.29% 급등…매수 사이드카까지 발동 By EBN - Investing.com 한국어",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
    "title": "코스피, 한때 상승 전환 후 소폭 내려…외국인 다시 순매도세(종합) - 연합뉴스",
    "pub": "Mon, 19 Oct 2026",
    "src": "kr",
@@ -412,6 +372,22 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "코스피, 한때 상승 전환 후 소폭 내려…외국인 다시 순매도세 - KBS 뉴스",
+   "pub": "Mon, 19 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "외국인, 10월 코스피서 17조원 팔았다…'삼전닉스' 80% 집중 - 뉴스핌",
+   "pub": "Mon, 19 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "iM證 “원화 강세에도 코스피 급락…외국인 200조 순매도 부담” - 조선비즈 - Chosunbiz",
@@ -430,38 +406,6 @@
    "agents": []
   },
   {
-   "title": "코스피, 한때 상승 전환 후 소폭 내려…외국인 다시 순매도세 - KBS 뉴스",
-   "pub": "Mon, 19 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피, 외국인 ’사자’에 3.29% 급등…매수 사이드카까지 발동 By EBN - Investing.com 한국어",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "외국인, 10월 코스피서 17조원 팔았다…'삼전닉스' 80% 집중 - 뉴스핌",
-   "pub": "Mon, 19 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "개미는 오를 때 팔고, 외국인은 내릴 때 팔았다 [길 잃은 증시] - 쿠키뉴스",
-   "pub": "Tue, 20 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "이틀 반등한 코스피 다시 급락…외국인·기관 동반 매도 - 진일보 | 전남일보",
    "pub": "Tue, 20 Oct 2026",
    "src": "kr",
@@ -469,15 +413,15 @@
    "agents": []
   },
   {
-   "title": "[마감시황]AI 투심 회복에 돌아온 외국인…코스피 3%대 상승 마감 - 아주경제",
-   "pub": "Wed, 21 Oct 2026",
+   "title": "[굿모닝증시]\"코스피, 급락분은 회복 전망…'삼전닉스' 외국인 수급 지켜봐야\" - 아시아경제",
+   "pub": "Tue, 20 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "또 외국인 양털깎기 당했나…코스피만 출렁인 까닭 [박상현의 경제수다] - 한겨레",
-   "pub": "Mon, 19 Oct 2026",
+   "title": "개미는 오를 때 팔고, 외국인은 내릴 때 팔았다 [길 잃은 증시] - 쿠키뉴스",
+   "pub": "Tue, 20 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -492,18 +436,8 @@
    ]
   },
   {
-   "title": "코스피, 4% 이상 급등에 두달 만의 '매수' 사이드카…외국인 순매수세 - SBS 뉴스",
+   "title": "코스피, 반도체주 반등에 5700선 회복…외국인 6600억원 순매수 - 파이낸셜포스트",
    "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE",
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "끝 모를 외국인 매도에 ‘그로기 상태’ 빠진 코스피… 이번 주 삼전닉스 8조9000억 순매도 - 주간동아",
-   "pub": "Fri, 16 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -518,6 +452,20 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "코스피, 외국인·기관 1.5조 ’팔자’에 와르르…5550대로 후퇴 By EBN - Investing.com 한국어",
+   "pub": "Tue, 20 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피, 외국인 매도에도 3%대 반등…5700선 회복 - 뉴스핌",
+   "pub": "Fri, 16 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
@@ -656,6 +604,24 @@
    "agents": []
   },
   {
+   "title": "Prediction: $150 a Month Invested in Micron Stock Will Be Worth This Much by Year-End 2030",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Is Making Record Profits. Its Taiwan Workers Are Walking Out",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Tripled in 2026. Can It Repeat in 2027?",
    "pub": "Wed, 21 Oct 2026",
    "src": "en",
@@ -681,20 +647,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Nasdaq Futures Higher After Asian AI Rally",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "SpaceX Earnings Are Lifting the Stock—and the Entire Market",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
