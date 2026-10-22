@@ -1,42 +1,23 @@
 {
- "ts_kst": "10-23 07:46",
- "n_items": 103,
+ "ts_kst": "10-23 07:55",
+ "n_items": 104,
  "by_source": {
   "kr": 75,
-  "en": 27,
+  "en": 28,
   "dart": 1
  },
  "routed": {
   "C-BUYBACK": 4,
   "M-CYCLE": 11,
-  "C-CHINA": 1,
+  "C-CHINA": 6,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
- "unassigned": 67,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "삼성전자·SK하이닉스, 55조 자사주 매입 완료…이달 말 주주환원 발표에 이목 - 뉴시스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "‘약발’ 다한 삼전닉스?…55조 자사주 매입 끝나자 급락, 다음 주가부양 재료는... - 문화일보",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
-   "title": "[단독] 솔리다임 美상장 전격 철회…SK하이닉스, 주주의견 수용 - 한국경제",
+   "title": "[단독] SK하이닉스, 솔리다임 美 상장 전격 철회 - 한국경제",
    "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -70,34 +51,6 @@
    ]
   },
   {
-   "title": "\"공포에 살 때인가\"…삼성전자·SK하이닉스 매수 기준은 - 뉴시스",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[속보]SK하이닉스, 솔리다임 IPO 검토 중단 - 머니투데이 - 머니투데이",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[1보] SK하이닉스, 솔리다임 프리IPO·IPO 검토 중단 - 연합뉴스",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[속보] SK하이닉스, 솔리다임 프리IPO·IPO 검토 중단 - 매일경제 마켓",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, 발열 잡는 'iHBM' 공급망 협의 착수…HBM 선두 수성 승부수 - 전자신문",
    "pub": "Wed, 21 Oct 2026",
    "src": "kr",
@@ -105,6 +58,27 @@
    "agents": [
     "M-CYCLE"
    ]
+  },
+  {
+   "title": "\"공포에 살 때인가\"…삼성전자·SK하이닉스 매수 기준은 - 뉴시스",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"삼전·하이닉스 없어?\" 묻더니 이제는 \"아직도 안 팔았냐?\" - OhmyNews",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "러시아 데이터센터 불타자 삼성·SK하이닉스 빗장 풀려는 크렘린 - 글로벌이코노믹",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "을지로 뜬 최태원, 깜짝 회식…SK하이닉스 개미들 반응은 - 연합뉴스TV",
@@ -121,15 +95,6 @@
    "agents": []
   },
   {
-   "title": "번스타인 “삼성전자, 2026년 3분기 HBM 매출 SK하이닉스 추월” - Investing.com 한국어",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "SK하이닉스 주주환원과 스페이스X發 나스닥 상승 등 이시각 주요뉴스 - 연합인포맥스",
    "pub": "Wed, 21 Oct 2026",
    "src": "kr",
@@ -137,14 +102,28 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, '반도체의 날' 5관왕…권재순 부사장 동탑산업훈장 - 뉴스핌",
+   "title": "[솔리다임 논란①] SK하이닉스 던지는 외국인…한 달째 16조 줄매도 - 연합인포맥스",
    "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, '반도체의 날' 동탑산업훈장 등 5관왕 - 연합뉴스",
+   "title": "\"정말 피가 마릅니다\"…SK하이닉스 폭등에도 개미들은 '한숨' [분석+] - 한국경제",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[마감시황] 코스피, AI 투자 우려에 3.52%↓⋯SK하이닉스 5%대 급락 - 브릿지경제",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, '반도체의 날' 5관왕…권재순 부사장 동탑산업훈장 - 뉴스핌",
    "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -288,42 +267,13 @@
    "agents": []
   },
   {
-   "title": "中 반도체 이 정도였나…'없어서 못 판다' 삼전닉스 맹추격 - 한국경제",
-   "pub": "Sat, 17 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "일론 머스크, 중국발 메모리 반도체 파장 예고…삼성·SK하이닉스 긴장 - 공감신문",
-   "pub": "Sat, 17 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "'돈나무 언니' 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 - 더구루",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "머스크 \"중국 범용 메모리 반도체는 추격해도 HBM 진입 여전히 난제\" - 글로벌이코노믹",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "中 CXMT, 차세대 D램 기술 공개에 SK하이닉스·마이크론 동반 급락 - 뉴스핌",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "중국 메모리 반도체 추격에 마이크론 흔들…차세대 기술 경쟁 본격화 - 제민일보",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
+    "M-CYCLE",
+    "C-CHINA"
    ]
   },
   {
@@ -332,6 +282,15 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
+  },
+  {
+   "title": "CXMT, 애플에 “싸게 줄 이유 없다”…삼성·SK하이닉스보다 비싼 값 제시 - 테크월드",
+   "pub": "Tue, 28 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
@@ -348,13 +307,6 @@
    "agents": []
   },
   {
-   "title": "흔들리는 메모리 반도체, 진짜 이유는 중국의 추격일까? - 머니네버슬립",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
    "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
    "pub": "Thu, 09 Jul 2026",
    "src": "kr",
@@ -362,11 +314,47 @@
    "agents": []
   },
   {
-   "title": "‘범용 반도체’ 시장 빠르게 잠식하는 중국···“한국, 현재 우위 안심 안 돼” - 경향신문",
-   "pub": "Mon, 04 May 2026",
+   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
+   "pub": "Sat, 27 Jun 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "중국 메모리 반도체 굴기...‘차이나칩 포비아’ 커졌다? - 매일경제",
+   "pub": "Fri, 28 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
+  },
+  {
+   "title": "중국 최대 반도체기업 CXMT, 메모리반도체 공장 추가 건설 추진⋯메모리 자립 '총력전' - 포커스온경제",
+   "pub": "Tue, 04 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "중국 반도체 눈부신 데뷔... CXMT 첫날 472% 폭등 - 조선일보",
+   "pub": "Mon, 27 Jul 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
    "title": "\"외국인 순매도 사상최대 전망\"…코스피 수급 불확실성 커진다 - 연합인포맥스",
@@ -376,6 +364,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "외국인 208조 매도세, 올해만 특별한걸까…최근 3년 외인 투자 방향은? - 이투데이",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "[솔리다임 논란①] SK하이닉스 던지는 외국인…한 달째 16조 줄매도 - KB Think",
@@ -440,6 +435,13 @@
    ]
   },
   {
+   "title": "이틀 반등한 코스피 다시 급락…외국인·기관 동반 매도 - 진일보 | 전남일보",
+   "pub": "Tue, 20 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "10월 외국인 12조원 순매도…\"코스피 W자 반등, 두 번째 바닥 탐색\" By EBN - Investing.com 한국어",
    "pub": "Tue, 13 Oct 2026",
    "src": "kr",
@@ -447,13 +449,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "이틀 반등한 코스피 다시 급락…외국인·기관 동반 매도 - 진일보 | 전남일보",
-   "pub": "Tue, 20 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "코스피 5533.77 마감…외국인·기관 동반 투매 - 위키트리",
@@ -477,13 +472,6 @@
    "agents": [
     "F-ACTIVE"
    ]
-  },
-  {
-   "title": "“외국인들 돌아오나요?”…코스피 3%대 상승, 전날 급락 폭 회복 중 - 매일경제 마켓",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
   },
   {
    "title": "대기자금 9개월 만에 90조 붕괴…반대매매 불씨는 남아 - 자본시장뉴스",
@@ -574,6 +562,15 @@
    ]
   },
   {
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "코스피 6천선 흔들리자 반대매매 급증…빚투 부담 현실화 - 이투데이",
    "pub": "Wed, 14 Oct 2026",
    "src": "kr",
@@ -592,15 +589,6 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
    "pub": "Thu, 06 Aug 2026",
    "src": "kr",
@@ -610,8 +598,8 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "pub": "Sun, 26 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -619,18 +607,20 @@
    ]
   },
   {
-   "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+   "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
    "pub": "Thu, 22 Oct 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
+   "title": "Why Micron Stock Dropped on Thursday",
    "pub": "Thu, 22 Oct 2026",
    "src": "en",
    "q": "MU",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "Micron (MU) Falls More Steeply Than Broader Market: What Investors Need to Know",
