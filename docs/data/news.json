@@ -1,35 +1,27 @@
 {
- "ts_kst": "10-23 04:07",
- "n_items": 102,
+ "ts_kst": "10-23 04:17",
+ "n_items": 101,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 27
  },
  "routed": {
   "M-CYCLE": 10,
   "C-BUYBACK": 4,
   "C-CHINA": 1,
-  "F-ACTIVE": 8,
-  "R-LEVERAGE": 14
+  "F-ACTIVE": 7,
+  "M-RISK": 1,
+  "R-LEVERAGE": 13
  },
  "unassigned": 65,
  "alerts": [
   {
    "level": "critical",
-   "kw": "반대매매",
+   "kw": "사이드카",
    "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "title": "코스피, 외국인 ’사자’에 3.29% 급등…매수 사이드카까지 발동 By EBN - Investing.com 한국어",
    "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "SK하이닉스, 40조원 자사주 매입 조기 완료…28일 추가 주주환원 주목 By EBN - Investing.com 한국어",
-   "agents": [
-    "C-BUYBACK"
+    "M-RISK"
    ]
   }
  ],
@@ -44,14 +36,7 @@
    ]
   },
   {
-   "title": "러시아 데이터센터 불타자 삼성·SK하이닉스 빗장 풀려는 크렘린 - 글로벌이코노믹",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "반도체주 약세에… 코스피 5500선 턱걸이 - 머니투데이 - 머니투데이",
+   "title": "“바닥은 어디”…삼성전자·SK하이닉스, 나란히 3%대 약세 - 매일경제 마켓",
    "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -79,14 +64,14 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, '반도체의 날' 동탑산업훈장 등 5관왕 - 연합뉴스",
+   "title": "SK하이닉스, '반도체의 날' 5관왕…권재순 부사장 동탑산업훈장 - 뉴스핌",
    "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, '반도체의 날' 5관왕…권재순 부사장 동탑산업훈장 - 뉴스핌",
+   "title": "SK하이닉스, '반도체의 날' 동탑산업훈장 등 5관왕 - 연합뉴스",
    "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -148,7 +133,21 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 솔리다임 '뉴욕 반도체 공장 투자' 보도 이어져, 중국 의식한 국가안보 우려도 제기 - 비즈니스포스트",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성전자 노조, 합의 5개월 만에 ‘반도체 성과급’ 개선 요구 반영 추진… 개선안 81% 찬성 - 조선비즈 - Chosunbiz",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "'자회사 반도체 기술 유출' 삼성전자 전 직원들 구속기소 - 연합뉴스",
    "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -162,14 +161,7 @@
    "agents": []
   },
   {
-   "title": "삼성전자 SK하이닉스에 중국 관영매체 러브콜, \"수출 증대를 현지 투자 확대 기회로\" - 비즈니스포스트",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "“바닥은 어디”…삼성전자·SK하이닉스, 나란히 3%대 약세 - 매일경제 마켓",
+   "title": "일론 머스크 반도체 공장 '테라팹' 메모리 생산부터 추진하나, 삼성전자·SK하이닉스 경쟁자 부각 가능성 - 비즈니스포스트",
    "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -185,6 +177,13 @@
   {
    "title": "삼성 파운드리, 테일러 팹2 투자 가속화…추가 고객 확보 시험대 [반도체레이다] - 디지털데일리",
    "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "\"학교·8차선 도로·물부터\"…삼성이 호남 반도체에 주문한 3가지 - 뉴스1",
+   "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -213,22 +212,8 @@
    "agents": []
   },
   {
-   "title": "'자회사 반도체 기술 유출' 삼성전자 전 직원들 구속기소 - 연합뉴스",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자 노조, 반도체 성과급 '적자 페널티' 손본다 - 뉴스웨이",
    "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 차세대 메모리 개발 '코어팀' 꾸려…\"핵심 R&D 인력 보상 강화\" - www.ebn.co.kr",
-   "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -368,13 +353,6 @@
    ]
   },
   {
-   "title": "[솔리다임 논란①] SK하이닉스 던지는 외국인…한 달째 16조 줄매도 - KB Think",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "\"외국인 순매도 사상최대 전망\"…코스피 수급 불확실성 커진다 - 연합인포맥스",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
@@ -382,6 +360,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "[솔리다임 논란①] SK하이닉스 던지는 외국인…한 달째 16조 줄매도 - KB Think",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피, 3.5% 급락한 5533.77 마감…기관 4600억 순매도 - 데일리비즈온",
@@ -423,13 +408,6 @@
    "agents": []
   },
   {
-   "title": "코스피 5533.77 마감…외국인·기관 동반 투매 - 위키트리",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "외국인, 최근 13거래일 동안 26조원 순매도 - 조선일보",
    "pub": "Mon, 19 Oct 2026",
    "src": "kr",
@@ -439,20 +417,18 @@
    ]
   },
   {
-   "title": "이틀 반등한 코스피 다시 급락…외국인·기관 동반 매도 - 진일보 | 전남일보",
-   "pub": "Tue, 20 Oct 2026",
+   "title": "코스피 5533.77 마감…외국인·기관 동반 투매 - 위키트리",
+   "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "10월 외국인 12조원 순매도…\"코스피 W자 반등, 두 번째 바닥 탐색\" By EBN - Investing.com 한국어",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "이틀 반등한 코스피 다시 급락…외국인·기관 동반 매도 - 진일보 | 전남일보",
+   "pub": "Tue, 20 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
    "title": "코스피 3.65% 급락해 두 달 만에 6380대 '털썩'…외국인 순매도 행렬 지속 - 전자신문",
@@ -477,6 +453,15 @@
    "q": "외국인 순매도 코스피",
    "agents": [
     "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "코스피, 외국인 ’사자’에 3.29% 급등…매수 사이드카까지 발동 By EBN - Investing.com 한국어",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "M-RISK"
    ]
   },
   {
@@ -541,15 +526,6 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -559,8 +535,8 @@
    ]
   },
   {
-   "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
-   "pub": "Mon, 24 Aug 2026",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -577,26 +553,17 @@
    ]
   },
   {
+   "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "코스피 6천선 흔들리자 반대매매 급증…빚투 부담 현실화 - 이투데이",
    "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "코스피 급락에 반대매매 급증…4거래일 연속 500억원대 : 금융 - 재경일보",
-   "pub": "Mon, 19 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -613,6 +580,15 @@
    ]
   },
   {
+   "title": "코스피 급락에 반대매매 급증…4거래일 연속 500억원대 : 금융 - 재경일보",
+   "pub": "Mon, 19 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
@@ -622,14 +598,21 @@
    ]
   },
   {
-   "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
+   "title": "블랙잭 어플 결과를 강조하는 시각 효과 - Calgary Roughnecks",
+   "pub": "Sun, 18 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
    "pub": "Thu, 22 Oct 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+   "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
    "pub": "Thu, 22 Oct 2026",
    "src": "en",
    "q": "MU",
@@ -655,6 +638,15 @@
   },
   {
    "title": "Micron Stock Falls But Don’t Worry, ‘You Can Always Use More’ Memory, Nvidia’s Huang Says",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Technology Has Lost 25% From Its June High: Here’s Why Needham Sees 81% Upside",
    "pub": "Thu, 22 Oct 2026",
    "src": "en",
    "q": "MU",
