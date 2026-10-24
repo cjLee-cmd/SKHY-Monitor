@@ -1,20 +1,30 @@
 {
- "ts_kst": "10-25 05:47",
- "n_items": 99,
+ "ts_kst": "10-25 05:57",
+ "n_items": 100,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 26
  },
  "routed": {
+  "M-CYCLE": 14,
   "P-ADR": 2,
-  "M-CYCLE": 15,
-  "C-BUYBACK": 1,
+  "C-BUYBACK": 2,
   "C-CHINA": 3,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 59,
- "alerts": [],
+ "unassigned": 60,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "NH투자 \"다음주 코스피 5100~6400, 삼성전자·SK하이닉스 추가 자사주 매입이 변수\" - 비즈니스포스트",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "\"최태원 회장 큰 결단\"…속타던 SK하이닉스 개미들 '환호' [강경주의 테크X] - 한국경제",
@@ -24,14 +34,46 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 솔리다임 IPO 검토 중단...\"시장 여건 고려\" - YTN",
+   "title": "‘AI 거품론’에…SK하이닉스, 솔리다임 IPO 접은 속내는 - IT조선",
    "pub": "Fri, 23 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
+   "title": "SK하이닉스, NXT서 3% 상승 마감…삼전 0.47%↓ - 마켓인",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "러시아 데이터센터 불타자 삼성·SK하이닉스 빗장 풀려는 크렘린 - 글로벌이코노믹",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "HBM만으론 부족한 AI인프라…삼전닉스, 차세대 메모리 전쟁 - 연합뉴스",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "골드만삭스 \"SK하이닉스 ADR 유통물량 확대시 나스닥 100 편입 가능\" - 연합인포맥스",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
+   "title": "SK하이닉스 ADR, 오늘 급등한 이유는? - Investing.com 한국어",
    "pub": "Fri, 23 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -47,24 +89,6 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ADR, 오늘 급등한 이유는? - Investing.com 한국어",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "젠슨 황 \"베라 루빈 본격 양산\"…삼성·SK하이닉스 HBM4 수혜 기대 - 머니투데이 - 머니투데이",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "키옥시아 지분가치 41조 급감…\"SK하이닉스, 왜 팔지 않았나\" - 연합인포맥스",
    "pub": "Fri, 23 Oct 2026",
    "src": "kr",
@@ -72,45 +96,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, NXT서 3% 상승 마감…삼전 0.47%↓ - 마켓인",
+   "title": "AI 신용우려에 코스피 '출렁'…하이닉스 호재에 한숨 돌려(종합) - 매일경제 마켓",
    "pub": "Fri, 23 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "일론 머스크 반도체 공장 '테라팹' 메모리 생산부터 추진하나, 삼성전자·SK하이닉스 경쟁자 부각 가능성 - 비즈니스포스트",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM만으론 부족한 AI인프라…삼전닉스, 차세대 메모리 전쟁 - 연합뉴스",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "[마감] 코스피, SK하이닉스 반등에 0.30% 상승…장중 4% 급락 딛고 5550선 By 알파경제 alphabiz - Investing.com 한국어",
-   "pub": "Sat, 24 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“SK하이닉스가 구세주”…코스피 반등에 개미들, 저점 매수 나설까 [머니+] - 에너지경제신문",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "9100→5500까지 하락한 코스피…“11월은 W자 반등에 주목” - 매일경제",
-   "pub": "Sat, 24 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -132,6 +119,29 @@
    ]
   },
   {
+   "title": "55조원 매수 끝낸 삼전·닉스…코스피 다음 '수급 방파제' 누구 - 연합인포맥스",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "NH투자 \"다음주 코스피 5100~6400, 삼성전자·SK하이닉스 추가 자사주 매입이 변수\" - 비즈니스포스트",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "[단독] SK텔레콤, 하이닉스 AI협력 전담 'Hy-TF' 가동...TF장에 유경상 CIC장 - 전자신문",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성전자, 테일러 1공장 후속 설비투자…2나노 생산거점 완성 수순 - 지디넷코리아",
    "pub": "Fri, 23 Oct 2026",
    "src": "kr",
@@ -148,6 +158,13 @@
   {
    "title": "반도체 투자 확대 기대에...1주일간 40% 오른 '이 종목' - 한국경제",
    "pub": "Sat, 24 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "일론 머스크 반도체 공장 '테라팹' 메모리 생산부터 추진하나, 삼성전자·SK하이닉스 경쟁자 부각 가능성 - 비즈니스포스트",
+   "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -637,15 +654,6 @@
   },
   {
    "title": "What Could Micron Technology (MU) Strike Risk And Supply Moves Mean For Investors?",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Leads Chip Rebound. Dip Buyers Buckle Up.",
    "pub": "Fri, 23 Oct 2026",
    "src": "en",
    "q": "MU",
