@@ -1,41 +1,30 @@
 {
- "ts_kst": "10-24 17:39",
- "n_items": 101,
+ "ts_kst": "10-24 17:49",
+ "n_items": 102,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 27
  },
  "routed": {
+  "C-BUYBACK": 1,
   "M-CYCLE": 12,
-  "P-ADR": 2,
   "C-CHINA": 3,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 65,
- "alerts": [],
+ "unassigned": 67,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "NH투자 \"다음주 코스피 5100~6400, 삼성전자·SK하이닉스 추가 자사주 매입이 변수\" - 비즈니스포스트",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
-  {
-   "title": "\"최태원 회장 큰 결단\"…속타던 SK하이닉스 개미들 '환호' [강경주의 테크X] - 한국경제",
-   "pub": "Sat, 24 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "을지로 뜬 최태원, 깜짝 회식…SK하이닉스 개미들 반응은 - 연합뉴스TV",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“하닉 손실 중이시죠?” 보유 개미 74%의 공통점 - 문화일보",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
   {
    "title": "“상장땐 SK하이닉스 투자매력 하락 우려” 주주 반발에 IPO 스톱 - 동아일보",
    "pub": "Fri, 23 Oct 2026",
@@ -44,8 +33,8 @@
    "agents": []
   },
   {
-   "title": "러시아 데이터센터 불타자 삼성·SK하이닉스 빗장 풀려는 크렘린 - 글로벌이코노믹",
-   "pub": "Wed, 21 Oct 2026",
+   "title": "KIC 주식운용 부장, SK하이닉스로…지방 이전론에 커지는 인력 유출 우려 - 인베스트조선",
+   "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -58,22 +47,6 @@
    "agents": []
   },
   {
-   "title": "HBM만으론 부족한 AI인프라…삼전닉스, 차세대 메모리 전쟁 - 연합뉴스",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "KIC 주식운용 부장, SK하이닉스로…지방 이전론에 커지는 인력 유출 우려 - 인베스트조선",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "키옥시아 지분가치 41조 급감…\"SK하이닉스, 왜 팔지 않았나\" - 연합인포맥스",
    "pub": "Fri, 23 Oct 2026",
    "src": "kr",
@@ -81,22 +54,32 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ADR, 오늘 급등한 이유는? - Investing.com 한국어",
-   "pub": "Fri, 23 Oct 2026",
+   "title": "을지로 뜬 최태원, 깜짝 회식…SK하이닉스 개미들 반응은 - 연합뉴스TV",
+   "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
+   "agents": []
   },
   {
-   "title": "골드만삭스 \"SK하이닉스 ADR 유통물량 확대시 나스닥 100 편입 가능\" - 연합인포맥스",
+   "title": "러시아 데이터센터 불타자 삼성·SK하이닉스 빗장 풀려는 크렘린 - 글로벌이코노믹",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "일론 머스크 반도체 공장 '테라팹' 메모리 생산부터 추진하나, 삼성전자·SK하이닉스 경쟁자 부각 가능성 - 비즈니스포스트",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 반등할 줄 알았는데…‘우상향’ 조언 3개월 뒤 하이닉스 개미 74% ‘손실’ - 서울경제",
    "pub": "Fri, 23 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
+   "agents": []
   },
   {
    "title": "'괴리율 46.8%' 한국서만 헐값 거래되는 SK하이닉스…격차 벌어진 이유는?[주末머니] - 아시아경제",
@@ -113,15 +96,38 @@
    "agents": []
   },
   {
-   "title": "[마감] 코스피, SK하이닉스 반등에 0.30% 상승…장중 4% 급락 딛고 5550선 By 알파경제 alphabiz - Investing.com 한국어",
+   "title": "낙폭 줄인 코스피, 5400선 등락…SK하이닉스 보합권 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 23 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "AI 신용우려에 코스피 '출렁'…하이닉스 호재에 한숨 돌려(종합) - 매일경제 마켓",
-   "pub": "Fri, 23 Oct 2026",
+   "title": "NH투자 \"다음주 코스피 5100~6400, 삼성전자·SK하이닉스 추가 자사주 매입이 변수\" - 비즈니스포스트",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
+   "title": "\"삼성·하이닉스 어쩌나\"…中에서 날아온 소식에 코스피 덮칠까 주주들 '불안' - 아시아경제",
+   "pub": "Sun, 18 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 솔리다임 美 상장 준비 속도…'중복상장’ 우려 확산 - 조선비즈 - Chosunbiz",
+   "pub": "Sun, 18 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "기술 혁신으로 쌓아 올린 금자탑… SK하이닉스, ‘제19회 반도체의 날’서 5관왕 영예 - SK hynix",
+   "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -143,6 +149,13 @@
   {
    "title": "삼성전자 노조, 합의 5개월 만에 ‘반도체 성과급’ 개선 요구 반영 추진… 개선안 81% 찬성 - 조선비즈 - Chosunbiz",
    "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "반도체 투자 확대 기대에...1주일간 40% 오른 '이 종목' - 한국경제",
+   "pub": "Sat, 24 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -361,13 +374,6 @@
    "agents": []
   },
   {
-   "title": "“개미가 팔면 10번 중 9번 올랐다”…코스피 뒤흔든 외국인, 숫자로 봤더니 - 데일리25",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 한때 상승 전환 후 소폭 내려…외국인 다시 순매도세 - KBS 뉴스",
    "pub": "Mon, 19 Oct 2026",
    "src": "kr",
@@ -375,6 +381,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "“개미가 팔면 10번 중 9번 올랐다”…코스피 뒤흔든 외국인, 숫자로 봤더니 - 데일리25",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "외국인, 10월 코스피서 17조원 팔았다…'삼전닉스' 80% 집중 - 뉴스핌",
@@ -595,6 +608,15 @@
    ]
   },
   {
+   "title": "Micron and Sandisk Hit Record Memory Margins. There's One Clear Winner.",
+   "pub": "Sat, 24 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron stock gets stunning $3,000 call despite 6% plunge",
    "pub": "Sat, 24 Oct 2026",
    "src": "en",
@@ -623,22 +645,6 @@
   },
   {
    "title": "Micron, Sandisk gain as SK Hynix scraps Solidigm IPO, LYNX says",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "As the U.S. Pulls Chip Making Back Home, the Toolmakers Win First",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Micron (MU) is an Incredible Growth Stock: 3 Reasons Why",
    "pub": "Fri, 23 Oct 2026",
    "src": "en",
    "q": "MU",
