@@ -1,27 +1,20 @@
 {
- "ts_kst": "10-24 14:02",
- "n_items": 101,
+ "ts_kst": "10-24 14:12",
+ "n_items": 102,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 27
  },
  "routed": {
-  "C-BUYBACK": 4,
+  "P-ADR": 2,
+  "C-BUYBACK": 1,
   "M-CYCLE": 11,
   "C-CHINA": 1,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "'돈나무 언니' 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 - 더구루",
-   "agents": []
-  }
- ],
+ "unassigned": 68,
+ "alerts": [],
  "items": [
   {
    "title": "“상장땐 SK하이닉스 투자매력 하락 우려” 주주 반발에 IPO 스톱 - 동아일보",
@@ -31,11 +24,29 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스 ADR, 오늘 급등한 이유는? - Investing.com 한국어",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
+  },
+  {
    "title": "'괴리율 46.8%' 한국서만 헐값 거래되는 SK하이닉스…격차 벌어진 이유는?[주末머니] - 아시아경제",
    "pub": "Sat, 24 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "골드만삭스 \"SK하이닉스 ADR 유통물량 확대시 나스닥 100 편입 가능\" - 연합인포맥스",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "美반도체 6.7% 급락 뒤 0.4% 반등 그쳐…유가 116달러·외국인 1조 매도, 삼성·하이닉스 부담 - 녹색경제신문",
@@ -52,7 +63,7 @@
    "agents": []
   },
   {
-   "title": "[마감] 코스피, SK하이닉스 반등에 0.30% 상승…장중 4% 급락 딛고 5550선 By 알파경제 alphabiz - Investing.com 한국어",
+   "title": "낙폭 줄인 코스피, 5400선 등락…SK하이닉스 보합권 - 조선비즈 - Chosunbiz",
    "pub": "Fri, 23 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -80,29 +91,11 @@
    "agents": []
   },
   {
-   "title": "NH투자 \"다음주 코스피 5100~6400, 삼성전자·SK하이닉스 추가 자사주 매입이 변수\" - 비즈니스포스트",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "러시아 데이터센터 불타자 삼성·SK하이닉스 빗장 풀려는 크렘린 - 글로벌이코노믹",
-   "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "HBM만으론 부족한 AI인프라…삼전닉스, 차세대 메모리 전쟁 - 연합뉴스",
+   "title": "SK하이닉스, NXT서 3% 상승 마감…삼전 0.47%↓ - 마켓인",
    "pub": "Fri, 23 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "을지로 뜬 최태원, 깜짝 회식…SK하이닉스 개미들 반응은 - 연합뉴스TV",
@@ -112,7 +105,7 @@
    "agents": []
   },
   {
-   "title": "\"SK하닉 주주에 큰 선물 나오나\"…자사주 매입 끝, 반등은 언제쯤? - 머니투데이 - 머니투데이",
+   "title": "NH투자 \"다음주 코스피 5100~6400, 삼성전자·SK하이닉스 추가 자사주 매입이 변수\" - 비즈니스포스트",
    "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -121,22 +114,18 @@
    ]
   },
   {
-   "title": "SK하이닉스, 40조원 규모 자사주 매입 완료 - 연합뉴스",
-   "pub": "Wed, 21 Oct 2026",
+   "title": "SK하이닉스 반등할 줄 알았는데…‘우상향’ 조언 3개월 뒤 하이닉스 개미 74% ‘손실’ - 서울경제",
+   "pub": "Fri, 23 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "SK하이닉스, 40조 자사주 매입 한 달 앞당겨 끝냈다 - 한국경제",
-   "pub": "Wed, 21 Oct 2026",
+   "title": "\"최태원 회장 큰 결단\"…속타던 SK하이닉스 개미들 '환호' [강경주의 테크X] - 한국경제",
+   "pub": "Sat, 24 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
    "title": "삼성전자 노조, 합의 5개월 만에 ‘반도체 성과급’ 개선 요구 반영 추진… 개선안 81% 찬성 - 조선비즈 - Chosunbiz",
@@ -181,6 +170,15 @@
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
+  },
+  {
+   "title": "HBM만으론 부족한 AI인프라…삼전닉스, 차세대 메모리 전쟁 - 연합뉴스",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "삼성전자, 반도체연구소에 '코어팀' 신설…성과급 보상 강화 - 뉴스1",
@@ -641,15 +639,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron (MU) is an Incredible Growth Stock: 3 Reasons Why",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
