@@ -1,18 +1,30 @@
 {
- "ts_kst": "10-26 08:05",
- "n_items": 102,
+ "ts_kst": "10-26 08:15",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 28
  },
  "routed": {
   "M-CYCLE": 18,
+  "C-BUYBACK": 1,
+  "P-ADR": 1,
   "C-CHINA": 3,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 13
  },
- "unassigned": 62,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "자사주+매입",
+   "src": "kr",
+   "title": "SK하이닉스, 40조원 규모 자사주 매입 완료 - 연합뉴스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스 영업이익 180조 전망...주주환원책 '주목' - YTN",
@@ -29,13 +41,6 @@
    "agents": []
   },
   {
-   "title": "고점 대비 56% 급락 SK하이닉스…이번주 실적발표 반등 계기되나 - 연합뉴스",
-   "pub": "Sat, 24 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "김보라 안성시장, SK하이닉스 방류수 논란에 “시민께 심려 끼쳐 죄송” - 경기일보",
    "pub": "Sun, 25 Oct 2026",
    "src": "kr",
@@ -43,22 +48,8 @@
    "agents": []
   },
   {
-   "title": "주가만 거꾸로 간 삼전닉스…이번주 ‘반등의 시간’ 과연 올까 - 한국경제",
-   "pub": "Sun, 25 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"삼전닉스 계속 들고 가도 되나\"…주가 발목 잡는 'AI 투자 위축' 우려 - 뉴시스",
-   "pub": "Sun, 25 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, NXT서 3% 상승 마감…삼전 0.47%↓ - 마켓인",
-   "pub": "Fri, 23 Oct 2026",
+   "title": "고점 대비 56% 급락 SK하이닉스…이번주 실적발표 반등 계기되나 - 연합뉴스",
+   "pub": "Sat, 24 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -103,11 +94,38 @@
    ]
   },
   {
+   "title": "SK하이닉스, 40조원 규모 자사주 매입 완료 - 연합뉴스",
+   "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
+  },
+  {
    "title": "[SK, 솔리다임 상장 철회]① 솔리다임 IPO 접은 SK하이닉스, 주주가치 챙긴다 - 대한경제",
    "pub": "Sun, 25 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "SK하이닉스에 밀린 삼성의 반격…HBM4 판 뒤집을 ‘비장의 카드’ - 이코노미스트",
+   "pub": "Sun, 25 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "솔리다임 상장 접은 SK하이닉스…ADR 괴리율 해결 남았다 - 이데일리",
+   "pub": "Sun, 25 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "P-ADR"
+   ]
   },
   {
    "title": "SK하이닉스, 솔리다임 美 상장 검토 중단…반도체 투자·주주가치 전략 재정비 - 지이코노미",
@@ -124,8 +142,8 @@
    "agents": []
   },
   {
-   "title": "반도체 투자 확대 기대에...1주일간 40% 오른 '이 종목' - 한국경제",
-   "pub": "Sat, 24 Oct 2026",
+   "title": "“SK하이닉스 팔고 삼성전자 샀다” 외국인들 도대체 왜?…엇갈린 반도체 투톱[투자360] - 헤럴드경제",
+   "pub": "Thu, 22 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -140,8 +158,22 @@
    ]
   },
   {
+   "title": "반도체 투자 확대 기대에...1주일간 40% 오른 '이 종목' - 한국경제",
+   "pub": "Sat, 24 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성·하이닉스 3분기 합산 영업익 180조 돌파 전망…반도체 호황, 주가 반등 이끌까 - 문화일보",
    "pub": "Sat, 24 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 테일러 1공장 후속 설비투자…2나노 생산거점 완성 수순 - 지디넷코리아",
+   "pub": "Fri, 23 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -168,28 +200,14 @@
    "agents": []
   },
   {
+   "title": "삼성전자·SK하이닉스 주가 왜 급등락하나…AI 반도체 호황 속 5가지 변수 - 톱스타뉴스",
+   "pub": "Sat, 24 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성 반도체 평택캠퍼스 ‘배후 주거지’로 주목 - 조선일보",
-   "pub": "Sun, 25 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성, 하반기 GSAT 실시…AI·반도체 이끌 핵심 인재 찾는다 - www.ebn.co.kr",
-   "pub": "Sun, 25 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성·SK, AI 반도체 승부수…주요 그룹 내년 전략 수립 본격화 - 뉴스투데이",
-   "pub": "Sun, 25 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼전닉스 3분기 영업익 180조원대 전망…‘추가 주주환원’에 쏠린 눈 - 한겨레",
    "pub": "Sun, 25 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -210,20 +228,25 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체, 신제품 개발 '코어팀' 가동해 보상 강화 - 연합뉴스",
+   "title": "삼성전자, 반도체 ‘코어팀’ 가동…개발인력 보상 강화 - 뉴스토마토",
    "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "SK하이닉스에 밀린 삼성의 반격…HBM4 판 뒤집을 ‘비장의 카드’ - 이코노미스트",
+   "title": "삼성전자, 실리콘밸리 본사 2배 넓혔다 - 한국경제",
    "pub": "Sun, 25 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
+  },
+  {
+   "title": "SC제일은행, 삼성전자 반도체 노조에 주택 ‘후순위 대출’ 공급 - 조선비즈 - Chosunbiz",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "韓 메모리 기술수준, 中과 동률…AI 반도체는 뒤집혀 - DongA Science",
@@ -631,15 +654,6 @@
   },
   {
    "title": "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years",
-   "pub": "Sat, 24 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron’s Taiwan Unit Reached a Deal With the Taichung Union. Here’s What to Know.",
    "pub": "Sat, 24 Oct 2026",
    "src": "en",
    "q": "MU",
