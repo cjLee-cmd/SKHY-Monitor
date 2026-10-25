@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-25 23:49",
+ "ts_kst": "10-25 23:59",
  "n_items": 102,
  "by_source": {
   "kr": 74,
@@ -8,109 +8,13 @@
  "routed": {
   "B-RATES": 1,
   "F-ACTIVE": 8,
-  "P-ADR": 3,
+  "P-ADR": 2,
+  "M-CYCLE": 15,
   "C-CHINA": 3,
-  "M-CYCLE": 14,
   "R-LEVERAGE": 13
  },
  "unassigned": 61,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "대기자금 9개월 만에 90조 붕괴…반대매매 불씨는 남아 - 자본시장뉴스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 급락에 대기자금 9개월 만에 최저…반대매매, 닷새째 500억 대 [마켓시그널] - 서울경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "6거래일 하락장서 반대매매 1200억…빚투 관리 '도마 위' - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "“빚투 27조 육박했는데 삼전닉스 폭락”...반대매매 ‘공포’ 덮친 증시 - 투데이신문",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 6천선 흔들리자 반대매매 급증…빚투 부담 현실화 - 이투데이",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "agents": []
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "'돈나무 언니' 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 - 더구루",
-   "agents": []
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "180조도 ‘예고된 호실적’... 삼전닉스 가이던스, 감동 줄까 - 조선일보",
@@ -198,12 +102,12 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 ADR, 오늘 급등한 이유는? - Investing.com 한국어",
-   "pub": "Fri, 23 Oct 2026",
+   "title": "SK하이닉스, 발열 잡는 'iHBM' 공급망 협의 착수…HBM 선두 수성 승부수 - 전자신문",
+   "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "P-ADR"
+    "M-CYCLE"
    ]
   },
   {
@@ -599,13 +503,6 @@
    ]
   },
   {
-   "title": "'빚투 매물 폭탄' 직면한 키옥시아... 도쿄 증시 신용 잔고 1위 부담 - 스마트투데이",
-   "pub": "Mon, 19 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
    "title": "“빚투 27조 육박했는데 삼전닉스 폭락”...반대매매 ‘공포’ 덮친 증시 - 투데이신문",
    "pub": "Thu, 15 Oct 2026",
    "src": "kr",
@@ -613,6 +510,13 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "'빚투 매물 폭탄' 직면한 키옥시아... 도쿄 증시 신용 잔고 1위 부담 - 스마트투데이",
+   "pub": "Mon, 19 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
   },
   {
    "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
