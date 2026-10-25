@@ -1,65 +1,20 @@
 {
- "ts_kst": "10-25 14:52",
- "n_items": 100,
+ "ts_kst": "10-25 15:02",
+ "n_items": 99,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 26
  },
  "routed": {
-  "P-ADR": 2,
+  "B-RATES": 1,
+  "F-ACTIVE": 7,
+  "P-ADR": 1,
   "C-CHINA": 3,
   "M-CYCLE": 13,
-  "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "증시 급락에 대기자금 9개월 만에 최저…반대매매, 닷새째 500억 대 [마켓시그널] - 서울경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "6거래일 하락장서 반대매매 1200억…빚투 관리 '도마 위' - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "“빚투 27조 육박했는데 삼전닉스 폭락”...반대매매 ‘공포’ 덮친 증시 - 투데이신문",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 6천선 흔들리자 반대매매 급증…빚투 부담 현실화 - 이투데이",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 62,
+ "alerts": [],
  "items": [
   {
    "title": "\"최태원 회장 큰 결단\"…속타던 SK하이닉스 개미들 '환호' [강경주의 테크X] - 한국경제",
@@ -69,15 +24,15 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 솔리다임 IPO 검토 중단 - 연합뉴스TV",
-   "pub": "Fri, 23 Oct 2026",
+   "title": "솔리다임 美 상장 검토 중단 SK하이닉스, '투자 재원' 확보 어떻게? - 파이낸셜뉴스",
+   "pub": "Sat, 24 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성·하이닉스 3분기 합산 영업익 180조 돌파 전망…반도체 호황, 주가 반등 이끌까 - 문화일보",
-   "pub": "Sat, 24 Oct 2026",
+   "title": "[ZD브리핑] 최대 실적 SK하이닉스‧삼성전자…주가 견인할까 - 지디넷코리아",
+   "pub": "Sun, 25 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -97,24 +52,33 @@
    "agents": []
   },
   {
-   "title": "골드만삭스 \"SK하이닉스 ADR 유통물량 확대시 나스닥 100 편입 가능\" - 연합인포맥스",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
-  },
-  {
-   "title": "고점 대비 56% 급락 SK하이닉스…이번주 실적발표 반등 계기되나 - 연합뉴스",
+   "title": "장중 4% 폭락 코스피 상승 마감 원인은? 솔리다임 미 상장 중단에 하이닉스 급등 여파 - 문화일보",
    "pub": "Sat, 24 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "'괴리율 46.8%' 한국서만 헐값 거래되는 SK하이닉스…격차 벌어진 이유는?[주末머니] - 아시아경제",
+   "title": "코스피, 바닥 다지기 나설까…美 FOMC·삼전닉스 실적 주목 [주간전망] - 한국경제",
    "pub": "Sat, 24 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "B-RATES"
+   ]
+  },
+  {
+   "title": "“MSCI 퇴출 위기 인도네시아보다 싸”…삼전닉스에 몰린 개미들 [머니+] - 에너지경제신문",
+   "pub": "Sun, 25 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, NXT서 3% 상승 마감…삼전 0.47%↓ - 마켓인",
+   "pub": "Fri, 23 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -129,8 +93,22 @@
    ]
   },
   {
+   "title": "키옥시아 지분가치 41조 급감…\"SK하이닉스, 왜 팔지 않았나\" - 연합인포맥스",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "러시아 데이터센터 불타자 삼성·SK하이닉스 빗장 풀려는 크렘린 - 글로벌이코노믹",
    "pub": "Wed, 21 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼성전자·SK하이닉스, 3분기 영업익 185조 육박…호실적 뒤엔 투자 부담 - 중앙일보",
+   "pub": "Sun, 25 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -144,27 +122,6 @@
   },
   {
    "title": "안성 정치권·경기도 ‘SK하이닉스’ 압박 - 용인신문",
-   "pub": "Sun, 25 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "이번주 ‘실적 슈퍼위크’ 진입… 삼성·SK하이닉스 ‘주주환원’ 주목 - 천지일보",
-   "pub": "Sun, 25 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "고점 대비 56% 급락 SK하이닉스…이번주 실적발표 반등 계기되나 - 매일경제 마켓",
-   "pub": "Sat, 24 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "'삼전닉스' 3분기 확정실적 185조 원 예상...이번주 '슈퍼위크' - YTN",
    "pub": "Sun, 25 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -185,6 +142,13 @@
    "agents": []
   },
   {
+   "title": "삼성·하이닉스 3분기 합산 영업익 180조 돌파 전망…반도체 호황, 주가 반등 이끌까 - 문화일보",
+   "pub": "Sat, 24 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "삼성, 하반기 GSAT 실시…AI·반도체 이끌 핵심 인재 찾는다 - www.ebn.co.kr",
    "pub": "Sun, 25 Oct 2026",
    "src": "kr",
@@ -194,13 +158,6 @@
   {
    "title": "삼성전자, 반도체연구소에 '코어팀' 신설…성과급 보상 강화 - 뉴스1",
    "pub": "Wed, 21 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[ZD브리핑] 최대 실적 SK하이닉스‧삼성전자…주가 견인할까 - 지디넷코리아",
-   "pub": "Sun, 25 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -257,13 +214,6 @@
   {
    "title": "D램 품귀에 사양 깎는 빅테크… 삼성은 테일러 팹2 `베이스다이` 승부수 [위클리반도체] - 디지털데일리",
    "pub": "Sun, 25 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 반도체, 신제품 개발 '코어팀' 가동해 보상 강화 - 매일경제 마켓",
-   "pub": "Wed, 21 Oct 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -681,6 +631,15 @@
   },
   {
    "title": "What Could Micron Technology (MU) Strike Risk And Supply Moves Mean For Investors?",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Leads Chip Rebound. Dip Buyers Buckle Up.",
    "pub": "Fri, 23 Oct 2026",
    "src": "en",
    "q": "MU",
