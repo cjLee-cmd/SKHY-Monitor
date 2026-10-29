@@ -1,24 +1,25 @@
 {
- "ts_kst": "10-30 06:42",
+ "ts_kst": "10-30 06:52",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "C-BUYBACK": 1,
+  "B-RATES": 1,
   "M-CYCLE": 12,
-  "C-CHINA": 4,
+  "P-ADR": 1,
+  "C-CHINA": 5,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
- "unassigned": 67,
+ "unassigned": 66,
  "alerts": [
   {
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "빚투 줄어도 반대매매 급증···하락장에 개미들 '비명' - 뉴스웨이",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -27,7 +28,7 @@
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "6거래일 하락장서 반대매매 1200억…빚투 관리 '도마 위' - 글로벌이코노믹",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -36,7 +37,7 @@
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "한 달 새 반대매매 5300억…빚투 잔고도 고점 대비 4조 감소 - 아주경제",
+   "title": "코스피 6천선 흔들리자 반대매매 급증…빚투 부담 현실화 - 이투데이",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -45,7 +46,7 @@
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "“빚투 27조 육박했는데 삼전닉스 폭락”...반대매매 ‘공포’ 덮친 증시 - 투데이신문",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
    "agents": [
     "R-LEVERAGE"
    ]
@@ -54,19 +55,17 @@
    "level": "critical",
    "kw": "반대매매",
    "src": "kr",
-   "title": "대기자금 9개월 만에 90조 붕괴…반대매매 불씨는 남아 - 자본시장뉴스",
+   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
    "agents": [
     "R-LEVERAGE"
    ]
   },
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "목표가+상향",
    "src": "kr",
-   "title": "증시 급락에 대기자금 9개월 만에 최저…반대매매, 닷새째 500억 대 [마켓시그널] - 서울경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
+   "title": "SK하이닉스 목표가 370만원으로 상향…\"내년까지 메모리 사실상 완판\" - 파이낸셜뉴스",
+   "agents": []
   }
  ],
  "items": [
@@ -78,8 +77,8 @@
    "agents": []
   },
   {
-   "title": "[속보] SK하이닉스 3분기 영업익 83조…분기배당 주당 2만원 - 중앙일보",
-   "pub": "Tue, 27 Oct 2026",
+   "title": "SK하이닉스 목표가 370만원으로 상향…\"내년까지 메모리 사실상 완판\" - 파이낸셜뉴스",
+   "pub": "Wed, 28 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -141,6 +140,32 @@
    "agents": []
   },
   {
+   "title": "뉴욕증시, 금리동결에 상승 마감…오라클 11%·SK하이닉스 13%↑ - 뉴시스",
+   "pub": "Wed, 28 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "뉴욕증시, 이변없는 FOMC에 상승…오라클 11%·SK하이닉스 13%↑(종합) - 연합뉴스",
+   "pub": "Wed, 28 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "B-RATES"
+   ]
+  },
+  {
+   "title": "美 반도체주 일제히 상승…SK하닉 ADR 13% 급등·마이크론 6%↑ - 뉴스1",
+   "pub": "Wed, 28 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE",
+    "P-ADR"
+   ]
+  },
+  {
    "title": "SK하이닉스 오폐수 안성 주민대책위 “상생협약 즉각 파기” 촉구 - 기호일보",
    "pub": "Thu, 29 Oct 2026",
    "src": "kr",
@@ -148,34 +173,11 @@
    "agents": []
   },
   {
-   "title": "[스타트 경제] SK하이닉스 100조 주주환원에 '6천피'...삼성전자도 화답할까? - YTN",
+   "title": "[ZD SW 투데이] NIA, SK하이닉스·NC문화재단과 디지털 ESG 협력 확대 外 - 지디넷코리아",
    "pub": "Wed, 28 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "장 조반 상승세 보이는 SK하이닉스 - 뉴스1",
-   "pub": "Thu, 29 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“420만→350만원”…역대급 실적에도 SK하이닉스 목표가 낮춘 이유 - 마켓인",
-   "pub": "Wed, 28 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[속보]SK하이닉스, 주주환원 100조...배당 30조·자사주 소각 60조 - 머니투데이 - 머니투데이",
-   "pub": "Thu, 29 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
   },
   {
    "title": "삼성전자 3분기 반도체 영업익 106조…\"내년도 기록적 AI투자\"(종합2보) - 연합뉴스",
@@ -396,12 +398,12 @@
    "agents": []
   },
   {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 27 Jun 2026",
+   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "M-CYCLE"
+    "C-CHINA"
    ]
   },
   {
@@ -440,13 +442,6 @@
   },
   {
    "title": "코스피, 6천선 위 상승 출발…외국인 매수에 0.6%↑ - KB Think",
-   "pub": "Thu, 29 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "한 달 만에 다시 등돌린 외국인⋯9월 국내 주식 19조 '팔자' - 아이뉴스24",
    "pub": "Thu, 29 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -494,6 +489,13 @@
   {
    "title": "코스피, 외국인 매수에 6000선 강보합세···코스닥은 약세 - 뉴스웨이",
    "pub": "Thu, 29 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "외국인, 한 달 새 코스피 20조 팔아…매도 1위 종목은 - 에너지경제신문",
+   "pub": "Sun, 04 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -549,44 +551,8 @@
    ]
   },
   {
-   "title": "빚투 줄어도 반대매매 급증···하락장에 개미들 '비명' - 뉴스웨이",
-   "pub": "Tue, 20 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "6거래일 하락장서 반대매매 1200억…빚투 관리 '도마 위' - 글로벌이코노믹",
-   "pub": "Thu, 15 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "금감원 \"신용융자 잔고 30.3조…주가 급락 시 반대매매 우려\" - 한스경제",
    "pub": "Tue, 27 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "한 달 새 반대매매 5300억…빚투 잔고도 고점 대비 4조 감소 - 아주경제",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "“빚투 27조 육박했는데 삼전닉스 폭락”...반대매매 ‘공포’ 덮친 증시 - 투데이신문",
-   "pub": "Thu, 15 Oct 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -603,42 +569,8 @@
    ]
   },
   {
-   "title": "대기자금 9개월 만에 90조 붕괴…반대매매 불씨는 남아 - 자본시장뉴스",
-   "pub": "Thu, 22 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
-   "pub": "Mon, 24 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "\"주가 떨어지자 빚내서 매수\"…개인 투자자 신용잔고 34조2886억원 - 파이낸셜뉴스",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "'빚투 매물 폭탄' 직면한 키옥시아... 도쿄 증시 신용 잔고 1위 부담 - 스마트투데이",
-   "pub": "Mon, 19 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "증시 급락에 대기자금 9개월 만에 최저…반대매매, 닷새째 500억 대 [마켓시그널] - 서울경제",
-   "pub": "Tue, 20 Oct 2026",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "pub": "Tue, 14 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -655,11 +587,90 @@
    ]
   },
   {
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "pub": "Sun, 26 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "[궁지 몰린 빚투] 이란사태 전 오히려 늘었던 미수·신용융자 폭탄 째깍째깍 - 연합인포맥스",
+   "pub": "Mon, 09 Mar 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "\"주가 떨어지자 빚내서 매수\"…개인 투자자 신용잔고 34조2886억원 - 파이낸셜뉴스",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 6천선 흔들리자 반대매매 급증…빚투 부담 현실화 - 이투데이",
+   "pub": "Wed, 14 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 반등에 개인 투심 ‘반짝’ 회복···신용공여 잔고 한때 34조원 돌파 - 시사저널e",
+   "pub": "Sat, 17 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
+   "pub": "Mon, 09 Mar 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "Alphabet drops 12% in deepening tech and semiconductor rout",
    "pub": "Thu, 29 Oct 2026",
    "src": "en",
    "q": "MU",
    "agents": []
+  },
+  {
+   "title": "Here's Why Micron (MU) Fell More Than Broader Market",
+   "pub": "Thu, 29 Oct 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "Sandisk and Micron Slide 5% as Samsung Miss Cools Memory Rally Ahead of Sandisk Earnings; SK Hynix Falls 3%, Western Digital Dips",
@@ -681,13 +692,6 @@
   },
   {
    "title": "Bank of America Names Top Stock Pick in Memory Sector",
-   "pub": "Thu, 29 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "If I Had to Put $5,000 Into Just One Stock and Lose the Password Until 2036, This Would Be It.",
    "pub": "Thu, 29 Oct 2026",
    "src": "en",
    "q": "MU",
