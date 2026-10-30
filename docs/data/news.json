@@ -1,25 +1,72 @@
 {
- "ts_kst": "10-31 00:10",
- "n_items": 105,
+ "ts_kst": "10-31 00:20",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
   "M-CYCLE": 11,
-  "C-CHINA": 5,
-  "F-ACTIVE": 6,
   "M-RISK": 2,
+  "C-CHINA": 6,
+  "F-ACTIVE": 7,
   "R-LEVERAGE": 14
  },
- "unassigned": 68,
+ "unassigned": 66,
  "alerts": [
   {
-   "level": "high",
-   "kw": "적자",
+   "level": "critical",
+   "kw": "사이드카",
    "src": "kr",
-   "title": "[2보] 삼성전자 3분기 반도체 영업익 106.5조…완제품은 8천억 적자 - 연합뉴스",
-   "agents": []
+   "title": "코스피 4%대 급락에 매도 사이드카 발동…삼성전자·SK하이닉스 동반 약세 - 조선일보",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "빚투 줄어도 반대매매 급증···하락장에 개미들 '비명' - 뉴스웨이",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "6거래일 하락장서 반대매매 1200억…빚투 관리 '도마 위' - 글로벌이코노믹",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "“빚투 27조 육박했는데 삼전닉스 폭락”...반대매매 ‘공포’ 덮친 증시 - 투데이신문",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "대기자금 9개월 만에 90조 붕괴…반대매매 불씨는 남아 - 자본시장뉴스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "한 달 새 반대매매 5300억…빚투 잔고도 고점 대비 4조 감소 - 아주경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   }
  ],
  "items": [
@@ -38,7 +85,44 @@
    "agents": []
   },
   {
+   "title": "SK하이닉스, 美 미주총괄 신설…'HBM 주역' 안현 사장 전진배치 - 머니투데이 - 머니투데이",
+   "pub": "Fri, 30 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "SK하이닉스, 11월 1일부로 사장단 인사 단행…안현 개발총괄 사장 '미주총괄'로 - 전자신문",
+   "pub": "Fri, 30 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 주가, 오늘 왜 하락하나? - Investing.com 한국어",
+   "pub": "Fri, 30 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 목표주가 ‘165만~400만원’…증권가 전망 왜 갈리나 - 세계일보",
+   "pub": "Thu, 29 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하이닉스 실적 좋지만 주가는 갇힌다…\"저PER 지속·목표주가 165만원\" - 연합인포맥스",
+   "pub": "Wed, 28 Oct 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“141만원이 400만원 된다고?”…SK하이닉스, 지금이 기회? - 마켓인",
    "pub": "Fri, 30 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -59,8 +143,8 @@
    "agents": []
   },
   {
-   "title": "성수석 이천시장, “SK하이닉스 방류수 배출규제 도입 신중해야” - 서울신문",
-   "pub": "Fri, 30 Oct 2026",
+   "title": "추미애, 삼성전자·SK하이닉스에 행정지도···“방류수 수질 개선 요구” - 경향신문",
+   "pub": "Wed, 28 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -73,66 +157,30 @@
    "agents": []
   },
   {
-   "title": "삼성·SK하이닉스 분기 영업익 100조 '뉴노멀' 시대 연다 - 지디넷코리아",
-   "pub": "Fri, 30 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 2026년 3분기 경영실적 발표 - SK hynix",
-   "pub": "Tue, 27 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 3분기 영업이익 83조 원 '역대 최대'‥주주환원은 통 크게 - MBC 뉴스",
-   "pub": "Wed, 28 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "한미반도체, SK하이닉스서 감사패 받아… HBM 양산 협력 공로 - Chosunbiz",
+   "title": "코스피 4%대 급락에 매도 사이드카 발동…삼성전자·SK하이닉스 동반 약세 - 조선일보",
    "pub": "Fri, 30 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "M-CYCLE"
+    "M-RISK"
    ]
   },
   {
-   "title": "한미반도체, SK하이닉스서 감사패…10년 협력으로 HBM 생산기술 고도화 - 아시아경제",
-   "pub": "Fri, 30 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "SK하이닉스 'HBM 기술혁신 공로 감사패' 한미반도체에 전달 - 전자신문",
-   "pub": "Fri, 30 Oct 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"지금 사도 될까?\"…SK하이닉스 3분기 '1주당 2만원' 현금배당 어떻게 - 뉴시스",
+   "title": "미국발 악재·외국인 매도에 코스피 3.48%↓…SK하이닉스 6% 이상 급락 - 매일경제 마켓",
    "pub": "Fri, 30 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 목표 주가 370만원?…내년 영업익 600조라구요? - 문화일보",
+   "title": "CXMT, 수율 20%에도 HBM3E 양산 추진…SK하이닉스는 70% - AI타임스",
    "pub": "Thu, 29 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "C-CHINA",
+    "M-CYCLE"
+   ]
   },
   {
    "title": "[2보] 삼성전자 3분기 반도체 영업익 106.5조…완제품은 8천억 적자 - 연합뉴스",
@@ -405,11 +453,13 @@
    ]
   },
   {
-   "title": "미국발 악재·외국인 매도에 코스피 3.48%↓…SK하이닉스 6% 이상 급락 - 매일경제 마켓",
+   "title": "美 빅테크 쇼크에 코스피 3.48% 급락…외국인 1.6조원 순매도 - 산경투데이",
    "pub": "Fri, 30 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": []
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "외국인, 한 달간 국내 주식 19조 팔았다…한 달 만에 순매도 - 더나은미래",
@@ -474,15 +524,6 @@
    "agents": []
   },
   {
-   "title": "코스피 5700선 위태, SK하이닉스 7%·기아 11% 급락…매도 사이드카까지 - https://www.theconnectmoney.com/",
-   "pub": "Fri, 30 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
    "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
    "pub": "Thu, 15 Oct 2026",
    "src": "kr",
@@ -510,8 +551,17 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
+   "title": "빚투 줄어도 반대매매 급증···하락장에 개미들 '비명' - 뉴스웨이",
+   "pub": "Tue, 20 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "6거래일 하락장서 반대매매 1200억…빚투 관리 '도마 위' - 글로벌이코노믹",
+   "pub": "Thu, 15 Oct 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -528,6 +578,24 @@
    ]
   },
   {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "“빚투 27조 육박했는데 삼전닉스 폭락”...반대매매 ‘공포’ 덮친 증시 - 투데이신문",
+   "pub": "Thu, 15 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
    "pub": "Mon, 03 Aug 2026",
    "src": "kr",
@@ -537,8 +605,42 @@
    ]
   },
   {
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "pub": "Tue, 14 Jul 2026",
+   "title": "대기자금 9개월 만에 90조 붕괴…반대매매 불씨는 남아 - 자본시장뉴스",
+   "pub": "Thu, 22 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "한 달 새 반대매매 5300억…빚투 잔고도 고점 대비 4조 감소 - 아주경제",
+   "pub": "Fri, 23 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투 매물 폭탄' 직면한 키옥시아... 도쿄 증시 신용 잔고 1위 부담 - 스마트투데이",
+   "pub": "Mon, 19 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": []
+  },
+  {
+   "title": "\"주가 떨어지자 빚내서 매수\"…개인 투자자 신용잔고 34조2886억원 - 파이낸셜뉴스",
+   "pub": "Wed, 14 Oct 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -555,64 +657,21 @@
    ]
   },
   {
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "pub": "Thu, 04 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "SK Hynix Just Delivered Fantastic News for Micron",
+   "pub": "Fri, 30 Oct 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
   },
   {
-   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
-   "pub": "Sun, 26 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
+   "title": "Micron Stock Drops Again. Surging Memory Prices Aren’t All Good News.",
+   "pub": "Fri, 30 Oct 2026",
+   "src": "en",
+   "q": "MU",
    "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "[궁지 몰린 빚투] 이란사태 전 오히려 늘었던 미수·신용융자 폭탄 째깍째깍 - 연합인포맥스",
-   "pub": "Mon, 09 Mar 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "\"주가 떨어지자 빚내서 매수\"…개인 투자자 신용잔고 34조2886억원 - 파이낸셜뉴스",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "코스피 6천선 흔들리자 반대매매 급증…빚투 부담 현실화 - 이투데이",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "코스피 반등에 개인 투심 ‘반짝’ 회복···신용공여 잔고 한때 34조원 돌파 - 시사저널e",
-   "pub": "Sat, 17 Oct 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": []
-  },
-  {
-   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
-   "pub": "Mon, 09 Mar 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
+    "M-CYCLE"
    ]
   },
   {
@@ -635,15 +694,6 @@
   },
   {
    "title": "Management Set A Higher Bar For Micron Stock; Does The Chart Agree?",
-   "pub": "Fri, 30 Oct 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "3 Growth Stocks That Can Outperform Micron in 2027",
    "pub": "Fri, 30 Oct 2026",
    "src": "en",
    "q": "MU",
