@@ -1,15 +1,15 @@
 {
- "ts_kst": "10-30 23:41",
+ "ts_kst": "10-30 23:51",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-RISK": 2,
+  "M-RISK": 3,
   "C-CHINA": 5,
   "M-CYCLE": 10,
-  "F-ACTIVE": 7,
+  "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
  "unassigned": 68,
@@ -18,17 +18,10 @@
    "level": "critical",
    "kw": "사이드카",
    "src": "kr",
-   "title": "코스피 4%대 급락에 매도 사이드카 발동…삼성전자·SK하이닉스 동반 약세 - 조선일보",
+   "title": "코스피 5700선 위태, SK하이닉스 7%·기아 11% 급락…매도 사이드카까지 - https://www.theconnectmoney.co",
    "agents": [
     "M-RISK"
    ]
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "삼성전자, 美테일러 추가 증설 검토…인력·협력사까지 현지화 속도 - 뉴시스",
-   "agents": []
   }
  ],
  "items": [
@@ -136,8 +129,8 @@
    ]
   },
   {
-   "title": "삼성·SK하이닉스 분기 영업익 100조 '뉴노멀' 시대 연다 - 지디넷코리아",
-   "pub": "Fri, 30 Oct 2026",
+   "title": "SK하이닉스 실적 신기록‥주주환원 100조 푼다 - MBC 뉴스",
+   "pub": "Wed, 28 Oct 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -404,15 +397,6 @@
    "agents": []
   },
   {
-   "title": "美 빅테크 쇼크에 코스피 3.48% 급락…외국인 1.6조원 순매도 - 산경투데이",
-   "pub": "Fri, 30 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "\"외국인 순매도 사상최대 전망\"…코스피 수급 불확실성 커진다 - 연합인포맥스",
    "pub": "Mon, 12 Oct 2026",
    "src": "kr",
@@ -482,6 +466,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "코스피 5700선 위태, SK하이닉스 7%·기아 11% 급락…매도 사이드카까지 - https://www.theconnectmoney.com/",
+   "pub": "Fri, 30 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
    "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
