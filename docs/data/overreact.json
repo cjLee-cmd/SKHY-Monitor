@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-30 09:57",
+ "ts_kst": "10-30 10:07",
  "score": 10.7,
  "verdict": "정당한 재평가",
  "components": {
@@ -35,32 +35,32 @@
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -4.44,
+   "cum": -5.11,
    "sd": 5.82,
-   "z": -0.54,
+   "z": -0.62,
    "n_episodes": 14,
    "forward": {
     "5": {
-     "mean": 5.2,
+     "mean": 4.48,
      "median": 5.03,
      "up_rate": 64
     },
     "20": {
-     "mean": 10.89,
+     "mean": 10.3,
      "median": 1.78,
      "up_rate": 64
     },
     "60": {
-     "mean": 49.34,
-     "median": 38.62,
+     "mean": 50.59,
+     "median": 42.92,
      "up_rate": 79
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -8.16,
-  "SK하이닉스": -4.51,
+  "삼성전자": -8.26,
+  "SK하이닉스": -5.11,
   "마이크론": 8.8,
   "TSMC": 3.57,
   "ASML": 4.52,
@@ -77,8 +77,8 @@
  },
  "detail": {
   "z_min": -1.18,
-  "drop_avg": 6.3,
-  "fundamental_ratio": 0.82,
+  "drop_avg": 6.63,
+  "fundamental_ratio": 0.86,
   "chain_negative": "0/5"
  },
  "caveat": "역사 표본 14개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
