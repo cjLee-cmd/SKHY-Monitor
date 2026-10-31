@@ -1,5 +1,5 @@
 {
- "ts_kst": "10-31 11:11",
+ "ts_kst": "10-31 11:21",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
@@ -55,6 +55,27 @@
      "residual": 33.12
     },
     "last_date": "2026-07-24"
+   },
+   "brokers": {
+    "sell": {
+     "total": 1503936.0,
+     "foreign": 260380.0,
+     "foreign_pct": 17.3,
+     "houses": [
+      {
+       "name": "모간서울",
+       "qty": 260380.0
+      }
+     ]
+    },
+    "buy": {
+     "total": 1407303.0,
+     "foreign": 0.0,
+     "foreign_pct": 0.0,
+     "houses": []
+    },
+    "net_foreign_qty": -260380.0,
+    "foreign_share_pct": 8.9
    }
   }
  },
