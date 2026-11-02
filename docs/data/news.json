@@ -1,72 +1,19 @@
 {
- "ts_kst": "11-02 19:03",
- "n_items": 103,
+ "ts_kst": "11-02 19:13",
+ "n_items": 102,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 9,
+  "M-CYCLE": 11,
   "C-CHINA": 6,
   "F-ACTIVE": 8,
   "C-BUYBACK": 2,
   "R-LEVERAGE": 14
  },
- "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "속도보다 지속성...삼성전자·SK하이닉스, 증설 방법도 '유연성'에 집중 - 글로벌이코노믹",
-   "agents": []
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "\"반도체 자사주매입은 주가하락 완충 역할…관건은 외국인 수급\" - 연합뉴스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 63,
+ "alerts": [],
  "items": [
   {
    "title": "채용혜택 내건 SK하이닉스 AI해커톤, 시스템장애로 예선 중단 - 연합뉴스",
@@ -139,7 +86,7 @@
    "agents": []
   },
   {
-   "title": "속도보다 지속성...삼성전자·SK하이닉스, 증설 방법도 '유연성'에 집중 - 글로벌이코노믹",
+   "title": "“반도체고점론? 3년치 일감 꽉 차”…삼성·SK하이닉스, 합산 영업익 190兆 - 주간한국",
    "pub": "Mon, 02 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -209,13 +156,6 @@
    "agents": []
   },
   {
-   "title": "日소부장 협력 속도내는 삼성전자·SK하이닉스…AI 반도체 공급망 확보전 - 뉴시스",
-   "pub": "Mon, 02 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "삼성전자, 연말 인사 `안정 속 변화` 무게…AI 반도체·미래사업에 방점 - 디지털데일리",
    "pub": "Mon, 02 Nov 2026",
    "src": "kr",
@@ -223,15 +163,31 @@
    "agents": []
   },
   {
-   "title": "“반도체고점론? 3년치 일감 꽉 차”…삼성·SK하이닉스, 합산 영업익 190兆 - 주간한국",
+   "title": "日소부장 협력 속도내는 삼성전자·SK하이닉스…AI 반도체 공급망 확보전 - 뉴시스",
    "pub": "Mon, 02 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "[증시 전망] 코스피 5,600선 지킬까…미국 반도체 7.2% 급락, 삼성전자·SK하이닉스 주목 - 톱스타뉴스",
-   "pub": "Sun, 01 Nov 2026",
+   "title": "샘 올트먼, 삼성전자·SK하이닉스 동시 접촉…HBM 공급 확대될까, AI 반도체 전망은 - 톱스타뉴스",
+   "pub": "Sat, 31 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "\"후회말고 삼성전자 사라\"…100조 '뉴노멀'에 개미도 들썩 [강경주의 테크X] - 한국경제",
+   "pub": "Sat, 31 Oct 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "올트먼과 머리 맞댄 삼성, 이튿날 요코하마로…AI 반도체 '수요·기술' 둘 다 잡는다 - 데일리팝",
+   "pub": "Mon, 02 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -252,20 +208,6 @@
   },
   {
    "title": "평택시·삼성전자, 반도체 방류수 미량오염물질 관리방안 논의 - 글로벌이코노믹",
-   "pub": "Mon, 02 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "평택시-삼성전자, 반도체 방류수 '미량오염물질 선제적 관리' 손잡았다 - 경인방송 뉴스",
-   "pub": "Mon, 02 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "평택시·삼성전자, 반도체 방류수 미량오염물질 관리 방안 논의 - 신아일보",
    "pub": "Mon, 02 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -296,21 +238,21 @@
    "agents": []
   },
   {
-   "title": "“삼성보다 2년 빨리” 중국의 D램 도발…CXMT, 차세대메모리 연내출시 - 매일경제",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
    "title": "믿었던 HBM 마저…중국이 다 쫓아왔다 [中반도체 공습] - 중앙일보",
    "pub": "Tue, 15 Sep 2026",
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
     "M-CYCLE"
+   ]
+  },
+  {
+   "title": "“삼성보다 2년 빨리” 중국의 D램 도발…CXMT, 차세대메모리 연내출시 - 매일경제",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "C-CHINA"
    ]
   },
   {
@@ -647,6 +589,15 @@
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Zacks.com featured highlights include Alphabet, GormanRupp, Micron, Corning, Suncor Energy and Plains All American Pipeline",
+   "pub": "Mon, 02 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
    ]
   },
   {
