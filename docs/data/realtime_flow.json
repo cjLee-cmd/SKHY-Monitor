@@ -1,18 +1,28 @@
 {
- "ts_kst": "11-02 12:06",
+ "ts_kst": "11-02 18:03",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
-   "price": 226000.0,
-   "chg_pct": 0.44,
-   "slot": "3",
-   "foreign_qty": -626000.0,
-   "foreign_eok": -1414.8,
-   "inst_qty": 183000.0,
-   "inst_eok": 413.6,
-   "retail_qty": 443000.0,
-   "retail_eok": 1001.2,
+   "price": 229500.0,
+   "chg_pct": 2.0,
+   "slot": "5",
+   "foreign_qty": -524000.0,
+   "foreign_eok": -1202.6,
+   "inst_qty": 509000.0,
+   "inst_eok": 1168.2,
+   "retail_qty": 15000.0,
+   "retail_eok": 34.4,
    "slots": [
+    {
+     "slot": "5",
+     "frgn": -524000.0,
+     "orgn": 509000.0
+    },
+    {
+     "slot": "4",
+     "frgn": -540000.0,
+     "orgn": 449000.0
+    },
     {
      "slot": "3",
      "frgn": -626000.0,
@@ -32,16 +42,26 @@
   },
   "hynix": {
    "name": "SK하이닉스",
-   "price": 1458000.0,
-   "chg_pct": 2.82,
-   "slot": "3",
-   "foreign_qty": -73000.0,
-   "foreign_eok": -1064.3,
-   "inst_qty": 86000.0,
-   "inst_eok": 1253.9,
-   "retail_qty": -13000.0,
-   "retail_eok": -189.5,
+   "price": 1473000.0,
+   "chg_pct": 3.88,
+   "slot": "5",
+   "foreign_qty": 1000.0,
+   "foreign_eok": 14.7,
+   "inst_qty": 204000.0,
+   "inst_eok": 3004.9,
+   "retail_qty": -205000.0,
+   "retail_eok": -3019.7,
    "slots": [
+    {
+     "slot": "5",
+     "frgn": 1000.0,
+     "orgn": 204000.0
+    },
+    {
+     "slot": "4",
+     "frgn": -16000.0,
+     "orgn": 176000.0
+    },
     {
      "slot": "3",
      "frgn": -73000.0,
@@ -61,13 +81,14 @@
   }
  },
  "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
- "triggers": [],
- "log": [
+ "triggers": [
   {
-   "ts": "10-22 17:06",
-   "samsung": -2368.6,
-   "hynix": -2162.7
-  },
+   "stock": "SK하이닉스",
+   "level": "high",
+   "text": "역할 전환 — 외국인 매수 +15억 / 개인 매도 -3,020억"
+  }
+ ],
+ "log": [
   {
    "ts": "10-22 17:16",
    "samsung": -2368.6,
@@ -2867,6 +2888,11 @@
    "ts": "11-02 12:06",
    "samsung": -1414.8,
    "hynix": -1064.3
+  },
+  {
+   "ts": "11-02 18:03",
+   "samsung": -1202.6,
+   "hynix": 14.7
   }
  ]
 }
