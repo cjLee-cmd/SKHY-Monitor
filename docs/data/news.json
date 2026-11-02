@@ -1,5 +1,5 @@
 {
- "ts_kst": "11-03 05:30",
+ "ts_kst": "11-03 05:40",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -7,21 +7,13 @@
  },
  "routed": {
   "C-CHINA": 3,
-  "M-CYCLE": 8,
-  "F-ACTIVE": 8,
-  "C-BUYBACK": 2,
+  "M-CYCLE": 9,
+  "F-ACTIVE": 9,
+  "C-BUYBACK": 1,
   "R-LEVERAGE": 14
  },
- "unassigned": 69,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "'돈나무 언니' 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 - 더구루",
-   "agents": []
-  }
- ],
+ "unassigned": 68,
+ "alerts": [],
  "items": [
   {
    "title": "빅테크 부진 뚫고 5800선 회복…삼성전자 2%·SK하이닉스 4% 반등 [마켓시그널] - 서울경제",
@@ -213,14 +205,14 @@
    "agents": []
   },
   {
-   "title": "평택시·삼성전자, 반도체 방류수 미량오염물질 관리방안 논의 - 글로벌이코노믹",
+   "title": "평택시·삼성전자, 반도체 방류수 미량오염물질 선제적 관리 추진 - 뉴스핌",
    "pub": "Mon, 02 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "평택시-삼성전자, 반도체 방류수 '미량오염물질 선제적 관리' 손잡았다 - 경인방송 뉴스",
+   "title": "평택시·삼성전자, 반도체 방류수 미량오염물질 관리방안 논의 - 글로벌이코노믹",
    "pub": "Mon, 02 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -368,12 +360,12 @@
    ]
   },
   {
-   "title": "\"반도체 자사주매입은 주가하락 완충 역할…관건은 외국인 수급\" - 연합뉴스",
-   "pub": "Sun, 01 Nov 2026",
+   "title": "외국인 한 달만에 다시 '셀코리아'…지난달 19.1조 순매도 - 연합뉴스",
+   "pub": "Thu, 29 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
-    "C-BUYBACK"
+    "F-ACTIVE"
    ]
   },
   {
@@ -443,15 +435,6 @@
    ]
   },
   {
-   "title": "美 빅테크 쇼크에 코스피 3.48% 급락…외국인 1.6조원 순매도 - 산경투데이",
-   "pub": "Fri, 30 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "외국인, 한 달간 국내 주식 19조 팔았다…한 달 만에 순매도 - 더나은미래",
    "pub": "Fri, 30 Oct 2026",
    "src": "kr",
@@ -466,6 +449,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "코스피, 3.48% 급락해 5730선 마감…외국인 1.6조 원 순매도 - 우리경제신문",
+   "pub": "Fri, 30 Oct 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
@@ -601,6 +593,15 @@
    ]
   },
   {
+   "title": "Stock Market Today: Nasdaq Falls As Micron, Seagate Sink; These Stocks Clear Entries (Live Coverage)",
+   "pub": "Mon, 02 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%, SanDisk Slides 3%",
    "pub": "Mon, 02 Nov 2026",
    "src": "en",
@@ -642,15 +643,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "Micron vs. SanDisk: China's DRAM Scare Hit Both Stocks, but 1 Is the Better Buy",
-   "pub": "Mon, 02 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
