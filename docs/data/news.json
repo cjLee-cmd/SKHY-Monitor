@@ -1,76 +1,44 @@
 {
- "ts_kst": "11-04 03:02",
+ "ts_kst": "11-04 03:12",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 17,
-  "C-CHINA": 5,
+  "M-CYCLE": 15,
+  "C-CHINA": 6,
   "F-ACTIVE": 5,
   "C-BUYBACK": 1,
   "R-LEVERAGE": 14
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "’돈나무 언니’ 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 By The Guru - Investing.com 한국",
-   "agents": []
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "\"반도체 자사주매입은 주가하락 완충 역할…관건은 외국인 수급\" - 연합뉴스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  }
- ],
+ "unassigned": 65,
+ "alerts": [],
  "items": [
   {
    "title": "코스피 3.59% 내린 5648 마감...삼성전자 4.2%, SK하이닉스 5% 급락 - 조선일보",
    "pub": "Tue, 03 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피, 장중 상승 전환해 1%대 오름세…하이닉스 반등 - 한국경제",
+   "pub": "Mon, 02 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "코스피, AI주 급락 딛고 3%대 급등 5900선...SK하이닉스 5% ↑ - 마켓인",
+   "pub": "Mon, 02 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "기관 1.1조 매수에 코스피 5900선 터치…SK하이닉스 5%대 강세 [fn오후시황] - 파이낸셜뉴스",
+   "pub": "Mon, 02 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -92,6 +60,20 @@
   {
    "title": "청주시, SK하이닉스 P&T7·M17 공업용수 공급사업 ‘순항’… 반도체 대도약 기틀 - 중도일보",
    "pub": "Mon, 02 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스·청주노조, 취약계층에 6200만원 기탁 - 천지일보",
+   "pub": "Tue, 03 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“20조 쏟아붓는 SK하이닉스\"…주가 반등 열쇠는 '이것' - 이데일리",
+   "pub": "Tue, 03 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -134,52 +116,11 @@
    "agents": []
   },
   {
-   "title": "SK스퀘어, 하이닉스 배당수입 4.3조 이상 주주환원…역대 최대 - 머니투데이 - 머니투데이",
+   "title": "SK스퀘어, SK하이닉스 배당 수입 ’최소 4.3조’ 주주에게 푼다 By 알파경제 alphabiz - Investing.com 한국어",
    "pub": "Mon, 02 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "\"SK하이닉스, 목표주가 350만원\"…'역사적 저평가' 해소될 거라는데 - Nate News",
-   "pub": "Sun, 01 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 美 첨단팹서 HBF 생산 준비…中 낸드 증설도 힘 싣는다 - 서울경제",
-   "pub": "Tue, 03 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "만들기 더 깐깐해진 HBM…공장 지어도 양산까지 '산 넘어 산' - 마켓인",
-   "pub": "Mon, 02 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "“삼성·SK하이닉스 HBM, 서버칩에 실려 中에 밀수…화웨이에도 팔린다\" - Chosunbiz",
-   "pub": "Tue, 03 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "삼성·SK하이닉스 HBM 질주 뒤편의 그늘… 中 \"한국, 반도체 외끌이 충격 대비해야\" - 글로벌이코노믹",
-   "pub": "Tue, 03 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "삼성전자, 2030년 8인치 파운드리 완전 철수 - 디일렉",
@@ -441,14 +382,14 @@
    "agents": []
   },
   {
-   "title": "코스피, 3%대 하락해 5600선 마감...외인·기관 순매도 - 베타뉴스",
+   "title": "하루 만에 반등 꺾인 코스피…외국인 1.5조 팔아 5648 마감 - 경북매일",
    "pub": "Tue, 03 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "하루 만에 반등 꺾인 코스피…외국인 1.5조 팔아 5648 마감 - 경북매일",
+   "title": "코스피, 3%대 하락해 5600선 마감...외인·기관 순매도 - 베타뉴스",
    "pub": "Tue, 03 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -661,6 +602,16 @@
    ]
   },
   {
+   "title": "Micron’s Real Risk: China’s CXMT Targets “20% by 2028,” Warns Dan Niles",
+   "pub": "Tue, 03 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "C-CHINA",
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Tech Gains as Tech Giants Scramble to Lock in Multiyear Supply",
    "pub": "Tue, 03 Nov 2026",
    "src": "en",
@@ -689,15 +640,6 @@
   },
   {
    "title": "Micron Wins as “Unprecedented” Memory Prices Challenge Apple",
-   "pub": "Tue, 03 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron or Nvidia: If I Could Only Buy and Hold One of These Artificial Intelligence (AI) Chip Stocks for the Next 5 Years, It Would Be This One",
    "pub": "Tue, 03 Nov 2026",
    "src": "en",
    "q": "MU",
