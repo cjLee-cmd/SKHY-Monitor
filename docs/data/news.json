@@ -1,65 +1,19 @@
 {
- "ts_kst": "11-04 09:37",
- "n_items": 103,
+ "ts_kst": "11-04 09:47",
+ "n_items": 104,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 16,
+  "M-CYCLE": 14,
   "C-CHINA": 6,
   "F-ACTIVE": 4,
   "C-BUYBACK": 1,
   "R-LEVERAGE": 14
  },
- "unassigned": 64,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
   {
    "title": "美, SK하이닉스 中공장 장비 반입 제동…450억달러 뉴욕 투자도 차질 빚나 - 조선일보",
@@ -69,7 +23,7 @@
    "agents": []
   },
   {
-   "title": "\"삼성전자 19만원·SK하이닉스 90만원\"…반도체 조정장 속 하방 시나리오 제시한 전문가 - 아시아경제",
+   "title": "\"삼성전자 19만원·SK하닉 90만원이 바닥\"...'손절' 말라는 전문가, \"이때 더 사라\" - 파이낸셜뉴스",
    "pub": "Tue, 03 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -83,20 +37,11 @@
    "agents": []
   },
   {
-   "title": "KB證 “삼전닉스, 내년 영업익 1000조 넘긴다…AI 우려 압도할 실적” [줍줍 리포트] - 서울경제",
+   "title": "\"삼전닉스 1100조 돈방석 앉는다\"…AI 거품론에도 장밋빛 전망 - 이데일리TV",
    "pub": "Tue, 03 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "HBM 쏠림에 멈춰 선 성숙 공정…매크로닉스·SK하이닉스, 플래시로 활로 찾는다 - 글로벌이코노믹",
-   "pub": "Tue, 03 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "iM證 “SK하이닉스, HBM 하나로 시가총액 설명 가능…과도한 저평가\" - Chosunbiz",
@@ -108,13 +53,11 @@
    ]
   },
   {
-   "title": "SK하이닉스 230만원 간다 \"HBM만으로 시총 설명 가능해\" - 파이낸셜뉴스",
-   "pub": "Tue, 03 Nov 2026",
+   "title": "고점 대비 57% 뚝…SK하이닉스 2028년 이후 기대되는 이유-iM - 머니투데이 - 머니투데이",
+   "pub": "Wed, 04 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "특징주, SK하이닉스-반도체 생산 테마 상승세에 4.12% ↑ - 매일경제 마켓",
@@ -140,13 +83,6 @@
    "agents": []
   },
   {
-   "title": "'빠질 만큼 빠졌나'…하나證, 하이닉스 '빚투' 문 다시 연다 - 연합인포맥스",
-   "pub": "Tue, 03 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, 美 첫 낸드 팹 뉴욕주 ‘마시나노센터’ 유력…AI 메모리 새판 짠다[biz-플러스] - 서울경제",
    "pub": "Tue, 03 Nov 2026",
    "src": "kr",
@@ -161,15 +97,29 @@
    "agents": []
   },
   {
-   "title": "청주시, SK하이닉스 신규 공장 공업용수 공급 추진…894억 투입 - 뉴스핌",
+   "title": "\"SK하이닉스 1주를 100조각으로 쪼개 24시간 거래\"…'자산 토큰화'가 바꿀 금융 - 뉴시스",
    "pub": "Tue, 03 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "청주시, SK하이닉스 P&T7·M17 공업용수 공급사업 ‘순항’… 반도체 대도약 기틀 - 중도일보",
+   "title": "미국行 SK하이닉스 안현 사장 과제는…빅테크 기업과 ‘기술’로 소통 - 아시아투데이",
+   "pub": "Tue, 03 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK스퀘어, SK하이닉스 배당 수입 ’최소 4.3조’ 주주에게 푼다 By 알파경제 alphabiz - Investing.com 한국어",
    "pub": "Mon, 02 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "기대했던 대규모 주주환원책…하이닉스·삼성전자 온도차 극명 : 네이버 블로그 - Naver Blog",
+   "pub": "Tue, 03 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -218,6 +168,13 @@
   },
   {
    "title": "반도체 장비, 3년뒤 계약까지 줄섰다 - 전자신문",
+   "pub": "Tue, 03 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "\"삼성전자 19만원·SK하이닉스 90만원\"…반도체 조정장 속 하방 시나리오 제시한 전문가 - 아시아경제",
    "pub": "Tue, 03 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -681,15 +638,6 @@
   },
   {
    "title": "Micron Now Trades at Under 5 Times Earnings With a $35 Billion Buyback Weeks Away",
-   "pub": "Tue, 03 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Wins as “Unprecedented” Memory Prices Challenge Apple",
    "pub": "Tue, 03 Nov 2026",
    "src": "en",
    "q": "MU",
