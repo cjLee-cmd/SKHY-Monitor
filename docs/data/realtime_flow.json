@@ -1,18 +1,28 @@
 {
- "ts_kst": "11-04 09:47",
+ "ts_kst": "11-04 12:04",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
-   "price": 221250.0,
-   "chg_pct": 0.8,
-   "slot": "1",
-   "foreign_qty": -334000.0,
-   "foreign_eok": -739.0,
-   "inst_qty": 0.0,
-   "inst_eok": 0.0,
-   "retail_qty": 334000.0,
-   "retail_eok": 739.0,
+   "price": 210750.0,
+   "chg_pct": -3.99,
+   "slot": "3",
+   "foreign_qty": -1070000.0,
+   "foreign_eok": -2255.0,
+   "inst_qty": 165000.0,
+   "inst_eok": 347.7,
+   "retail_qty": 905000.0,
+   "retail_eok": 1907.3,
    "slots": [
+    {
+     "slot": "3",
+     "frgn": -1070000.0,
+     "orgn": 165000.0
+    },
+    {
+     "slot": "2",
+     "frgn": -495000.0,
+     "orgn": 2000.0
+    },
     {
      "slot": "1",
      "frgn": -334000.0,
@@ -22,16 +32,26 @@
   },
   "hynix": {
    "name": "SK하이닉스",
-   "price": 1428000.0,
-   "chg_pct": 2.15,
-   "slot": "1",
-   "foreign_qty": 13000.0,
-   "foreign_eok": 185.6,
-   "inst_qty": 0.0,
-   "inst_eok": 0.0,
-   "retail_qty": -13000.0,
-   "retail_eok": -185.6,
+   "price": 1313000.0,
+   "chg_pct": -6.08,
+   "slot": "3",
+   "foreign_qty": -448000.0,
+   "foreign_eok": -5882.2,
+   "inst_qty": 22000.0,
+   "inst_eok": 288.9,
+   "retail_qty": 426000.0,
+   "retail_eok": 5593.4,
    "slots": [
+    {
+     "slot": "3",
+     "frgn": -448000.0,
+     "orgn": 22000.0
+    },
+    {
+     "slot": "2",
+     "frgn": -4000.0,
+     "orgn": -61000.0
+    },
     {
      "slot": "1",
      "frgn": 13000.0,
@@ -41,19 +61,8 @@
   }
  },
  "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
- "triggers": [
-  {
-   "stock": "SK하이닉스",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +186억 / 개인 매도 -186억"
-  }
- ],
+ "triggers": [],
  "log": [
-  {
-   "ts": "10-23 22:26",
-   "samsung": -1787.0,
-   "hynix": -5292.0
-  },
   {
    "ts": "10-23 22:36",
    "samsung": -1787.0,
@@ -2845,6 +2854,11 @@
    "ts": "11-04 09:47",
    "samsung": -739.0,
    "hynix": 185.6
+  },
+  {
+   "ts": "11-04 12:04",
+   "samsung": -2255.0,
+   "hynix": -5882.2
   }
  ]
 }
