@@ -1,19 +1,27 @@
 {
- "ts_kst": "11-06 01:29",
+ "ts_kst": "11-06 01:39",
  "n_items": 104,
  "by_source": {
   "kr": 74,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 16,
+  "M-CYCLE": 15,
   "C-CHINA": 4,
   "F-ACTIVE": 6,
   "M-RISK": 2,
   "R-LEVERAGE": 13
  },
- "unassigned": 66,
- "alerts": [],
+ "unassigned": 67,
+ "alerts": [
+  {
+   "level": "info",
+   "kw": "증설",
+   "src": "kr",
+   "title": "[단독] 삼성 반도체 투자지도 다시 그린다…'모태' 기흥 재편·평택·용인·美 증설도 박차 - 파이낸셜뉴스",
+   "agents": []
+  }
+ ],
  "items": [
   {
    "title": "코스피·코스닥 동반 5%대 급락 마감‥삼성전자 7%↓·SK하이닉스 9%↓ - MBC 뉴스",
@@ -194,8 +202,8 @@
    "agents": []
   },
   {
-   "title": "반도체 거액 성과급 후유증...삼성전자 DX노조 \"차별 말라\" 대규모 집회 - 포쓰저널",
-   "pub": "Thu, 05 Nov 2026",
+   "title": "[단독] 삼성 반도체 투자지도 다시 그린다…'모태' 기흥 재편·평택·용인·美 증설도 박차 - 파이낸셜뉴스",
+   "pub": "Wed, 04 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -597,6 +605,15 @@
    ]
   },
   {
+   "title": "Micron stock declines 12% as chip sell-off deepens",
+   "pub": "Thu, 05 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower",
    "pub": "Thu, 05 Nov 2026",
    "src": "en",
@@ -613,23 +630,14 @@
    "agents": []
   },
   {
-   "title": "Why Micron Stock Keeps Going Down",
-   "pub": "Thu, 05 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
+   "title": "Chip stocks hammered as political shift raises AI infrastructure concerns",
    "pub": "Thu, 05 Nov 2026",
    "src": "en",
    "q": "MU",
    "agents": []
   },
   {
-   "title": "Sandisk Sinks 14%, Micron Down 10% as a Top Phone Chipmaker Blames Weak Sales on “Industry-Wide Memory Dynamics”",
+   "title": "Micron Sinks 13% as Chip Rout Deepens and $4.5 Billion Taiwan Plant Stalls",
    "pub": "Thu, 05 Nov 2026",
    "src": "en",
    "q": "MU",
@@ -638,7 +646,7 @@
    ]
   },
   {
-   "title": "Micron Stock Sinks Again as Its Market Share Shrinks. Why That’s an Opportunity.",
+   "title": "Why Micron Stock Keeps Going Down",
    "pub": "Thu, 05 Nov 2026",
    "src": "en",
    "q": "MU",
