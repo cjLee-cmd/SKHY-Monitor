@@ -1,19 +1,29 @@
 {
- "ts_kst": "11-06 07:52",
+ "ts_kst": "11-06 08:03",
  "n_items": 103,
  "by_source": {
   "kr": 73,
   "en": 30
  },
  "routed": {
+  "M-RISK": 2,
   "M-CYCLE": 13,
   "C-CHINA": 4,
-  "F-ACTIVE": 5,
-  "M-RISK": 1,
+  "F-ACTIVE": 6,
   "R-LEVERAGE": 13
  },
- "unassigned": 69,
- "alerts": [],
+ "unassigned": 67,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "삼성전자 7%·SK하이닉스 9% 급락…코스피·코스닥 잇따라 매도 사이드카 - JTBC",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "코스피, 5.28% 하락 마감... 삼성전자 7%,SK하이닉스 9% 폭락 - 조선일보",
@@ -21,6 +31,31 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "삼성전자 7%·SK하이닉스 9% 급락…코스피·코스닥 잇따라 매도 사이드카 - JTBC",
+   "pub": "Thu, 05 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
+  },
+  {
+   "title": "코스피·코스닥 동반 5%대 급락 마감‥삼성전자 7%↓·SK하이닉스 9%↓ - MBC 뉴스",
+   "pub": "Thu, 05 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "마이크론, 대만 HBM 공장 건설 중단…삼성·SK하이닉스 수혜 촉각 By EBN - Investing.com 한국어",
+   "pub": "Thu, 05 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "'HBM 선점' SK하이닉스 HBF로 낸드도 뒤집는다, 곽노정 샌디스크와 2년 내 상용화 '속도' - 비즈니스포스트",
@@ -32,16 +67,7 @@
    ]
   },
   {
-   "title": "마이크론, 대만 HBM 공장 건설 중단…삼성·SK하이닉스 수혜 촉각 - www.ebn.co.kr",
-   "pub": "Thu, 05 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "장중 '20만전자' 깨지고 하이닉스 9% 추락…반도체 투톱 흘러내렸다 - 더팩트",
+   "title": "고점 대비 반토막 난 삼전닉스…내년 실적 믿고 지금 사도 될까 - 매일경제 마켓",
    "pub": "Thu, 05 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -83,6 +109,13 @@
    "agents": []
   },
   {
+   "title": "\"헬스장 쌤, 대출 당겨 하이닉스 올인\"…'인간지표'로 투자 고심하는 개미 - 파이낸셜뉴스",
+   "pub": "Thu, 05 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 주가가 오늘 급락한 이유는? - Investing.com 한국어",
    "pub": "Thu, 05 Nov 2026",
    "src": "kr",
@@ -90,14 +123,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주가 장중 9%대 내려, AI 데이터센터 규제 강화 우려에 삼성전자도 약세 - 비즈니스포스트",
-   "pub": "Thu, 05 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"버텨야 한다\"…삼전닉스 급락, 실적 아닌 '이것' 때문이라는데[부꾸미] - 머니투데이 - 머니투데이",
+   "title": "SK하이닉스 급락에 줍줍…삼바는 팔았다 [주식 초고수는 지금] - 매일경제",
    "pub": "Thu, 05 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -106,20 +132,6 @@
   {
    "title": "SK하이닉스, 'NPE' 모노리식3D 특허 2건 재심사 추가 청구 - 지디넷코리아",
    "pub": "Thu, 05 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "최태원, SK하이닉스 美 AI 투자법인 이사회 의장 맡는다 - 연합인포맥스",
-   "pub": "Wed, 04 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "최태원, SK하이닉스 美 AI 투자 법인 ‘HYAICO’ 의장 맡아 - Chosunbiz",
-   "pub": "Wed, 04 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -431,13 +443,6 @@
    "agents": []
   },
   {
-   "title": "AI 규제 우려에 흔들린 삼전닉스...외국인 2.7조 매물 폭탄 - 비즈워치",
-   "pub": "Thu, 05 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 美 ‘블루 쓰나미’에 300p 급락…외국인 3.4조원 순매도 - 굿모닝경제",
    "pub": "Thu, 05 Nov 2026",
    "src": "kr",
@@ -452,6 +457,15 @@
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
+  },
+  {
+   "title": "“코스피 하루 만에 3.59% 급락” …외국인 1조 5000억 원대 순매도 - 용인신문",
+   "pub": "Wed, 04 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
   },
   {
    "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
@@ -594,7 +608,7 @@
    ]
   },
   {
-   "title": "US stocks nosedive as Democrat victory sparks investor panic",
+   "title": "US stocks plummet as Democrat victory sparks investor panic",
    "pub": "Thu, 05 Nov 2026",
    "src": "en",
    "q": "MU",
