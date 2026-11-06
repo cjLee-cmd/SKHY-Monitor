@@ -1,30 +1,19 @@
 {
- "ts_kst": "11-06 21:59",
+ "ts_kst": "11-06 22:09",
  "n_items": 103,
  "by_source": {
   "kr": 73,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 15,
+  "M-CYCLE": 14,
   "C-CHINA": 4,
   "F-ACTIVE": 6,
   "M-RISK": 1,
   "R-LEVERAGE": 14
  },
- "unassigned": 65,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스피, 낙폭 확대에 매도 사이드카…외국인 1조원대 순매도 - 연합인포맥스",
-   "agents": [
-    "F-ACTIVE",
-    "M-RISK"
-   ]
-  }
- ],
+ "unassigned": 66,
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, ‘2026 대학생 앰버서더 해단식’ 개최… “당신의 다음 챕터를 응원합니다” - SK하이닉스 뉴스룸",
@@ -71,13 +60,11 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, '턱밑 추격' 마이크론 따돌렸다...1위 삼성전자 - 이코노미스트",
+   "title": "SK하이닉스, 'NPE' 모노리식3D 특허 2건 재심사 추가 청구 - 지디넷코리아",
    "pub": "Thu, 05 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "[특징주] 삼성전자·SK하이닉스 동반 급락…美 AI 규제 우려에 10% 안팎 하락 - 브릿지경제",
@@ -87,11 +74,13 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 'NPE' 모노리식3D 특허 2건 재심사 추가 청구 - 지디넷코리아",
+   "title": "SK하이닉스, '턱밑 추격' 마이크론 따돌렸다...1위 삼성전자 - 이코노미스트",
    "pub": "Thu, 05 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "반도체 급락장에도 SK하이닉스 담은 상위 1% [주식 초고수는 지금] - 서울경제",
@@ -115,7 +104,7 @@
    "agents": []
   },
   {
-   "title": "데이터로 증명한 10년의 노력… SK하이닉스, 산업보건 선진화위 운영 성과 공유 - SK하이닉스 뉴스룸",
+   "title": "데이터로 증명한 10년의 노력… SK하이닉스, 산업보건 선진화위 운영 성과 공유 - SK hynix",
    "pub": "Fri, 06 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -598,6 +587,22 @@
    ]
   },
   {
+   "title": "Why Micron’s Stock Valuation Now Looks Ridiculous",
+   "pub": "Fri, 06 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Chip Index Rises but Heads for Bruising Weekly Loss",
+   "pub": "Fri, 06 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
    "title": "Proshares Trust (TQQQ) Adds Apple and Nvidia on Nov. 4",
    "pub": "Fri, 06 Nov 2026",
    "src": "en",
@@ -637,24 +642,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "“The Worst Bubble Ever”: Micron Ripped 193% Before Its Sell-Off. Is It Too Late to Buy?",
-   "pub": "Fri, 06 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Has Lost Over 40% Since Its June Record. I'd Still Buy It.",
-   "pub": "Fri, 06 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
