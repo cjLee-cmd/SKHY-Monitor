@@ -1,30 +1,18 @@
 {
- "ts_kst": "11-06 21:39",
- "n_items": 104,
+ "ts_kst": "11-06 21:49",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 16,
+  "M-CYCLE": 15,
   "C-CHINA": 4,
   "F-ACTIVE": 6,
-  "M-RISK": 1,
   "R-LEVERAGE": 13
  },
  "unassigned": 66,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스피, 낙폭 확대에 매도 사이드카…외국인 1조원대 순매도 - 연합인포맥스",
-   "agents": [
-    "F-ACTIVE",
-    "M-RISK"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "SK하이닉스, ‘2026 대학생 앰버서더 해단식’ 개최… “당신의 다음 챕터를 응원합니다” - SK하이닉스 뉴스룸",
@@ -34,7 +22,14 @@
    "agents": []
   },
   {
-   "title": "10% 폭락한 SK하이닉스 - 뉴시스",
+   "title": "[속보] 삼성전자 9%·SK하이닉스 11%대 급락 - 한국경제",
+   "pub": "Fri, 06 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[속보] 반도체주 추락…삼성전자 9%·SK하이닉스 11%대 급락 - 연합뉴스",
    "pub": "Fri, 06 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -57,13 +52,6 @@
    "agents": []
   },
   {
-   "title": "\"고점 대비 90% 폭락\"…SK하이닉스 ETF 줄줄이 하락세 - 마켓인",
-   "pub": "Fri, 06 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "SK하이닉스, '턱밑 추격' 마이크론 따돌렸다...1위 삼성전자 - 이코노미스트",
    "pub": "Thu, 05 Nov 2026",
    "src": "kr",
@@ -75,6 +63,13 @@
   {
    "title": "[적중! 대박 예감] '금양그린파워, 현대모비스, SK하이닉스' 내일장 예감 좋은 대박 종목? - 머니투데이 - 머니투데이",
    "pub": "Thu, 05 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "[특징주] 삼성전자·SK하이닉스 동반 급락…美 AI 규제 우려에 10% 안팎 하락 - 브릿지경제",
+   "pub": "Fri, 06 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -94,13 +89,18 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 HBM4 '업계 최상위 수율' 확보…삼성 추격에 생산 효율 높인다 - 뉴스핌",
+   "title": "SK하이닉스 주가 장중 9%대 내려, 미국 반도체주 급락에 삼성전자도 하락 - 비즈니스포스트",
    "pub": "Fri, 06 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
+  },
+  {
+   "title": "\"고점 대비 90% 폭락\"…SK하이닉스 ETF 줄줄이 하락세 - 마켓인",
+   "pub": "Fri, 06 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "데이터로 증명한 10년의 노력… SK하이닉스, 산업보건 선진화위 운영 성과 공유 - SK하이닉스 뉴스룸",
@@ -124,29 +124,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 10년 산업보건 성과 공유…사전 예방 체계 강화 - 매일일보",
-   "pub": "Fri, 06 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "美증권사 \"SK하이닉스·美상무부 갈등, 美공장 건설에 중대 변수\" 61조 투자 발목 잡나 - 더구루",
-   "pub": "Fri, 06 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "'블루웨이브'에 반도체 급락…삼성전자 7%·SK하이닉스 9%↓마감 - 주간조선",
    "pub": "Thu, 05 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[특징주] 삼성전자·SK하이닉스 동반 급락…美 AI 규제 우려에 10% 안팎 하락 - 브릿지경제",
-   "pub": "Fri, 06 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -423,13 +402,12 @@
    "agents": []
   },
   {
-   "title": "코스피, 낙폭 확대에 매도 사이드카…외국인 1조원대 순매도 - 연합인포맥스",
-   "pub": "Thu, 05 Nov 2026",
+   "title": "\"외국인 순매도 사상최대 전망\"…코스피 수급 불확실성 커진다 - 연합인포맥스",
+   "pub": "Mon, 12 Oct 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
-    "F-ACTIVE",
-    "M-RISK"
+    "F-ACTIVE"
    ]
   },
   {
@@ -647,6 +625,15 @@
   },
   {
    "title": "“The Worst Bubble Ever”: Micron Ripped 193% Before Its Sell-Off. Is It Too Late to Buy?",
+   "pub": "Fri, 06 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Has Lost Over 40% Since Its June Record. I'd Still Buy It.",
    "pub": "Fri, 06 Nov 2026",
    "src": "en",
    "q": "MU",
