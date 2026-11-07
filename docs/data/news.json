@@ -1,8 +1,8 @@
 {
- "ts_kst": "11-07 21:10",
- "n_items": 105,
+ "ts_kst": "11-07 21:20",
+ "n_items": 104,
  "by_source": {
-  "kr": 75,
+  "kr": 74,
   "en": 30
  },
  "routed": {
@@ -11,16 +11,8 @@
   "F-ACTIVE": 7,
   "R-LEVERAGE": 14
  },
- "unassigned": 68,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "월가 AI 회의론에 출렁인 코스피, 삼성전자·SK하이닉스 데이터센터 수주 시험대 - 글로벌이코노믹",
-   "agents": []
-  }
- ],
+ "unassigned": 67,
+ "alerts": [],
  "items": [
   {
    "title": "TSMC, 엔비디아 요청에 3D D램 검토…삼성·SK하이닉스와 경쟁하나 - AI타임스",
@@ -223,13 +215,6 @@
   {
    "title": "지자체 세수만 ‘최대 12배’…삼성·SK 반도체 호황에 웃는 지역 어디? - 조세일보",
    "pub": "Sat, 07 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "평택시·삼성전자, 반도체 방류수 관리 ‘맞손’ - 평택시민신문",
-   "pub": "Wed, 04 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -533,15 +518,6 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
-   "pub": "Fri, 24 Jul 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
    "pub": "Thu, 04 Jun 2026",
    "src": "kr",
@@ -551,8 +527,8 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -562,6 +538,15 @@
   {
    "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
    "pub": "Sun, 26 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -640,6 +625,15 @@
   },
   {
    "title": "Dow Jones Futures: Market Needs Repair But Sandisk, Micron Look Broken; Apple, Amazon, Microsoft Strong",
+   "pub": "Fri, 06 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Stock Market Today, Nov. 6: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout",
    "pub": "Fri, 06 Nov 2026",
    "src": "en",
    "q": "MU",
