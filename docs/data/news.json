@@ -1,12 +1,12 @@
 {
- "ts_kst": "11-07 14:05",
- "n_items": 104,
+ "ts_kst": "11-07 14:15",
+ "n_items": 103,
  "by_source": {
-  "kr": 74,
+  "kr": 73,
   "en": 30
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 12,
   "C-CHINA": 4,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 13
@@ -14,11 +14,13 @@
  "unassigned": 69,
  "alerts": [
   {
-   "level": "info",
-   "kw": "수주",
+   "level": "critical",
+   "kw": "반대매매",
    "src": "kr",
-   "title": "월가 AI 회의론에 출렁인 코스피, 삼성전자·SK하이닉스 데이터센터 수주 시험대 - 글로벌이코노믹",
-   "agents": []
+   "title": "반대매매 막으려 신용융자 담보비율 의무 3개월 푼다 - 자본시장뉴스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
   }
  ],
  "items": [
@@ -37,7 +39,28 @@
    "agents": []
   },
   {
+   "title": "[속보] 삼성전자 9%·SK하이닉스 11%대 급락 - 한국경제",
+   "pub": "Fri, 06 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "‘삼전 67만·닉스470만’ 전망했던 노무라, 코스피 3개월 목표 ‘7500∼8000’ - 세계일보",
+   "pub": "Fri, 06 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성·SK ‘반도체 잭팟’…경기 지자체 세수 최대 12배 폭증 - 문화일보",
+   "pub": "Sat, 07 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "지자체 세수만 ‘최대 12배’…삼성·SK 반도체 호황에 웃는 지역 어디? - 조세일보",
    "pub": "Sat, 07 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -74,14 +97,14 @@
    "agents": []
   },
   {
-   "title": "단일 레버리지 우수수 추락…SK하이닉스 ETF 고점대비 90% 폭락 - 매일경제 마켓",
+   "title": "\"고점 대비 90% 폭락\"…SK하이닉스 ETF 줄줄이 하락세 - 마켓인",
    "pub": "Fri, 06 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "\"고점 대비 90% 폭락\"…SK하이닉스 ETF 줄줄이 하락세 - 마켓인",
+   "title": "단일 레버리지 우수수 추락…SK하이닉스 ETF 고점대비 90% 폭락 - 매일경제 마켓",
    "pub": "Fri, 06 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -102,30 +125,7 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, HBM4 수율 60% '업계 최고'…서버 D램 증산 여력 넓혀 : 네이버 블로그 - Naver Blog",
-   "pub": "Thu, 05 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "TSMC, 엔비디아 요청에 3D D램 검토…삼성·SK하이닉스와 경쟁하나 - AI타임스",
-   "pub": "Sat, 07 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스 주가가 오늘 급락한 이유는? - Investing.com 한국어",
-   "pub": "Thu, 05 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "월가 AI 회의론에 출렁인 코스피, 삼성전자·SK하이닉스 데이터센터 수주 시험대 - 글로벌이코노믹",
    "pub": "Sat, 07 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -197,13 +197,6 @@
   {
    "title": "반도체 거액 성과급 후유증...삼성전자 DX노조 \"차별 말라\" 대규모 집회 - 포쓰저널",
    "pub": "Thu, 05 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "지자체 세수만 ‘최대 12배’…삼성·SK 반도체 호황에 웃는 지역 어디? - 조세일보",
-   "pub": "Sat, 07 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -463,6 +456,15 @@
    "agents": []
   },
   {
+   "title": "반대매매 막으려 신용융자 담보비율 의무 3개월 푼다 - 자본시장뉴스",
+   "pub": "Sat, 07 Nov 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
    "pub": "Thu, 15 Oct 2026",
    "src": "kr",
@@ -571,15 +573,6 @@
    ]
   },
   {
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "pub": "Tue, 04 Aug 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "코스피 반등에 개인 투심 ‘반짝’ 회복···신용공여 잔고 한때 34조원 돌파 - 시사저널e",
    "pub": "Sat, 17 Oct 2026",
    "src": "kr",
@@ -640,6 +633,15 @@
   },
   {
    "title": "SK Hynix Just Announced Huge News for Micron Shareholders",
+   "pub": "Fri, 06 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "Micron Stock Is the Cheapest Right Now -- Here's Why",
    "pub": "Fri, 06 Nov 2026",
    "src": "en",
    "q": "MU",
