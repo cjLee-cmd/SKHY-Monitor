@@ -1,8 +1,8 @@
 {
- "ts_kst": "11-08 08:07",
- "n_items": 102,
+ "ts_kst": "11-08 08:16",
+ "n_items": 103,
  "by_source": {
-  "kr": 72,
+  "kr": 73,
   "en": 30
  },
  "routed": {
@@ -12,18 +12,8 @@
   "M-RISK": 1,
   "R-LEVERAGE": 14
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "TSMC, 엔비디아 요청에 3D D램 검토…삼성·SK하이닉스와 경쟁하나 - AI타임스",
@@ -135,6 +125,13 @@
    "agents": []
   },
   {
+   "title": "삼성·SK ‘반도체 잭팟’…경기 지자체 세수 최대 12배 폭증 - 문화일보",
+   "pub": "Sat, 07 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "쓰고 버린 네온이 다시 원료로…삼성, 반도체 제조 현장 자원순환 심는다 [biz-플러스] - 서울경제",
    "pub": "Thu, 05 Nov 2026",
    "src": "kr",
@@ -226,8 +223,8 @@
    "agents": []
   },
   {
-   "title": "평택시·삼성전자, 반도체 방류수 관리 ‘맞손’ - 평택시민신문",
-   "pub": "Wed, 04 Nov 2026",
+   "title": "이재용의 ‘뉴삼성’ 방정식은 AI [비즈앤피플] - 부산일보",
+   "pub": "Sat, 07 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -522,15 +519,6 @@
    ]
   },
   {
-   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-   "pub": "Wed, 03 Jun 2026",
-   "src": "kr",
-   "q": "반대매매 신용잔고",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
    "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리",
    "pub": "Fri, 24 Jul 2026",
    "src": "kr",
@@ -551,6 +539,15 @@
   {
    "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
    "pub": "Sun, 26 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -655,13 +652,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "AI Wants “Every Scrap of RAM.” Qualcomm and Arm Just Showed Who Pays the Bill",
-   "pub": "Sat, 07 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
