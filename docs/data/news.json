@@ -1,8 +1,8 @@
 {
- "ts_kst": "11-08 10:54",
- "n_items": 103,
+ "ts_kst": "11-08 11:04",
+ "n_items": 104,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 30
  },
  "routed": {
@@ -12,19 +12,8 @@
   "M-RISK": 1,
   "R-LEVERAGE": 14
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "사이드카",
-   "src": "kr",
-   "title": "코스피·코스닥 급락에 매도 사이드카…외국인 3조원 가까이 순매도 - 뉴스저널리즘",
-   "agents": [
-    "F-ACTIVE",
-    "M-RISK"
-   ]
-  }
- ],
+ "unassigned": 64,
+ "alerts": [],
  "items": [
   {
    "title": "TSMC, 엔비디아 요청에 3D D램 검토…삼성·SK하이닉스와 경쟁하나 - AI타임스",
@@ -131,7 +120,7 @@
    "agents": []
   },
   {
-   "title": "외국인, 지난주 삼전닉스 7.6조 던졌다…보유율도 수년만 최저 - 연합뉴스",
+   "title": "삼성전자·SK하이닉스에 2천만원 투자했다면 배당금 얼마?…14만원 차이, 주주환원 100조 시대 - 톱스타뉴스",
    "pub": "Sat, 07 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -361,6 +350,13 @@
    "agents": []
   },
   {
+   "title": "외국인, 지난주 삼전닉스 7.6조 던졌다…보유율도 수년만 최저 - 연합뉴스",
+   "pub": "Sat, 07 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "코스피 폭락 진정될까…외국인 수급·AI 불안에 촉각 [주간증시] - 에너지경제신문",
    "pub": "Sun, 08 Nov 2026",
    "src": "kr",
@@ -469,8 +465,8 @@
    ]
   },
   {
-   "title": "반대매매 막으려 신용융자 담보비율 의무 3개월 푼다 - 자본시장뉴스",
-   "pub": "Sat, 07 Nov 2026",
+   "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
+   "pub": "Thu, 15 Oct 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -478,8 +474,8 @@
    ]
   },
   {
-   "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
-   "pub": "Thu, 15 Oct 2026",
+   "title": "반대매매 막으려 신용융자 담보비율 의무 3개월 푼다 - 자본시장뉴스",
+   "pub": "Sat, 07 Nov 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -649,15 +645,6 @@
   {
    "title": "Micron stock flashes bargain pricing signal with costly catch",
    "pub": "Sat, 07 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Stock Market Today, Nov. 6: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout",
-   "pub": "Fri, 06 Nov 2026",
    "src": "en",
    "q": "MU",
    "agents": [
