@@ -1,22 +1,29 @@
 {
- "ts_kst": "11-10 05:00",
+ "ts_kst": "11-10 05:10",
  "n_items": 103,
  "by_source": {
   "kr": 75,
   "en": 28
  },
  "routed": {
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "C-CHINA": 5,
   "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
- "unassigned": 66,
+ "unassigned": 65,
  "alerts": [],
  "items": [
   {
    "title": "삼성·SK하이닉스 현금 329조…반도체 양강, 투자·주주환원 경쟁도 커진다 - 중앙일보",
    "pub": "Sun, 08 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“ASML EUV 공급 모자란다”… 삼성전자·SK하이닉스 장비 확보 경쟁 - Chosunbiz",
+   "pub": "Sat, 07 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -36,22 +43,8 @@
    "agents": []
   },
   {
-   "title": "지난주 이틀간 10%이상 폭락했던 삼전닉스, 널뛰기 끝에 소폭 반등(종합) - 매일경제 마켓",
-   "pub": "Mon, 09 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "\"주식 열공하는데 왜 나만 잃을까\"…SK하이닉스 250층 물린 8년 차 개미의 '눈물' - 뉴시스",
    "pub": "Mon, 09 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"SK하닉보다 심할 줄은\"…'474만→161만원' 곡소리 터졌다 - 한국경제",
-   "pub": "Sun, 08 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -96,6 +89,13 @@
   {
    "title": "미국 사업 전면에 '기술통' 내세운 삼성·하닉… '블루 웨이브' 대응 시험대 - 한국일보",
    "pub": "Mon, 09 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK하닉보다 심할 줄은\"…'474만→161만원' 곡소리 터졌다 - 한국경제",
+   "pub": "Sun, 08 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -599,6 +599,15 @@
    ]
   },
   {
+   "title": "Is Micron a Millionaire-Maker Stock?",
+   "pub": "Mon, 09 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Soars 5% as TSMC Sticks to the “Global Logic IC” Industry, Not Memory",
    "pub": "Mon, 09 Nov 2026",
    "src": "en",
@@ -633,13 +642,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "MU or AMD: Which Is the Better Value Stock Right Now?",
-   "pub": "Mon, 09 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
