@@ -1,43 +1,43 @@
 {
- "ts_kst": "11-10 12:42",
+ "ts_kst": "11-10 18:17",
  "current": {
   "deposit": {
    "label": "투자자예탁금",
-   "date": "11/06",
-   "value_jo": 90.33,
-   "chg_jo": 1.8,
-   "chg_pct": 2.03
+   "date": "11/09",
+   "value_jo": 88.25,
+   "chg_jo": -2.08,
+   "chg_pct": -2.3
   },
   "credit": {
    "label": "신용융자",
-   "date": "11/06",
-   "value_jo": 28.39,
-   "chg_jo": -0.386,
-   "chg_pct": -1.34
+   "date": "11/09",
+   "value_jo": 28.07,
+   "chg_jo": -0.315,
+   "chg_pct": -1.11
   },
   "cma": {
    "label": "CMA잔고",
-   "date": "11/06",
-   "value_jo": 95.58,
-   "chg_jo": -3.323,
-   "chg_pct": -3.36
+   "date": "11/09",
+   "value_jo": 95.78,
+   "chg_jo": -0.065,
+   "chg_pct": -0.07
   },
   "equity_fund": {
    "label": "주식형펀드 순자산",
-   "date": "11/06",
-   "value_jo": 312.06,
-   "chg_jo": -17.888,
-   "chg_pct": -5.42
+   "date": "11/09",
+   "value_jo": 311.8,
+   "chg_jo": -0.255,
+   "chg_pct": -0.08
   }
  },
  "derived": {
-  "dry_powder_jo": 32.3,
-  "credit_ratio": 31.4
+  "dry_powder_jo": 30.2,
+  "credit_ratio": 31.8
  },
  "alerts": [
   {
    "level": "mid",
-   "text": "주식형펀드 -5.4% — 평가손+환매. 투신 매도 압력."
+   "text": "예탁금 -2.3% — 자금 이탈 가속."
   }
  ],
  "log": [
@@ -454,6 +454,12 @@
    "deposit": 90.33,
    "credit": 28.39,
    "cma": 95.58
+  },
+  {
+   "date": "11/09",
+   "deposit": 88.25,
+   "credit": 28.07,
+   "cma": 95.78
   }
  ]
 }
