@@ -1,5 +1,5 @@
 {
- "ts_kst": "11-11 03:09",
+ "ts_kst": "11-11 03:19",
  "n_items": 103,
  "by_source": {
   "kr": 73,
@@ -7,25 +7,26 @@
  },
  "routed": {
   "M-RISK": 2,
-  "M-CYCLE": 12,
+  "M-CYCLE": 13,
   "C-CHINA": 5,
   "F-ACTIVE": 8,
-  "R-LEVERAGE": 14
+  "R-LEVERAGE": 15
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "삼성전자·SK하이닉스 5~8% ‘껑충’…코스피·코스닥 잇따라 매수 사이드카 - JTBC",
-   "pub": "Tue, 10 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-RISK"
-   ]
-  },
-  {
-   "title": "코스피 5% 급등에 매수 사이드카…삼성전자 5%·SK하이닉스 7%↑ - 한국경제",
    "pub": "Tue, 10 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -39,6 +40,15 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "코스피 5% 급등에 매수 사이드카…삼성전자 5%·SK하이닉스 7%↑ - 한국경제",
+   "pub": "Tue, 10 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-RISK"
+   ]
   },
   {
    "title": "주가 폭락에도 \"264만원 간다\"…SK하닉 주가 전망의 이유 - 한국경제",
@@ -209,11 +219,13 @@
    "agents": []
   },
   {
-   "title": "삼성전자 초기업노조, '호남 반도체' 근무지 이동시 사전합의 요구 - 뉴시스",
+   "title": "[이슈/ AI 반도체 주도권 경쟁 어디로?] TSMC 10월 매출 60% 급증…삼성전자·SK하이닉스, HBM4 ,메모리·파운드리 동시 공략 - 코리아포스트 한글판",
    "pub": "Tue, 10 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "반도체 피크아웃? 중국 추격은 현실, 기술 추월은 과장 - 중앙일보",
@@ -370,6 +382,15 @@
    ]
   },
   {
+   "title": "코스피 4.39% 급등해 5230선 회복…외국인·기관 8500억 순매수 By EBN - Investing.com 한국어",
+   "pub": "Tue, 10 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "외국인 4분기 들어 30조원ㆍ삼전닉스 등 반도체 80% 집중 매도 - 매일일보",
    "pub": "Mon, 09 Nov 2026",
    "src": "kr",
@@ -441,15 +462,6 @@
   {
    "title": "코스피, 외국인 순매도에 하락 전환…반도체주↓ - KBS 뉴스",
    "pub": "Wed, 04 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피, 반도체 반등에도 5018선 마감…외국인 6925억원 순매도 - 굿모닝경제",
-   "pub": "Mon, 09 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -583,11 +595,13 @@
    ]
   },
   {
-   "title": "코스피 반등에 개인 투심 ‘반짝’ 회복···신용공여 잔고 한때 34조원 돌파 - 시사저널e",
-   "pub": "Sat, 17 Oct 2026",
+   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
+   "pub": "Mon, 09 Mar 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
-   "agents": []
+   "agents": [
+    "R-LEVERAGE"
+   ]
   },
   {
    "title": "Micron stock is a screaming buy at current valuation levels: Goldman Sachs",
