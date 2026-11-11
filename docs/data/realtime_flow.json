@@ -1,104 +1,9 @@
 {
- "ts_kst": "11-12 04:12",
- "stocks": {
-  "samsung": {
-   "name": "삼성전자",
-   "price": 208000.0,
-   "chg_pct": 4.58,
-   "slot": "5",
-   "foreign_qty": 1585000.0,
-   "foreign_eok": 3296.8,
-   "inst_qty": -40000.0,
-   "inst_eok": -83.2,
-   "retail_qty": -1545000.0,
-   "retail_eok": -3213.6,
-   "slots": [
-    {
-     "slot": "5",
-     "frgn": 1585000.0,
-     "orgn": -40000.0
-    },
-    {
-     "slot": "4",
-     "frgn": 661000.0,
-     "orgn": -54000.0
-    },
-    {
-     "slot": "3",
-     "frgn": 27000.0,
-     "orgn": -15000.0
-    },
-    {
-     "slot": "2",
-     "frgn": -187000.0,
-     "orgn": -23000.0
-    },
-    {
-     "slot": "1",
-     "frgn": -295000.0,
-     "orgn": 0.0
-    }
-   ]
-  },
-  "hynix": {
-   "name": "SK하이닉스",
-   "price": 1291000.0,
-   "chg_pct": 6.52,
-   "slot": "5",
-   "foreign_qty": 269000.0,
-   "foreign_eok": 3472.8,
-   "inst_qty": -30000.0,
-   "inst_eok": -387.3,
-   "retail_qty": -239000.0,
-   "retail_eok": -3085.5,
-   "slots": [
-    {
-     "slot": "5",
-     "frgn": 269000.0,
-     "orgn": -30000.0
-    },
-    {
-     "slot": "4",
-     "frgn": 155000.0,
-     "orgn": -26000.0
-    },
-    {
-     "slot": "3",
-     "frgn": 35000.0,
-     "orgn": 8000.0
-    },
-    {
-     "slot": "2",
-     "frgn": -9000.0,
-     "orgn": -18000.0
-    },
-    {
-     "slot": "1",
-     "frgn": 16000.0,
-     "orgn": 0.0
-    }
-   ]
-  }
- },
+ "ts_kst": "11-12 04:21",
+ "stocks": {},
  "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
- "triggers": [
-  {
-   "stock": "삼성전자",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +3,297억 / 개인 매도 -3,214억"
-  },
-  {
-   "stock": "SK하이닉스",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +3,473억 / 개인 매도 -3,086억"
-  }
- ],
+ "triggers": [],
  "log": [
-  {
-   "ts": "10-29 03:09",
-   "samsung": 3701.9,
-   "hynix": 4297.8
-  },
   {
    "ts": "10-29 03:19",
    "samsung": 3701.9,
@@ -2900,6 +2805,9 @@
    "ts": "11-12 04:12",
    "samsung": 3296.8,
    "hynix": 3472.8
+  },
+  {
+   "ts": "11-12 04:21"
   }
  ]
 }
