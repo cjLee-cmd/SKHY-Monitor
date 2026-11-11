@@ -1,8 +1,8 @@
 {
- "ts_kst": "11-11 09:02",
- "n_items": 100,
+ "ts_kst": "11-11 09:12",
+ "n_items": 102,
  "by_source": {
-  "kr": 71,
+  "kr": 73,
   "en": 29
  },
  "routed": {
@@ -13,11 +13,21 @@
   "F-ACTIVE": 7,
   "R-LEVERAGE": 14
  },
- "unassigned": 63,
- "alerts": [],
+ "unassigned": 65,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "사이드카",
+   "src": "kr",
+   "title": "삼성전자·SK하이닉스 5~8% ‘껑충’…코스피·코스닥 잇따라 매수 사이드카 - JTBC",
+   "agents": [
+    "M-RISK"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "코스피 5% 급등에 매수 사이드카…삼성전자 5%·SK하이닉스 7%↑ - 한국경제",
+   "title": "삼성전자·SK하이닉스 5~8% ‘껑충’…코스피·코스닥 잇따라 매수 사이드카 - JTBC",
    "pub": "Tue, 10 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -26,14 +36,21 @@
    ]
   },
   {
-   "title": "“삼전 31만원 vs 67만원·닉스 160만원 vs 470만원”…누구 말 믿어야 하나 - 매일경제 마켓",
-   "pub": "Tue, 10 Nov 2026",
+   "title": "주가 폭락에도 \"264만원 간다\"…SK하닉 주가 전망의 이유 - 한국경제",
+   "pub": "Mon, 09 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
    "title": "모건스탠리 '반도체 저승사자', 삼전닉스 30만9천원·160만원으로 하향 - 연합뉴스",
+   "pub": "Tue, 10 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "“삼전 31만원 vs 67만원·닉스 160만원 vs 470만원”…누구 말 믿어야 하나 - 매일경제 마켓",
    "pub": "Tue, 10 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -47,15 +64,8 @@
    "agents": []
   },
   {
-   "title": "하이닉스 영업이익률 80%? 알고 보면 아찔한 상황 - OhmyNews",
-   "pub": "Tue, 10 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"드디어 주가 바닥 찍었나\"…삼전닉스 반등 가를 핵심 변수 [분석+] - 한국경제",
-   "pub": "Tue, 10 Nov 2026",
+   "title": "[분석] 삼성전자·SK하이닉스, TSMC 호실적에 반등 신호탄 쏘나 By FinancialPost - Investing.com 한국어",
+   "pub": "Wed, 11 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -210,6 +220,13 @@
    "agents": []
   },
   {
+   "title": "[단독] 삼성전자, '파산' 애플 협력사서 '실리콘 포토닉스' 특허 4건 인수 - 신아일보",
+   "pub": "Tue, 10 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "반도체 피크아웃? 중국 추격은 현실, 기술 추월은 과장 - 중앙일보",
    "pub": "Sun, 25 Oct 2026",
    "src": "kr",
@@ -346,6 +363,13 @@
    "agents": []
   },
   {
+   "title": "\"드디어 주가 바닥 찍었나\"…삼전닉스 반등 가를 핵심 변수 [분석+] - 한국경제",
+   "pub": "Tue, 10 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
    "title": "[마감시황] 외국인·기관 매수에 코스피·코스닥 동반 상승…5200선 탈환 - 뉴스핌",
    "pub": "Tue, 10 Nov 2026",
    "src": "kr",
@@ -394,13 +418,6 @@
    "agents": []
   },
   {
-   "title": "외국인이 돌아왔다…코스피 5200선 탈환 [11/10 G프터눈]｜Global Money Club - 중앙일보",
-   "pub": "Tue, 10 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
    "title": "코스피, 이틀간 11% 폭락 후 혼조…외국인 7일째 순매도 - 애드뉴스인천",
    "pub": "Mon, 09 Nov 2026",
    "src": "kr",
@@ -408,6 +425,13 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "외국인이 돌아왔다…코스피 5200선 탈환 [11/10 G프터눈]｜Global Money Club - 중앙일보",
+   "pub": "Tue, 10 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피 반등은 ‘반짝’…외국인 매도에 5000선 ‘아슬’ - 시사저널",
@@ -634,22 +658,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Trump’s Investment Team Sold Micron. A Sign of Trouble to Come?",
-   "pub": "Tue, 10 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Midterm Meltdowns: 3 Top Tech Stocks Down Big Since the Election Results",
-   "pub": "Tue, 10 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
   }
  ],
  "guards": {
