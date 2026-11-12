@@ -1,29 +1,19 @@
 {
- "ts_kst": "11-13 03:55",
+ "ts_kst": "11-13 04:05",
  "n_items": 104,
  "by_source": {
   "kr": 75,
   "en": 29
  },
  "routed": {
-  "P-ADR": 2,
+  "P-ADR": 1,
   "F-ACTIVE": 10,
-  "M-CYCLE": 13,
+  "M-CYCLE": 14,
   "C-CHINA": 5,
   "R-LEVERAGE": 15
  },
  "unassigned": 60,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "정부, 신용융자 140% 규제 3개월간 면제…28조 '반대매매 고리' 차단 - 조세금융신문",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "alerts": [],
  "items": [
   {
    "title": "메리츠證 \"SK하이닉스, 내년 국내 주식·ADR 가격차 축소 방안 기대\" - 연합인포맥스",
@@ -79,6 +69,13 @@
    "agents": []
   },
   {
+   "title": "[청주소식] SK하이닉스, 김장김치 600상자 나눔 - 연합뉴스",
+   "pub": "Wed, 11 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "SK하이닉스 부사장 \"AI 메모리 병목, 메모리 풀로 풀자…인텔과 협력\" - 머니투데이 - 머니투데이",
    "pub": "Thu, 12 Nov 2026",
    "src": "kr",
@@ -121,20 +118,32 @@
    "agents": []
   },
   {
-   "title": "하룻밤 새 481조원 증발…’젠슨 황 해임설’에 하이닉스는 밀리고 삼성은 버텼다 By Investing.com - Investing.com 한국어",
-   "pub": "Thu, 12 Nov 2026",
+   "title": "\"반토막 난 삼전닉스, 3개월 내 반등 확률 90%\" - 이데일리",
+   "pub": "Wed, 11 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "초고수들, ‘젠슨 황 해임설’ 틈타 엔비디아 저가 매수…테슬라·SK하이닉스 ADR은 팔아 - 한국경제",
-   "pub": "Thu, 12 Nov 2026",
+   "title": "삼성전자, AMD와 차세대 반도체 테스트 인프라 협력 - 연합뉴스",
+   "pub": "Wed, 11 Nov 2026",
    "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "P-ADR"
-   ]
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, AMD와 반도체 테스트 인프라 고도화 협력 - 한국경제",
+   "pub": "Wed, 11 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, AMD와 손잡고 반도체 테스트 고도화…차세대 메모리 기술 결합 - 뉴스핌",
+   "pub": "Wed, 11 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
   },
   {
    "title": "[단독]삼성·SK, 정부에 SOS…\"반도체 공장 짓는데 26만명 필요\" - 머니투데이 - 머니투데이",
@@ -162,27 +171,6 @@
   {
    "title": "삼성 연구원, 반도체 기술 빼내 대학서 필사 [H-EXCLUSIVE] - 헤럴드경제",
    "pub": "Thu, 12 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, AMD와 차세대 반도체 테스트 인프라 협력 - 연합뉴스",
-   "pub": "Wed, 11 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, AMD와 반도체 테스트 인프라 고도화 협력 - 한국경제",
-   "pub": "Wed, 11 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, AMD와 반도체 테스트 인프라 고도화 협력… 차세대 메모리 검증 강화 - Chosunbiz",
-   "pub": "Wed, 11 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -624,6 +612,15 @@
    ]
   },
   {
+   "title": "Micron, Other Memory Chip Stocks Fall on Nvidia Shakeup. Why They’re at Risk.",
+   "pub": "Thu, 12 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "Micron Stocks Fall 3.24% as NVIDIA Exit Tests Memory Rally After 11.9% Jump",
    "pub": "Thu, 12 Nov 2026",
    "src": "en",
@@ -650,15 +647,6 @@
   },
   {
    "title": "Prediction: This Will Be Micron's Stock Price by the End of 2027",
-   "pub": "Thu, 12 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Is Back Above $800 After Its Best Day Since July",
    "pub": "Thu, 12 Nov 2026",
    "src": "en",
    "q": "MU",
