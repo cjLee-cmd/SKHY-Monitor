@@ -1,5 +1,5 @@
 {
- "ts_kst": "11-12 11:48",
+ "ts_kst": "11-12 11:58",
  "n_items": 105,
  "by_source": {
   "kr": 75,
@@ -13,10 +13,20 @@
   "R-LEVERAGE": 15
  },
  "unassigned": 66,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "SK하이닉스 ADR 9.71% 급등⋯ 뉴욕증시 일제 상승 마감 - 국민일보",
+   "title": "메리츠證 \"SK하이닉스, 내년 국내 주식·ADR 가격차 축소 방안 기대\" - 연합인포맥스",
    "pub": "Wed, 11 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -25,7 +35,7 @@
    ]
   },
   {
-   "title": "메리츠證 \"SK하이닉스, 내년 국내 주식·ADR 가격차 축소 방안 기대\" - 연합인포맥스",
+   "title": "SK하이닉스 ADR 9.71% 급등⋯ 뉴욕증시 일제 상승 마감 - 국민일보",
    "pub": "Wed, 11 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -71,15 +81,15 @@
    "agents": []
   },
   {
-   "title": "5% 반등한 SK하이닉스, 외국인도 쓸어 담았다고? - 네이버페이 머니스토리",
-   "pub": "Wed, 11 Nov 2026",
+   "title": "상승하는 삼성전자·SK하이닉스 주가 - 뉴스1",
+   "pub": "Thu, 12 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "코스피 4.39% 오른 5239.13 마감...삼성전자 4.7%, SK하이닉스 6.7% 강세 - Chosunbiz",
-   "pub": "Tue, 10 Nov 2026",
+   "title": "5% 반등한 SK하이닉스, 외국인도 쓸어 담았다고? - 네이버페이 머니스토리",
+   "pub": "Wed, 11 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -420,15 +430,15 @@
    ]
   },
   {
-   "title": "“웰컴백 외국인”…돌아온 자금, 어디에 몰렸나 - 매일경제",
-   "pub": "Wed, 11 Nov 2026",
+   "title": "8거래일 만에 돌아온 외국인…수급 반전 신호탄 될까 - 뉴시스",
+   "pub": "Tue, 10 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
   },
   {
-   "title": "8거래일 만에 돌아온 외국인…수급 반전 신호탄 될까 - 뉴시스",
-   "pub": "Tue, 10 Nov 2026",
+   "title": "“웰컴백 외국인”…돌아온 자금, 어디에 몰렸나 - 매일경제",
+   "pub": "Wed, 11 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": []
@@ -473,7 +483,7 @@
    ]
   },
   {
-   "title": "증시대기자금·빚투 올들어 최저…반대매매 600억대로↑ - 연합뉴스",
+   "title": "[N2 포커스] 반대매매 630억원, 9배 급증…강제청산 막았지만 신용손실 우려 - 뉴스투데이",
    "pub": "Wed, 11 Nov 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -482,7 +492,7 @@
    ]
   },
   {
-   "title": "[N2 포커스] 반대매매 630억원, 9배 급증…강제청산 막았지만 신용손실 우려 - 뉴스투데이",
+   "title": "증시대기자금·빚투 올들어 최저…반대매매 600억대로↑ - 연합뉴스",
    "pub": "Wed, 11 Nov 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
@@ -572,8 +582,8 @@
    ]
   },
   {
-   "title": "두 달 새 '빚투' 4.7조 급증…급락장에 반대매매 하방 압력↑ - 뉴스핌",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -581,8 +591,8 @@
    ]
   },
   {
-   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
-   "pub": "Fri, 31 Jul 2026",
+   "title": "두 달 새 '빚투' 4.7조 급증…급락장에 반대매매 하방 압력↑ - 뉴스핌",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -599,13 +609,20 @@
    ]
   },
   {
-   "title": "[궁지 몰린 빚투] 이란사태 전 오히려 늘었던 미수·신용융자 폭탄 째깍째깍 - 연합인포맥스",
-   "pub": "Mon, 09 Mar 2026",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
+   "pub": "Thu, 12 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "5-star analyst flags surprise Micron stock catalyst after CoreWeave rally",
@@ -632,15 +649,6 @@
   },
   {
    "title": "Micron Stock Is Down 40% From Its Peak After the Sell-Off. History Says This Is What Happens Next.",
-   "pub": "Wed, 11 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "How Much Tax Does a 66-Year-Old Owe Selling $600,000 in Micron and Oracle Gains?",
    "pub": "Wed, 11 Nov 2026",
    "src": "en",
    "q": "MU",
