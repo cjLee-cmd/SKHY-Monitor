@@ -1,26 +1,26 @@
 {
- "ts_kst": "11-13 15:01",
+ "ts_kst": "11-13 15:13",
  "current": {
   "deposit": {
    "label": "투자자예탁금",
-   "date": "11/11",
-   "value_jo": 85.48,
-   "chg_jo": 0.263,
-   "chg_pct": 0.31
+   "date": "11/12",
+   "value_jo": 92.23,
+   "chg_jo": 6.75,
+   "chg_pct": 7.9
   },
   "credit": {
    "label": "신용융자",
-   "date": "11/11",
-   "value_jo": 25.93,
-   "chg_jo": -0.621,
-   "chg_pct": -2.34
+   "date": "11/12",
+   "value_jo": 25.77,
+   "chg_jo": -0.156,
+   "chg_pct": -0.6
   },
   "cma": {
    "label": "CMA잔고",
-   "date": "11/11",
-   "value_jo": 97.68,
-   "chg_jo": -0.507,
-   "chg_pct": -0.52
+   "date": "11/12",
+   "value_jo": 97.74,
+   "chg_jo": 0.061,
+   "chg_pct": 0.06
   },
   "equity_fund": {
    "label": "주식형펀드 순자산",
@@ -31,15 +31,10 @@
   }
  },
  "derived": {
-  "dry_powder_jo": 27.5,
-  "credit_ratio": 30.3
+  "dry_powder_jo": 34.2,
+  "credit_ratio": 27.9
  },
- "alerts": [
-  {
-   "level": "info",
-   "text": "신용융자 -0.62조 감소 — 반대매매·청산 진행 중. 항복 신호 후보."
-  }
- ],
+ "alerts": [],
  "log": [
   {
    "date": "07/28",
@@ -472,6 +467,12 @@
    "deposit": 85.48,
    "credit": 25.93,
    "cma": 97.68
+  },
+  {
+   "date": "11/12",
+   "deposit": 92.23,
+   "credit": 25.77,
+   "cma": 97.74
   }
  ]
 }
