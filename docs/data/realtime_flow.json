@@ -1,18 +1,33 @@
 {
- "ts_kst": "11-13 10:03",
+ "ts_kst": "11-13 14:21",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
-   "price": 213000.0,
-   "chg_pct": 2.4,
-   "slot": "2",
-   "foreign_qty": 486000.0,
-   "foreign_eok": 1035.2,
-   "inst_qty": 265000.0,
-   "inst_eok": 564.5,
-   "retail_qty": -751000.0,
-   "retail_eok": -1599.6,
+   "price": 206500.0,
+   "chg_pct": -0.72,
+   "slot": "5",
+   "foreign_qty": -17000.0,
+   "foreign_eok": -35.1,
+   "inst_qty": 365000.0,
+   "inst_eok": 753.7,
+   "retail_qty": -348000.0,
+   "retail_eok": -718.6,
    "slots": [
+    {
+     "slot": "5",
+     "frgn": -17000.0,
+     "orgn": 365000.0
+    },
+    {
+     "slot": "4",
+     "frgn": 160000.0,
+     "orgn": 366000.0
+    },
+    {
+     "slot": "3",
+     "frgn": 562000.0,
+     "orgn": 352000.0
+    },
     {
      "slot": "2",
      "frgn": 486000.0,
@@ -27,16 +42,31 @@
   },
   "hynix": {
    "name": "SK하이닉스",
-   "price": 1284000.0,
-   "chg_pct": 2.39,
-   "slot": "2",
-   "foreign_qty": 96000.0,
-   "foreign_eok": 1232.6,
-   "inst_qty": 16000.0,
-   "inst_eok": 205.4,
-   "retail_qty": -112000.0,
-   "retail_eok": -1438.1,
+   "price": 1205000.0,
+   "chg_pct": -3.91,
+   "slot": "5",
+   "foreign_qty": -306000.0,
+   "foreign_eok": -3687.3,
+   "inst_qty": -59000.0,
+   "inst_eok": -711.0,
+   "retail_qty": 365000.0,
+   "retail_eok": 4398.2,
    "slots": [
+    {
+     "slot": "5",
+     "frgn": -306000.0,
+     "orgn": -59000.0
+    },
+    {
+     "slot": "4",
+     "frgn": -210000.0,
+     "orgn": -1000.0
+    },
+    {
+     "slot": "3",
+     "frgn": -4000.0,
+     "orgn": 52000.0
+    },
     {
      "slot": "2",
      "frgn": 96000.0,
@@ -51,22 +81,8 @@
   }
  },
  "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
- "triggers": [
-  {
-   "stock": "삼성전자",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +1,035억 / 개인 매도 -1,600억"
-  },
-  {
-   "stock": "SK하이닉스",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +1,233억 / 개인 매도 -1,438억"
-  }
- ],
+ "triggers": [],
  "log": [
-  {
-   "ts": "10-30 06:12"
-  },
   {
    "ts": "10-30 06:22"
   },
@@ -2864,6 +2880,11 @@
    "ts": "11-13 10:03",
    "samsung": 1035.2,
    "hynix": 1232.6
+  },
+  {
+   "ts": "11-13 14:21",
+   "samsung": -35.1,
+   "hynix": -3687.3
   }
  ]
 }
