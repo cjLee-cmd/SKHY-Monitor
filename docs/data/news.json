@@ -1,8 +1,8 @@
 {
- "ts_kst": "11-15 17:13",
- "n_items": 101,
+ "ts_kst": "11-15 17:23",
+ "n_items": 102,
  "by_source": {
-  "kr": 72,
+  "kr": 73,
   "en": 29
  },
  "routed": {
@@ -11,18 +11,8 @@
   "R-LEVERAGE": 17,
   "C-CHINA": 5
  },
- "unassigned": 56,
- "alerts": [
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "빚투 줄어도 반대매매 급증···하락장에 개미들 '비명' - 뉴스웨이",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  }
- ],
+ "unassigned": 57,
+ "alerts": [],
  "items": [
   {
    "title": "\"10년 모은 4억이 와르르\"…'SK하닉 몰빵' 30대 피눈물 - 한국경제",
@@ -233,6 +223,13 @@
    "agents": []
   },
   {
+   "title": "\"반도체 진보 없인 AI 발전도 불가능\"…삼성전자, 협력사와 기술 공유 - 아시아경제",
+   "pub": "Thu, 12 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "반도체 피크아웃? 중국 추격은 현실, 기술 추월은 과장 - 중앙일보",
    "pub": "Sun, 25 Oct 2026",
    "src": "kr",
@@ -362,8 +359,8 @@
    ]
   },
   {
-   "title": "\"외국인 순매도 사상최대 전망\"…코스피 수급 불확실성 커진다 - 연합인포맥스",
-   "pub": "Mon, 12 Oct 2026",
+   "title": "美 금리 급등發 약세 속 코스피 반등·외국인 순매도…국고 3년 3.7%대 - 연합인포맥스",
+   "pub": "Wed, 11 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -661,15 +658,6 @@
    "src": "en",
    "q": "MU",
    "agents": []
-  },
-  {
-   "title": "What Bernstein Sees in Micron (MU) After the Memory Selloff",
-   "pub": "Fri, 13 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
   }
  ],
  "guards": {
