@@ -1,14 +1,14 @@
 {
- "ts_kst": "11-16 06:29",
- "n_items": 103,
+ "ts_kst": "11-16 06:39",
+ "n_items": 104,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 29
  },
  "routed": {
   "M-CYCLE": 15,
+  "R-LEVERAGE": 17,
   "F-ACTIVE": 9,
-  "R-LEVERAGE": 16,
   "C-CHINA": 5
  },
  "unassigned": 59,
@@ -31,12 +31,19 @@
    "agents": []
   },
   {
-   "title": "젠슨 황 떠난 엔비디아…삼성·SK하이닉스 'HBM 공급망' 판도 바뀌나 - 뉴시스",
+   "title": "삼성전자·SK하이닉스에 빚투 7조원 집중…증시 변동성 확대 우려 - 아주경제",
+   "pub": "Sun, 15 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "삼전·하이닉스에 ‘빚투’ 6.9조…신용융자 27% 쏠렸다 [이런국장 저런주식] - 서울경제",
    "pub": "Sun, 15 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": [
-    "M-CYCLE"
+    "R-LEVERAGE"
    ]
   },
   {
@@ -55,6 +62,29 @@
   },
   {
    "title": "[특징주] SK하이닉스(000660), 주가 급락에도 실적·재무 체력 '굳건' - 인천일보",
+   "pub": "Sun, 15 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "젠슨 황 떠난 엔비디아…삼성·SK하이닉스 'HBM 공급망' 판도 바뀌나 - 뉴시스",
+   "pub": "Sun, 15 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "휘청이는 '큰손' 엔비디아…삼전닉스 추가고객 쟁탈전 불붙나 - 연합뉴스",
+   "pub": "Fri, 13 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "젠슨 황 리스크 '희비'… 외인, 삼전 사고 하닉 팔아 - 부산파이낸셜뉴스",
    "pub": "Sun, 15 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -98,36 +128,6 @@
    "agents": [
     "R-LEVERAGE"
    ]
-  },
-  {
-   "title": "젠슨 황, 사퇴 나흘 만에 복귀 추진…머스크까지 나섰다, 삼성전자·SK하이닉스 웃나 - 핀포인트뉴스",
-   "pub": "Sun, 15 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "삼성전자·SK하이닉스 빚투 7조 육박…반대매매 쏟아지나 - 자본시장뉴스",
-   "pub": "Sun, 15 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "title": "SK하이닉스 주가, 오늘 왜 하락하나? - Investing.com 한국어",
-   "pub": "Fri, 13 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "SK하이닉스, 메모리 장벽 해결책으로 '거대 메모리 풀' 제안 - 연합인포맥스",
-   "pub": "Thu, 12 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "FT “삼성, 반도체 넘어 AI 인프라 도전”…통합 역량 관건 - 글로벌이코노믹",
@@ -396,8 +396,8 @@
    "agents": []
   },
   {
-   "title": "코스피·코스닥, 0.8% 하락 마감...외국인 순매도 계속 - YTN",
-   "pub": "Mon, 09 Nov 2026",
+   "title": "외국인 순매수 전환에 활짝 웃은 코스피...증권가 “변동성 정상화되면 매수세 이어질 수도” - Chosunbiz",
+   "pub": "Thu, 12 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -405,8 +405,8 @@
    ]
   },
   {
-   "title": "외국인 순매수 전환에 활짝 웃은 코스피...증권가 “변동성 정상화되면 매수세 이어질 수도” - Chosunbiz",
-   "pub": "Thu, 12 Nov 2026",
+   "title": "코스피·코스닥, 0.8% 하락 마감...외국인 순매도 계속 - YTN",
+   "pub": "Mon, 09 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -496,6 +496,15 @@
   {
    "title": "[N2 포커스] 반대매매 630억원, 9배 급증…강제청산 막았지만 신용손실 우려 - 뉴스투데이",
    "pub": "Wed, 11 Nov 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "삼성전자·SK하이닉스 빚투 7조 육박…반대매매 쏟아지나 - 자본시장뉴스",
+   "pub": "Sun, 15 Nov 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -639,15 +648,6 @@
   },
   {
    "title": "Micron Technology (MU) Has More Than 75% Of 2027 Output Committed",
-   "pub": "Sat, 14 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology (MU): Does a Low Earnings Multiple Understate Its AI Opportunity?",
    "pub": "Sat, 14 Nov 2026",
    "src": "en",
    "q": "MU",
