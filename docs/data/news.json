@@ -1,5 +1,5 @@
 {
- "ts_kst": "11-16 05:59",
+ "ts_kst": "11-16 06:09",
  "n_items": 103,
  "by_source": {
   "kr": 74,
@@ -7,11 +7,11 @@
  },
  "routed": {
   "M-CYCLE": 14,
-  "F-ACTIVE": 10,
+  "F-ACTIVE": 9,
   "R-LEVERAGE": 16,
   "C-CHINA": 5
  },
- "unassigned": 59,
+ "unassigned": 60,
  "alerts": [],
  "items": [
   {
@@ -38,20 +38,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "휘청이는 '큰손' 엔비디아…삼전닉스 추가고객 쟁탈전 불붙나 - 연합뉴스",
-   "pub": "Fri, 13 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "젠슨 황 리스크 '희비'… 외인, 삼전 사고 하닉 팔아 - 부산파이낸셜뉴스",
-   "pub": "Sun, 15 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "삼성·SK하이닉스 美 D램 반독점 소송, 기각 불허로 본안행…법원 \"고객 심사 일치 정황 따져봐야\" - 글로벌이코노믹",
@@ -128,6 +114,20 @@
    "agents": [
     "R-LEVERAGE"
    ]
+  },
+  {
+   "title": "SK하이닉스 주가, 오늘 왜 하락하나? - Investing.com 한국어",
+   "pub": "Fri, 13 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 메모리 장벽 해결책으로 '거대 메모리 풀' 제안 - 연합인포맥스",
+   "pub": "Thu, 12 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "FT “삼성, 반도체 넘어 AI 인프라 도전”…통합 역량 관건 - 글로벌이코노믹",
@@ -228,8 +228,8 @@
    "agents": []
   },
   {
-   "title": "삼성·SK 반도체 공장 건설 본격화…용인·청주 JTX 등 광역철도망 구축 일정은 미확정 - 광교신문",
-   "pub": "Sun, 15 Nov 2026",
+   "title": "삼성, 충청에 144조 쏟는다…이재용 \"AI 반도체 심장으로\" - 비즈워치",
+   "pub": "Fri, 13 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -414,6 +414,22 @@
    ]
   },
   {
+   "title": "결국 ‘팔자’로 돌아선 외국인…장중 5500 찍은 코스피, 5200대 약세 마감 - 매일경제",
+   "pub": "Fri, 13 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피, 5500선 찍고 5290.53 마감…외국인 7034억 순매도 [fn마감시황] - 파이낸셜뉴스",
+   "pub": "Fri, 13 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "코스피, 외국인 5475억 순매도에 5290선 후퇴…코스닥은 0.45% 상승 - 우리경제신문",
    "pub": "Fri, 13 Nov 2026",
    "src": "kr",
@@ -432,23 +448,7 @@
    ]
   },
   {
-   "title": "코스피, 5500선 찍고 5290.53 마감…외국인 7034억 순매도 [fn마감시황] - 파이낸셜뉴스",
-   "pub": "Fri, 13 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
    "title": "코스피 5500선 터치 후 0.98% 하락 마감…외국인 '팔자'에 상승분 반납 - 인더스트리뉴스",
-   "pub": "Fri, 13 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "'젠슨황 퇴임'에도 장중 3%까지 올랐던 코스피, 0.98% 하락 마감(종합) - 연합뉴스",
    "pub": "Fri, 13 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -462,16 +462,14 @@
    "agents": []
   },
   {
-   "title": "코스피, 외국인 순매수에 2%대 상승 출발 - 서울경제TV",
+   "title": "코스피, 5500선 찍고 하락 반전…외국인 5475억 ‘팔자’ - 뉴시안",
    "pub": "Fri, 13 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "agents": []
   },
   {
-   "title": "코스피, 5500선 찍고 하락 반전…외국인 5475억 ‘팔자’ - 뉴시안",
+   "title": "'젠슨황 퇴임'에도 장중 3%까지 올랐던 코스피, 0.98% 하락 마감(종합) - 연합뉴스",
    "pub": "Fri, 13 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -604,6 +602,15 @@
    ]
   },
   {
+   "title": "Prediction: This Will Be Micron's Stock Price by Late 2027 (Hint: Wall Street Expects 106% Upside)",
+   "pub": "Sun, 15 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "DRAM Just Got More Expensive Than AI Memory. Here’s Why Micron Could Soar in 2027",
    "pub": "Sun, 15 Nov 2026",
    "src": "en",
@@ -641,15 +648,6 @@
   },
   {
    "title": "Where Will Micron Stock Be in 5 Years?",
-   "pub": "Sat, 14 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Is It Too Late to Buy Micron Stock?",
    "pub": "Sat, 14 Nov 2026",
    "src": "en",
    "q": "MU",
