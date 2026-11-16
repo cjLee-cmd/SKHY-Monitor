@@ -1,18 +1,28 @@
 {
- "ts_kst": "11-16 11:24",
- "n_items": 102,
+ "ts_kst": "11-16 11:34",
+ "n_items": 103,
  "by_source": {
-  "kr": 73,
+  "kr": 74,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 18,
-  "R-LEVERAGE": 16,
+  "M-CYCLE": 17,
   "C-CHINA": 5,
-  "F-ACTIVE": 6
+  "F-ACTIVE": 6,
+  "R-LEVERAGE": 15
  },
- "unassigned": 58,
- "alerts": [],
+ "unassigned": 61,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "美법원, D램 담합 정황 인정…삼성·SK하이닉스 'HBM 생산' 차질 빚나 - 뉴스핌",
@@ -33,44 +43,14 @@
    ]
   },
   {
-   "title": "110만원대까지 내려온 SK하이닉스…\"실적으로 증명해야\" - 한국경제",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[현장] \"과감히 도전하라\" 최태원 회장 주문에…SK하이닉스, 소부장 실패까지 껴안는다 By FinancialPost - Investing.com 한국어",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "초고수들 SK하이닉스 '사자', 삼성전자 '팔자'…엇갈린 이유는 - 한국경제",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "“언젠가는 오르겠지”...국내 ‘빚투’ 30% 삼성전자·SK하이닉스에 몰렸다 - 조선일보",
-   "pub": "Sun, 15 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "젠슨 황 떠난 엔비디아…삼성·SK하이닉스 'HBM 공급망' 판도 바뀌나 - 뉴시스",
-   "pub": "Sun, 15 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
    "title": "[르포]SK하이닉스 용인 팹 속 '트리니티팹'…소부장 '데스밸리' 함께 넘는다 - 전자신문",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "110만원대까지 내려온 SK하이닉스…\"실적으로 증명해야\" - 한국경제",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -82,15 +62,6 @@
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "삼전·닉스 '빚투 7조'‥신용융자 쏠림 우려 - MBC 뉴스",
-   "pub": "Sun, 15 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
   },
   {
    "title": "“SK하이닉스, 주주환원 확대·낮아진 밸류에이션…시간 여전히 매수자 편” - 매일경제 마켓",
@@ -123,8 +94,45 @@
    "agents": []
   },
   {
+   "title": "“언젠가는 오르겠지”...국내 ‘빚투’ 30% 삼성전자·SK하이닉스에 몰렸다 - 조선일보",
+   "pub": "Sun, 15 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "젠슨 황 떠난 엔비디아…삼성·SK하이닉스 'HBM 공급망' 판도 바뀌나 - 뉴시스",
+   "pub": "Sun, 15 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "[현장] \"과감히 도전하라\" 최태원 회장 주문에…SK하이닉스, 소부장 실패까지 껴안는다 By FinancialPost - Investing.com 한국어",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
    "title": "삼성·SK하이닉스 美 D램 반독점 소송, 기각 불허로 본안행…법원 \"고객 심사 일치 정황 따져봐야\" - 글로벌이코노믹",
    "pub": "Sun, 15 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "한쪽은 메모리 공장, 한쪽은 소부장 실험실... SK하이닉스 용인 팹 3층 가보니 - 디일렉",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스 \"소부장 기술개발 실패도 함께 감수\"…기술개발·금융 전주기 지원 - 디지털데일리",
+   "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -200,6 +208,13 @@
    "agents": []
   },
   {
+   "title": "초고수들 SK하이닉스 '사자', 삼성전자 '팔자'…엇갈린 이유는 - 한국경제",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "KB證 \"삼성전자, 탈엔비디아 시대 최대 수혜주\" - KB Think",
    "pub": "Sun, 15 Nov 2026",
    "src": "kr",
@@ -214,13 +229,11 @@
    "agents": []
   },
   {
-   "title": "[The Numbers] KB證 “삼성전자, 脫엔비디아 시대 최대 수혜주\", 왜?…삼성 HBM 고객 65%의 의미 - 뉴스스페이스",
+   "title": "소부장 키우는 삼성·SK…지원 방식은 달라 - IT조선",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
   },
   {
    "title": "반도체 피크아웃? 중국 추격은 현실, 기술 추월은 과장 - 중앙일보",
@@ -541,8 +554,8 @@
    ]
   },
   {
-   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리 경제",
-   "pub": "Fri, 24 Jul 2026",
+   "title": "두 달 새 '빚투' 4.7조 급증…급락장에 반대매매 하방 압력↑ - 뉴스핌",
+   "pub": "Tue, 13 Oct 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -550,8 +563,8 @@
    ]
   },
   {
-   "title": "두 달 새 '빚투' 4.7조 급증…급락장에 반대매매 하방 압력↑ - 뉴스핌",
-   "pub": "Tue, 13 Oct 2026",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리 경제",
+   "pub": "Fri, 24 Jul 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -586,8 +599,8 @@
    ]
   },
   {
-   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
+   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
+   "pub": "Tue, 04 Aug 2026",
    "src": "kr",
    "q": "반대매매 신용잔고",
    "agents": [
@@ -641,15 +654,6 @@
   },
   {
    "title": "Micron Technology (MU) Has More Than 75% Of 2027 Output Committed",
-   "pub": "Sat, 14 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Technology (MU): Does a Low Earnings Multiple Understate Its AI Opportunity?",
    "pub": "Sat, 14 Nov 2026",
    "src": "en",
    "q": "MU",
