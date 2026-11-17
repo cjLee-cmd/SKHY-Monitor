@@ -1,20 +1,112 @@
 {
- "ts_kst": "11-17 04:46",
- "n_items": 89,
+ "ts_kst": "11-17 10:36",
+ "n_items": 104,
  "by_source": {
-  "kr": 59,
-  "en": 30
+  "kr": 75,
+  "en": 29
  },
  "routed": {
-  "M-CYCLE": 17,
-  "C-CHINA": 5,
-  "F-ACTIVE": 11
+  "M-CYCLE": 11,
+  "C-CHINA": 7,
+  "F-ACTIVE": 10,
+  "R-LEVERAGE": 15
  },
- "unassigned": 57,
- "alerts": [],
+ "unassigned": 62,
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "[N2 포커스] 반대매매 630억원, 9배 급증…강제청산 막았지만 신용손실 우려 - 뉴스투데이",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "삼성전자·SK하이닉스 빚투 7조 육박…반대매매 쏟아지나 - 자본시장뉴스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "공포지수 이틀째 하락에도 불안 여전···반대매매·자금 공백 부담 넘어야 - 서울파이낸스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "빚투 줄어도 반대매매 급증···하락장에 개미들 '비명' - 뉴스웨이",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "두 달 새 '빚투' 4.7조 급증…급락장에 반대매매 하방 압력↑ - 뉴스핌",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리 경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
-   "title": "美법원, D램 담합 소송 허용…삼성·SK하이닉스 'HBM 생산' 영향주나 - 뉴스핌",
+   "title": "美 법원, 삼성·SK하이닉스·마이크론 DRAM 담합소송 각하 기각 - 연합인포맥스",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -23,7 +115,7 @@
    ]
   },
   {
-   "title": "美 법원, 삼성·SK하이닉스·마이크론 DRAM 담합소송 각하 기각 - 연합인포맥스",
+   "title": "美법원, D램 담합 소송 허용…삼성·SK하이닉스 'HBM 생산' 영향주나 - 뉴스핌",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -39,50 +131,32 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 목표 주가 38% 낮춘 모건스탠리, 이틀 뒤 보고서엔 \"코스피 이르면 3년 내 1만선\" - 조선일보",
+   "title": "삼성·SK하이닉스, 역대 최대 시설투자…3분기 누적 88조원 - 지디넷코리아",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "속보 코스피, 5100선 턱걸이 마감...SK하이닉스 7.9% 하락 - YTN",
-   "pub": "Mon, 16 Nov 2026",
+   "title": "삼성전자·SK하이닉스 보유 현금 329조원 돌파 - 조선일보",
+   "pub": "Tue, 17 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "[특징주] 삼성전자·하이닉스, 장중 낙폭 키워 4∼7%대 급락(종합) - 매일경제 마켓",
-   "pub": "Mon, 16 Nov 2026",
+   "title": "[특징주] 삼성전자·SK하이닉스 동반 약세…美 반도체주 급락 여파 - 브릿지경제",
+   "pub": "Tue, 17 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "또 급락한 삼전닉스…젠슨 황과 앤트로픽 영향 - SBS 뉴스",
+   "title": "초고수들 SK하이닉스 '사자', 삼성전자 '팔자'…엇갈린 이유는 - 한국경제",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
-  },
-  {
-   "title": "“AI 불확실 우려에도 수요 견고”…SK하이닉스, HBM4 생산능력 더 키운다 - 전자신문",
-   "pub": "Sun, 15 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "젠슨 황 떠난 엔비디아…삼성·SK하이닉스 'HBM 공급망' 판도 바뀌나 - 뉴시스",
-   "pub": "Sun, 15 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
   },
   {
    "title": "’젠슨황 쇼크’에 하이닉스 털썩…SK그룹 시총 장중 1천조원 깨지기도 - 연합뉴스TV",
@@ -92,77 +166,56 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 8% 급락…SK그룹 시총 1000조 '턱걸이' - 뉴스핌",
+   "title": "SK스퀘어, 3분기 영업익 7.9조…SK하이닉스 호실적 효과 - 머니투데이 - 머니투데이",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "2000조 시절 어디로…SK그룹, 시총 1000조 턱걸이 사수 [이런국장 저런주식] - 서울경제",
+   "title": "SK스퀘어, 3분기 영업이익 7조 9천억원…SK하이닉스 효과 - 연합뉴스TV",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 3분기 미국 매출 1년새 102조↑…엔비디아 35조 - 연합뉴스",
+   "title": "SK하이닉스 주가 반등 시 더 빠르게 오를 '이 종목' - 마켓인",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 美 매출 1년 새 102조원 급증…엔비디아서만 35조원 - Chosunbiz",
+   "title": "[르포]SK하이닉스 용인 팹 속 '트리니티팹'…소부장 '데스밸리' 함께 넘는다 - 전자신문",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스, 올 3분기 누적 설비투자 31조 원 역대 최대 - MBC 뉴스",
+   "title": "메모리 공장 속 소부장 실험장…SK하이닉스 ‘트리니티팹’ 가보니 - 조선일보",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "초고수들 SK하이닉스 '사자', 삼성전자 '팔자'…엇갈린 이유는 - 한국경제",
+   "title": "[그래픽] SK하이닉스 '트리니티팹' 개요 - 연합뉴스",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
-   "q": "삼성전자 반도체",
+   "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자, 3분기 누적 시설투자 57조…93% 반도체에 집행 - 뉴스핌",
+   "title": "키움증권, 삼전 35만원→29만원…하이닉스 210만원→180만원 - 연합뉴스",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
-   "q": "삼성전자 반도체",
+   "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "삼성전자, 3분기 누적 매출 500조 첫 돌파…반도체 영업익 98% 견인 - 메트로신문",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 3분기 누적 매출 500조 돌파…반도체 매출 314% 급증 - 아이뉴스24",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 이르면 이번주 인사…반도체 '보상' 부진 사업 '쇄신' 주목 - 뉴스1",
-   "pub": "Sun, 15 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "반도체 사업장도 'AI 안경' 경계령…SK하이닉스 반입 금지, 삼성전자도 검토 - 뉴시스",
+   "title": "삼성 AI 안경이 삼성 반도체를 훔쳐본다 - 조선일보",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -176,36 +229,24 @@
    "agents": []
   },
   {
-   "title": "삼성, 반도체 성공 AI 데이터센터로 확장 추진…FT “계열사 통합·수익성 검증 과제” - 아시아투데이",
-   "pub": "Sun, 15 Nov 2026",
+   "title": "미·중 반도체 갈등에 자금 이동…CXMT 팔고 삼성전자 담았다 By EBN - Investing.com 한국어",
+   "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": []
+   "agents": [
+    "C-CHINA"
+   ]
   },
   {
-   "title": "전 삼성전자 부장, 반도체 기술 中 유출 혐의 징역 6년 4개월 확정 - 내외뉴스통신",
+   "title": "삼성전자, 3분기 누적 시설투자 57조…93% 반도체에 집행 - 뉴스핌",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "“젠슨 황 퇴진이 삼성엔 기회”…KB증권, AI 반도체 최대 수혜주 지목 - 디지털데일리",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 메모리 반도체 평균판매가격 값 270% 상승 - 이투데이",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "FT “삼성, 반도체 넘어 AI 인프라 도전”…통합 역량 관건 - 글로벌이코노믹",
-   "pub": "Sun, 15 Nov 2026",
+   "title": "삼성전자, 반도체 미세결함 검사에 자체개발 AI 도입 - 헤럴드경제",
+   "pub": "Tue, 17 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -218,8 +259,66 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 3분기 누적 시설투자 56.9조원…반도체에 52.8조 집중 - 매일일보",
+   "title": "삼성전자 이르면 이번주 인사…반도체 '보상' 부진 사업 '쇄신' 주목 - 뉴스1",
+   "pub": "Sun, 15 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자 반등·SK하이닉스↓…반도체 '투톱' 방향성 탐색[핫스탁] - 뉴시스",
    "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 스타링크 통해 우주항공 반도체 분야 사업 확대..공급물량·계약금액 '깜깜이' - 한국정경신문",
+   "pub": "Tue, 17 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 3분기 누적 매출 500조 첫 돌파…반도체 영업익 98% 견인 - 메트로신문",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "반도체 호황에…삼성전자·SK하이닉스 현금성 자산 329조원 돌파 - 매일일보",
+   "pub": "Tue, 17 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "한투운용 'ACE 글로벌반도체TOP4 Plus', 메모리 대표주 삼성전자로 교체 - 서울경제TV",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "미·중 반도체 갈등에 자금 이동…CXMT 팔고 삼성전자 담았다 - www.ebn.co.kr",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "C-CHINA"
+   ]
+  },
+  {
+   "title": "한투운용, ACE 글로벌반도체TOP4 Plus 리밸런싱…삼성전자 비중 19%대로 확대 - 팍스경제TV",
+   "pub": "Tue, 17 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 평택·동탄 '연말 영화관' 통째로 빌린다…왜? - 머니투데이 - 머니투데이",
+   "pub": "Tue, 17 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -230,6 +329,16 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
+  },
+  {
+   "title": "中 CXMT, 차세대 D램 기술 공개에 SK하이닉스·마이크론 동반 급락 - 뉴스핌",
+   "pub": "Mon, 12 Oct 2026",
+   "src": "kr",
+   "q": "메모리 반도체 중국",
+   "agents": [
+    "M-CYCLE",
+    "C-CHINA"
+   ]
   },
   {
    "title": "매출 100조 신기록에도 K메모리 안심 못 한다… 호황 타고 커지는 중국의 추격 - 한국일보",
@@ -274,16 +383,6 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "中 CXMT, 차세대 D램 기술 공개에 SK하이닉스·마이크론 동반 급락 - 뉴스핌",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE",
     "C-CHINA"
    ]
   },
@@ -345,6 +444,15 @@
    ]
   },
   {
+   "title": "엔비디아 우려에 코스피 장중 5,000 하회…외국인 순매도(상보) - 연합인포맥스",
+   "pub": "Tue, 17 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
    "title": "상승 출발한 코스피 3.59% 급락 마감…외국인 1.3조 순매도에 5100선 턱걸이 By EBN - Investing.com 한국어",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
@@ -352,6 +460,29 @@
    "agents": [
     "F-ACTIVE"
    ]
+  },
+  {
+   "title": "코스피, 장중 5,000선 붕괴 후 반등…외국인 매도에 약세 지속 - 산경투데이",
+   "pub": "Tue, 17 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "[포토] 엔비디아 우려에 코스피 장중 5,000 하회…외국인 순매도 - 아시아경제",
+   "pub": "Tue, 17 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "코스피 장중 4984까지 추락…외국인 매도에 5000선 또 흔들 - 진일보 | 전남일보",
+   "pub": "Tue, 17 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
   },
   {
    "title": "코스피 3%대 급락하며 5100선 후퇴…외국인 1.7조 순매도 - 서울경제TV",
@@ -363,15 +494,8 @@
    ]
   },
   {
-   "title": "AI 악재에 외국인 1.4조 매도…코스피 3.59%, 코스닥 5% 급락 - 더나은미래",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피 3.59% 급락에 5,100선 턱걸이…외국인 1.4조원 순매도 - 산경투데이",
-   "pub": "Mon, 16 Nov 2026",
+   "title": "코스피, 李 대통령 자본시장 간담회 효과 무색…‘외국인 순매도’에 하락 마감 - 더나은미래",
+   "pub": "Fri, 13 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -380,31 +504,6 @@
   },
   {
    "title": "코스피, 외국인·기관 순매도에 5100선 턱걸이…코스닥 4.86% 동반 급락 - 증권일보",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "“삼전닉스 반등한다더니”…코스피, 외국인·기관 매도에 3.6% 급락 마감 - 매일경제 마켓",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "'엔비디아 리스크' 코스피 5100선 붕괴…외국인 1.4조 순매도[장중시황] - 뉴스1",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "[장중시황] 외국인 순매도에 코스피 2%대 하락 ‘5170선’⋯SK하이닉스 4%↓ - 브릿지경제",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -422,7 +521,14 @@
    ]
   },
   {
-   "title": "코스피, 3.59% 급락해 5100선 턱걸이…외국인 1조 3800억 순매도 - 우리경제신문",
+   "title": "“삼전닉스 반등한다더니”…코스피, 외국인·기관 매도에 3.6% 급락 마감 - 매일경제 마켓",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피 5100선 턱걸이 3.6%↓…'AI 불확실성' 외국인 1.4조 순매도[시황종합] - 뉴스1",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
@@ -431,8 +537,24 @@
    ]
   },
   {
-   "title": "\"외국인 순매도 사상최대 전망\"…코스피 수급 불확실성 커진다 - 연합인포맥스",
-   "pub": "Mon, 12 Oct 2026",
+   "title": "코스피, 외국인·기관 순매도에 5100선 턱걸이…삼성전자 4%·SK하이닉스 7%대 하락 [투자360] - 헤럴드경제",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": [
+    "F-ACTIVE"
+   ]
+  },
+  {
+   "title": "[마감시황] 외국인·기관 매도세에 코스피 3.59% 하락⋯SK하이닉스 7%대↓ - 브릿지경제",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "외국인 순매도 코스피",
+   "agents": []
+  },
+  {
+   "title": "코스피, 3.59% 급락해 5100선 턱걸이…외국인 1조 3800억 순매도 - 우리경제신문",
+   "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "외국인 순매도 코스피",
    "agents": [
@@ -447,29 +569,162 @@
    "agents": []
   },
   {
-   "title": "코스피 3.59% 급락해 5100선…외국인·기관 1.8조 순매도[fn마감시황] - 파이낸셜뉴스",
-   "pub": "Mon, 16 Nov 2026",
+   "title": "[N2 포커스] 반대매매 630억원, 9배 급증…강제청산 막았지만 신용손실 우려 - 뉴스투데이",
+   "pub": "Wed, 11 Nov 2026",
    "src": "kr",
-   "q": "외국인 순매도 코스피",
+   "q": "반대매매 신용잔고",
    "agents": [
-    "F-ACTIVE"
+    "R-LEVERAGE"
    ]
   },
   {
-   "title": "코스피, 외국인·기관 매도에 3.59% 급락…장중 5100선 붕괴 - 굿모닝경제",
-   "pub": "Mon, 16 Nov 2026",
+   "title": "코스닥 빚투부터 무너졌다…급락장에 신용잔고 1.1조 증발 - www.ebn.co.kr",
+   "pub": "Wed, 11 Nov 2026",
    "src": "kr",
-   "q": "외국인 순매도 코스피",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "삼성전자·SK하이닉스 빚투 7조 육박…반대매매 쏟아지나 - 자본시장뉴스",
+   "pub": "Sun, 15 Nov 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "공포지수 이틀째 하락에도 불안 여전···반대매매·자금 공백 부담 넘어야 - 서울파이낸스",
+   "pub": "Tue, 10 Nov 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
+   "pub": "Thu, 15 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "빚투 줄어도 반대매매 급증···하락장에 개미들 '비명' - 뉴스웨이",
+   "pub": "Tue, 20 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "pub": "Tue, 14 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "두 달 새 '빚투' 4.7조 급증…급락장에 반대매매 하방 압력↑ - 뉴스핌",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "[궁지 몰린 빚투] 이란사태 전 오히려 늘었던 미수·신용융자 폭탄 째깍째깍 - 연합인포맥스",
+   "pub": "Mon, 09 Mar 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "pub": "Sun, 26 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리 경제",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "Dow Jones Futures: AMD, Nvidia, Micron Lead AI Trade Lower With Nvidia Earnings On Deck",
+   "pub": "Tue, 17 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "4 Chip Stocks Down as Much as 36% From Their Highs to Buy and Hold for the Next Decade",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "en",
+   "q": "MU",
    "agents": []
   },
   {
-   "title": "[1116마감체크] 코스피 지수, 외국인·기관 순매도 속 3거래일 연속 하락 마감 By 인포스탁데일리 - Investing.com 한국어",
+   "title": "Direxion and Anthony Pompliano's Silvia Join Forces to Help Investors Rethink Income",
    "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
+   "src": "en",
+   "q": "MU",
+   "agents": []
   },
   {
    "title": "Micron Stocks Sink Nearly 7% After Judge Lets DRAM Supply Lawsuit Proceed",
@@ -488,155 +743,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Why Micron Stock Keeps Going Down",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Why Micron Stock Dove Today",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Has $14.6 Billion in China-Linked Revenue. Are These New U.S. Chip Export Rules a Threat?",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron’s AI Memory Is Nearly Sold Out Through 2027 — That Could Be Its Biggest Risk",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Not Nvidia. Not Micron. These 2 Under-the-Radar AI Stocks Could Be Worth Holding Through 2030",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Sinks 5% as Tighter US Chip Export Rules Deepen Memory Selloff",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Stock Has Soared 150% YTD -- Analysts Expect Shares Could Nearly Double by 2027",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "Micron Vs. Intel: Margins Tell Investors Exactly Why One of These is a Definite No Go to End 2027",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "ASML Plunged 17% Lower Over 3 Months: This Wall Street Desk Expects 88% Gains Over the Next 12",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Is It Worth Investing in ASML (ASML) Based on Wall Street's Bullish Views?",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML reports transactions under its current share buyback program",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML vs. NVIDIA: Which Technology Stock Is a Better Buy for 2027?",
-   "pub": "Sat, 14 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Arm vs. ASML: Which Technology Stock Is a Better Buy for 2027?",
-   "pub": "Sat, 14 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Prediction: ASML Will Join the $800 Billion Club in 2029",
-   "pub": "Sat, 14 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML Soars 10% in a Week as Chip Stocks Bounce and Musk’s Terafab Eyes a Million Wafers",
-   "pub": "Sat, 14 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML Holding (ENXTAM:ASML) Faces Sector Selling, Is The 25% Undervaluation Case Still Intact?",
-   "pub": "Fri, 13 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Nvidia stock slips as investors digest CEO exit, broader chip sell-off accelerates",
-   "pub": "Fri, 13 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "XNDU Stock Fell From $42 to $2.80. GlobalFoundries and ASML May Explain the Bounce Case",
-   "pub": "Fri, 13 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "TSMC Stocks Slide 5.7% Despite October Sales Jumping 59.7% to a 2026 High",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "en",
-   "q": "TSM",
-   "agents": []
   }
  ],
  "guards": {
