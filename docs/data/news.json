@@ -1,32 +1,17 @@
 {
- "ts_kst": "11-17 11:15",
- "n_items": 89,
+ "ts_kst": "11-17 11:25",
+ "n_items": 74,
  "by_source": {
-  "kr": 60,
+  "kr": 45,
   "en": 29
  },
  "routed": {
-  "M-CYCLE": 11,
-  "C-CHINA": 6,
+  "M-CYCLE": 9,
+  "C-CHINA": 1,
   "F-ACTIVE": 10
  },
- "unassigned": 63,
- "alerts": [
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "’돈나무 언니’ 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 By The Guru - Investing.com 한국",
-   "agents": []
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "agents": []
-  }
- ],
+ "unassigned": 54,
+ "alerts": [],
  "items": [
   {
    "title": "美 법원, 삼성·SK하이닉스·마이크론 DRAM 담합소송 각하 기각 - 연합인포맥스",
@@ -47,7 +32,7 @@
    ]
   },
   {
-   "title": "삼성전자 SK하이닉스 미국서 'D램 담합'으로 피소, 집단소송에 손해배상 리스크 커지나 - 비즈니스포스트",
+   "title": "美 법원, 삼성·SK하이닉스 등 D램 담합소송 중지 신청 기각 - MBC 뉴스",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -75,13 +60,6 @@
    "agents": []
   },
   {
-   "title": "삼전닉스 현금 곳간 329조 돌파…1년새 193조 급증 - 연합뉴스",
-   "pub": "Mon, 16 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "삼전닉스, 현금 규모 가파른 증가세…329조원 돌파 - 연합뉴스TV",
    "pub": "Tue, 17 Nov 2026",
    "src": "kr",
@@ -89,7 +67,7 @@
    "agents": []
   },
   {
-   "title": "삼전·하이닉스 목표가 낮춘 모건스탠리…코스피 1만 전망한 이유 - 쿠키뉴스",
+   "title": "[특징주] 삼전·닉스, '젠슨황 리스크' 지속에 장초반 1∼2%대↓ - 연합뉴스",
    "pub": "Tue, 17 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -103,11 +81,13 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스 주가 하락 중 - 아시아뉴스통신",
-   "pub": "Tue, 17 Nov 2026",
+   "title": "“AI 불확실 우려에도 수요 견고”…SK하이닉스, HBM4 생산능력 더 키운다 - 전자신문",
+   "pub": "Sun, 15 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": []
+   "agents": [
+    "M-CYCLE"
+   ]
   },
   {
    "title": "SK스퀘어, 3분기 영업익 7.9조…SK하이닉스 호실적 효과 - 머니투데이 - 머니투데이",
@@ -132,6 +112,13 @@
   },
   {
    "title": "소부장에 내준 공장라인… SK하이닉스 ‘반도체 상생’ - 서울신문",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "메모리 공장 속 소부장 실험장…SK하이닉스 ‘트리니티팹’ 가보니 - 조선일보",
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -215,8 +202,8 @@
    "agents": []
   },
   {
-   "title": "전 삼성전자 부장, 반도체 기술 中 유출 혐의 징역 6년 4개월 확정 - 내외뉴스통신",
-   "pub": "Mon, 16 Nov 2026",
+   "title": "[공시] 미래컴퍼니, 삼성전자와 20억9000만원 반도체 장비 계약 - 글로벌이코노믹",
+   "pub": "Tue, 17 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -240,126 +227,6 @@
    "pub": "Mon, 16 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "반도체 피크아웃? 중국 추격은 현실, 기술 추월은 과장 - 중앙일보",
-   "pub": "Sun, 25 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "中 CXMT, 차세대 D램 기술 공개에 SK하이닉스·마이크론 동반 급락 - 뉴스핌",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE",
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "매출 100조 신기록에도 K메모리 안심 못 한다… 호황 타고 커지는 중국의 추격 - 한국일보",
-   "pub": "Thu, 29 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "CXMT, 애플에 “싸게 줄 이유 없다”…삼성·SK하이닉스보다 비싼 값 제시 - 테크월드",
-   "pub": "Tue, 28 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "한은 \"향후 3~5년 한중 첨단메모리 격차 확대…장기적으론 위협\" - 연합인포맥스",
-   "pub": "Thu, 03 Sep 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "'또' 중국發 반도체 공급과잉 공포...코스피 장중 6000선 붕괴 - 인베스트조선",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "’돈나무 언니’ 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 By The Guru - Investing.com 한국어",
-   "pub": "Wed, 14 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "중국 CXMT 가파른 성장은 메모리반도체 업황에 긍정 신호, 삼성전자 SK하이닉스에 영향 주목 - 비즈니스포스트",
-   "pub": "Tue, 20 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "메모리 반도체 중국 추격 거세…AI 반도체는 한국 앞질렀다 - 이데일리",
-   "pub": "Fri, 23 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "중국의 메모리 반도체는 ‘삼전닉스’를 따라잡을까? - 시사IN",
-   "pub": "Thu, 20 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "“삼성보다 2년 빨리” 중국의 D램 도발…CXMT, 차세대메모리 연내출시 - 매일경제",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "머스크 \"중국 범용 메모리 반도체는 추격해도 HBM 진입 여전히 난제\" - 글로벌이코노믹",
-   "pub": "Tue, 13 Oct 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"반도체 성장 무한하지 않다\"...메모리 증설 전쟁, 문제는 '중국' [굿모닝경제] - YTN",
-   "pub": "Thu, 09 Jul 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": []
-  },
-  {
-   "title": "결국 중국이 덤핑해서 메모리 반도체 주식들도 무너진다 (feat. 삼성전자, SK하이닉스, 마이크론) - 네이버 프리미엄콘텐츠",
-   "pub": "Sat, 27 Jun 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\" - 연합뉴스",
-   "pub": "Mon, 03 Aug 2026",
-   "src": "kr",
-   "q": "메모리 반도체 중국",
    "agents": [
     "C-CHINA"
    ]
@@ -639,6 +506,69 @@
    "pub": "Fri, 13 Nov 2026",
    "src": "en",
    "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Taiwan Semiconductor Booked a Record NT$587 Billion Month. The Stock Has Lost Nearly 10% in Three Days Anyway",
+   "pub": "Tue, 17 Nov 2026",
+   "src": "en",
+   "q": "TSM",
+   "agents": []
+  },
+  {
+   "title": "Top Analyst Reports for Taiwan Semiconductor, Johnson & Johnson and Palantir",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "en",
+   "q": "TSM",
+   "agents": []
+  },
+  {
+   "title": "TSMC Slumps Nearly 6% as Jensen Huang’s Exit and AI Debt Fears Rattle Investors Ahead of Nvidia Earnings",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "en",
+   "q": "TSM",
+   "agents": []
+  },
+  {
+   "title": "INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "en",
+   "q": "TSM",
+   "agents": []
+  },
+  {
+   "title": "TSMC Stocks Slide 5.7% Despite October Sales Jumping 59.7% to a 2026 High",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "en",
+   "q": "TSM",
+   "agents": []
+  },
+  {
+   "title": "TSM's $2 Billion Packaging Deal Could Ease a Critical AI Bottleneck",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "en",
+   "q": "TSM",
+   "agents": []
+  },
+  {
+   "title": "Is TSM Still a Buy as AI Growth Faces Heavy Spending and Valuation?",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "en",
+   "q": "TSM",
+   "agents": []
+  },
+  {
+   "title": "Huang’s ‘trillion-dollar dinners’ with Taiwan chip bosses were Nvidia’s secret weapon. Now he’s out. Can he be replaced?",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "en",
+   "q": "TSM",
+   "agents": []
+  },
+  {
+   "title": "Nvidia’s Bull Case: AI Labs Must “Quadruple Their R&D Compute” Yearly per Dwarkesh Patel",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "en",
+   "q": "TSM",
    "agents": []
   }
  ],
