@@ -1239,17 +1239,20 @@
   "n_train": 51,
   "p0_p50": 50.24,
   "gap_p50": 1.12,
-  "realized_p0": null,
-  "realized_gap": null
+  "realized_p0": 48.21,
+  "realized_gap": -1.4,
+  "p0_abs_err": 2.03,
+  "gap_abs_err": 2.52,
+  "gap_abs_err_rw": 1.4
  },
  {
   "date": "2026-11-19",
-  "made_at": "11-18 06:25",
+  "made_at": "11-18 11:07",
   "model": "M0-baseline",
-  "stage": "B-미마감반영",
-  "n_train": 51,
-  "p0_p50": 50.03,
-  "gap_p50": 0.76,
+  "stage": "A-잠정",
+  "n_train": 52,
+  "p0_p50": 48.21,
+  "gap_p50": 0.0,
   "realized_p0": null,
   "realized_gap": null
  }
