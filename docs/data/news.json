@@ -1,17 +1,118 @@
 {
- "ts_kst": "11-19 20:13",
- "n_items": 88,
+ "ts_kst": "11-19 20:23",
+ "n_items": 103,
  "by_source": {
-  "kr": 59,
+  "kr": 74,
   "en": 29
  },
  "routed": {
   "M-CYCLE": 16,
   "C-CHINA": 4,
-  "F-ACTIVE": 5
+  "F-ACTIVE": 5,
+  "R-LEVERAGE": 15
  },
  "unassigned": 64,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "[금융 직썰] 빚투 한 달 새 8조 증발…반대매매 줄고 매수력도 뚝 - 직썰",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "삼성전자·SK하이닉스 빚투 7조 육박…반대매매 쏟아지나 - 자본시장뉴스",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "두 달 새 '빚투' 4.7조 급증…급락장에 반대매매 하방 압력↑ - 뉴스핌",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리 경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피, 수급 공백 속 바닥론...신용융자 잔고·반대매매 감소 - 증권일보",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "level": "critical",
+   "kw": "반대매매",
+   "src": "kr",
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  }
+ ],
  "items": [
   {
    "title": "[단독] 美 대형 로펌, SK하이닉스 주가 급락 '집단소송' 조사 착수…투자자 손실 보상 추진 - 더구루",
@@ -127,13 +228,6 @@
    "agents": []
   },
   {
-   "title": "AI 거품론에 선 그은 삼성전자…\"반도체 투자, 실수요가 뒷받침\" - 뉴시스",
-   "pub": "Thu, 19 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
    "title": "미·중서 매출 급증했는데 텍사스는 적자…삼성 반도체 '온도차' - 연합인포맥스",
    "pub": "Thu, 19 Nov 2026",
    "src": "kr",
@@ -141,7 +235,35 @@
    "agents": []
   },
   {
-   "title": "삼성전자 AI 반도체 증설에 협력사 노동자 과로·안전 '위협' - 세이프타임즈",
+   "title": "AI 거품론에 선 그은 삼성전자…\"반도체 투자, 실수요가 뒷받침\" - 뉴시스",
+   "pub": "Thu, 19 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, 국내 반도체 장비 옮겨 오스틴 재편… “美 공장 ‘이원화’ 전략” - Chosunbiz",
+   "pub": "Wed, 18 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[단독] 삼성, 블루윙즈 화성 연습장에 반도체 사무동 짓는다 - 매일경제",
+   "pub": "Wed, 18 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[기자의 눈] 7개로 늘어난 삼성전자 노조…호남 반도체 괜찮나 - 에너지경제신문",
+   "pub": "Thu, 19 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[CEO와칭] 박용인 삼성전자 사장, 시스템반도체 40년 외길…엑시노스 흑자 승부 - 메트로신문",
    "pub": "Thu, 19 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -155,28 +277,35 @@
    "agents": []
   },
   {
-   "title": "삼성전자, 반도체 미세결함 검사에 자체개발 AI 도입 - 헤럴드경제",
+   "title": "“주가 반토막인데 반도체는 품귀…반등 가능성 커졌다” - 이데일리",
    "pub": "Tue, 17 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "[CEO와칭] 박용인 삼성전자 사장, 시스템반도체 40년 외길…엑시노스 흑자 승부 - 메트로신문",
+   "title": "[호암 이병철 39주기] 이재용, '사업보국' 계승…AI 반도체로 삼성 새 역사 - www.ebn.co.kr",
    "pub": "Thu, 19 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
-   "title": "삼성전자 '7노조' 광주노조 출범, 호남 반도체 조성 후 DS 확대 추진 - 뉴스핌",
-   "pub": "Wed, 18 Nov 2026",
+   "title": "삼성전자 AI 반도체 증설에 협력사 노동자 과로·안전 '위협' - 세이프타임즈",
+   "pub": "Thu, 19 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
   },
   {
    "title": "삼성전자 \"AI 거품 우려 과도…네오클라우드, 전체 비중 8% 그쳐\" - 한국경제",
+   "pub": "Thu, 19 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[호암 이병철 39주기] 이재용, ’사업보국’ 계승…AI 반도체로 삼성 새 역사 By EBN - Investing.com 한국어",
    "pub": "Thu, 19 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -190,36 +319,8 @@
    "agents": []
   },
   {
-   "title": "삼성전자 반도체 부문, 3분기 영업익 106조원…첫 ‘분기 100조’ 돌파 - 한겨레",
-   "pub": "Thu, 29 Oct 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[호암 이병철 39주기] 이재용, ’사업보국’ 계승…AI 반도체로 삼성 새 역사 By EBN - Investing.com 한국어",
-   "pub": "Thu, 19 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자 제7노조 '광주노조' 출범…호남 반도체 사업 땐 DS로 확대 - 글로벌이코노믹",
+   "title": "삼성전자 '7노조' 광주노조 출범, 호남 반도체 조성 후 DS 확대 추진 - 뉴스핌",
    "pub": "Wed, 18 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "“애플이 삼성전자에 4년치 D램 달라는데”…‘주가 60만원’ 기대감 커진 이유 - 데일리25",
-   "pub": "Thu, 19 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 사장단 인사 이르면 20일…전영현·노태문 '겸직 해제' 주목 - 조세일보",
-   "pub": "Thu, 19 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -460,6 +561,141 @@
    ]
   },
   {
+   "title": "[금융 직썰] 빚투 한 달 새 8조 증발…반대매매 줄고 매수력도 뚝 - 직썰",
+   "pub": "Mon, 16 Nov 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 대폭 감소…신용융자 잔고 6개월 만에 30조원 하회 - 연합뉴스",
+   "pub": "Mon, 03 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
+   "pub": "Mon, 24 Aug 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘빚투 불개미’, 신용잔고 38.6조 역대 최고…반대매매 비중 6월 3.52% 급등 - NSP통신",
+   "pub": "Fri, 31 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "개미들의 패닉셀 … 반대매매 속 4조 팔아치웠다 - 매일경제 마켓",
+   "pub": "Tue, 14 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "삼성전자·SK하이닉스 빚투 7조 육박…반대매매 쏟아지나 - 자본시장뉴스",
+   "pub": "Sun, 15 Nov 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
+   "pub": "Thu, 15 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "[궁지 몰린 빚투] 이란사태 전 오히려 늘었던 미수·신용융자 폭탄 째깍째깍 - 연합인포맥스",
+   "pub": "Mon, 09 Mar 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "두 달 새 '빚투' 4.7조 급증…급락장에 반대매매 하방 압력↑ - 뉴스핌",
+   "pub": "Tue, 13 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "'빚투' 부메랑 후폭풍 현실화…신용잔고 5조 증발 - 영남경제",
+   "pub": "Sun, 26 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘빚투’ 속출에도 삼전·닉스 신용잔고율 그대로 … ‘반대매매 vs 저가 매수’ 팽팽 - 뉴데일리 경제",
+   "pub": "Fri, 24 Jul 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피, 수급 공백 속 바닥론...신용융자 잔고·반대매매 감소 - 증권일보",
+   "pub": "Tue, 27 Oct 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+   "pub": "Thu, 04 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "폭락장에도 '빚투' 역대 최대…반대매매 도미노 우려 - 프라임경제",
+   "pub": "Mon, 09 Mar 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
+   "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
+   "pub": "Wed, 03 Jun 2026",
+   "src": "kr",
+   "q": "반대매매 신용잔고",
+   "agents": [
+    "R-LEVERAGE"
+   ]
+  },
+  {
    "title": "Anthropic to debut amid security worries and SpaceX to finance GPU rentals",
    "pub": "Wed, 18 Nov 2026",
    "src": "en",
@@ -510,115 +746,6 @@
    "agents": [
     "M-CYCLE"
    ]
-  },
-  {
-   "title": "Stock-Split Watch: Is Micron Next?",
-   "pub": "Thu, 19 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "The 5 Best Stocks in David Tepper’s Portfolio",
-   "pub": "Wed, 18 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "How Much Upside Is Left In Micron Stock?",
-   "pub": "Wed, 18 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "iShares PHLX SOX Semiconductor (SOXX) Sells $24.6 Million More AMD on Tuesday",
-   "pub": "Thu, 19 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": []
-  },
-  {
-   "title": "Why ASML Holding (ASML)’s Monopoly in EUV Technology Gives It a Powerful Competitive Advantage",
-   "pub": "Thu, 19 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Why Nvidia and ASML still fit an underweight tech strategy",
-   "pub": "Thu, 19 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "NVIDIA's Leadership Woes: Buy TSMC & ASML Despite Supply-Chain Risks?",
-   "pub": "Wed, 18 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Bernstein Spots 4 Ways to Play the $279 Billion Chip Tool Boom",
-   "pub": "Wed, 18 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML Holding N.V. (ASML) is Attracting Investor Attention: Here is What You Should Know",
-   "pub": "Wed, 18 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Is ASML Holding (NasdaqGS:ASML) Getting Too Pricey For Its Cash Flow?",
-   "pub": "Wed, 18 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "Is ASML Holding (NasdaqGS:ASML) Undervalued After Its Recent Pullback?",
-   "pub": "Wed, 18 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ETFs Are Net Sellers of ASML (ASML) on Monday",
-   "pub": "Wed, 18 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ASML Stocks Fall 2.72% as New US Rule Tightens the Chip Supply Chain It Serves",
-   "pub": "Tue, 17 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "If You Have $1,000 to Invest in December, These 3 Stocks Are Built to Last a Decade",
-   "pub": "Wed, 18 Nov 2026",
-   "src": "en",
-   "q": "ASML",
-   "agents": []
-  },
-  {
-   "title": "ETFs Are Net Sellers of Taiwan Semiconductor (TSM) on Nov. 17",
-   "pub": "Thu, 19 Nov 2026",
-   "src": "en",
-   "q": "TSM",
-   "agents": []
   }
  ],
  "guards": {
