@@ -1,66 +1,66 @@
 {
- "ts_kst": "11-23 12:43",
- "score": 39.1,
+ "ts_kst": "11-23 12:53",
+ "score": 37.1,
  "verdict": "판단 유보",
  "components": {
-  "A_통계극단성": 0.8,
+  "A_통계극단성": 0,
   "B_체인동조성": 25,
-  "C_펀더멘털배율": 4.3,
-  "D_역사되돌림": 9.0
+  "C_펀더멘털배율": 3.6,
+  "D_역사되돌림": 8.5
  },
  "targets": {
   "삼성전자": {
    "name": "삼성전자",
-   "cum": -10.77,
+   "cum": -10.41,
    "sd": 4.93,
-   "z": -1.55,
-   "n_episodes": 6,
+   "z": -1.49,
+   "n_episodes": 7,
    "forward": {
     "5": {
-     "mean": 0.23,
-     "median": 0.25,
-     "up_rate": 50
+     "mean": 1.63,
+     "median": 2.49,
+     "up_rate": 57
     },
     "20": {
-     "mean": -7.33,
-     "median": -10.1,
-     "up_rate": 33
+     "mean": -8.2,
+     "median": -13.45,
+     "up_rate": 29
     },
     "60": {
-     "mean": 10.75,
-     "median": -1.29,
-     "up_rate": 50
+     "mean": 5.09,
+     "median": -18.55,
+     "up_rate": 43
     }
    }
   },
   "SK하이닉스": {
    "name": "SK하이닉스",
-   "cum": -9.97,
-   "sd": 5.89,
-   "z": -1.2,
-   "n_episodes": 14,
+   "cum": -9.38,
+   "sd": 5.88,
+   "z": -1.13,
+   "n_episodes": 16,
    "forward": {
     "5": {
-     "mean": 1.19,
-     "median": 3.46,
-     "up_rate": 64
+     "mean": 2.53,
+     "median": 3.79,
+     "up_rate": 75
     },
     "20": {
-     "mean": 4.16,
-     "median": 2.28,
-     "up_rate": 57
+     "mean": 5.41,
+     "median": 4.23,
+     "up_rate": 56
     },
     "60": {
-     "mean": 30.71,
+     "mean": 32.81,
      "median": 21.26,
-     "up_rate": 57
+     "up_rate": 62
     }
    }
   }
  },
  "chain": {
-  "삼성전자": -10.77,
-  "SK하이닉스": -9.97,
+  "삼성전자": -10.41,
+  "SK하이닉스": -9.38,
   "마이크론": -15.7,
   "TSMC": -12.11,
   "ASML": -9.25,
@@ -76,10 +76,10 @@
   "updated": "2026-07-28"
  },
  "detail": {
-  "z_min": -1.55,
-  "drop_avg": 10.37,
-  "fundamental_ratio": 1.35,
+  "z_min": -1.49,
+  "drop_avg": 9.89,
+  "fundamental_ratio": 1.29,
   "chain_negative": "5/5"
  },
- "caveat": "역사 표본 14개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 16개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
