@@ -1,18 +1,33 @@
 {
- "ts_kst": "11-24 10:13",
+ "ts_kst": "11-24 17:40",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
-   "price": 191300.0,
-   "chg_pct": 7.77,
-   "slot": "2",
-   "foreign_qty": 645000.0,
-   "foreign_eok": 1233.9,
-   "inst_qty": 171000.0,
-   "inst_eok": 327.1,
-   "retail_qty": -816000.0,
-   "retail_eok": -1561.0,
+   "price": 188400.0,
+   "chg_pct": 6.14,
+   "slot": "5",
+   "foreign_qty": 1143000.0,
+   "foreign_eok": 2153.4,
+   "inst_qty": 452000.0,
+   "inst_eok": 851.6,
+   "retail_qty": -1595000.0,
+   "retail_eok": -3005.0,
    "slots": [
+    {
+     "slot": "5",
+     "frgn": 1143000.0,
+     "orgn": 452000.0
+    },
+    {
+     "slot": "4",
+     "frgn": 1131000.0,
+     "orgn": 625000.0
+    },
+    {
+     "slot": "3",
+     "frgn": 894000.0,
+     "orgn": 493000.0
+    },
     {
      "slot": "2",
      "frgn": 645000.0,
@@ -27,16 +42,31 @@
   },
   "hynix": {
    "name": "SK하이닉스",
-   "price": 1194000.0,
-   "chg_pct": 10.05,
-   "slot": "2",
-   "foreign_qty": -73000.0,
-   "foreign_eok": -871.6,
-   "inst_qty": -10000.0,
-   "inst_eok": -119.4,
-   "retail_qty": 83000.0,
-   "retail_eok": 991.0,
+   "price": 1142000.0,
+   "chg_pct": 5.25,
+   "slot": "5",
+   "foreign_qty": -207000.0,
+   "foreign_eok": -2363.9,
+   "inst_qty": 103000.0,
+   "inst_eok": 1176.3,
+   "retail_qty": 104000.0,
+   "retail_eok": 1187.7,
    "slots": [
+    {
+     "slot": "5",
+     "frgn": -207000.0,
+     "orgn": 103000.0
+    },
+    {
+     "slot": "4",
+     "frgn": -211000.0,
+     "orgn": 35000.0
+    },
+    {
+     "slot": "3",
+     "frgn": -56000.0,
+     "orgn": 37000.0
+    },
     {
      "slot": "2",
      "frgn": -73000.0,
@@ -55,15 +85,10 @@
   {
    "stock": "삼성전자",
    "level": "high",
-   "text": "역할 전환 — 외국인 매수 +1,234억 / 개인 매도 -1,561억"
+   "text": "역할 전환 — 외국인 매수 +2,153억 / 개인 매도 -3,005억"
   }
  ],
  "log": [
-  {
-   "ts": "11-08 11:04",
-   "samsung": -1439.6,
-   "hynix": -10478.2
-  },
   {
    "ts": "11-08 11:14",
    "samsung": -1439.6,
@@ -2854,6 +2879,11 @@
    "ts": "11-24 10:13",
    "samsung": 1233.9,
    "hynix": -871.6
+  },
+  {
+   "ts": "11-24 17:40",
+   "samsung": 2153.4,
+   "hynix": -2363.9
   }
  ]
 }
