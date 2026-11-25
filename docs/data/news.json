@@ -1,33 +1,28 @@
 {
- "ts_kst": "11-25 23:23",
- "n_items": 105,
+ "ts_kst": "11-25 23:33",
+ "n_items": 106,
  "by_source": {
-  "kr": 74,
+  "kr": 75,
   "en": 30,
   "dart": 1
  },
  "routed": {
-  "M-CYCLE": 13,
-  "C-BUYBACK": 1,
-  "C-CHINA": 6,
+  "M-CYCLE": 15,
+  "C-BUYBACK": 2,
+  "C-CHINA": 5,
   "F-ACTIVE": 7,
   "R-LEVERAGE": 14
  },
- "unassigned": 65,
+ "unassigned": 64,
  "alerts": [
   {
    "level": "info",
-   "kw": "증설",
+   "kw": "자사주+매입",
    "src": "kr",
-   "title": "강관, 삼성전자 반도체 공장 증설에 ‘대형각관부터 전선관’ 수요 기대 - 철강금속신문",
-   "agents": []
-  },
-  {
-   "level": "info",
-   "kw": "증설",
-   "src": "kr",
-   "title": "’돈나무 언니’ 캐시 우드, 메모리 반도체 투자 기피…중국 증설에 가격 급변 우려 By The Guru - Investing.com 한국",
-   "agents": []
+   "title": "SK하이닉스, 주주환원 35조 더 남았다…매 분기 자사주 매입·소각 - 뉴스핌",
+   "agents": [
+    "C-BUYBACK"
+   ]
   }
  ],
  "items": [
@@ -46,11 +41,66 @@
    "agents": []
   },
   {
-   "title": "메모리반도체 \"2027년 중반부터 가격 하락\" 전망 나와, 삼성전자 SK하이닉스 공급 과잉 리스크 - 비즈니스포스트",
+   "title": "\"TSMC 3나노·GPU 설계 경험자 모집\"…SK하이닉스, HBM·HBF 로직 인재 확보 나서 - 뉴시스",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "중국 생산 증가에 2028년 범용 D램값 19% 하락 전망, 삼성전자·SK하이닉스 수익성 HBM이 가른다 - 비즈니스포스트",
+   "pub": "Mon, 23 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "KB증권 \"젠슨 황 복귀, 삼성전자·SK하이닉스 저평가 해소 촉매\" - 연합뉴스",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "'젠슨 황 복귀'에도 엇갈린 외국인 수급…'삼성전자' 사고 'SK하이닉스' 팔았다 - 뉴스핌",
    "pub": "Wed, 25 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
+  },
+  {
+   "title": "\"20만전자는 꿈의 숫자인가요?\"…젠슨 황 랠리 하루 만에 끝 [분석+] - 한국경제",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK스퀘어 | 배당수입 환원율 30%→60% 상향, 2027년 대규모 주주환원의 조건 - 네이버 프리미엄콘텐츠",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 밸류업 이행 현황 공시…100조 주주환원 재확인 - 연합인포맥스",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "SK하이닉스, 주주환원 35조 더 남았다…매 분기 자사주 매입·소각 - 뉴스핌",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": [
+    "C-BUYBACK"
+   ]
   },
   {
    "title": "내년 몸값 2배 넘게 뛴다...빅테크 참전에 요동치는 HBM 패권 - 조선일보",
@@ -62,13 +112,6 @@
    ]
   },
   {
-   "title": "SK하이닉스, 밸류업 이행 현황 공시…100조 주주환원 재확인 - 연합인포맥스",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
    "title": "“하이닉스 2028년 이익 급감”…반도체 저승사자의 섬뜩한 예측[머니닥터 시장진단] - 매일경제 마켓",
    "pub": "Wed, 25 Nov 2026",
    "src": "kr",
@@ -76,15 +119,15 @@
    "agents": []
   },
   {
-   "title": "하루 만에 무너진 '5천피'…삼성전자·SK하이닉스 7% 급락 - 주간조선",
-   "pub": "Wed, 25 Nov 2026",
+   "title": "SK하이닉스 폭락 두 번 맞힌 애널리스트, 또 “더 떨어진다” 경고 - 경향신문",
+   "pub": "Mon, 23 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "코스피, 하루 만에 5000선 반납…삼전·하닉 6%대 뚝 - 전자신문",
-   "pub": "Wed, 25 Nov 2026",
+   "title": "SK하이닉스 주가, 오늘 왜 급락했나? - Investing.com 한국어",
+   "pub": "Mon, 23 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -97,50 +140,6 @@
    "agents": [
     "C-BUYBACK"
    ]
-  },
-  {
-   "title": "설상가상 삼전닉스…50억원 이상 큰손 고객 연말 절세 매물 '주의보' - 한국경제",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "외신 \"삼성전자 SK하이닉스 중국 YMTC 낸드 적층 기술 라이선스, 법적 분쟁 피하려는 선택\" - 비즈니스포스트",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-CHINA"
-   ]
-  },
-  {
-   "title": "“키옥시아 지분 안 팔것”…SK하닉 ‘한일 낸드 동맹’ - 서울경제",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "日언론 “키옥시아 ‘간접 최대주주’ 하이닉스…낸드분야 지배력 노릴것” - 매일경제",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "[SK·키옥시아 관계 재편]② 생산엔 제약, 기술선 가교…샌디스크 변수 - 블로터",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "대기업 이익잉여금 1862조원⋯삼성전자 419조•SK하이닉스 267조원 - 브릿지경제",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
   },
   {
    "title": "승진 줄인 삼성전자, 반도체는 늘렸다 - 머니투데이 - 머니투데이",
@@ -165,6 +164,13 @@
   },
   {
    "title": "삼성 반도체 공장서 15년 일하다 혈액암 사망…유족·시민단체 산재 인정 촉구 - KBS 뉴스",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "메모리반도체 \"2027년 중반부터 가격 하락\" 전망 나와, 삼성전자 SK하이닉스 공급 과잉 리스크 - 비즈니스포스트",
    "pub": "Wed, 25 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -622,6 +628,15 @@
    ]
   },
   {
+   "title": "Micron Falls 7% as a Weaker DRAM Outlook and New Tariffs Hit Memory Stocks; SanDisk Drops 7%: Are Micron and Memory Stocks Now a Value Play?",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
    "title": "The Consensus on Micron Stock Is Changing. Here’s What Investors Should Know",
    "pub": "Wed, 25 Nov 2026",
    "src": "en",
@@ -641,24 +656,6 @@
   },
   {
    "title": "Prediction: Micron Stock Will Be at This Price at the End of 2027",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "AMD, Micron and Sandisk Stocks Slide as AI Spending Fears Deepen",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "en",
-   "q": "MU",
-   "agents": [
-    "M-CYCLE"
-   ]
-  },
-  {
-   "title": "What Pulled Micron Stock Down?",
    "pub": "Wed, 25 Nov 2026",
    "src": "en",
    "q": "MU",
