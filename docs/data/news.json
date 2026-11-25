@@ -1,91 +1,42 @@
 {
- "ts_kst": "11-25 12:52",
- "n_items": 104,
+ "ts_kst": "11-25 13:02",
+ "n_items": 90,
  "by_source": {
-  "kr": 74,
+  "kr": 60,
   "en": 30
  },
  "routed": {
-  "C-BUYBACK": 3,
   "M-CYCLE": 7,
   "C-CHINA": 4,
-  "F-ACTIVE": 6,
   "R-LEVERAGE": 14
  },
- "unassigned": 71,
+ "unassigned": 66,
  "alerts": [
   {
-   "level": "critical",
-   "kw": "반대매매",
+   "level": "info",
+   "kw": "증설",
    "src": "kr",
-   "title": "증시 조정에 '빚투' 연초 수준 되돌림..반대매매는 1조 육박 - 글로벌이코노믹",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "반대매매 폭탄에 자진 매도까지…신용융자 잔고 6개월 만에 최저 - 뉴스퀘스트",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "critical",
-   "kw": "반대매매",
-   "src": "kr",
-   "title": "대형주만 간다…코스피 랠리에도 '빚투' 반대매매 급증 - 연합인포맥스",
-   "agents": [
-    "R-LEVERAGE"
-   ]
-  },
-  {
-   "level": "high",
-   "kw": "목표가+하향",
-   "src": "kr",
-   "title": "“2028년 반도체 호황 꺾인다”…골드만삭스·모건스탠리, 삼성전자·SK하이닉스 목표가 줄하향 - 디지털데일리",
+   "title": "아산시, 삼성전자 반도체 증설 투자 - 서울경제TV",
    "agents": []
   },
   {
    "level": "info",
-   "kw": "자사주+매입",
+   "kw": "증설",
    "src": "kr",
-   "title": "SK하이닉스 윤풍영 사장, 자사주 1천500주 매입…16억원 규모 - 연합인포맥스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "자사주+매입",
-   "src": "kr",
-   "title": "윤풍영 SK하이닉스 사장, 자사주 1500주 매입…16억 규모 - 한국경제",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "level": "info",
-   "kw": "수주",
-   "src": "kr",
-   "title": "삼성전자, 메모리 '수주산업'으로 바꾼다…'70% 장기계약'으로 - 뉴스핌",
+   "title": "강관, 삼성전자 반도체 공장 증설에 ‘대형각관부터 전선관’ 수요 기대 - 철강금속신문",
    "agents": []
   }
  ],
  "items": [
   {
    "title": "SK하이닉스 폭락 두 번 맞힌 애널리스트, 또 “더 떨어진다” 경고 - 경향신문",
+   "pub": "Mon, 23 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"지금 주가도 저평가 아니다\"…SK하이닉스 목표가 또 낮춘 이유 - 파이낸셜뉴스",
    "pub": "Mon, 23 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -99,51 +50,57 @@
    "agents": []
   },
   {
-   "title": "\"400만닉스는 커녕 100만닉스도 위태\"…폭락 맞춘 BNK의 경고 [종목+] - 한국경제",
+   "title": "젠슨 황 복귀에 환호한 증시…삼성전자 7%·SK하이닉스 8% 급등 - 주간조선",
    "pub": "Tue, 24 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
   },
   {
-   "title": "SK하이닉스 윤풍영 사장, 자사주 1천500주 매입…16억원 규모 - 연합인포맥스",
-   "pub": "Mon, 23 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "윤풍영 SK하이닉스 사장, 자사주 1500주 매입…16억 규모 - 한국경제",
-   "pub": "Mon, 23 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
-  },
-  {
-   "title": "SK하닉 사장 ‘어제’ 자사주 샀다…하루만에 번돈이 - 문화일보",
+   "title": "KB증권 \"젠슨 황 복귀, 삼성전자·SK하이닉스 저평가 해소 촉매\" - 매일경제 마켓",
    "pub": "Tue, 24 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "C-BUYBACK"
-   ]
+   "agents": []
   },
   {
-   "title": "내년 몸값 2배 넘게 뛴다...빅테크 참전에 요동치는 HBM 패권 - 조선일보",
+   "title": "젠슨 황 엔비디아 복귀에 삼성전자·SK하이닉스 '한숨 돌려', 중국 AI칩 수출통제는 여전히 부담 - 비즈니스포스트",
    "pub": "Tue, 24 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
-   "agents": [
-    "M-CYCLE"
-   ]
+   "agents": []
+  },
+  {
+   "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체주 급락에 나란히 5%대 하락 - 브릿지경제",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "엔비디아 꺾이자 삼전 18만·하이닉스 110만원 깨져…코스피 4800선 출발 - 매일경제 마켓",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "하루 만에 무너진 '5천피'…삼성전자·SK하이닉스 7% 급락 - 주간조선",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
   },
   {
    "title": "코스피, 하루 만에 5000선 반납…삼전·하닉 6%대 뚝 - 전자신문",
    "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "SK하이닉스",
+   "agents": []
+  },
+  {
+   "title": "\"SK하이닉스 통째로 사겠다\"…손정의, 1조달러 인수 자금 알아봤다 - 매일신문",
+   "pub": "Mon, 23 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
    "agents": []
@@ -157,13 +114,6 @@
   },
   {
    "title": "손정의, SK하이닉스 ’1조달러 인수’ 타진설…현실성은 ’글쎄’ By FinancialPost - Investing.com 한국어",
-   "pub": "Mon, 23 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "\"SK하이닉스 통째로 사겠다\"…손정의, 1조달러 인수 자금 알아봤다 - 매일신문",
    "pub": "Mon, 23 Nov 2026",
    "src": "kr",
    "q": "SK하이닉스",
@@ -184,29 +134,8 @@
    "agents": []
   },
   {
-   "title": "SK하이닉스, 소부장 R&D에 1000억원…개발 실패해도 보상 - 마켓인",
+   "title": "삼성전자, 9년만에 최소 131명 승진…반도체서만 70명 발탁(종합2보) - 연합뉴스",
    "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "대기업 이익잉여금 1862조원⋯삼성전자 419조•SK하이닉스 267조원 - 브릿지경제",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "SK하이닉스",
-   "agents": []
-  },
-  {
-   "title": "승진 줄인 삼성전자, 반도체는 늘렸다 - 머니투데이 - 머니투데이",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성 안방 美텍사스에 TSMC도 진출…테슬라 물량 노린다 - 조선일보",
-   "pub": "Wed, 25 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -219,49 +148,7 @@
    "agents": []
   },
   {
-   "title": "메모리반도체 \"2027년 중반부터 가격 하락\" 전망 나와, 삼성전자 SK하이닉스 공급 과잉 리스크 - 비즈니스포스트",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼전닉스 반도체 공장 짓는데 사람이 없다…26만명 '인력 대란' - 한국경제",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "특징주, 삼성전자-뉴로모픽 반도체 테마 상승세에 8.13% ↑ - 매일경제 마켓",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "[특징주] 삼성전자·SK하이닉스 5%대 급락…美 반도체 랠리 하루 만에 제동 - 아주경제",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "삼성전자, 메모리 '수주산업'으로 바꾼다…'70% 장기계약'으로 - 뉴스핌",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "반도체 호황에 韓장비 코스닥 3인방, 작년 매출 추월…삼성·SK 투자 효과 - 지디넷코리아",
-   "pub": "Mon, 23 Nov 2026",
-   "src": "kr",
-   "q": "삼성전자 반도체",
-   "agents": []
-  },
-  {
-   "title": "“2028년 반도체 호황 꺾인다”…골드만삭스·모건스탠리, 삼성전자·SK하이닉스 목표가 줄하향 - 디지털데일리",
+   "title": "승진 줄인 삼성전자, 반도체는 늘렸다 - 머니투데이 - 머니투데이",
    "pub": "Tue, 24 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
@@ -270,6 +157,13 @@
   {
    "title": "[심층분석] 삼성전자, 이번 인사 핵심은 '반도체'…내년에도 반도체 성장가도에 힘 싣는다 - 굿모닝경제",
    "pub": "Tue, 24 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성 반도체 하청노동자 혈액암 사망…유족 \"산재 인정해야\" - 연합뉴스 한민족센터",
+   "pub": "Wed, 25 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -289,8 +183,59 @@
    "agents": []
   },
   {
+   "title": "메모리반도체 \"2027년 중반부터 가격 하락\" 전망 나와, 삼성전자 SK하이닉스 공급 과잉 리스크 - 비즈니스포스트",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
    "title": "[ET톡] '삼성전자 성과주의' 다음 과제 - 전자신문",
    "pub": "Wed, 25 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "‘HBM4 양산·역대급실적’ 힘 실었다…삼성전자,반도체임원 70명 승진 - 뉴스톱",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": [
+    "M-CYCLE"
+   ]
+  },
+  {
+   "title": "삼성 전자계열사 183명 승진...삼성전자, 반도체 핵심 인력 전진배치 - 소비자가 만드는 신문",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "아산시, 삼성전자 반도체 증설 투자 - 서울경제TV",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "삼성전자, ‘반도체 성과주의’ 재확인…DS부문 부사장·상무 대거 승진 - 아시아경제",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "[이재용의 사장들-⑥전영현] 삼성 '반도체 공룡' 주역…'실용' 경영 - 신아일보",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "kr",
+   "q": "삼성전자 반도체",
+   "agents": []
+  },
+  {
+   "title": "강관, 삼성전자 반도체 공장 증설에 ‘대형각관부터 전선관’ 수요 기대 - 철강금속신문",
+   "pub": "Tue, 24 Nov 2026",
    "src": "kr",
    "q": "삼성전자 반도체",
    "agents": []
@@ -414,123 +359,6 @@
    "src": "kr",
    "q": "메모리 반도체 중국",
    "agents": []
-  },
-  {
-   "title": "급등장서 개미 삼전닉스 9300억 팔 때 외국인은 ‘이것’ 샀다 - 매일경제 마켓",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외국인 1.2조 순매도에 코스피 5%대 급락…삼전닉스 9%대 하락 [장중시황] - www.2news.co.kr",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피, 급반등 하루 만에 4%대 급락…외국인 매도에 4700선 후퇴 - 산경투데이",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피 4700대로 추락…외국인 매도세에 증시 출렁 - 진일보 | 전남일보",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "\"외국인 순매도 사상최대 전망\"…코스피 수급 불확실성 커진다 - 연합인포맥스",
-   "pub": "Mon, 12 Oct 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "외인 1.3조 순매도 확대…삼전닉스 9% 급락 코스피 4700선 후퇴[장중시황] - 뉴스1",
-   "pub": "Wed, 25 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외인·기관 순매수 코스피, 6.3% 급등한 5006 마감...젠슨 황 복귀로 'AI 초강세' - 오피니언뉴스",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외국인, 8거래일 만에 6000억 '사자'…'223조 셀 코리아' 멈추나 [젠슨황 귀환, 오천피 탈환] - 이투데이",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "외인매도에 5,000선도 깨진 코스피…호재에도 '받아줄 돈이 없다' - KB Think",
-   "pub": "Sat, 21 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피 6%대 상승 5천 선 회복…외국인 ‘순매수’ - KBS 뉴스",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "코스피, 외국인·기관 매수에 7%대 급등…개인 2조원대 순매도 [fn오후시황] - 파이낸셜뉴스",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "[위클리오늘] 코스피 5006.03, 하루 만에 6.32% 반등···외국인 8거래일 만에 순매수 - 위클리오늘",
-   "pub": "Tue, 24 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
-  },
-  {
-   "title": "‘블랙먼데이’ 1년 전으로 돌아간 코스피 - 매일일보",
-   "pub": "Mon, 23 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "코스피 3.31% 급락…외국인 7거래일째 ‘팔자’ - 스트레이트뉴스",
-   "pub": "Mon, 23 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": []
-  },
-  {
-   "title": "'외국인 순매도' 코스피 4% 가까이 약세…코스닥 연저점 붕괴[장중시황] - 뉴스1",
-   "pub": "Mon, 23 Nov 2026",
-   "src": "kr",
-   "q": "외국인 순매도 코스피",
-   "agents": [
-    "F-ACTIVE"
-   ]
   },
   {
    "title": "코스피 연속 급락에 반대매매 우려 확산···삼전닉스 신용잔고만 ‘6.9兆’ - 시사저널e",
@@ -709,6 +537,104 @@
    "pub": "Wed, 25 Nov 2026",
    "src": "en",
    "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Morning Movers: Dick’s Sporting and Dollar Tree gain following quarterly reports",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Rambus (RMBS) Stock Is Down 11.4% Today: Chip Sector AI Selloff",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Why Is CEVA (CEVA) Stock Down Today? AI Chip Selloff Drags Shares",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "TSLA Stock Slips Overnight: Dell And HP See No Quick Relief From The AI-Driven Chip Crunch Behind Tesla’s 25% Memory Cut",
+   "pub": "Wed, 25 Nov 2026",
+   "src": "en",
+   "q": "MU",
+   "agents": []
+  },
+  {
+   "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML Is the Most Important Company You’ve Never Heard Of. Should You Buy the Stock?",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML Stock What Changed After Nvidia CEO Return",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML (ENXTAM:ASML) Stock May Trade At A Premium Following Its 107% Run",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "FalcoTrader Announces Expanded Stock Trading Capabilities Across Its Simulated Trading Challenge Platform",
+   "pub": "Tue, 24 Nov 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "Why ASML Stock Popped Today",
+   "pub": "Mon, 23 Nov 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML Stock’s Sell-Off Looks Excessive Against Its Growth Outlook",
+   "pub": "Mon, 23 Nov 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "3 Unstoppable AI Stocks to Buy Hand Over Fist Before the End of 2026",
+   "pub": "Mon, 23 Nov 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML reports transactions under its current share buyback program",
+   "pub": "Mon, 23 Nov 2026",
+   "src": "en",
+   "q": "ASML",
+   "agents": []
+  },
+  {
+   "title": "ASML Vs. Taiwan Semiconductor: Here’s Why You Choose One as Your AI-Anchor Now",
+   "pub": "Mon, 23 Nov 2026",
+   "src": "en",
+   "q": "ASML",
    "agents": []
   }
  ],
