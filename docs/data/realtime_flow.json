@@ -1,104 +1,9 @@
 {
- "ts_kst": "11-27 01:32",
- "stocks": {
-  "samsung": {
-   "name": "삼성전자",
-   "price": 171500.0,
-   "chg_pct": 0.47,
-   "slot": "5",
-   "foreign_qty": 571000.0,
-   "foreign_eok": 979.3,
-   "inst_qty": 736000.0,
-   "inst_eok": 1262.2,
-   "retail_qty": -1307000.0,
-   "retail_eok": -2241.5,
-   "slots": [
-    {
-     "slot": "5",
-     "frgn": 571000.0,
-     "orgn": 736000.0
-    },
-    {
-     "slot": "4",
-     "frgn": 643000.0,
-     "orgn": 608000.0
-    },
-    {
-     "slot": "3",
-     "frgn": 571000.0,
-     "orgn": 253000.0
-    },
-    {
-     "slot": "2",
-     "frgn": 351000.0,
-     "orgn": 149000.0
-    },
-    {
-     "slot": "1",
-     "frgn": 77000.0,
-     "orgn": 0.0
-    }
-   ]
-  },
-  "hynix": {
-   "name": "SK하이닉스",
-   "price": 1055000.0,
-   "chg_pct": 2.43,
-   "slot": "5",
-   "foreign_qty": 144000.0,
-   "foreign_eok": 1519.2,
-   "inst_qty": 109000.0,
-   "inst_eok": 1150.0,
-   "retail_qty": -253000.0,
-   "retail_eok": -2669.2,
-   "slots": [
-    {
-     "slot": "5",
-     "frgn": 144000.0,
-     "orgn": 109000.0
-    },
-    {
-     "slot": "4",
-     "frgn": 144000.0,
-     "orgn": 88000.0
-    },
-    {
-     "slot": "3",
-     "frgn": 163000.0,
-     "orgn": 30000.0
-    },
-    {
-     "slot": "2",
-     "frgn": 89000.0,
-     "orgn": 23000.0
-    },
-    {
-     "slot": "1",
-     "frgn": -5000.0,
-     "orgn": 0.0
-    }
-   ]
-  }
- },
+ "ts_kst": "11-27 08:38",
+ "stocks": {},
  "method": "KIS investor-trend-estimate / HHPTJ04160200 / MKSC_SHRN_ISCD",
- "triggers": [
-  {
-   "stock": "삼성전자",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +979억 / 개인 매도 -2,242억"
-  },
-  {
-   "stock": "SK하이닉스",
-   "level": "high",
-   "text": "역할 전환 — 외국인 매수 +1,519억 / 개인 매도 -2,669억"
-  }
- ],
+ "triggers": [],
  "log": [
-  {
-   "ts": "11-10 11:52",
-   "samsung": -1009.0,
-   "hynix": 582.2
-  },
   {
    "ts": "11-10 12:02",
    "samsung": -1010.0,
@@ -2883,6 +2788,9 @@
    "ts": "11-27 01:32",
    "samsung": 979.3,
    "hynix": 1519.2
+  },
+  {
+   "ts": "11-27 08:38"
   }
  ]
 }
