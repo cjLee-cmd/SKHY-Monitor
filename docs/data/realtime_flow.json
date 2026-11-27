@@ -1,17 +1,17 @@
 {
- "ts_kst": "11-27 17:08",
+ "ts_kst": "11-27 17:18",
  "stocks": {
   "samsung": {
    "name": "삼성전자",
-   "price": 178800.0,
-   "chg_pct": 4.38,
+   "price": 179000.0,
+   "chg_pct": 4.5,
    "slot": "5",
    "foreign_qty": 1999000.0,
-   "foreign_eok": 3574.2,
+   "foreign_eok": 3578.2,
    "inst_qty": 156000.0,
-   "inst_eok": 278.9,
+   "inst_eok": 279.2,
    "retail_qty": -2155000.0,
-   "retail_eok": -3853.1,
+   "retail_eok": -3857.4,
    "slots": [
     {
      "slot": "5",
@@ -42,15 +42,15 @@
   },
   "hynix": {
    "name": "SK하이닉스",
-   "price": 1105000.0,
-   "chg_pct": 4.94,
+   "price": 1108000.0,
+   "chg_pct": 5.22,
    "slot": "5",
    "foreign_qty": 320000.0,
-   "foreign_eok": 3536.0,
+   "foreign_eok": 3545.6,
    "inst_qty": -58000.0,
-   "inst_eok": -640.9,
+   "inst_eok": -642.6,
    "retail_qty": -262000.0,
-   "retail_eok": -2895.1,
+   "retail_eok": -2903.0,
    "slots": [
     {
      "slot": "5",
@@ -85,20 +85,15 @@
   {
    "stock": "삼성전자",
    "level": "high",
-   "text": "역할 전환 — 외국인 매수 +3,574억 / 개인 매도 -3,853억"
+   "text": "역할 전환 — 외국인 매수 +3,578억 / 개인 매도 -3,857억"
   },
   {
    "stock": "SK하이닉스",
    "level": "high",
-   "text": "역할 전환 — 외국인 매수 +3,536억 / 개인 매도 -2,895억"
+   "text": "역할 전환 — 외국인 매수 +3,546억 / 개인 매도 -2,903억"
   }
  ],
  "log": [
-  {
-   "ts": "11-11 02:59",
-   "samsung": -438.0,
-   "hynix": -1162.1
-  },
   {
    "ts": "11-11 03:09",
    "samsung": -438.0,
@@ -2873,6 +2868,11 @@
    "ts": "11-27 17:08",
    "samsung": 3574.2,
    "hynix": 3536.0
+  },
+  {
+   "ts": "11-27 17:18",
+   "samsung": 3578.2,
+   "hynix": 3545.6
   }
  ]
 }
