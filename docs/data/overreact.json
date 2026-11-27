@@ -1,12 +1,12 @@
 {
- "ts_kst": "11-27 08:58",
- "score": 36.5,
+ "ts_kst": "11-27 09:08",
+ "score": 36.2,
  "verdict": "판단 유보",
  "components": {
   "A_통계극단성": 0,
   "B_체인동조성": 25,
   "C_펀더멘털배율": 2.6,
-  "D_역사되돌림": 8.9
+  "D_역사되돌림": 8.6
  },
  "targets": {
   "삼성전자": {
@@ -38,22 +38,22 @@
    "cum": -9.07,
    "sd": 5.88,
    "z": -1.09,
-   "n_episodes": 16,
+   "n_episodes": 15,
    "forward": {
     "5": {
-     "mean": 2.13,
-     "median": 3.79,
-     "up_rate": 75
+     "mean": 1.78,
+     "median": 3.72,
+     "up_rate": 73
     },
     "20": {
-     "mean": 5.57,
-     "median": 4.23,
-     "up_rate": 56
+     "mean": 5.38,
+     "median": 2.6,
+     "up_rate": 53
     },
     "60": {
-     "mean": 32.39,
-     "median": 21.26,
-     "up_rate": 62
+     "mean": 33.51,
+     "median": 27.0,
+     "up_rate": 60
     }
    }
   }
@@ -81,5 +81,5 @@
   "fundamental_ratio": 1.21,
   "chain_negative": "5/5"
  },
- "caveat": "역사 표본 16개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
+ "caveat": "역사 표본 15개로 매우 작음. 확률이 아니라 재검토 신호로 해석할 것."
 }
